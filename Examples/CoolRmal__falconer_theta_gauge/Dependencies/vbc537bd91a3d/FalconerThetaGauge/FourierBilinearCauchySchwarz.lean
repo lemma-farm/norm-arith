@@ -1,0 +1,14 @@
+/-
+Released under Apache 2.0 license as described in the file LICENSE.
+-/
+module
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.MaskedFourierEnergyAverage
+public import Mathlib
+set_option autoImplicit false
+/-! # Actual circular bilinear Fourier amplitudes and their Cauchy--Schwarz bound -/
+@[expose] public section
+noncomputable section
+open MeasureTheory Set Function Filter
+open scoped ENNReal
+namespace FalconerThetaGauge
+end FalconerThetaGauge

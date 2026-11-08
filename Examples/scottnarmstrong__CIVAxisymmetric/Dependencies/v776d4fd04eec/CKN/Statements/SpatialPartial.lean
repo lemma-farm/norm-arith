@@ -1,0 +1,18 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+module
+public import Examples.scottnarmstrong__CIVAxisymmetric.Dependencies.v776d4fd04eec.CKN.Foundation.Parabolic.Basic
+public import Mathlib.Analysis.Calculus.FDeriv.Add
+public import Examples.scottnarmstrong__CIVAxisymmetric.Dependencies.v776d4fd04eec.CKN.Foundation.Sobolev.Ambient.Basis
+set_option autoImplicit false
+set_option linter.deprecated false
+set_option warningAsError true
+@[expose] public section
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+noncomputable section
+namespace CKN
+/-- Factor-wise spatial derivative on the ordinary product space described in docs/DESIGN_NOTES.md. -/
+def spatialPartial (g : ParabolicPoint → ℝ) (i : Fin 3) (z : ParabolicPoint) : ℝ :=
+  (fderiv ℝ (fun x : Vec3 => g (x, z.2)) z.1) (basisVec i)
+end CKN

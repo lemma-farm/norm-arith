@@ -1,0 +1,15 @@
+module
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCauchyPrincipalValue
+/-!
+# The genuine Cauchy principal value on a reference circle
+
+The value is calculated by reflecting the actual integrable pole
+remainder.  Its values at opposite nonzero parameters add to `-I`.
+No Cauchy integral theorem or principal-value identity is assumed.
+-/
+@[expose] public section
+noncomputable section
+open Set MeasureTheory Filter Topology Complex
+open scoped NNReal
+namespace Euler2D
+end Euler2D

@@ -1,0 +1,11 @@
+module
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.CompactOriginalParameterBlock
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.SheetProducts
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Carrier.Dilation
+public import Mathlib
+@[expose] public section
+/-! Complete original finite products on actual compact parameters, with real simple roots. -/
+namespace MeyerGeneralProblem.StrongParity
+noncomputable section
+end
+end MeyerGeneralProblem.StrongParity

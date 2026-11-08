@@ -1,0 +1,17 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.SemiclassicalCore
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.DampedResponse
+/-!
+# The weighted Fourier estimate (Lemma 3.5)
+
+The proof follows the paper, except that the low-output region `|ξ + n| ≤ aρ` is handled by
+the semiclassical observable estimate (applied to a bump function supported in `|z| ≤ 2a`,
+which vanishes on all vectors `DΨ(y)ᵀe`) instead of the non-stationary phase lemma: this gives
+a mass `O(1/ρ)`, and since `σ < 1` the weight ratio `(ρ/R)^σ` loses at most `ρ^σ`.
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real
+open scoped ENNReal ContDiff Matrix NNReal
+noncomputable section
+namespace AnomDiss
+end AnomDiss

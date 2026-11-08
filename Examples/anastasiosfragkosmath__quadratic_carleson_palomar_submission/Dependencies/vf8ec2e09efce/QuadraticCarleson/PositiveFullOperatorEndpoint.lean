@@ -1,0 +1,30 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.FullNegativeEndpoint
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.ExtendedWeakL1Combinators
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.KrauseLaceySparseInterface
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.OscillatoryReductionMaximal
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveFullOscillatoryScaling
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Passage from the oscillatory estimate to the full quadratic operator
+
+The canonical truncation limsup at each modulation is bounded by the genuine
+maximal truncation.  Combining this at modulation zero with the established
+oscillatory reduction gives a pointwise bound for the paper's full operator.
+-/
+open Filter MeasureTheory Set
+open scoped ENNReal Topology
+namespace QuadraticCarleson
+namespace PositiveFullOperatorEndpoint
+open OscillatoryReduction
+open PositiveFullOscillatoryEndpoint PositiveStoppingBadEstimate
+open KaltonPaperApplication
+set_option autoImplicit false
+end PositiveFullOperatorEndpoint
+end QuadraticCarleson

@@ -1,0 +1,18 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.FiniteHermiteDeficit
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.HermiteParsevalModes
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.GroundStateDbar
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.VandermondeL2Inverse
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.ComplexGaussianDensity
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.GinibreMassFiniteness
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Concrete.Generator
+public import Mathlib.MeasureTheory.Measure.OpenPos
+public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+public import Mathlib.Topology.ContinuousMap.BoundedCompactlySupported
+@[expose] public section
+/-! # Bridges between concrete representatives and `L²` classes -/
+open MeasureTheory
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

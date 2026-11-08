@@ -1,0 +1,12 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.GaussianFiniteIndexLSI
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.GaussianCurryLaw
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.BlockMagnitudeLift
+public import Mathlib
+@[expose] public section
+open MeasureTheory ProbabilityTheory
+open scoped NNReal
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

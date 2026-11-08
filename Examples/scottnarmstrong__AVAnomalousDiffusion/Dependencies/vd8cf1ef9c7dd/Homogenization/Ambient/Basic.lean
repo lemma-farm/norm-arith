@@ -1,0 +1,17 @@
+-- Copyright (c) 2026 Scott Armstrong and Tuomo Kuusi.
+-- Released under Apache 2.0 license.
+-- From CoarseGraining (https://github.com/scottnarmstrong/CoarseGraining), commit c7ddd76.
+module
+public import Mathlib.Algebra.BigOperators.Ring.Finset
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Data.Matrix.Basic
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Ring
+set_option autoImplicit false
+set_option relaxedAutoImplicit false
+@[expose] public section
+open scoped BigOperators
+namespace Homogenization
+abbrev Vec (d : ℕ) := Fin d → ℝ
+end Homogenization

@@ -1,0 +1,22 @@
+module
+public import Examples.masakioshikawa__rp2_rp3_lean.Dependencies.vdc4796f0da7a.RP2.QuadraticAverages
+public import Examples.masakioshikawa__rp2_rp3_lean.Dependencies.vdc4796f0da7a.RP2.MixedAlgebra
+public import Mathlib
+public section
+/-!
+# Mixed fourth derivatives of the squared interaction
+
+All local coefficients below are obtained by differentiating the actual
+squared scalar product. The terms quadratic in lower scalar-product jets
+are retained at every order.
+-/
+namespace RP2.Quadratic
+noncomputable section
+open MeasureTheory
+open RP2.Rotation hiding Spin
+open scoped BigOperators InnerProductSpace
+namespace SpinSystem
+variable {V E : Type*} [Fintype V] [Fintype E]
+end SpinSystem
+end
+end RP2.Quadratic

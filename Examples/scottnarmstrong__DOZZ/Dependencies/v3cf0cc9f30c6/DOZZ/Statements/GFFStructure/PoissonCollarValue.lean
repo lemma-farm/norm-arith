@@ -1,0 +1,26 @@
+/-
+Copyright (c) 2026 Scott Armstrong and Amélie Loher. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+-/
+module
+public import Examples.scottnarmstrong__DOZZ.Dependencies.v3cf0cc9f30c6.DOZZ.Statements.GFFStructure.DiskGreenCovariance
+public import Mathlib
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-! The definition `DOZZ.poissonCollarValue`. -/
+@[expose] public section
+open MeasureTheory ProbabilityTheory Filter Topology Set Metric
+open scoped ENNReal NNReal
+universe u
+namespace DOZZ
+/-- Smooth Poisson collar density in Cartesian coordinates. -/
+noncomputable def poissonCollarValue (c z : ℂ) (ρ : ℝ) (_hρ : 0 < ρ)
+    (_hz : z ∈ ball c ρ) (q : ℝ → ℝ) (w : ℂ) : ℝ :=
+  q (‖w - c‖ - ρ) * (ρ ^ 2 - ‖z - c‖ ^ 2) /
+    (2 * Real.pi * ‖w - c‖ * ‖c + (ρ : ℂ) * (w - c) / (‖w - c‖ : ℂ) - z‖ ^ 2)
+end DOZZ

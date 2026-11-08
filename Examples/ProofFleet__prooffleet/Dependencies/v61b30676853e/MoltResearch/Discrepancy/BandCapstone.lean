@@ -1,0 +1,56 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.WindowTK
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.WindowAssembly
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.BandSchedule
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.RegimeSplitEnergy
+/-!
+# The band-energy capstone (Track R, `[mrt]` A.2, Phase VI)
+
+The `[mrt]` A.2 band estimate is assembled from legs that live in two
+*import-sibling* modules.  `WindowAssembly` carries the level-one estimate
+`band_energy_level_one_le`, the cell/block mean value
+`setIntegral_norm_sq_cell_block_sum_le`, the outer band `band_energy_outer_le`
+and the capstone glue (`setIntegral_le_sum_of_cover`, `setIntegral_weight_mono`,
+`setIntegral_norm_add_sq_le`, `setIntegral_norm_sq_sum_le_card_mul`).
+`WindowTK` carries the level-`j` estimate `band_energy_level_le_of_prev_large`,
+the collar cost `intervalIntegral_norm_sq_cell_replace_le` and the elementary
+large-values count `card_large_prime_poly_le`.
+
+**Neither module imports the other** — they meet only in
+`MoltResearch.DiscrepancyAnalytic` — so no composition of a `WindowAssembly` leg
+with a `WindowTK` leg can be stated in either file.  That is the whole reason
+this module exists.  It is the first place in the tree where both halves of the
+band machinery are simultaneously in scope.
+
+The remaining leg, the exceptional band `𝒰`, is *not* here: it is conditional on
+`HalaszLargeValuesAssumption` and `PrimeLargeValuesAssumption`, and
+`scripts/check_layering.sh` forbids `MoltResearch/` from importing the
+`Conjectures/` tree where those classes live.  So the capstone splits at the
+same seam that split IV-3 — an elementary half here, a conditional half in
+`Conjectures/C0002_erdos_discrepancy/src/`.
+-/
+namespace MoltResearch
+def bandPart (P : ℕ → Set ℝ) (J : ℕ) (j : ℕ) : Set ℝ :=
+  if j < J then P j \ ⋃ i ∈ Finset.range j, P i
+  else (⋃ i ∈ Finset.range J, P i)ᶜ
+/-- Each part is measurable as soon as the family is. -/
+theorem bandPart_measurableSet (P : ℕ → Set ℝ)
+    (hP : ∀ j, MeasurableSet (P j)) (J j : ℕ) :
+    MeasurableSet (bandPart P J j) := by
+  have hbi : ∀ n : ℕ, MeasurableSet (⋃ i ∈ Finset.range n, P i) := by
+    intro n
+    exact MeasurableSet.biUnion (Finset.range n).countable_toSet fun i _ => hP i
+  unfold bandPart
+  split
+  · exact (hP j).diff (hbi j)
+  · exact (hbi J).compl
+def bandPartOn (P : ℕ → Set ℝ) (J : ℕ) (G : Set ℝ) (j : ℕ) : Set ℝ :=
+  G ∩ bandPart P J j
+theorem bandPartOn_measurableSet (P : ℕ → Set ℝ)
+    (hP : ∀ j, MeasurableSet (P j)) (J : ℕ) (G : Set ℝ)
+    (hG : MeasurableSet G) (j : ℕ) : MeasurableSet (bandPartOn P J G j) :=
+  hG.inter (bandPart_measurableSet P hP J j)
+theorem measurableSet_inner_band (K K₂ : ℝ) :
+    MeasurableSet {ξ : ℝ | K ≤ |ξ| ∧ |ξ| ≤ K₂} :=
+  (measurableSet_le measurable_const measurable_abs).inter
+    (measurableSet_le measurable_abs measurable_const)
+end MoltResearch

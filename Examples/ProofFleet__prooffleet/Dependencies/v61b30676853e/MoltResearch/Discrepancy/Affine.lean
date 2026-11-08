@@ -1,0 +1,21 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.Basic
+/-!
+# Discrepancy: affine arithmetic progression sums
+
+This file introduces the **nucleus** definition `apSumFrom` for affine arithmetic progressions
+and a small directed API of normal-form lemmas.
+
+Normal-form philosophy (Track B):
+- Prefer `apSumFrom f a d n` as the canonical object for sums along `a + d, a + 2d, …, a + nd`.
+- Rewrite to paper notation (`Finset.Icc`) only at the boundary of a statement.
+- When you want to view an affine AP sum as a translated homogeneous AP sum, rewrite via
+  `apSumFrom_eq_apSum_shift_add` (or the `_left` / constant-on-the-left variant `apSumFrom_eq_apSum_shift_add_left`).
+  (The older `*_map_add` names are deprecated wrappers.)
+-/
+namespace MoltResearch
+section NatEndpointNorm
+end NatEndpointNorm
+/-! ### Bridge lemmas: `apSumOffset` vs `apSumFrom` -/
+section apSumFrom_degenerate
+end apSumFrom_degenerate
+end MoltResearch

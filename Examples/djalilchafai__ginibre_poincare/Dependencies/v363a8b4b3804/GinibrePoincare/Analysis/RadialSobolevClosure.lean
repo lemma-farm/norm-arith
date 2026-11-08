@@ -1,0 +1,12 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v363a8b4b3804.GinibrePoincare.Analysis.EntropyL2Closure
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v363a8b4b3804.GinibrePoincare.Analysis.GaussianRadialLift
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.MeasureTheory.Function.LpSpace.Indicator
+@[expose] public section
+open MeasureTheory
+open scoped BigOperators ContDiff
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

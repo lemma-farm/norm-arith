@@ -1,23 +1,45 @@
-# Clean norm-arithmetic dataset
+# Clean norm-arithmetic examples
 
-844 validated original examples, grouped by source repository and case ID. Each folder contains actual Lean source files, local dependency modules at their recorded paths, provenance, native target type hashes and standard-axiom receipts.
+844 recorded native-validated examples from 130 source repositories, with their local support modules and provenance. This is the dataset branch of the Tomas Ortega `norm-arith` fork.
 
-This branch contains only the dataset and its preparation metadata. It excludes the 298 older compile-only candidates, failed/unvalidated cases, and separately curated or simplified analogues. The original frozen corpus has 3,061 examples; this compiler-accepted subset is biased toward smaller dependency closures and is not claimed representative.
+## Layout
 
-## Shared environment
-
-Lean `leanprover/lean4:v4.36.0-rc1` and Mathlib `2f3c7c8a8949b04a32f9303f59163acffb766996` are pinned in dependency-pins.json. All examples use one shared packages directory; dependencies are not duplicated or bundled. Provision those exact package revisions once, then run:
-
-```sh
-python3 prepare.py EXAMPLE_ID --packages /absolute/shared/packages
-cd examples/REPOSITORY/EXAMPLE_ID
-lake --packages=common-overrides.json build TARGET_PATH.lean:olean
+```text
+Examples/
+  owner__repository/
+    Examples/Example_<id>_<original-file>.lean
+    Dependencies/<source-and-configuration-variant>/...
+manifest.json
+lakefile.toml
+lake-manifest.json
+lean-toolchain
+docs/                         # static GitHub Pages explorer
 ```
 
-The preparation command prints the exact case path and target command. Build configurations are preserved byte-for-byte under build-config/ and relocated only by prepare.py. These exports preserve the previously compiled source bytes; a complete replay of the relocated export has not been run.
+Each example file contains the actual Lean declarations and proof; it is not an import-only wrapper. Dependency variants prevent conflicting original commits or proof/configuration variants from being silently merged. Identical source/configuration graphs share support modules within a repository. The short ID disambiguates examples from the same original filename.
 
-## Provenance and limits
+Blank padding outside strings and block comments has been removed. Every example's highlighted proof lines are checked against the selected original source, ignoring only removed blank lines. `manifest.json` records the original repository, commit, file and interesting line range, the validated source identity, the final exported path/hash, and the new interesting line range. Local imports and source options are adjusted for the shared build; those transformations are recorded separately from the selected proof text.
 
-manifest.json records original repo, commit, line span, selected declaration, validation receipt hash and case directory. Each example.json includes every local source SHA256, the recorded native target type SHA256 and allowed axioms. The target axioms are limited to propext, Classical.choice and Quot.sound. No original-pin type/semantic equivalence is claimed where no baseline existed.
+## Build the suite
 
-Source authors retain their original rights. Refer to each source repository at the recorded commit for its applicable license; inclusion here does not apply the norm-arith repository license to third-party source files.
+The shared environment is pinned to Lean `v4.36.0-rc1` and Mathlib commit `2f3c7c8a8949b04a32f9303f59163acffb766996`.
+
+```sh
+lake update
+lake exe cache get
+lake build
+```
+
+`lake build` selects all 844 example modules. It builds their reachable support dependencies, without an umbrella import that would combine conflicting original global declarations. The nondefault dependency library supplies module ownership; it is not an instruction to build every unrelated retained support file.
+
+Historical per-example `.source` build snapshots are not required by this layout and are omitted. The common configuration and manifest replace them. Original native validation does not by itself certify the rewritten layout; see the committed validation summary for the actual checks performed. Source configurations written in Lean rather than TOML have a separately recorded option-routing limitation; no unsupported setting is silently claimed preserved.
+
+## Browse the dataset
+
+The static explorer is in `docs/`. In GitHub repository **Settings → Pages**, choose branch **examples_dataset**, folder **/docs**. It provides repository and mathematical-pattern search, selected-line highlighting, source links, and validation/provenance information. Source files load lazily from the same published branch. Committing `docs/` does not enable repository hosting settings automatically.
+
+## Scope and licensing
+
+This branch excludes failed/unvalidated examples, older compile-only baselines without the stricter target evidence, and separately curated simplified analogues. Native target type hashes and standard-axiom evidence refer to the recorded original extraction. A full original-pin semantic-equivalence claim is not made, nor is this compiler-accepted subset claimed statistically representative.
+
+The example sources retain their original authors' licensing terms. Consult the recorded source repositories at their pinned commits; the upstream `norm-arith` license is not automatically a license for every third-party example.

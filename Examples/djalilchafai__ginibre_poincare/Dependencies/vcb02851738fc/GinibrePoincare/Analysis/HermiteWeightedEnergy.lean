@@ -1,0 +1,12 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteParsevalModes
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteEnergy
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GaussianDbarParseval
+@[expose] public section
+open MeasureTheory
+open scoped BigOperators ENNReal
+namespace GinibrePoincare
+noncomputable section
+open ComplexHermite
+end
+end GinibrePoincare

@@ -1,0 +1,23 @@
+import Examples.jconorgrogan__prime_minor_arcs_2_15.Dependencies.v6c9d842eb95c.HarmonicInterfaces
+/-!
+# Literal support and boundary weld for the MAP prime-pair correlation
+
+This file keeps the half-open dyadic interval `(X,2X]` literal.  It separates
+the twice-supported correlation delivered by the Fourier coefficient of
+`|S_X|^2` from the one-sided public correlation `R_X(h)`, and proves the exact
+finite boundary decomposition between them.
+-/
+namespace SupportBoundaryWeld
+open scoped BigOperators ArithmeticFunction
+noncomputable section
+/-- The public half-open dyadic support, named once to prevent endpoint drift. -/
+def dyadicSupport (X : ℝ) : Finset ℕ :=
+  Finset.Ioc ⌊X⌋₊ ⌊2 * X⌋₊
+/-- Whether the shifted index is positive and remains in the same half-open
+dyadic support. -/
+def shiftStaysInSupport (X : ℝ) (n : ℕ) (h : ℤ) : Prop :=
+  0 < (n : ℤ) + h ∧ ((n : ℤ) + h).toNat ∈ dyadicSupport X
+instance (X : ℝ) (n : ℕ) (h : ℤ) :
+    Decidable (shiftStaysInSupport X n h) := Classical.propDecidable _
+end
+end SupportBoundaryWeld

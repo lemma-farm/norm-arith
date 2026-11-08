@@ -1,0 +1,20 @@
+module
+public import Examples.masakioshikawa__rp2_rp3_lean.Dependencies.vdc4796f0da7a.RP2.QuadraticPlaneResponse
+public import Mathlib
+public section
+/-!
+# Real and complex Gibbs expectation as linear maps
+Adapted from OpenAI's ClassicalON MixedWard and ComplexWard, commit
+adc7f1241b42e322a6451854ab7e4b4c146bf78a (Apache-2.0, copyright OpenAI).
+-/
+namespace RP2.Quadratic
+universe uV uE uΩ
+noncomputable section
+open MeasureTheory
+open RP2.Rotation hiding Spin
+open scoped BigOperators InnerProductSpace ComplexConjugate
+namespace SpinSystem
+variable {V : Type uV} {E : Type uE} [Fintype V] [Fintype E]
+end SpinSystem
+end
+end RP2.Quadratic

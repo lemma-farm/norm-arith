@@ -1,0 +1,21 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.HolomorphicVandermondeDivision
+public import Mathlib
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.ComplexGaussianDensity
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.MeasureTransport
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.VandermondeL2
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.VandermondeL2Inverse
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.HermiteL2Family
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Analysis.HermiteEnergy
+public import Mathlib.RingTheory.RootsOfUnity.Complex
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.Algebra.MvPolynomial.NoZeroDivisors
+@[expose] public section
+/-! # Global phase rotations -/
+open scoped BigOperators ComplexConjugate ENNReal
+open MeasureTheory
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

@@ -1,0 +1,28 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v139f9625b1f3.QuadraticCarleson.Definitions
+import Mathlib.Analysis.Convolution
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Weak `(1,1)` for finite annular Hilbert truncations
+
+The zero-modulation contribution of a finite dyadic block is an ordinary
+Hilbert kernel restricted to a finite annulus.  Such a kernel is genuinely
+`L¹`, so Young's inequality followed by Markov's inequality gives a fully
+concrete weak `(1,1)` estimate.  This is the finite-truncation statement; no
+maximal-singular-integral hypothesis is introduced.
+-/
+open Filter MeasureTheory Set
+open scoped Convolution ENNReal
+namespace QuadraticCarleson
+namespace HilbertFiniteTruncationWeakOneOne
+set_option autoImplicit false
+noncomputable section
+end
+end HilbertFiniteTruncationWeakOneOne
+end QuadraticCarleson

@@ -1,0 +1,9 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v75fdf4fabb72.GinibrePoincare.Analysis.LipschitzMollification
+@[expose] public section
+open MeasureTheory Filter ContinuousLinearMap
+open scoped Topology Convolution NNReal
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

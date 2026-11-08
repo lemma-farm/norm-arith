@@ -1,0 +1,30 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Endgame.Localization
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step4.PressureGradientMorrey
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Endgame.WeakPressureSlice
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step4.SourceMorreyData
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Harmonic.InteriorDisplays
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Statements.SuitableWeakSolutionIntegrable
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Parabolic.BallDisplays
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Parabolic.Morrey.Minkowski
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.DecompositionSWSBasic
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.DerivativeAdjoint
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.HarmonicPartDerivatives
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.Lin34Slices
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.HarmonicRemainderSlice
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step4.SliceSelectedGradientScaling
+set_option autoImplicit false
+set_option warningAsError true
+open MeasureTheory MeasureTheory.Measure Set Filter Metric
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+open CKN.Foundation.Parabolic.Morrey
+open CKN.Foundation.Heat
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Core.Step4
+/-! The p₁ slot is supplied by the completed weak-gradient extension.  This
+adapter deliberately consumes the D15 existential and never differentiates
+the literal first-potential representative. -/
+end CKN.Core.Step4

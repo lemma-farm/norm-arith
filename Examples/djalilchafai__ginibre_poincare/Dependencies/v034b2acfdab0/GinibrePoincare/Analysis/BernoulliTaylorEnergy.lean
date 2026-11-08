@@ -1,0 +1,9 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v034b2acfdab0.GinibrePoincare.Analysis.TaylorDifferenceQuotient
+@[expose] public section
+open MeasureTheory ProbabilityTheory Filter
+open scoped Topology BigOperators BoundedContinuousFunction
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

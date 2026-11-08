@@ -1,0 +1,20 @@
+module
+public import Examples.pmaronow__arbitrary_rsb_palomar.Dependencies.v91d9f6a1eb8c.Paper.ParisiPDE
+public import Mathlib.Topology.Order.Monotone
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+set_option autoImplicit false
+set_option backward.privateInPublic true
+@[expose] public section
+/-!
+# Continuity of the concrete Parisi gradient Duhamel operator
+
+A fixed unit time interval separates the integrable `r⁻¹ᐟ²` heat singularity
+from the length of the physical time interval.  The CDF can have jumps:
+monotonicity makes the exceptional normalized times countable, which is
+sufficient for dominated convergence.  At the terminal time the square-root
+length factor proves continuity directly.
+-/
+open Set MeasureTheory ProbabilityTheory Filter
+open scoped Topology NNReal
+namespace Paper
+end Paper

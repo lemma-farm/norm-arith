@@ -1,0 +1,15 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.TreeLeafTensor
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.ScalarHilbertKernel
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.WeightedHilbertKernel
+public import Mathlib
+set_option autoImplicit false
+public section
+/-! Actual bounded partial inner products on completed Hilbert tensors. -/
+noncomputable section
+open UniformSpace MeasureTheory
+open scoped InnerProductSpace TensorProduct
+namespace SphericalAging.HilbertTensorContraction
+open CausalTree CausalTree.HilbertDatum
+open ScalarHilbertKernel WeightedHilbertKernel
+end SphericalAging.HilbertTensorContraction

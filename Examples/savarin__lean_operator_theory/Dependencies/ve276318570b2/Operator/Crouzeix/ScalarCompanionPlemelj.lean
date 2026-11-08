@@ -1,0 +1,44 @@
+/-
+# Regularized Plemelj reduction for the scalar companion
+
+At a prospective boundary point `xi`, split the scalar Cauchy companion as
+
+`C(h)(z) = h(xi) C(1)(z) + C(h - h(xi))(z)`.
+
+The first term is just the normalized winding kernel.  The second has a
+cancelled numerator and is the regularized transform carrying the genuinely
+singular boundary analysis.  This file proves the split exactly and shows
+that, once the winding kernel is normalized to one in the carrier,
+convergence of the regularized transform gives the Plemelj limit, the
+canonical continuous extension, and the maximum-modulus reduction.
+
+No convergence or sharp boundary estimate for the regularized transform is
+asserted here; those are the remaining analytic inputs.
+
+## Main declarations
+
+* `crouzeixScalarCauchyKernel` -- the normalized scalar winding kernel.
+* `crouzeixPolynomialScalarCompanionRegularized` -- the transform with its
+  boundary datum cancelled at `xi`.
+* `crouzeixPolynomialScalarCompanionRegularized_add_C` -- cancellation makes
+  the regularized transform invariant under constant polynomial shifts.
+* `crouzeixPolynomialScalarCompanionRegularized_smul` -- the regularized
+  transform and boundary value are conjugate-homogeneous.
+* `contourIntegrable_crouzeixPolynomialScalarCompanionRegularized_self` --
+  cancellation makes the boundary-point kernel genuinely integrable.
+* `crouzeixPolynomialScalarCompanion_eq_regularized_add` -- the exact split
+  away from the frontier.
+* `tendsto_crouzeixPolynomialScalarCompanion_of_regularized` -- regularized
+  convergence implies the actual Plemelj boundary limit.
+* `crouzeixPolynomialScalarCompanionClosedExtension_add_of_regularized` --
+  the canonical closure construction preserves polynomial addition.
+* `norm_crouzeixPolynomialScalarCompanion_le_of_regularized_boundary` -- the
+  sharp interior reduction in terms of the explicit regularized values.
+-/
+import Examples.savarin__lean_operator_theory.Dependencies.ve276318570b2.Operator.Crouzeix.ScalarCompanionBoundary
+import Mathlib
+set_option autoImplicit false
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+open Complex Filter MeasureTheory Set
+open scoped Interval Real

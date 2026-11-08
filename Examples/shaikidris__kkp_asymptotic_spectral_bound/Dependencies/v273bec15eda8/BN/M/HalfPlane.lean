@@ -1,0 +1,36 @@
+/-
+Copyright (c) 2026 Shengtong Zhang. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Shengtong Zhang
+-/
+module
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.M.Basic
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.M.Config
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.M.Schur
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.M.GammaZero
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.CP.Basic
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.CP.Closed
+public import Mathlib.Data.Fin.Tuple.Sort
+@[expose] public section
+/-!
+# Completely positivity of `M` on a right-angle planar cone
+
+If planar Gram vectors have pairwise nonnegative inner products, they can be
+rotated into the closed first quadrant. Then `M X = X ⊙ X` expands as a sum
+of three nonnegative rank-ones. Scaling `X` by a positive square does not
+change whether `M X` is completely positive. Zero Gram vectors may be deleted:
+`M` of the remaining principal submatrix is completely positive if and only if
+the original `M` is (pad a CP factor by zero coordinates). An open half-plane
+with a unique supporting vector reduces, after rotation and scaling, to the
+MX06 configuration (`k ≥ 1`). Unique and tied open-half-plane configurations
+are completely positive (HP04–HP05), as is the closed half-plane (HP06).
+-/
+open Matrix Filter
+open scoped Matrix Topology
+namespace BN
+variable {n : Type*} [Fintype n] [DecidableEq n] [LinearOrder n]
+set_option linter.unusedSectionVars false
+noncomputable section
+set_option maxHeartbeats 400000
+end
+end BN

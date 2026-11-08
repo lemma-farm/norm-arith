@@ -1,0 +1,14 @@
+module
+public import Mathlib
+public import Examples.sthubbar__goldbach_lean.Dependencies.vd4887828222f.LeanLab.HeathBrown1985.Statements
+/-!
+P0096 Heath-Brown 1985, elementary inputs for the deduction of Theorem 2 on page 52 to 53.
+AI-written Lean code, Claude, run 20261017T0003Z-10827. Checked only by the Lean kernel.
+-/
+@[expose] public section
+noncomputable section
+namespace LeanLab.HeathBrown1985
+open Real Finset
+open scoped ArithmeticFunction.vonMangoldt
+attribute [local instance] Classical.propDecidable
+end LeanLab.HeathBrown1985

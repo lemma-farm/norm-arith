@@ -1,0 +1,17 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreWeakPermutation
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreWeightedInteriorMollification
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreCollisionCutoffEnergy
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreValueTruncationWeakChain
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreWeakSobolevTruncation
+public import Mathlib.Topology.MetricSpace.Thickening
+@[expose] public section
+/-! # Arbitrary Ginibre weak pairs: compact interior smoothing and symmetry -/
+open MeasureTheory Filter
+open ContinuousLinearMap
+open scoped Topology ContDiff Convolution BigOperators
+namespace GinibrePoincare
+noncomputable section
+set_option maxHeartbeats 0
+end
+end GinibrePoincare

@@ -1,0 +1,17 @@
+module
+public import Examples.pmaronow__sk_mean_bias_palomar.Dependencies.vde6e39ad4a3d.Paper.Gaussian
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Gaussian structural argument (Proposition 5.3)
+
+The matched Gaussian identity, exact moments, Cauchy–Schwarz step, and monotonicity
+in the nonnegative mean are proved for the actual Gaussian measure. Together
+they prove Proposition 5.3 from the stated fixed-point equation. Existence and
+uniqueness of that fixed point are separate results.
+-/
+open MeasureTheory ProbabilityTheory
+open scoped NNReal
+namespace Paper
+end Paper

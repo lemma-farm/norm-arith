@@ -1,0 +1,13 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GaussianHermiteMoments
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.VandermondeL2
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteParsevalModes
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HolomorphicVandermondeDivision
+@[expose] public section
+open MeasureTheory
+open scoped BigOperators ENNReal
+namespace GinibrePoincare
+noncomputable section
+open ComplexHermite
+end
+end GinibrePoincare

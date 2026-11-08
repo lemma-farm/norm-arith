@@ -1,0 +1,36 @@
+module
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.v35e6c87d1055.PDEFoundation.Geometry.Affine
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.v35e6c87d1055.PDEFoundation.Geometry.Domain
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.v35e6c87d1055.PDEFoundation.Geometry.EuclideanBall
+public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Topology.MetricSpace.Bounded
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Bounded open convex domains
+
+The shared domain class for mean-zero Poincaré and Sobolev--Poincaré
+estimates. It contains explicit round balls and axis-aligned cubes.
+-/
+@[expose] public section
+open scoped Pointwise
+namespace PDE
+def IsOpenBoundedConvexDomain {d : ℕ}
+    (U : Set (Vec d)) : Prop :=
+  IsOpen U ∧ IsBoundedDomain U ∧ Convex ℝ U
+namespace IsOpenBoundedConvexDomain
+theorem isOpen {d : ℕ} {U : Set (Vec d)}
+    (hU : IsOpenBoundedConvexDomain U) :
+    IsOpen U :=
+  hU.1
+theorem measurableSet {d : ℕ} {U : Set (Vec d)}
+    (hU : IsOpenBoundedConvexDomain U) :
+    MeasurableSet U :=
+  hU.isOpen.measurableSet
+end IsOpenBoundedConvexDomain
+end PDE

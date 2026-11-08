@@ -1,0 +1,13 @@
+module
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourHilbertOperator
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCauchyHilbertDecomposition
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourC1PrincipalValue
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourHolderScalar
+/-! # The genuine bounded Cauchy increment operator -/
+@[expose] public section
+noncomputable section
+open Set MeasureTheory Filter Topology Complex
+open scoped NNReal
+namespace Euler2D
+end Euler2D
+end

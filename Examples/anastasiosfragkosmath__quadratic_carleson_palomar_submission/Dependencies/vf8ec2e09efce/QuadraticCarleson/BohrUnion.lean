@@ -1,0 +1,27 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.BohrIntersection
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Unions of consecutive dyadic Bohr sets
+
+The proposition following Lemma `l:bohrintersection` is proved first for an
+exact block of `B` consecutive dyadic frequencies, starting at exponent `M`,
+and then for arbitrary real endpoints and lengths by rounding inward. The
+displayed logarithmic interval is interpreted in base two, as required by
+the later identities `floor(log(λ/A)/N) = k` and `2^(Nk)A ≤ λ < 2^(N(k+1))A`.
+
+The explicit thresholds are `M ≥ 2`, `B ≥ 1`, and `0 < c < 1/10`; this radius
+range includes the paper's `c < 10^(-10)`. The absolute lower-bound
+constants are `1/768` for integer blocks and `1/1536` for real windows. The
+uniform consequence quantifies an arbitrary fixed `a > 0` with `Bc ≥ a`.
+-/
+open MeasureTheory Set
+open scoped ENNReal InnerProductSpace
+namespace QuadraticCarleson
+end QuadraticCarleson

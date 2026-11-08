@@ -1,0 +1,36 @@
+/-
+# Winding normalization from oriented convex geometry
+
+For a consistently oriented point `c` of a smooth strictly convex carrier,
+the logarithmic derivative
+
+`gamma'(t) / (gamma(t) - c)`
+
+has strictly positive imaginary part.  Its interval integral is therefore a
+strictly increasing argument lift.  Solving the associated exponential ODE
+and using periodicity shows that the lift changes by a positive natural
+multiple of `2 * pi` over one period.
+
+There cannot be two turns: the intermediate value theorem would then give a
+second boundary point on the same positive ray from `c` as the initial one.
+Convexity puts the nearer of two such frontier points in the open carrier,
+unless the points coincide; fundamental-interval injectivity excludes that
+last possibility.  Thus the winding is exactly one.
+
+## Main declarations
+
+* `crouzeixScalarCauchyKernel_eq_one_of_oriented_carrier_point` -- oriented
+  convex geometry normalizes the kernel at the selected carrier point;
+* `crouzeixScalarCauchyKernel_eq_one_of_oriented_carrier` -- the normalization
+  propagates throughout the carrier.
+-/
+import Examples.savarin__lean_operator_theory.Dependencies.ve276318570b2.Operator.Crouzeix.ScalarCauchyKernelConstancy
+import Examples.savarin__lean_operator_theory.Dependencies.ve276318570b2.Operator.Crouzeix.SmoothJordanSupport
+import Mathlib
+import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+set_option autoImplicit false
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+open Complex Filter MeasureTheory Set
+open scoped Interval Real

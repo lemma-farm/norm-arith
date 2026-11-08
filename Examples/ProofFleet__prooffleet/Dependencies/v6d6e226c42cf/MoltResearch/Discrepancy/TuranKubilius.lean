@@ -1,0 +1,19 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v6d6e226c42cf.MoltResearch.Discrepancy.MertensFirst
+import Mathlib.Algebra.BigOperators.Field
+import Mathlib.Data.Real.Sqrt
+/-!
+# Discrepancy: the Turán–Kubilius substrate (Track R, cheap-frame C1)
+
+The harmonic window for the Turán–Kubilius inequality on prime blocks
+(campaign #3044, phase C1): the harmonic ceiling `∑_{1≤n≤y} 1/n ≤ log y + 1`
+(the mirror of `log_le_sum_one_div_Ico`), and the dvd-filtered harmonic
+window — the harmonic sum over multiples of `k` in `[1, N)` reindexes to
+`(1/k)·∑_{1≤m≤(N-1)/k} 1/m` and is squeezed between
+`(1/k)(log N − log k − 2)` and `(1/k)(log N + 1)`.
+
+These feed the first/second moment computations of the block
+Turán–Kubilius variance bound (C1c–C1e).
+-/
+namespace MoltResearch
+open Finset
+end MoltResearch

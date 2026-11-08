@@ -1,0 +1,12 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.KrauseLaceyFullDyadicSparseTransfer
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+open Filter Function MeasureTheory Set
+open scoped ENNReal NNReal Topology
+namespace QuadraticCarleson.KrauseLaceyCompactPairingStabilization
+open KrauseLaceyFullDyadicReflection KrauseLaceyFullDyadicSparseTransfer
+open KrauseLaceySharpSmoothAdapter KrauseLaceySparseReflection
+set_option autoImplicit false
+set_option maxHeartbeats 800000
+end QuadraticCarleson.KrauseLaceyCompactPairingStabilization

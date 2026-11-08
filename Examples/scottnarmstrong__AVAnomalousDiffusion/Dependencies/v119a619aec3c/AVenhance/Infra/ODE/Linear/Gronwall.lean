@@ -1,0 +1,29 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+module
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.v119a619aec3c.AVenhance.Infra.ODE.Linear.Existence
+public import Mathlib
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Variable-coefficient Grönwall estimate
+
+The scalar comparison argument below allows an integrable, time-dependent coefficient.  This is
+the form needed when the linear operator is merely measurable: replacing its integral by a uniform
+bound would lose information.
+-/
+@[expose] public section
+open Filter MeasureTheory Set
+open scoped Topology
+namespace AVenhance.Infra.ODE
+namespace LinearODEData
+variable {E : Type*} [NormedAddCommGroup E] [NormedSpace ℝ E]
+variable {a b : ℝ} {hab : a ≤ b}
+end LinearODEData
+end AVenhance.Infra.ODE

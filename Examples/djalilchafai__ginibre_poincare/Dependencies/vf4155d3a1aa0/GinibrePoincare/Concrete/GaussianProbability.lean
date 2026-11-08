@@ -1,0 +1,49 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vf4155d3a1aa0.GinibrePoincare.Concrete.Configuration
+public import Mathlib
+public import Mathlib.MeasureTheory.Measure.FiniteMeasurePi
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Complex
+@[expose] public section
+/-!
+# The normalized complex Gaussian probability measure
+
+For `n` particles, each real coordinate has variance `1 / (2n)`.  We first
+use Mathlib's normalized real Gaussian probability measure, take two
+independent copies to obtain one complex coordinate, and then take the finite
+product over the particle labels.
+
+This construction proves the probability normalization without evaluating a
+multidimensional integral.  Identification with the explicit density
+`(n / π)^n exp (-n |z|²)` is deliberately kept as a separate theorem target in
+`MeasureModel.lean`.
+-/
+open MeasureTheory
+namespace GinibrePoincare
+noncomputable section
+/-- Variance of each real coordinate of the complex Gaussian reference law. -/
+def realCoordinateVariance (n : ℕ) : NNReal :=
+  ((2 : NNReal) * (n : NNReal))⁻¹
+/-- Centered real Gaussian probability measure with variance `1 / (2n)`. -/
+def realCoordinateGaussianProbability (n : ℕ) : ProbabilityMeasure ℝ :=
+  ⟨ProbabilityTheory.gaussianReal 0 (realCoordinateVariance n), by
+    infer_instance⟩
+/-- One complex Gaussian coordinate, assembled from two independent real
+coordinates of variance `1 / (2n)`. -/
+def complexCoordinateGaussianProbability (n : ℕ) : ProbabilityMeasure ℂ :=
+  (ProbabilityMeasure.pi
+      (fun _ : Fin 2 => realCoordinateGaussianProbability n)).map
+    Complex.measurableEquivPi.symm
+/-- Product complex Gaussian probability measure on `ℂⁿ`. -/
+def complexGaussianProbability (n : ℕ) :
+    ProbabilityMeasure (Configuration n) :=
+  ProbabilityMeasure.pi
+    (fun _ : Fin n => complexCoordinateGaussianProbability n)
+/-- The Gaussian reference measure `γ_n`, viewed as an ordinary measure. -/
+def complexGaussianMeasure (n : ℕ) : Measure (Configuration n) :=
+  (complexGaussianProbability n : Measure (Configuration n))
+instance instIsProbabilityMeasureComplexGaussianMeasure (n : ℕ) :
+    IsProbabilityMeasure (complexGaussianMeasure n) := by
+  unfold complexGaussianMeasure
+  infer_instance
+end
+end GinibrePoincare

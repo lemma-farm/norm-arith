@@ -1,0 +1,15 @@
+module
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.v58f9fa26be6f.FalconerThetaGauge.OrthogonalityAngularBudget
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.v58f9fa26be6f.FalconerThetaGauge.OrthogonalityPhaseSeparation
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.v58f9fa26be6f.FalconerThetaGauge.EqualArcSupportMeasure
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.v58f9fa26be6f.FalconerThetaGauge.NonstationaryPhasePeriodicSupport
+public import Mathlib
+set_option autoImplicit false
+/-! # The genuine angular phase derivatives and support separation for unlinked cells -/
+@[expose] public section
+noncomputable section
+open MeasureTheory Set Function
+open scoped ContDiff
+namespace FalconerThetaGauge
+open GaugeFrostman
+end FalconerThetaGauge

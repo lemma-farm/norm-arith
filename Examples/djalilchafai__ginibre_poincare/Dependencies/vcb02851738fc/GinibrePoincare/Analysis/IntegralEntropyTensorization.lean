@@ -1,0 +1,8 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.EntropyProductDecomposition
+@[expose] public section
+open MeasureTheory Filter
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

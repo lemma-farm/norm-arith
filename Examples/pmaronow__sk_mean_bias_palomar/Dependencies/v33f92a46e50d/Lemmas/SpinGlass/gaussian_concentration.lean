@@ -1,0 +1,167 @@
+module
+/- Modified for this distribution (2026): Lean compiler/module compatibility and
+   library interface adaptations. Existing source notices are retained. -/
+/- Compatibility adaptation: current probability-map instance, measurable-pi constructor and Gaussian-law elaboration annotations. -/
+public import Mathlib
+public import Mathlib.Analysis.Calculus.Deriv.Pi
+public import Mathlib.Analysis.Calculus.Gradient.Basic
+public import Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Independence
+public import Mathlib.Probability.Moments.SubGaussian
+public import Mathlib.Topology.EMetricSpace.Paracompact
+public import Mathlib.Topology.UniformSpace.Uniformizable
+public import Mathlib.Probability.Distributions.Gaussian.HasGaussianLaw.Basic
+public import Mathlib.Probability.Distributions.Gaussian.Fernique
+set_option autoImplicit true
+set_option linter.deprecated false
+@[expose] public section
+/-!
+# Finite-dimensional Gaussian concentration
+
+This file contains the complete development: foundational Gaussian-measure lemmas,
+the smooth covariance estimate, mollification, the Herbst argument, and the final
+one-sided and two-sided concentration inequalities.
+-/
+open scoped BigOperators ENNReal NNReal InnerProductSpace
+open MeasureTheory
+open ProbabilityTheory
+open intervalIntegral
+namespace SYK
+/-!
+## Gaussian measure and analytic auxiliary lemmas
+-/
+noncomputable def standardGaussianMeasureOnEuclidean
+    (ι : Type*) [Fintype ι] :
+    Measure (EuclideanSpace ℝ ι) :=
+  (Measure.pi fun _ : ι => gaussianReal 0 1).map (WithLp.toLp 2)
+instance standardGaussianMeasureOnEuclidean_isProbability
+    {ι : Type*} [Fintype ι] :
+    IsProbabilityMeasure (standardGaussianMeasureOnEuclidean ι) := by
+  unfold standardGaussianMeasureOnEuclidean
+  infer_instance
+/-- The finite product of standard real Gaussians is a Gaussian measure. -/
+instance isGaussian_pi_gaussianReal {ι : Type*} [Fintype ι] :
+    IsGaussian (Measure.pi fun _ : ι => gaussianReal 0 1) := by
+  classical
+  have hindep : iIndepFun (fun (i : ι) (ω : ι → ℝ) => ω i)
+      (Measure.pi fun _ : ι => gaussianReal 0 1) := by
+    have := iIndepFun_pi (X := fun (_ : ι) (x : ℝ) => x)
+      (μ := fun _ : ι => gaussianReal 0 1) (fun _ => measurable_id.aemeasurable)
+    simpa using this
+  have hlaw : ∀ i : ι, HasGaussianLaw (fun ω : ι → ℝ => ω i)
+      (Measure.pi fun _ : ι => gaussianReal 0 1) := by
+    intro i
+    have h0 : (Measure.pi fun _ : ι => gaussianReal 0 1).map (Function.eval i)
+        = gaussianReal 0 1 := (measurePreserving_eval (fun _ : ι => gaussianReal 0 1) i).map_eq
+    have : IsGaussian ((Measure.pi fun _ : ι => gaussianReal 0 1).map (fun ω => ω i)) := by
+      rw [show (fun ω : ι → ℝ => ω i) = Function.eval i from rfl, h0]; infer_instance
+    exact IsGaussian.hasGaussianLaw (P := Measure.pi fun _ : ι => gaussianReal 0 1) (X := fun ω : ι → ℝ => ω i) (measurable_pi_apply i).aemeasurable
+  have h2 : IsGaussian ((Measure.pi fun _ : ι => gaussianReal 0 1).map (fun ω i => ω i)) :=
+    (hindep.hasGaussianLaw hlaw).isGaussian_map
+  simpa using h2
+/-- The standard Euclidean Gaussian measure is a Gaussian measure. -/
+instance standardGaussianMeasureOnEuclidean_isGaussian {ι : Type*} [Fintype ι] :
+    IsGaussian (standardGaussianMeasureOnEuclidean ι) := by
+  unfold standardGaussianMeasureOnEuclidean
+  rw [show (WithLp.toLp 2 : (ι → ℝ) → EuclideanSpace ℝ ι)
+      = (PiLp.continuousLinearEquiv 2 ℝ (fun _ : ι => ℝ)).symm from rfl]
+  infer_instance
+/-
+Analytic proof outline for the Gaussian concentration estimate.
+
+The standard Gaussian log-Sobolev inequality says that, for locally Lipschitz
+$g : \mathbb R^n \to \mathbb R$ with $e^g \in L^1(\gamma_n)$,
+$\operatorname{Ent}_{\gamma_n}(e^g) \le
+  \frac12 \int |\nabla g|^2 e^g \, d\gamma_n$, where
+$\operatorname{Ent}_{\gamma_n}(H) =
+  \int H \log H \, d\gamma_n -
+  (\int H \, d\gamma_n)\log(\int H \, d\gamma_n)$.
+Here $\nabla g$ is the a.e. gradient.
+
+If $F$ is $L$-Lipschitz, Rademacher's theorem gives
+$|\nabla F(x)| \le L$ for a.e. $x$. Also
+$|F(x)| \le |F(0)| + L|x|$, so $e^{\lambda F} \in L^1(\gamma_n)$
+for every $\lambda \in \mathbb R$. Set
+$\Phi(\lambda) = \log \mathbb E e^{\lambda F(X)}$.
+
+For $\lambda > 0$, applying log-Sobolev to $g = \lambda F$ gives
+$\operatorname{Ent}_{\gamma_n}(e^{\lambda F})
+  \le \frac{\lambda^2 L^2}{2}\mathbb E e^{\lambda F(X)}$.
+Since
+$\Phi'(\lambda) =
+  \mathbb E[F(X)e^{\lambda F(X)}] / \mathbb E e^{\lambda F(X)}$,
+the entropy identity is
+$\operatorname{Ent}_{\gamma_n}(e^{\lambda F}) =
+  \mathbb E e^{\lambda F(X)}(\lambda\Phi'(\lambda)-\Phi(\lambda))$.
+Thus
+$\lambda\Phi'(\lambda)-\Phi(\lambda) \le \lambda^2L^2/2$, hence
+$(\Phi(\lambda)/\lambda)' \le L^2/2$.
+
+Integrating from $0$ to $\lambda$ and using
+$\lim_{s \downarrow 0}\Phi(s)/s = \mathbb E F(X)$ yields
+$\Phi(\lambda) \le \lambda\mathbb E F(X) + \lambda^2L^2/2$, equivalently
+$\mathbb E e^{\lambda(F(X)-\mathbb E F(X))} \le e^{\lambda^2L^2/2}$.
+Chernoff's bound then gives
+$\mathbb P(F(X)-\mathbb E F(X) > t)
+  \le \exp(-\lambda t + \lambda^2L^2/2)$, optimized at
+$\lambda = t/L^2$, so
+$\mathbb P(F(X)-\mathbb E F(X) > t)
+  \le \exp(-t^2/(2L^2))$.
+Applying the same argument to $-F$ and using the union bound gives
+$\mathbb P(|F(X)-\mathbb E F(X)| > t)
+  \le 2\exp(-t^2/(2L^2))$.
+
+Exponential-of-norm functions are integrable against the standard Euclidean Gaussian.
+This follows from the fact that a standard Gaussian has finite exponential moments of its
+Euclidean norm.
+-/
+theorem integrable_exp_mul_norm {ι : Type*} [Fintype ι] (c : ℝ) :
+    Integrable (fun x : EuclideanSpace ℝ ι => Real.exp (c * ‖x‖))
+      (standardGaussianMeasureOnEuclidean ι) := by
+  unfold standardGaussianMeasureOnEuclidean;
+  rw [ MeasureTheory.integrable_map_measure ];
+  · refine' MeasureTheory.Integrable.mono' _ _ _;
+    refine' fun x => ∏ i, Real.exp ( |c| * |x i| );
+    · have h_integrable : ∀ i : ι, MeasureTheory.Integrable (fun x : ℝ => Real.exp (|c| * |x|)) (gaussianReal 0 1) := by
+        intro i
+        have h_integrable : MeasureTheory.Integrable (fun x : ℝ => Real.exp (|c| * |x|)) (gaussianReal 0 1) := by
+          have h_mgf : ∀ s : ℝ, MeasureTheory.Integrable (fun x : ℝ => Real.exp (s * x)) (gaussianReal 0 1) := by
+            intro s
+            have h_integrable : ∫ x, Real.exp (s * x) ∂(gaussianReal 0 1) = Real.exp (s^2 / 2) := by
+              have := @ProbabilityTheory.mgf_gaussianReal;
+              convert @this ℝ _ ( gaussianReal 0 1 ) 0 1 ( fun x => x ) _ s using 1 <;>
+                norm_num [mgf, mul_comm]
+            exact ( by contrapose! h_integrable; rw [ MeasureTheory.integral_undef h_integrable ] ; positivity )
+          refine' MeasureTheory.Integrable.mono' ( h_mgf |c| |> fun h => h.add ( h_mgf ( -|c| ) ) ) _ _;
+          · exact Continuous.aestronglyMeasurable ( by continuity );
+          · filter_upwards [ ] with x using by norm_num; cases abs_cases x <;> simp +decide [ * ] <;> positivity;
+        exact h_integrable;
+      have h_prod_integrable : ∀ {f : ι → ℝ → ℝ}, (∀ i, MeasureTheory.Integrable (fun x => f i x) (gaussianReal 0 1)) → MeasureTheory.Integrable (fun x : ι → ℝ => ∏ i, f i (x i)) (Measure.pi fun _ => gaussianReal 0 1) := by
+        exact fun {f} a => Integrable.fintype_prod a;
+      exact h_prod_integrable h_integrable;
+    · fun_prop (disch := norm_num);
+    · simp +decide [ ← Real.exp_sum, EuclideanSpace.norm_eq ];
+      refine' Filter.Eventually.of_forall fun x => _;
+      -- Apply the triangle inequality to the sum.
+      have h_triangle : Real.sqrt (∑ i, x i ^ 2) ≤ ∑ i, |x i| := by
+        exact Real.sqrt_le_iff.mpr ⟨ by exact Finset.sum_nonneg fun _ _ => abs_nonneg _, by simpa [ sq, Finset.sum_mul _ _ _ ] using Finset.sum_le_sum fun i ( hi : i ∈ Finset.univ ) => mul_le_mul_of_nonneg_left ( Finset.single_le_sum ( fun i _ => abs_nonneg ( x i ) ) hi ) ( abs_nonneg ( x i ) ) ⟩;
+      rw [ ← Finset.mul_sum _ _ _ ];
+      cases abs_cases c <;> nlinarith [ Real.sqrt_nonneg ( ∑ i, x i ^ 2 ) ];
+  · fun_prop;
+  · fun_prop
+/-
+Real-analysis Grönwall-type core of the Herbst argument.  If `Φ` is differentiable,
+vanishes at `0`, and its derivative stays within `c * |s|` of `m` for every `s`, then `Φ`
+is dominated by the quadratic `m * t + c * t ^ 2 / 2`.  (The two-sided derivative bound
+forces `Φ' - m` to have the sign of `s` at the endpoints, which is exactly what is needed
+for both `t ≥ 0` and `t ≤ 0`.)
+-/
+open MeasureTheory ProbabilityTheory
+variable {ι : Type*} [Fintype ι]
+/-! ## Infrastructure moved from gaussian_concentration.lean -/
+open MeasureTheory
+/-
+Approximation of an `L`-Lipschitz function on a finite-dimensional Euclidean space by a
+sequence of `C¹` functions with gradient bounded by `L`, uniform linear growth, and pointwise
+convergence.  Obtained by convolution with a normalized `ContDiffBump` of shrinking radius.
+-/
+end SYK

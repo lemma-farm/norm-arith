@@ -1,0 +1,16 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v02e1036af824.GinibrePoincare.Analysis.GinibreDistributionalGradient
+@[expose] public section
+/-! # Closedness of the ordinary distributional gradient graph
+
+Interior compact tests define continuous pairings on actual Ginibre L².
+Consequently the independently defined local distributional gradient graph
+is closed. This does not assert smooth radial core density in that graph.
+-/
+open MeasureTheory Filter
+open scoped Topology ContDiff
+namespace GinibrePoincare
+noncomputable section
+set_option maxHeartbeats 300000
+end
+end GinibrePoincare

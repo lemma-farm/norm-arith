@@ -1,0 +1,14 @@
+module
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.StationaryCircularPreparedExpansion
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.StationaryCircularPeriodic
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.StationaryPhaseFiniteTailBudget
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.StationaryPhaseInverseOperatorsRegularityBudget
+public import Mathlib
+set_option autoImplicit false
+/-! # Actual prepared circular integrals and exact finite stationary inversion -/
+@[expose] public section
+noncomputable section
+open MeasureTheory Set Finset Function
+open scoped ContDiff
+namespace FalconerThetaGauge
+end FalconerThetaGauge

@@ -1,0 +1,11 @@
+module
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.RationalTrigPerturbation
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.RationalPi
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.CompactPhaseEvaluationBounds
+public import Mathlib
+@[expose] public section
+/-! Actual executable original tangent values and certified safe quotient errors. -/
+namespace MeyerGeneralProblem.StrongParity
+noncomputable section
+end
+end MeyerGeneralProblem.StrongParity

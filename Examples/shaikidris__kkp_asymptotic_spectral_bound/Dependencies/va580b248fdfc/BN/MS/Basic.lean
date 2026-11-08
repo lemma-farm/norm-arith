@@ -1,0 +1,32 @@
+/-
+Copyright (c) 2026 Shengtong Zhang. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Shengtong Zhang
+-/
+module
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.va580b248fdfc.BN.Basic.Inner
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.va580b248fdfc.BN.CP.Basic
+public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+public import Mathlib.Analysis.Convex.StdSimplex
+public import Mathlib.Combinatorics.SimpleGraph.AdjMatrix
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Positivity
+public import Mathlib.Topology.Instances.Matrix
+public import Mathlib.Topology.Order.Compact
+@[expose] public section
+/-!
+# Motzkin–Straus
+
+The Motzkin–Straus theorem bounds the adjacency quadratic form on the
+nonnegative orthant by the Turán factor `1 - 1/ω(G)`, and the same bound
+passes to the Frobenius pairing against a completely positive matrix.
+-/
+namespace BN
+open Matrix
+open scoped Matrix
+variable {V : Type*} [Fintype V] [DecidableEq V]
+/-! ### MS05 — Cauchy–Schwarz on a block of size `k` -/
+variable {G : SimpleGraph V} [DecidableRel G.Adj]
+/-! ### MS01 — quadratic form as an edge sum -/
+end BN

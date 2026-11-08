@@ -1,0 +1,48 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+module
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.v119a619aec3c.AVenhance.Infra.Construction.Section2Induction
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.v119a619aec3c.AVenhance.Infra.Construction.TimeIncrement.Recursion
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.v119a619aec3c.AVenhance.Infra.FaaDiBruno.Composition
+public import Mathlib
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-! The first stream-regularity increment estimate from the finite-overlap stream recursion.
+
+The only analytic input left explicit here is the source-form App. B.2
+estimate for the inverse flow, applied after the induction bound at the
+previous scale. -/
+@[expose] public section
+open MeasureTheory Homogenization Filter Topology
+open scoped ContDiff BigOperators
+noncomputable section
+namespace AVenhance.Infra.Construction
+def Section2StreamInductionHypothesis {Φ : ℕ → ℝ → Vec 2 → ℝ}
+    (R M : ℕ → ℝ) (m : ℕ) : Prop :=
+  ∀ t : ℝ, ∀ n : ℕ, 2 ≤ n →
+    FaaDiBruno.snorm (Φ m t) n (R m) ≤
+      ENNReal.ofReal (M m * (R m)⁻¹ ^ 2 *
+        (((n : ℝ) + 2) ^ 2 / ((n : ℝ) + 1) ^ 3))
+/-- App. B.2 in the source seminorm, specialized to the inverse flow in the
+stream recursion. Its input is exactly `e.indyhyp`; its output is the
+`e.flowinv2` bound on the radius `9 R_{m-1}/8`. -/
+structure AppB2InverseFlowData {β : ℝ} (I : Ingredients β)
+    (Φ : ℕ → ℝ → Vec 2 → ℝ) (hseq : IsStreamSeq I Φ)
+    (R M : ℕ → ℝ) : Prop where
+  inverse_spatial_smooth : ∀ m : ℕ, 1 ≤ m → ∀ s u : ℝ,
+    ContDiff ℝ (⊤ : ℕ∞) (fun x : Vec 2 =>
+      constructionFlowInv hseq (m - 1) (s + u) x s)
+  inverse_transport_estimate : ∀ m : ℕ, 1 ≤ m →
+    Section2StreamInductionHypothesis (Φ := Φ) R M (m - 1) →
+    ∀ s u : ℝ, |u| ≤ (2 : ℝ) ^ (-6 : ℤ) * (M (m - 1))⁻¹ →
+    ∀ n : ℕ, 1 ≤ n →
+      FaaDiBruno.snorm
+        (fun x : Vec 2 => constructionFlowInv hseq (m - 1) (s + u) x s)
+        n ((9 / 8) * R (m - 1)) ≤
+          ENNReal.ofReal (5 * (8 / 9 : ℝ) * (R (m - 1))⁻¹)
+end AVenhance.Infra.Construction

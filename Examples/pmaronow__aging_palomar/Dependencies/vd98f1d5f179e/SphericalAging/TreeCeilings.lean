@@ -1,0 +1,17 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.CausalTree
+public import Mathlib
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Analysis.SpecificLimits.Basic
+set_option autoImplicit false
+public section
+/-! Strict participation ceilings for the actual causal-tree Hilbert construction.
+Scalar estimates below are used with the actual squared norms of orthogonal
+height projections; they are proved algebraically rather than postulated.
+-/
+noncomputable section
+open scoped InnerProductSpace
+namespace SphericalAging.TreeCeilings
+open CausalTree
+end SphericalAging.TreeCeilings

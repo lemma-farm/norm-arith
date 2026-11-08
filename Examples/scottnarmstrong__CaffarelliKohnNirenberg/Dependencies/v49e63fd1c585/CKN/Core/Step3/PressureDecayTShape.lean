@@ -1,0 +1,18 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step3.PressureDecayMeasurability
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step3.PressureDecay
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PkBoundsUnconditionalP234
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PkBoundsUnconditionalP56
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PkBoundsUnconditionalP8
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PkBoundsP7SolutionBound
+set_option autoImplicit false
+set_option warningAsError true
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Core.Step3
+open CKN
+end CKN.Core.Step3

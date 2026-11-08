@@ -1,0 +1,22 @@
+import Mathlib.Data.Matrix.Mul
+import Mathlib.Algebra.BigOperators.Fin
+import Mathlib.LinearAlgebra.Matrix.Hadamard
+import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Ring
+/-!
+# Finite crossed-edges identities
+
+These lemmas formalize the injective entries and exact label exclusions in
+Sections 1 and 3 of report 63. They do not assert the probabilistic norm limit.
+-/
+namespace GraphMatrices.CrossedEdges
+open scoped BigOperators
+/-- All four ordered boundary labels are distinct. -/
+def BoundaryDistinct {n : ℕ} (a b c d : Fin n) : Prop :=
+  a ≠ b ∧ a ≠ c ∧ a ≠ d ∧ b ≠ c ∧ b ≠ d ∧ c ≠ d
+instance {n : ℕ} (a b c d : Fin n) : Decidable (BoundaryDistinct a b c d) :=
+  inferInstanceAs (Decidable (_ ∧ _ ∧ _ ∧ _ ∧ _ ∧ _))
+end GraphMatrices.CrossedEdges
+namespace GraphMatrices.CrossedEdges
+end GraphMatrices.CrossedEdges

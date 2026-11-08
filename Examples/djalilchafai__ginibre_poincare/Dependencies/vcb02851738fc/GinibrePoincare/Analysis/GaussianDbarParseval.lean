@@ -1,0 +1,18 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteParsevalModes
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteEnergy
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.ComplexGaussianIntegrationByParts
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GroundStateDbar
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GaussianPolynomialIntegrability
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.MultivariateHermiteIntegrability
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HermiteWirtinger
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.ComplexGaussianProductIntegral
+@[expose] public section
+/-! # Gaussian `∂̄` energy and Hermite modes -/
+open MeasureTheory
+open scoped BigOperators ENNReal ComplexConjugate
+namespace GinibrePoincare
+noncomputable section
+open ComplexHermite
+end
+end GinibrePoincare

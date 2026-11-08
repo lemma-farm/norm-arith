@@ -1,0 +1,17 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.CausalTree
+public import Mathlib
+public import Mathlib.Tactic.Linarith
+set_option autoImplicit false
+public section
+/-! Brownian leaf-time prefixes and their actual completed tensor extensions.
+The noise cutoff multiplies representatives by `1_{(-∞,T]}` inside
+`L²((0,∞),du)` and leaves the initial real direction fixed.
+-/
+noncomputable section
+open MeasureTheory UniformSpace
+open scoped InnerProductSpace TensorProduct ENNReal
+namespace SphericalAging.CausalTree
+namespace HilbertDatum
+end HilbertDatum
+end SphericalAging.CausalTree

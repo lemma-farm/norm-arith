@@ -1,0 +1,16 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.SplitFlow
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.FlowC2
+/-!
+# Spatial regularity of the splitting fields
+
+The fields `x ↦ eField (c(s)) (x - z)` are sums of two shear terms `sc α β (x k) • v`; we compute
+their first two spatial derivatives explicitly and deduce the `C2Field` hypotheses, uniformly
+in the coefficients.
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real
+open scoped ENNReal ContDiff NNReal
+noncomputable section
+namespace AnomDiss
+end AnomDiss

@@ -1,0 +1,41 @@
+module
+public import Examples.AxiomMath__DedekindZetaZeroFree.Dependencies.va91200fcdf69.DedekindZetaZeroFree.RepresentationTheory.PrincipalSeries.Complex.VanishingJetsAndCutoffApproximation
+set_option autoImplicit false
+set_option relaxedAutoImplicit false
+@[expose] public section
+section
+namespace DedekindZetaZeroFree.KPCplxClosedCellJets.CutoffAnnihilation
+open KPCplxPrincipalSeriesCharts
+end DedekindZetaZeroFree.KPCplxClosedCellJets.CutoffAnnihilation
+end
+section
+namespace DedekindZetaZeroFree.KPCplxClosedCellCutoffApproximation
+open KPCplxPrincipalSeriesCharts
+end DedekindZetaZeroFree.KPCplxClosedCellCutoffApproximation
+end
+section
+namespace DedekindZetaZeroFree.KPCplxClosedCellJets
+open KPCplxPrincipalSeriesCharts KPCplxCharacterHaar
+private theorem closedCell_mul_flat_top (n : ℕ) (W F : ℂ → ℂ)
+    (hW : ContDiffAt ℝ n W 0) (hF : ContDiffAt ℝ n F 0) (h0 : W 0 = 0)
+    (hf : ∀ k < n, iteratedFDeriv ℝ k F 0 = 0) :
+    iteratedFDeriv ℝ n (fun x => W x * F x) 0 = 0 := by
+  obtain ⟨u, hu, hWu⟩ := hW.contDiffOn le_rfl (by simp)
+  obtain ⟨v, hv, hFv⟩ := hF.contDiffOn le_rfl (by simp)
+  obtain ⟨s, hsuv, hsopen, hs0⟩ := mem_nhds_iff.mp (Filter.inter_mem hu hv)
+  have hbound := norm_iteratedFDerivWithin_mul_le
+    (hWu.mono (hsuv.trans Set.inter_subset_left))
+    (hFv.mono (hsuv.trans Set.inter_subset_right)) hsopen.uniqueDiffOn hs0 (n := n) le_rfl
+  have heq (k : ℕ) (G : ℂ → ℂ) : iteratedFDerivWithin ℝ k G s 0 = iteratedFDeriv ℝ k G 0 :=
+    iteratedFDerivWithin_of_isOpen k hsopen hs0
+  simp only [heq] at hbound
+  apply norm_le_zero_iff.mp
+  refine hbound.trans_eq (Finset.sum_eq_zero ?_)
+  intro i hi
+  by_cases hi0 : i = 0
+  · subst i
+    simp [norm_iteratedFDeriv_zero, h0]
+  · rw [hf (n-i) (by have := Finset.mem_range.mp hi; omega)]
+    simp
+end DedekindZetaZeroFree.KPCplxClosedCellJets
+end

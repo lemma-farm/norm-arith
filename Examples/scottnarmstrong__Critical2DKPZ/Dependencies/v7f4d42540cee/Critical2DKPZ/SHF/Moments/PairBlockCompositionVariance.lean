@@ -1,0 +1,44 @@
+/-
+Copyright (c) 2026 Scott Armstrong. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong
+-/
+module
+public import Examples.scottnarmstrong__Critical2DKPZ.Dependencies.v7f4d42540cee.Critical2DKPZ.Collision.SpatialRenewalComposition
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Examples.scottnarmstrong__Critical2DKPZ.Dependencies.v7f4d42540cee.Critical2DKPZ.WalkTails.LogConcavity
+import Mathlib.Tactic
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-! # Conditional variance of a pair-block composition -/
+@[expose] public section
+noncomputable section
+namespace Critical2DKPZ.SHF.Moments
+open Filter
+open scoped Topology
+/-- A squared-binomial increment is the squared one-dimensional walk mass normalized by its doubled-time return probability. -/
+theorem hypergeometricIntWeight_eq_srwHeat_sq_div_return
+    (m j : ℕ) (hj : j ≤ m) :
+    WalkTails.hypergeometricIntWeight m (j : ℤ) =
+      (LatticeProb.srwHeat 1 m
+        ![(j : ℤ) - ((m - j : ℕ) : ℤ)]) ^ 2 /
+        LatticeProb.srwHeat 1 (2 * m) ![(0 : ℤ)] := by
+  have hnum := LatticeProb.srwHeat_one_binom m j (m - j) (by omega)
+  have hden := LatticeProb.srwHeat_one_binom (2 * m) m m (by omega)
+  have hdenSite : (m : ℤ) - (m : ℤ) = 0 := by ring
+  rw [hdenSite] at hden
+  rw [WalkTails.hypergeometricIntWeight_eq_nat, hnum, hden]
+  unfold WalkTails.hypergeometricWeight
+  have hpow : (2 : ℝ) ^ (2 * m) = ((2 : ℝ) ^ m) ^ 2 := by
+    rw [show 2 * m = m * 2 by omega, pow_mul]
+  have hchoose : (Nat.choose (2 * m) m : ℝ) ≠ 0 :=
+    ne_of_gt (WalkTails.hypergeometric_denominator_pos m)
+  field_simp [hchoose, hpow]
+  ring
+end Critical2DKPZ.SHF.Moments
+end

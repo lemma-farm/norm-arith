@@ -1,0 +1,17 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.TreeCeilings
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.CausalTreeTensor
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.TreeLeafTensor
+public import Mathlib
+set_option autoImplicit false
+public section
+/-! Actual coherent cubic root, assembled from orthogonal tree-height components. -/
+noncomputable section
+set_option backward.isDefEq.respectTransparency false
+set_option maxHeartbeats 1000000
+open scoped InnerProductSpace ENNReal NNReal TensorProduct Topology
+open Set MeasureTheory Filter
+namespace SphericalAging.TreeCoherentRoot
+open CausalTree TreeCeilings
+local instance (α : Type) : DecidableEq α := Classical.decEq α
+end SphericalAging.TreeCoherentRoot

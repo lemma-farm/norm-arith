@@ -1,0 +1,11 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreArbitraryWeakPairApproximation
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreCollisionCutoffSobolevApproximation
+@[expose] public section
+open MeasureTheory Filter
+open scoped Topology ContDiff
+namespace GinibrePoincare
+noncomputable section
+set_option maxHeartbeats 0
+end
+end GinibrePoincare

@@ -1,0 +1,18 @@
+module
+public import Examples.vltanh__lean4_ambidextrous_sofa.Dependencies.v731ae27a8c17.AmbidextrousSofa.Analysis.ProperExcessScalar
+set_option autoImplicit false
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+@[expose] public section
+/-!
+# One angular budget for the proper reflected excess
+
+Compare the whole crossing-and-decay time with its zero-tilt baseline.
+Differences of squares price changes in width, height and impulse energy.
+The two middle orientations spend one common angular budget, and a single
+Newton baseline check bounds the excess deadline linearly in terminal slope.
+-/
+noncomputable section
+namespace AmbidextrousSofa.Analysis
+abbrev properAngularDeadline (k : ℝ) : ℝ := 11 / 15 + 2 * k / 3
+end AmbidextrousSofa.Analysis

@@ -1,0 +1,21 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.KrauseLaceyNonstandardEnergy
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.KrauseLaceyGenerationLayers
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.KrauseLaceyRademacherMenshov
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Genuine nonstandard generation outputs in `L²`
+
+The functions are the actual localized bad-scale operators, grouped by the
+proved minimal-generation construction. Disjoint output supports justify
+orthogonality within each generation. No signed-sum estimate is assumed.
+-/
+open Function MeasureTheory Set
+open scoped ComplexConjugate
+namespace QuadraticCarleson
+namespace KrauseLaceyBadScale
+open KrauseLaceyStoppingExtraction KrauseLaceyGenerationLayers
+set_option autoImplicit false
+end KrauseLaceyBadScale
+end QuadraticCarleson

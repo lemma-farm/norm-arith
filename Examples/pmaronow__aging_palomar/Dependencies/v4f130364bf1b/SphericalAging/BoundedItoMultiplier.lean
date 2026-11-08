@@ -1,0 +1,25 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.v4f130364bf1b.SphericalAging.VectorItoFormula
+set_option autoImplicit false
+public section
+/-!
+# Bounded past-measurable multipliers of the actual Itô integral
+
+The statement is an identity between the constructed full-filtration
+integral operators. The coefficient is measurable at the left end of the
+time interval, so multiplying the integrand preserves predictability.
+-/
+noncomputable section
+open MeasureTheory ProbabilityTheory Filter Topology StochasticCalculus
+open scoped NNReal ENNReal BigOperators InnerProductSpace
+namespace SphericalAging.BoundedItoMultiplier
+section GeneralL2
+variable {A : Type*} [MeasurableSpace A] {μ : Measure A}
+  {C : A → ℝ} (hC : AEStronglyMeasurable C μ) (K : ℝ≥0)
+  (hK : ∀ᵐ x ∂μ, ‖C x‖ ≤ K)
+include hC K hK
+end GeneralL2
+open HardSphereDynamics VectorIto
+variable {N : ℕ} {Ω : Type*} [MeasurableSpace Ω] {P : Measure Ω}
+  [IsProbabilityMeasure P] {𝓕 : Filtration ℝ≥0 ‹MeasurableSpace Ω›}
+end SphericalAging.BoundedItoMultiplier

@@ -1,0 +1,73 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SphericalAging.FiniteModel
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SphericalAging.SphereInitialLaw
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SphericalAging.TensorHamiltonianRotation
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.MixtureCurvature
+public import Mathlib.Probability.Distributions.Gaussian.Multivariate
+public import Mathlib.Probability.Moments.Covariance
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Actual finite mixed spherical Gaussian fields
+
+The degree blocks are independent genuine ordered Gaussian tensors from the
+immutable `all-lean` dependency. Degrees range from two through a fixed finite
+maximum, with arbitrary nonnegative coefficients and no parity restriction.
+The field is a finite linear combination of these tensors with the manuscript's
+normalization. Its Gaussian finite-dimensional laws, smoothness, mean and
+covariance are proved against that product disorder measure.
+
+These are the field foundations of `lem:pre-field`. They do not construct a
+Parisi minimizer or prove any slow-equilibration estimate.
+-/
+namespace SlowEquilibration.SphericalModel
+noncomputable section
+open MeasureTheory ProbabilityTheory
+open scoped BigOperators InnerProductSpace
+abbrev Vector (N : ℕ) := SphericalAging.FiniteModel.Vector N
+/-- All allowed degrees in a finite mixture. Both odd and even degrees occur. -/
+abbrev Degree (P : ℕ) := {p : Fin (P + 1) // 2 ≤ p.val}
+/-- Each degree has its own ordered Gaussian tensor, including repeated indices. -/
+abbrev Disorder (N P : ℕ) :=
+  (p : Degree P) → SphericalAging.FiniteModel.Disorder N p.val.val
+/-- The actual product law of independent degree-specific Gaussian tensors. -/
+def disorderLaw (N P : ℕ) : Measure (Disorder N P) :=
+  Measure.pi (fun p : Degree P => SphericalAging.FiniteModel.disorderLaw N p.val.val)
+instance disorderLaw_probability (N P : ℕ) : IsProbabilityMeasure (disorderLaw N P) := by
+  unfold disorderLaw
+  infer_instance
+/-- The ordinary covariance polynomial of the finite degree family. -/
+def covariancePolynomial {P : ℕ} (c : Degree P → ℝ) (r : ℝ) : ℝ :=
+  ∑ p : Degree P, c p * r ^ p.val.val
+/-- The manuscript's normalized overlap, defined on the ambient Euclidean space. -/
+def overlap {N : ℕ} (x y : Vector N) : ℝ := inner ℝ x y / N
+/-- The pure tensor Hamiltonian in one degree block, pulled back to the actual product law. -/
+def blockField {N P : ℕ} (p : Degree P) (J : Disorder N P) (x : Vector N) : ℝ :=
+  SphericalAging.FiniteModel.Hamiltonian N p.val.val (J p) x
+/-- The mixed field with amplitude `sqrt(c_p)` in each independent block. -/
+def field {N P : ℕ} (c : Degree P → ℝ) (J : Disorder N P) (x : Vector N) : ℝ :=
+  ∑ p : Degree P, Real.sqrt (c p) * blockField p J x
+theorem independent_degree_blocks (N P : ℕ) :
+    iIndepFun (fun p (J : Disorder N P) => J p) (disorderLaw N P) := by
+  exact iIndepFun_pi (X := fun _ => id) (fun _ => aemeasurable_id)
+theorem degree_block_hasLaw {N P : ℕ} (p : Degree P) :
+    HasLaw (fun J : Disorder N P => J p)
+      (SphericalAging.FiniteModel.disorderLaw N p.val.val) (disorderLaw N P) := by
+  exact (measurePreserving_eval
+    (fun q : Degree P => SphericalAging.FiniteModel.disorderLaw N q.val.val) p).hasLaw
+theorem field_iteratedFDeriv {N P : ℕ} (c : Degree P → ℝ)
+    (J : Disorder N P) (x : Vector N) (n : ℕ) :
+    iteratedFDeriv ℝ n (field c J) x = ∑ p : Degree P,
+      Real.sqrt (c p) • iteratedFDeriv ℝ n (blockField p J) x := by
+  unfold field
+  rw [iteratedFDeriv_fun_sum_apply]
+  · apply Finset.sum_congr rfl
+    intro p hp
+    exact iteratedFDeriv_const_smul_apply' (a := Real.sqrt (c p))
+      ((SphericalAging.FiniteModel.Hamiltonian_contDiff (J p)).of_le (by simp)).contDiffAt
+  · intro p hp
+    exact (((SphericalAging.FiniteModel.Hamiltonian_contDiff (J p)).of_le
+      (by simp)).const_smul (Real.sqrt (c p))).contDiffAt
+end
+end SlowEquilibration.SphericalModel

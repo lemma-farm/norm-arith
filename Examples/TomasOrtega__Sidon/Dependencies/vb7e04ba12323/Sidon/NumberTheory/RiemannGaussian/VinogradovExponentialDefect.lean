@@ -1,0 +1,188 @@
+module
+/-
+Copyright (c) 2026 David Sanftenberg. All rights reserved.
+Released under Apache 2.0 license as described in LICENSES/Apache-2.0.txt.
+Authors: David Sanftenberg
+-/
+/- Adapted from dbsanfte/RiemannGaussian; provenance and modifications are
+recorded in docs/rg-extraction-manifest.json. -/
+public import Mathlib.Algebra.Order.Round
+public import Mathlib.Algebra.Polynomial.Degree.IsMonicOfDegree
+public import Mathlib.Algebra.Polynomial.PartialFractions
+public import Mathlib.Analysis.Analytic.ChangeOrigin
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.Analysis.Analytic.Uniqueness
+public import Mathlib.Analysis.Calculus.ContDiff.RCLike
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Analysis.Calculus.Deriv.ZPow
+public import Mathlib.Analysis.Calculus.InverseFunctionTheorem.Analytic
+public import Mathlib.Analysis.Calculus.IteratedDeriv.WithinZpow
+public import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
+public import Mathlib.Analysis.Calculus.SmoothSeries
+public import Mathlib.Analysis.Calculus.Taylor
+public import Mathlib.Analysis.Complex.AbsMax
+public import Mathlib.Analysis.Complex.BorelCaratheodory
+public import Mathlib.Analysis.Complex.CanonicalDecomposition
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.ExponentialBounds
+public import Mathlib.Analysis.Complex.HasPrimitives
+public import Mathlib.Analysis.Complex.JensenFormula
+public import Mathlib.Analysis.Complex.Liouville
+public import Mathlib.Analysis.Complex.LocallyUniformLimit
+public import Mathlib.Analysis.Complex.PhragmenLindelof
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.Complex.TaylorSeries
+public import Mathlib.Analysis.Complex.Trigonometric
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.Fourier.AddCircle
+public import Mathlib.Analysis.Fourier.Inversion
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Analysis.InnerProductSpace.NormDet
+public import Mathlib.Analysis.InnerProductSpace.ProdL2
+public import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
+public import Mathlib.Analysis.InnerProductSpace.l2Space
+public import Mathlib.Analysis.Matrix.Hermitian
+public import Mathlib.Analysis.Matrix.Order
+public import Mathlib.Analysis.MeanInequalities
+public import Mathlib.Analysis.Meromorphic.LogDeriv
+public import Mathlib.Analysis.Normed.Field.Approximation
+public import Mathlib.Analysis.Normed.Field.Lemmas
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Analysis.Normed.Group.Tannery
+public import Mathlib.Analysis.PSeries
+public import Mathlib.Analysis.Polynomial.Basic
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.Real.Pi.Wallis
+public import Mathlib.Analysis.SpecialFunctions.Arsinh
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Mathlib.Analysis.SpecialFunctions.FrullaniIntegral
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Digamma
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.FourierTransform
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Analysis.SpecialFunctions.JapaneseBracket
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Pow.Integral
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.ArctanDeriv
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.SpecificLimits.Basic
+public import Mathlib.Analysis.SpecificLimits.RCLike
+public import Mathlib.Analysis.SumIntegralComparisons
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.FieldTheory.RatFunc.Basic
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.LinearAlgebra.Determinant
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+public import Mathlib.LinearAlgebra.Lagrange
+public import Mathlib.LinearAlgebra.Matrix.Notation
+public import Mathlib.LinearAlgebra.Matrix.PosDef
+public import Mathlib.MeasureTheory.Function.ContinuousMapDense
+public import Mathlib.MeasureTheory.Function.Floor
+public import Mathlib.MeasureTheory.Function.JacobianOneDim
+public import Mathlib.MeasureTheory.Function.L2Space
+public import Mathlib.MeasureTheory.Group.Integral
+public import Mathlib.MeasureTheory.Integral.Asymptotics
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.MeasureTheory.Integral.Bochner.SumMeasure
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.MeasureTheory.Integral.ExpDecay
+public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic
+public import Mathlib.MeasureTheory.Integral.Prod
+public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+public import Mathlib.MeasureTheory.Measure.ResolventTransform
+public import Mathlib.NumberTheory.AbelSummation
+public import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+public import Mathlib.NumberTheory.Chebyshev
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import Mathlib.NumberTheory.Harmonic.EulerMascheroni
+public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.LSeries.Nonvanishing
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.LSeries.ZetaZeros
+public import Mathlib.NumberTheory.SumPrimeReciprocals
+public import Mathlib.Probability.Moments.ComplexMGF
+public import Mathlib.Probability.Moments.MGFAnalytic
+public import Mathlib.RingTheory.Polynomial.DegreeLT
+public import Mathlib.RingTheory.Polynomial.Resultant.Basic
+public import Mathlib.RingTheory.Polynomial.Wronskian
+public import Mathlib.Tactic.NormNum.Prime
+public import Mathlib.Tactic.NormNum.RealSqrt
+public import Mathlib.Topology.Algebra.InfiniteSum.TsumUniformlyOn
+public import Mathlib.Topology.Algebra.Module.Cardinality
+public import Mathlib.Topology.LocallyConstant.Basic
+public import Mathlib.Topology.MetricSpace.Infsep
+public import Mathlib.Topology.UniformSpace.UniformApproximation
+public import Examples.TomasOrtega__Sidon.Dependencies.vb7e04ba12323.Sidon.NumberTheory.RiemannGaussian.VinogradovDiagonalExponent
+public import Examples.TomasOrtega__Sidon.Dependencies.vb7e04ba12323.Sidon.NumberTheory.RiemannGaussian.VinogradovDiagonalIteration
+set_option autoImplicit false
+set_option pp.unicode.fun true
+@[expose] public section
+namespace RiemannGaussian.VinogradovExponentialDefect
+noncomputable section
+open scoped BigOperators
+open RiemannGaussian.VinogradovDiagonalIteration
+theorem defect_le_exp {k : ℕ} (hk : 1 ≤ k) (n : ℕ) :
+    defect k n ≤ ((k : ℝ) ^ 2 / 2) * Real.exp (-(n : ℝ) / k) := by
+  have hfactor : 1 - 1 / (k : ℝ) ≤ Real.exp (-(1 / (k : ℝ))) := by
+    linarith [Real.add_one_le_exp (-(1 / (k : ℝ)))]
+  have hp := pow_le_pow_left₀ (factor_nonneg hk) hfactor n
+  rw [← Real.exp_nat_mul] at hp
+  have he : (n : ℝ) * (-(1 / (k : ℝ))) = -(n : ℝ) / k := by ring
+  rw [he] at hp
+  have hc : (k.choose 2 : ℝ) ≤ (k : ℝ) ^ 2 / 2 := by
+    have h := VinogradovDiagonalExponent.power_gap hk 0 (0 : ℝ)
+    rw [← Nat.choose_two_right] at h
+    norm_num [VinogradovDiagonalExponent.exponent, VinogradovDiagonalExponent.degreeWeight] at h
+    linarith [Nat.cast_nonneg (α := ℝ) k]
+  exact mul_le_mul hc hp (pow_nonneg (factor_nonneg hk) n)
+    (by positivity : 0 ≤ (k : ℝ) ^ 2 / 2)
+theorem exp_neg_three_le : Real.exp (-3 : ℝ) ≤ 1 / 20 := by
+  have h := Real.sum_le_exp_of_nonneg (by norm_num : (0 : ℝ) ≤ 3) 10
+  norm_num [Finset.sum_range_succ, Nat.factorial] at h
+  rw [Real.exp_neg]
+  simpa only [one_div] using one_div_le_one_div_of_le (by norm_num : (0 : ℝ) < 20)
+    (show 20 ≤ Real.exp 3 by linarith)
+theorem exp_neg_four_le : Real.exp (-4 : ℝ) ≤ 1 / 50 := by
+  have h := Real.sum_le_exp_of_nonneg (by norm_num : (0 : ℝ) ≤ 4) 9
+  norm_num [Finset.sum_range_succ, Nat.factorial] at h
+  rw [Real.exp_neg]
+  simpa only [one_div] using one_div_le_one_div_of_le (by norm_num : (0 : ℝ) < 50)
+    (show 50 ≤ Real.exp 4 by linarith)
+theorem defect_three_degree_le {k : ℕ} (hk : 1 ≤ k) :
+    defect k (3 * k) ≤ (k : ℝ) ^ 2 / 40 := by
+  have hkpos : (0 : ℝ) < k := by exact_mod_cast hk
+  have h := defect_le_exp hk (3 * k)
+  have he : -((3 * k : ℕ) : ℝ) / k = -3 := by push_cast; field_simp
+  rw [he] at h
+  calc
+    _ ≤ (k : ℝ) ^ 2 / 2 * Real.exp (-3) := h
+    _ ≤ (k : ℝ) ^ 2 / 2 * (1 / 20) :=
+      mul_le_mul_of_nonneg_left exp_neg_three_le (by positivity)
+    _ = _ := by ring
+theorem defect_four_degree_le {k : ℕ} (hk : 1 ≤ k) :
+    defect k (4 * k) ≤ (k : ℝ) ^ 2 / 100 := by
+  have hkpos : (0 : ℝ) < k := by exact_mod_cast hk
+  have h := defect_le_exp hk (4 * k)
+  have he : -((4 * k : ℕ) : ℝ) / k = -4 := by push_cast; field_simp
+  rw [he] at h
+  calc
+    _ ≤ (k : ℝ) ^ 2 / 2 * Real.exp (-4) := h
+    _ ≤ (k : ℝ) ^ 2 / 2 * (1 / 50) :=
+      mul_le_mul_of_nonneg_left exp_neg_four_le (by positivity)
+    _ = _ := by ring
+end
+end RiemannGaussian.VinogradovExponentialDefect

@@ -1,0 +1,20 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Harmonic.InteriorSmooth
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Harmonic.InteriorEstimates
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Parabolic.BallDisplays
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Parabolic.Integration.Average
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Sobolev.Poincare.LpConvergence
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Pressure.DecompositionPotentials
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Pressure.DecompositionSWSBasic
+set_option autoImplicit false
+set_option warningAsError true
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+open CKN.Foundation.Parabolic.Integration
+open CKN.Foundation.Heat
+set_option autoImplicit false
+noncomputable section
+namespace CKN
+end CKN

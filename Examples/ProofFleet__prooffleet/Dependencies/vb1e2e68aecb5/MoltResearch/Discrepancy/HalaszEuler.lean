@@ -1,0 +1,30 @@
+import Examples.ProofFleet__prooffleet.Dependencies.vb1e2e68aecb5.MoltResearch.Discrepancy.MultiplicativeC
+import Examples.ProofFleet__prooffleet.Dependencies.vb1e2e68aecb5.MoltResearch.Discrepancy.PretentiousDist
+import Mathlib.NumberTheory.EulerProduct.ExpLog
+import Mathlib.NumberTheory.SmoothNumbers
+import Examples.ProofFleet__prooffleet.Dependencies.vb1e2e68aecb5.MoltResearch.Discrepancy.SmoothRankin
+import Mathlib.NumberTheory.LSeries.Basic
+import Mathlib.NumberTheory.SumPrimeReciprocals
+import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+/-!
+# Track C: the Euler-product log bridge, upper direction (Track R, C4b-1)
+
+The pointwise Euler input of the Halász leg: for a completely
+multiplicative `f` bounded by `1`, just right of the `1`-line,
+
+  `log ‖L_f(s)‖ ≤ ∑'_p Re(f(p) p^{−s}) + 1`.
+
+This is the mirror of `EulerLogBridge.tsum_re_dirichlet_le_log_norm_LSeries`
+(which bounds the prime sum *by* the L-norm), generalized from Dirichlet
+characters to arbitrary completely multiplicative bounded `f` via Mathlib's
+`EulerProduct.exp_tsum_primes_log_eq_tsum`. Both directions share the same
+second-order tail: `∑_p ‖log(1−w_p)⁻¹ − w_p‖ ≤ ∑_p p^{−2} ≤ 1`.
+
+Downstream (C4b-2/3): truncation at `y` and Mertens turn this into
+`‖L_f(1 + 1/log y − it)‖ ≤ C · (log y) · exp(−D(f, p^{it}; y)²)` — the
+Halász-quality pointwise decay on the non-pretentious range, consumed by
+the `𝒯₀`-window bound and the `𝒯₁`-mean-square assembly (C4e).
+-/
+open Complex
+namespace MoltResearch
+end MoltResearch

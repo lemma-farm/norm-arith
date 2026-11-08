@@ -1,0 +1,44 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+module
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.v7d56c35ae206.AVenhance.Infra.Parabolic.FourierGalerkin.Compactness
+public import Mathlib
+public import Mathlib.Topology.UniformSpace.Ascoli
+public import Mathlib.Topology.Bases
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Weak path compactness for Galerkin approximations
+
+The pointwise Hilbert-space extraction in `Compactness` does not by itself produce one
+subsequence converging at every time. This file packages the path-space step: a uniformly bounded,
+weakly equicontinuous sequence of continuous Hilbert-valued paths has a subsequence converging
+pointwise weakly on the whole compact time interval. A common initial trace and the uniform norm
+bound pass to that limit.
+
+For a Galerkin sequence, the equation is responsible for the weak equicontinuity premise. The
+constructor for that modulus is kept separate from this compactness theorem.
+-/
+@[expose] public section
+noncomputable section
+open Filter Topology
+open scoped RealInnerProductSpace
+open TopologicalSpace
+namespace AVenhance.Infra.Parabolic.FourierGalerkin
+section WeakUniformity
+variable {E : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]
+  [CompleteSpace E] [TopologicalSpace.SeparableSpace E]
+local instance weakDualTopologicalAddGroup : IsTopologicalAddGroup (WeakDual ℝ E) :=
+  (WeakDual.withSeminorms ℝ E).isTopologicalAddGroup
+local instance weakDualUniformSpace : UniformSpace (WeakDual ℝ E) :=
+  IsTopologicalAddGroup.rightUniformSpace (WeakDual ℝ E)
+local instance weakDualUniformAddGroup : IsUniformAddGroup (WeakDual ℝ E) :=
+  isUniformAddGroup_of_addCommGroup
+end WeakUniformity
+end AVenhance.Infra.Parabolic.FourierGalerkin
+end

@@ -1,0 +1,41 @@
+/-
+Copyright (c) 2026 Shengtong Zhang. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Shengtong Zhang
+-/
+module
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.Kernel.Data
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.TN.Basic
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.TN.Convex
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Analysis.Convex.Mul
+public import Mathlib.Analysis.Convex.Slope
+public import Mathlib.Data.Fin.VecNotation
+public import Mathlib.LinearAlgebra.Matrix.Adjugate
+public import Mathlib.LinearAlgebra.Matrix.Block
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Mathlib.LinearAlgebra.Matrix.SchurComplement
+@[expose] public section
+/-!
+# Nonnegativity of `N`
+
+The identity `N = det(I + Q W)` of `docs/sol.tex` §3, the factorization of
+`W` through two totally nonnegative three-column matrices, and `1 ≤ N x`
+for `x ≥ 0`.
+-/
+namespace BN
+open Function Matrix Set
+open scoped Matrix
+noncomputable section
+/-! ### KR18: auxiliary matrix `D(x)` -/
+/-- The matrix with columns `c₀, c₁, c₂`. -/
+def fromThreeCols (c0 c1 c2 : Fin 3 → ℝ) : Matrix (Fin 3) (Fin 3) ℝ :=
+  fun i j => if j = 0 then c0 i else if j = 1 then c1 i else c2 i
+/-- `D(x)` has columns `e₀, e₁, b(x)`. -/
+def D (x : ℝ) : Matrix (Fin 3) (Fin 3) ℝ :=
+  fromThreeCols (Pi.single 0 1) (Pi.single 1 1) (b x)
+variable {k : ℕ} (t : Fin k → ℝ) (q : Fin k → ℝ)
+/-! ### KR19: Cramer for `N` -/
+end
+end BN

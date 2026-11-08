@@ -1,0 +1,22 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.vc941051ce49c.CKN.Core.HeatPotential.MorreySources
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.vc941051ce49c.CKN.Core.HeatPotential.Campanato
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.vc941051ce49c.CKN.Foundation.Sobolev.Poincare.GradientNorm
+import Mathlib.Analysis.Calculus.FDeriv.Pi
+import Mathlib.Analysis.Calculus.MeanValue
+set_option autoImplicit false
+set_option warningAsError true
+open scoped BigOperators ENNReal NNReal Topology
+open MeasureTheory MeasureTheory.Measure Set Metric
+open Filter
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Core.HeatPotential
+open CKN.Foundation.Heat CKN.Foundation.Parabolic
+open CKN.Foundation.Parabolic.Morrey
+theorem vec3EuclideanNorm_add_le (x y : Vec3) :
+    vec3EuclideanNorm (x + y) ≤ vec3EuclideanNorm x + vec3EuclideanNorm y := by
+  rw [vec3EuclideanNorm_eq_l2, vec3EuclideanNorm_eq_l2, vec3EuclideanNorm_eq_l2]
+  simpa only [WithLp.toLp_add] using norm_add_le (WithLp.toLp 2 x) (WithLp.toLp 2 y)
+end CKN.Core.HeatPotential

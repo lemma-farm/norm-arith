@@ -1,0 +1,36 @@
+/-
+Copyright (c) 2026 Kitware, Inc. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Jon Crall, OpenAI GPT-5.6 Thinking
+-/
+import Examples.AIQ_Kitware__aiq_yu_wang_samworth_2015_useful_variant_davis_kahan_statisticians_formalization.Dependencies.vd0883627faf7.DavisKahan.Sylvester.Unbounded.Equation
+import Examples.AIQ_Kitware__aiq_yu_wang_samworth_2015_useful_variant_davis_kahan_statisticians_formalization.Dependencies.vd0883627faf7.DavisKahan.OperatorIdeal.CanonicalRealView
+import Mathlib
+set_option autoImplicit false
+set_option pp.unicode.fun true
+/-!
+# Neumann-series Sylvester estimates with one unbounded block
+
+The solution of a Sylvester equation with an invertible unbounded block is the
+ideal-gauge limit of a Neumann iteration.  Each iterate lies in the ideal by the
+two-sided composition law, the gauges decay geometrically, and completeness of
+the gauge produces the limit; the operator-norm contraction identifies it with
+the given solution.  Both orientations are proved: the unbounded block on the
+left, and the unbounded block on the right.
+
+The constant is one: the estimate is `δ * gauge X ≤ gauge C`, with no loss.
+-/
+namespace TauCeti
+namespace DavisKahan
+namespace ExactSinTheta
+open scoped InnerProductSpace
+open scoped Topology
+open Filter
+universe u v
+variable {𝕜 : Type u} [RCLike 𝕜]
+variable {E F : Type v}
+  [NormedAddCommGroup E] [InnerProductSpace 𝕜 E] [CompleteSpace E]
+  [NormedAddCommGroup F] [InnerProductSpace 𝕜 F] [CompleteSpace F]
+end ExactSinTheta
+end DavisKahan
+end TauCeti

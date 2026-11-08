@@ -1,0 +1,24 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.GaussianFiberDensity
+public import Mathlib.Analysis.InnerProductSpace.ProdL2
+public import Mathlib.LinearAlgebra.Matrix.SchurComplement
+set_option autoImplicit false
+/-!
+# The coefficient graph and the orthogonal Gaussian fiber
+
+An invertible observation block gives an actual linear graph parametrization
+of the kernel. Its volume Jacobian is derived from the observation covariance
+by the Weinstein--Aronszajn determinant identity.
+-/
+@[expose] public section
+namespace SlowEquilibration.GaussianBlockFiber
+open MeasureTheory ProbabilityTheory Set Function
+open scoped RealInnerProductSpace ENNReal Topology
+noncomputable section
+variable {U V : Type*}
+  [NormedAddCommGroup U] [InnerProductSpace ℝ U] [FiniteDimensional ℝ U]
+  [NormedAddCommGroup V] [InnerProductSpace ℝ V] [FiniteDimensional ℝ V]
+variable [MeasurableSpace U] [BorelSpace U] [MeasurableSpace V] [BorelSpace V]
+end
+end SlowEquilibration.GaussianBlockFiber

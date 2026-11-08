@@ -1,0 +1,18 @@
+module
+public import Mathlib
+public import Examples.sthubbar__goldbach_lean.Dependencies.v3fde70ffb811.LeanLab.HeathBrown1985.SingularSeries
+public import Examples.sthubbar__goldbach_lean.Dependencies.v3fde70ffb811.LeanLab.HeathBrown1985.Section3
+/-!
+P0096 Heath-Brown 1985, page 57, the local expansion of 4.1: for `2x < m ≤ 3x`,
+`Σ_{n ≤ x} Λ_Q(n) Λ(m - n) = Σ_{q ≤ Q} μ(q)²/φ(q) Σ_{d ∣ q} d μ(d) Σ_{n ≤ x, d ∣ n} Λ(m - n)`,
+the inner sum is `ψ(m - 1; d, m) - ψ(m - 1 - ⌊x⌋; d, m)`, and 2.4 applied twice gives
+`⌊x⌋ Σ_{q ≤ Q} g_m(q) + O(x L^{-A} Σ_{q ≤ Q} σ(q)/φ(q))`.
+AI-written Lean code, Claude, run 20261017T0303Z-29152. Checked only by the Lean kernel.
+-/
+@[expose] public section
+noncomputable section
+namespace LeanLab.HeathBrown1985
+open Real Finset
+open scoped ArithmeticFunction.vonMangoldt ArithmeticFunction.Moebius
+attribute [local instance] Classical.propDecidable
+end LeanLab.HeathBrown1985

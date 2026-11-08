@@ -1,0 +1,38 @@
+module
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.FDom
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.FPropF
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Entry F, part 13: `lem:Ss` for an arbitrary design and graph form over `ℤ/qℤ`
+
+Generalizes entry U's `SUGeom`/`SUSep` from the net `𝒫^s_{k,q}` of `U_s` to any graph form with
+(H1), (H2): carries of every length (capped at `L-1` by (H1)), residue representatives, the
+jitter via (H2), and far steps.
+-/
+namespace Z3NetF.Proofs
+open Finset Matrix
+noncomputable section
+/-! ## Bridges to entry U's graph forms -/
+section geom
+variable (s q k : ℕ) [NeZero q] (Φ : Fin s → Fin s → Matrix (Fin (s * k - k)) (Fin k) (ZMod q))
+end geom
+section ss
+variable (s q k : ℕ) [NeZero q] (Φ : Fin s → Fin s → Matrix (Fin (s * k - k)) (Fin k) (ZMod q))
+  (F : ℕ → Fin s → Fin s → ℤ) (L : ℕ)
+end ss
+section ss2
+variable (s q k : ℕ) [NeZero q] (Φ : Fin s → Fin s → Matrix (Fin (s * k - k)) (Fin k) (ZMod q))
+  (F : ℕ → Fin s → Fin s → ℤ) (L : ℕ)
+end ss2
+section ss3
+variable (s q k : ℕ) [NeZero q] (Φ : Fin s → Fin s → Matrix (Fin (s * k - k)) (Fin k) (ZMod q))
+  (F : ℕ → Fin s → Fin s → ℤ) (L : ℕ)
+end ss3
+section ss4
+variable (s q k : ℕ) [NeZero q] (Φ : Fin s → Fin s → Matrix (Fin (s * k - k)) (Fin k) (ZMod q))
+  (F : ℕ → Fin s → Fin s → ℤ) (L : ℕ)
+end ss4
+end
+end Z3NetF.Proofs

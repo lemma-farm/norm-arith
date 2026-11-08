@@ -1,0 +1,42 @@
+module
+public import Examples.mrklwk__zeta_density_39_over_17_lean.Dependencies.v4a2d86ec38c5.OAI.NumberTheory.DirichletL.Mellin.LogProfiles
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+namespace OAI
+open scoped BigOperators
+open MulChar AddChar
+open scoped BigOperators
+open Filter Asymptotics MeasureTheory
+open scoped Topology
+open MeasureTheory Real
+open scoped FourierTransform SchwartzMap
+namespace ShortDraftCRT
+open AddChar
+variable {K : Type*} [Field K]
+variable {R : Type*} [CommRing R]
+end ShortDraftCRT
+namespace ShortDraftDescent
+end ShortDraftDescent
+namespace ShortDraftTrace
+open Complex
+open scoped ComplexConjugate
+section Generic
+variable (ω : ℂ) (hω : ω ^ 2 + ω + 1 = 0)
+  (hconj : conj ω = ω ^ 2)
+include hω hconj
+end Generic
+noncomputable def ω₃ : ℂ := ((-1 : ℂ) + (Real.sqrt 3 : ℝ) * Complex.I) / 2
+private theorem omega_sq : ω₃ ^ 2 = -ω₃ - 1 := by
+  have hs : (Real.sqrt 3 : ℝ) ^ 2 = 3 := Real.sq_sqrt (by norm_num)
+  have hs' : ((Real.sqrt 3 : ℝ) : ℂ) ^ 2 = 3 := by
+    norm_cast
+  have hquad : ω₃ ^ 2 + ω₃ + 1 =
+      (3 + ((Real.sqrt 3 : ℝ) : ℂ) ^ 2 * Complex.I ^ 2) / 4 := by
+    unfold ω₃
+    ring
+  rw [hs', Complex.I_sq] at hquad
+  norm_num at hquad
+  linear_combination hquad
+end ShortDraftTrace
+end OAI

@@ -1,0 +1,18 @@
+module
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v1b0cfb25cbb7.SubdiffusiveProcess.Sobolev.ResponseLimits
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v1b0cfb25cbb7.SubdiffusiveProcess.Variational.PositiveShift
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v1b0cfb25cbb7.SubdiffusiveProcess.Variational.DualEnergyApproximation
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v1b0cfb25cbb7.SubdiffusiveProcess.Compactness.RecoverySequence
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+set_option warn.classDefReducibility false
+@[expose] public section
+open Filter MeasureTheory Set TopologicalSpace
+open scoped ENNReal NNReal Topology
+namespace SubdiffusiveProcess
+end SubdiffusiveProcess

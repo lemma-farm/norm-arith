@@ -1,0 +1,19 @@
+module
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v7648cd52bcfa.SubdiffusiveProcess.PartProcess.LpRestriction
+public import Mathlib.MeasureTheory.Function.ContinuousMapDense
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+set_option warn.classDefReducibility false
+@[expose] public section
+open MeasureTheory Set Filter
+open scoped ENNReal NNReal Topology
+noncomputable section
+namespace SubdiffusiveProcess.PartProcess
+open SubdiffusiveProcess.E7
+variable {X : Type*} [MeasurableSpace X] [TopologicalSpace X] {m : Measure X}
+end SubdiffusiveProcess.PartProcess

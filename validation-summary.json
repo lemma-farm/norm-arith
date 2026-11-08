@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-08T16:44:21.999425+00:00",
+  "original_validation_count": 844,
+  "transformed_source_focus_checks": 844,
+  "transformed_canary_passed_cases": [
+    "09a136a3075277583591",
+    "32522ad4c9d34dca0616",
+    "0433e5614aea29a24faa",
+    "1043a03a2c66ff8eb127"
+  ],
+  "prior_canary_inputs_match_final_source_files": 9,
+  "three_case_native_seconds": 14.02549409866333,
+  "weak_option_fix_native_seconds": 43.10384798049927,
+  "standard_command": "lake build",
+  "full_suite_passed": false,
+  "bounded_full_suite_attempt": {
+    "seconds": 150.6831865310669,
+    "stopped_at_bound": "150-second-bound",
+    "native_example_oleans_before_stop": 6,
+    "native_support_oleans_before_stop": 43,
+    "first_issue": "Invalid set_option weak.linter export headers; weak diagnostic settings subsequently omitted and audited; affected-case native canary passed."
+  },
+  "limitations": [
+    "All 844 rewritten examples have not been fully rebuilt to completion.",
+    "34 original configurations were Lean source rather than TOML; fallback literal routing and untranslated command flags are recorded in provenance/transformations.json.",
+    "Original native target type/axiom evidence applies to the recorded pre-layout extraction; module-qualified private names change with module paths."
+  ]
+}

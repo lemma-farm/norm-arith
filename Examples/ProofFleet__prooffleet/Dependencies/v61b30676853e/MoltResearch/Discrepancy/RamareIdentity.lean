@@ -1,0 +1,120 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.MultiplicativeC
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.LargeValues
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.DyadicMVT
+import Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt
+/-!
+# Track C: the Ramaré double-count identity (Track R, C4e-1)
+
+The exact combinatorial engine of the `𝒰`-decomposition: for any finsets
+`A, P` and weight `g`,
+
+  `∑_{p∈P} ∑_{n∈A, p∣n} g(n)/ω_P(n) = ∑_{n∈A, ω_P(n)≥1} g(n)`,
+
+where `ω_P(n) = #{p ∈ P : p ∣ n}`. Each `n` with `ω_P(n) = k ≥ 1` lies
+in exactly `k` fibres, each weighted `1/k`. This is the identity behind
+the `[MR]`-style factorization `F = ∑_p f(p)p^{−s}·G_p + (collision
+terms)`: the C4e assembly splits `n = p·m` in each fibre and pushes the
+`p ∤ m` main terms through the dyadic MVT (`DyadicMVT.lean`) while the
+`p² ∣ n` collisions are second order.
+
+Same swap pattern as the Turán–Kubilius first moment
+(`sum_card_dvd_div_eq`); no primality enters.
+-/
+open Finset
+namespace MoltResearch
+/-- **The Ramaré double-count identity** (C4e-1, exact form): summing the
+weight `g(n)/ω_P(n)` over the divisibility fibres of every `p ∈ P`
+reproduces exactly the sum of `g` over those `n` with `ω_P(n) ≥ 1`, where
+`ω_P(n) = #{p ∈ P : p ∣ n}` — each such `n` appears in `ω_P(n)` fibres,
+each carrying weight `1/ω_P(n)`. No primality enters. -/
+theorem sum_div_card_dvd_eq_sum_filter (A P : Finset ℕ) (g : ℕ → ℂ) :
+    ∑ p ∈ P, ∑ n ∈ A.filter (fun n => p ∣ n),
+        g n / ((P.filter (· ∣ n)).card : ℂ)
+      = ∑ n ∈ A.filter (fun n => 0 < (P.filter (· ∣ n)).card), g n := by
+  classical
+  have h1 : ∀ p ∈ P, ∑ n ∈ A.filter (fun n => p ∣ n),
+      g n / ((P.filter (· ∣ n)).card : ℂ)
+      = ∑ n ∈ A, if p ∣ n then g n / ((P.filter (· ∣ n)).card : ℂ) else 0 := by
+    intro p _
+    rw [Finset.sum_filter]
+  rw [Finset.sum_congr rfl h1, Finset.sum_comm]
+  have h2 : ∀ n ∈ A,
+      (∑ p ∈ P, if p ∣ n then g n / ((P.filter (· ∣ n)).card : ℂ) else 0)
+      = if 0 < (P.filter (· ∣ n)).card then g n else 0 := by
+    intro n _
+    have hconst : (∑ p ∈ P, if p ∣ n then g n / ((P.filter (· ∣ n)).card : ℂ) else 0)
+        = ((P.filter (· ∣ n)).card : ℂ) * (g n / ((P.filter (· ∣ n)).card : ℂ)) := by
+      rw [← Finset.sum_filter, Finset.sum_const, nsmul_eq_mul]
+    rw [hconst]
+    rcases Nat.eq_zero_or_pos (P.filter (· ∣ n)).card with h0 | h0
+    · rw [h0, if_neg (by omega)]
+      simp
+    · rw [if_pos h0]
+      have hne : ((P.filter (· ∣ n)).card : ℂ) ≠ 0 := by
+        exact_mod_cast Nat.pos_iff_ne_zero.mp h0
+      field_simp
+  rw [Finset.sum_congr rfl h2, ← Finset.sum_filter]
+theorem card_filter_dvd_mul_of_prime (P : Finset ℕ) (hP : ∀ q ∈ P, q.Prime)
+    {p : ℕ} (hp : p ∈ P) {m : ℕ} (hpm : ¬ p ∣ m) :
+    (P.filter (· ∣ p * m)).card = (P.filter (· ∣ m)).card + 1 := by
+  classical
+  have hset : P.filter (· ∣ p * m) = insert p (P.filter (· ∣ m)) := by
+    ext q
+    simp only [Finset.mem_filter, Finset.mem_insert]
+    constructor
+    · rintro ⟨hqP, hqdvd⟩
+      rcases (Nat.Prime.dvd_mul (hP q hqP)).mp hqdvd with hqp | hqm
+      · exact Or.inl ((Nat.prime_dvd_prime_iff_eq (hP q hqP) (hP p hp)).mp hqp)
+      · exact Or.inr ⟨hqP, hqm⟩
+    · rintro (rfl | ⟨hqP, hqm⟩)
+      · exact ⟨hp, dvd_mul_right q m⟩
+      · exact ⟨hqP, hqm.mul_left p⟩
+  rw [hset, Finset.card_insert_of_notMem]
+  intro hmem
+  rw [Finset.mem_filter] at hmem
+  exact hpm hmem.2
+theorem sum_filter_dvd_eq_sum_image {M : Type*} [AddCommMonoid M]
+    (S : Finset ℕ) {p : ℕ} (hp : 0 < p) (h : ℕ → M) :
+    ∑ n ∈ S.filter (fun n => p ∣ n), h n
+      = ∑ m ∈ (S.filter (fun n => p ∣ n)).image (· / p), h (p * m) := by
+  classical
+  have hinj : Set.InjOn (· / p) ↑(S.filter (fun n => p ∣ n)) := by
+    intro n₁ h₁ n₂ h₂ he
+    have hd₁ := (Finset.mem_filter.mp (Finset.mem_coe.mp h₁)).2
+    have hd₂ := (Finset.mem_filter.mp (Finset.mem_coe.mp h₂)).2
+    simp only at he
+    calc n₁ = p * (n₁ / p) := (Nat.mul_div_cancel' hd₁).symm
+      _ = p * (n₂ / p) := by rw [he]
+      _ = n₂ := Nat.mul_div_cancel' hd₂
+  rw [Finset.sum_image (f := fun m => h (p * m)) hinj]
+  refine Finset.sum_congr rfl fun n hn => ?_
+  have hd := (Finset.mem_filter.mp hn).2
+  rw [Nat.mul_div_cancel' hd]
+theorem subset_sum_omega_pos_eq_main_add_coll (S : Finset ℕ)
+    (P : Finset ℕ) (hP : ∀ q ∈ P, q.Prime) (g : ℕ → ℂ) :
+    ∑ m ∈ S.filter (fun m => 0 < (P.filter (· ∣ m)).card), g m
+      = (∑ p ∈ P, ∑ m' ∈ ((S.filter (fun n => p ∣ n)).image (· / p)).filter
+            (fun m' => ¬ p ∣ m'),
+          g (p*m') / (((P.filter (· ∣ m')).card : ℂ) + 1))
+        + ∑ p ∈ P, ∑ m' ∈ ((S.filter (fun n => p ∣ n)).image (· / p)).filter
+            (fun m' => p ∣ m'),
+            g (p*m') / (((P.filter (· ∣ (p*m'))).card : ℂ)) := by
+  classical
+  rw [← sum_div_card_dvd_eq_sum_filter S P g]
+  rw [← Finset.sum_add_distrib]
+  refine Finset.sum_congr rfl fun p hp => ?_
+  have hp0 : 0 < p := (hP p hp).pos
+  rw [sum_filter_dvd_eq_sum_image S hp0
+    (fun n => g n / ((P.filter (· ∣ n)).card : ℂ))]
+  rw [← Finset.sum_filter_add_sum_filter_not
+    ((S.filter (fun n => p ∣ n)).image (· / p)) (fun m' => ¬ p ∣ m')]
+  congr 1
+  · refine Finset.sum_congr rfl fun m' hm' => ?_
+    rw [Finset.mem_filter] at hm'
+    rw [card_filter_dvd_mul_of_prime P hP hp hm'.2]
+    push_cast
+    ring
+  · refine Finset.sum_congr ?_ fun m' _ => rfl
+    ext m'
+    simp only [Finset.mem_filter, not_not]
+end MoltResearch

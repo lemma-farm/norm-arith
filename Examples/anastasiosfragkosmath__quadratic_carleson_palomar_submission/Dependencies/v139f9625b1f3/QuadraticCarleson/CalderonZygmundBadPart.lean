@@ -1,0 +1,27 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.MeasureTheory.Integral.Bochner.Set
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# The cancellative Calderón--Zygmund bad-part estimate in one dimension
+
+This file formalizes the one-dimensional Lipschitz-kernel specialization of
+Lemma 6.12 on printed page 114 of the harmonic-analysis notes supplied by the
+author.  It is the form needed for the low oscillatory part of the positive
+theorem: an atom supported on an interval has mean zero, so subtracting the
+kernel at the interval center converts cancellation into spatial decay.
+-/
+open MeasureTheory Set
+namespace QuadraticCarleson
+set_option autoImplicit false
+/-- The one-dimensional cube of side length `R` centered at `z`, represented
+half-open so disjoint interval families remain literally disjoint. -/
+noncomputable def centeredInterval (z R : ℝ) : Set ℝ :=
+  Ico (z - R / 2) (z + R / 2)
+end QuadraticCarleson

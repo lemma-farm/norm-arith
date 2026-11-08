@@ -1,0 +1,38 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v7cde0ac722d9.CKN.Foundation.Sobolev.Cutoff.Ball
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.Deriv.Add
+import Mathlib.Analysis.Calculus.Deriv.Comp
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.Ring
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# Space-time cutoffs
+
+Adapted from PDEFoundation (EllipticRegularity, 2026) with the author's
+permission. This independent module combines the ball cutoff with a smooth
+one-dimensional time cutoff in the `CKN` namespace.
+
+## Main definitions
+
+* `timeCutoff`: a smooth cutoff equal to one on the backward time interval
+  `[t₀ - r², t₀]`.
+* `spaceTimeCutoff`: the product `η(x) χ(t)`.
+
+## Main results
+
+* `timeCutoff_smooth`, `timeCutoff_eq_one_on`, and
+  `timeCutoff_support_subset` give the temporal cutoff properties.
+* `timeCutoff_abs_deriv_le` gives the explicit bound
+  `32 / (R² - r²)`.
+* `spaceTimeCutoff_smooth`, `spaceTimeCutoff_eq_one_on`, and
+  `spaceTimeCutoff_support_subset` give the product cutoff properties.
+-/
+open Set
+noncomputable section
+namespace CKN
+end CKN

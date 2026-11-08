@@ -1,0 +1,93 @@
+/-
+# Crouzeix--Palencia assembly over smooth Jordan exhaustions
+
+The analytic argument only needs an antitone compact exhaustion whose stages
+contain smooth Jordan frontiers; it does not need those carriers to equal a
+particular metric thickening.  This module isolates that invariant interface,
+derives contour mass and winding from oriented numerical-range support, and
+packages scalar-companion approximation into the sharp exhaustion limit.
+-/
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.ResolventContourHomotopy
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.PalenciaSmoothApproximation
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.PolynomialCauchyFromResolventMass
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.ResolventCauchyKernel
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.ScalarCompanionBoundaryMeasureMass
+import Examples.savarin__lean_operator_theory.Dependencies.v1a342394bc34.Operator.Crouzeix.ScalarCompanionRadialAssembly
+import Mathlib
+set_option autoImplicit false
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+open Complex Filter MeasureTheory Set
+open scoped InnerProductSpace Interval Real
+structure StrictNestedSmoothJordanExhaustion (K : Set ℂ) where
+  domain : ℕ → SmoothJordanDomain
+  target_subset : ∀ n, K ⊆ (domain n).carrier
+  isCompact_closure : ∀ n, IsCompact (closure (domain n).carrier)
+  closure_succ_subset : ∀ n,
+    closure (domain (n + 1)).carrier ⊆ (domain n).carrier
+  iInter_closure : (⋂ n, closure (domain n).carrier) = K
+/-- Smooth realizations of the explicit open metric thickenings automatically
+form a strict nested smooth Jordan exhaustion.  All closed-stage data comes
+from the corresponding compact thickenings; even target nonemptiness follows
+from nonemptiness of the represented smooth carrier. -/
+noncomputable def StrictNestedSmoothJordanExhaustion.ofConvexThickening
+    (K : Set ℂ) (hcompact : IsCompact K) (Omega : ℕ → SmoothJordanDomain)
+    (hcarrier : ∀ n, (Omega n).carrier = convexThickeningApprox K n) :
+    StrictNestedSmoothJordanExhaustion K := by
+  have hnonempty : K.Nonempty := by
+    have hstage := (Omega 0).carrier_nonempty
+    rw [hcarrier 0] at hstage
+    unfold convexThickeningApprox at hstage
+    apply (Metric.thickening_nonempty_iff_of_pos ?_).mp hstage
+    unfold smoothApproxRadius
+    positivity
+  let hspec := compactThickeningApprox_spec K hcompact hnonempty
+  refine
+    { domain := Omega
+      target_subset := ?_
+      isCompact_closure := ?_
+      closure_succ_subset := ?_
+      iInter_closure := ?_ }
+  · intro n
+    rw [hcarrier n]
+    apply Metric.self_subset_thickening
+    unfold smoothApproxRadius
+    positivity
+  · intro n
+    rw [hcarrier n]
+    unfold convexThickeningApprox
+    rw [closure_thickening]
+    · exact hspec.2.1 n
+    · unfold smoothApproxRadius
+      positivity
+  · intro n
+    rw [hcarrier (n + 1), hcarrier n]
+    exact closure_convexThickeningApprox_succ_subset K n
+  · have heq : ∀ n, closure (Omega n).carrier =
+        compactThickeningApprox K n := by
+      intro n
+      rw [hcarrier n]
+      unfold convexThickeningApprox compactThickeningApprox
+      rw [closure_thickening]
+      unfold smoothApproxRadius
+      positivity
+    simp_rw [heq]
+    exact hspec.2.2.2
+/-- Closed disks provide an unconditional model of the strict nested smooth
+Jordan exhaustion: enlarge the radius by `1 / (n + 1)` and use the standard
+circle parametrization. -/
+noncomputable def StrictNestedSmoothJordanExhaustion.closedBall
+    (c : ℂ) (R : ℝ) (hR : 0 ≤ R) :
+    StrictNestedSmoothJordanExhaustion (Metric.closedBall c R) := by
+  let Omega := (smoothClosedBallApproximation c R hR).domain
+  apply StrictNestedSmoothJordanExhaustion.ofConvexThickening
+    (Metric.closedBall c R) (isCompact_closedBall c R) Omega
+  intro n
+  change Metric.ball c (smoothApproxRadius n + R) =
+    Metric.thickening (smoothApproxRadius n) (Metric.closedBall c R)
+  exact (thickening_closedBall (by
+    unfold smoothApproxRadius
+    positivity) hR c).symm
+universe u
+variable {E : Type u} [NormedAddCommGroup E] [InnerProductSpace ℂ E]
+  [CompleteSpace E]

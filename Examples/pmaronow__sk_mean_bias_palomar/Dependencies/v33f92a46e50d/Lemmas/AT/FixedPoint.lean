@@ -1,0 +1,31 @@
+module
+/- Modified for this distribution (2026): Lean compiler/module compatibility and
+   library interface adaptations. Existing source notices are retained. -/
+public import Mathlib
+public import Mathlib.Topology.MetricSpace.ProperSpace.Real
+public import Mathlib.Order.Filter.AtTopBot.CountablyGenerated
+public import Examples.pmaronow__sk_mean_bias_palomar.Dependencies.v33f92a46e50d.Lemmas.GuerraTalagrand.LatalaGuerra
+set_option autoImplicit true
+set_option linter.deprecated false
+@[expose] public section
+open MeasureTheory ProbabilityTheory Real Filter
+open scoped Topology
+set_option autoImplicit false
+namespace SpinGlass.AT
+/-!
+# The replica-symmetric fixed point for the two-spin SK model
+
+This file records existence, uniqueness, and parameter continuity for the
+solution of
+
+`q = E[tanh (h + β * sqrt q * Z) ^ 2]`,
+
+where `Z` is standard Gaussian.  All definitions and proofs in this file are
+built directly from Mathlib.
+
+The analytic inputs in this file are isolated as named lemmas.  In
+particular, `continuous_rsFixedPointRHS` is the dominated-convergence step,
+and `rsFixedPoint_unique` is the standard uniqueness theorem for a nonzero
+external field.
+-/
+end SpinGlass.AT

@@ -1,0 +1,14 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveStoppingBadAction
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-! # Full-real oscillatory endpoint bound for the canonical bad part -/
+open MeasureTheory Set
+open scoped ENNReal NNReal Function
+namespace QuadraticCarleson
+namespace PositiveStoppingBadEstimate
+open CalderonZygmundDyadicStopping CalderonZygmundStoppingIntervals
+open PositiveEndpointOptimization PositiveLevelIntegration
+open PositiveHighHeightEstimate PositiveLowFullEstimate OscillatoryReduction
+end PositiveStoppingBadEstimate
+end QuadraticCarleson

@@ -1,0 +1,31 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v139f9625b1f3.QuadraticCarleson.LowKernelLevelSummation
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# The genuine real-modulation supremum for a low-kernel bad atom
+
+The pointwise estimate in `LowKernelBadAtomSharp` has a right-hand side that
+is independent of the nonzero real modulation parameter.  Consequently it
+controls the supremum over *all* such parameters directly.  This file takes
+that supremum in `ℝ≥0∞`, where its outer integral is meaningful without first
+having to prove measurability of an uncountable supremum.
+
+This is the form needed in the low-oscillation part of the positive endpoint
+proof.  In particular, it does not replace the real supremum by a countable
+or rational one.
+-/
+open MeasureTheory Set
+open scoped ENNReal BigOperators Function
+namespace QuadraticCarleson
+set_option autoImplicit false
+noncomputable section
+open CalderonZygmundLevelAtoms
+open PositiveEndpointOptimization PositiveLevelIntegration
+end
+end QuadraticCarleson

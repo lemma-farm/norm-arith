@@ -1,0 +1,65 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.vd20c8d1f409f.CKN.Foundation.Sobolev.Cutoff.Basic
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.vd20c8d1f409f.CKN.Foundation.Sobolev.Cutoff.Profile
+import Mathlib.Analysis.Calculus.ContDiff.Operations
+import Mathlib.Analysis.Calculus.FDeriv.Add
+import Mathlib.Analysis.Calculus.FDeriv.Mul
+import Mathlib.Analysis.Calculus.FDeriv.Pow
+import Mathlib.Analysis.Calculus.LocalExtr.Basic
+import Mathlib.MeasureTheory.Constructions.BorelSpace.Basic
+import Mathlib.Topology.MetricSpace.Pseudo.Pi
+import Mathlib.Tactic.FunProp
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.Positivity
+import Mathlib.Tactic.Ring
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# Quantitative smooth cutoffs for round balls
+
+Adapted from PDEFoundation (EllipticRegularity, 2026) with the author's
+permission. This independent port uses the native `Fin d → ℝ` carrier and an
+explicit Euclidean squared distance.
+
+## Main definitions
+
+* `euclideanBall` and `euclideanClosedBall`: round balls for the explicit
+  Euclidean norm.
+* `canonicalBallCutoff`: a smooth cutoff with a midpoint support collar.
+
+## Main results
+
+* `canonicalBallCutoff_smooth`, `canonicalBallCutoff_eq_one_on_inner`, and
+  `canonicalBallCutoff_tsupport_subset_outer` give the qualitative cutoff
+  properties.
+* `canonicalBallCutoff_gradient_bound` gives the explicit bound
+  `32 / (R - r)`.
+-/
+open Set
+noncomputable section
+namespace CKN
+/-- Euclidean squared distance on native vectors. -/
+def euclideanSqDist {d : ℕ} (x y : Vec d) : ℝ :=
+  vecNormSq (x - y)
+/-- The explicit round Euclidean open ball. -/
+def euclideanBall {d : ℕ} (x₀ : Vec d) (R : ℝ) : Set (Vec d) :=
+  {x | euclideanSqDist x x₀ < R ^ 2}
+/-- The explicit round Euclidean closed ball. -/
+def euclideanClosedBall {d : ℕ} (x₀ : Vec d) (R : ℝ) : Set (Vec d) :=
+  {x | euclideanSqDist x x₀ ≤ R ^ 2}
+theorem mem_euclideanBall_iff_vecEuclideanNorm_lt {d : ℕ}
+    {x₀ x : Vec d} {R : ℝ} (hR : 0 < R) :
+    x ∈ euclideanBall x₀ R ↔
+      vecEuclideanNorm (x - x₀) < R := by
+  change vecNormSq (x - x₀) < R ^ 2 ↔
+    Real.sqrt (vecNormSq (x - x₀)) < R
+  exact (Real.sqrt_lt' hR).symm
+theorem mem_euclideanClosedBall_iff_vecEuclideanNorm_le {d : ℕ}
+    {x₀ x : Vec d} {R : ℝ} (hR : 0 ≤ R) :
+    x ∈ euclideanClosedBall x₀ R ↔
+      vecEuclideanNorm (x - x₀) ≤ R := by
+  change vecNormSq (x - x₀) ≤ R ^ 2 ↔
+    Real.sqrt (vecNormSq (x - x₀)) ≤ R
+  exact (Real.sqrt_le_left hR).symm
+end CKN

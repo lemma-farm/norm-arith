@@ -1,0 +1,22 @@
+module
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.FTsk
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Entry F, part 11: `prop:F` (reachable designs)
+
+* `F_reach_iff_core`: for `k ≥ s-1`, the design is reachable from the frame by lower-triangular
+  unit-diagonal column gauges with row scalars `λ'_c Q_c^(-k)` iff the residual problem is
+  solvable with these `λ'` (`⇐` is `prop:Gs`; `⇒` factors `U_d = Toep(uN_d) V_d`).
+* `F_poly_iff_core`: the residual problem is solvable iff the partial sums are `λ' w g(y)` with
+  `g` of degree `j` and unit leading coefficient.
+* `F_finite_core`: the finite-place restatement with `z = 1/(a_c - a_d)` and `h = z g`.
+-/
+namespace Z3NetF.Proofs
+open Polynomial Finset Matrix
+noncomputable section
+variable {R : Type*} [CommRing R] {s : ℕ} (inf : Fin s) (x : Fin s → R)
+/-! ## Polynomial form -/
+end
+end Z3NetF.Proofs

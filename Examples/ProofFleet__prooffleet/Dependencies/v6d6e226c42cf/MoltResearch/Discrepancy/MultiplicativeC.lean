@@ -1,0 +1,343 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v6d6e226c42cf.MoltResearch.Discrepancy.Multiplicative
+/-!
+# Discrepancy: ℂ-valued completely multiplicative language layer
+
+First language-layer module for the Tao 2015 analytic core
+(`Problems/tao2015_analytic_core.md`): the ℂ-valued predicates the Fourier-reduction and
+log-Elliott interfaces are stated over, plus the coercion bridge from the existing ℤ-valued
+substrate.
+
+Definitions:
+- `CompletelyMultiplicativeC g` — `g (a * b) = g a * g b` for **all** `a b : ℕ` (no coprimality
+  hypothesis, mirroring the ℤ-valued `CompletelyMultiplicative`).
+- `Unimodular g` — `‖g n‖ = 1` for all `n` (the "valued in the unit circle `S¹`" hypothesis of
+  Tao's interfaces, arXiv:1509.05363 §2).
+
+Bridges (the ℤ-valued substrate embeds in the ℂ-valued language):
+- `CompletelyMultiplicative.toC` — a ℤ-valued completely multiplicative sequence is completely
+  multiplicative after coercion to ℂ.
+- `IsSignSequence.unimodularC` — sign sequences are unimodular after coercion to ℂ.
+
+Partial sums:
+- `apSumC g d n` — ℂ-valued homogeneous AP partial sum, mirroring `apSum`.
+- `CompletelyMultiplicativeC.apSumC_eq_mul_apSumC_one` — the multiplicative collapse
+  `apSumC g d n = g d * apSumC g 1 n` (port of `CompletelyMultiplicative.apSum_eq_mul_apSum_one`).
+- `CompletelyMultiplicativeC.norm_apSumC_eq_norm_apSumC_one` — its norm-level corollary for
+  unimodular `g`: partial-sum growth along any step `d` is the step-one growth.
+
+Design note (from the card's decision record): interfaces for the analytic core must be stated
+over ℂ-valued unimodular functions — the ±1 subclass loses the character-modulated cases. The
+ℤ-valued bridge below is the hand-off *into* that subclass once a reduction produces candidates,
+not a substitute for it.
+-/
+namespace MoltResearch
+/-- A ℂ-valued completely multiplicative sequence: `g (a * b) = g a * g b` for all **nonzero**
+`a b : ℕ` (no coprimality hypothesis).
+
+ℂ-valued analogue of `CompletelyMultiplicative`. As there, we do not bake in `g 1 = 1`: it
+follows for unimodular sequences (`CompletelyMultiplicativeC.map_one_of_unimodular`), and keeping
+the definition minimal makes it easier to produce.
+
+The `a ≠ 0 → b ≠ 0` guards are load-bearing (issue #2879): the literature defines completely
+multiplicative functions on `{1, 2, ...}`, and an unguarded law instantiated at `b = 0` gives
+`g 0 = g a * g 0` for every `a`, which under any nonvanishing-at-`0` condition (`Unimodular`)
+collapses the class to the constant-1 function and vacates every theorem quantifying over it.
+With the guards, `g 0` is genuinely unconstrained junk.
+-/
+def CompletelyMultiplicativeC (g : ℕ → ℂ) : Prop :=
+  ∀ a b : ℕ, a ≠ 0 → b ≠ 0 → g (a * b) = g a * g b
+/-- A unimodular sequence: every value lies on the complex unit circle.
+
+This is the "valued in `S¹`" hypothesis in Tao's Fourier-reduction and log-Elliott interfaces.
+-/
+def Unimodular (g : ℕ → ℂ) : Prop :=
+  ∀ n : ℕ, ‖g n‖ = 1
+namespace Unimodular
+variable {g : ℕ → ℂ}
+/-- Unfolding lemma in simp-friendly form: unimodular values have norm `1`. -/
+@[simp] theorem norm_eq_one (hg : Unimodular g) (n : ℕ) : ‖g n‖ = 1 :=
+  hg n
+/-- Unimodular values are nonzero (they have norm `1`). -/
+theorem ne_zero (hg : Unimodular g) (n : ℕ) : g n ≠ 0 := by
+  intro h
+  have h1 := hg n
+  rw [h] at h1
+  norm_num at h1
+end Unimodular
+/-- ℂ-valued homogeneous AP partial sum: `g d + g (2*d) + ⋯ + g (n*d)`.
+
+Mirrors `apSum` (`Finset.range n` with `i + 1`, so the progression starts at `d`; `n = 0`
+yields sum `0`).
+-/
+noncomputable def apSumC (g : ℕ → ℂ) (d n : ℕ) : ℂ :=
+  (Finset.range n).sum (fun i => g ((i + 1) * d))
+/-- Degenerate length: the empty AP sum vanishes. -/
+@[simp] theorem apSumC_zero_length (g : ℕ → ℂ) (d : ℕ) : apSumC g d 0 = 0 := by
+  simp [apSumC]
+/-- Special case: step size `d = 1` turns `apSumC` into the plain interval sum
+`∑ j ∈ Icc 1 n, g j` (mirrors `apSum_one_d`). -/
+theorem apSumC_one_d (g : ℕ → ℂ) (n : ℕ) :
+    apSumC g 1 n = ∑ j ∈ Finset.Icc 1 n, g j := by
+  classical
+  unfold apSumC
+  have h := (Finset.sum_Ico_eq_sum_range (f := fun i => g i) (m := 1) (n := n + 1))
+  calc
+    (Finset.range n).sum (fun i => g ((i + 1) * 1))
+        = (Finset.range n).sum (fun i => g (1 + i)) := by
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            simp [Nat.add_comm]
+    _ = (Finset.Ico 1 (n + 1)).sum (fun i => g i) := by
+            simpa [Nat.add_sub_cancel] using h.symm
+    _ = ∑ j ∈ Finset.Icc 1 n, g j := by
+            simp [Finset.Ico_add_one_right_eq_Icc]
+/-- Window sum: `g (n+1) + ⋯ + g (n+H)` — the increment of the step-one partial sums over the
+window `(n, n+H]`. This is the quantity the van der Corput argument (Tao 2015, §3) averages:
+its second moment inherits the partial-sum bound (`windowSumC_eq_apSumC_sub`), while its
+square expands into the two-point shift correlations. -/
+noncomputable def windowSumC (g : ℕ → ℂ) (n H : ℕ) : ℂ :=
+  ∑ h ∈ Finset.Icc 1 H, g (n + h)
+/-- Degenerate window: the empty window sum vanishes. -/
+@[simp] theorem windowSumC_zero_H (g : ℕ → ℂ) (n : ℕ) : windowSumC g n 0 = 0 := by
+  simp [windowSumC]
+/-- Telescoping identity: the window sum is the increment of the step-one partial sums.
+
+Normal form: `windowSumC g n H = apSumC g 1 (n + H) - apSumC g 1 n`.
+-/
+theorem windowSumC_eq_apSumC_sub (g : ℕ → ℂ) (n H : ℕ) :
+    windowSumC g n H = apSumC g 1 (n + H) - apSumC g 1 n := by
+  classical
+  unfold windowSumC apSumC
+  rw [← Finset.sum_Ico_eq_sub (fun i => g ((i + 1) * 1)) (Nat.le_add_right n H),
+    Finset.sum_Ico_eq_sum_range]
+  have h := (Finset.sum_Ico_eq_sum_range (f := fun h => g (n + h)) (m := 1) (n := H + 1))
+  calc ∑ h ∈ Finset.Icc 1 H, g (n + h)
+      = ∑ h ∈ Finset.Ico 1 (H + 1), g (n + h) := by
+        simp [Finset.Ico_add_one_right_eq_Icc]
+    _ = ∑ j ∈ Finset.range (H + 1 - 1), g (n + (1 + j)) := h
+    _ = ∑ j ∈ Finset.range (n + H - n), g ((n + j + 1) * 1) := by
+        refine Finset.sum_congr (by simp) fun j _ => ?_
+        congr 1
+        omega
+/-- **Van der Corput expansion** (Tao 2015 §3): for a unimodular sequence, the squared window
+sum is the window length plus the off-diagonal shift correlations:
+
+`‖g(n+1) + ⋯ + g(n+H)‖² = H + ∑_{h ≠ h' ≤ H} Re(g(n+h)·conj(g(n+h')))`.
+
+Since the left side has second moment `≤ 4C` independent of `H` (`windowSndMoment_le`), the
+correlations must be large and negative on average once `H > 4C` — the engine of
+Proposition 1.11. -/
+theorem Unimodular.normSq_windowSumC {g : ℕ → ℂ} (hg : Unimodular g) (n H : ℕ) :
+    ‖windowSumC g n H‖ ^ 2
+      = H + ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h,
+          (g (n + h) * (starRingEnd ℂ) (g (n + h'))).re := by
+  classical
+  have key : ‖windowSumC g n H‖ ^ 2
+      = ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ Finset.Icc 1 H,
+          (g (n + h) * (starRingEnd ℂ) (g (n + h'))).re := by
+    have h1 : ‖windowSumC g n H‖ ^ 2
+        = (windowSumC g n H * (starRingEnd ℂ) (windowSumC g n H)).re := by
+      rw [Complex.mul_conj, Complex.ofReal_re]
+      exact (Complex.normSq_eq_norm_sq _).symm
+    rw [h1]
+    unfold windowSumC
+    rw [map_sum, Finset.sum_mul_sum, Complex.re_sum]
+    exact Finset.sum_congr rfl fun h _ => Complex.re_sum _ _
+  rw [key]
+  have hsplit : ∀ h ∈ Finset.Icc 1 H,
+      ∑ h' ∈ Finset.Icc 1 H, (g (n + h) * (starRingEnd ℂ) (g (n + h'))).re
+        = 1 + ∑ h' ∈ (Finset.Icc 1 H).erase h,
+            (g (n + h) * (starRingEnd ℂ) (g (n + h'))).re := by
+    intro h hh
+    rw [← Finset.add_sum_erase _ _ hh]
+    congr 1
+    rw [Complex.mul_conj, Complex.ofReal_re, Complex.normSq_eq_norm_sq, hg (n + h), one_pow]
+  rw [Finset.sum_congr rfl hsplit, Finset.sum_add_distrib]
+  simp
+/-- Log-averaged two-point window correlation at shift pair `(h, h')` over the window set `s`:
+
+`windowCorr g s h h' = ∑_{n ∈ s} g(n+h)·conj(g(n+h'))/n`.
+
+For `s = Ioc ⌊x/w⌋₊ ⌊x⌋₊` this is exactly the sum the nonasymptotic Elliott theorem bounds at
+affine data `a₁ = a₂ = 1`, `b₁ = h`, `b₂ = h'`, `g₂ = conj g`. -/
+noncomputable def windowCorr (g : ℕ → ℂ) (s : Finset ℕ) (h h' : ℕ) : ℂ :=
+  ∑ n ∈ s, g (n + h) * (starRingEnd ℂ) (g (n + h')) / (n : ℂ)
+/-- **Log-averaged van der Corput expansion**: summing `‖windowSumC g n H‖²/n` over a window
+set splits into the diagonal `H·∑ 1/n` plus the real parts of the pair correlations
+`windowCorr`. Pure finite-sum bookkeeping over `Unimodular.normSq_windowSumC`. -/
+theorem Unimodular.sum_div_normSq_windowSumC {g : ℕ → ℂ} (hg : Unimodular g)
+    (s : Finset ℕ) (H : ℕ) :
+    ∑ n ∈ s, ‖windowSumC g n H‖ ^ 2 / (n : ℝ)
+      = H * (∑ n ∈ s, (1 : ℝ) / n)
+        + ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h, (windowCorr g s h h').re := by
+  classical
+  have hpt : ∀ n ∈ s, ‖windowSumC g n H‖ ^ 2 / (n : ℝ)
+      = (H : ℝ) * (1 / n)
+        + ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h,
+            (g (n + h) * (starRingEnd ℂ) (g (n + h'))).re / n := by
+    intro n _
+    rw [hg.normSq_windowSumC n H, add_div, mul_one_div, Finset.sum_div]
+    congr 1
+    exact Finset.sum_congr rfl fun h _ => Finset.sum_div _ _ _
+  rw [Finset.sum_congr rfl hpt, Finset.sum_add_distrib, ← Finset.mul_sum]
+  congr 1
+  rw [Finset.sum_comm]
+  refine Finset.sum_congr rfl fun h _ => ?_
+  rw [Finset.sum_comm]
+  refine Finset.sum_congr rfl fun h' _ => ?_
+  rw [windowCorr, Complex.re_sum]
+  exact Finset.sum_congr rfl fun n _ => (Complex.div_natCast_re _ n).symm
+/-- **Pigeonhole extraction** (Tao 2015 §3): if the log-averaged squared window sums are small
+(`≤ B` with `B ≤ H·S/2`, as Markov provides on a large event), then some shift pair `(h, h')`
+carries a large correlation: `S/(2H) ≤ ‖windowCorr g s h h'‖`.
+
+`S` is the log-mass `∑_{n ∈ s} 1/n` of the window; at Elliott windows it is `≳ log w`, so the
+conclusion contradicts the nonasymptotic Elliott bound and forces pretentiousness. -/
+theorem Unimodular.exists_pair_windowCorr_le {g : ℕ → ℂ} (hg : Unimodular g)
+    {s : Finset ℕ} {H : ℕ} (hH : 1 ≤ H) {B : ℝ}
+    (hSpos : 0 < ∑ n ∈ s, (1 : ℝ) / n)
+    (hZ : ∑ n ∈ s, ‖windowSumC g n H‖ ^ 2 / (n : ℝ) ≤ B)
+    (hB : B ≤ H * (∑ n ∈ s, (1 : ℝ) / n) / 2) :
+    ∃ h ∈ Finset.Icc 1 H, ∃ h' ∈ Finset.Icc 1 H, h ≠ h' ∧
+      (∑ n ∈ s, (1 : ℝ) / n) / (2 * H) ≤ ‖windowCorr g s h h'‖ := by
+  classical
+  set S : ℝ := ∑ n ∈ s, (1 : ℝ) / n with hSdef
+  by_contra hcon
+  push_neg at hcon
+  -- every pair's correlation real part is > −S/(2H)
+  have hterm : ∀ h ∈ Finset.Icc 1 H, ∀ h' ∈ (Finset.Icc 1 H).erase h,
+      -(S / (2 * H)) ≤ (windowCorr g s h h').re := by
+    intro h hh h' hh'
+    have hne : h ≠ h' := (Finset.ne_of_mem_erase hh').symm
+    have hlt := hcon h hh h' (Finset.mem_of_mem_erase hh') hne
+    have habs : |(windowCorr g s h h').re| ≤ ‖windowCorr g s h h'‖ :=
+      Complex.abs_re_le_norm _
+    have := neg_abs_le (windowCorr g s h h').re
+    linarith
+  -- so the correlation sum is ≥ −H·(H−1)·S/(2H)
+  have hcard : ∀ h ∈ Finset.Icc 1 H, (((Finset.Icc 1 H).erase h).card : ℝ) = (H : ℝ) - 1 := by
+    intro h hh
+    rw [Finset.card_erase_of_mem hh, Nat.card_Icc]
+    have : H + 1 - 1 - 1 = H - 1 := by omega
+    rw [this, Nat.cast_sub hH, Nat.cast_one]
+  have hlower : -((H : ℝ) * ((H : ℝ) - 1) * (S / (2 * H)))
+      ≤ ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h, (windowCorr g s h h').re := by
+    have hinner : ∀ h ∈ Finset.Icc 1 H,
+        -(((H : ℝ) - 1) * (S / (2 * H)))
+          ≤ ∑ h' ∈ (Finset.Icc 1 H).erase h, (windowCorr g s h h').re := by
+      intro h hh
+      calc -(((H : ℝ) - 1) * (S / (2 * H)))
+          = (((Finset.Icc 1 H).erase h).card : ℝ) * (-(S / (2 * H))) := by
+            rw [hcard h hh]; ring
+        _ ≤ ∑ h' ∈ (Finset.Icc 1 H).erase h, (windowCorr g s h h').re := by
+            rw [← nsmul_eq_mul]
+            exact Finset.card_nsmul_le_sum _ _ _ (hterm h hh)
+    calc -((H : ℝ) * ((H : ℝ) - 1) * (S / (2 * H)))
+        = ((Finset.Icc 1 H).card : ℝ) * (-(((H : ℝ) - 1) * (S / (2 * H)))) := by
+          rw [Nat.card_Icc]
+          have : H + 1 - 1 = H := by omega
+          rw [this]; ring
+      _ ≤ ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h, (windowCorr g s h h').re := by
+          rw [← nsmul_eq_mul]
+          exact Finset.card_nsmul_le_sum _ _ _ hinner
+  -- but the expansion says it is ≤ B − H·S ≤ −H·S/2 — contradiction with S > 0
+  have hupper : ∑ h ∈ Finset.Icc 1 H, ∑ h' ∈ (Finset.Icc 1 H).erase h,
+      (windowCorr g s h h').re ≤ B - H * S := by
+    have hexp := hg.sum_div_normSq_windowSumC s H
+    rw [← hSdef] at hexp
+    linarith [hexp ▸ hZ]
+  have hHpos : (0 : ℝ) < H := by exact_mod_cast hH
+  have hfrac : (H : ℝ) * ((H : ℝ) - 1) * (S / (2 * H)) = ((H : ℝ) - 1) * S / 2 := by
+    field_simp
+  nlinarith [hlower, hupper, hB, hSpos, hfrac]
+/-- Norm bound: a window sum of a 1-bounded sequence has norm at most the window length. -/
+theorem norm_windowSumC_le (g : ℕ → ℂ) (hg : ∀ k, ‖g k‖ ≤ 1) (n H : ℕ) :
+    ‖windowSumC g n H‖ ≤ H := by
+  calc ‖windowSumC g n H‖
+      ≤ ∑ h ∈ Finset.Icc 1 H, ‖g (n + h)‖ := norm_sum_le _ _
+    _ ≤ ∑ _h ∈ Finset.Icc 1 H, (1 : ℝ) := Finset.sum_le_sum fun h _ => hg (n + h)
+    _ = H := by simp
+/-- Norm bound: a step-one partial sum of a 1-bounded sequence has norm at most its length. -/
+theorem norm_apSumC_le (g : ℕ → ℂ) (hg : ∀ k, ‖g k‖ ≤ 1) (d n : ℕ) :
+    ‖apSumC g d n‖ ≤ n := by
+  calc ‖apSumC g d n‖
+      ≤ ∑ i ∈ Finset.range n, ‖g ((i + 1) * d)‖ := norm_sum_le _ _
+    _ ≤ ∑ _i ∈ Finset.range n, (1 : ℝ) := Finset.sum_le_sum fun i _ => hg _
+    _ = n := by simp
+namespace CompletelyMultiplicativeC
+variable {g : ℕ → ℂ}
+/-- A completely multiplicative unimodular sequence fixes `1`.
+
+From `g 1 = g 1 * g 1` and `g 1 ≠ 0`, cancellation gives `g 1 = 1`. ℂ-valued analogue of
+`CompletelyMultiplicative.map_one_of_isSignSequence`.
+-/
+@[simp] theorem map_one_of_unimodular (hmul : CompletelyMultiplicativeC g)
+    (hg : Unimodular g) : g 1 = 1 := by
+  have h := hmul 1 1 one_ne_zero one_ne_zero
+  rw [Nat.mul_one] at h
+  have h' : g 1 * g 1 = g 1 * 1 := by rw [mul_one]; exact h.symm
+  exact mul_left_cancel₀ (hg.ne_zero 1) h'
+/-- Sum-level multiplicative collapse (normal form): the ℂ-valued AP sum at step `d` factors
+through the step-one (plain partial) sum.
+
+Normal form: `apSumC g d n = g d * apSumC g 1 n`. Port of
+`CompletelyMultiplicative.apSum_eq_mul_apSum_one` to ℂ. The `d ≠ 0` hypothesis is necessary:
+at `d = 0` the left side is `n • g 0` (junk) while the right is `g 0 * (g 1 + ⋯)`.
+-/
+theorem apSumC_eq_mul_apSumC_one (hmul : CompletelyMultiplicativeC g) {d : ℕ} (hd : d ≠ 0)
+    (n : ℕ) :
+    apSumC g d n = g d * apSumC g 1 n := by
+  unfold apSumC
+  rw [Finset.mul_sum]
+  refine Finset.sum_congr rfl fun i _ => ?_
+  rw [Nat.mul_one, hmul (i + 1) d (Nat.succ_ne_zero i) hd]
+  exact mul_comm _ _
+/-- Norm-level corollary of the multiplicative collapse for unimodular `g`: partial-sum growth
+along any step `d` is exactly the step-one growth (`‖g d‖ = 1` scales nothing away).
+
+This is the quantity Tao's Fourier-reduction interface controls: unboundedness of
+`‖apSumC g 1 n‖` is unboundedness along every step.
+-/
+theorem norm_apSumC_eq_norm_apSumC_one (hmul : CompletelyMultiplicativeC g)
+    (hg : Unimodular g) {d : ℕ} (hd : d ≠ 0) (n : ℕ) :
+    ‖apSumC g d n‖ = ‖apSumC g 1 n‖ := by
+  rw [hmul.apSumC_eq_mul_apSumC_one hd n, norm_mul, hg d, one_mul]
+end CompletelyMultiplicativeC
+/-- Cast bridge at the norm level: the ℂ-partial-sum norm of a coerced ℤ-valued sequence is the
+`natAbs` of its step-one AP sum.
+
+This is the hand-off from ℂ-valued interface conclusions (`∃ n, C < ‖∑ j ∈ Icc 1 n, g j‖` at
+`g = fun n => (f n : ℂ)`) back to the ℤ-valued discrepancy substrate
+(`discrepancy f 1 n = natAbs (apSum f 1 n)`).
+-/
+theorem norm_sum_Icc_intCast_eq_natAbs_apSum_one (f : ℕ → ℤ) (n : ℕ) :
+    ‖∑ j ∈ Finset.Icc 1 n, ((f j : ℂ))‖ = ((apSum f 1 n).natAbs : ℝ) := by
+  have hsum : (∑ j ∈ Finset.Icc 1 n, ((f j : ℂ))) = ((apSum f 1 n : ℤ) : ℂ) := by
+    rw [apSum_one_d]
+    push_cast
+    rfl
+  rw [hsum, Complex.norm_intCast, Nat.cast_natAbs, Int.cast_abs]
+namespace CompletelyMultiplicative
+variable {f : ℕ → ℤ}
+/-- Coercion bridge: a ℤ-valued completely multiplicative sequence is completely multiplicative
+as a ℂ-valued sequence.
+
+This is the hand-off from the verified ±1 substrate into the ℂ-valued language layer of the
+analytic core.
+-/
+theorem toC (hmul : CompletelyMultiplicative f) :
+    CompletelyMultiplicativeC (fun n => (f n : ℂ)) := by
+  intro a b ha hb
+  show ((f (a * b) : ℂ)) = (f a : ℂ) * (f b : ℂ)
+  exact_mod_cast hmul a b ha hb
+end CompletelyMultiplicative
+namespace IsSignSequence
+variable {f : ℕ → ℤ}
+/-- Coercion bridge: sign sequences are unimodular as ℂ-valued sequences
+(`‖(±1 : ℂ)‖ = 1`). -/
+theorem unimodularC (hf : IsSignSequence f) :
+    Unimodular (fun n => (f n : ℂ)) := by
+  intro n
+  rcases hf n with h | h <;> simp [h]
+end IsSignSequence
+end MoltResearch

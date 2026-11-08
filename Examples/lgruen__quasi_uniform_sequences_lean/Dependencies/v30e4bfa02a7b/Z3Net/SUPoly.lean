@@ -1,0 +1,29 @@
+module
+public import Mathlib
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.SUDefs
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Entry U, part 1: the frame as polynomial readings, the basis `E_{d,j}`, Lemma T_s
+
+* Coefficient lists: `linPowL`, `pmul`, `Ecoef` compute the coefficients of
+  `EPoly R k d j = ∏_b (X - Eroot b)^(Eexp k d b j)` (`Evec_coeff`, `pv_EvecR`).
+* Readings: reading `c ≥ 1` is the Taylor expansion at `a_c` (`frame_fin`), reading `0` is the
+  reversed coefficient list (`frame_inf`).
+* Factorisation of `E_{d,j}` at a finite place, exponent sums, monicity.
+* **Lemma T_s** (`lemmaT`): over a commutative ring in which the differences of the finite places
+  are units, a polynomial of degree `< m` whose first `d_c` digits vanish in every reading
+  (`∑ d_c = m`) is zero.
+-/
+namespace Z3NetU.Proofs
+open Polynomial Finset Matrix Z3NetU
+noncomputable section
+/-! ## Polynomials from coefficient vectors (copied from the 4D entry) -/
+section generic
+variable {R : Type*} [CommRing R]
+end generic
+/-! ## Coefficient lists -/
+variable {R : Type*} [CommRing R]
+def c0 {s : ℕ} (hs : 0 < s) : Fin s := ⟨0, hs⟩
+end
+end Z3NetU.Proofs

@@ -1,0 +1,17 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Euclidean.RieszSecond
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Harmonic.Commutator.Kernels
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Harmonic.Interior
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Harmonic.KernelAllOrders
+set_option autoImplicit false
+set_option warningAsError true
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Foundation.Euclidean
+open CKN
+def rieszSecondKernelC₂ : ℝ := 72 / (4 * Real.pi)
+end CKN.Foundation.Euclidean

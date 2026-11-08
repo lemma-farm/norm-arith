@@ -1,0 +1,29 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.Controls
+/-!
+# Lemma 2.16: the damped response
+
+The damped response `B_{μ,ω}` of Definition 2.15 lies in the four-dimensional space `𝓔` for every
+time, with coefficient vector obtained from the coefficients of the control by a damped time
+integral.  The `C^a` norm and the `L^∞` operator norm of the gradient are seminorms on the
+coefficient vectors satisfying a Jensen-type inequality for time integrals, from which the
+estimates of Lemma 2.16 follow.
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real ProbabilityTheory
+open scoped ENNReal ContDiff Matrix NNReal
+noncomputable section
+namespace AnomDiss
+/-! ### Linear structure of the eigenfields -/
+variable {L M : ℕ} {S : ℕ → ℝ}
+section Generic
+variable (F : (Fin 4 → ℝ) → ℝ≥0∞) (hsmul : ∀ (t : ℝ) v, F (t • v) ≤ ‖t‖ₑ * F v)
+  (hsub : ∀ v w, F (v - w) ≤ F v + F w)
+  (hJ : ∀ h : ℝ → Fin 4 → ℝ, Continuous h → ∀ s : ℝ, 0 ≤ s →
+    F (∫ r in (0 : ℝ)..s, h r) ≤ ∫⁻ r in Ioc 0 s, F (h r))
+include hsmul hJ
+include hsub
+variable {L M : ℕ} {S : ℕ → ℝ} (cf : ControlFamily L M S) {μ : ℝ} (hμ : 0 ≤ μ) (w : BlockParam L)
+include hμ
+end Generic
+end AnomDiss

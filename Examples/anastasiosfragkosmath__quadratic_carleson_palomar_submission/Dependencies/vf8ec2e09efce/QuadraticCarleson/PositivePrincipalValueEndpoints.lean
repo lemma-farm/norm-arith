@@ -1,0 +1,28 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.HilbertPrincipalValueClosure
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveFullOperatorEndpoint
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.LacunaryPositiveOperatorReduction
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Positive endpoints for genuine quadratic principal values
+
+The ordinary Hilbert maximal weak estimate is the sole classical input for
+the full-modulation result. The lacunary result additionally uses precisely
+the uniform individual frozen-block weak estimate. Neither hypothesis is an
+estimate for the assembled quadratic operator.
+
+All level-set measures below are outer measures. In particular, passing to
+the supremum over every real modulation requires no assumed measurability.
+-/
+open Filter MeasureTheory Set
+open scoped ENNReal Topology
+namespace QuadraticCarleson
+namespace PositivePrincipalValueEndpoints
+open HilbertPrincipalValueClosure PositiveFullOperatorEndpoint
+open PositiveFullOscillatoryEndpoint OscillatoryReduction
+open LacunaryOscillatoryScaling LacunaryPositiveOperatorReduction
+open KaltonPaperApplication
+set_option autoImplicit false
+end PositivePrincipalValueEndpoints
+end QuadraticCarleson

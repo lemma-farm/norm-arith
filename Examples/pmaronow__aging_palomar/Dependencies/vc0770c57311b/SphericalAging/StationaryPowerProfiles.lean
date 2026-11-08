@@ -1,0 +1,22 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vc0770c57311b.SphericalAging.StationaryComparison
+public import Examples.pmaronow__aging_palomar.Dependencies.vc0770c57311b.SphericalAging.CriticalExponent
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import Mathlib.Analysis.Asymptotics.SpecificAsymptotics
+set_option autoImplicit false
+public section
+/-!
+# The actual shifted-power comparison profiles
+
+The corrected powers and all derivatives below are actual real functions.
+The Gamma quotient estimate is derived from the proved strict digamma theorem.
+-/
+open Set MeasureTheory Filter
+open scoped Topology NNReal
+namespace SphericalAging.StationaryPowerProfiles
+noncomputable section
+@[expose] def shiftedPower (a t : ℝ) : ℝ := (1 + t) ^ (-a)
+theorem shiftedPower_pos (a t : ℝ) (ht : 0 ≤ t) : 0 < shiftedPower a t :=
+  Real.rpow_pos_of_pos (by linarith) _
+end
+end SphericalAging.StationaryPowerProfiles

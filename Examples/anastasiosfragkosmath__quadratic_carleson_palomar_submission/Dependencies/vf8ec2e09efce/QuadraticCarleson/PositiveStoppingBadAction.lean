@@ -1,0 +1,16 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveStoppingBadRecombination
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.OscillatoryReductionL1
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.OscillatoryReductionMaximal
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-! # Genuine oscillatory action of the canonical stopping bad part -/
+open MeasureTheory Set
+open scoped ENNReal NNReal Function
+namespace QuadraticCarleson
+namespace PositiveStoppingBadEstimate
+open CalderonZygmundDyadicStopping CalderonZygmundStoppingIntervals
+open PositiveEndpointOptimization PositiveHighHeightEstimate PositiveLowFullEstimate
+open OscillatoryReduction
+end PositiveStoppingBadEstimate
+end QuadraticCarleson

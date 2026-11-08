@@ -1,0 +1,32 @@
+/-
+Copyright (c) 2026 Scott Armstrong, Amélie Loher. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong, Amélie Loher
+-/
+module
+public import Examples.scottnarmstrong__Frohlich_Spencer.Dependencies.v172fd76c244b.FroehlichSpencer.T12.Cubes
+public import Mathlib
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Entropy: the number of sets with a given cover volume (Section 4)
+
+Internal lemma.
+
+Proof: a set `D` is recovered from its chain of minimum covers `C_n(D)`, since `C_0(D) = D`.
+
+Every cube of `C_n(D)` meets `D`, hence meets a cube of `C_{n+1}(D)`, so `C_n(D)` lies in a fixed
+set of at most `7^ν |C_{n+1}(D)|` candidate centres.
+
+Counting the possible chains level by level
+gives at most `exp (7^ν V)` sets with a given top cube; with the `≤ 3^ν` top cubes containing `x`
+and `n₀ < V` levels the total is at most `exp (Kν V)`, `Kν = 1 + 2ν + 7^ν`.
+-/
+@[expose] public section
+namespace FroehlichSpencer.T12
+end FroehlichSpencer.T12

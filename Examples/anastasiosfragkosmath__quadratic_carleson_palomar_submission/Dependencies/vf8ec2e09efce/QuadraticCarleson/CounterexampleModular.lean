@@ -1,0 +1,27 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.Counterexample
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Modular smallness of the counterexample
+
+This file proves the `o(N)` modular bound in equation `eq:modularcalc` of
+the paper for the existing counterexample family. Convexity gives the
+secant estimate `∫ Φ(g) ≤ Φ(M) / M * ∫ g` whenever `0 ≤ g ≤ M`.
+The packet family has mass `N` and admits the uniform envelope
+`exp(C + N²)`, whose paper double logarithm is `O(log N)`. The assumed
+strictly subendpoint growth of the Young function then yields the exact
+claimed modular little-o bound.
+-/
+open MeasureTheory Set Filter Asymptotics
+open scoped Topology
+namespace QuadraticCarleson
+theorem YoungFunction.nonneg (Φ : YoungFunction) {t : ℝ} (ht : 0 ≤ t) : 0 ≤ Φ t := by
+  simpa only [Φ.map_zero] using
+    Φ.strictMonoOn_nonneg.monotoneOn (show (0 : ℝ) ∈ Ici 0 by simp) ht ht
+end QuadraticCarleson

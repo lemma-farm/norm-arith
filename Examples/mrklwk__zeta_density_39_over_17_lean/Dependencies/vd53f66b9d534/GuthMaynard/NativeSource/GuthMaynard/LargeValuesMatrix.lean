@@ -1,0 +1,18 @@
+module
+public import Mathlib.Analysis.Matrix.PosDef
+public import Mathlib.Analysis.CStarAlgebra.Matrix
+public import Mathlib.LinearAlgebra.Matrix.Hermitian
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Examples.mrklwk__zeta_density_39_over_17_lean.Dependencies.vd53f66b9d534.GuthMaynard.NativeSource.GuthMaynard.LargeValuesDefinitions
+set_option autoImplicit false
+@[expose] public section
+open Complex Finset
+open scoped BigOperators ComplexOrder Matrix Matrix.Norms.L2Operator
+namespace GuthMaynard.NativeMoment
+/-!
+# The Guth--Maynard sampling matrix
+
+This file packages the finite matrix from Section 4 and proves its elementary
+action and Gram identities.  The analytic trace estimates are downstream.
+-/
+end GuthMaynard.NativeMoment

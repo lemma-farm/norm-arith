@@ -1,0 +1,19 @@
+module
+public import Examples.vltanh__lean4_ambidextrous_sofa.Dependencies.ve2c0fc6bb439.AmbidextrousSofa.Analysis.TiltedInitialEnergyBounds
+set_option autoImplicit false
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+@[expose] public section
+/-!
+# Exact stopping bounds for a proper reflected excess
+
+The first-zero and decay roots are compared jointly. Differences of
+squares show that the decay gain under increasing width pays for the
+opposite movement of the first zero. The analogous height comparison
+uses the circle relation between those roots. At the largest width,
+every energy root is at least two, so the whole height range compares
+with its upper endpoint. No subdivision of the height range is needed.
+-/
+noncomputable section
+namespace AmbidextrousSofa.Analysis
+end AmbidextrousSofa.Analysis

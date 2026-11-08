@@ -1,0 +1,24 @@
+module
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Geometry
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Operator
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.Geometry.KineticPointMeasure
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.Parabolic.Geometry
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Section 5 geometry and reflection API
+
+Literal source definitions and complete formula characterizations.
+-/
+@[expose] public section
+noncomputable section
+namespace HypoellipticAleksandrov.KineticAleksandrov
+open Set MeasureTheory
+open scoped MatrixOrder Matrix.Norms.Elementwise
+open HypoellipticAleksandrov.Parabolic
+end HypoellipticAleksandrov.KineticAleksandrov

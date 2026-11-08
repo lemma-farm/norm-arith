@@ -1,0 +1,11 @@
+module
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.CompactOriginalSheetProducts
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.PolydiskBound
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.ReciprocalPolynomials
+public import Mathlib
+@[expose] public section
+/-! The literal original polynomial, derivative, reciprocal identity and compact uniform bounds. -/
+namespace MeyerGeneralProblem.StrongParity
+noncomputable section
+end
+end MeyerGeneralProblem.StrongParity

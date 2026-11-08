@@ -1,0 +1,16 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.KrauseLaceySparseInterface
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+open Function MeasureTheory Set
+open scoped ENNReal Topology ComplexConjugate
+namespace QuadraticCarleson
+set_option autoImplicit false
+set_option maxHeartbeats 800000
+namespace L0Infinity
+end L0Infinity
+namespace RealInterval
+end RealInterval
+namespace KrauseLaceySparseReflection
+end KrauseLaceySparseReflection
+end QuadraticCarleson

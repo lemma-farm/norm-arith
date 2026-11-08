@@ -1,0 +1,28 @@
+module
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Complex.Log
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+import Mathlib.Analysis.Complex.ExponentialBounds
+import Mathlib.Analysis.Normed.Ring.Basic
+import Mathlib.Analysis.Real.Pi.Bounds
+import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+import Mathlib.Basic.Real.Basic
+import Mathlib.Data.Set.Basic
+import Mathlib.Tactic.Bound
+import Mathlib.Tactic.Cases
+import Mathlib.Tactic.FieldSimp
+import Mathlib.Topology.MetricSpace.Basic
+import Examples.LR_UK__Bounded_orbit_wandering_domains.Dependencies.v9848e5a487a8.Ray.Misc.Bound
+/-!
+## Assorted bound lemmas
+-/
+open Classical
+open Complex (exp log I slitPlane)
+open Filter (atTop)
+open scoped Real NNReal Topology symmDiff
+variable {α : Type}
+variable {M : Type} [AddCommMonoid M]
+variable {E : Type} [NormedAddCommGroup E] [NormedSpace ℂ E]
+variable {G : Type} [NormedAddCommGroup G]

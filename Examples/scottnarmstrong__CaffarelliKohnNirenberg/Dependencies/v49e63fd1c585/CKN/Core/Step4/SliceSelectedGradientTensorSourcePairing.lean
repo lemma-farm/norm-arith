@@ -1,0 +1,21 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Core.Step4.SliceSelectedGradientTensorSource
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Sobolev.WeakDerivative.Product
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# Integration by parts for the centred tensor
+
+Without a finite-measure assumption on the open set, the identity for
+`eq:pressure-gradient-decomposition` follows by differentiating the
+quadratic product, subtracting its constant-vector correction, and using the
+vanishing trace of the weak velocity gradient.
+-/
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Core.Step4
+end CKN.Core.Step4

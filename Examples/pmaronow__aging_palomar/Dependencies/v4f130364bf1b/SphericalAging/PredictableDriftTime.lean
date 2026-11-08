@@ -1,0 +1,19 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.v4f130364bf1b.SphericalAging.PredictableItoTime
+public import Mathlib.Probability.Process.Predictable
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+set_option autoImplicit false
+public section
+/-! The deterministic Volterra operator in the same predictable product L²
+space used for the Itô operator. No adaptedness or integrability of a putative
+solution is supplied as an existence hypothesis. -/
+noncomputable section
+open MeasureTheory ProbabilityTheory StochasticCalculus Set Filter Topology
+open scoped NNReal ENNReal InnerProductSpace
+namespace SphericalAging.PredictableDriftTime
+variable {Ω : Type*} [MeasurableSpace Ω] {P : Measure Ω} [IsProbabilityMeasure P]
+  {F : Filtration ℝ≥0 ‹MeasurableSpace Ω›}
+open FourPapersCommon.FilteredBrownian (finiteTimeMeasure)
+open SphericalAging.HardSphereDynamics SphericalAging.PredictableItoTime
+variable {N : ℕ}
+end SphericalAging.PredictableDriftTime

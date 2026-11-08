@@ -1,0 +1,29 @@
+module
+public import Mathlib.Analysis.Complex.CoveringMap
+public import Mathlib.Topology.Homotopy.Lifting
+public import Examples.QuanyuTang__polya_neumann_simply_connected_formalization_Palomar_version_v2.Dependencies.v8c81233ec7e9.RequestProject.BoundaryLoop
+public import Examples.QuanyuTang__polya_neumann_simply_connected_formalization_Palomar_version_v2.Dependencies.v8c81233ec7e9.RequestProject.ExteriorConnected
+/-!
+# The boundary of a simply connected Lipschitz domain is connected
+
+Let `Ω` be a bounded simply connected Lipschitz domain.
+
+* For `z ∉ Ω̄`, the function `w ↦ w - z` has a continuous logarithm on `Ω` (lifting through the
+  covering map `exp`, which uses simple connectivity), and this logarithm extends continuously to
+  `Ω̄`, because near a boundary point `Ω` is the connected region above a Lipschitz graph
+  (`exists_log_closure`). Hence every closed Lipschitz curve in `Ω̄` has winding number `0` about
+  every point outside `Ω̄` (`windingNumber_eq_zero_of_lift`).
+* A Lipschitz Jordan loop `γ` contained in `∂Ω` (from the boundary walk) separates a point of `Ω`
+  from a point outside `Ω̄` near one of its points: the winding numbers differ by the jump `±1`
+  (`exists_windingNumber_ne_of_frontier`).
+* If `∂Ω` had a point `q` off the loop, then near `q` there would be both points of `Ω` and points
+  outside `Ω̄` in a disc missing the loop, so the winding number of the loop would be `0` on `Ω`,
+  contradicting the jump. Hence the loop is all of `∂Ω`, and `∂Ω` is connected
+  (`isPreconnected_frontier_of_simplyConnected`).
+-/
+@[expose] public section
+open MeasureTheory Set Filter Metric
+open scoped ComplexConjugate Real Topology
+noncomputable section
+namespace PolyaNeumann
+end PolyaNeumann

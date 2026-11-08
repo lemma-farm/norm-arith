@@ -1,0 +1,80 @@
+import Mathlib
+/-!
+# Discrepancy: basic definitions
+
+These definitions are intended as **reusable verified substrate** for discrepancy-style problems.
+
+Design principles:
+- keep definitions small and composable
+- avoid baking in problem-specific choices too early
+- prefer ℕ-indexed sequences with ℤ values for summation convenience
+-/
+namespace MoltResearch
+/-- A ±1-valued sequence on ℕ (values in ℤ). -/
+def IsSignSequence (f : ℕ → ℤ) : Prop := ∀ n, f n = 1 ∨ f n = -1
+/-- Sum of `f` along the homogeneous arithmetic progression `d, 2d, ..., nd`.
+
+We use `Finset.range n` with `i+1` so the progression starts at `d`.
+- `n = 0` yields sum 0.
+-/
+def apSum (f : ℕ → ℤ) (d n : ℕ) : ℤ :=
+  (Finset.range n).sum (fun i => f ((i + 1) * d))
+/-! ### Discrepancy definition and basic API -/
+/-- A convenient wrapper for the absolute value of an arithmetic-progression sum.
+
+It is defined as the natural absolute value of `apSum f d n`.
+-/
+def discrepancy (f : ℕ → ℤ) (d n : ℕ) : ℕ :=
+  Int.natAbs (apSum f d n)
+def apSumOffset (f : ℕ → ℤ) (d m n : ℕ) : ℤ :=
+  (Finset.range n).sum (fun i => f ((m + i + 1) * d))
+/-!
+### `apSumOffset` argument-order coherence helper (API coherence)
+
+`apSumFrom` uses argument order `(a d n)`, i.e. “start, step, length”.
+
+For the offset nucleus `apSumOffset`, the historical order is `(d m n)`.
+This file keeps that order (it is used widely), but we also provide the alias
+`apSumOffset'` with the more uniform order `(m d n)`.
+
+Checklist item: Problems/erdos_discrepancy.md (Track B) — “Nucleus API coherence”.
+-/
+def discOffset (f : ℕ → ℤ) (d m n : ℕ) : ℕ :=
+  Int.natAbs (apSumOffset f d m n)
+def discAlong (f : ℕ → ℤ) (d n : ℕ) : ℕ :=
+  discOffset f d 0 n
+def BoundedDiscrepancyAlong (f : ℕ → ℤ) (d len B : ℕ) : Prop :=
+  ∀ n : ℕ, n ≤ len → discAlong f d n ≤ B
+namespace BoundedDiscrepancyAlong
+end BoundedDiscrepancyAlong
+/-! ### Congruence lemmas -/
+def HasDiscrepancyAtLeastAlong (f : ℕ → ℤ) (d C : ℕ) : Prop :=
+  ∃ n : ℕ, discrepancy f d n > C
+namespace HasDiscrepancyAtLeastAlong
+end HasDiscrepancyAtLeastAlong
+/-- Unbounded discrepancy along a fixed step `d` (witness normal form).
+
+This is the “along `d`” analogue of the global statement `∀ C, HasDiscrepancyAtLeast f C`.
+-/
+def UnboundedDiscrepancyAlong (f : ℕ → ℤ) (d : ℕ) : Prop :=
+  ∀ C : ℕ, HasDiscrepancyAtLeastAlong f d C
+namespace UnboundedDiscrepancyAlong
+end UnboundedDiscrepancyAlong
+lemma IsSignSequence.comp {f : ℕ → ℤ} (g : ℕ → ℕ) (hf : IsSignSequence f) :
+    IsSignSequence (fun n => f (g n)) := by
+  intro n
+  simpa using hf (g n)
+section apSumOffset_degenerate
+end apSumOffset_degenerate
+/-! ### Degenerate length simp lemmas for `discOffset`
+
+These are the `natAbs`/`ℕ`-valued counterparts of `apSumOffset_zero` / `apSumOffset_one`.
+They are meant to reduce “degenerate tail” boilerplate at the discrepancy level.
+-/
+section discOffset_degenerate
+end discOffset_degenerate
+/-! ### Degenerate length simp lemmas for homogeneous wrappers -/
+section disc_degenerate
+end disc_degenerate
+-- (deprecated alias moved to `MoltResearch.Discrepancy.Deprecated`)
+end MoltResearch

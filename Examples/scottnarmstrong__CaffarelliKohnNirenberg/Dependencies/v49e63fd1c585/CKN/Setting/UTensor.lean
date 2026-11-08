@@ -1,0 +1,48 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Parabolic.BallDisplays
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Parabolic.Basic
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Statements.SpatialGradientSq
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Setting.Finiteness
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Setting.SobolevPoincareBridge
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.SliceIntegrability
+import Mathlib.MeasureTheory.Integral.Average
+import Mathlib.MeasureTheory.Integral.MeanInequalities
+import Mathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# The tensor `U` built from a mean-free velocity field
+
+This file records the tensor that `paper/ckn.tex` attaches to the local energy
+class in the proof of Lemma `lem:U-bounds` (equation `eq:Uij`): at a point
+`y` of the spatial ball `B_ρ = vec3Ball x₀ ρ` and at time `t`,
+
+`U_ij(y,t) = -u_i(y,t) * (u_j(y,t) - ⨍_{B_ρ} u_j(·,t))`,
+
+where the second factor is the mean-free part of the velocity field, averaged
+in space over `B_ρ` with `MeasureTheory.average`.  Writing
+
+`|U| = (∑_{i,j} U_ij²)^{1/2}`,
+
+the main result `U_bounds_of_sobolevPoincare` is the two displays
+`eq:U-bounds` of the paper:
+
+* `(∫_{B_ρ} |U|^{3/2})^{2/3} ≤ C₅ · 𝔲(t) · 𝔤(t)`;
+* `∫_{B_ρ} |U| ≤ (4π/3)^{1/3} C₅ ρ · 𝔲(t) · 𝔤(t)`,
+
+with `𝔲(t) = (∫_{B_ρ} |u(·,t)|²)^{1/2}` and
+`𝔤(t) = (∫_{B_ρ} |∇u(·,t)|²)^{1/2}`.  The only analytic input is the
+same-ball `L⁶` Sobolev–Poincaré inequality (equation
+`eq:sobolev-poincare-6`), taken as an explicit hypothesis on the mean-free
+field; everything else is the pointwise rank-one identity `|U| = |u| |v|`,
+Hölder's inequality, and the volume of `B_ρ`.
+-/
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+namespace CKN
+noncomputable section
+end
+end CKN

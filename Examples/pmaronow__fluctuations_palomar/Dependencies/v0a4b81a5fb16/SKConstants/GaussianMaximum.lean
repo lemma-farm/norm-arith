@@ -1,0 +1,9 @@
+module
+public import Examples.pmaronow__fluctuations_palomar.Dependencies.v0a4b81a5fb16.SKConstants.GaussianHamiltonian
+public import Mathlib
+public section
+noncomputable section
+open MeasureTheory ProbabilityTheory
+open scoped Classical
+namespace SKConstants
+end SKConstants

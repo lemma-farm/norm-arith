@@ -1,0 +1,15 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreValueTruncationL2
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.L2BoundedCoefficientConvergence
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreSmoothDistributionalGradient
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreDistributionalClosure
+public import Mathlib.Analysis.Calculus.MeanValue
+@[expose] public section
+/-! # Nonlinear chain rule through actual smooth graph limits -/
+open MeasureTheory Filter
+open scoped Topology ContDiff NNReal
+namespace GinibrePoincare
+noncomputable section
+set_option maxHeartbeats 600000
+end
+end GinibrePoincare

@@ -1,0 +1,28 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Setting.ExcessComparisonCore
+set_option autoImplicit false
+set_option warningAsError true
+open MeasureTheory MeasureTheory.Measure Set Filter
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+set_option autoImplicit false
+noncomputable section
+namespace CKN
+/-!
+# Integrability of the mean-free velocity cube on a parabolic cylinder
+
+This file supplies the integrability of the integrand of the local quantity
+`Ĉ(z,ρ)` on a contained parabolic cylinder, the estimate used in
+`prop:lin34` of `paper/ckn.tex` (equation `eq:Chat`).  Concretely, if the
+velocity `u` and its cube `|u|^3` are integrable on the one-sided parabolic
+cylinder `parabolicCylinder x t r`, then so is the cube of the mean-free
+velocity `meanFreeVec u x r w.2 w.1`, the spatial mean-free part of `u` at
+time `w.2` over the ball `vec3Ball x r`.
+
+The proof converts the cylinder integral to the product measure on
+`vec3Ball x r ×ˢ Ioc (t - r^2) t`, uses the pointwise mean-oscillation bound
+on almost every spatial slice, and applies Tonelli's theorem.  The two helper
+lemmas below are private.
+-/
+end CKN

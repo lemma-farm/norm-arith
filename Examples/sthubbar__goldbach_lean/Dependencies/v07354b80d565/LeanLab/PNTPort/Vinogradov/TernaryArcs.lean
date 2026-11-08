@@ -1,0 +1,17 @@
+module
+public import Examples.sthubbar__goldbach_lean.Dependencies.v07354b80d565.LeanLab.PNTPort.Vinogradov.TernaryMajor
+/-!
+# The major arcs on `ZMod M` as a disjoint union
+
+Lab proof, unit U-5254. AI wrote this file. Known mathematics, no cited input.
+
+* `arcSet M Q q a`: the `k` with `‖k/M - a/q‖ ≤ 1/(q(Q + 1))`.
+* `majIdx P`: the reduced `a/q`, `1 ≤ q ≤ P`, `0 ≤ a < q`, `(a, q) = 1`.
+* `nonminor_eq`: the frequencies outside `minorSet P Q M` are exactly the union of the arcs;
+  `arcs_disjoint`: the arcs are pairwise disjoint when `2/(Q + 1) < 1/P²`.
+-/
+@[expose] public section
+namespace LeanLab.PNTPort.Vinogradov
+open Complex Finset Real ZMod
+open LeanLab.PNTPort.LargeSieve
+end LeanLab.PNTPort.Vinogradov

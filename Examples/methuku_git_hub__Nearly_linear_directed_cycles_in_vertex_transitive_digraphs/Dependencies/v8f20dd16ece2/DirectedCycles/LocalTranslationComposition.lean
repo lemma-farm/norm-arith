@@ -1,0 +1,14 @@
+module
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalFiniteTranslations
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalTripleProducts
+set_option autoImplicit false
+@[expose] public section
+set_option autoImplicit false
+namespace DirectedCycles
+namespace LocalGroupAlgebra
+variable {G : Type*} (L : LocalGroupAlgebra G)
+section Finite
+variable [Fintype G]
+end Finite
+end LocalGroupAlgebra
+end DirectedCycles

@@ -1,0 +1,22 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveStoppingBadEndpoint
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.PositiveStoppingGoodEstimate
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# The full-real oscillatory endpoint theorem
+
+The canonical stopping decomposition, the genuine good-part L² estimate,
+and the recombined low/high bad-part estimates give the normalized
+`L log₁ L` bound for the original input's oscillatory operator.
+-/
+open MeasureTheory Set
+open scoped ENNReal NNReal Function
+namespace QuadraticCarleson
+namespace PositiveFullOscillatoryEndpoint
+open CalderonZygmundDyadicStopping CalderonZygmundStoppingIntervals
+open PositiveEndpointOptimization PositiveLevelIntegration
+open PositiveHighHeightEstimate PositiveLowFullEstimate OscillatoryReduction
+open PositiveStoppingBadEstimate PositiveGoodOscillatory
+end PositiveFullOscillatoryEndpoint
+end QuadraticCarleson

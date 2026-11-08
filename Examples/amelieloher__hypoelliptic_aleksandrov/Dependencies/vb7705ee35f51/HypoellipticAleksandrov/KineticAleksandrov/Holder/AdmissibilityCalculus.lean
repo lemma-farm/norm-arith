@@ -1,0 +1,21 @@
+module
+public import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Holder.Admissibility
+import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Maximum.ComparisonConstant
+import Mathlib.Analysis.Calculus.Deriv.Mul
+import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Maximum.ComparisonLinear
+import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Evolution.ComparisonLinear
+import Examples.amelieloher__hypoelliptic_aleksandrov.Dependencies.vb7705ee35f51.HypoellipticAleksandrov.KineticAleksandrov.Evolution.ComparisonCalculus
+import Mathlib.Tactic
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-! # Smooth source tests and affine backward-operator identities -/
+@[expose] public section
+noncomputable section
+namespace HypoellipticAleksandrov.KineticAleksandrov.Holder
+open Set Parabolic
+end HypoellipticAleksandrov.KineticAleksandrov.Holder

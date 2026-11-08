@@ -1,0 +1,44 @@
+/-
+Copyright (c) 2026 Shengtong Zhang. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Shengtong Zhang
+-/
+module
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.CP.Basic
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.M.Config
+public import Examples.shaikidris__kkp_asymptotic_spectral_bound.Dependencies.v273bec15eda8.BN.TN.Truncated
+public import Mathlib.Analysis.Matrix.PosDef
+public import Mathlib.Algebra.BigOperators.Fin
+public import Mathlib.Data.Fin.Tuple.Basic
+public import Mathlib.Data.Fintype.BigOperators
+public import Mathlib.Data.Real.Basic
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Coeff
+public import Mathlib.LinearAlgebra.Matrix.SchurComplement
+public import Mathlib.Logic.Equiv.Fin.Basic
+@[expose] public section
+/-!
+# Ordered elimination residuals
+
+The residual of symmetric Gaussian elimination of a principal index list is a
+ratio of minors (EL01). Eliminating `idxZ0` leaves the `z`-block and its
+`y`-coupling unchanged (EL02). That `z`-block is a Gram matrix plus a
+positive diagonal, hence PD, so later pivots stay positive (EL03). The
+numerator minor expands in the `I`-diagonal as a sum of complementary Gram
+minors (EL04); those principal cofactors have sign `+1` (EL05). Factoring
+`s i > 0` and `ρ > 0` leaves the unscaled kernel `(1 + t_a t_b)²` or a last
+row `(t_b - x)₊²` (EL06). An algebraic identity rewrites `(1 + s t)²` as a
+truncated square (EL07). Row arguments `-1/t_a` are increasing and lie
+below any `x ≥ 0` (EL08–EL09). Those leftover minors are nonnegative by
+TN13 (EL10), so residual columns stay nonnegative (EL11). Scaled outer
+products of those columns yield a completely positive `C₀` (EL12). The
+remainder is the `T`-Schur complement of `E` and is PSD (EL13–EL14).
+-/
+open Matrix Function
+namespace BN
+variable {ι : Type*} {r : ℕ}
+set_option linter.unusedSectionVars false
+noncomputable section
+variable {k p : ℕ}
+open Finset
+end
+end BN

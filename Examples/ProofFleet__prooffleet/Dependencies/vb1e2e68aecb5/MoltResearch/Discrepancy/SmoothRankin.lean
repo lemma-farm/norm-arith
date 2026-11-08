@@ -1,0 +1,19 @@
+import Examples.ProofFleet__prooffleet.Dependencies.vb1e2e68aecb5.MoltResearch.Discrepancy.RamareIdentity
+import Examples.ProofFleet__prooffleet.Dependencies.vb1e2e68aecb5.MoltResearch.Discrepancy.LogUniform
+import Mathlib.NumberTheory.SmoothNumbers
+/-!
+# Track R: smooth numbers — Rankin majorization and elementary counts
+
+The smooth-number substrate of the cheap Halász factorization
+(campaign #3044, M2-b): the `δ`-damped sum over `k`-smooth numbers is
+majorized by the finite Euler product (Rankin's device, exact and
+finite), and the smooth counting function obeys the Chebyshev-type
+bound `Ψ(x,y)·log x ≤ x + 8·x·log y`, which at `y = x^ε` makes the
+`x^ε`-smooth numbers an `O(ε)`-fraction — uniformly in `x`, the form
+the three-scale factorization consumes.
+-/
+namespace MoltResearch
+open Finset
+namespace ExpSums
+end ExpSums
+end MoltResearch

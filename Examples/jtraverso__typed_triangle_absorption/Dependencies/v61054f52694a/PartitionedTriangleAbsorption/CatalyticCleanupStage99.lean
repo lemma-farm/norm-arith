@@ -1,0 +1,22 @@
+/-
+Copyright (c) 2026 Juan Pablo Traverso Gianini. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Juan Pablo Traverso Gianini
+-/
+module
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v61054f52694a.PartitionedTriangleAbsorption.SelectedTripleCutStage98
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v61054f52694a.PartitionedTriangleAbsorption.RefinerAssembly
+/-! # Geometry of the catalytic residue after all original triples are cut
+
+These lemmas derive the companion of a catalytic handle from the actual
+physical state and boundary invariant. No new supply or decomposition of
+the catalytic residue is assumed.
+-/
+@[expose] public section
+namespace PartitionedTriangleAbsorption.CatalyticCleanupStage99
+open Finset AntiEdgeSelection TypedTransformer CatalystInsertionStage89 TripleCutStage94
+variable {V : Type*} [DecidableEq V] [Fintype V] {t : ℕ}
+  {p : V → Fin t} {F : Finset (Multiset (Fin t))}
+  {G : SimpleGraph V} [DecidableRel G.Adj] {B U : Finset (Sym2 V)}
+  {Z : Finset V} {S : Data V} {pos : Tok V → Sym2 V}
+end PartitionedTriangleAbsorption.CatalyticCleanupStage99

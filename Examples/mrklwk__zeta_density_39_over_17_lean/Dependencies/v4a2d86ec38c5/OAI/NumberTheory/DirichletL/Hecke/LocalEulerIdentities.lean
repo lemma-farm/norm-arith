@@ -1,0 +1,56 @@
+module
+public import Examples.mrklwk__zeta_density_39_over_17_lean.Dependencies.v4a2d86ec38c5.OAI.NumberTheory.DirichletL.Hecke.NormFiberCharacters
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+namespace OAI
+noncomputable section
+open scoped BigOperators
+open MulChar AddChar
+open scoped BigOperators
+open Filter Asymptotics MeasureTheory
+open scoped Topology
+open MeasureTheory Real
+open scoped FourierTransform SchwartzMap
+open Finset Complex
+open scoped Classical
+open scoped Classical
+open Filter Real Asymptotics
+open ActualEisensteinCubic
+open Filter
+open ActualEisensteinCubic RationalPrimeExtraction ShortDraftLatticeCount
+open ActualEisensteinCubic ShortDraftLatticeCount
+open Filter
+open scoped Topology
+open EisensteinEmbedding ConcreteTraceCRT ActualEisensteinCubic
+open MulChar AddChar
+open Filter Asymptotics
+open scoped LSeries.notation ArithmeticFunction.Moebius
+open Filter
+open MulChar AddChar
+open MulChar AddChar
+open scoped LSeries.notation ArithmeticFunction.Moebius
+open Filter Asymptotics MeasureTheory
+open scoped Topology
+namespace ShortDraftHeckeBridge
+private instance : IsCyclotomicExtension {3} ℚ ActualEisensteinSieve.K :=
+  CyclotomicField.isCyclotomicExtension 3 ℚ
+end ShortDraftHeckeBridge
+namespace NormSplitArithmetic
+end NormSplitArithmetic
+namespace NormFiberCRT
+abbrev O := ActualEisensteinSieve.O
+abbrev K := ActualEisensteinSieve.K
+private instance : IsCyclotomicExtension {3} ℚ K :=
+  CyclotomicField.isCyclotomicExtension 3 ℚ
+end NormFiberCRT
+namespace NormFiberMult
+abbrev O := ActualEisensteinSieve.O
+end NormFiberMult
+namespace ShortDraftHeckeBridge
+end ShortDraftHeckeBridge
+open Filter Asymptotics
+namespace ShortDraftHeckeBridge
+end ShortDraftHeckeBridge
+end
+end OAI

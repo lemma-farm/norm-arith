@@ -1,0 +1,11 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v363a8b4b3804.GinibrePoincare.Analysis.MatrixGaussianMeasure
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v363a8b4b3804.GinibrePoincare.Analysis.GaussianBlockLSI
+@[expose] public section
+open MeasureTheory ProbabilityTheory
+open scoped NNReal
+namespace GinibrePoincare
+noncomputable section
+set_option backward.isDefEq.respectTransparency false
+end
+end GinibrePoincare

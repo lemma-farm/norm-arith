@@ -1,0 +1,19 @@
+/-
+Copyright (c) 2026 Juan Pablo Traverso Gianini. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Juan Pablo Traverso Gianini
+-/
+module
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.Stage10
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.OnePartDivisibility
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.RefinerObstruction
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.ModThreeLayer
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.ParityChain
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.RefinerConstructionBudget
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.RootedEmbeddingSelection
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v917af0cf750a.PartitionedTriangleAbsorption.RootedTemplateEmbedding
+/-! # Accepted local refiner and rooted-embedding interfaces
+
+This checkpoint does not assert existence of the complete ordinary refiner,
+private absorber templates, a typed omniabsorber or the final Theorem 13.16.
+-/

@@ -1,0 +1,11 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.StrongConvexRadialProfile
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.NonQuadraticRadialBochner
+@[expose] public section
+open MeasureTheory Set
+open scoped ContDiff
+namespace GinibrePoincare
+noncomputable section
+set_option backward.isDefEq.respectTransparency false
+end
+end GinibrePoincare

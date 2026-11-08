@@ -1,0 +1,30 @@
+module
+public import Mathlib.Analysis.InnerProductSpace.LinearPMap
+public import Examples.QuanyuTang__polya_neumann_simply_connected_formalization_Palomar_version_v2.Dependencies.v88d295347479.RequestProject.CurveContinuity
+/-!
+# The Cayley transform of the endpoint (Lemma 4.16)
+
+Let `V` be a unitary operator on a complex Hilbert space with `ker (I - V) = 0` (for the
+transport endpoint `V = V_E` this holds at a Neumann-nonresonant energy by Lemma 4.13).
+The paper's Cayley transform is the unbounded operator
+`K = i (I + V) (I - V)⁻¹` with domain `ran (I - V)`, i.e. `K ((I - V) a) = i (I + V) a`.
+
+We prove (Lemma 4.16):
+* `K` is densely defined and self-adjoint (`cayleyOp_dense`, `cayleyOp_isSelfAdjoint`);
+* the resolvent identities `(K + i)⁻¹ = (I - V)/(2i)` and `(K - i)⁻¹ = (I - V) V^*/(2i)`
+  (`cayleyOp_add_I_resolvent`, `cayleyOp_sub_I_resolvent` and their left-inverse versions);
+* if `U v = e^{iθ} v` with `U = V^*` and `0 < θ < 2π`, then `K v = cot(θ/2) v`
+  (`cayleyOp_eigen`).
+
+Compactness of the resolvents (which uses that `I - V_E` is trace class) is not formalized.
+-/
+@[expose] public section
+open scoped ComplexConjugate
+noncomputable section
+namespace PolyaNeumann
+variable {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℂ H]
+variable {V : H →L[ℂ] H} (hV : Function.Injective (1 - V : H →L[ℂ] H))
+variable [CompleteSpace H] (hU : V ∈ unitary (H →L[ℂ] H))
+include hU
+end PolyaNeumann
+end

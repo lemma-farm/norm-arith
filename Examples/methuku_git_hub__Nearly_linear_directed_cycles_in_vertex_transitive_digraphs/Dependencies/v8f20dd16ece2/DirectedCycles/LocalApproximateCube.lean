@@ -1,0 +1,11 @@
+module
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalFiniteProductCard
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalProductCompression
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalTripleProducts
+public import Examples.methuku_git_hub__Nearly_linear_directed_cycles_in_vertex_transitive_digraphs.Dependencies.v8f20dd16ece2.DirectedCycles.LocalWordPowerMonotonicity
+set_option autoImplicit false
+@[expose] public section
+set_option autoImplicit false
+namespace DirectedCycles
+variable {G : Type*} [Fintype G] {L : LocalGroupAlgebra G} {K : ℕ} {A : Finset G}
+end DirectedCycles

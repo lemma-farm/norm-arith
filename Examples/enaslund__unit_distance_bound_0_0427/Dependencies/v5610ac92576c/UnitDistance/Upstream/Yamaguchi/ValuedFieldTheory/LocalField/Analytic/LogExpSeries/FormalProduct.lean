@@ -1,0 +1,31 @@
+/-
+Ported from Naganori Yamaguchi, SawinTotallyRealTowers, commit
+3a455e1aa9140dbbe7b7d68f508392a69c86d0f4, under Apache-2.0.
+Modified: project-local imports relocated; Lean 4.32 compatibility changes
+are recorded in third-party/yamaguchi/compatibility.patch.
+Original declaration namespaces and mathematical statements are retained.
+-/
+module
+public import Mathlib
+public import Examples.enaslund__unit_distance_bound_0_0427.Dependencies.v5610ac92576c.UnitDistance.Upstream.Yamaguchi.ValuedFieldTheory.LocalField.Analytic.LogExpSeries.FormalCore
+@[expose] public section
+set_option backward.privateInPublic true
+set_option autoImplicit false
+/-!
+Proves the formal combinatorial identities behind additivity of the logarithm on products of
+principal units.
+-/
+open Filter
+open Polynomial
+open scoped Topology
+open scoped PowerSeries.WithPiTopology
+noncomputable section
+attribute [local instance] Classical.propDecidable
+universe u
+open LocalFieldTheory.DiscreteValuationField
+namespace LocalFieldTheory.DiscreteValuationField
+namespace MultiplicativeIntegerValuation
+variable {K : Type u} [Field K]
+end MultiplicativeIntegerValuation
+end LocalFieldTheory.DiscreteValuationField
+end

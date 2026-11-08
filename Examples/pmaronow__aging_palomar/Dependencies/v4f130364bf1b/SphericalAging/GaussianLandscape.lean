@@ -1,0 +1,21 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.v4f130364bf1b.SphericalAging.EuclideanNets
+public import Mathlib.Analysis.Normed.Module.Multilinear.Basic
+public import Mathlib.Probability.Moments.SubGaussian
+set_option autoImplicit false
+public section
+/-!
+# The actual ordered Gaussian landscape norm
+
+The multilinear form is constructed from the same nonsymmetrized tensor
+couplings as FiniteModel. The unit-sphere net reduction below applies to its
+actual continuous multilinear operator norm.
+-/
+noncomputable section
+set_option maxHeartbeats 1000000
+set_option backward.isDefEq.respectTransparency false
+open Set MeasureTheory ProbabilityTheory
+open scoped BigOperators InnerProductSpace
+namespace SphericalAging.GaussianLandscape
+open FiniteModel EuclideanNets
+end SphericalAging.GaussianLandscape

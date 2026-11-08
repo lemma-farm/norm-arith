@@ -1,0 +1,21 @@
+/-
+Copyright (c) 2026 Juan Pablo Traverso Gianini. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Juan Pablo Traverso Gianini
+-/
+module
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v61054f52694a.PartitionedTriangleAbsorption.MoveLedgerStage88
+public import Examples.jtraverso__typed_triangle_absorption.Dependencies.v61054f52694a.PartitionedTriangleAbsorption.PhysicalPaddingStage89
+/-! # Type-preserving physical deployment
+
+The existing splitting producer forgets the selected carrier label. This
+strengthening retains the edge-vector invariant in the actual producer and
+its induction. Accepted Stage87 sources are not modified. No claim is made
+about arbitrary PhysicalMoves, which need not preserve their type vectors.
+-/
+@[expose] public section
+namespace PartitionedTriangleAbsorption.TypedDeploymentStage90
+open Finset AntiEdgeSelection TypedTransformer PairMoveSelectionStage85
+  PhysicalHingeSupply PhysicalMovesStage86 PairSplitDeploymentStage87
+variable {V : Type*} [Fintype V] [DecidableEq V] {t : ℕ}
+end PartitionedTriangleAbsorption.TypedDeploymentStage90

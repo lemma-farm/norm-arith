@@ -1,0 +1,22 @@
+module
+public import Mathlib
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.SUGeom
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Entry U, part 7: Theorem U(2) — separation
+
+Assembly of Lemma S_s (soundness of the relaxation: carries, residue representatives, jitter;
+adapted from the 4D entry) and **Theorem D** (diagonal dominance), proved symbolically in `s`:
+every moving coordinate is backward (`e_i σ_i ≤ 0`, `|σ_i| ≤ 2 a`), so a moving coordinate
+contributes `≥ q - |σ_i| - jitter`; the own-axis step costs exactly `a_c ≤ a` (no jitter, (H2)),
+and a multi-axis step has two coordinates each `≥ q - 2a - 1`, with `2 (q - 2a - 1)² ≥ (q - a)²`
+for `q ≥ 5a + 4`. The toroidal residue lemmas are copied from the 4D entry for the entry-U `cres`.
+-/
+namespace Z3NetU.Proofs
+open Finset Z3NetU
+noncomputable section
+/-! ## Toroidal residues (copied from the 3D entry) -/
+variable (s q : ℕ) [NeZero q]
+end
+end Z3NetU.Proofs

@@ -1,0 +1,12 @@
+module
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCompactDifferentiation
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCompactSmoothIntegral
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourLogDerivative
+/-! # Actual differentiation of the separated cross-contour logarithm -/
+@[expose] public section
+noncomputable section
+open Complex Set Filter Topology Metric MeasureTheory
+open scoped ContDiff
+namespace Euler2D
+end Euler2D
+end

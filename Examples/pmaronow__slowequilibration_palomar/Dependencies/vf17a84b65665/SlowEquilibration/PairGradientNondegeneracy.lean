@@ -1,0 +1,24 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.ValueObservationSmallOverlap
+set_option autoImplicit false
+/-! The actual two complete tangent gradients form a genuinely surjective
+Gaussian observation on a dimension-uniform small-overlap neighborhood. -/
+@[expose] public section
+namespace SlowEquilibration.NormalizedPairObservations
+noncomputable section
+open Function SphericalModel SphericalGaussianJet WholeFieldRegression GaussianObservationCoercivity
+open scoped RealInnerProductSpace
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+end
+end SlowEquilibration.NormalizedPairObservations
+namespace SlowEquilibration.PairObservationSmallOverlap
+noncomputable section
+open Function SphericalModel SphericalGaussianJet WholeFieldRegression NormalizedPairObservations
+open GaussianObservationCoercivity
+open scoped RealInnerProductSpace
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+end
+end SlowEquilibration.PairObservationSmallOverlap

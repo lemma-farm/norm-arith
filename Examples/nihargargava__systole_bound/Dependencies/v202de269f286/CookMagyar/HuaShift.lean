@@ -1,0 +1,20 @@
+module
+/-
+Copyright (c) 2026.
+Released under Apache 2.0 license.
+-/
+public import Examples.nihargargava__systole_bound.Dependencies.v202de269f286.CookMagyar.HuaEstimate
+public import Mathlib.Algebra.Order.Chebyshev
+@[expose] public section
+open MeasureTheory
+open scoped BigOperators ComplexConjugate
+namespace SystolicGrowth
+namespace CookMagyarCircle
+/-! # Finite shift identities for the cubic eighth moment
+
+The second-difference energy is proved in `HuaEstimate`. This module
+connects that energy to the unweighted cubic exponential sum. -/
+noncomputable def cubicUnweightedExpSum (α : ℝ) (N : ℕ) : ℂ :=
+  ∑ m ∈ Finset.range (N + 1), addChar α (primeCubic m)
+end CookMagyarCircle
+end SystolicGrowth

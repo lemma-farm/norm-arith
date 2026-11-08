@@ -1,0 +1,22 @@
+module
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Carrier.SignedSquare
+public import Mathlib
+import all Mathlib.Algebra.Order.Floor.Ring
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
+import all Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Topology.Algebra.InfiniteSum.NatInt
+import all Mathlib.Topology.Algebra.InfiniteSum.NatInt
+@[expose] public section
+/-!
+# Signed-square Schur summation
+
+This module isolates the discrete summation step used by the same-side Gram
+estimate.  A finite exceptional set and separation in signed-square
+coordinates turn any exponential off-diagonal kernel bound into absolutely
+summable carrier rows.  The analytic Mehler estimate and its normalization are
+kept in the Hermite modules.
+-/
+namespace MeyerGeneralProblem
+noncomputable section
+end
+end MeyerGeneralProblem

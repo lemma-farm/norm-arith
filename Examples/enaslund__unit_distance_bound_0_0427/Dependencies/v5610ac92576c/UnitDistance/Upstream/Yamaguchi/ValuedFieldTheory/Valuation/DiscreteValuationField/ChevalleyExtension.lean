@@ -1,0 +1,42 @@
+/-
+Ported from Naganori Yamaguchi, SawinTotallyRealTowers, commit
+3a455e1aa9140dbbe7b7d68f508392a69c86d0f4, under Apache-2.0.
+Modified: project-local imports relocated; Lean 4.32 compatibility changes
+are recorded in third-party/yamaguchi/compatibility.patch.
+Original declaration namespaces and mathematical statements are retained.
+-/
+module
+public import Examples.enaslund__unit_distance_bound_0_0427.Dependencies.v5610ac92576c.UnitDistance.Upstream.Yamaguchi.ValuedFieldTheory.Valuation.DiscreteValuationField.ValuationExtension
+public import Mathlib
+public import Mathlib.RingTheory.Valuation.LocalSubring
+public import Mathlib.RingTheory.Valuation.Integral
+@[expose] public section
+set_option backward.privateInPublic true
+set_option autoImplicit false
+namespace ValuationTheory
+/-!
+# Chevalley's valuation extension theorem
+
+Mathlib has the predicate `Valuation.HasExtension` and the induced valuation
+subring/residue-field API.  This file proves the field-extension form of
+Chevalley's valuation extension theorem from mathlib's maximal local subring
+construction: a local subring of a field is dominated by a valuation subring.
+-/
+noncomputable section
+universe u v w x y z
+namespace DiscreteValuationField
+namespace Valuation
+open ValuationTheory.DiscreteValuationField.ResidueField
+variable {K : Type u} {L : Type v} [Field K] [Field L] [Algebra K L]
+variable {ΓK : Type w} [LinearOrderedCommGroupWithZero ΓK]
+section Tower
+variable {M : Type y} [Field M]
+variable [Algebra L M] [Algebra K M] [IsScalarTower K L M]
+variable {ΓL : Type x} {ΓM : Type z}
+variable [LinearOrderedCommGroupWithZero ΓL]
+variable [LinearOrderedCommGroupWithZero ΓM]
+end Tower
+end Valuation
+end DiscreteValuationField
+end
+end ValuationTheory

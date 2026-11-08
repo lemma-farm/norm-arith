@@ -1,0 +1,33 @@
+module
+-- Reversible module-visibility port of the audited development.
+/-
+Copyright (c) 2026 S. McColm. All rights reserved.
+Released under MIT-0; see repository-root third_party/twelfth/LICENSE-MIT-0.
+Adapted from source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
+Mathlib and the existing contour/Digamma sources retain Apache-2.0 attribution.
+No upstream project or Architect module is imported.
+-/
+public import Examples.mrklwk__zeta_density_three_over_two_sigma_lean.Dependencies.v02059d5abc07.MathCollab.Density.Stronger.Atkinson.DivisorWeightSmooth
+public import Examples.mrklwk__zeta_density_three_over_two_sigma_lean.Dependencies.v02059d5abc07.MathCollab.Density.Stronger.Atkinson.ShortDivisorGeometry
+public import Mathlib
+-- BEGIN MODULE VISIBILITY
+@[expose] public section
+-- END MODULE VISIBILITY
+open Complex Filter MeasureTheory Set Topology
+open MathCollab.Density.Stronger MathCollab.Density.Stronger.Fourth
+open MathCollab.Density.Contour
+open scoped Interval ComplexConjugate ContDiff
+set_option autoImplicit false
+noncomputable section
+namespace MathCollab.Density.Stronger.Atkinson
+theorem contDiff_zetaGaussianQuadraticIntegral (T : ℝ) {G : ℝ} (hG : G ≠ 0) :
+    ContDiff ℝ ∞ (zetaGaussianQuadraticIntegral T G) := by
+  have he : zetaGaussianQuadraticIntegral T G = fun v : ℝ =>
+      ((Real.pi : ℂ) / zetaGaussianQuadraticCoefficient T G) ^ (1 / 2 : ℂ) *
+        Complex.exp (-(v : ℂ) ^ 2 / (4 * zetaGaussianQuadraticCoefficient T G)) := by
+    funext v
+    exact zetaGaussianQuadraticIntegral_eq T v hG
+  rw [he]
+  have hcast : ContDiff ℝ ∞ (fun v : ℝ => (v : ℂ)) := Complex.ofRealCLM.contDiff
+  fun_prop
+end MathCollab.Density.Stronger.Atkinson

@@ -1,0 +1,10 @@
+module
+public import Examples.burkh4rt__Discriminative_Kalman_Filter_Formalized.Dependencies.v71a7101e1b81.DiscriminativeKalmanFilter.Proof.C1C2
+public import Examples.burkh4rt__Discriminative_Kalman_Filter_Formalized.Dependencies.v71a7101e1b81.DiscriminativeKalmanFilter.Proof.Lemma1
+set_option autoImplicit false
+@[expose] public section
+noncomputable section
+open MeasureTheory Filter Matrix
+open scoped Topology ENNReal
+namespace DiscriminativeKalmanFilter.Proof
+end DiscriminativeKalmanFilter.Proof

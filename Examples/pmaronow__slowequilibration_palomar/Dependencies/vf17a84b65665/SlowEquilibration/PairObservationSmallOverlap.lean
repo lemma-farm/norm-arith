@@ -1,0 +1,19 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.PairObservationNormBounds
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.NormalizedObservationCoercivity
+set_option autoImplicit false
+/-! Actual dimension-independent small-overlap nonsingularity, with the
+constants selected before every dimension and pair of sphere points. -/
+@[expose] public section
+namespace SlowEquilibration.PairObservationSmallOverlap
+noncomputable section
+open Function SphericalModel SphericalGaussianJet WholeFieldRegression NormalizedPairObservations
+open SphericalTwoPointCovariance PairObservationCrossCovariance PairObservationNormBounds
+open NormalizedObservationCoercivity GaussianObservationCoercivity GaussianRegression
+open scoped RealInnerProductSpace
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+set_option maxHeartbeats 700000
+end
+end SlowEquilibration.PairObservationSmallOverlap

@@ -1,0 +1,28 @@
+module
+public import Examples.lgruen__quasi_uniform_sequences_lean.Dependencies.v30e4bfa02a7b.Z3Net.FNie
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Entry F, part 4: `lem:hermite` and `lem:Ts` (the confluent Vandermonde determinant)
+
+For the frame with `∞` at an arbitrary coordinate `inf` and finite places `x c` in a commutative
+ring, multiply the box matrix `B` on the right by the matrix `P` of the Newton-type basis indexed
+like the rows: for a finite coordinate `c`, `N_c (t - x_c)^j` with `N_c = ∏_{t finite, t < c}
+(t - x_t)^(d_t)`; for `∞`, `Ptot t^(d_∞-1-j)` with `Ptot = ∏_{t finite} (t - x_t)^(d_t)`. Then
+`B P` is lower triangular with diagonal `N_c(x_c)` resp. `1`, and `P` is a column permutation of
+an upper unitriangular matrix (the columns are monic of pairwise distinct degrees). This
+generalizes entry U's `SUFrame` (places `∞, 0, …, s-2`, `∞` first, over `ℤ`).
+-/
+namespace Z3NetF.Proofs
+open Polynomial Finset Matrix
+noncomputable section
+section reading
+variable {R : Type*} [CommRing R]
+end reading
+section frame
+variable {R : Type*} [CommRing R] {s m : ℕ} (inf : Fin s) (x : Fin s → R) (d : Fin s → ℕ)
+variable {d}
+end frame
+end
+end Z3NetF.Proofs

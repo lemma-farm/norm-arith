@@ -1,0 +1,33 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Parabolic.Basic
+import Mathlib.MeasureTheory.Integral.Layercake
+import Mathlib.Analysis.SpecialFunctions.Pow.Integral
+import Mathlib.MeasureTheory.Integral.Lebesgue.Markov
+import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+import Mathlib.MeasureTheory.Integral.Prod
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# Marcinkiewicz interpolation between weak `(1,1)` and strong `(2,2)`
+
+This file develops the analytic ingredients for the Marcinkiewicz interpolation
+theorem in the range `1 < p < 2` for a sublinear operator `T` on functions
+`Vec3 → ℝ` that is of weak type `(1,1)` with constant `A₁` and of strong type
+`(2,2)` with constant `A₂`.  The distribution-function estimate
+`|{x | |T f x| > 2λ}| ≤ A₁ ‖f·1_{|f|>λ}‖₁/λ + A₂² ‖f·1_{|f|≤λ}‖₂²/λ²`
+and its integral against the layer-cake weight `p t^{p-1}` are proven here; the
+interpolation theorem itself, with the explicit constant
+`p · 2^p · (A₁/(p-1) + A₂²/(2-p))`, is `interpolation_weak11_strong22` in
+`Interpolation.lean`.
+
+The proof works throughout with Lebesgue integrals in `ℝ≥0∞`; measurability of
+the input function and of its image under `T` are explicit hypotheses.
+-/
+open scoped ENNReal NNReal Topology
+open MeasureTheory MeasureTheory.Measure Set Filter
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Foundation.Euclidean
+open CKN.Foundation.Parabolic
+end CKN.Foundation.Euclidean

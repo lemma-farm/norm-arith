@@ -1,0 +1,34 @@
+/-
+Copyright (c) 2026 Scott Armstrong. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong
+-/
+import Examples.scottnarmstrong__MarkovProcess.Dependencies.v1421b971f7e5.MarkovProcess.Path.Basic
+import Mathlib.Probability.Process.Stopping
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Measurability of the state at a stopping time
+
+The coordinate process of canonical continuous-path space is adapted to the canonical filtration
+and continuous in time, hence progressively measurable.  Consequently the state at a finite
+stopping time is measurable for the stopped sigma-algebra.  No countable-range premise is used.
+Plain Borel measurability of the same map, under weaker assumptions, is in
+`Path/RandomShiftMeasurability.lean`.
+
+This is ordinary measurability infrastructure.  It proves no restart identity and no conditional
+expectation formula; those are in `Trajectory/FellerStoppingRestart.lean` and
+`Trajectory/FellerStoppingConditional.lean`.
+-/
+open MeasureTheory
+namespace MarkovProcess
+namespace ContinuousPath
+variable {alpha : Type*} [TopologicalSpace alpha] [TopologicalSpace.PseudoMetrizableSpace alpha]
+  [SecondCountableTopology alpha] [MeasurableSpace alpha] [BorelSpace alpha]
+end ContinuousPath
+end MarkovProcess

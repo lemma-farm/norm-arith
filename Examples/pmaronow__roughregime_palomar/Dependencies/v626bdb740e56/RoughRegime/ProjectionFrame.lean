@@ -1,0 +1,13 @@
+module
+public import Examples.pmaronow__roughregime_palomar.Dependencies.v626bdb740e56.RoughRegime.HilbertGram
+public import Mathlib
+@[expose] public section
+/-! Euclidean moment and polynomial residual bounds from actual Hilbert projections. -/
+noncomputable section
+open scoped BigOperators Matrix.Norms.L2Operator
+open RealInnerProductSpace Matrix
+namespace RoughRegime.ProjectionFrame
+open RoughRegime.HilbertGram RoughRegime.ProjectionGram
+variable {E n a : Type*} [NormedAddCommGroup E] [InnerProductSpace ℝ E]
+  [Fintype n] [DecidableEq n] [Fintype a] [DecidableEq a]
+end RoughRegime.ProjectionFrame

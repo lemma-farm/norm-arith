@@ -1,0 +1,69 @@
+/-
+Copyright (c) 2026 Scott Armstrong. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong
+-/
+module
+public import Examples.scottnarmstrong__RegularityStructures.Dependencies.v47430825a579.Phi43.Mollifier
+public import Mathlib.Topology.Algebra.Group.Quotient
+public import Mathlib.Topology.Bases
+public import Mathlib.MeasureTheory.MeasurableSpace.Constructions
+public import Mathlib.MeasureTheory.Function.StronglyMeasurable.Basic
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Elementary properties of regularised noises
+
+This module isolates the topological and measurability consequences of the definition of a
+regularised noise.  The existence of the smooth modification itself is kept separate: it requires
+the stochastic regularity argument for the mollifier family.  These consequences correspond to
+Definition 2.4 and the uniqueness/measurability clauses of item (W2) of Lemma 4.1 of the statement.
+-/
+@[expose] public section
+open MeasureTheory
+namespace RegularityStructures.Phi43
+private theorem isOpenQuotientMap_torusProj : IsOpenQuotientMap torusProj := by
+  apply IsOpenQuotientMap.piMap
+  intro i
+  change IsOpenQuotientMap (QuotientAddGroup.mk' (AddSubgroup.zmultiples (1 : ℝ)))
+  exact QuotientAddGroup.isOpenQuotientMap_mk
+private theorem isOpenQuotientMap_spaceTimeProj :
+    IsOpenQuotientMap (fun p : ℝ × (Fin 3 → ℝ) => (p.1, torusProj p.2)) := by
+  have hfun :
+      (fun p : ℝ × (Fin 3 → ℝ) => (p.1, torusProj p.2)) = Prod.map id torusProj := by
+    funext p
+    apply Prod.ext
+    · rfl
+    · funext i
+      rfl
+  rw [hfun]
+  exact IsOpenQuotientMap.id.prodMap isOpenQuotientMap_torusProj
+end RegularityStructures.Phi43
+end
+public section
+open MeasureTheory
+namespace RegularityStructures.Phi43
+theorem Continuous.continuous_of_isSmoothOnSpaceTime {f : SpaceTime → ℝ}
+    (hf : IsSmoothOnSpaceTime f) : Continuous f := by
+  rw [isOpenQuotientMap_spaceTimeProj.isQuotientMap.continuous_iff]
+  exact hf.continuous
+theorem regularisedNoise_measurable_uncurry {Ω : Type*} [MeasurableSpace Ω]
+    (P : Measure Ω) (W : (SpaceTime → ℝ) → Ω → ℝ)
+    (ρ : ℝ × (Fin 3 → ℝ) → ℝ) (ε : ℝ) (ξ : Ω → SpaceTime → ℝ)
+    (hξ : IsRegularisedNoise P W ρ ε ξ) :
+    Measurable fun p : Ω × SpaceTime => ξ p.1 p.2 := by
+  have hmeas :
+      Measurable (Function.uncurry (fun z : SpaceTime => fun ω : Ω => ξ ω z)) :=
+    measurable_uncurry_of_continuous_of_measurable
+      (fun ω => Continuous.continuous_of_isSmoothOnSpaceTime (hξ.1 ω))
+      (fun z => (hξ.2 z).1)
+  change Measurable
+    (Function.uncurry (fun z : SpaceTime => fun ω : Ω => ξ ω z) ∘ Prod.swap)
+  exact hmeas.comp measurable_swap
+end RegularityStructures.Phi43
+end

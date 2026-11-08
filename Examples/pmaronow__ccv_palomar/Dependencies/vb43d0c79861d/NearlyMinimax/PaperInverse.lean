@@ -1,0 +1,25 @@
+module
+public import Examples.pmaronow__ccv_palomar.Dependencies.vb43d0c79861d.RoughRegime.CombinedAnalytic
+@[expose] public section
+/-!
+# Reciprocal polynomial ingredients for `upper_B.tex`
+
+The imported algebraic and analytic reciprocal construction is specialized to
+one parent determinant, exactly the product in the manuscript. Results stated
+with Hermitian matrices below explicitly retain that hypothesis. The scalar
+exponent bridge identifies the rate parameter with the manuscript's `τ`.
+-/
+noncomputable section
+namespace NearlyMinimax
+open Polynomial
+open scoped BigOperators Matrix.Norms.L2Operator
+open RoughRegime.Upper RoughRegime.MatrixUpper
+open RoughRegime.CombinedPolynomial RoughRegime.CombinedAnalytic
+/-- The entry-variable type for the current matrix and its single parent. -/
+abbrev parentInverseVariables (r : ℕ) := Variables r (fun _ : Fin 1 => r)
+/-- Exact free-entry polynomial implementing the manuscript's single-parent truncation. -/
+def parentInverseEntryPolynomial (a b : ℝ) (r m : ℕ) (i j : Fin r) :
+    MvPolynomial (parentInverseVariables r) ℝ :=
+  truncationEntryPolynomial r (fun _ : Fin 1 => r) a b i j m
+open RoughRegime.MatrixDeterminant
+end NearlyMinimax

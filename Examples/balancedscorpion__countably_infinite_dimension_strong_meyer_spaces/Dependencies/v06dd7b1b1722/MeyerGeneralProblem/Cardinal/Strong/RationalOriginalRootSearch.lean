@@ -1,0 +1,15 @@
+module
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.RationalIntervalGrid
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.RationalFiniteMinimum
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.OriginalRootMagnitude
+public import Examples.balancedscorpion__countably_infinite_dimension_strong_meyer_spaces.Dependencies.v06dd7b1b1722.MeyerGeneralProblem.Cardinal.Strong.RationalPhaseParameterInput
+public import Mathlib
+@[expose] public section
+/-! An actual finite rational search for EVERY original labelled root.
+The abstract evaluator interface is discharged by the literal implemented
+original equation below; no approximation certificate survives there.
+-/
+namespace MeyerGeneralProblem.StrongParity
+noncomputable section
+end
+end MeyerGeneralProblem.StrongParity

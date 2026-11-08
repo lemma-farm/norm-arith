@@ -1,0 +1,27 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.DiffusiveFourier
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.NegMoment
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.ControlsFinal
+/-!
+# Section 4: global parameters, probability space, and fixed forcing
+
+All global parameters of Definition 4.1 are fixed here, once and for all, by choosing witnesses
+of the existence statements of Section 2 and Section 3 (`q = 3`, `σ`, `L`, `S_a`, `Λ`, `M`,
+`μ_*`, `R₀`).  The parameter `R` depends on `ε` (`Rε`).
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real
+open scoped ENNReal ContDiff Matrix NNReal
+noncomputable section
+namespace AnomDiss
+/-! ### Definition 4.1: global parameters -/
+/-- `q = 3`. -/
+def qq : ℕ := 3
+lemma qq_ge : 3 ≤ qq := le_rfl
+def L₀ : ℕ := Classical.choose (Classical.choose_spec (lemma_negative qq qq_ge)).2.2
+abbrev Phase := ℕ → BlockParam L₀
+/-- The product probability measure on `Ω`. -/
+def phaseMeasure : Measure Phase := Measure.infinitePi fun _ : ℕ => blockMeasure L₀
+instance : IsProbabilityMeasure phaseMeasure := by unfold phaseMeasure; infer_instance
+/-! ### Definition 4.3: stage scales -/
+end AnomDiss

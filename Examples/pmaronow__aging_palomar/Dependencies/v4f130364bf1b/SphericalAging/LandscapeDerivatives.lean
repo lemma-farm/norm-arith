@@ -1,0 +1,17 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.v4f130364bf1b.SphericalAging.GaussianLandscapeMoments
+public import Examples.pmaronow__aging_palomar.Dependencies.v4f130364bf1b.SphericalAging.HardSphereDynamics
+public import Mathlib.Analysis.Calculus.FDeriv.Analytic
+public import Mathlib.Analysis.Calculus.ContDiff.Operations
+public import Mathlib.Analysis.Calculus.ContDiff.CPolynomial
+set_option autoImplicit false
+public section
+/-! Genuine derivatives of the manuscript Hamiltonian diagonal multilinear form. -/
+noncomputable section
+set_option maxHeartbeats 2000000
+set_option backward.isDefEq.respectTransparency false
+open scoped BigOperators InnerProductSpace
+open MeasureTheory
+namespace SphericalAging.LandscapeDerivatives
+open FiniteModel GaussianLandscape
+end SphericalAging.LandscapeDerivatives

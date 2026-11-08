@@ -1,0 +1,18 @@
+module
+public import Mathlib
+public import Examples.sthubbar__goldbach_lean.Dependencies.v3fde70ffb811.LeanLab.HeathBrown1985.Elementary
+/-!
+P0096 Heath-Brown 1985, Theorem 2 deduced from Lemma 1, 2.6, and Lemma 2, 2.11, as on
+pages 52 to 53 of the paper. The deduction uses only elementary facts proved in
+Elementary.lean: `k/φ(k) ≤ e(1 + ω(k))`, `ψ(x;k,l) ≤ L(x/k + 1)` and
+`Σ_{k ≤ N} d(k)/k ≤ (1 + log N)²`. The paper's choice `K = x L^{-C}`, `Q = L^B`, `B = 2C/3`.
+AI-written Lean code, Claude, run 20261017T0003Z-10827. Checked only by the Lean kernel.
+Ternary Goldbach is a theorem, Helfgott 2013; binary Goldbach is OPEN.
+-/
+@[expose] public section
+noncomputable section
+namespace LeanLab.HeathBrown1985
+open Real Finset Filter
+open scoped ArithmeticFunction.vonMangoldt
+attribute [local instance] Classical.propDecidable
+end LeanLab.HeathBrown1985

@@ -1,0 +1,11 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.KostlanProductLaw
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.HomogeneousRadialMeasure
+public import Mathlib.LinearAlgebra.Complex.FiniteDimensional
+@[expose] public section
+open MeasureTheory ProbabilityTheory Set
+open scoped ENNReal BigOperators Pointwise
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

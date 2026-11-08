@@ -1,0 +1,34 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v8624250339e2.QuadraticCarleson.PVSymmetricLimit
+import Mathlib.MeasureTheory.Measure.Lebesgue.Integral
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Differential prerequisites for the principal-value Fourier identity
+
+For the canonical distribution defined by symmetric truncations, we prove
+`x * p.v. (1 / x) = 1` and hence `(𝓕 p.v. (1 / x))' = -2π i δ₀`.
+The jump calculation `sign' = 2 δ₀` shows that the error in the desired
+Fourier identity has derivative zero. Reflection of the defining integrals
+shows that this error is also odd.
+
+The Fourier identity therefore holds on all derivatives of Schwartz test
+functions. Its extension to arbitrary Schwartz functions is reduced below
+to one explicitly stated generic prerequisite: every odd Schwartz function
+has a Schwartz antiderivative. The final conditional theorems expose that
+prerequisite; they do not assert an unconditional Fourier identification.
+-/
+open MeasureTheory Set Filter FourierTransform LineDeriv
+open scoped SchwartzMap Topology
+namespace QuadraticCarleson
+noncomputable def schwartzReflection : 𝓢(ℝ, ℂ) →L[ℂ] 𝓢(ℝ, ℂ) :=
+  SchwartzMap.compCLMOfContinuousLinearEquiv ℂ (LinearIsometryEquiv.neg ℝ (E := ℝ))
+@[simp]
+theorem schwartzReflection_apply (f : 𝓢(ℝ, ℂ)) (x : ℝ) :
+    schwartzReflection f x = f (-x) := rfl
+end QuadraticCarleson

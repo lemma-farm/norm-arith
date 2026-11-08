@@ -1,0 +1,18 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.SphericalSequentialRegression
+set_option autoImplicit false
+/-! The normalized score covariance and explicit density of the actual field. -/
+@[expose] public section
+namespace SlowEquilibration.SphericalSequentialRegression
+open MeasureTheory ProbabilityTheory Set Function
+open SlowEquilibration.SphericalModel SlowEquilibration.SphericalGaussianJet
+open SlowEquilibration.WholeFieldRegression SlowEquilibration.IntrinsicGradientRegression
+open SlowEquilibration.IntrinsicHessianLaw SlowEquilibration.GaussianRegression
+open SlowEquilibration.ValueTangentConditioning
+open scoped ENNReal Topology RealInnerProductSpace Matrix
+noncomputable section
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+end
+end SlowEquilibration.SphericalSequentialRegression

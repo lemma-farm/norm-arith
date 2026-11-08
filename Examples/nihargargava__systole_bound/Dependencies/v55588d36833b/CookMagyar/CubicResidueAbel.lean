@@ -1,0 +1,15 @@
+module
+/-
+Copyright (c) 2026.
+Released under Apache 2.0 license.
+-/
+public import Examples.nihargargava__systole_bound.Dependencies.v55588d36833b.CookMagyar.CubicAbelPhase
+public import Mathlib.Analysis.Calculus.MeanValue
+@[expose] public section
+open Finset MeasureTheory
+open scoped ArithmeticFunction BigOperators
+namespace SystolicGrowth
+namespace CookMagyarMajorArc
+open CookMagyarCircle CookMagyarArcs CookMagyarFiniteFourier
+end CookMagyarMajorArc
+end SystolicGrowth

@@ -1,0 +1,26 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Heat.Cylinder
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Statements.SpatialSecondPartial
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Statements.TimePartial
+import Mathlib.Analysis.Calculus.FDeriv.Pi
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# The backward Gaussian test function at a general base point
+
+For a base point `z₀ = (x₀, t₀)` the paper's backward Gaussian test function of
+`eq:psi-r` is `ψ_r(x, t) = r² G(x - x₀, r² - (t - t₀))`, the translate of the
+canonical-center function `backwardHeatTestFunction`.  This file records the
+translated test function and proves the statements of `eq:psi-backward`,
+`eq:psi-lower`, `eq:psi-upper`, `eq:grad-psi`, and `eq:psi-far` of
+`paper/ckn.tex` at an arbitrary base point, keeping the constants of the
+canonical-center statements exactly.
+-/
+open scoped BigOperators ENNReal NNReal Topology
+open MeasureTheory Set Filter
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Foundation.Heat
+open CKN.Foundation.Parabolic
+end CKN.Foundation.Heat

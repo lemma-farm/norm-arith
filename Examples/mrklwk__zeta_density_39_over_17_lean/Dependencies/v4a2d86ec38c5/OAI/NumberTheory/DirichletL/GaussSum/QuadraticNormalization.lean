@@ -1,0 +1,42 @@
+module
+public import Examples.mrklwk__zeta_density_39_over_17_lean.Dependencies.v4a2d86ec38c5.OAI.NumberTheory.DirichletL.GaussSum.QuadraticTrace
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+namespace OAI
+noncomputable section
+open scoped BigOperators
+open MulChar AddChar
+open scoped BigOperators
+open Filter Asymptotics MeasureTheory
+open scoped Topology
+open MeasureTheory Real
+open scoped FourierTransform SchwartzMap
+open Finset Complex
+open scoped Classical
+open scoped Classical
+namespace ActualEisensteinCubic
+open EisensteinEmbedding ConcreteTraceCRT ConcreteBreveE
+end ActualEisensteinCubic
+namespace PowerExtraction
+end PowerExtraction
+namespace ActualEisensteinCubic
+end ActualEisensteinCubic
+namespace PowerExtraction
+end PowerExtraction
+namespace ActualEisensteinCubic
+open EisensteinEmbedding ConcreteTraceCRT Complex
+end ActualEisensteinCubic
+namespace GaussianAbelPartition
+open ConcreteTraceCRT ConcreteBreveE ActualEisensteinCubic
+end GaussianAbelPartition
+namespace ActualEisensteinCubic
+end ActualEisensteinCubic
+namespace GaussianFiberEquiv
+open ActualEisensteinCubic
+end GaussianFiberEquiv
+namespace RankTwoPoisson
+open Real
+end RankTwoPoisson
+end
+end OAI

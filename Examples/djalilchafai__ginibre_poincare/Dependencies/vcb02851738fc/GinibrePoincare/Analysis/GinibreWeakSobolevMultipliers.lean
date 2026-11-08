@@ -1,0 +1,16 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.vcb02851738fc.GinibrePoincare.Analysis.GinibreDistributionalClosure
+@[expose] public section
+/-! # Smooth compact multipliers on the independent weak Sobolev graph
+
+These results operate on ordinary distributional gradients, without assuming
+membership in the smooth-core completion. In particular they can be used in
+the reverse approximation argument.
+-/
+open MeasureTheory Filter
+open scoped Topology ContDiff ENNReal
+namespace GinibrePoincare
+noncomputable section
+set_option maxHeartbeats 400000
+end
+end GinibrePoincare

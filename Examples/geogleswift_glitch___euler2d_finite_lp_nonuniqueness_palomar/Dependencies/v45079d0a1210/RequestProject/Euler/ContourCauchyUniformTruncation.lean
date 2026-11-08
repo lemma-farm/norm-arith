@@ -1,0 +1,13 @@
+module
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourLogTruncation
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCauchyWeightedPrincipalValue
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourCauchyRemainderHolder
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourC1PrincipalValue
+/-! Uniform convergence of the genuinely defined Cauchy truncations,
+using the actual common power majorants for the remainder and increment. -/
+@[expose] public section
+noncomputable section
+open Set MeasureTheory Filter Topology
+open scoped NNReal
+namespace Euler2D
+end Euler2D

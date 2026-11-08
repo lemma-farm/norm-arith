@@ -1,0 +1,24 @@
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.LacunaryMiddleFinalSummation
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.CanonicalScaleAtomIntegrals
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Genuine middle-range and complete lacunary low assembly
+
+The actual canonical low-kernel action is split into its finite middle scale
+range and the very-small remainder. The frozen-range error is bounded by the
+same already-estimated very-small triangle majorant.
+-/
+open MeasureTheory Set
+open scoped ENNReal
+namespace QuadraticCarleson
+namespace LacunaryLowAssembly
+open CalderonZygmundStoppingIntervals CanonicalScaleAtoms
+open LacunaryMiddleRange LacunaryMiddleOperator LacunaryMiddleKalton
+open LacunaryMiddleFinalSummation LacunaryVerySmallOperator LacunaryVerySmallEndpoint
+open PositiveEndpointOptimization PositiveHighHeightEstimate PositiveLowFullEstimate
+open LowKernelLevelSummation
+set_option autoImplicit false
+end LacunaryLowAssembly
+end QuadraticCarleson

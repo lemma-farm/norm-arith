@@ -1,0 +1,25 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.Shears
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.TorusFourier
+/-!
+# Auxiliary results for the semiclassical observable lemma (Lemma 3.3)
+
+* a Fourier representation `f(η) = ∫ F(z) e^{2πi z·η} dz` of a smooth compactly supported
+  function, with `∫ (1 + |z|²)|F(z)| dz < ∞`;
+* the polarized Parseval identity on `𝕋²`;
+* translation invariance of the cell integral for periodic functions;
+* a second-order Taylor estimate.
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real
+open scoped ENNReal ContDiff Matrix NNReal
+noncomputable section
+namespace AnomDiss
+section TorusPolar
+attribute [local instance] instMeasureSpaceUnitAddCircle
+local instance : IsProbabilityMeasure (volume : Measure UnitAddCircle) :=
+  inferInstanceAs (IsProbabilityMeasure AddCircle.haarAddCircle)
+local instance : Measure.IsAddHaarMeasure (volume : Measure UnitAddCircle) :=
+  inferInstanceAs (Measure.IsAddHaarMeasure AddCircle.haarAddCircle)
+end TorusPolar
+end AnomDiss

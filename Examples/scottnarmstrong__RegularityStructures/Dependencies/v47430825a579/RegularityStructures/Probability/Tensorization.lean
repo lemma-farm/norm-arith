@@ -1,0 +1,28 @@
+/-
+Copyright (c) 2026 Scott Armstrong. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong
+-/
+module
+public import Examples.scottnarmstrong__RegularityStructures.Dependencies.v47430825a579.RegularityStructures.Probability.Poincare
+public import Mathlib.MeasureTheory.Integral.MeanInequalities
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Elementary product-measure estimates
+
+The square-of-the-mean estimate below is the Cauchy--Schwarz step used in variance tensorisation. It
+is proved here explicitly so that later Gaussian product arguments do not hide Jensen's inequality
+in a target predicate. The finite-product argument is the one used for the standard Gaussian measure
+in [HS23, Definition 2.20 and Remark 2.22].
+-/
+@[expose] public noncomputable section
+open MeasureTheory ProbabilityTheory Real
+namespace RegularityStructures
+end RegularityStructures
+end

@@ -1,0 +1,13 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v034b2acfdab0.GinibrePoincare.Analysis.RadialSobolevClosure
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v034b2acfdab0.GinibrePoincare.Analysis.SobolevTruncation
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v034b2acfdab0.GinibrePoincare.Analysis.BernoulliTaylorEnergy
+public import Mathlib.Analysis.Calculus.BumpFunction.SmoothApprox
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+@[expose] public section
+open MeasureTheory Filter ContinuousLinearMap
+open scoped Topology Convolution ContDiff
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

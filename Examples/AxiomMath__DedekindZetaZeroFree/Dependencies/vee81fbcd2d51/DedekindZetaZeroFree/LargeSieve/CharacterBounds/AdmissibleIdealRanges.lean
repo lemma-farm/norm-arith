@@ -1,0 +1,8 @@
+module
+public import Examples.AxiomMath__DedekindZetaZeroFree.Dependencies.vee81fbcd2d51.DedekindZetaZeroFree.Arithmetic.Ideals.BoundedNormFinsets
+set_option autoImplicit false
+set_option relaxedAutoImplicit false
+@[expose] public section
+namespace DedekindZetaZeroFree.LargeSieve.Sieve
+open scoped NumberField Classical
+end DedekindZetaZeroFree.LargeSieve.Sieve

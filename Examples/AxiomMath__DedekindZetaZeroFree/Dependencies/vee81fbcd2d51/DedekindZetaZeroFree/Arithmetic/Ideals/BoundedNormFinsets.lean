@@ -1,0 +1,8 @@
+module
+public import Examples.AxiomMath__DedekindZetaZeroFree.Dependencies.vee81fbcd2d51.DedekindZetaZeroFree.Arithmetic.RayClasses.Character
+set_option autoImplicit false
+set_option relaxedAutoImplicit false
+@[expose] public section
+namespace DedekindZetaZeroFree.LargeSieve
+open scoped NumberField Classical
+end DedekindZetaZeroFree.LargeSieve

@@ -1,0 +1,37 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.QuadraticTTStar
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.vf8ec2e09efce.QuadraticCarleson.FiniteSparseMaximal
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# Integral operators for the fixed-height quadratic argument
+
+Finite linearizations of the annular quadratic operators have measurable,
+bounded kernels with a finite spatial range. This file develops their actual
+integral adjoints and `TT*` representation. The boundedness and finite-range
+constants here may depend on the finite family; the oscillatory estimates in
+`QuadraticTTStar` will be used to obtain constants independent of that family.
+-/
+open MeasureTheory Set
+open scoped ComplexConjugate
+namespace QuadraticCarleson
+/-- The elementary kernel properties enjoyed by every finite linearization of
+a family of bounded, compactly supported convolution kernels. -/
+structure FiniteRangeKernel where
+  toFun : ℝ → ℝ → ℂ
+  measurable_toFun : Measurable (Function.uncurry toFun)
+  radius : ℝ
+  radius_pos : 0 < radius
+  bound : ℝ
+  bound_nonneg : 0 ≤ bound
+  norm_le : ∀ x t, ‖toFun x t‖ ≤ bound
+  eq_zero : ∀ x t, radius < |x - t| → toFun x t = 0
+instance : CoeFun FiniteRangeKernel (fun _ ↦ ℝ → ℝ → ℂ) := ⟨FiniteRangeKernel.toFun⟩
+namespace FiniteRangeKernel
+end FiniteRangeKernel
+end QuadraticCarleson

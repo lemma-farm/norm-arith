@@ -1,0 +1,31 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.KrauseLaceyDyadicLocalization
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.QuadraticFixedHeightAveragingCorrelation
+import Examples.anastasiosfragkosmath__quadratic_carleson_palomar_submission.Dependencies.v3e46dafce48e.QuadraticCarleson.QuadraticFixedHeightAveragingSigned
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+set_option relaxedAutoImplicit false
+/-!
+# The degree-two positive-half correlation in Krause--Lacey
+
+This module proves the degree-two specialization of the oscillatory kernel
+estimate (2.4) used at the start of the proof of Krause--Lacey Lemma 3.5.
+For the positive-half kernel `ψₖ(y) = e(y²) ρₖ⁺(y)`, its `TT*`
+correlation is `O(R⁻¹)` in a fixed neighborhood of the diagonal,
+`O(R⁻²)` away from that neighborhood, and vanishes outside a constant
+multiple of the annular radius `R`.
+
+The off-diagonal gain is obtained from the project's proved quadratic
+integration-by-parts theorem.  When the two modulations are both one, the
+quadratic term in the `TT*` phase cancels and its slope is the constant
+`4π(y-x)`.  No local `L¹ → L^q` estimate or sparse bound is assumed here.
+-/
+open Function MeasureTheory Set
+open scoped ComplexConjugate Interval
+namespace QuadraticCarleson
+set_option autoImplicit false
+end QuadraticCarleson

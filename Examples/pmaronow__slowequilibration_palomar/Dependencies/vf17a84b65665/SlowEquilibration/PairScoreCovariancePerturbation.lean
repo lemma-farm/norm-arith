@@ -1,0 +1,21 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.PairObservationGrouping
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.ObservationCrossBlockOrders
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.GaussianPairBlockBounds
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.GaussianRegressionSchur
+set_option autoImplicit false
+/-! Actual score covariance after conditioning on both tangent gradients.
+The genuine Schur error has order |overlap|^d with no dimension factor. -/
+@[expose] public section
+namespace SlowEquilibration.NormalizedPairObservations
+noncomputable section
+open Function SphericalModel SphericalGaussianJet WholeFieldRegression
+open GaussianRegression GaussianObservationCoercivity PairObservationCrossCovariance
+open NormalizedObservationCoercivity PairObservationNormBounds SphericalTwoPointCovariance
+open scoped RealInnerProductSpace
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+set_option maxHeartbeats 700000
+end
+end SlowEquilibration.NormalizedPairObservations

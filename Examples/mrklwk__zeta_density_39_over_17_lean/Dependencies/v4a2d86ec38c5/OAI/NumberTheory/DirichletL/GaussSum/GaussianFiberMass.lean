@@ -1,0 +1,55 @@
+module
+public import Examples.mrklwk__zeta_density_39_over_17_lean.Dependencies.v4a2d86ec38c5.OAI.NumberTheory.DirichletL.GaussSum.GaussianDualLimit
+public import Mathlib
+set_option autoImplicit false
+@[expose] public section
+namespace OAI
+noncomputable section
+open scoped BigOperators
+open MulChar AddChar
+open scoped BigOperators
+open Filter Asymptotics MeasureTheory
+open scoped Topology
+open MeasureTheory Real
+open scoped FourierTransform SchwartzMap
+open Finset Complex
+open scoped Classical
+open scoped Classical
+open Filter Real Asymptotics
+namespace ActualEisensteinCubic
+open EisensteinEmbedding ConcreteTraceCRT Complex
+end ActualEisensteinCubic
+namespace SqrtBranch
+open Complex
+end SqrtBranch
+namespace PowerExtraction
+end PowerExtraction
+namespace ActualEisensteinCubic
+open EisensteinEmbedding ConcreteTraceCRT Complex
+end ActualEisensteinCubic
+namespace EisensteinAbelFiber
+open scoped Topology
+open Filter
+end EisensteinAbelFiber
+namespace ActualEisensteinCubic
+section
+open scoped Topology
+open Filter EisensteinEmbedding ConcreteTraceCRT Complex
+end
+section
+open EisensteinEmbedding ConcreteTraceCRT Complex
+def latticeCoordEquiv : O ≃ ℤ × ℤ where
+  toFun := ActualEisensteinCoordinates.coords
+  invFun z := ActualEisensteinCoordinates.eval z.1 z.2
+  left_inv := ActualEisensteinCoordinates.eval_coords
+  right_inv z := ShortDraftLatticeCount.coords_eval z.1 z.2
+end
+end ActualEisensteinCubic
+namespace GaussianPhasePointwise
+end GaussianPhasePointwise
+namespace ActualEisensteinCubic
+open scoped Topology
+open Filter EisensteinEmbedding ConcreteTraceCRT Complex
+end ActualEisensteinCubic
+end
+end OAI

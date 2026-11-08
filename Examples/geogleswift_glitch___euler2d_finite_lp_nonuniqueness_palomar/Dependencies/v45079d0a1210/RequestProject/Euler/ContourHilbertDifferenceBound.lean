@@ -1,0 +1,12 @@
+module
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourHilbertDifferenceIdentity
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourHilbertFar
+public import Examples.geogleswift_glitch___euler2d_finite_lp_nonuniqueness_palomar.Dependencies.v45079d0a1210.RequestProject.Euler.ContourHilbertBoundary
+/-! # Assembly of the genuine near/far Hilbert difference estimate -/
+@[expose] public section
+noncomputable section
+open Set MeasureTheory Filter Topology Real
+open scoped Interval
+namespace Euler2D
+end Euler2D
+end

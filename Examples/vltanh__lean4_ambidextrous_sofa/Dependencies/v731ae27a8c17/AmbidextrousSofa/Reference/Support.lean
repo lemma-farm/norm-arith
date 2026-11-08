@@ -1,0 +1,149 @@
+module
+public import Examples.vltanh__lean4_ambidextrous_sofa.Dependencies.v731ae27a8c17.AmbidextrousSofa.Reference.Parameters
+set_option autoImplicit false
+set_option maxSynthPendingDepth 3
+set_option pp.unicode.fun true
+@[expose] public section
+/-!
+# The explicit three-phase reference support formulas
+
+These are the two upper-quarter coordinate functions of the reference support, each joined
+from three explicit phases at `beta` and `lateSwitch`. The phases match in value and first
+derivative by the cubic-derived identities in `Parameters`, so both coordinates are
+continuously differentiable. Complementary angles exchange the two coordinates up to the
+translation `2k`. The file does not assert that the periodic extension is the support of a
+convex body or that its swept-corridor envelope is feasible.
+
+The gluing lemmas come first, for a join `joinThree` of three functions at two arbitrary
+switches; the adaptive comparison family reuses them.
+-/
+noncomputable section
+open Set
+open scoped Topology
+namespace AmbidextrousSofa
+/-- A binary gluing theorem proved from the two one-sided derivative statements. -/
+theorem hasDerivAt_if_le (c : ℝ) {f g fD gD : ℝ → ℝ}
+    (hf : ∀ x, HasDerivAt f (fD x) x) (hg : ∀ x, HasDerivAt g (gD x) x)
+    (hvalue : f c = g c) (hderiv : fD c = gD c) (x : ℝ) :
+    HasDerivAt (fun y => if y ≤ c then f y else g y)
+      (if x ≤ c then fD x else gD x) x := by
+  rcases lt_trichotomy x c with hlt | rfl | hgt
+  · rw [ite_eq_left hlt.le]
+    exact (hf x).congr_of_eventuallyEq ((eventually_lt_nhds hlt).mono fun y hy => ite_eq_left hy.le)
+  · have hright : ∀ y ∈ Ici x, (if y ≤ x then f y else g y) = g y := fun y hy => by
+      split_ifs with h <;> [rw [le_antisymm h hy, hvalue]; rfl]
+    rw [ite_eq_left le_rfl, ← hasDerivWithinAt_univ, ← Iic_union_Ici]
+    exact ((hf x).hasDerivWithinAt.congr (fun y (hy : y ≤ x) => ite_eq_left hy)
+      (ite_eq_left le_rfl)).union
+      (((hg x).congr_deriv hderiv.symm).hasDerivWithinAt.congr hright (hright x le_rfl))
+  · rw [ite_eq_right (not_le.mpr hgt)]
+    exact (hg x).congr_of_eventuallyEq
+      ((eventually_gt_nhds hgt).mono fun y hy => ite_eq_right (not_le.mpr hy))
+/-- The join of `E`, `N` and `W` at the switches `c` and `d`. -/
+def joinThree (c d : ℝ) (E N W : ℝ → ℝ) (t : ℝ) : ℝ :=
+  if t ≤ c then E t else if t ≤ d then N t else W t
+/-- A join of continuous functions that agree at both switches is continuous. -/
+theorem continuous_joinThree {c d : ℝ} {E N W : ℝ → ℝ}
+    (hcd : c ≤ d) (hE : Continuous E) (hN : Continuous N) (hW : Continuous W)
+    (hfirst : E c = N c) (hlast : N d = W d) :
+    Continuous (joinThree c d E N W) :=
+  hE.if_le (hN.if_le hW continuous_id continuous_const fun _ (h : _ = _) => h ▸ hlast)
+    continuous_id continuous_const fun _ (h : _ = _) => by rw [h, ite_eq_left hcd, hfirst]
+/-- A join of functions that match in value and derivative at both switches is differentiable. -/
+theorem hasDerivAt_joinThree {c d : ℝ} {E N W ED ND WD : ℝ → ℝ} (hcd : c ≤ d)
+    (hE : ∀ t, HasDerivAt E (ED t) t) (hN : ∀ t, HasDerivAt N (ND t) t)
+    (hW : ∀ t, HasDerivAt W (WD t) t) (hfirst : E c = N c) (hlast : N d = W d)
+    (hfirstD : ED c = ND c) (hlastD : ND d = WD d) (t : ℝ) :
+    HasDerivAt (joinThree c d E N W) (joinThree c d ED ND WD t) t :=
+  hasDerivAt_if_le c hE (hasDerivAt_if_le d hN hW hlast hlastD)
+    (by rw [ite_eq_left hcd, hfirst]) (by rw [ite_eq_left hcd, hfirstD]) t
+end AmbidextrousSofa
+namespace AmbidextrousSofa.Reference
+def fEarly (t : ℝ) : ℝ := Real.cos t + 1 / 2 * Real.sin t
+def gEarly (t : ℝ) : ℝ := (2 * A - 1) * Real.sin t + 1 / 2 * Real.cos t + 1 / 2
+def fMiddle (t : ℝ) : ℝ :=
+  R * Real.cos (t / 2 + Real.pi / 8) + k * Real.cos t + 1 / 2 * Real.sin t
+def gMiddle (t : ℝ) : ℝ :=
+  R * Real.sin (t / 2 + Real.pi / 8) - k * Real.sin t + 1 / 2 * Real.cos t
+def fLate (t : ℝ) : ℝ :=
+  (1 - 2 / 3 * A) * Real.cos t + 1 / 2 * Real.sin t + 1 / 2
+def gLate (t : ℝ) : ℝ := (8 / 3 * A - 1) * Real.sin t + 1 / 2 * Real.cos t
+def fEarlyD (t : ℝ) : ℝ := -Real.sin t + 1 / 2 * Real.cos t
+def gEarlyD (t : ℝ) : ℝ := (2 * A - 1) * Real.cos t - 1 / 2 * Real.sin t
+def fMiddleD (t : ℝ) : ℝ :=
+  -(R / 2) * Real.sin (t / 2 + Real.pi / 8) - k * Real.sin t + 1 / 2 * Real.cos t
+def gMiddleD (t : ℝ) : ℝ :=
+  R / 2 * Real.cos (t / 2 + Real.pi / 8) - k * Real.cos t - 1 / 2 * Real.sin t
+def fLateD (t : ℝ) : ℝ := -(1 - 2 / 3 * A) * Real.sin t + 1 / 2 * Real.cos t
+def gLateD (t : ℝ) : ℝ := (8 / 3 * A - 1) * Real.cos t - 1 / 2 * Real.sin t
+/-- The first upper-quarter support coordinate; interface values are proved below. -/
+def referenceF (t : ℝ) : ℝ :=
+  if t ≤ beta then fEarly t else if t ≤ lateSwitch then fMiddle t else fLate t
+/-- The companion upper-quarter support coordinate. -/
+def referenceG (t : ℝ) : ℝ :=
+  if t ≤ beta then gEarly t else if t ≤ lateSwitch then gMiddle t else gLate t
+/-- The derivative selected from the same three phases. -/
+def referenceFD (t : ℝ) : ℝ :=
+  if t ≤ beta then fEarlyD t else if t ≤ lateSwitch then fMiddleD t else fLateD t
+/-- The companion derivative selected from the same three phases. -/
+def referenceGD (t : ℝ) : ℝ :=
+  if t ≤ beta then gEarlyD t else if t ≤ lateSwitch then gMiddleD t else gLateD t
+theorem hasDerivAt_middlePhaseAngle (t : ℝ) :
+    HasDerivAt (fun x : ℝ => x / 2 + Real.pi / 8) (1 / 2) t := by
+  simpa only [one_div] using ((hasDerivAt_id' t).div_const 2).add_const (Real.pi / 8)
+theorem f_matching_first : fEarly beta = fMiddle beta := by
+  unfold fMiddle fEarly k; linear_combination -firstSwitch_eqs.1
+theorem g_matching_first : gEarly beta = gMiddle beta := by
+  unfold gMiddle gEarly k; linear_combination firstSwitch_eqs.2.2 / 6 - firstSwitch_eqs.2.1
+theorem fD_matching_first : fEarlyD beta = fMiddleD beta := by
+  unfold fMiddleD fEarlyD k; linear_combination firstSwitch_eqs.2.1 / 2 - firstSwitch_eqs.2.2 / 3
+theorem gD_matching_first : gEarlyD beta = gMiddleD beta := by
+  unfold gMiddleD gEarlyD k; linear_combination -firstSwitch_eqs.1 / 2
+theorem f_matching_last : fMiddle lateSwitch = fLate lateSwitch := by
+  simp only [fMiddle, fLate, k, lateSwitch_trig]
+  linear_combination firstSwitch_eqs.2.1 - firstSwitch_eqs.2.2 / 6
+theorem g_matching_last : gMiddle lateSwitch = gLate lateSwitch := by
+  simp only [gMiddle, gLate, k, lateSwitch_trig]; linear_combination firstSwitch_eqs.1
+theorem fD_matching_last : fMiddleD lateSwitch = fLateD lateSwitch := by
+  simp only [fMiddleD, fLateD, k, lateSwitch_trig]; linear_combination -firstSwitch_eqs.1 / 2
+theorem gD_matching_last : gMiddleD lateSwitch = gLateD lateSwitch := by
+  simp only [gMiddleD, gLateD, k, lateSwitch_trig]
+  linear_combination firstSwitch_eqs.2.1 / 2 - firstSwitch_eqs.2.2 / 3
+/-- The first piecewise support coordinate is differentiable at every switch as well. -/
+theorem hasDerivAt_referenceF (t : ℝ) : HasDerivAt referenceF (referenceFD t) t :=
+  hasDerivAt_joinThree beta_lt_lateSwitch.le
+    (fun x => (Real.hasDerivAt_cos x).add ((Real.hasDerivAt_sin x).const_mul (1 / 2)))
+    (fun x => ((((hasDerivAt_middlePhaseAngle x).cos.const_mul R).add
+      ((Real.hasDerivAt_cos x).const_mul k)).add
+      ((Real.hasDerivAt_sin x).const_mul (1 / 2))).congr_deriv (by unfold fMiddleD; ring))
+    (fun x => ((((Real.hasDerivAt_cos x).const_mul (1 - 2 / 3 * A)).add
+      ((Real.hasDerivAt_sin x).const_mul (1 / 2))).add_const (1 / 2)).congr_deriv
+      (by unfold fLateD; ring))
+    f_matching_first f_matching_last fD_matching_first fD_matching_last t
+/-- The companion coordinate has the stated derivative at both joins. -/
+theorem hasDerivAt_referenceG (t : ℝ) : HasDerivAt referenceG (referenceGD t) t :=
+  hasDerivAt_joinThree beta_lt_lateSwitch.le
+    (fun x => ((((Real.hasDerivAt_sin x).const_mul (2 * A - 1)).add
+      ((Real.hasDerivAt_cos x).const_mul (1 / 2))).add_const (1 / 2)).congr_deriv
+      (by unfold gEarlyD; ring))
+    (fun x => ((((hasDerivAt_middlePhaseAngle x).sin.const_mul R).sub
+      ((Real.hasDerivAt_sin x).const_mul k)).add
+      ((Real.hasDerivAt_cos x).const_mul (1 / 2))).congr_deriv (by unfold gMiddleD; ring))
+    (fun x => (((Real.hasDerivAt_sin x).const_mul (8 / 3 * A - 1)).add
+      ((Real.hasDerivAt_cos x).const_mul (1 / 2))).congr_deriv (by unfold gLateD; ring))
+    g_matching_first g_matching_last gD_matching_first gD_matching_last t
+/-- The actual piecewise coordinate is continuous, including both joins. -/
+theorem continuous_referenceF : Continuous referenceF :=
+  continuous_iff_continuousAt.2 fun t => (hasDerivAt_referenceF t).continuousAt
+/-- Continuity of the companion coordinate is also proved at both joins. -/
+theorem continuous_referenceG : Continuous referenceG :=
+  continuous_iff_continuousAt.2 fun t => (hasDerivAt_referenceG t).continuousAt
+theorem continuous_referenceFD : Continuous referenceFD :=
+  continuous_joinThree beta_lt_lateSwitch.le (by unfold fEarlyD; fun_prop)
+    (by unfold fMiddleD; fun_prop) (by unfold fLateD; fun_prop) fD_matching_first
+    fD_matching_last
+theorem continuous_referenceGD : Continuous referenceGD :=
+  continuous_joinThree beta_lt_lateSwitch.le (by unfold gEarlyD; fun_prop)
+    (by unfold gMiddleD; fun_prop) (by unfold gLateD; fun_prop) gD_matching_first
+    gD_matching_last
+end AmbidextrousSofa.Reference

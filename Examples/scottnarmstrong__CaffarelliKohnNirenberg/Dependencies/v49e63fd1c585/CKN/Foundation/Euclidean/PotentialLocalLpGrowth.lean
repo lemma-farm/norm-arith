@@ -1,0 +1,36 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Foundation.Euclidean.PotentialLocalLp
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PotentialDecay
+import Examples.scottnarmstrong__CaffarelliKohnNirenberg.Dependencies.v49e63fd1c585.CKN.Pressure.PotentialDecayFarField
+set_option autoImplicit false
+set_option warningAsError true
+/-!
+# Local `L^{3/2}` membership and linear growth for Newtonian potentials
+
+The uniqueness half of the Newtonian representation `ext:newtonian` of the paper applies
+Liouville's theorem to a function that is `L^{3/2}` on every round ball `euclideanBall 0 ρ` with
+norm growing at most like `1 + ρ`.  This file produces exactly that pair of statements for the
+Newtonian potential `N * g` and for the first-derivative potential `∂ⱼN * g` of data `g` that is
+compactly supported and of class `L^q`.
+
+The near-field half is Young's inequality on a ball
+(`CKN.Foundation.Euclidean.PotentialLocalLp`); the far-field half is the pointwise decay
+`|N * g| ≲ ‖g‖_{L¹} ‖x‖⁻¹`, `|∂ⱼN * g| ≲ ‖g‖_{L¹} ‖x‖⁻²` of
+`CKN.Pressure.PotentialDecayFarField`.  The two are combined by the splitting estimate of
+`CKN.Pressure.PotentialDecay`, which is where the factor `1 + ρ` comes from: the inverse-distance
+profile `‖x‖⁻¹` has `L^{3/2}` norm proportional to `ρ` on the ball of radius `ρ`.
+
+All the estimates are stated for exponents `q ≥ 6/5`, which covers the exponent `3/2` of the
+pressure and the exponents `q > 5/2` of the force datum of `def:sws`.
+-/
+open MeasureTheory MeasureTheory.Measure Set Filter Metric
+open scoped BigOperators ENNReal NNReal Topology
+open CKN.Foundation.Parabolic
+open CKN.Foundation.Heat
+set_option autoImplicit false
+noncomputable section
+namespace CKN.Foundation.Euclidean
+open CKN
+/-! ### The explicit constants -/
+end CKN.Foundation.Euclidean

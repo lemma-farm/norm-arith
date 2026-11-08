@@ -1,0 +1,24 @@
+module
+public import Examples.pmaronow__aging_palomar.Dependencies.vd98f1d5f179e.SphericalAging.CausalTreeTensor
+public import Mathlib
+set_option autoImplicit false
+public section
+/-! Ordered leaf flattening for the recursively completed tree tensors. -/
+noncomputable section
+set_option maxHeartbeats 1000000
+set_option backward.isDefEq.respectTransparency false
+open scoped TensorProduct InnerProductSpace ENNReal
+open UniformSpace
+namespace SphericalAging.CausalTree
+attribute [local instance] Classical.propDecidable
+namespace HilbertDatum
+section CompletionInsertion
+variable (E F : Type) [NormedAddCommGroup E] [InnerProductSpace ℝ E]
+  [NormedAddCommGroup F] [InnerProductSpace ℝ F]
+end CompletionInsertion
+section CompletionEquivalence
+variable {E F : Type} [NormedAddCommGroup E] [InnerProductSpace ℝ E]
+  [NormedAddCommGroup F] [InnerProductSpace ℝ F]
+end CompletionEquivalence
+end HilbertDatum
+end SphericalAging.CausalTree

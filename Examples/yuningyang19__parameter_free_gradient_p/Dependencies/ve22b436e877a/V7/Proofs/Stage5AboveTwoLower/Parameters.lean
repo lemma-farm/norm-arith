@@ -1,0 +1,4 @@
+import Examples.yuningyang19__parameter_free_gradient_p.Dependencies.ve22b436e877a.V7.LowerBoundStatements
+import Mathlib.Analysis.Complex.ExponentialBounds
+namespace V7.Stage5AboveTwoLower
+end V7.Stage5AboveTwoLower

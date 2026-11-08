@@ -1,0 +1,19 @@
+module
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v7648cd52bcfa.SubdiffusiveProcess.Probability.Diffusion.AnalyticInput
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v7648cd52bcfa.SubdiffusiveProcess.DirichletForm.Regular
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v7648cd52bcfa.SubdiffusiveProcess.DirichletForm.Resolvent
+public import Examples.nitromannitol__subdiffusive_process.Dependencies.v7648cd52bcfa.MarkovProcess.Main
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+set_option warn.classDefReducibility false
+@[expose] public section
+open MeasureTheory ProbabilityTheory MarkovProcess Set Filter
+open scoped ENNReal NNReal Topology
+noncomputable section
+namespace SubdiffusiveProcess.E7
+end SubdiffusiveProcess.E7

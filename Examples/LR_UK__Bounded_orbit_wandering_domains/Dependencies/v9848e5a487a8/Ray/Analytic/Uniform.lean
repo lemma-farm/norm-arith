@@ -1,0 +1,20 @@
+module
+public import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Order.Lattice
+import Mathlib.Algebra.Lie.OfAssociative
+import Mathlib.Analysis.Complex.CauchyIntegral
+import Examples.LR_UK__Bounded_orbit_wandering_domains.Dependencies.v9848e5a487a8.Ray.Misc.Bounds
+/-!
+## Convergent sequences of analytic functions
+
+We show that uniformly convergence sequences of analytic functions have analytic limits.
+-/
+open Complex (I)
+open Filter (atTop)
+open MeasureTheory.MeasureSpace (volume)
+open Metric (ball closedBall sphere)
+open scoped Real NNReal Topology
+noncomputable section
+variable {E : Type} [NormedAddCommGroup E] [NormedSpace ℂ E]
+variable [CompleteSpace E]

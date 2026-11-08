@@ -1,0 +1,22 @@
+module
+public import Examples.pmaronow__arbitrary_rsb_palomar.Dependencies.v91d9f6a1eb8c.Paper.Gaussian
+public import Mathlib.MeasureTheory.Measure.ProbabilityMeasure
+public import Mathlib.MeasureTheory.Measure.Support
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+set_option autoImplicit false
+@[expose] public section
+/-!
+# Concrete Parisi measures and replica-symmetric functional
+
+`ParisiMeasure` is the actual type of probability measures on `[0,1]`.
+The functional is parameterized by a potential `u`; this file does not claim
+that an arbitrary supplied potential is the weak Parisi PDE solution.
+-/
+open Set MeasureTheory
+namespace Paper
+abbrev Overlap := Set.Icc (0 : ℝ) 1
+abbrev ParisiMeasure := ProbabilityMeasure Overlap
+noncomputable def parisiCDF (μ : ParisiMeasure) (s : ℝ) : ℝ :=
+  ((μ : Measure Overlap) {t : Overlap | (t : ℝ) ≤ s}).toReal
+end Paper

@@ -1,0 +1,19 @@
+import Examples.wcook04__plectis_erdos_lean.Dependencies.v5976c22e5df4.ErdosProblems.Erdos1049.GaussianDegreeR12
+import Examples.wcook04__plectis_erdos_lean.Dependencies.v5976c22e5df4.ErdosProblems.Erdos1049.SourceBInitialR12
+import Mathlib
+set_option pp.unicode.fun true
+/-!
+# Exact top degree of the literal cleared B numerator
+
+
+
+The unique leading term is the unshifted pair (s,l)=(13*n,1).
+This is a finite polynomial proof: neither A*F-B=H nor Omega divisibility
+is an assumption. The canonical monic quotient V is defined even before
+its remainder is known to vanish; its degree is not misrepresented as
+proof that this remainder vanishes.
+-/
+namespace ErdosProblems.Erdos1049.PaperR13
+open Polynomial PaperR11 PaperR12
+open scoped BigOperators
+end ErdosProblems.Erdos1049.PaperR13

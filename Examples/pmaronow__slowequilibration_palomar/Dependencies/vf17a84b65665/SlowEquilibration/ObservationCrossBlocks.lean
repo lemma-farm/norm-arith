@@ -1,0 +1,18 @@
+-- SPDX-License-Identifier: Apache-2.0
+module
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.NormalizedObservationBlocks
+public import Examples.pmaronow__slowequilibration_palomar.Dependencies.vf17a84b65665.SlowEquilibration.PairObservationCrossCovariance
+set_option autoImplicit false
+/-! Exact score/score, score/gradient and gradient/gradient cross blocks
+of the actual normalized two-point Gaussian observations. -/
+@[expose] public section
+namespace SlowEquilibration.PairObservationCrossCovariance
+noncomputable section
+open MeasureTheory ProbabilityTheory SphericalModel SphericalGaussianJet WholeFieldRegression
+open NormalizedPairObservations SphericalTwoPointCovariance ScalarCoefficientCovariance
+open scoped RealInnerProductSpace
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+set_option maxHeartbeats 500000
+end
+end SlowEquilibration.PairObservationCrossCovariance

@@ -1,0 +1,11 @@
+module
+public import Examples.djalilchafai__ginibre_poincare.Dependencies.v363a8b4b3804.GinibrePoincare.Analysis.VandermondeL2
+public import Mathlib.MeasureTheory.Function.LpSpace.ContinuousCompMeasurePreserving
+@[expose] public section
+/-! # Permutation actions and symmetric/alternating `L²` subspaces -/
+open MeasureTheory
+open scoped ENNReal
+namespace GinibrePoincare
+noncomputable section
+end
+end GinibrePoincare

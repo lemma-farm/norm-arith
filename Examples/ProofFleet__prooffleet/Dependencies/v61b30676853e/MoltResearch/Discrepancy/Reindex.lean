@@ -1,0 +1,18 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v61b30676853e.MoltResearch.Discrepancy.Affine
+/-!
+# Reindex lemmas for arithmetic progression sums
+
+These lemmas allow us to reindex sums when the underlying function
+is composed with a multiplication on the argument.
+-/
+namespace MoltResearch
+/-!
+## Affine reindexing glue
+
+These lemmas provide a tiny library for reindexing `Finset.range` sums along an injective
+affine map on indices `i ↦ a + b * i` (with `0 < b`).
+
+They are used to expose a nucleus-friendly normal form for `apSumOffset` that avoids rewriting
+under lambdas.
+-/
+end MoltResearch

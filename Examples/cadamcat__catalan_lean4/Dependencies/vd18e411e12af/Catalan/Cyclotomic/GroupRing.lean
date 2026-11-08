@@ -1,0 +1,21 @@
+module
+public import Examples.cadamcat__catalan_lean4.Dependencies.vd18e411e12af.Catalan.Cyclotomic.Basic
+/-! Integral group-ring weight, size and exponentiation on field units. -/
+/-!
+# `Catalan.Cyclotomic.GroupRing`
+
+Part of the Catalan formalization.
+-/
+@[expose] public section
+open scoped BigOperators
+open NumberField
+noncomputable section
+namespace Catalan
+section Definitions
+variable (p : ℕ) (K : Type*) [Field K] [NumberField K]
+end Definitions
+section Algebra
+variable (p : ℕ) (K : Type*) [Field K] [NumberField K]
+local instance : Fintype (G p K) := Fintype.ofFinite _
+end Algebra
+end Catalan

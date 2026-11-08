@@ -1,0 +1,95 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+module
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.vb962436feb09.AVenhance.Infra.Parabolic.FourierGalerkin.LimitWeakEquation
+public import Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.vb962436feb09.AVenhance.Infra.Parabolic.FourierGalerkin.LimitRepresentation
+public import Mathlib
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Arbitrary tests for the synchronized Galerkin limit
+
+The finite Fourier cutoff weak identity passes to every spacetime test by the spacetime
+`L²` tail estimates and the Cauchy--Schwarz inequality on the physical cell.
+-/
+@[expose] public section
+noncomputable section
+open MeasureTheory Set Filter
+open Homogenization
+open scoped ENNReal RealInnerProductSpace Topology
+namespace AVenhance.Infra.Parabolic.FourierGalerkin
+local instance arbitraryTestMeasureSpaceUnitAddCircle : MeasureSpace UnitAddCircle :=
+  ⟨AddCircle.haarAddCircle⟩
+local instance arbitraryTestMeasureIsAddHaar : Measure.IsAddHaarMeasure
+    (volume : Measure UnitAddCircle) :=
+  inferInstanceAs (Measure.IsAddHaarMeasure AddCircle.haarAddCircle)
+local instance arbitraryTestProbabilityUnitAddCircle : IsProbabilityMeasure
+    (volume : Measure UnitAddCircle) :=
+  inferInstanceAs (IsProbabilityMeasure AddCircle.haarAddCircle)
+local instance arbitraryTestProbabilityTorus : IsProbabilityMeasure
+    (volume : Measure Torus) := inferInstance
+local instance arbitraryTestTopHolderTwo : (⊤ : ENNReal).HolderTriple 2 2 :=
+  ENNReal.HolderTriple.symm
+local instance arbitraryTestFiniteUnitCube :
+    IsFiniteMeasure (volume.restrict AVenhance.unitCube) := by
+  refine ⟨?_⟩
+  rw [Measure.restrict_apply_univ]
+  unfold AVenhance.unitCube
+  rw [volume_pi, Measure.pi_pi]
+  simp [Real.volume_Ioo]
+def LimitArbitraryTest.arbitraryTestSpatialClosedCell : Set (Vec 2) :=
+  Set.pi Set.univ (fun _ : Fin 2 => Set.Icc (0 : ℝ) 1)
+theorem LimitArbitraryTest.arbitraryTest_unitCube_measurable : MeasurableSet AVenhance.unitCube := by
+  unfold AVenhance.unitCube
+  exact MeasurableSet.pi Set.countable_univ (fun _ _ => measurableSet_Ioo)
+theorem LimitArbitraryTest.arbitraryTestSpatialClosedCell_compact :
+    IsCompact LimitArbitraryTest.arbitraryTestSpatialClosedCell := by
+  simpa [LimitArbitraryTest.arbitraryTestSpatialClosedCell] using
+    isCompact_univ_pi fun _ : Fin 2 => isCompact_Icc
+theorem LimitArbitraryTest.unitCube_subset_arbitraryTestSpatialClosedCell :
+    AVenhance.unitCube ⊆ LimitArbitraryTest.arbitraryTestSpatialClosedCell := by
+  intro x hx
+  simp only [AVenhance.unitCube, LimitArbitraryTest.arbitraryTestSpatialClosedCell,
+    Set.mem_pi, Set.mem_univ, forall_true_left] at hx ⊢
+  intro i
+  have hxi := hx i
+  exact ⟨le_of_lt hxi.1, le_of_lt hxi.2⟩
+theorem LimitArbitraryTest.timeCube_measure_eq_iterated :
+    (volume.restrict AVenhance.timeCube) =
+      (volume.restrict (Set.Ioo (0 : ℝ) 1)).prod
+    (volume.restrict AVenhance.unitCube) := by
+  rw [AVenhance.timeCube, Measure.prod_restrict,
+    ← Measure.volume_eq_prod ℝ (Vec 2)]
+local instance arbitraryTestFiniteTimeCube :
+    IsFiniteMeasure (volume.restrict AVenhance.timeCube) := by
+  rw [LimitArbitraryTest.timeCube_measure_eq_iterated]
+  infer_instance
+theorem LimitArbitraryTest.arbitraryTest_cell_coord_le_grad
+    {F : Vec 2 → Vec 2} (hF : Continuous F) (i : Fin 2) :
+    AVenhance.l2NormSq (fun x => F x i) ≤ AVenhance.gradNormSq F := by
+  have hcoord : Integrable (fun x : Vec 2 => (F x i) ^ 2)
+      (volume.restrict AVenhance.unitCube) := by
+    exact (((continuous_apply i).comp hF).pow 2).continuousOn.integrableOn_compact
+      LimitArbitraryTest.arbitraryTestSpatialClosedCell_compact |>.mono_set
+        LimitArbitraryTest.unitCube_subset_arbitraryTestSpatialClosedCell
+  have hvec : Integrable (fun x : Vec 2 => Homogenization.vecNormSq (F x))
+      (volume.restrict AVenhance.unitCube) := by
+    have hsq : Continuous (fun x : Vec 2 => Homogenization.vecNormSq (F x)) := by
+      unfold Homogenization.vecNormSq Homogenization.vecDot
+      exact continuous_finsetSum Finset.univ fun j hj =>
+        ((continuous_apply j).comp hF).mul ((continuous_apply j).comp hF)
+    exact hsq.continuousOn.integrableOn_compact LimitArbitraryTest.arbitraryTestSpatialClosedCell_compact |>.mono_set
+      LimitArbitraryTest.unitCube_subset_arbitraryTestSpatialClosedCell
+  unfold AVenhance.l2NormSq AVenhance.gradNormSq
+  apply setIntegral_mono_on hcoord hvec LimitArbitraryTest.arbitraryTest_unitCube_measurable
+  intro x hx
+  simp only [Homogenization.vecNormSq, Homogenization.vecDot]
+  simpa [pow_two] using (Finset.single_le_sum (s := Finset.univ)
+    (fun j hj => sq_nonneg (F x j)) (Finset.mem_univ i))
+end AVenhance.Infra.Parabolic.FourierGalerkin
+end

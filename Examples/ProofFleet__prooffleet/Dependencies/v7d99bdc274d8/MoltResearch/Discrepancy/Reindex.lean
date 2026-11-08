@@ -1,0 +1,51 @@
+import Examples.ProofFleet__prooffleet.Dependencies.v7d99bdc274d8.MoltResearch.Discrepancy.Affine
+/-!
+# Reindex lemmas for arithmetic progression sums
+
+These lemmas allow us to reindex sums when the underlying function
+is composed with a multiplication on the argument.
+-/
+namespace MoltResearch
+/-!
+## Affine reindexing glue
+
+These lemmas provide a tiny library for reindexing `Finset.range` sums along an injective
+affine map on indices `i ↦ a + b * i` (with `0 < b`).
+
+They are used to expose a nucleus-friendly normal form for `apSumOffset` that avoids rewriting
+under lambdas.
+-/
+lemma apSum_map_mul (f : ℕ → ℤ) (k d n : ℕ) :
+  apSum (fun x => f (x * k)) d n = apSum f (d * k) n := by
+  unfold apSum
+  refine Finset.sum_congr rfl ?_
+  intro i hi
+  simp [Nat.mul_assoc]
+lemma apSumOffset_map_mul (f : ℕ → ℤ) (k d m n : ℕ) :
+  apSumOffset (fun x => f (x * k)) d m n = apSumOffset f (d * k) m n := by
+  unfold apSumOffset
+  refine Finset.sum_congr rfl ?_
+  intro i hi
+  simp [Nat.mul_assoc]
+/-- Factor a product step size `d * k` by pushing `d` into the summand (offset-sum version).
+
+This is the offset analogue of `apSum_mul_eq_apSum_map_mul`.
+-/
+lemma apSumOffset_mul_eq_apSumOffset_map_mul (f : ℕ → ℤ) (d k m n : ℕ) :
+    apSumOffset f (d * k) m n = apSumOffset (fun x => f (x * d)) k m n := by
+  -- `apSumOffset_map_mul` gives the forward direction with step `k * d`.
+  simpa [Nat.mul_comm] using
+    (apSumOffset_map_mul (f := f) (k := d) (d := k) (m := m) (n := n)).symm
+lemma discOffset_mul_eq_discOffset_map_mul (f : ℕ → ℤ) (d k m n : ℕ) :
+    discOffset f (d * k) m n = discOffset (fun x => f (x * d)) k m n := by
+  unfold discOffset
+  -- Use the offset-sum coherence lemma and take `natAbs`.
+  simpa using congrArg Int.natAbs
+    (apSumOffset_mul_eq_apSumOffset_map_mul (f := f) (d := d) (k := k) (m := m) (n := n))
+theorem BoundedDiscOffset.map_mul {f : ℕ → ℤ} {d k m B : ℕ}
+    (h : BoundedDiscOffset f (d * k) m B) :
+    BoundedDiscOffset (fun x => f (x * d)) k m B := by
+  intro n
+  rw [← discOffset_mul_eq_discOffset_map_mul (f := f) (d := d) (k := k) (m := m) (n := n)]
+  exact h n
+end MoltResearch

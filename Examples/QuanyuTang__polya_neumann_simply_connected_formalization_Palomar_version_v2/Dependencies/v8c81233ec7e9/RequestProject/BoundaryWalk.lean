@@ -1,0 +1,22 @@
+module
+public import Examples.QuanyuTang__polya_neumann_simply_connected_formalization_Palomar_version_v2.Dependencies.v8c81233ec7e9.RequestProject.BoundaryChart
+/-!
+# Walking along a Lipschitz boundary
+
+Given uniform charts `ch p` at the boundary points `p` of a Lipschitz domain, the *boundary
+walk* starting at `p₀` with step `ℓ` follows the graph of the chart at the current point for
+abscissae `0 ≤ x ≤ ℓ`, then moves to the chart at the point reached, and so on. The walk is a
+Lipschitz curve along `∂Ω` (`lipschitzWith_walk`, `walk_mem_frontier`), and in every chart its
+abscissa is locally strictly increasing (`walk_local_strictMono`), by consistency of
+orientation (`chart_orient`).
+-/
+@[expose] public section
+open MeasureTheory Set Filter Metric
+open scoped ComplexConjugate Real Topology
+noncomputable section
+namespace PolyaNeumann
+/-! ### Gluing Lipschitz pieces -/
+section Walk
+variable {Ω : Set ℂ} {ρ H : ℝ} {K : NNReal} {ch : ℂ → ℂ × (ℝ → ℝ)} {ℓ : ℝ} {p₀ : ℂ}
+end Walk
+end PolyaNeumann

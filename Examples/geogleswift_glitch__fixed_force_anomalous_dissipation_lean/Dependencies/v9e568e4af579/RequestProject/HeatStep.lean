@@ -1,0 +1,19 @@
+module
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.Fourier
+public import Examples.geogleswift_glitch__fixed_force_anomalous_dissipation_lean.Dependencies.v9e568e4af579.RequestProject.TaylorHolder
+/-!
+# Gaussian moments and one heat step
+
+Moments of the Gaussian law `gauss2 v` on `ℝ²`, basic properties of the heat operator
+`heatOp v`, and the second-order expansion of one heat step applied to `f ∘ ψ` when `ψ` is close
+to the identity.
+-/
+@[expose] public section
+open MeasureTheory Set Filter Topology Real ProbabilityTheory
+open scoped ENNReal ContDiff NNReal
+noncomputable section
+namespace AnomDiss
+instance gauss2_isProb (v : ℝ≥0) : IsProbabilityMeasure (gauss2 v) := by
+  unfold gauss2; infer_instance
+/-! ### One-dimensional moments -/
+end AnomDiss

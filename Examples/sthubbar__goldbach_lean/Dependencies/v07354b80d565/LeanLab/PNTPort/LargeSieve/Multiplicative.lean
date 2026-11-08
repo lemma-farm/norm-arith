@@ -1,0 +1,26 @@
+module
+public import Mathlib
+public import Examples.sthubbar__goldbach_lean.Dependencies.v07354b80d565.LeanLab.PNTPort.LargeSieve.PrimeSieve
+/-!
+# The multiplicative large sieve
+
+Lab proof, unit U-5000. AI wrote this file. Known mathematics, the Bombieri and Davenport
+form, no cited input. Uses Mathlib's Gauss sums for primitive Dirichlet characters.
+
+* `normSq_gaussSum_of_isPrimitive`: `‖τ(χ)‖² = q` for a primitive character mod `q`.
+* `sum_chars_normSq`: `∑_χ ‖∑_x χ(x) S(x)‖² = φ(q) ∑_{x unit} ‖S(x)‖²`.
+* `multiplicative_large_sieve`:
+  `∑_{q ≤ Q} q/φ(q) ∑_{χ primitive mod q} ‖∑_{M<n≤M+N} a_n χ(n)‖² ≤ (N + 2Q²) ∑ ‖a_n‖²`.
+-/
+@[expose] public section
+namespace LeanLab.PNTPort.LargeSieve
+open Complex Finset Real
+noncomputable instance (q : ℕ) :
+    DecidablePred (fun χ : DirichletCharacter ℂ q => χ.IsPrimitive) := Classical.decPred _
+section ZModSums
+variable {q : ℕ} [NeZero q]
+end ZModSums
+section Gauss
+variable {q : ℕ} [NeZero q]
+end Gauss
+end LeanLab.PNTPort.LargeSieve

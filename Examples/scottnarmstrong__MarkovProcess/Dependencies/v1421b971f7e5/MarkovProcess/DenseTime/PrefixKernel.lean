@@ -1,0 +1,70 @@
+/-
+Copyright (c) 2026 Scott Armstrong. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Scott Armstrong
+-/
+import Examples.scottnarmstrong__MarkovProcess.Dependencies.v1421b971f7e5.MarkovProcess.Time.CountableDenseTime
+import Examples.scottnarmstrong__MarkovProcess.Dependencies.v1421b971f7e5.MarkovProcess.FiniteTime.ProjectiveFamily
+set_option autoImplicit false
+set_option linter.deprecated true
+set_option linter.unnecessarySimpa true
+set_option linter.unusedSectionVars true
+set_option linter.unusedSimpArgs true
+set_option linter.unusedVariables true
+set_option relaxedAutoImplicit false
+/-!
+# Kernels on finite prefixes of a countable time enumeration
+
+This file constructs the finite-dimensional kernel on the first `n` points of an arbitrary
+enumeration, with coordinates retained in enumeration order. The enumeration need not respect
+the order of physical time.
+-/
+open MeasureTheory ProbabilityTheory
+namespace MarkovProcess
+namespace SubMarkovKernelSemigroup
+noncomputable section
+variable {D α : Type*} [MeasurableSpace α]
+/-- The physical times occurring in the first `n` positions of an enumeration. -/
+def denseTimePhysicalPrefix (e : ℕ ≃ D) (ι : D ↪ NNReal) (n : ℕ) : Finset NNReal :=
+  (CountableEnumeration.prefix e n).map ι
+private theorem denseTime_mem_physicalPrefix (e : ℕ ≃ D) (ι : D ↪ NNReal)
+    (n : ℕ) (i : Fin n) : ι (e i) ∈ denseTimePhysicalPrefix e ι n := by
+  rw [denseTimePhysicalPrefix, Finset.mem_map]
+  exact ⟨e i, by
+    rw [CountableEnumeration.mem_prefix_iff, e.symm_apply_apply]
+    exact i.isLt, rfl⟩
+/-- Reindex a path on the physical prefix by its enumeration positions. -/
+def denseTimePrefixReindex (e : ℕ ≃ D) (ι : D ↪ NNReal) (n : ℕ)
+    (path : denseTimePhysicalPrefix e ι n → α) : Fin n → α :=
+  fun i ↦ path ⟨ι (e i), denseTime_mem_physicalPrefix e ι n i⟩
+/-- Reindexing a physical-prefix path by enumeration positions is measurable. -/
+theorem measurable_denseTimePrefixReindex (e : ℕ ≃ D) (ι : D ↪ NNReal) (n : ℕ) :
+    Measurable (denseTimePrefixReindex (α := α) e ι n) :=
+  measurable_pi_iff.mpr fun i ↦ measurable_pi_apply
+    (⟨ι (e i), denseTime_mem_physicalPrefix e ι n i⟩ : denseTimePhysicalPrefix e ι n)
+/-- The finite-dimensional kernel on the first `n` enumerated physical times, with coordinates
+in enumeration order. -/
+def denseTimePrefixKernel (P : SubMarkovKernelSemigroup α) (e : ℕ ≃ D)
+    (ι : D ↪ NNReal) (n : ℕ) : Kernel α (Fin n → α) :=
+  Kernel.mapOfMeasurable (finiteSetKernel P (denseTimePhysicalPrefix e ι n))
+    (denseTimePrefixReindex e ι n) (measurable_denseTimePrefixReindex e ι n)
+/-- The enumeration-prefix kernel agrees with the ordinary kernel map. -/
+theorem denseTimePrefixKernel_eq_map (P : SubMarkovKernelSemigroup α) (e : ℕ ≃ D)
+    (ι : D ↪ NNReal) (n : ℕ) :
+    denseTimePrefixKernel P e ι n =
+      (finiteSetKernel P (denseTimePhysicalPrefix e ι n)).map
+        (denseTimePrefixReindex e ι n) :=
+  Kernel.mapOfMeasurable_eq_map _ (measurable_denseTimePrefixReindex e ι n)
+namespace IsConservative
+/-- Under conservativity, each enumeration-prefix kernel is a Markov kernel. -/
+theorem isMarkovKernel_denseTimePrefixKernel (P : SubMarkovKernelSemigroup α)
+    (hP : P.IsConservative) (e : ℕ ≃ D) (ι : D ↪ NNReal) (n : ℕ) :
+    IsMarkovKernel (denseTimePrefixKernel P e ι n) := by
+  rw [denseTimePrefixKernel_eq_map]
+  let : IsMarkovKernel (finiteSetKernel P (denseTimePhysicalPrefix e ι n)) :=
+    hP.isMarkovKernel_finiteSetKernel P _
+  exact Kernel.IsMarkovKernel.map _ (measurable_denseTimePrefixReindex e ι n)
+end IsConservative
+end
+end SubMarkovKernelSemigroup
+end MarkovProcess

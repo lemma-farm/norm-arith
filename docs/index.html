@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="Explore selected Lean examples with source context and provenance.">
+  <title>Lean examples · Norm Arith</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Lean examples home"><span class="brand-mark">∑</span><span>Norm Arith<span class="brand-sub">EXAMPLE ATLAS</span></span></a>
+    <a class="repo-link" href="https://github.com/lemma-farm/norm-arith/tree/examples_dataset" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">A curated window into the corpus</p>
+      <h1>Small proofs.<br><em>Interesting ideas.</em></h1>
+      <p class="lede">Browse selected Lean examples, jump straight to the source, and see where each snippet came from.</p>
+      <div class="stats" aria-live="polite"><span id="count">Loading examples…</span><span class="stat-divider"></span><span>Lean source</span><span class="stat-divider"></span><span>Open provenance</span></div>
+    </section>
+    <section class="explorer" aria-label="Example explorer">
+      <aside class="sidebar">
+        <label class="search-label" for="search">Find an example</label>
+        <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search names, ideas…" autocomplete="off"><kbd>/</kbd></div>
+        <div class="filter-head"><span>TOPICS</span><button id="clear-filters" type="button">Reset</button></div>
+        <nav id="categories" class="categories" aria-label="Filter by topic"><p class="muted">Loading topics…</p></nav>
+        <div class="sidebar-note"><span class="note-icon">↗</span><p>Every example links back to its original file and line range.</p></div>
+      </aside>
+      <section class="results" aria-label="Examples">
+        <div class="results-head"><div><p class="eyebrow">THE COLLECTION</p><h2 id="result-title">Selected examples</h2></div><label class="sort-label">Sort <select id="sort"><option value="curated">Curated order</option><option value="title">Name A–Z</option><option value="repo">Repository</option></select></label></div>
+        <p id="status" class="status" role="status">Loading the collection…</p>
+        <div id="cards" class="cards"></div>
+      </section>
+    </section>
+    <footer><span>Built from the <a href="https://github.com/lemma-farm/norm-arith/tree/examples_dataset" target="_blank" rel="noreferrer">examples_dataset</a> branch.</span><span>Source files remain the source of truth.</span></footer>
+  </main>
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="dialog-head"><div><p class="eyebrow" id="detail-topic">EXAMPLE</p><h2 id="detail-title">Example</h2></div><button class="close" id="close-detail" aria-label="Close example" type="button">×</button></div>
+    <p id="detail-summary" class="detail-summary"></p>
+    <div class="source-meta"><span id="detail-file"></span><a id="source-link" target="_blank" rel="noreferrer">Open full source ↗</a></div>
+    <div id="source-state" class="source-state" role="status">Loading source excerpt…</div>
+    <div id="source-wrap" class="source-wrap" hidden><pre class="source-code"><code id="source-code"></code></pre></div>
+    <div class="provenance"><span class="provenance-dot"></span><div><strong>Provenance</strong><p id="detail-provenance"></p></div></div>
+    <div id="validation" class="validation" hidden></div>
+  </dialog>
+</body>
+</html>

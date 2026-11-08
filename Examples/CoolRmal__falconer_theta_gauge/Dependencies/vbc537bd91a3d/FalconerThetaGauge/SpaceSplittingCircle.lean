@@ -1,0 +1,15 @@
+module
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.FourierSeparationKernel
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.MaskedMattilaSymbolRegularity
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.StationaryCircularSource
+public import Examples.CoolRmal__falconer_theta_gauge.Dependencies.vbc537bd91a3d.FalconerThetaGauge.DirectionalTestsAverageBands
+public import Mathlib
+set_option autoImplicit false
+/-! # Actual circular pair kernels and their genuine stationary-phase expansion -/
+@[expose] public section
+noncomputable section
+open MeasureTheory Set Function
+open scoped ContDiff ComplexConjugate RealInnerProductSpace
+namespace FalconerThetaGauge
+open GaugeFrostman
+end FalconerThetaGauge
