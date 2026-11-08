@@ -1,0 +1,44 @@
+"name" = "Erdos408"
+"defaultTargets" = ["OAI", "PrimeNumberTheoremAnd", "RellichKondrachov", "TotientFibers", "Erdos408", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "OAI"
+"srcDir" = "vendor/OAI"
+"globs" = ["OAI.+"]
+
+[["lean_lib"]]
+"name" = "PrimeNumberTheoremAnd"
+"srcDir" = "vendor/PrimeNumberTheoremAnd"
+"globs" = ["PrimeNumberTheoremAnd.+"]
+
+[["lean_lib"]]
+"name" = "RellichKondrachov"
+"srcDir" = "vendor/RellichKondrachov"
+"globs" = ["RellichKondrachov.+"]
+
+[["lean_lib"]]
+"name" = "TotientFibers"
+"srcDir" = "vendor/TotientFibers"
+"globs" = ["Erdos821.+"]
+
+[["lean_lib"]]
+"name" = "Erdos408"
+"globs" = ["Erdos408.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

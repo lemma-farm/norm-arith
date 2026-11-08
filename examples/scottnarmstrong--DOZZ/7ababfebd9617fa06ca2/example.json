@@ -1,0 +1,576 @@
+{
+  "id": "7ababfebd9617fa06ca2",
+  "source": {
+    "repository": "scottnarmstrong/DOZZ",
+    "commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330",
+    "project": "scottnarmstrong--DOZZ--5d770d1a6d69",
+    "path": "DOZZ/GFFStructure/GaussianIntegration.lean",
+    "file_id": "0359d49cbec635e7a68c",
+    "source_sha256": "0359d49cbec635e7a68ca88a8b38401ff619acc7142dd01785b5b0965cc23f5f",
+    "start": 392,
+    "end": 394,
+    "original_start": 380,
+    "original_end": 395,
+    "declaration": "integrable_L2_representative_prod",
+    "source_url": "https://github.com/scottnarmstrong/DOZZ/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/GaussianIntegration.lean#L392-L394",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--DOZZ--ab6295909671/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/GaussianIntegration.lean#L392-L394"
+  },
+  "native_target_name": "DOZZ.Proofs.integrable_L2_representative_prod",
+  "source_declaration_label": "integrable_L2_representative_prod",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "11613159bd7e5e4c45f2e535429dfe960acfbf0bf5a2af267fbf920a0456a2e0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d5c24c17dde913aa08d6e462e1454de74fcce583a121ac95dac2ad1c71a28429",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DOZZ/GFF/AnnularEnergyConvergence.lean",
+      "sha256": "5e22c82a8cf724816771cff96fed22a51dfc303e2cc822670f913902701424e0",
+      "bytes": 25986
+    },
+    {
+      "path": "DOZZ/GFF/ComplexBridge.lean",
+      "sha256": "f0965790ed74c9c9f874d7ef72aa78ee0e71ecb2572a4eb36ece98deb5c149ac",
+      "bytes": 2781
+    },
+    {
+      "path": "DOZZ/GFF/CovarianceAlgebra.lean",
+      "sha256": "fb153f3b6068fc8cf3504ded71e81812f0b4cd987edf5725c6c9ae1c327948f4",
+      "bytes": 36810
+    },
+    {
+      "path": "DOZZ/GFF/Defs.lean",
+      "sha256": "67356613e504806f20592f4ef48a3eacdc514117b0d20a62807690e97ab1c60b",
+      "bytes": 342
+    },
+    {
+      "path": "DOZZ/GFF/EnergyPositivity.lean",
+      "sha256": "a26ce972c87d3424d6e9ebf8a3002373627a1f299af5927956e49df8e6460209",
+      "bytes": 37191
+    },
+    {
+      "path": "DOZZ/GFF/EquatorField.lean",
+      "sha256": "5c99d8b60760ab7f620fede249f0cc18a9c82853cb4574c66abed63748b78698",
+      "bytes": 17947
+    },
+    {
+      "path": "DOZZ/GFF/LocalKernelL2.lean",
+      "sha256": "e7ff87cda053ea472611481cf9d93712d64be922a48a1d270cab6aa281deb9c0",
+      "bytes": 13034
+    },
+    {
+      "path": "DOZZ/GFF/LocalSchur.lean",
+      "sha256": "93dad268a390ee03c859792fb015224f0fd5138857e44fe30f19bb0c95d08043",
+      "bytes": 10475
+    },
+    {
+      "path": "DOZZ/GFF/Potential.lean",
+      "sha256": "ed7a3dff75b8654907ec18f839213a77dc767322bce02aca9a649194d5fd195c",
+      "bytes": 11231
+    },
+    {
+      "path": "DOZZ/GFF/RadialEnergy.lean",
+      "sha256": "bad67d5017a4fdb590f7387e637ef88c8086dcbd445ddbdcaa84387040969203",
+      "bytes": 38531
+    },
+    {
+      "path": "DOZZ/GFFStructure/AnnularCircleEnergy.lean",
+      "sha256": "7c7f2fc58d66271b567b60a1b2f7f7b6450f075bdc1ee40006d37d05e9fb3bf7",
+      "bytes": 41086
+    },
+    {
+      "path": "DOZZ/GFFStructure/AnnularWeakLimit.lean",
+      "sha256": "6b7e3c7f6fc1618bd9d86c18264ba565bb68341f658ba7027bd5c01aeacc873b",
+      "bytes": 20198
+    },
+    {
+      "path": "DOZZ/GFFStructure/CircleContinuity.lean",
+      "sha256": "eb5b12346e952a99e78ca9111403d7a5832e405695926a141e9a41660b776d7c",
+      "bytes": 322
+    },
+    {
+      "path": "DOZZ/GFFStructure/CircleCovariance.lean",
+      "sha256": "19a0d2081a0634d39425c47a2b66eebc481caaa5295bb4ce3112528274672b41",
+      "bytes": 43523
+    },
+    {
+      "path": "DOZZ/GFFStructure/CircleLogSeries.lean",
+      "sha256": "9451a1602368021eb9ab2cdc6cf467136e8e4b5f4bbde8a4ac8aee6d7d26de44",
+      "bytes": 20363
+    },
+    {
+      "path": "DOZZ/GFFStructure/CirclePotential.lean",
+      "sha256": "ae2fe024f0e3fec20296406f968e50d0f43031ba49873813984a14bfa66af729",
+      "bytes": 24261
+    },
+    {
+      "path": "DOZZ/GFFStructure/CircleVersion.lean",
+      "sha256": "4db96e50efaf944d51702e8fdb1ffece4375eb7c13157cc53095e3604f47c925",
+      "bytes": 26233
+    },
+    {
+      "path": "DOZZ/GFFStructure/CoveringBounds.lean",
+      "sha256": "1eb5f6c5b3bc8c1d4a1c1ca829599b43178dd91d9e6a334b801e99b7dce5b307",
+      "bytes": 28083
+    },
+    {
+      "path": "DOZZ/GFFStructure/Defs.lean",
+      "sha256": "f7d8a63333ab9785d81aed904374359c29131da706a1117e10dff4e9fec5a139",
+      "bytes": 464
+    },
+    {
+      "path": "DOZZ/GFFStructure/DenseHolder.lean",
+      "sha256": "44ae8b6d1ca57150c870420599d260ba2fb1d42ef413302b9709c4eb8bf2ef85",
+      "bytes": 22187
+    },
+    {
+      "path": "DOZZ/GFFStructure/GaussianClosure.lean",
+      "sha256": "3326cb94e799d84501bf777f5e1fba880edbed39bc7070f22f7245a45dad4c04",
+      "bytes": 35674
+    },
+    {
+      "path": "DOZZ/GFFStructure/GaussianIntegration.lean",
+      "sha256": "fa6f8230560e4caae7292a880eaac7a21433a5b7041a827a6355c3beae2e4641",
+      "bytes": 25753
+    },
+    {
+      "path": "DOZZ/GFFStructure/HolderLimit.lean",
+      "sha256": "1890961f0032caeb35bef64444cbf2111569f16b4d57a54720fba02198da3bc4",
+      "bytes": 23705
+    },
+    {
+      "path": "DOZZ/GFFStructure/HolderVersions.lean",
+      "sha256": "d544014a408eb0ea23087341c34f02f52c522ff5e27a1522dcd9f4c81078fcd2",
+      "bytes": 25224
+    },
+    {
+      "path": "DOZZ/GFFStructure/KolmogorovCover.lean",
+      "sha256": "4d2d269d2feee927bf21b5ef3669b2ccd74ac83677b4a492210cd917e512e4f4",
+      "bytes": 29121
+    },
+    {
+      "path": "DOZZ/GFFStructure/KolmogorovFinite.lean",
+      "sha256": "cdeab34b8247c502b6c27bcf7db7df6d68c849060ae120f7c108a9e2622524c1",
+      "bytes": 26519
+    },
+    {
+      "path": "DOZZ/GFFStructure/KolmogorovInequality.lean",
+      "sha256": "a8aeae0c5a078b68d21132e85af7df4ae36bb8c2e006f5edff611242fd50acd8",
+      "bytes": 18877
+    },
+    {
+      "path": "DOZZ/GFFStructure/MetricChaining.lean",
+      "sha256": "f3de856b09ebf81c507f8a27a8e7b170ee77df4c35ed1485291b3c23db667f49",
+      "bytes": 16877
+    },
+    {
+      "path": "DOZZ/GFFStructure/ModificationLimits.lean",
+      "sha256": "70d0d0fd666aec9073a2934754b1c7108e8a7741ee7c822e195b678374a1ddf7",
+      "bytes": 18149
+    },
+    {
+      "path": "DOZZ/Statements/Defs/CircleCross.lean",
+      "sha256": "23ae24ff9784b92e0875de7c1f47cb26ff1943c2de0bb44bcb45e366e870d7e5",
+      "bytes": 623
+    },
+    {
+      "path": "DOZZ/Statements/Defs/CircleEnergyGap.lean",
+      "sha256": "2289183635a22ccf5e69b37300d0ad3753feb496643a5f8723455a35dd28a577",
+      "bytes": 681
+    },
+    {
+      "path": "DOZZ/Statements/Defs/CircleMeasure.lean",
+      "sha256": "e203503c3117578b1e365f4c2cacbfbdd34f008cb43281c20858befb3fa91ef0",
+      "bytes": 707
+    },
+    {
+      "path": "DOZZ/Statements/Defs/CircleSelfEnergy.lean",
+      "sha256": "413f307e9c4b20bc421073113f6f18544a2f6aeed731e849e1f8d0d71e964aa6",
+      "bytes": 666
+    },
+    {
+      "path": "DOZZ/Statements/Defs/ConformalWeight.lean",
+      "sha256": "de9f0959d38fd42cb3b7a3e1a130e3de82c140a4209be48006642bb46d4c600f",
+      "bytes": 527
+    },
+    {
+      "path": "DOZZ/Statements/Defs/Distr.lean",
+      "sha256": "6072c53010174244a5e4447a8ac98ac8bbfd177a6232b1d68d0f5745c7f099b5",
+      "bytes": 508
+    },
+    {
+      "path": "DOZZ/Statements/Defs/DozzBase.lean",
+      "sha256": "be27503320f250d7b3ebdd043297b691b8103fcb72e7bfba93ea77576a1f0aba",
+      "bytes": 618
+    },
+    {
+      "path": "DOZZ/Statements/Defs/DozzFormula.lean",
+      "sha256": "22764104b3e5d19cabf0991af36658e6e85859b40d123e721a270bd1f6a95607",
+      "bytes": 932
+    },
+    {
+      "path": "DOZZ/Statements/Defs/DualMu.lean",
+      "sha256": "63b2583f5a40ab1a939c68d941724b0e884cd998eac3bdafcaf2849e7a49c8da",
+      "bytes": 707
+    },
+    {
+      "path": "DOZZ/Statements/Defs/ExtendedSeiberg3.lean",
+      "sha256": "e9d9e03b85c75f80ca8c71136c456c805a73a0f5ef08c28f50ea691a423050bb",
+      "bytes": 762
+    },
+    {
+      "path": "DOZZ/Statements/Defs/GffCov.lean",
+      "sha256": "315b31446a55e20b861dfccb190c6032496cc28c440334519b028f0002fb503a",
+      "bytes": 572
+    },
+    {
+      "path": "DOZZ/Statements/Defs/GffKernel.lean",
+      "sha256": "24b267ba790c44e8a6e51db03189e1b505bd3b9f9792eac396fe67132ad994c9",
+      "bytes": 738
+    },
+    {
+      "path": "DOZZ/Statements/Defs/IsCircleAverage.lean",
+      "sha256": "2974d1ba40ed39f8b2a441eff2ac9364a676018e98235f74bf236df202a4ad4c",
+      "bytes": 1172
+    },
+    {
+      "path": "DOZZ/Statements/Defs/IsEquatorGFF.lean",
+      "sha256": "d5cbf347127e2c31610dc729f5058eab16ee805350e6e647ac36cba6b119b23e",
+      "bytes": 966
+    },
+    {
+      "path": "DOZZ/Statements/Defs/IsGMCOf.lean",
+      "sha256": "f055a313cebf4f4cecd20f7582d87a0beba4db943534833406f50a09e69dbfad",
+      "bytes": 1200
+    },
+    {
+      "path": "DOZZ/Statements/Defs/IsUpsilon.lean",
+      "sha256": "353b83814422358a8fbe5bca67ee094f48a0cc7ef2987db246ddf61891fd5a6c",
+      "bytes": 743
+    },
+    {
+      "path": "DOZZ/Statements/Defs/LFun.lean",
+      "sha256": "218262abee5703d557e85eac9ddb0989b537615a0d7e8dee64ab8f1c4f886fed",
+      "bytes": 616
+    },
+    {
+      "path": "DOZZ/Statements/Defs/NormPlus.lean",
+      "sha256": "2cffe894bf9b5ec7bec1c6ef0a67304e3c4fb5ebe3f8caab50311c50d347e717",
+      "bytes": 546
+    },
+    {
+      "path": "DOZZ/Statements/Defs/Q.lean",
+      "sha256": "2cd4915c7347944a9df9350a6581db056ef81f52ff332cd0d41aada0676a596e",
+      "bytes": 1184
+    },
+    {
+      "path": "DOZZ/Statements/Defs/ReflectionDOZZ.lean",
+      "sha256": "f6dbb851353db1036cf96ae485c17193c3929869077bba2dc130cd178ee8203f",
+      "bytes": 685
+    },
+    {
+      "path": "DOZZ/Statements/Defs/RegularizedGMC.lean",
+      "sha256": "5d58ba9a693403ca241c129fa78c5fa2dc16da7fa94089665da3cd872329fa99",
+      "bytes": 861
+    },
+    {
+      "path": "DOZZ/Statements/Defs/Rho.lean",
+      "sha256": "0c436965477fb5b31c2db4b9e14b249578028bd5bdca10861642431ce2b47f9b",
+      "bytes": 766
+    },
+    {
+      "path": "DOZZ/Statements/Defs/SExp.lean",
+      "sha256": "700d315be95a715bfbc3568781205d4c9ffc2ba1de59beab94472c66f0f28307",
+      "bytes": 543
+    },
+    {
+      "path": "DOZZ/Statements/Defs/ShiftCoeffA.lean",
+      "sha256": "1f96e867f9f1280b61b3e1420fbc8d6af807d81b6d1d211ed1218a400d3cdae2",
+      "bytes": 874
+    },
+    {
+      "path": "DOZZ/Statements/Defs/StructureConstant.lean",
+      "sha256": "518d37fd19eaa6454ad5b8465603ec2099fa36f02b5afd8969e1df134cdd9e4f",
+      "bytes": 902
+    },
+    {
+      "path": "DOZZ/Statements/Defs/TestFn.lean",
+      "sha256": "089a453bf807110893265ff1a179d712a332c0e812d2dc54014f8fbb46b17ea9",
+      "bytes": 540
+    },
+    {
+      "path": "DOZZ/Statements/Defs/UnitVolumeStructureConstant.lean",
+      "sha256": "8635916f3a376920ea67259a0170e2dfcb497949c60dc69eddd5df0ff2dea034",
+      "bytes": 827
+    },
+    {
+      "path": "DOZZ/Statements/Defs/UpsilonLog.lean",
+      "sha256": "64c8e2aad03ffa23e93785c8ce6d19baa418060bf097a766fb76fb3afdffdbef",
+      "bytes": 594
+    },
+    {
+      "path": "DOZZ/Statements/Defs/UpsilonLogIntegrand.lean",
+      "sha256": "2a486e0f685edd85d5ca276f470358e6c5ac18086e0718f92762d99ac4d0db86",
+      "bytes": 688
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/CircleLogPotential.lean",
+      "sha256": "fa688a67ba2aca8b3bf6fc40ab7b610a0f24764ee93be9284c240a21527db5a2",
+      "bytes": 1401
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/DiskGreenCovariance.lean",
+      "sha256": "f15d8ae1590df5a9ae8157767cf94ad290f44e51dcea06309a5b49492e99f330",
+      "bytes": 827
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/DiskGreenKernel.lean",
+      "sha256": "1a4f38d5e2724f5e44807ce8649852000ff23645e3cd2690a7b35486ea084022",
+      "bytes": 901
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/EquatorRestorationScalar.lean",
+      "sha256": "374952cc93044de502a82109edacd94544ffbd5f73472b4fee2801b98720ae2d",
+      "bytes": 745
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/ExteriorPinnedEvaluation.lean",
+      "sha256": "1bf43d1d6e42bdccdbddadb664906a074cb13f07f7d2e8c3c5dece898c707589",
+      "bytes": 827
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/ExteriorPinnedKernel.lean",
+      "sha256": "abfbaabce6569205d7e14da77dfa670098f0db90087548e1f9148549fb0b9286",
+      "bytes": 679
+    },
+    {
+      "path": "DOZZ/Statements/GFFStructure/PoissonCollarValue.lean",
+      "sha256": "779046494b701d9bb41c178646ce4f1b3cdac6fc2660792957b784ecc2906f45",
+      "bytes": 801
+    },
+    {
+      "path": "GaussianFields.lean",
+      "sha256": "072eb6a3bdc17b67d681db472ad588c1718c334d1db618703f908bf88bf98148",
+      "bytes": 579
+    },
+    {
+      "path": "GaussianFields/Ambient/Euclidean.lean",
+      "sha256": "c80c582b398aaac480a3f9d1706323593226a99691e6884a3234b4df053fc70e",
+      "bytes": 10111
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK.lean",
+      "sha256": "1524596d38f103bc905eb2f5f72a31ea0d2955b2110f49011ba9f3fe6448421f",
+      "bytes": 1229
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Annular.lean",
+      "sha256": "231bc060de878e8ec60e7ccfd5a6784970b7186d0cd565b5e6da19f45abe01ce",
+      "bytes": 12939
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/CanonicalField.lean",
+      "sha256": "2d0e148a4cdf12624410f34d170ba67c301a87140fd8de5c12130314cb70150d",
+      "bytes": 20860
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Constants.lean",
+      "sha256": "5a2e31e67c0e7d2599cbe329f372aa95ca2595ef50602ae8fe068a065a00bf10",
+      "bytes": 6106
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Convolution.lean",
+      "sha256": "e5e64a07bc038b14bdebc6c3d17645d2d2fdb509019bfcc76d1203594b09336f",
+      "bytes": 19462
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ConvolutionBounds.lean",
+      "sha256": "131fa6425a0f5c0d636559b7688ecb21c395a58bb673fb9043714ca57a15b7cc",
+      "bytes": 18087
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Covariance.lean",
+      "sha256": "d7bcd21646e489aefbf949b8a70b312db1d799826cfee4168b42ad46fdec8d17",
+      "bytes": 7000
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Dilation.lean",
+      "sha256": "8e9162d580e0c777952e43e393464ebe85d3c566de7cf867ba603a828cfa3c53",
+      "bytes": 7698
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Kernel.lean",
+      "sha256": "c8857cf820c8876ecd67d5d32adf2f178663a0b7ac0b51c0519a43375d21c299",
+      "bytes": 12285
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/KernelPairing.lean",
+      "sha256": "6b75bfff4a545a45355ce8b7dd09c4c9de9181e365bb86872a701fc3074c8ad3",
+      "bytes": 11374
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/LogLimit.lean",
+      "sha256": "2063ac1b4c45bba323dc329c851f7df9e1ab05aa7a59611357f5ba91f72c98e2",
+      "bytes": 5305
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/MAlpha.lean",
+      "sha256": "9cc491f864d1b8cec6b48501e45592c1b6b3735f4949cdee088b1315f9a9a972",
+      "bytes": 17821
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Power.lean",
+      "sha256": "21727387f694b8144e5a1f539b8ed0a3b96ab8dfa8f719062e36852e3fab8b98",
+      "bytes": 10309
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Radial.lean",
+      "sha256": "e527d2a0ffa69c96b25f2985cb2445c41f982ca6c9cfc02e98df04058e1357e9",
+      "bytes": 7182
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/RegularizedCovariance.lean",
+      "sha256": "494d8498ae72e0d69fc9a8e143fc0ccfa133a85baeb1d29510333a3fb1242a63",
+      "bytes": 4980
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ScaleLimit.lean",
+      "sha256": "883d6fbec01ca1a5a53d307ec9e14d9f83fa554e512eb754f7b06f885cee2211",
+      "bytes": 665
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ScaleLimit/Closure.lean",
+      "sha256": "3b2fb234d809b28c588f1b5f1952fe224504dce44385744c04d6574ed6503730",
+      "bytes": 16303
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ScaleLimit/PowerDecomposition.lean",
+      "sha256": "2156460e8c1dc29200f4783b995286e27ec8d69b6ea2f9d8ed2f3ae3a691b098",
+      "bytes": 33617
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ScaleLimit/ProductSection.lean",
+      "sha256": "038e63c3a3ba765492a5ea0191fc7566de153da4dbe4af75e4c80ffc3137cd13",
+      "bytes": 18612
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/ScaleSpace.lean",
+      "sha256": "ed09ff612528689ee131a4470cc559fbf2f2aeb87cb2b414d49b90ea0f1efcb8",
+      "bytes": 5981
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/SingularIntegrability.lean",
+      "sha256": "72d088b58b1dcffa51a1e24aff2da6e44e93ddc244d81119838c52dadcd9d798",
+      "bytes": 38826
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/SpatialFubini.lean",
+      "sha256": "3f1c0a076ed752345a33bee3bad2f2f9ea49bf0702519be6c135c833eb0e6d3c",
+      "bytes": 9401
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/TestFunctionAlgebra.lean",
+      "sha256": "14308c23f2f90da0cf4b54f8ea2d198fdcda8dea438aebe268676b0c9165bcd9",
+      "bytes": 17457
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Triadic.lean",
+      "sha256": "913cc656d8ab45d73e639a85b61892cb12d482a0a128ff311b46275a00b78896",
+      "bytes": 7407
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Volume.lean",
+      "sha256": "ffc6deadcdedffca6d15ac02c3c3a34747fe5019426814f827d5cad081a6eb84",
+      "bytes": 7693
+    },
+    {
+      "path": "GaussianFields/LogCorrelated/ABK/Witness.lean",
+      "sha256": "cd480515f057c3f1dae30c6b785f8b0ab384d246c98bc5558931c4062d67bf85",
+      "bytes": 9932
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/GaussianSequence.lean",
+      "sha256": "5d2bfc253afa12be72100f800ba56c78b3ee6cfeb44525bce63366ec96175b7c",
+      "bytes": 17682
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/Haar.lean",
+      "sha256": "04ba8200239fb07d094cd74a12eb79fa9519fc0afaedf14486955389df19a4af",
+      "bytes": 648
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/Haar/Basic.lean",
+      "sha256": "ab87a414aad119122af2d5576e3d2f1e23ac497911ff6fc09e173677313376f5",
+      "bytes": 34929
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/Haar/OneDimensional.lean",
+      "sha256": "6f7a2e010bd8c865bc65a46e1fdb9456ae30dafd5985aa79e23b3da96855d6fc",
+      "bytes": 36492
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/Haar/Packets.lean",
+      "sha256": "54b940f81a5a1e81a8c121cac8d279f20eb55d6e51d5dff76b58d4eb0e7261b1",
+      "bytes": 27873
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/HaarBasis.lean",
+      "sha256": "ef0fe643d59860be79a5f862c746eeeb44de7145fa405238d6016c559b52f58b",
+      "bytes": 618
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/HaarBasis/Basic.lean",
+      "sha256": "566e7961756662910e765f2538ce7adadb42118bb21ddcbbad75792e8cda9761",
+      "bytes": 11889
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/HaarBasis/Completeness.lean",
+      "sha256": "c836a3d6f16bb3846a2221333edd89a59c5bce1299df2496e81a8f02193c21be",
+      "bytes": 22067
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/HaarBasis/DyadicAlgebra.lean",
+      "sha256": "de1353109a47336b2f31ccc1ec2a0512073fd848d3d378d02c4214f64169aad8",
+      "bytes": 28162
+    },
+    {
+      "path": "GaussianFields/WhiteNoise/Isonormal.lean",
+      "sha256": "a0b03341422c311e04afb5bbdd47828a4963bbb209983cc9cb6c9b078b8ac5f6",
+      "bytes": 48791
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a28360814cab4e9007c6e8be88d96ab6867338efb860d4ff191a3e51c687fdc7",
+      "bytes": 2093,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "DOZZ/GFFStructure/GaussianIntegration.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7ababfebd9617fa06ca2": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/DOZZ",
+    "source_commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330"
+  }
+}

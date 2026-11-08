@@ -1,0 +1,68 @@
+{
+  "id": "80950f00b15fd09dcfea",
+  "source": {
+    "repository": "linrock/math-proofs",
+    "commit": "38ad7ea8de1efe526f665c2b5204465e5ed879fe",
+    "project": "linrock--math-proofs--38ad7ea8de1e",
+    "path": "erdos-1139/Proofs/GoldbachSW2.lean",
+    "file_id": "07ba203dde8c1769eea9",
+    "source_sha256": "07ba203dde8c1769eea991b9966f97ef33e85bf3acbbbbebcb808846b0b3e400",
+    "start": 2848,
+    "end": 2885,
+    "original_start": 2837,
+    "original_end": 2885,
+    "declaration": "cpow_taylor_two",
+    "source_url": "https://github.com/linrock/math-proofs/blob/38ad7ea8de1efe526f665c2b5204465e5ed879fe/erdos-1139/Proofs/GoldbachSW2.lean#L2848-L2885",
+    "archive_url": "https://github.com/PalomarArchive/linrock--math-proofs--14cf37780a40/blob/38ad7ea8de1efe526f665c2b5204465e5ed879fe/erdos-1139/Proofs/GoldbachSW2.lean#L2848-L2885"
+  },
+  "native_target_name": "cpow_taylor_two",
+  "source_declaration_label": "cpow_taylor_two",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "a967b74c2c51c219af4476717e553c1e98684b9aab783a14a5869d90a36d2b8f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1d2ca47500c818c4f38b7d97703ac060fa30b83747e3f59e4a029409839d3a7a",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Proofs/GoldbachSW1.lean",
+      "sha256": "6c2a07be743352b52f95163d5bcc53a69f6e2b9fd696676430f96989b82552fe",
+      "bytes": 209209
+    },
+    {
+      "path": "Proofs/GoldbachSW2.lean",
+      "sha256": "00866158cfa8774823e82947c826deb7ea96cf8cc7362a6f63ecf6c823a54989",
+      "bytes": 370764
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "3649b2eb14bf033592c481b57125ac34e5c755051f1713ed80abf0a949338fb9",
+      "bytes": 10662,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Proofs/GoldbachSW2.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/linrock/math-proofs",
+    "source_commit": "38ad7ea8de1efe526f665c2b5204465e5ed879fe"
+  }
+}

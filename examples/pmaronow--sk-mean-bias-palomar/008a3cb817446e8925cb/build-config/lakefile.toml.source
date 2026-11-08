@@ -1,0 +1,110 @@
+"name" = "skMeanBias"
+"version" = "1.0.0"
+"defaultTargets" = ["HexagonUpperBound", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "BrownianMotion"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Common"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "DepthPaper"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "FRSB"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "FourPapersCommon"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "HexagonPaper"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "HexagonUpperBound"
+"roots" = ["HexagonUpperBound"]
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "KolmogorovExtension4"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Lemmas"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "OverlapPaper"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Paper"
+"roots" = ["Paper"]
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ParisiFormula"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "QuantitativeFollowup"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "QuantitativePaper"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "StochasticCalculus"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Targets"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]

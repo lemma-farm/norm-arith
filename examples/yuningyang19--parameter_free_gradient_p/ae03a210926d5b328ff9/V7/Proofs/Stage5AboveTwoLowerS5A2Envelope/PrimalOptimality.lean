@@ -1,0 +1,94 @@
+import V7.Proofs.Stage5AboveTwoLowerResume.InfimalAttainment
+import O3.Stage3Descent
+
+open scoped BigOperators
+
+namespace V7.Stage5AboveTwoLowerS5A2Envelope
+
+open Stage5AboveTwoLower
+open Stage5AboveTwoLower.S5ARepair
+open Filter
+
+                                                                          
+                                                                            
+                                                              
+                                     
+                                                                 
+                                                          
+                                                                  
+                                                                  
+                  
+                                                                
+                                     
+         
+                          
+                                  
+                                        
+                                                                           
+                                                                           
+                                                                           
+                                                          
+                                        
+                                      
+                                                    
+                                       
+                                                       
+                                                       
+                                                   
+                                                                  
+                                                  
+                                                                      
+                                                            
+                             
+                            
+                                     
+                                        
+                                          
+                                                          
+                        
+                                                             
+              
+                                                                        
+          
+                       
+                                        
+                                         
+                                    
+                                      
+                                             
+                  
+            
+                                                  
+                     
+            
+                     
+                                
+                              
+                                       
+                                                                  
+                                                   
+                                                   
+                                                          
+                                                                            
+                 
+                                 
+                                                  
+                          
+                     
+                               
+                                                 
+                                             
+                      
+                                                           
+                                                 
+             
+                                           
+                         
+                           
+                       
+                                                                       
+                                                                   
+                      
+          
+
+end V7.Stage5AboveTwoLowerS5A2Envelope

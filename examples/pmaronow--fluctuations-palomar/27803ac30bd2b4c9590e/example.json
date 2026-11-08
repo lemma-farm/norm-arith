@@ -1,0 +1,346 @@
+{
+  "id": "27803ac30bd2b4c9590e",
+  "source": {
+    "repository": "pmaronow/fluctuations-palomar",
+    "commit": "52e8a21a2497f28811a3154dea6d37e819ccc088",
+    "project": "pmaronow--fluctuations-palomar--52e8a21a2497",
+    "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/TiltedDirectionalMoment.lean",
+    "file_id": "03e89cf292da7651d176",
+    "source_sha256": "03e89cf292da7651d17640ca915b1d803eff5384b6e1a9dd6ad33c9d829fe23f",
+    "start": 99,
+    "end": 113,
+    "original_start": 99,
+    "original_end": 113,
+    "declaration": "tilted_linear_even_moment_step",
+    "source_url": "https://github.com/pmaronow/fluctuations-palomar/blob/52e8a21a2497f28811a3154dea6d37e819ccc088/SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/TiltedDirectionalMoment.lean#L99-L113",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--fluctuations-palomar--481fdf8438f9/blob/52e8a21a2497f28811a3154dea6d37e819ccc088/SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/TiltedDirectionalMoment.lean#L99-L113"
+  },
+  "native_target_name": "SKConstantsOAI.SK.Analytic.tilted_linear_even_moment_step",
+  "source_declaration_label": "tilted_linear_even_moment_step",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "93347024c062bf659e266eaa184d66ccee96d7a696ac345f67c5596de36ab89f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "faf4bd5b8c95da5b0836c68a9b5281c9e60e553fe371641012c8af1e844e1f9c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/BilinearSchur.lean",
+      "sha256": "c6ae413cd135c94cb7572cfbfbfacb4879ca26ec9c316fef588bfafccd963325",
+      "bytes": 3078
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/BrascampLieb.lean",
+      "sha256": "c2b3736ef5467dbc82f6937a7fdad516afbad6838d2ebc20b741ec6535f6730c",
+      "bytes": 12903
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CoordinateBounds.lean",
+      "sha256": "4108e57d794f5886b6c92afb46a84b296c60661bec1265159f6aeb863c510ab4",
+      "bytes": 4529
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CoordinateSigns.lean",
+      "sha256": "de7201340f4db2b3d1380fc0f826aeb1f2572cfe16bb0ff9b0fb35611c8c49e4",
+      "bytes": 7654
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CoordinateStein.lean",
+      "sha256": "8dc176c5d6f7ff87c83e8c23f5bff8e55df1ca48ee3c63e6ab2bb510669ef395",
+      "bytes": 3635
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CubeDifferentiation.lean",
+      "sha256": "fde2159ea34086019c8037c5c02cade5e6e39c3ca16f815f01900b77f60efe2f",
+      "bytes": 6321
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CubeMeasures.lean",
+      "sha256": "c9084a36f2fae75d0751dde733e25d34b7c84bc5b72491f2d9c4910f499df0cb",
+      "bytes": 5019
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CubeMoments.lean",
+      "sha256": "3a42ef75b9c984ea02269271b285eab5cdba622ebebd8a3c086a8367b6f46416",
+      "bytes": 4573
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/CubeVariance.lean",
+      "sha256": "6a9533c3a6e8a4e20c47e0df2409cb8928009943ddc90120b53ed24ef92c8c31",
+      "bytes": 5871
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/HessianAlgebra.lean",
+      "sha256": "fc39f3300568c2a6a19bba8adb24c92bd714961d5d22eb65b231c9f5a86fac73",
+      "bytes": 4740
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/HessianBounds.lean",
+      "sha256": "6e8e811d2976f7aba41833d129b9f7e759b0f1b97c5c745b7d5e5804033612dd",
+      "bytes": 3697
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/HessianConvexity.lean",
+      "sha256": "88d944bcf53f02d2c408b069ab177dc477e85b16b4b2437c0ff93fcbc2d2d905",
+      "bytes": 5032
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/IntervalDifferentiation.lean",
+      "sha256": "a4cd8000461f5897c7d230f8d2edde167935dc61417877c186a359445bc52ed8",
+      "bytes": 5142
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/MarginalDerivatives.lean",
+      "sha256": "c35dad393a4a90442ef075ebf1b266a82f541480c8d0b3efd63c0979b53c2b40",
+      "bytes": 3518
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/MarginalPotential.lean",
+      "sha256": "daf9969c3d44e0b461eb4510a25f431a5f63d6a139c5f997ac646051bff2519d",
+      "bytes": 6282
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/MarginalSecondDerivative.lean",
+      "sha256": "040e9be3d03a0a44ed6d6cbec03c397d8a671d0bfaa5fc44bd105436d7fc9ac2",
+      "bytes": 4353
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/MarginalVariance.lean",
+      "sha256": "be21b016ff51255fe4d07bee6fb26aea527df8649ebf6b0e8d75013dcca85c45",
+      "bytes": 4883
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/ParameterCalculus.lean",
+      "sha256": "b42ab01f91e021edfe77d36abb5bd9b11ad4d26881426de87ced32094e090382",
+      "bytes": 3863
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/ParameterProducts.lean",
+      "sha256": "49e3d2ab88d403d530a6cc990d411fc2fa87c5e71efbb1f5b15b7fb198a95b1d",
+      "bytes": 5301
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/ParameterSpace.lean",
+      "sha256": "94e4c0c65712af7f272ff4750b252cdff998dc97098b30a1a25e6cfaa71df75a",
+      "bytes": 3197
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Calculus/StronglyConvexVariance.lean",
+      "sha256": "3aefd0e4d84b4ad342acba0cfc483ad3e2c4418589f327e42ef4d3af7db78b14",
+      "bytes": 4753
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/BoundedDerivatives.lean",
+      "sha256": "67e62dda1a5f87067717d1a8280bd34d0033fed00f1f5e316df183e10c93df10",
+      "bytes": 4828
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/ExponentialDerivatives.lean",
+      "sha256": "b44453468b789e2429f3095ad10ce3d38090aae7a9d615a3bee639aa706113e5",
+      "bytes": 3220
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/ExponentialGrowth.lean",
+      "sha256": "deaa4e101447171304806be17b283f4b4a664a346fb70fde9935e58b5f0029b9",
+      "bytes": 3094
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/FiberGaussian.lean",
+      "sha256": "ba0000b88ddff59b9c9241a4f2be68eae9603b34b7f3b8db46fa94acffb5dfab",
+      "bytes": 5843
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/FiberGaussianStein.lean",
+      "sha256": "e598994f13bd7bc217f4aad3cda6e3c5bec27a5a2b824efad649cb5c615821ba",
+      "bytes": 5479
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianAverage.lean",
+      "sha256": "70e32b1c08911022864f0aa15d086099cf3b823488eafe88f6e5c2a9db53ed2e",
+      "bytes": 10264
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianCovarianceStep.lean",
+      "sha256": "19fdef3388fc460d616ab066f7c0627d8dfbb4248221a8e9c339367d8a35a503",
+      "bytes": 6103
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianDomination.lean",
+      "sha256": "4113f3bec4094accd9631363c3b028ac9920e82c6420192eeaf393e54311f9bb",
+      "bytes": 5351
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianGrowth.lean",
+      "sha256": "e3f18f54d1c2d6016db055d3df03eb918f57bdb4096799609bed56d74a69d84d",
+      "bytes": 4770
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianIntegration.lean",
+      "sha256": "e19bf23b0671937d897a6d4361c6bd431ed6327d1e30275ebdb0d88b1d4f6ff9",
+      "bytes": 4802
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianLogStep.lean",
+      "sha256": "b8702445ebf33fe68ac9476b4f27ae860657626f9bc7002da55daf2ec7c798a3",
+      "bytes": 2942
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianQuadraticIBP.lean",
+      "sha256": "e135fb90d945c3d2c86910f436dfcd553603a78c2aa782dccf7ef2429d13d9c0",
+      "bytes": 4967
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianResponse.lean",
+      "sha256": "fe7feda1b40037f7e11cc21e022d931b2f8030210804a7209f5b978a6ae13169",
+      "bytes": 11454
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianSecondStep.lean",
+      "sha256": "1f879c2aa8392758ca6ab90de7e7331496f84ea849e763f74e61f4ab8ef668ca",
+      "bytes": 5114
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianStepCalculus.lean",
+      "sha256": "5f66831ddc84704245985f5a0e65ed408e5d69bdfb2c363d03ab7d5a173f4073",
+      "bytes": 5937
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/GaussianZeroMass.lean",
+      "sha256": "31deb5c959f8c032efa99c2594ab65444fed1e4f547c8772c6aea0d5aaeeb7c1",
+      "bytes": 5085
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/LogDerivatives.lean",
+      "sha256": "d6ae2756452d6b0e9ea8ca8a140e4b3063ccc588b6c45a11e0e2f566e7dc75a5",
+      "bytes": 4201
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/LogIntegralConvexity.lean",
+      "sha256": "f75f344fbcbb67930dce5b911ada2ff3610c8de1844a86ff075c66b1e742ca27",
+      "bytes": 3502
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Gaussian/SmoothObservables.lean",
+      "sha256": "3a824566ca81752c2eb1978a22c2734617884901123a7faa59719af0f61e84eb",
+      "bytes": 8121
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/CascadeRecursion.lean",
+      "sha256": "244b09c90928327499dcdf765baa508945b44405290b9985a0ed0bb07c84c7c2",
+      "bytes": 5500
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyDensity.lean",
+      "sha256": "ef1ed09d987173a689892ff9a06578252a62c35356721ee98c56601b5c55679e",
+      "bytes": 6246
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyGaussianLaw.lean",
+      "sha256": "c999a03b720834395aa10242240be866171276ab586697c9e17d46598bac7082",
+      "bytes": 6069
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyJointLaw.lean",
+      "sha256": "3fb6d52132365820f7cbc2e64fe757077584fdf8b30d6991a5725599fc34508e",
+      "bytes": 10936
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyJointMoment.lean",
+      "sha256": "f0c28613608a109e479f6891a6bad72d89bd55f32eca3b15500d18c8571d5e43",
+      "bytes": 6363
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyLevels.lean",
+      "sha256": "3fdcba6497d5347b0067a6b3fab6e7a8ea272afa1315dc1a646f655da7074ecb",
+      "bytes": 7086
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyPenalty.lean",
+      "sha256": "7db7a0ef6a4465fe2e60dad35c8d867008d9f0303ddbda558bf56c878ea836de",
+      "bytes": 6566
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Hierarchy/HierarchyRegularity.lean",
+      "sha256": "08433ba532e70d229f23cc722e8dc642315a6b88449b29b0ee249642821c3faf",
+      "bytes": 3480
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Model.lean",
+      "sha256": "46eaf46a578153f124e9bf782f6b9096890fbca790bddba0df6cc3b8bbc373d4",
+      "bytes": 3013
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/GrowthOperations.lean",
+      "sha256": "1797f12ed7ed676cd016207c1489627020a384ed156e29214f46138859269213",
+      "bytes": 5160
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/RawDerivatives.lean",
+      "sha256": "fbe519eb2c597c46ac325ce1dadaf6bedc4033ef80157b97e82ea93555e5933c",
+      "bytes": 3568
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/RegularAlgebra.lean",
+      "sha256": "3b2b0d5d1b11dcb1eeac0c2e30a27128bac0be7917928b88fc5c965a43f77b2c",
+      "bytes": 4497
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/TiltedDirectionalMoment.lean",
+      "sha256": "03e89cf292da7651d17640ca915b1d803eff5384b6e1a9dd6ad33c9d829fe23f",
+      "bytes": 6447
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/SpinGlass/Basic.lean",
+      "sha256": "061bd81a3b5b79e28a0d77f02faecf1d0cc316f825a2c3b3bc02666937ffebe3",
+      "bytes": 12242
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/SpinGlass/FinitePartition.lean",
+      "sha256": "f2195ccb1a7060fcc1b0f2a5fae6a5a7187da19042981261a8935bd2e4484cc2",
+      "bytes": 4242
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/SpinGlass/SpinStein.lean",
+      "sha256": "7df55586ffae3dda138d9e94345ffbec9992c057b03ce99fc71e11a4ca69f254",
+      "bytes": 5485
+    },
+    {
+      "path": "SKConstants/Upstream/OAI/Probability/SKBarriers/SpinGlass/SpinWeightedStein.lean",
+      "sha256": "1da796ce3056418864d137332c72c420ec2fed9502652004949328033911e55d",
+      "bytes": 4737
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e466c3566f9669241b9d24f4b4d58d15500394d3b89b05dee409378e4597a96b",
+      "bytes": 240857,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SKConstants/Upstream/OAI/Probability/SKBarriers/Scalar/TiltedDirectionalMoment.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-7dd11aab5ec1809f/27803ac30bd2b4c9590e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/fluctuations-palomar",
+    "source_commit": "52e8a21a2497f28811a3154dea6d37e819ccc088"
+  }
+}

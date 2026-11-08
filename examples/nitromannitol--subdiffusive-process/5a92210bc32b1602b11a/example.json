@@ -1,0 +1,776 @@
+{
+  "id": "5a92210bc32b1602b11a",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/PartProcess/CoreDensity.lean",
+    "file_id": "0cb33ca449036f39edde",
+    "source_sha256": "0cb33ca449036f39edde1c8bceaa32f1931b7606c48bc2734832868485ab1fa5",
+    "start": 84,
+    "end": 91,
+    "original_start": 84,
+    "original_end": 91,
+    "declaration": "exists_localCore_uniform",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/PartProcess/CoreDensity.lean#L84-L91",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/PartProcess/CoreDensity.lean#L84-L91"
+  },
+  "native_target_name": "SubdiffusiveProcess.PartProcess.exists_localCore_uniform",
+  "source_declaration_label": "exists_localCore_uniform",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "18255cb4350c3ab7d3e3f4539eb5d534c2106942fc1abf69e295bd6ba5a5c7c9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a7e6357f9cfe419f9076b5cc3df5372efbaab12dcfe52610b96c8e960c84c15d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Basic.lean",
+      "sha256": "179250e076ea49fa7b4dbd7b0183dcbd46324cc5fffb999172ff6c12e1a146ab",
+      "bytes": 18446
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Energy.lean",
+      "sha256": "a9eefce0fce18e0b9e7d07ff6c282c6269bf32a7e10d0870b94a203dcf89e493",
+      "bytes": 14025
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/FOTProduct.lean",
+      "sha256": "4f18191f8952cf3595e3d7799e1f908e5cf3e018fdb7b3c4b8468c7248eb1c33",
+      "bytes": 57166
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Killed.lean",
+      "sha256": "13decb15a00be53fcea1a870edec73d33acc2ecacda05703fa9787ab1b5abef7",
+      "bytes": 6169
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/KilledCoreClosure.lean",
+      "sha256": "3bd749fa038fd44b59fee1df17dfcacbed39514d8f6c6fd219e710eeff09abb7",
+      "bytes": 4700
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Regular.lean",
+      "sha256": "6e579b433e5f775067f98877b07e5f3024808850ffe55ac53d42e305fd95cdd4",
+      "bytes": 9950
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Resolvent.lean",
+      "sha256": "0d56e1c285b3842f2f854cf4c65e6ef5f2ff58f4e2af95c575a5f77f869a5c2e",
+      "bytes": 8577
+    },
+    {
+      "path": "SubdiffusiveProcess/PartProcess/CoreClosure.lean",
+      "sha256": "cd78e0e4fb7bd6354660901953608442e38f309da37e69242248e3b9571902a3",
+      "bytes": 2337
+    },
+    {
+      "path": "SubdiffusiveProcess/PartProcess/CoreDensity.lean",
+      "sha256": "64c2aa1f3a2928f6370fc000c735ed7db9a201e380629d3530d0a9113b7751ca",
+      "bytes": 6392
+    },
+    {
+      "path": "SubdiffusiveProcess/PartProcess/Data.lean",
+      "sha256": "3100c57d1e37c131f1dcc37d750f414994f3069b8b304bf79e498a4cb4a6a47a",
+      "bytes": 3147
+    },
+    {
+      "path": "SubdiffusiveProcess/PartProcess/LpRestriction.lean",
+      "sha256": "733947cab418fb43c3ec749324b5da50e4e8ae9e7442ab8f0c163f37dc054d1a",
+      "bytes": 6311
+    },
+    {
+      "path": "SubdiffusiveProcess/Probability/Diffusion/AnalyticInput.lean",
+      "sha256": "c97c8a55bcaff776b1729cf26a4dc2df29f8882b0a45812a25ecd03396982f7a",
+      "bytes": 5311
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/E7/Leaves.lean",
+      "sha256": "db85f4d8c908759b3e97b5342ac90809e1c5443b1b9c43d2c7ebb24110dfa64d",
+      "bytes": 5309
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/E7/ResolventExists.lean",
+      "sha256": "89cd6c7d52bb6dfa32a1b264ae377ffeac3876cd71b8949386aeca7c47f40f0f",
+      "bytes": 8814
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/FellerRealizationInfinite.lean",
+      "sha256": "ef894da7c12c5a2d810c35f39a354c738b42f201aefe9b86003d1434ef89e276",
+      "bytes": 4194
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/FellerRealizationMarginals.lean",
+      "sha256": "c07beda80894c23a0759eaa6fdff74c784308e8f912b90e95815e010ea7f09de",
+      "bytes": 4818
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/FellerRealizationRational.lean",
+      "sha256": "6396cb93593db1d0e3fe6b6e67675922dd2b50d9996466b67b0d2efc371ae5c7",
+      "bytes": 21282
+    },
+    {
+      "path": "SubdiffusiveProcess/Processes/FellerRealizationRestart.lean",
+      "sha256": "5b73aea8bdfa66e0edf1775923c31fd3841833b1a9a778ed6fde2e28e2c2e452",
+      "bytes": 21832
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Analysis/ExpPrimitive.lean",
+      "sha256": "b6c15b5cec77dde9aa0e4383d1af58e10db65009aba8097fcfd040dc71ef3cf6",
+      "bytes": 21161
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DenseTimeContinuousExtension.lean",
+      "sha256": "29b9b05ecfd5b92fe6e6bfae85ebc0bc861c0fc3a35ebdc5719f6b8f86049d91",
+      "bytes": 4833
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DenseTimeContinuousLaw.lean",
+      "sha256": "9f47e3f0da4bb1d37267889c3d4336cd4f3f1a4cc28939ebc064e6b36d51b879",
+      "bytes": 4484
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DenseTimeContinuousSupport.lean",
+      "sha256": "80174d7dde64ce5f75d46f4f7b1bb9956c329d0c6341887ec86521372b8dd3a5",
+      "bytes": 2208
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DyadicChaining.lean",
+      "sha256": "cd6b3b48617c1fbc04b8100d19a5d892f8d8bc486fe7379f0aa334bfa446bfc4",
+      "bytes": 15202
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DyadicFloor.lean",
+      "sha256": "d44fe1018ffb8794476011ee88c189fb5795c09a522a192573632bdc36163181",
+      "bytes": 34699
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/DyadicIncrements.lean",
+      "sha256": "beda4448e787f11ecfc41be4be2eaf39d695ae97fd0ca55c035bf01e26e00160",
+      "bytes": 11465
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/GlobalDyadicFloorModification.lean",
+      "sha256": "8cec24697c268b9b8ded71e4d9e7035c2fa04d3a845369d659540c6329898dc7",
+      "bytes": 11970
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/KolmogorovDenseTimeContinuousSupport.lean",
+      "sha256": "1de29edc5ef1ba992021889365c637920078203855fec8e8c647e48166cfa394",
+      "bytes": 3258
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/KolmogorovTimeShift.lean",
+      "sha256": "dc76366aadf4ddf28b84a319f57a3df77e6ae2bd7f33bccb99e74f3fffbab73d",
+      "bytes": 3860
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Continuity/ShiftedUnitModification.lean",
+      "sha256": "3499e1979fc6fcfc5d9a4f15924fa0785d56e4587154971e386b4fe409b7c0b9",
+      "bytes": 5060
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/CemeteryExtension.lean",
+      "sha256": "42e16fb4ec89cd8c1f3b266382b6a7590b9beae1b52a0a8ca56ca0b8cecf2186",
+      "bytes": 6458
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/ConditionalKernel.lean",
+      "sha256": "259f1686f0c756087db7ca8c4a55f5ace28b40353c5f262abfabbd037a2342f3",
+      "bytes": 6537
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/PhysicalCompactTestTransport.lean",
+      "sha256": "dc8a3eab49498d3b5e2a7d3bd6aa8352ac5c2903953803ecb6038d48a2385d01",
+      "bytes": 6886
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/PhysicalReindex.lean",
+      "sha256": "4631c15631b7177d9a7947c9a97041ca3634d893dfdfa4c0c3410e9659c19ec3",
+      "bytes": 2852
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/PrefixKernel.lean",
+      "sha256": "c5b800c48c37316b477eb56f85f6c4e2e42a3293d8319771bd004df39bb5f5d1",
+      "bytes": 5584
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/PrefixRecursion.lean",
+      "sha256": "aacc62c30f745050d9caeffd1c7b658a03869ad4e4857d4fb542db1e6e8c6f4c",
+      "bytes": 7888
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/Shift.lean",
+      "sha256": "103df865df1402944330d16806ed300225715439d8dd66d827f1beee2414b58c",
+      "bytes": 2932
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/Trajectory.lean",
+      "sha256": "f8b5ee55b25da9f14613d093430dddfcffb696a8908633926b3de8e521666c8c",
+      "bytes": 16489
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/TrajectoryMarginals.lean",
+      "sha256": "2802dc7c17fb19402619ebfac73023747cf4b247744618a1305d870455ced9fc",
+      "bytes": 4454
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/DenseTime/TwoPointMarginals.lean",
+      "sha256": "53b05351d98c31a411e52464947c6c64c0105ec27faf6f2ce43f27b989fc6997",
+      "bytes": 16504
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/BackwardC0Integral.lean",
+      "sha256": "86dde3dc34a304dc4f66f0c803e5e7ed7de2b484c7c3b6187e86b7c6a7482dac",
+      "bytes": 5812
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/BackwardC0Recursion.lean",
+      "sha256": "957ecbe5738c83721e564bde2c3114c5b8917c1110b0253289abfb8d569373c3",
+      "bytes": 3869
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/CoordinatePolynomialContinuity.lean",
+      "sha256": "ea3a5417a3c1935d35544b7c394f2afeedbdff864bd60502f86e91c034adfb28",
+      "bytes": 5785
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/CoordinateProductContinuity.lean",
+      "sha256": "db5483fa52e0c0177ae7f61a9371924ced3d5b9ce9dc39e968882bdd22e7ba23",
+      "bytes": 6396
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/DensePhysicalFiniteSetContinuity.lean",
+      "sha256": "a0f4a7ea10438eb489f98d62883fd94fb95172043cc22bb261532a11b292050c",
+      "bytes": 3627
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/FiniteDenseApproximationContinuity.lean",
+      "sha256": "89fb5ef9dd13c2986ee1616432586736c5f902b647aeb5d9978d3f6631869043",
+      "bytes": 3109
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/FiniteSetCompactTestContinuity.lean",
+      "sha256": "ae10b297604e78a1b548bbefac1182dfed0110afd662301f5de079720436d91a",
+      "bytes": 1801
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/FiniteTimeCompactTestContinuity.lean",
+      "sha256": "0a22e28f08809837916ba0e5dd7c4752e478d4656dcb5215219fcb8dabe2e986",
+      "bytes": 10636
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/FiniteTimeJointCompactTestContinuity.lean",
+      "sha256": "aee237714a460c948b7993e21eb7f8ae6a51691f35493f80b88e2180072f4661",
+      "bytes": 19027
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/FiniteTimeKernelContinuity.lean",
+      "sha256": "631aa89fc84ecd3d9746dd5aa7555156dc327bd9fba84f94a4e52482fc0c1af1",
+      "bytes": 4982
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Feller/Semigroup.lean",
+      "sha256": "fab8d3609d4a6afc1648ec7e87c5e19e658897c461bce839c3347d22f1df7a81",
+      "bytes": 3908
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/CoordinateProductActiveReduction.lean",
+      "sha256": "d000eca6555d1d09f1f8caac9427b3ea30b9b20cb3deec70a5bce4521ed93561",
+      "bytes": 5188
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/CoordinateProductNormalization.lean",
+      "sha256": "b70962c589bb3acc29b7fb46692eb660ed312d94019a5c04d6a0d94987bf8178",
+      "bytes": 5737
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/DenseTimeFiniteShift.lean",
+      "sha256": "7c22e6e714077dacc30fde734c6d44e275e088a354f1a1419bc4a8770d4bd0d7",
+      "bytes": 3137
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/FiniteProductCompactSupportApproximation.lean",
+      "sha256": "6deb4b888a90ceb520daaf8a40876b00cc9428de820f4e340bb869a665cc4cf6",
+      "bytes": 6142
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/FiniteProductCoordinateNormalForm.lean",
+      "sha256": "6515e9ca9e59a441d0c63f94d86c22512773e8efdfb19641a41910fb96e97693",
+      "bytes": 7475
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/FiniteProductStoneWeierstrass.lean",
+      "sha256": "6f62493adbfc3ec6adab1dbfafd2652cfcf41f3cd320fb141d19c461264a5e02",
+      "bytes": 5969
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/FiniteSetKernelCompactTestTransport.lean",
+      "sha256": "c9aa7e14ec42f32706b786bc7261cf11cdd8e10901ef1575475f927add5f09af",
+      "bytes": 7058
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/FiniteSetKernelShift.lean",
+      "sha256": "7c4b739ad7c42d08ab517575eb6eabd9062a2f64a8ae2649bc24eb2c860207af",
+      "bytes": 7917
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/Kernel.lean",
+      "sha256": "37d8513ce8dba5bbe48afba5f9f00485269d8b1c9559d0587af0d2b5b1dd0850",
+      "bytes": 5447
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/KernelConcatenation.lean",
+      "sha256": "9024089dd437c1e048a266b2cd3c75fa5ea967665e9f1b40b3bb01da15b6836b",
+      "bytes": 18105
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/KernelDeletion.lean",
+      "sha256": "0a9a163e2c3fc4b653b24fadd475e90c1cfddb394d32775bbb8743697650e74f",
+      "bytes": 7945
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/KernelMixedPullback.lean",
+      "sha256": "45631d756c0e63022ac311647ab64ace29199e392179f188243d47fd38d9d0d6",
+      "bytes": 3664
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/KernelRestriction.lean",
+      "sha256": "987a8cafd171cf2e33c4e8211d7699897e5a881d7e075bb923d62a5b36c96b1d",
+      "bytes": 3807
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/KernelShift.lean",
+      "sha256": "d53344e8eda8c61c22e236b97fe6dddc4873cdf681929482f7cf9d6a4738b2e0",
+      "bytes": 2416
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/MeasureFiniteRestrictionIdentification.lean",
+      "sha256": "21c4e5c5b72144e36b17b0bfe2a41f3a57ba71064b4f1077c2cb66f9879df21f",
+      "bytes": 1464
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/FiniteTime/ProjectiveFamily.lean",
+      "sha256": "0b62a83520f2dfb57019d1fe74ca37611042870ba59a4e84f5e11210a1d7165c",
+      "bytes": 6102
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/Basic.lean",
+      "sha256": "f6b85766d5d3392aad0b249a128d51180c3b0b4decc8c9a9d7ddc72f5f589ecc",
+      "bytes": 2379
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/C0.lean",
+      "sha256": "f2e2f9e02c7b825e8d32d6adf191ec2cb4cfd8e543179ec18dcb413121a9d9b6",
+      "bytes": 5366
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/C0SemigroupJoint.lean",
+      "sha256": "ffd01ee091344c98eb68b0fa90c048c9bc2a13d088336a7e8eb86266028b4aca",
+      "bytes": 1828
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/CompProdReindex.lean",
+      "sha256": "e7cad56a24a6d1bab33544f68729eabc1aa653b90b50236c0dc7823a0cd70419",
+      "bytes": 4041
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/FiniteRestrictionIdentification.lean",
+      "sha256": "6248512e40ed6d3fbc60f961ba755541d1b3363eeb692405132b049c44dfec2a",
+      "bytes": 1735
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/Integral.lean",
+      "sha256": "21a2d1cadd3b877933369bcff868e035330313e92344ce7e9f44346abf141186",
+      "bytes": 2567
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/KernelSemigroup.lean",
+      "sha256": "350602884fa1017e4178971e045e94c2a661be8331cbcfa3ffcba6a9a399daae",
+      "bytes": 4566
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/KolmogorovMoments.lean",
+      "sha256": "4acd878f2e998ef7448b48da5466cfcd083075d878ac7b3f1ed9d938acaba4de",
+      "bytes": 3222
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/Lp.lean",
+      "sha256": "a160a13657feb22d3e3fc212318e9fdbefa742ced7612a272d08279ca8aed83f",
+      "bytes": 10786
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/LpFinite.lean",
+      "sha256": "c1fae399bf025b17888d0941873c6d8448a7291ebe57495b83d2540d418a5d94",
+      "bytes": 6091
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/LpTop.lean",
+      "sha256": "010621c5dc6f88935bb3eac8259dfde8e11a21b2b6182988e4dac7bc0e83e13c",
+      "bytes": 3060
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/Operator.lean",
+      "sha256": "c09fba8cbc657943c93ac10505892fb05f5dac7fee78ed42e7dbcaf649fd89fc",
+      "bytes": 4520
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Kernel/PositiveC0OperatorMeasure.lean",
+      "sha256": "753e2ccf15dfc33d1cd7082b9fa43888d358b9d46badb0cd198a55f202a4b510",
+      "bytes": 4338
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Lifetime/Basic.lean",
+      "sha256": "51d4be090dc107bf20ccba9acbd4e2e51a27d91af2fc4e3bf4637b00795694ed",
+      "bytes": 9412
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Lifetime/ExitTime.lean",
+      "sha256": "9ccc648e869795f5de4726727e25f00394bd5f555365eecc9ae2d2607bc89187",
+      "bytes": 4003
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Lifetime/ExitTimeStopping.lean",
+      "sha256": "f3d51e368302e998f0614c64c7d349eb12c629748300c8cb1b042fc77f5427de",
+      "bytes": 13750
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Lifetime/Filtration.lean",
+      "sha256": "e473b892c22d5f52be25c8aef3d1cbd608bed3ecae1b50d6245c32e39a135413",
+      "bytes": 3773
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Lifetime/Shift.lean",
+      "sha256": "908b95577618237072d1f637f2da683185b6847648ef426a087664b2b4963eac",
+      "bytes": 5265
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Main.lean",
+      "sha256": "95059b13b639c2adbf7b78a6fd28d271462f782108fb7416239984eb09fd27d7",
+      "bytes": 21989
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/Basic.lean",
+      "sha256": "52c041b24e94c04754cbbad6a9bcc5f8a0ea1b63e95d1ab31e1fcbdfb3587472",
+      "bytes": 3647
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/ClosedSetDetection.lean",
+      "sha256": "146a28a1c144c51926e5400e076c8e03db94d1110f2846016066ab85e9adc422",
+      "bytes": 15301
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/DenseFiltration.lean",
+      "sha256": "15daef4a034d3c0f756a7074960402420c7a09c52eb9471a774973d1a9df2fab",
+      "bytes": 4818
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/DenseRestrictionIntegral.lean",
+      "sha256": "35684c3a8086ffbbdbb749b75610b52ff3d6e9b0a53d41df6bbefa49b00bebdd",
+      "bytes": 1633
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/KernelIdentification.lean",
+      "sha256": "85c9d11fd558daabed21d90ecac74333197e2d797632384d74c0e3169eabc617",
+      "bytes": 3319
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/MeasureIdentification.lean",
+      "sha256": "28eed6316f66f283d9b2dcf965de0fe4aae2664517bd882d66100ddae1970180",
+      "bytes": 2377
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/MixedFiniteMarginals.lean",
+      "sha256": "538f345ac47e1dd54b2a9efc14282afdf6d626159324aebe45fcfc5a3125c81c",
+      "bytes": 3290
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/Polish.lean",
+      "sha256": "acbe8c2da5bdfb0dae5536233f6d40e43e1cada0b0a830ce277927456e372ebe",
+      "bytes": 1570
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/RandomShiftMeasurability.lean",
+      "sha256": "0a8e99461b767cf76a6a29e211b3dcb7959c3e2e3ffcbc9b48b7a8f815149fdf",
+      "bytes": 3311
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/RandomTimeCompactTestConvergence.lean",
+      "sha256": "53b17eab3759b91a2fe6526433c8d87a3f4b09207f2fdc02a41eb1208164cec4",
+      "bytes": 4216
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/Shift.lean",
+      "sha256": "06cafb965618f121848196641429b85eeba4692b58b84ad30e22aabc29cd3262",
+      "bytes": 3749
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/ShiftCompactTestConvergence.lean",
+      "sha256": "bb21a976f91c62441122a54cc89ede7489ca4420625eb191d8f4561c822d5d80",
+      "bytes": 3866
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/StoppedValueMeasurability.lean",
+      "sha256": "ad87b048bb840429b231b501c4064e4b87e11957a653a2d70846027f6e5d2003",
+      "bytes": 2390
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Path/StoppingTimeDyadicCeiling.lean",
+      "sha256": "1ee55d15f478dbb08e889aff0ba8311693438cbefb65b54dbf9217686511ad1f",
+      "bytes": 9128
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/ConditionalExpectation.lean",
+      "sha256": "0c4d15be457050363f4a48f458e6d70d388e06f573aba8a531780390c16d2e0b",
+      "bytes": 3792
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/ConditionalMarkov.lean",
+      "sha256": "a4978e7a22ae852865bc9ee1fb77bb16ed0a66e4b6a0c88472b43f763903577b",
+      "bytes": 3122
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/CountableStoppingRestart.lean",
+      "sha256": "d9dc67a8f7dd08838e80e36adac58fccca6427f32b1472f09c60cfe6b7904a58",
+      "bytes": 9647
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/CountableStoppingRestartMeasure.lean",
+      "sha256": "665c57a0c81e9964275452c11458d2e6a7d1ed243f265081d4046d1a21f8dc58",
+      "bytes": 6313
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/FinitePastRestart.lean",
+      "sha256": "020bec770e43b3c9a9db2c3e3549d4d33763ef481ad93e2fc5ce7539eda8f51a",
+      "bytes": 4994
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/MixedPastFuture.lean",
+      "sha256": "282187415b48dd698007b96fa7bb2195728599bf19d380ae5d0bd8bb7c33a2a1",
+      "bytes": 52957
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/RationalRestart.lean",
+      "sha256": "ceb0fb4409ac745b44c36e3c686d8d0e3b9c8866bcaa5674453302b11f056c1c",
+      "bytes": 24543
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/RationalRestrictedRestart.lean",
+      "sha256": "37538d901052087ce68219c8f46e42f7ec7ccaabf91cdaee8bf3efadf1063f88",
+      "bytes": 4173
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Restart/RestrictedRestartOfJoint.lean",
+      "sha256": "587ac5cdc9a4c0ec2102f1642a291e76cba8ddd822648c09bc6290f181ba2674",
+      "bytes": 2350
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Semigroup/Basic.lean",
+      "sha256": "470695e4f1a3e87cbfc7133339cbed4802b18f02e6a01ee25f88d12abfe50820",
+      "bytes": 3240
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Semigroup/Generator.lean",
+      "sha256": "3e54568473098d9d836cbc8f582e6b47d8af96cd0e039430660ac2fb01a67254",
+      "bytes": 24169
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Semigroup/StrongOperatorLimit.lean",
+      "sha256": "8e7d2db120322ce7a45a6c5bfbf5f5fd0f593a64bcfdc9ad1e7449d3483fbb09",
+      "bytes": 5547
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/CountableDenseTime.lean",
+      "sha256": "d3796445e17f1623a1be008e060f1f1d7e236ebdc9218b721d376ff9c2761beb",
+      "bytes": 5252
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/DenseTimeApproximationFromAbove.lean",
+      "sha256": "6a4e78cb8d0ac9e568d72ab6d618417856882fa1ad93506a836a4f093ee6eda1",
+      "bytes": 1435
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/DenseTimeHistory.lean",
+      "sha256": "6e0a969c662b9f8133f09d230c7a22f2e20a31e121d13b0a7bb029b22ea6c88d",
+      "bytes": 3434
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/FiniteDenseApproximationOrdered.lean",
+      "sha256": "a0ffa97d116e7a8b4c24ddff6f22ecfab3d6d000379d8b3af6acdb5a729fb3f6",
+      "bytes": 5688
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/FiniteGridIncrement.lean",
+      "sha256": "36b990f57ed5cb7b2ef54d9a87cd9515e1761a34005dcf382845fcb50c512c26",
+      "bytes": 4117
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/FiniteOrderEmbedding.lean",
+      "sha256": "556657a501253acf9f9004e71796c1050698524f3b5f375aaf412e738e501ff1",
+      "bytes": 2471
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Time/FiniteOrderedTimes.lean",
+      "sha256": "a1735df115c5f7a03a012e3df48d387c8359760559b7d97e99b5131b558bde70",
+      "bytes": 5823
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/AllTimeFiniteMarginals.lean",
+      "sha256": "9d90ff99efe726ab477dba1aa377480a9e90eb23ae7350b5b92eafdd114ab179",
+      "bytes": 15997
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/AllTimeMarginals.lean",
+      "sha256": "fdf6b8e1aa834f5a700d9031ad9511470657fa6456b2224b3e57c8f3f9cf7464",
+      "bytes": 6421
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/Basic.lean",
+      "sha256": "aff020cfe25c76eeedc21dca1651afee389845ca3e06b93f80a5845c876cf0ab",
+      "bytes": 6226
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/ClampedCoordinate.lean",
+      "sha256": "4599cf33606aad55168b42f7ac4d97dd8c1a7c09632215420abb0ac6244fc797",
+      "bytes": 1996
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/DenseRestrictionIntegral.lean",
+      "sha256": "f0a9265f39fb02fbfd7da82640cf4408bbf4b46d0955ed51ef0ef035f3b95da8",
+      "bytes": 4294
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/DenseRestrictionMarginals.lean",
+      "sha256": "685c6f41d5532aaa868ab6bb23cd11a2ae4d3fd658a2d6de873478044dfa6f7f",
+      "bytes": 2970
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/Dynkin.lean",
+      "sha256": "af34d19c14ec0ce18141eb6f2468072a9cabce731704c21476fb49c6829fe41c",
+      "bytes": 9023
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/DynkinMartingale.lean",
+      "sha256": "005bb67ae130545199f5d2afc725c163cfe6b4b66ed11275c19caefd6c102198",
+      "bytes": 19802
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerConditional.lean",
+      "sha256": "e4afb6b1b8576250b92ad4299f0a73cc1b0c4cb514bfd577a9a0ad3f00bb2f6c",
+      "bytes": 2847
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerCountableStoppingRestart.lean",
+      "sha256": "f6769b0273384588484593617e71734994f5aa8ef9356ca482b6e81e0f388dbe",
+      "bytes": 3253
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerFiniteMarginals.lean",
+      "sha256": "8a2feec793ef1997f8d3dc23bbda96d028945d785f25c2807a9d34771a461a2a",
+      "bytes": 2349
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerRestrictedRestart.lean",
+      "sha256": "4da89f57c34c35763cbebf8122f2229b6672e8aeb25604c8fb9d6a35b2c9fd64",
+      "bytes": 10457
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerShift.lean",
+      "sha256": "35ce63dc8fdb22ef03c47aa3a44e885b0981f6a18f0b84dd18a089d56f8ab528",
+      "bytes": 5597
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerStoppingConditional.lean",
+      "sha256": "de652c757284ca75314559c13ff8ce6aad839f78e0d3c86f95929e91b448cef1",
+      "bytes": 3795
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FellerStoppingRestart.lean",
+      "sha256": "c99ca8af6d0e75befccf4aaa822e8066e0f4eee3a01c0bff2a55ce3afad8fe91",
+      "bytes": 7387
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FeynmanKacFunctional.lean",
+      "sha256": "233b336be90191cff82d5943f5b4b4c2300353faef096ce02a6f9e2a748c3b4e",
+      "bytes": 34842
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/FiniteMarginals.lean",
+      "sha256": "8484ebf05db39e165f53f61aa0540fb6afd948feeec6a0cf678517e1eeaa025a",
+      "bytes": 8400
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/RationalConditional.lean",
+      "sha256": "a60f1a9247c215ce2d063926e21eaf008b87b36abc3b4b47bf3794217b07de69",
+      "bytes": 6242
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/MarkovProcess/Trajectory/StoppingLtTop.lean",
+      "sha256": "77f7cbe477dbfeb142c31f02b3acd5cd2e22803586f177082676f0ec54eee0e0",
+      "bytes": 31586
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "3e53bc3514fe52a4ee38eae6db4912fc55e369737b2580dbb66aff45e7b86d99",
+      "bytes": 2754,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "4d4705f1bfab5b596dfa9d038736baa00e7d6c7d2be978e3636e50a09eacce85",
+      "bytes": 1092,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/MarkovProcess-8349beda/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/MarkovProcess-8349beda/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/lakefile.toml",
+      "sha256": "61661eb93b870857161197eae46a8a3ca762ec85a66fb9f585d0f999cdd36f8f",
+      "bytes": 1082,
+      "snapshot": "__deps/MarkovProcess-8349beda/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lake-manifest.json",
+      "sha256": "4841d08992f93d022fec02367834b3a0f93b5a977662c54b091a8bd325f56b31",
+      "bytes": 3140,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lean-toolchain.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/PartProcess/CoreDensity.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/5a92210bc32b1602b11a": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

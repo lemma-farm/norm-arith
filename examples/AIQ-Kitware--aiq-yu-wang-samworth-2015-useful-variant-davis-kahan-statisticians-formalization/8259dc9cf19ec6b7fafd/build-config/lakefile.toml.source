@@ -1,0 +1,35 @@
+"name" = "yws_2015_formalization"
+"version" = "0.1.0"
+"defaultTargets" = ["YuWangSamworth2015", "Challenge", "Solution"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "autoImplicit" = false}
+"buildDir" = ".lake/build"
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "ForTauCeti"
+"globs" = ["ForTauCeti.*"]
+"leanOptions" = {"warningAsError" = true, "weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = false}}}}
+
+[["lean_lib"]]
+"name" = "DavisKahan"
+
+[["lean_lib"]]
+"name" = "YuWangSamworth2015"
+"srcDir" = "YuWangSamworth2015"
+"globs" = ["YuWangSamworth2015.*"]
+"leanOptions" = {"warningAsError" = true, "weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = false}}}}
+
+[["lean_lib"]]
+"name" = "Palomar"
+"globs" = ["Palomar.*"]
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]

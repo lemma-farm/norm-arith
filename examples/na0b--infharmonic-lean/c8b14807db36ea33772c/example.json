@@ -1,0 +1,296 @@
+{
+  "id": "c8b14807db36ea33772c",
+  "source": {
+    "repository": "na0b/infharmonic-lean",
+    "commit": "e8710101271a529a8bd84fe0e610c3ab10de85b3",
+    "project": "na0b--infharmonic-lean--e8710101271a",
+    "path": "InfHarmonic/ThreePointJetsAndMatrixInequality.lean",
+    "file_id": "0525738fd2cd98c215e7",
+    "source_sha256": "0525738fd2cd98c215e739a70c3721a78725e90def27c8bc7b124eb9a31ced58",
+    "start": 98,
+    "end": 121,
+    "original_start": 98,
+    "original_end": 121,
+    "declaration": "ThreePointJetsAndMatrixInequality / local tpf_K₃",
+    "source_url": "https://github.com/na0b/infharmonic-lean/blob/e8710101271a529a8bd84fe0e610c3ab10de85b3/InfHarmonic/ThreePointJetsAndMatrixInequality.lean#L98-L121",
+    "archive_url": "https://github.com/PalomarArchive/na0b--infharmonic-lean--880e058004cc/blob/e8710101271a529a8bd84fe0e610c3ab10de85b3/InfHarmonic/ThreePointJetsAndMatrixInequality.lean#L98-L121"
+  },
+  "native_target_name": "ThreePointJetsAndMatrixInequality",
+  "source_declaration_label": "ThreePointJetsAndMatrixInequality / local tpf_K₃",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "359b061aed3ee32cfae437f8fc64f82157a588dc096ea45134ada82c2ae91939",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "03ca3786b790b926217aa3714b073ceba12fb580d640321879fa614e73f97880",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "InfHarmonic/BilinearFormBolzanoWeierstrass.lean",
+      "sha256": "5663549c6cc893d9e428bbaa281b34c8c89bee6869f3e3825fab8f9c11609cdb",
+      "bytes": 3090
+    },
+    {
+      "path": "InfHarmonic/ClosedSuperjet.lean",
+      "sha256": "605c8d2d6307ecefda20cf6d0438c555129129cfb27dba5e9193158fff22525b",
+      "bytes": 718
+    },
+    {
+      "path": "InfHarmonic/ClosedSuperjetAffineShift.lean",
+      "sha256": "4751578e0ae8f99fd6b592a3d12110885fec1db18e9d4ca354c3bec68bf82e4a",
+      "bytes": 5512
+    },
+    {
+      "path": "InfHarmonic/ClosedSuperjetClosed.lean",
+      "sha256": "b94a32522c26f01e228947cd1e29cc5350d0dde6153052f66e88b7e8bff74d92",
+      "bytes": 6234
+    },
+    {
+      "path": "InfHarmonic/ClosedSuperjetLocal.lean",
+      "sha256": "21dbd4ea3f246d02cc28d235306411f71777b7a1172ce7313748ab02eabda016",
+      "bytes": 3387
+    },
+    {
+      "path": "InfHarmonic/ClosedSuperjetQuartic.lean",
+      "sha256": "cea91a9e760ca7e585193a4acf1a0288439cc783fe1b9a162a3d2ef5b9add7e6",
+      "bytes": 12509
+    },
+    {
+      "path": "InfHarmonic/ContDiffAtSecondOrderPeano.lean",
+      "sha256": "8cae01a7365ccfd9ec6c132a8fda0128abea2c706b40214c78dae773aad28dc2",
+      "bytes": 7729
+    },
+    {
+      "path": "InfHarmonic/ConvexLocalExtension.lean",
+      "sha256": "1962a69482f9ed54fcd46c30ddc1671049fc02547ddb143758901a95512f4ccd",
+      "bytes": 5802
+    },
+    {
+      "path": "InfHarmonic/ConvexSecondOrderAe.lean",
+      "sha256": "0291264710e6fcaa2c464150cedfe2905e40befb8f22e96a7eee85d9e8d9b671",
+      "bytes": 5646
+    },
+    {
+      "path": "InfHarmonic/ConvexSubgradientExists.lean",
+      "sha256": "b2fd07f3b9c292bf698d781a2fc1a1a44842d5ea933acf9a4dcd360b7ca5e3f2",
+      "bytes": 9112
+    },
+    {
+      "path": "InfHarmonic/Defs.lean",
+      "sha256": "316b8626ba67b1cf88467e3c481248067eb9cf30319ad59bf5d82ba8af2b4be7",
+      "bytes": 7046
+    },
+    {
+      "path": "InfHarmonic/GradientDiffSecondOrder.lean",
+      "sha256": "3a89e091d1c676194053956d4064f4e85bcd283082a85ee7ab2c97238ada2dae",
+      "bytes": 5123
+    },
+    {
+      "path": "InfHarmonic/InfSubsolutionClosedSuperjet.lean",
+      "sha256": "914e24cbb4315a06d2bc247d3117c9749a2ce7fd270f758e19e3019189a59109",
+      "bytes": 6702
+    },
+    {
+      "path": "InfHarmonic/IsInfSubsolutionOn.lean",
+      "sha256": "7cb29d88b072928da0d134749ea903da88e2c3fce18d03aaa87951137e04885a",
+      "bytes": 137
+    },
+    {
+      "path": "InfHarmonic/IsMoreauProx.lean",
+      "sha256": "d5a45ce65e5269e7d680c5a63578906ba58d6c267d40646af0e80422d842ac75",
+      "bytes": 427
+    },
+    {
+      "path": "InfHarmonic/JensenLemma.lean",
+      "sha256": "9ed69504c0181765c3cf81d2ade4b052a651fd1c785759650d45f1ce7917d942",
+      "bytes": 8041
+    },
+    {
+      "path": "InfHarmonic/LipschitzImageHaarBound.lean",
+      "sha256": "8ac02291bbb946d9b5e2b3dc045d2b9bf9376ea9481dcac6d5ebc04611493a1f",
+      "bytes": 1799
+    },
+    {
+      "path": "InfHarmonic/MaxMultiplierPinsSubgradient.lean",
+      "sha256": "503a2fddd08a67c6591250a77dcfcddc356d579f448b8c0aa86d94f29d113660",
+      "bytes": 3686
+    },
+    {
+      "path": "InfHarmonic/MoreauCurveExpansion.lean",
+      "sha256": "cc8a559ee074e3d44b50a7ef1e59912badd982b8077be110f1a89ac06cc419e9",
+      "bytes": 9487
+    },
+    {
+      "path": "InfHarmonic/MoreauEnvelopeGradient.lean",
+      "sha256": "80975540a8d713349c4379ebe88ed11aaca6d1585864e123b576bab28182608d",
+      "bytes": 2643
+    },
+    {
+      "path": "InfHarmonic/MoreauProxExists.lean",
+      "sha256": "82168b141700deac84c1a157172bc3249635d5fbcce16506d818412a40edf8f8",
+      "bytes": 4533
+    },
+    {
+      "path": "InfHarmonic/MoreauProxImageFullMeasure.lean",
+      "sha256": "d9b8be7f4fff14fa6bf4b88ea46b63d1777f1ae6b267f3a03b8e6398ade50ea5",
+      "bytes": 8023
+    },
+    {
+      "path": "InfHarmonic/MoreauProxMonotone.lean",
+      "sha256": "dab7a48dc5e96ad80c5ed277f7e27aa7f601976a9330de78b8d61b6b85d0b68d",
+      "bytes": 2100
+    },
+    {
+      "path": "InfHarmonic/MoreauProxSubgradient.lean",
+      "sha256": "5060e7016fe2bc074f9017fbd2413773d2ceb06e2d437b3d0a4cfb3be6b45723",
+      "bytes": 3602
+    },
+    {
+      "path": "InfHarmonic/Preamble.lean",
+      "sha256": "f22a6727b3fbbe24398b1f593e62929a3d17742457526a1d37e40b91e7284a5c",
+      "bytes": 3730
+    },
+    {
+      "path": "InfHarmonic/ProxEnvelopeExpansionAt.lean",
+      "sha256": "9cc6c95e4467007e582155f652bb66983a6223c15aa7e9ec753b8fea382638d3",
+      "bytes": 11224
+    },
+    {
+      "path": "InfHarmonic/ProxHitsGradientPoints.lean",
+      "sha256": "d654ca27afc646485a4ce205dd03667e4c459400f8bce5a5bcabbf4bd2ce4231",
+      "bytes": 4680
+    },
+    {
+      "path": "InfHarmonic/ProxPreimageLocalization.lean",
+      "sha256": "30aed30ec979d2a8d24de88d6787902a00b26b5043513c8bd2913ca1bab1b66c",
+      "bytes": 7386
+    },
+    {
+      "path": "InfHarmonic/ProxQuadraticFormComparison.lean",
+      "sha256": "2370821b61e7d6fe1ae2af7304a37bbcccc43c586a6012a7ce844a7051e9befb",
+      "bytes": 5802
+    },
+    {
+      "path": "InfHarmonic/ProxSubdifferentialSingleton.lean",
+      "sha256": "61d70525c69721cc33a88018ea0c54dee76111549a1ffc80886ff6813e88a4d8",
+      "bytes": 3835
+    },
+    {
+      "path": "InfHarmonic/SemiconvexMultiplierLipschitz.lean",
+      "sha256": "96e92f7f6e59eaf807a7a113f249201b9883a76a087370204ab39e9a6914c106",
+      "bytes": 6780
+    },
+    {
+      "path": "InfHarmonic/SemiconvexOn.lean",
+      "sha256": "84ec910833ce201d544b84f0ccdf43a3b5a9301441f9232a9d6e8ed5ba27ff73",
+      "bytes": 413
+    },
+    {
+      "path": "InfHarmonic/SemiconvexSecondOrderAe.lean",
+      "sha256": "bfe66f3f42b2eb68f58320c9f7aec6f22ffc8a2060d471d53c9afc8e9f352158",
+      "bytes": 6383
+    },
+    {
+      "path": "InfHarmonic/StrictMaxPerturbLocalization.lean",
+      "sha256": "f4ba07cd1fd5219e3c21534e1b8aeb911baaa05e4633e5346bdf72f228377044",
+      "bytes": 3209
+    },
+    {
+      "path": "InfHarmonic/SumRuleDualityTest.lean",
+      "sha256": "ab74ad7ef1551138afd716790ee7de9675cf27fd8b1015b8d8ad7f4dc360c57b",
+      "bytes": 19089
+    },
+    {
+      "path": "InfHarmonic/SumRuleFixedTauJets.lean",
+      "sha256": "ec8de8ae2d8194cd2305b6e0fd0a5e60a1d7273d43dd46b9ccbd45b0d43a394e",
+      "bytes": 17672
+    },
+    {
+      "path": "InfHarmonic/SumRuleJetFromJensen.lean",
+      "sha256": "f173426a8e7e9e40f70531ea8ae21d662d156ae8a8e067275ac367965c80c518",
+      "bytes": 24748
+    },
+    {
+      "path": "InfHarmonic/SumRuleJets.lean",
+      "sha256": "dafebac44a3fa54b3415fa16c06e46c41d67ed041cba7b10f789f54635e99ba0",
+      "bytes": 6401
+    },
+    {
+      "path": "InfHarmonic/SumRuleQuadraticTest.lean",
+      "sha256": "7666aad79cf9ec7fb649a7ffa3d743cf18fd0e31a405354768b066217f510d5e",
+      "bytes": 21882
+    },
+    {
+      "path": "InfHarmonic/SumRuleResolvent.lean",
+      "sha256": "4815bb033d46e81a284817f8df899c7f6d36eda7a855902919fd89e71335c029",
+      "bytes": 8596
+    },
+    {
+      "path": "InfHarmonic/SupConvolution.lean",
+      "sha256": "f49e4ac37e41efbc3772c454e376526b9db95d2819546e9a1a7a077060dfcdda",
+      "bytes": 390
+    },
+    {
+      "path": "InfHarmonic/SupConvolutionMagic.lean",
+      "sha256": "d9b75bdcd8d7f1a28e43bd0e59b70b50a2901332b3bc1deb7e5d7269fb825d31",
+      "bytes": 7484
+    },
+    {
+      "path": "InfHarmonic/SupConvolutionSemiconvex.lean",
+      "sha256": "21cc798bc2be6ebbe42d74b66a447cd8a3e3732dad2f6d884235bb69af909eb3",
+      "bytes": 3833
+    },
+    {
+      "path": "InfHarmonic/SupConvolutionSeparable.lean",
+      "sha256": "f31c7a6d0b02988d709ee96c28646f87acf0f94e830b090c63ac494524207a21",
+      "bytes": 5836
+    },
+    {
+      "path": "InfHarmonic/Superjet.lean",
+      "sha256": "25e87c4bff3b865df766709c03a7446f9f5793b6ecf4e4c64aec314e3bed061b",
+      "bytes": 586
+    },
+    {
+      "path": "InfHarmonic/SymmetricFormNormFromDiagonal.lean",
+      "sha256": "e477a9f7d6b835f0e440e2acd818ff19b3ee08131b996f32b987d221075c20f8",
+      "bytes": 2869
+    },
+    {
+      "path": "InfHarmonic/ThreePointJetsAndMatrixInequality.lean",
+      "sha256": "0525738fd2cd98c215e739a70c3721a78725e90def27c8bc7b124eb9a31ced58",
+      "bytes": 9635
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "64abf14179b7c8df2ae6a4fc5659d6617b685da1b05aa42818b6574cec65e9fb",
+      "bytes": 391,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "InfHarmonic/ThreePointJetsAndMatrixInequality.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/c8b14807db36ea33772c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/na0b/infharmonic-lean",
+    "source_commit": "e8710101271a529a8bd84fe0e610c3ab10de85b3"
+  }
+}

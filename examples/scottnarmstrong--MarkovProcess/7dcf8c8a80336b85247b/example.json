@@ -1,0 +1,601 @@
+{
+  "id": "7dcf8c8a80336b85247b",
+  "source": {
+    "repository": "scottnarmstrong/MarkovProcess",
+    "commit": "dbade0d12c4f84179441a9df7d7147df7a8bcaa0",
+    "project": "scottnarmstrong--MarkovProcess--dbade0d12c4f",
+    "path": "MarkovProcess/Trajectory/ExitTimeExponentialMoment.lean",
+    "file_id": "026c1eccc79d5185e829",
+    "source_sha256": "026c1eccc79d5185e8294628b8d75c725d6c766ef6efa09faaae5bde5fffbcda",
+    "start": 440,
+    "end": 511,
+    "original_start": 438,
+    "original_end": 511,
+    "declaration": "IsConservative.lintegral_exitTime_pow_le",
+    "source_url": "https://github.com/scottnarmstrong/MarkovProcess/blob/dbade0d12c4f84179441a9df7d7147df7a8bcaa0/MarkovProcess/Trajectory/ExitTimeExponentialMoment.lean#L440-L511",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--MarkovProcess--0dc1ad4f4c93/blob/dbade0d12c4f84179441a9df7d7147df7a8bcaa0/MarkovProcess/Trajectory/ExitTimeExponentialMoment.lean#L440-L511"
+  },
+  "native_target_name": "MarkovProcess.SubMarkovKernelSemigroup.IsConservative.lintegral_exitTime_pow_le",
+  "source_declaration_label": "IsConservative.lintegral_exitTime_pow_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "c21b29a63bda945903de94f0043fd7930a67d5aaf572ee27ea883559a4396e5a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "78a352c78c8a6324907d7ef5ea294ff110d2eef607b5559066544b2d138618e4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MarkovProcess/Continuity/DenseTimeContinuousExtension.lean",
+      "sha256": "30335610c84ae91cb085bf9b35170c8ad20fb0b1761434538e3bf14c5bc918ef",
+      "bytes": 4764
+    },
+    {
+      "path": "MarkovProcess/Continuity/DenseTimeContinuousLaw.lean",
+      "sha256": "2d6307b5c03e6abf2f276a28ecd915bb1190281af7031b82c3d3505894934208",
+      "bytes": 4366
+    },
+    {
+      "path": "MarkovProcess/Continuity/DenseTimeContinuousSupport.lean",
+      "sha256": "11bda33f5bda63593b84a8d70fbdd6625a82031c725c0144f0316a4160a43cf1",
+      "bytes": 2119
+    },
+    {
+      "path": "MarkovProcess/Continuity/DyadicChaining.lean",
+      "sha256": "82c21083bbaa84c8983a85c3ccaffd26991476871890f4f96abd9963956f0cd5",
+      "bytes": 15156
+    },
+    {
+      "path": "MarkovProcess/Continuity/DyadicFloor.lean",
+      "sha256": "d70d42cd66c3063cfd3db3e8a623352e106edd0b43ab98e470e263884c8f0455",
+      "bytes": 34621
+    },
+    {
+      "path": "MarkovProcess/Continuity/DyadicIncrements.lean",
+      "sha256": "ee4c554f701a678a2db42c4b350e5ad0f149fc0c82b1a456dc8d3a217c8f1e63",
+      "bytes": 11410
+    },
+    {
+      "path": "MarkovProcess/Continuity/GlobalDyadicFloorModification.lean",
+      "sha256": "a6681ba5abaac6b3d54c89e7efdc444e08edd5755317f5a1f64d40c10a70c5ce",
+      "bytes": 11906
+    },
+    {
+      "path": "MarkovProcess/Continuity/KolmogorovDenseTimeContinuousSupport.lean",
+      "sha256": "1490306477b2f97072fec87ee6f6251bce9389896973d05642dad35388df5d86",
+      "bytes": 3143
+    },
+    {
+      "path": "MarkovProcess/Continuity/KolmogorovTimeShift.lean",
+      "sha256": "a2ee6eae2cde16f82c5eea4cfeb58ca53352605dd3f10ff3db55a734c40d3cb0",
+      "bytes": 3819
+    },
+    {
+      "path": "MarkovProcess/Continuity/ShiftedUnitModification.lean",
+      "sha256": "862e493f47f5cf1f8f6150ead260cd77317b4f4f7a615bdc0b3cccab28defa08",
+      "bytes": 5012
+    },
+    {
+      "path": "MarkovProcess/DenseTime/CemeteryExtension.lean",
+      "sha256": "3dcdd460dad1cfc7b7cb849d5088f32dfe658ba4cdbc114d3e6d1707d18737cf",
+      "bytes": 6271
+    },
+    {
+      "path": "MarkovProcess/DenseTime/ConditionalKernel.lean",
+      "sha256": "589cfab21fff2e4d6631788848764f3e70030d5556804fba00cc8a0e2678789e",
+      "bytes": 6372
+    },
+    {
+      "path": "MarkovProcess/DenseTime/PhysicalCompactTestTransport.lean",
+      "sha256": "161920eb294ffb663a3507b3f02105d86b48f48bfca1e660e9cc63d7a52dcf0b",
+      "bytes": 6721
+    },
+    {
+      "path": "MarkovProcess/DenseTime/PhysicalReindex.lean",
+      "sha256": "2f95aa8eb5639c69c11d2ec873637b61750932dba4e1e3d725c561abd7d99a32",
+      "bytes": 2771
+    },
+    {
+      "path": "MarkovProcess/DenseTime/PrefixKernel.lean",
+      "sha256": "cf54b41dda4c001dd9313d8a94b9c8282c864c0f70e8a287ccb792f22edaa125",
+      "bytes": 5450
+    },
+    {
+      "path": "MarkovProcess/DenseTime/PrefixRecursion.lean",
+      "sha256": "a843c0121df6c4678196233cbc965682bcccee88b0451473cd6b7039e67222ff",
+      "bytes": 7584
+    },
+    {
+      "path": "MarkovProcess/DenseTime/Shift.lean",
+      "sha256": "db2cfd44e84f6e8ce262b2b02837acc8ab9f4733dcf8cef6675354eb3305b736",
+      "bytes": 2860
+    },
+    {
+      "path": "MarkovProcess/DenseTime/Trajectory.lean",
+      "sha256": "e23b5a4759d8bc3f011ed4bc1df5f7ca6648ebcef6df6626482e7f2160055c12",
+      "bytes": 16024
+    },
+    {
+      "path": "MarkovProcess/DenseTime/TrajectoryMarginals.lean",
+      "sha256": "df4413d202cba3bcbad094b70cfe692d60af7b169ba6acafb38fb0f18cdc4961",
+      "bytes": 4283
+    },
+    {
+      "path": "MarkovProcess/DenseTime/TwoPointMarginals.lean",
+      "sha256": "61736a88c4cedeae928e639fa9f594ae3c2f81ea0a688e78dbdc113ad9a04ddd",
+      "bytes": 15958
+    },
+    {
+      "path": "MarkovProcess/Feller/BackwardC0Integral.lean",
+      "sha256": "e91afb785bb6ab3e8c3567b308e18dd7888dd037ba1af5b09fdf202dce4791a7",
+      "bytes": 5671
+    },
+    {
+      "path": "MarkovProcess/Feller/BackwardC0Recursion.lean",
+      "sha256": "9e873424d8f3ec06483d6b130b84c468e55d92b93124515690aa4c281260c95e",
+      "bytes": 3765
+    },
+    {
+      "path": "MarkovProcess/Feller/CoordinatePolynomialContinuity.lean",
+      "sha256": "62f260b76badfe929d7c6fa51a6072772449d82dfe01400dd79adc1d54d2f8ae",
+      "bytes": 5649
+    },
+    {
+      "path": "MarkovProcess/Feller/CoordinateProductContinuity.lean",
+      "sha256": "a2ecdeb8f23bea0fb91b62bc564999c0135ba64ee0e0a8040a7feb7e16f349ab",
+      "bytes": 6243
+    },
+    {
+      "path": "MarkovProcess/Feller/DensePhysicalFiniteSetContinuity.lean",
+      "sha256": "00c2a5e343a54d4e9dbc29ba94ad0c1b4e1a90e94128207d8511987787d4b674",
+      "bytes": 3490
+    },
+    {
+      "path": "MarkovProcess/Feller/FiniteDenseApproximationContinuity.lean",
+      "sha256": "9107bd5bbe31400c90e06c55ed5e6e1cbd036b45c753a329ebc73be541833eb0",
+      "bytes": 3004
+    },
+    {
+      "path": "MarkovProcess/Feller/FiniteSetCompactTestContinuity.lean",
+      "sha256": "a191a6711daad1783549e8cdfb6bd5540ac877d82db67e339baaf76be357c2af",
+      "bytes": 1743
+    },
+    {
+      "path": "MarkovProcess/Feller/FiniteTimeCompactTestContinuity.lean",
+      "sha256": "12fba025125768d0d6742eb63fda59d905133d702bcdf72774a4465dce4ccdc4",
+      "bytes": 10345
+    },
+    {
+      "path": "MarkovProcess/Feller/FiniteTimeJointCompactTestContinuity.lean",
+      "sha256": "eaf084098d51f073a7a711cc108f5132f3d776ba21c0fc07657ee2ced6f7e71e",
+      "bytes": 18463
+    },
+    {
+      "path": "MarkovProcess/Feller/FiniteTimeKernelContinuity.lean",
+      "sha256": "6c26a85d242eb7e730dcc3dda9da40277cd2bf6a5196c300b89d895f75254646",
+      "bytes": 4848
+    },
+    {
+      "path": "MarkovProcess/Feller/Semigroup.lean",
+      "sha256": "735f7251f63c3a868cdd8b6451efda4d088371489213eeab47af22c26f599953",
+      "bytes": 3798
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/CoordinateProductActiveReduction.lean",
+      "sha256": "421cd3c013cd91ebef11e17adfeaad45ebd3b4fc45dc871d3a6310dcc52fd96b",
+      "bytes": 5077
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/CoordinateProductNormalization.lean",
+      "sha256": "995eeaaa96e85570faffd48fe72a9dd58404b0b5694d4cc9b0f52e7a89e8f436",
+      "bytes": 5577
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/DenseTimeFiniteShift.lean",
+      "sha256": "22033ba55fa6b0a5ca4260f9cfe3c83603edabc7ed48a308d8ca9417756e1e59",
+      "bytes": 3032
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/FiniteProductCompactSupportApproximation.lean",
+      "sha256": "465c1c1929b69c507bb3006961655b4142f60f54da9d70000618a7c32c16166a",
+      "bytes": 5821
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/FiniteProductCoordinateNormalForm.lean",
+      "sha256": "17a259a1514a44a4233128a8c41040c8352a6f228461c2f7621777e0feca9d82",
+      "bytes": 7249
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/FiniteProductStoneWeierstrass.lean",
+      "sha256": "97a5f9e5bee5c77e5a10f350b6e4341ba79f8c3d0c60bc471f84fa879463ac28",
+      "bytes": 5698
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/FiniteSetKernelCompactTestTransport.lean",
+      "sha256": "a0238c0d73d3bb03c70d89ebfb3abc3e2a2247ce9f07d1ef9fed718a58d4e4b2",
+      "bytes": 6893
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/FiniteSetKernelShift.lean",
+      "sha256": "2b8beaeefeb6e48c8421965f3e1b398ac98b182c0094204c261b38d37f342183",
+      "bytes": 7757
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/Kernel.lean",
+      "sha256": "f60bfb2de5022978acb267fd076efaad8d372978ee1512bce2b1990e7b8bf0f3",
+      "bytes": 5347
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/KernelConcatenation.lean",
+      "sha256": "0c39c681a3347d6a4656eecb72216fd59e1557e85e0ff93dc7d65fad646d3e8a",
+      "bytes": 17684
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/KernelDeletion.lean",
+      "sha256": "45df0a686d02036902c540798cc52501777f837e073fdf548502530fde9f5330",
+      "bytes": 7703
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/KernelMixedPullback.lean",
+      "sha256": "ebe18f9830b4cbd8230e8befe6527f1e955259f15d8fd91a785e7f280ff890a6",
+      "bytes": 3585
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/KernelRestriction.lean",
+      "sha256": "bcffdadf8f8f6f71d9ae5b73b1d78e8e494fda69c7f6d02e0398f69962bf03a2",
+      "bytes": 3690
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/KernelShift.lean",
+      "sha256": "5704ccdc7a62c63618487c9f6ee278d863034023434c2991401cfddf653a5acf",
+      "bytes": 2345
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/MeasureFiniteRestrictionIdentification.lean",
+      "sha256": "3448285f40957b01df6aae24f8b8cebe057a97f7bce1bf555236b5d831775905",
+      "bytes": 1423
+    },
+    {
+      "path": "MarkovProcess/FiniteTime/ProjectiveFamily.lean",
+      "sha256": "fcf5e27ec2d9c309610b274fda766e601613abcf791d8d8d754ff044e6a936b5",
+      "bytes": 5948
+    },
+    {
+      "path": "MarkovProcess/Kernel/Basic.lean",
+      "sha256": "9b0c0c4bbd329166a496c6fd190bffaba9f7d6954962c2685f0e030f696d008f",
+      "bytes": 2313
+    },
+    {
+      "path": "MarkovProcess/Kernel/C0.lean",
+      "sha256": "705f151980ab46bacc6832281511b69e8b21903951b924d7726da3b904612680",
+      "bytes": 5141
+    },
+    {
+      "path": "MarkovProcess/Kernel/C0SemigroupJoint.lean",
+      "sha256": "1ed846425361f2f5370037230896520684bd8fc402e9c83f7e21195b31819e48",
+      "bytes": 1734
+    },
+    {
+      "path": "MarkovProcess/Kernel/CompProdReindex.lean",
+      "sha256": "a18f90b39b0ae20c810c92f060ba5efa5e1460a2b5d1825210dfb4bbd8e036b3",
+      "bytes": 4000
+    },
+    {
+      "path": "MarkovProcess/Kernel/FiniteRestrictionIdentification.lean",
+      "sha256": "5a8120d0e59042445652adfc5d319af31bfb9bb9f73b368f0aad077f89025896",
+      "bytes": 1687
+    },
+    {
+      "path": "MarkovProcess/Kernel/Integral.lean",
+      "sha256": "fe98cce461d5cebf1535dd67afc24dbe22a4abf93e169a8e847e7685fdb3fd3e",
+      "bytes": 2434
+    },
+    {
+      "path": "MarkovProcess/Kernel/KernelSemigroup.lean",
+      "sha256": "d9e94048edbf4017bf1dac05e067bce6dc60f44b7cfd3cf0c0264e2ffb67ed9a",
+      "bytes": 4468
+    },
+    {
+      "path": "MarkovProcess/Kernel/KolmogorovMoments.lean",
+      "sha256": "206ab66bc2190b4d0479898db997291d786dbd199e5366258a37b8619c23fbf9",
+      "bytes": 3145
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0OperatorMeasure.lean",
+      "sha256": "4dc627f1bb31633334fc23932be0f4b40f90f47661fe54cd906b64de04ca55a5",
+      "bytes": 4205
+    },
+    {
+      "path": "MarkovProcess/Killed/Kernel.lean",
+      "sha256": "432007dcbd63fcff5965973f99fb51638deac92acabbd91d50f3a8715713701d",
+      "bytes": 12661
+    },
+    {
+      "path": "MarkovProcess/Lifetime/Basic.lean",
+      "sha256": "c2caee41a224fe1ef840780bf2eef8e5874a44efc0c4e03ab6bbed03a9d87c92",
+      "bytes": 9144
+    },
+    {
+      "path": "MarkovProcess/Lifetime/ExitTime.lean",
+      "sha256": "fead1ca6fe7ed7a4b55373c4471ff40ade37d627f0e1ab15ce357ab283ef9472",
+      "bytes": 3896
+    },
+    {
+      "path": "MarkovProcess/Main.lean",
+      "sha256": "b66bc375466e6d486d2a2e23eb37fb0a97e1e5c8397d97cc9b4a4568d6e871d5",
+      "bytes": 21652
+    },
+    {
+      "path": "MarkovProcess/Path/Basic.lean",
+      "sha256": "3708d661269a729e5c90287059c70d25b41029374fe8257d97125970d6d5e204",
+      "bytes": 3595
+    },
+    {
+      "path": "MarkovProcess/Path/ClosedSetDetection.lean",
+      "sha256": "c1d8ceb740c6946a16ff59c06f2ffbc3295bbe6d5e9265e1d68586ea9a5151f0",
+      "bytes": 14764
+    },
+    {
+      "path": "MarkovProcess/Path/DenseFiltration.lean",
+      "sha256": "73b4bc07b143f280ce02483e61fa8345697287335206215e1b3a4754f061941f",
+      "bytes": 4777
+    },
+    {
+      "path": "MarkovProcess/Path/DenseRestrictionIntegral.lean",
+      "sha256": "91ce95be2d65cc6101a7574a7103fabb988ffdeb15ecac44a3c34b249e4a6062",
+      "bytes": 1571
+    },
+    {
+      "path": "MarkovProcess/Path/ExitTime.lean",
+      "sha256": "d17a24bee9bbf8a717af133397ef336bf6126b672ae838918af69584105640c0",
+      "bytes": 12165
+    },
+    {
+      "path": "MarkovProcess/Path/ExitTimeShift.lean",
+      "sha256": "2e6c7993e53543cb0155e1aea1a72f698312539a4c79f1b58886b2f861b71340",
+      "bytes": 5308
+    },
+    {
+      "path": "MarkovProcess/Path/KernelIdentification.lean",
+      "sha256": "06975c3153930336a385969d59009bda2bd18534118205eebe5a09b327bae93b",
+      "bytes": 3250
+    },
+    {
+      "path": "MarkovProcess/Path/MeasureIdentification.lean",
+      "sha256": "4a7a3f40ea2eabbb728e2789270fcd87af87739272fcb3b0b0817017c68fbb7b",
+      "bytes": 2324
+    },
+    {
+      "path": "MarkovProcess/Path/MixedFiniteMarginals.lean",
+      "sha256": "0e7f1da1f12c86247fa084a4bc2cad2a81528e6ed7cd40cb4eeec3366f2ac946",
+      "bytes": 3205
+    },
+    {
+      "path": "MarkovProcess/Path/Polish.lean",
+      "sha256": "2d48224d9d4cddba62cd1e3ea7f3e8c4985f665e45159477df7e0d12e6b9e0cf",
+      "bytes": 1511
+    },
+    {
+      "path": "MarkovProcess/Path/RandomShiftMeasurability.lean",
+      "sha256": "45fab221f1b814312831935a9854e43463a7d753191ec54bc610ab892171e225",
+      "bytes": 3233
+    },
+    {
+      "path": "MarkovProcess/Path/RandomTimeCompactTestConvergence.lean",
+      "sha256": "ee21b3ff6478435b5e51df0769eb51a4d1a9c7a2affc16e4d1591017e5ca07ad",
+      "bytes": 4052
+    },
+    {
+      "path": "MarkovProcess/Path/Shift.lean",
+      "sha256": "4efa3f47307d75056ce29e248ac6f0f7863a28070f9ce6cdfabd3dc8ec768f69",
+      "bytes": 3667
+    },
+    {
+      "path": "MarkovProcess/Path/ShiftCompactTestConvergence.lean",
+      "sha256": "79487c4196a3fd142bea5909cbf89bf5da5f184a59b9008539d059ed5032cfdd",
+      "bytes": 3729
+    },
+    {
+      "path": "MarkovProcess/Path/StoppedValueMeasurability.lean",
+      "sha256": "6ac2ac8c08d39b86a5106061b19544090a87a9c967021128e35c8fdb4c0bff79",
+      "bytes": 2332
+    },
+    {
+      "path": "MarkovProcess/Path/StoppingTimeDyadicCeiling.lean",
+      "sha256": "880b79ad44455a8616670573376d5275c75c3dcf60bc222e54f6f2649afe6a46",
+      "bytes": 9080
+    },
+    {
+      "path": "MarkovProcess/Restart/ConditionalExpectation.lean",
+      "sha256": "a3917d1410c665d1970036be8cec129747118d8fff62d4d17c686c91ee0d72fd",
+      "bytes": 3744
+    },
+    {
+      "path": "MarkovProcess/Restart/ConditionalMarkov.lean",
+      "sha256": "3921a6760a3a638f3826da01be8b5f7090389f9127f539c9d5cb6693bc9e626d",
+      "bytes": 3034
+    },
+    {
+      "path": "MarkovProcess/Restart/CountableStoppingRestart.lean",
+      "sha256": "13e1872ffecceedcbdd4db496da5262ff5ba9565b054f13b3652e043e4b27533",
+      "bytes": 9337
+    },
+    {
+      "path": "MarkovProcess/Restart/CountableStoppingRestartMeasure.lean",
+      "sha256": "e87d5bc6969ed346789e3922a4af59c8e9a981f6fcd2dae8bc0c3e996de081cf",
+      "bytes": 6079
+    },
+    {
+      "path": "MarkovProcess/Restart/FinitePastRestart.lean",
+      "sha256": "6efb54289a9f6024f2fc7a1500c7340503e0aaa84d5ed00411f7db04ea2b34ea",
+      "bytes": 4887
+    },
+    {
+      "path": "MarkovProcess/Restart/MixedPastFuture.lean",
+      "sha256": "628191ab307fc9dc9f46cde045318fcc2689b818843e77db0d81903f0f466748",
+      "bytes": 52213
+    },
+    {
+      "path": "MarkovProcess/Restart/RationalRestart.lean",
+      "sha256": "e0675924c00e988b0988d101a80c6ddaef46b859a63af46edcc4723b58347e4f",
+      "bytes": 24140
+    },
+    {
+      "path": "MarkovProcess/Restart/RationalRestrictedRestart.lean",
+      "sha256": "e8f00c4d215be66e6eb47a36025d69edb45bda9c61a83cc79dc92237176b1222",
+      "bytes": 4100
+    },
+    {
+      "path": "MarkovProcess/Restart/RestrictedRestartOfJoint.lean",
+      "sha256": "1407acb3ea7350ce1a8387fa9e868832c59dae436e3e65b8c2a90f2a7ba3f90a",
+      "bytes": 2302
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Basic.lean",
+      "sha256": "f8074f963285f2b078222253e014a4a3d1379d69ee8bb27e82678ce16fd4c56f",
+      "bytes": 3161
+    },
+    {
+      "path": "MarkovProcess/Time/CountableDenseTime.lean",
+      "sha256": "c930bf504783265fe2991e52d2bdb9643801df6cbe026fcf56e18434ea47ccd5",
+      "bytes": 5046
+    },
+    {
+      "path": "MarkovProcess/Time/DenseTimeApproximationFromAbove.lean",
+      "sha256": "5851a4aa5f95c47a59111679fcbf170ea7f98b7a90baddda0561b7a4d46b0313",
+      "bytes": 1370
+    },
+    {
+      "path": "MarkovProcess/Time/DenseTimeHistory.lean",
+      "sha256": "36a653c4a93cb7707a07de1c65bd9fe6fb3e7ac146f0fdf95a5a906a48616d83",
+      "bytes": 3333
+    },
+    {
+      "path": "MarkovProcess/Time/FiniteDenseApproximationOrdered.lean",
+      "sha256": "9306b193ffeffbaa3412d0fe427b1763017a0ede18eed7570759df02ac94904d",
+      "bytes": 5586
+    },
+    {
+      "path": "MarkovProcess/Time/FiniteGridIncrement.lean",
+      "sha256": "20241bf9e357c60ee42c0326c648fbfd717f6c14869e6aaf4269a800bda4671e",
+      "bytes": 4069
+    },
+    {
+      "path": "MarkovProcess/Time/FiniteOrderEmbedding.lean",
+      "sha256": "6983e7a9cc160fc9f632ef9b4b8bdb6653272b3e72b31f4b7171ab7a892c1ef7",
+      "bytes": 2423
+    },
+    {
+      "path": "MarkovProcess/Time/FiniteOrderedTimes.lean",
+      "sha256": "5e6b70c3e5373ad7bdd3bf629a1da3d04701c24c0cdee6432f1afd91c7334635",
+      "bytes": 5659
+    },
+    {
+      "path": "MarkovProcess/Trajectory/AllTimeFiniteMarginals.lean",
+      "sha256": "dbc62d71561554d341cbdef33ac02d066dee2a939dcc1be2329955224295b06d",
+      "bytes": 15449
+    },
+    {
+      "path": "MarkovProcess/Trajectory/AllTimeMarginals.lean",
+      "sha256": "3363454e6105657a267308542ac9ed046543d25600e96167338823f486450366",
+      "bytes": 6224
+    },
+    {
+      "path": "MarkovProcess/Trajectory/Basic.lean",
+      "sha256": "1d45f9b6b4ed551354ab6c378c8ae8b6a8edbb57a78ad1876a5c97d7f2284a3f",
+      "bytes": 6092
+    },
+    {
+      "path": "MarkovProcess/Trajectory/DenseRestrictionIntegral.lean",
+      "sha256": "cb07e70e96e0e4d9167010a8a9f89172741eb6e0305b6011c697995eb96b8d2b",
+      "bytes": 4177
+    },
+    {
+      "path": "MarkovProcess/Trajectory/DenseRestrictionMarginals.lean",
+      "sha256": "cc06d06d445526136ab2ab917bcd6415e2891ea647d1041c3329bbffd6f030b2",
+      "bytes": 2890
+    },
+    {
+      "path": "MarkovProcess/Trajectory/ExitTimeExponentialMoment.lean",
+      "sha256": "c404a21a22bf625d38536ba82a65e58aa8a24e4282186b56082d0965882a4d32",
+      "bytes": 28171
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerConditional.lean",
+      "sha256": "b0c15986830a09d0ba2b253a2264e1e4d61044edbf1d2acb323645df69af568f",
+      "bytes": 2763
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerCountableStoppingRestart.lean",
+      "sha256": "70f52f26aee7908505f6a70657fe41beae23f71c4a7dee12cb6bb2aeb100fe43",
+      "bytes": 3158
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerFiniteMarginals.lean",
+      "sha256": "847fd48b2e31f9a67339f1a5fbb76332d3b02b4b757eaa90b43295135518eb7b",
+      "bytes": 2284
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerRestrictedRestart.lean",
+      "sha256": "a921d559eaa827cbc96d7413952b5caa88c015706dac35ab9331286617d812ea",
+      "bytes": 10207
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerShift.lean",
+      "sha256": "caa819a3bc96173417a92da86dae4b819518e6b3c844a6b32a90d90f76e1fab7",
+      "bytes": 5473
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerStoppingConditional.lean",
+      "sha256": "57f1f8794d16ffe38d6f9d4c503b58f2dbd6f5c1592fecf7f8e32ecd1ea8334c",
+      "bytes": 3693
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FellerStoppingRestart.lean",
+      "sha256": "9d46c63d0d44e54c0d2bea60fd48b5dfce46cb1a6bb3eaa81a8ea5c98439c943",
+      "bytes": 7171
+    },
+    {
+      "path": "MarkovProcess/Trajectory/FiniteMarginals.lean",
+      "sha256": "6ea2e0768edc71ef663256b1dcd0f1d3bdb47eef3f3d1fe01b66120b7ce81b6f",
+      "bytes": 8167
+    },
+    {
+      "path": "MarkovProcess/Trajectory/RationalConditional.lean",
+      "sha256": "7ac7bde0d7c2afd17f9924a3de616b65c3e19a4375cb2d7e4bed327136ecfb8a",
+      "bytes": 6089
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "61661eb93b870857161197eae46a8a3ca762ec85a66fb9f585d0f999cdd36f8f",
+      "bytes": 1082,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "MarkovProcess/Trajectory/ExitTimeExponentialMoment.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7dcf8c8a80336b85247b": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/MarkovProcess",
+    "source_commit": "dbade0d12c4f84179441a9df7d7147df7a8bcaa0"
+  }
+}

@@ -1,0 +1,116 @@
+/-
+Copyright (c) 2026 Quadratic Carleson formalization contributors. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Quadratic Carleson formalization contributors
+-/
+import QuadraticCarleson.PositiveHighHeightTail
+import Mathlib.MeasureTheory.Function.LpSeminorm.ChebyshevMarkov
+
+/-!
+# The high contribution summed over magnitude levels
+
+The maximal complex tails are the paper's actual high terms. A measurable
+majorant permits a level-set bound without assuming that their unrestricted
+real-parameter supremum is measurable. All fixed-height bounds are supplied
+by the proved quadratic theorem.
+-/
+
+open MeasureTheory Set
+open scoped ENNReal NNReal Function
+
+namespace QuadraticCarleson
+namespace PositiveHighHeightEstimate
+
+open CalderonZygmundLevelAtoms PositiveLevelIntegration
+
+                                                                                     
+                                             
+
+                                                                                        
+                                            
+
+                                                                               
+                                                                   
+                                                                              
+
+                                           
+                                                           
+                                                
+                                                                      
+
+                                           
+                                                           
+                                              
+                                        
+                                                                                  
+                                                                
+                                                                                   
+                                                                     
+                                    
+                           
+                                  
+                                                                     
+                                                                  
+
+                                        
+                                                           
+                                           
+                                        
+                                                                                  
+                                                                                                
+                                                            
+                                                
+
+                                                                       
+                                           
+                                         
+                                                           
+                                                  
+                                         
+                                                                                       
+                                                            
+                                                           
+                      
+              
+                                                                    
+                                                                
+                                                        
+                                                                      
+                                                                                  
+                                                                   
+                                                                                
+                               
+                                                                           
+
+                                                                 
+                                               
+                                                             
+                                                                           
+                                                
+                                                                                        
+                                                                         
+                                                    
+                                                                                       
+                 
+
+                                                                         
+                                                                              
+                                                            
+                                                             
+                                                                    
+                                     
+                                                                           
+                                                                                         
+                                         
+                                                            
+                                                                                                 
+                                            
+                                                                          
+                                    
+                          
+                            
+         
+                                                                                   
+
+end PositiveHighHeightEstimate
+end QuadraticCarleson

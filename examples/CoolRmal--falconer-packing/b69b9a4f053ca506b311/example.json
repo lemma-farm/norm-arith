@@ -1,0 +1,191 @@
+{
+  "id": "b69b9a4f053ca506b311",
+  "source": {
+    "repository": "CoolRmal/falconer-packing",
+    "commit": "70140ccedfb6de71342299523a21b1550df69ab9",
+    "project": "CoolRmal--falconer-packing--70140ccedfb6",
+    "path": "FalconerPacking/DyadicComparisonSums.lean",
+    "file_id": "0712f50953450ccf0ad2",
+    "source_sha256": "0712f50953450ccf0ad27eb6e50257f52d584c7ea039cfebf78e6ce4fb47e296",
+    "start": 71,
+    "end": 84,
+    "original_start": 66,
+    "original_end": 84,
+    "declaration": "sum_sqrt_dyadic_mass_le",
+    "source_url": "https://github.com/CoolRmal/falconer-packing/blob/70140ccedfb6de71342299523a21b1550df69ab9/FalconerPacking/DyadicComparisonSums.lean#L71-L84",
+    "archive_url": "https://github.com/PalomarArchive/CoolRmal--falconer-packing--054762f09ea9/blob/70140ccedfb6de71342299523a21b1550df69ab9/FalconerPacking/DyadicComparisonSums.lean#L71-L84"
+  },
+  "native_target_name": "FalconerPacking.sum_sqrt_dyadic_mass_le",
+  "source_declaration_label": "sum_sqrt_dyadic_mass_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "02442479a525ef27f0860c06df888a79b0caa25c8ef6b027bd0e0d6655bf05d7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "5aec60004ab2762c36854dfcdbd64c4200f730e55690d677a080bf22eb1423f7",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FalconerPacking/AffineDistance.lean",
+      "sha256": "772ae292c13dd2d71c3de7d252657121dd52351da73ae29c8e617c20914b2943",
+      "bytes": 10186
+    },
+    {
+      "path": "FalconerPacking/Content.lean",
+      "sha256": "e9a801ae8c41d1b4d33126b7d9cb8275766368d56b21a76312a38f0b061be509",
+      "bytes": 6949
+    },
+    {
+      "path": "FalconerPacking/Dimensions.lean",
+      "sha256": "3f004094ffc1b15b172664c1bdc675131613a1d13f581e88e4c4d85379eb94b5",
+      "bytes": 12215
+    },
+    {
+      "path": "FalconerPacking/Dyadic.lean",
+      "sha256": "f51fd0406955e39b33da693d39128a426976a72c8f06788fcdfae76f1f83be6e",
+      "bytes": 10465
+    },
+    {
+      "path": "FalconerPacking/DyadicCenters.lean",
+      "sha256": "7ea712b14f4f5ad69e4ab10309508675029df1b7ef9f36e0e6957b95994c14e8",
+      "bytes": 6425
+    },
+    {
+      "path": "FalconerPacking/DyadicComparisonSums.lean",
+      "sha256": "0712f50953450ccf0ad27eb6e50257f52d584c7ea039cfebf78e6ce4fb47e296",
+      "bytes": 3431
+    },
+    {
+      "path": "FalconerPacking/DyadicMomentCenters.lean",
+      "sha256": "021d658ecd6d5dbbf31f8fca93704a46fa542cea22b451d3cd44475e3cdc5e74",
+      "bytes": 3330
+    },
+    {
+      "path": "FalconerPacking/Energy.lean",
+      "sha256": "4282ba2725aa29165e678e6693eeacc7e7149b0a85cb9bcc7f50ada50c6474a0",
+      "bytes": 15764
+    },
+    {
+      "path": "FalconerPacking/FrostmanLimit.lean",
+      "sha256": "e51f65e3a07a47db3cf0241f9417b1bfbb6b48b30a4c95c7ba04997c82d73e21",
+      "bytes": 7481
+    },
+    {
+      "path": "FalconerPacking/FrostmanWeights.lean",
+      "sha256": "41f1a3521cb6d3e8adef8e1af1cf98a14979d0c0d6909b5d6eafa92e26f9792a",
+      "bytes": 24876
+    },
+    {
+      "path": "FalconerPacking/GaussianBallEnergy.lean",
+      "sha256": "c889ba1da63300d65187f40384d7c400c9a8ded6cb0ad14b039e34985f1eacf8",
+      "bytes": 6249
+    },
+    {
+      "path": "FalconerPacking/GaussianEnergy.lean",
+      "sha256": "4b047ec3c91af1beef0fe2589f1135d81ab66891cb1e33c312470c79ba48503a",
+      "bytes": 4855
+    },
+    {
+      "path": "FalconerPacking/GaussianFrostman.lean",
+      "sha256": "24057c1f4552e8d1a4d48f369bda57749f788a3e9cdd5025e9e645e3c177be12",
+      "bytes": 10273
+    },
+    {
+      "path": "FalconerPacking/LocalEnergy.lean",
+      "sha256": "199684baa75079d51a8dbe37a95b434ab993044a4470bcde917684d8e55c6da0",
+      "bytes": 33515
+    },
+    {
+      "path": "FalconerPacking/MomentCenters.lean",
+      "sha256": "b7adb15977988bc73e1224bd419b5537af29bdce28cdad8c8081db9110529313",
+      "bytes": 3163
+    },
+    {
+      "path": "FalconerPacking/OccupiedCubes.lean",
+      "sha256": "114455a69d128b0cc52a28178b42821d9b155b033544ebf5674991aefbf9dbc3",
+      "bytes": 11841
+    },
+    {
+      "path": "FalconerPacking/PinnedKernel.lean",
+      "sha256": "685cb2bed9fe221bb350fc861985eca6ac500e6a4a44b11db0cc76fd8f21c7d3",
+      "bytes": 12428
+    },
+    {
+      "path": "FalconerPacking/PinnedMeasure.lean",
+      "sha256": "8a171ef519a221778b590e6527fda3bd7bb480a955a5b8cb9e8cef04f17f8194",
+      "bytes": 5243
+    },
+    {
+      "path": "FalconerPacking/PolarFourierEnergy.lean",
+      "sha256": "ad2422f68f0db209ab3fe70e67d483021037ac022718cae813643287213aa950",
+      "bytes": 9942
+    },
+    {
+      "path": "FalconerPacking/PositiveLimit.lean",
+      "sha256": "f9cb8b7bceea3549a94170b9461e906abe4ef9ad1b8d09fda6b0919fef9557fa",
+      "bytes": 11784
+    },
+    {
+      "path": "FalconerPacking/RadialMomentCenters.lean",
+      "sha256": "1c8661bb3951741321538e28245bd2e085c4d37d3654aebb7fdd3a20bd8480d7",
+      "bytes": 3112
+    },
+    {
+      "path": "FalconerPacking/RadialProjectionKernel.lean",
+      "sha256": "b89b1b2ead62abad45270b0ccc333e72cfab97ce9ae5950ac1c90988176589b8",
+      "bytes": 7324
+    },
+    {
+      "path": "FalconerPacking/Restriction.lean",
+      "sha256": "1d7f77e6fe81c86d8c4c4d9cbd232c07fd283d8294cde69acc53507b28a35a64",
+      "bytes": 6347
+    },
+    {
+      "path": "FalconerPacking/Statement.lean",
+      "sha256": "04e52247cbe43ca584456f60c16ae2180c975a4a3c74a11e3cf7864ff9082858",
+      "bytes": 5225
+    },
+    {
+      "path": "FalconerPacking/WeakLimit.lean",
+      "sha256": "ba1645e7377e4db301930e2d48dfaad4e3e880ca3525ccc111aaf7be4cad1289",
+      "bytes": 7789
+    },
+    {
+      "path": "FalconerPacking/WeightMeasure.lean",
+      "sha256": "a03efac85421eed6c815bac57f90b8b1fc9e443388374ddb80a2130f624c3507",
+      "bytes": 16532
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f6380fe7726d940ee22ed0bd8eedbb97b7754c56ede117e0d244f1c8fb0dbb9b",
+      "bytes": 475,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "FalconerPacking/DyadicComparisonSums.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b69b9a4f053ca506b311": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/CoolRmal/falconer-packing",
+    "source_commit": "70140ccedfb6de71342299523a21b1550df69ab9"
+  }
+}

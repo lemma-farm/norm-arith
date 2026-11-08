@@ -1,0 +1,259 @@
+{
+  "id": "7115ea4817cf00f2520d",
+  "source": {
+    "repository": "scottnarmstrong/CIVAxisymmetric",
+    "commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681",
+    "project": "scottnarmstrong--CIVAxisymmetric--9f539dc7bf7d",
+    "path": "CIV/Prerequisites/Serrin/EllipticKernelBounds.lean",
+    "file_id": "06dd70df243f61f5c018",
+    "source_sha256": "06dd70df243f61f5c018e9ee84bf20da7276a337b0f459a65a40068f9a606225",
+    "start": 38,
+    "end": 70,
+    "original_start": 38,
+    "original_end": 70,
+    "declaration": "abs_spatialDeriv_newtonianKernel_le_euclidean",
+    "source_url": "https://github.com/scottnarmstrong/CIVAxisymmetric/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Prerequisites/Serrin/EllipticKernelBounds.lean#L38-L70",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CIVAxisymmetric--a71f9ac656b8/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Prerequisites/Serrin/EllipticKernelBounds.lean#L38-L70"
+  },
+  "native_target_name": "_private.CIV.Prerequisites.Serrin.EllipticKernelBounds.0.CIV.abs_spatialDeriv_newtonianKernel_le_euclidean",
+  "source_declaration_label": "abs_spatialDeriv_newtonianKernel_le_euclidean",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "3ff6cc76eaaeacfd0878a533e9b3c73a906c53338a89423d40986b4be4d09171",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e3c9b80016b72d074a9e05fde0b9979d825fa04e0014dac84689af9247d069ee",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CIV/Prerequisites/Serrin/EllipticKernelBounds.lean",
+      "sha256": "461dfe9b38dea9e7c9979b47dec300fb87d466e526a547551f192350b01a5ad4",
+      "bytes": 13802
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Ambient/Euclidean.lean",
+      "sha256": "3ab79b82da216465b27b9719c6c6991454f7ee1a8a2ef1007c7ff0c93bfd61d6",
+      "bytes": 2857
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Harmonic/Interior.lean",
+      "sha256": "d5475de952a2c5bf1763c5b8783b1f7c048be06e323d8047435ba0525f0ca1c8",
+      "bytes": 24958
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Harmonic/InteriorBasic.lean",
+      "sha256": "8397130b118881e2a8384c3b2a03361e416a91bb67f56c874cc8e3821f376c03",
+      "bytes": 28148
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Harmonic/Newtonian.lean",
+      "sha256": "8dbd76cbe63aa04771239bba2e4c479aec7e12ddcec44bd83a57110405dac399",
+      "bytes": 19772
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Harmonic/NewtonianKernelIntegrability.lean",
+      "sha256": "f20ae0a9fd4f952c88b3f79b365839fbe49d174fed89912bb8b03864daa5a69b",
+      "bytes": 2810
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Harmonic/NewtonianRepresentation.lean",
+      "sha256": "84ecc544804916cd7d65745661e2342da10b4ad035eac9d90c9217948ef3b1ed",
+      "bytes": 22092
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Heat/Basic.lean",
+      "sha256": "d5fc4d83feaf6b4d8d62a85c1dd1b550dadd878cf7b51308a53a59fc8715051b",
+      "bytes": 6468
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Heat/Bounds.lean",
+      "sha256": "7a7df55207ada16d3820e1cb7e844393e493d5760298a77ad7949fd7d6d3285f",
+      "bytes": 20928
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Heat/Convolution.lean",
+      "sha256": "e36ee1ae4c542268f27dfe30097ba64000ae0f3d1f31c5af62298319eec6fc20",
+      "bytes": 20863
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Heat/Smooth.lean",
+      "sha256": "430ef9a58acccca0b7461d380c7424ecc89da4ce6b0d1f4c20eb2510e64f9af2",
+      "bytes": 10525
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Heat/SpaceSecondDeriv.lean",
+      "sha256": "c2e6dcd50348a307c3a8c6b796a0a3501f3da445977b8cad153d10fc47a8a7fd",
+      "bytes": 3174
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/BallBasics.lean",
+      "sha256": "42c646d1d2fb5373fa31cbedb63c06611729b7c54a4ffcd97736b396e67725fc",
+      "bytes": 1641
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "180a462d5507cb073b61173143e3020f1eb4fad1425a1b5916ef035d1dd8b2e5",
+      "bytes": 14112
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Doubling.lean",
+      "sha256": "ade8a69d599ed596c4400c3987b2d6452861a8e1de9a0ba975308f78e1532dcd",
+      "bytes": 10862
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Integration/Average.lean",
+      "sha256": "d8e789fde8a4c6824d44a599bd1165e5f503c4254892dc509dbaba4138248bde",
+      "bytes": 8357
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Integration/Scaling.lean",
+      "sha256": "2b69df2f198164b70f47697763e90a193e6d28ded9e7b3911cc080ec573c76a1",
+      "bytes": 32527
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Integration/SingletonNull.lean",
+      "sha256": "a4fa81f5c626701a456908e29a2b1908c6bb42c284281e739dbc01c0fdae79fc",
+      "bytes": 772
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Integration/Slice.lean",
+      "sha256": "c5ad0be38511ddf4b324637fb07dfc293adf9ae63464c6c382f306b67d5b2169",
+      "bytes": 14730
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Morrey/Basic.lean",
+      "sha256": "440f35619ba5f7240c6387db12454eac640b814ee05dd47bd8449bca84832729",
+      "bytes": 33612
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Morrey/Kernel.lean",
+      "sha256": "b259d6fc54240d7cc63d2e67e5a1ebc39fb08db6c652af89fc4c50f18c02ec79",
+      "bytes": 24312
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "76c3fb6afa2011fff41caeaac2a88e92770bc4d7ee74d720ee95d0d5e4f5e725",
+      "bytes": 9681
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Vec3Norm.lean",
+      "sha256": "281bbbeee44aa71de03487ad84e63358eb506630c5996846a87f3a490225becd",
+      "bytes": 4626
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "17ab9a95a19f2e302ada3dcb5f47b3a912157be756274830242d1e9c5c5763d9",
+      "bytes": 548
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "be01bd1709b06212377cd33aae1f04749033b75cc49478ff3e1be0fe9a34511f",
+      "bytes": 1044
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/CoordDeriv.lean",
+      "sha256": "3b5002b20c011cee58abd0d77e28b9de51a033b9575ced69070fd3f04c837d03",
+      "bytes": 1855
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Cutoff/Ball.lean",
+      "sha256": "613ee154d0fe5c440c5591638de7206c75b69744245c731f1fe6613d7b7bbefb",
+      "bytes": 19549
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Cutoff/Basic.lean",
+      "sha256": "6ccad60d22b1ca9e16f611c928fb79e287d6c09e662b4f0de2fb66bc9d4da849",
+      "bytes": 8894
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Cutoff/Profile.lean",
+      "sha256": "1e1232570f59cd0583a077720b5cd59e36cfd962323f9d575839d63d8e9beeb4",
+      "bytes": 7568
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Measure/RestrictedVolume.lean",
+      "sha256": "b6ccf95527f03ace90114d962547e86c0bf4f6747f58aef9167f0aaeb35a2a59",
+      "bytes": 875
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Mollify/Basic.lean",
+      "sha256": "5d8283ff1d3bf7a9401ae7b24b1b5a1303b33f5b709cb8e30b5843e8516fd0a6",
+      "bytes": 3909
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/TestFunction.lean",
+      "sha256": "88975bc26009e2989893fcef582c36d75d125f6e67e31a07368bca29ef6cda82",
+      "bytes": 1223
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/WeakDerivative.lean",
+      "sha256": "8260034e962c993dc71ec0d03ad2853038f4c3205df1d18ba83381fb74f3d18a",
+      "bytes": 10416
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Pressure/Cutoff.lean",
+      "sha256": "938f0ca54eacfbe1427715d5586e51edf7492a4c1f525080b7951862a1b4ed92",
+      "bytes": 29953
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Pressure/LeibnizLaplacian.lean",
+      "sha256": "2c08751f5453df26d76b2670356b478ba289d0905ba466a5123d84d349b39fb1",
+      "bytes": 7681
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "a9dd13a9cd26f24411c6bb4b6d99c6ea4c31fa434fa035f96e7c4fdf8b9c4637",
+      "bytes": 413
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "d75e6e98cdec1cede0c9ddbfed1699186ff68f1cd6b40b5992ee2afeb1b35b27",
+      "bytes": 617,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "b8b9f2cbe919c8d3682a64ae7500aff7b7143dc662355bc0b3eb8ea30645a073",
+      "bytes": 2734,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CKN-b5e25360/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lakefile.toml",
+      "sha256": "59219e473ca7190dd36195ea1573b748c509c3d6587c675aa2be72a025b8a0ab",
+      "bytes": 586,
+      "snapshot": "__deps/CKN-b5e25360/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CKN-b5e25360/lake-manifest.json.source"
+    }
+  ],
+  "build_target": "CIV/Prerequisites/Serrin/EllipticKernelBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7115ea4817cf00f2520d": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CIVAxisymmetric",
+    "source_commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681"
+  }
+}

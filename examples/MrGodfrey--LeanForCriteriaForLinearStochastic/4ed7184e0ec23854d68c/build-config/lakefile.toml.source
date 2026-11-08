@@ -1,0 +1,28 @@
+"name" = "LinearStochastic"
+"version" = "0.1.0"
+"defaultTargets" = ["LinearStochastic", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "LinearStochastic"
+
+[["lean_lib"]]
+"name" = "PalomarDefinitions"
+"roots" = ["PalomarDefinitions"]
+
+[["lean_lib"]]
+"name" = "PalomarBridge"
+"roots" = ["PalomarBridge"]
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]

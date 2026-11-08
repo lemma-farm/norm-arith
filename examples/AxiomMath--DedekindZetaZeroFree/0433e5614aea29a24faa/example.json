@@ -1,0 +1,117 @@
+{
+  "id": "0433e5614aea29a24faa",
+  "source": {
+    "repository": "AxiomMath/DedekindZetaZeroFree",
+    "commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d",
+    "project": "AxiomMath--DedekindZetaZeroFree--09afbb4ce657",
+    "path": "DedekindZetaZeroFree/RepresentationTheory/Kirillov/NonarchimedeanWhittakerBounds.lean",
+    "file_id": "083c9c368c2cc3e9d1b6",
+    "source_sha256": "083c9c368c2cc3e9d1b688f2498f97971d5dffffa8f99f1988bc4ef7f7928622",
+    "start": 153,
+    "end": 178,
+    "original_start": 147,
+    "original_end": 178,
+    "declaration": "distinct_root_recurrence_uniform_bound",
+    "source_url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/RepresentationTheory/Kirillov/NonarchimedeanWhittakerBounds.lean#L153-L178",
+    "archive_url": "https://github.com/PalomarArchive/AxiomMath--DedekindZetaZeroFree--42e46c822b86/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/RepresentationTheory/Kirillov/NonarchimedeanWhittakerBounds.lean#L153-L178"
+  },
+  "native_target_name": "DedekindZetaZeroFree.KPFiniteLocal.distinct_root_recurrence_uniform_bound",
+  "source_declaration_label": "distinct_root_recurrence_uniform_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "69165488b29a41109413c409b10a7f68dae395b00c90c982611c6b30c413b377",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4784b3ea5d4baa824e80fa825a97ea6405a62fe21418eb1a4bc6e5f1118b0665",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DedekindZetaZeroFree/RepresentationTheory/Kirillov/NonarchimedeanWhittakerBounds.lean",
+      "sha256": "532996efb6b353e2d965343a3a3366a1c1070b8de21d999f4fbad7f37f52eb03",
+      "bytes": 21166
+    },
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/Lean4/ClassFieldTheory/AlgebraicNumberTheory/Idele/Basic.lean",
+      "sha256": "90d8f5cd636ee211d32701216f71059d18428da78d8800c13c5b0779e0d3b6b2",
+      "bytes": 5536
+    },
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/Lean4/ClassFieldTheory/AlgebraicNumberTheory/Idele/LocallyCompact.lean",
+      "sha256": "ce772bb24402b77a9ad448a12b2c5f4268491e83bf48a12cba9df0a2292d2a7a",
+      "bytes": 10297
+    },
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/Lean4/ClassFieldTheory/AlgebraicNumberTheory/Idele/Topology.lean",
+      "sha256": "7baf4e18b21b11e3a5173447916fba4f4c78020ba918d6d612ecb30e58e79dbc",
+      "bytes": 2863
+    }
+  ],
+  "build_files": [
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lakefile.toml",
+      "sha256": "8bedc91c8c96a958deda9449505164f4a4a568f75649a7cebe4d0215b5622055",
+      "bytes": 898,
+      "snapshot": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/FiniteAbelianGlobalReciprocityv2-ccc0f578/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/TauCeti-7b6a96a1/lake-manifest.json",
+      "sha256": "c10ef7ed60da65367db4eff1c4958be450014728dbbfccf47879c8303eda7c19",
+      "bytes": 3124,
+      "snapshot": "__deps/TauCeti-7b6a96a1/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/TauCeti-7b6a96a1/lakefile.toml",
+      "sha256": "f01e18d9105d7b1556018b91d8eca427aabaa082c592ed043df26bd00212f1df",
+      "bytes": 3167,
+      "snapshot": "__deps/TauCeti-7b6a96a1/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/TauCeti-7b6a96a1/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/TauCeti-7b6a96a1/lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "6f3209e4ef99a9423466ff1209da89470ad93fcb884e7f51a8a6c86edf5d7a36",
+      "bytes": 2792,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "17858876e0c077d4e7a5006e1b0d7d9e78a92bc6b53f6bcbb62797bfc134032c",
+      "bytes": 796,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DedekindZetaZeroFree/RepresentationTheory/Kirillov/NonarchimedeanWhittakerBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/bd1d8d59d3acc2ef37b3": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AxiomMath/DedekindZetaZeroFree",
+    "source_commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d"
+  }
+}

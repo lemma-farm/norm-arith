@@ -1,0 +1,78 @@
+{
+  "id": "c86041664244308eba2c",
+  "source": {
+    "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+    "commit": "58a9ffe548ea64319ac8cba098634340ee6270cb",
+    "project": "scottnarmstrong--CaffarelliKohnNirenberg--58a9ffe548ea",
+    "path": "CKN/Core/Endgame/OneSidedGeometry.lean",
+    "file_id": "003903b73d1ea93f5851",
+    "source_sha256": "003903b73d1ea93f5851bff3e0b56275afc4a8460d6f311ba94fcf5ebaccb2ad",
+    "start": 68,
+    "end": 74,
+    "original_start": 68,
+    "original_end": 74,
+    "declaration": "parabolicCylinder_inter_le_subset_truncated",
+    "source_url": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/Endgame/OneSidedGeometry.lean#L68-L74",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CaffarelliKohnNirenberg--b8e78fb1bbb0/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/Endgame/OneSidedGeometry.lean#L68-L74"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "parabolicCylinder_inter_le_subset_truncated",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "45164b47518a85b8e56159ca4d209b5299a2fb7929e64aedb9af60a75ca53abc",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "6f45aabd6dcefd206a26486610be21988a4e5860676470a795b74c45c9d0ee65",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CKN/Core/Endgame/OneSidedGeometry.lean",
+      "sha256": "02c7acc588cf6101562b42893dfc70dbd2da5b24daf049fc78c0809aaf8a07a4",
+      "bytes": 4743
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "b47e85662a71658c09f1f15a9d882fd12a3a5261bfd992c4ce87d976028ae62c",
+      "bytes": 14036
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "b73b04b54b95e528a4856526d8341131d771b6f3d0c443b27c0bf702ffb3b759",
+      "bytes": 9441
+    },
+    {
+      "path": "CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "d82b12e8ca3c9c3df3f9a268acf5adf1b01f875ba444e3b14aa4415a86f4b882",
+      "bytes": 364
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5fc7eefe174a521d64337c17bdae8552d863eac8d31edbe50028f895ac3f4a7b",
+      "bytes": 922,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "f1686636e490cb54e7091701515e72fb12b49b93cba254da329fd6add0c7c14e",
+      "bytes": 3549,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CKN/Core/Endgame/OneSidedGeometry.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg",
+    "source_commit": "58a9ffe548ea64319ac8cba098634340ee6270cb"
+  }
+}

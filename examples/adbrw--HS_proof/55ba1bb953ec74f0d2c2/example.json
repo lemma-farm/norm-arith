@@ -1,0 +1,106 @@
+{
+  "id": "55ba1bb953ec74f0d2c2",
+  "source": {
+    "repository": "adbrw/HS_proof",
+    "commit": "b75523f0036bc857f31620ee18af970151036311",
+    "project": "adbrw--HS_proof--b75523f0036b",
+    "path": "HSFormal/FixedData.lean",
+    "file_id": "0a53a8aebb7fd7cb2033",
+    "source_sha256": "0a53a8aebb7fd7cb20339ce015bb6caa9e0e42569cfb4b063145b57564b71d7a",
+    "start": 168,
+    "end": 173,
+    "original_start": 168,
+    "original_end": 173,
+    "declaration": "FixedData.chartHomotopyFun_eq_infty",
+    "source_url": "https://github.com/adbrw/HS_proof/blob/b75523f0036bc857f31620ee18af970151036311/HSFormal/FixedData.lean#L168-L173",
+    "archive_url": "https://github.com/PalomarArchive/adbrw--HS_proof--a8b959d4efc0/blob/b75523f0036bc857f31620ee18af970151036311/HSFormal/FixedData.lean#L168-L173"
+  },
+  "native_target_name": "HSFormal.FixedData.chartHomotopyFun_eq_infty",
+  "source_declaration_label": "FixedData.chartHomotopyFun_eq_infty",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "e91369c648cf54830c2453128c78d56f2f8ced7ecd46e61b79d73578e18b5c2d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "95592166e94784d6b53be6b216d38f2d22255aa8363625e6a90334c54fe5896f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HSFormal/CharacterDetector.lean",
+      "sha256": "13306d9dcc015dd5658b91a10d2cb6f3f1742fade7640a6c5a4342ea087aa274",
+      "bytes": 10239
+    },
+    {
+      "path": "HSFormal/ChartData.lean",
+      "sha256": "ad6f16596e4cd1144f3a7c8868ede567927386b50c1a4667bf9e28fbe21e54e6",
+      "bytes": 25426
+    },
+    {
+      "path": "HSFormal/FixedData.lean",
+      "sha256": "c5ea862367548fd057c8ddf6882acaaa7d359c096ab57bbba5bd122c5f1bca37",
+      "bytes": 18920
+    },
+    {
+      "path": "HSFormal/FreePoint.lean",
+      "sha256": "9aad3e756e706b5fee0bb5a6b6d5349b61d734ac31ac5044adab549cda69cdb3",
+      "bytes": 3820
+    },
+    {
+      "path": "HSFormal/PadicDisplacement.lean",
+      "sha256": "351af2f9cb078bd3eef12297453a4db6813c8ccd75283440e34d0c0d03b49d6c",
+      "bytes": 3520
+    },
+    {
+      "path": "HSFormal/PadicStabilizers.lean",
+      "sha256": "afab0b008d9d1109cd4833b96fec0ff80efa317a068255e469418b5a2073a236",
+      "bytes": 2723
+    },
+    {
+      "path": "HSFormal/PadicSubgroups.lean",
+      "sha256": "afacef87e2cced0cb01bdddd275b58891b0ab2e04d19a8cf3dfcce55c6324206",
+      "bytes": 6711
+    },
+    {
+      "path": "HSFormal/SpherePinch.lean",
+      "sha256": "67eb7e1ea3e0c0bf636f34acd67987e1fe6c3b84b6007f424d22f13b032c18c4",
+      "bytes": 15774
+    },
+    {
+      "path": "HSFormal/TopologicalReduction.lean",
+      "sha256": "3d9ed8d13a0059ac5f93256745fc423f43373cec598ac714030ccf119514e337",
+      "bytes": 4432
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "3a4578d7ccd32f9c964cb24d081d6e7d2eb21d459ec5462b9530772643d0acbc",
+      "bytes": 468,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HSFormal/FixedData.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/55ba1bb953ec74f0d2c2": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/adbrw/HS_proof",
+    "source_commit": "b75523f0036bc857f31620ee18af970151036311"
+  }
+}

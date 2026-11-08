@@ -1,0 +1,22 @@
+"defaultTargets" = ["DiscriminativeKalmanFilter", "Challenge", "Solution"]
+"name" = "DiscriminativeKalmanFilter"
+"version" = "0.1.0"
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "DiscriminativeKalmanFilter"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

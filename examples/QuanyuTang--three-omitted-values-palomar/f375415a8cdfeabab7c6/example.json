@@ -1,0 +1,128 @@
+{
+  "id": "f375415a8cdfeabab7c6",
+  "source": {
+    "repository": "QuanyuTang/three-omitted-values-palomar",
+    "commit": "c408da985b3b0498f6f2df702739673865a8b932",
+    "project": "QuanyuTang--three-omitted-values-palomar--c408da985b3b",
+    "path": "Theorem12Proof/RequestProject/RiemannMappingBoundaryOscillation.lean",
+    "file_id": "09f26e44da6e3828c645",
+    "source_sha256": "09f26e44da6e3828c6450a8e30484adae7c22a2e65bd64dd7b3b40d6816dcf72",
+    "start": 219,
+    "end": 260,
+    "original_start": 211,
+    "original_end": 260,
+    "declaration": "riemannMapping_exists_small_cap_length",
+    "source_url": "https://github.com/QuanyuTang/three-omitted-values-palomar/blob/c408da985b3b0498f6f2df702739673865a8b932/Theorem12Proof/RequestProject/RiemannMappingBoundaryOscillation.lean#L219-L260",
+    "archive_url": "https://github.com/PalomarArchive/QuanyuTang--three-omitted-values-palomar--40c08e0d1ac5/blob/c408da985b3b0498f6f2df702739673865a8b932/Theorem12Proof/RequestProject/RiemannMappingBoundaryOscillation.lean#L219-L260"
+  },
+  "native_target_name": "PolyaNeumann.riemannMapping_exists_small_cap_length",
+  "source_declaration_label": "riemannMapping_exists_small_cap_length",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "53ad1a3a8ff7a4f57393209382cb3a894f143f5d95ff5516ce1b3bed7d3d0527",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f6cdb32272c98985b5bc0c960486c2bdf07a609a7660db37c2fcc7c01824b824",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Theorem12Proof/RequestProject/GreenWinding.lean",
+      "sha256": "ab7eed3771597f8ea2d32fe431c9f87a8c4cc2e84b0c8bc03fe8a2c0e17938c3",
+      "bytes": 21135
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/InteriorConformalEnergyMinimal.lean",
+      "sha256": "df2b92cacde51cb10549de4e3f850e0270def002ba1d004b8f0a1a2b7ee7bf50",
+      "bytes": 2501
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/RiemannMappingBoundaryOscillation.lean",
+      "sha256": "16382fe271081c3dcdbe6beb88493969339415fe311d4c92f84f044ea2232aa8",
+      "bytes": 28369
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/ArcLength.lean",
+      "sha256": "89a71037ba0b1205735d77fda89f87734e99d1d72dfadf0e408ad85fe187fd1b",
+      "bytes": 22285
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/BasePoint.lean",
+      "sha256": "96003853388ac2d619069d94c9d4285483e94ea4c87a63dbca6e84ed12322e8f",
+      "bytes": 13481
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/CurveContinuity.lean",
+      "sha256": "3810891e832fc7f3fe30efbc437a59d474bee2621464d890708dcb2a759b3937",
+      "bytes": 24078
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Defs.lean",
+      "sha256": "5a826fc1b05ad9fade07cfcc8a74080ca3cbd6ac06cd99caa7d42d2ca81f1075",
+      "bytes": 4707
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Observation.lean",
+      "sha256": "f2dbc87edb28740a7b81af7084530b2015af1b8027ab7588785bb65c6949a28b",
+      "bytes": 12621
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Picard.lean",
+      "sha256": "8e168fc2dd3e76cf049487a822fc9da2810439b9577c745ec8f8748dd92687b1",
+      "bytes": 9692
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Reparam.lean",
+      "sha256": "b8f40976668e3e0f9ecb8d9ff27d4ff12bcb031c20e3c584af7546e4d4751785",
+      "bytes": 12275
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/RiemannMappingInterior.lean",
+      "sha256": "138ef5531e8015e74160c15a8ddb5063027ead6543037db89ed642f924fb69b7",
+      "bytes": 43141
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Shift.lean",
+      "sha256": "bce72a2fa43417fc8d0fb641d3ec750aef56b7aacec1b7e453b587ed172ee3cd",
+      "bytes": 12246
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Transport.lean",
+      "sha256": "bad9b0152cde2b327dba5ae2f40b150ac02b7438c8161fd2083531fbd08b1a19",
+      "bytes": 4453
+    },
+    {
+      "path": "Theorem12Proof/RequestProject/Unitarity.lean",
+      "sha256": "5b28b7a6ee76192bc010eeac0b64de312422acaca6d248d65e9ebaee72962e07",
+      "bytes": 16198
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "b60d55a0c2d1a2ec17d53eaf79e45946e2b2180b8bf55b9593e46db21aed5524",
+      "bytes": 448,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Theorem12Proof/RequestProject/RiemannMappingBoundaryOscillation.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/QuanyuTang/three-omitted-values-palomar",
+    "source_commit": "c408da985b3b0498f6f2df702739673865a8b932"
+  }
+}

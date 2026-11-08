@@ -1,0 +1,209 @@
+{
+  "id": "0a1de4d3fef1948eef30",
+  "source": {
+    "repository": "CoolRmal/FluidSingularSets",
+    "commit": "dd3ae61ce421a634818f52a6e11a8b78dd1bfc97",
+    "project": "CoolRmal--FluidSingularSets--dd3ae61ce421",
+    "path": "FluidSingularSets/StokesNonlinearPressure.lean",
+    "file_id": "0c5279dfa97e992fd819",
+    "source_sha256": "0c5279dfa97e992fd8195f43357a20fbcf70a1985da6af962f9fec6faeefb3de",
+    "start": 175,
+    "end": 189,
+    "original_start": 162,
+    "original_end": 205,
+    "declaration": "stokesRawGradientMatrix_norm_le",
+    "source_url": "https://github.com/CoolRmal/FluidSingularSets/blob/dd3ae61ce421a634818f52a6e11a8b78dd1bfc97/FluidSingularSets/StokesNonlinearPressure.lean#L175-L189",
+    "archive_url": "https://github.com/PalomarArchive/CoolRmal--FluidSingularSets--a936c36bd90d/blob/dd3ae61ce421a634818f52a6e11a8b78dd1bfc97/FluidSingularSets/StokesNonlinearPressure.lean#L175-L189"
+  },
+  "native_target_name": "FluidSingularSets.stokesRawGradientMatrix_norm_le",
+  "source_declaration_label": "stokesRawGradientMatrix_norm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "f30db97042d1a40b0d2f6fae07475b3af3e1d146795a4f19e4ca138b0835f444",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "17c7bcfbb25eb0801e22cdde729a036768a8df8ede563303a8a7b66b091985b7",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FluidSingularSets/BallBoundaryApproximation.lean",
+      "sha256": "1fa461777bb942edae695107c55c12c636c4aba1800a7564ddb76c4f0fa240d3",
+      "bytes": 17962
+    },
+    {
+      "path": "FluidSingularSets/BallDivergenceInverse.lean",
+      "sha256": "a203edff827a5c951354e833aab8149b481318b4b71c7b07ddae8ac69847f200",
+      "bytes": 3774
+    },
+    {
+      "path": "FluidSingularSets/BallPolynomialInverse.lean",
+      "sha256": "25ebac3b73e2a9a786d37d7cf24df226168c0507a5b487a24da03eaf741756de",
+      "bytes": 3813
+    },
+    {
+      "path": "FluidSingularSets/DenseHilbertLifts.lean",
+      "sha256": "9aa1cfd6b4dc8aed45306f5bb0d6679d4f762fb0de9586fd590bbfaa6b1baa66",
+      "bytes": 4964
+    },
+    {
+      "path": "FluidSingularSets/FischerPolynomial.lean",
+      "sha256": "78846a390943cb3b32f1077b11a351849fabcd933a77a5bd0a86a54bacf29270",
+      "bytes": 12725
+    },
+    {
+      "path": "FluidSingularSets/HilbertBallBoundary.lean",
+      "sha256": "9e21f04138a6b8dd3e8a06e43ce464de7fbb225d8e387a9542e0df7a368dc40f",
+      "bytes": 11257
+    },
+    {
+      "path": "FluidSingularSets/LocalStokesEnergy.lean",
+      "sha256": "9de1eed5220e588a1ba7e5e427a923a6eb0d492f59716b5869a452a8f503ce55",
+      "bytes": 12926
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallDensity.lean",
+      "sha256": "8715dfb6a4256d537819cd3942cd41ea14d51f9e80d8a7a4530a081396ca4508",
+      "bytes": 7793
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallDivergence.lean",
+      "sha256": "e202180a0f4bc207fa03788570c17f5ed5324bfd0af0e38ec68915ab03b59138",
+      "bytes": 6808
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallEnergy.lean",
+      "sha256": "f1ebed4859d03b212cbdbc6c53b75850a053f8d5c55655ce5cb220658e0aa08e",
+      "bytes": 6430
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallMeanDensity.lean",
+      "sha256": "fa005c27f26eabc77fc44836550c79abee5bfd6ce09d8d67c12a7abc15585572",
+      "bytes": 8078
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallMeanInverse.lean",
+      "sha256": "bca867878c7b150cb53bf37857983b8f54d6744e1cc448ac1cd9f793f8927566",
+      "bytes": 5184
+    },
+    {
+      "path": "FluidSingularSets/PolynomialBallRellich.lean",
+      "sha256": "98bb5ef472b0cde5dc9108322fbd4b1e3abe8d4598bd3dab485b5a6f79fcd5a9",
+      "bytes": 12389
+    },
+    {
+      "path": "FluidSingularSets/StokesNonlinearPressure.lean",
+      "sha256": "0c5279dfa97e992fd8195f43357a20fbcf70a1985da6af962f9fec6faeefb3de",
+      "bytes": 18646
+    },
+    {
+      "path": "FluidSingularSets/StokesPressureRecovery.lean",
+      "sha256": "99987a3151ed6e5195f877f7e6fcecae898dc63a098938d2891dfbd5cba51ef8",
+      "bytes": 5321
+    },
+    {
+      "path": "FluidSingularSets/UnitBallStokesPressure.lean",
+      "sha256": "94452946cc30747873eed45330a837770ff13099275aca691b02b9c09a86ab7e",
+      "bytes": 5019
+    },
+    {
+      "path": "FluidSingularSets/WeightedBallDivergence.lean",
+      "sha256": "fdbd67240abc34120e7b3234b90ec05ffd0846a0fd931c41f6c1c36612a5f892",
+      "bytes": 9570
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Euclidean/SmoothIBP.lean",
+      "sha256": "6dd3b0535aa4f635c08d6bb398036c35a70d9b6368d05ef724ab3f31df3a470c",
+      "bytes": 2203
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "180a462d5507cb073b61173143e3020f1eb4fad1425a1b5916ef035d1dd8b2e5",
+      "bytes": 14112
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Integration/Average.lean",
+      "sha256": "d8e789fde8a4c6824d44a599bd1165e5f503c4254892dc509dbaba4138248bde",
+      "bytes": 8357
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Vec3Norm.lean",
+      "sha256": "281bbbeee44aa71de03487ad84e63358eb506630c5996846a87f3a490225becd",
+      "bytes": 4626
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "17ab9a95a19f2e302ada3dcb5f47b3a912157be756274830242d1e9c5c5763d9",
+      "bytes": 548
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "be01bd1709b06212377cd33aae1f04749033b75cc49478ff3e1be0fe9a34511f",
+      "bytes": 1044
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Measure/RestrictedVolume.lean",
+      "sha256": "b6ccf95527f03ace90114d962547e86c0bf4f6747f58aef9167f0aaeb35a2a59",
+      "bytes": 875
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/TestFunction.lean",
+      "sha256": "88975bc26009e2989893fcef582c36d75d125f6e67e31a07368bca29ef6cda82",
+      "bytes": 1223
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Pressure/LeibnizLaplacian.lean",
+      "sha256": "2c08751f5453df26d76b2670356b478ba289d0905ba466a5123d84d349b39fb1",
+      "bytes": 7681
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "283f25f9a2ddf8264e26fb3ac5fb22a6c42b4ae74122d5e2b77949ace9c372e0",
+      "bytes": 721,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "cda17284ecc67da6e4e7f9fef1078321971ea37a412d3eb5d94729c5432b5554",
+      "bytes": 2734,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CKN-b5e25360/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lakefile.toml",
+      "sha256": "59219e473ca7190dd36195ea1573b748c509c3d6587c675aa2be72a025b8a0ab",
+      "bytes": 586,
+      "snapshot": "__deps/CKN-b5e25360/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CKN-b5e25360/lake-manifest.json.source"
+    }
+  ],
+  "build_target": "FluidSingularSets/StokesNonlinearPressure.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/0a1de4d3fef1948eef30": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/CoolRmal/FluidSingularSets",
+    "source_commit": "dd3ae61ce421a634818f52a6e11a8b78dd1bfc97"
+  }
+}

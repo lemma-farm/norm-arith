@@ -1,0 +1,71 @@
+{
+  "id": "f44930f6811d8b56f040",
+  "source": {
+    "repository": "linrock/math-proofs",
+    "commit": "38ad7ea8de1efe526f665c2b5204465e5ed879fe",
+    "project": "linrock--math-proofs--38ad7ea8de1e",
+    "path": "erdos-1139/Proofs/GoldbachSW2.lean",
+    "file_id": "07ba203dde8c1769eea9",
+    "source_sha256": "07ba203dde8c1769eea991b9966f97ef33e85bf3acbbbbebcb808846b0b3e400",
+    "start": 3481,
+    "end": 3490,
+    "original_start": 3443,
+    "original_end": 3596,
+    "declaration": "zeta_truncation",
+    "source_url": "https://github.com/linrock/math-proofs/blob/38ad7ea8de1efe526f665c2b5204465e5ed879fe/erdos-1139/Proofs/GoldbachSW2.lean#L3481-L3490",
+    "archive_url": "https://github.com/PalomarArchive/linrock--math-proofs--14cf37780a40/blob/38ad7ea8de1efe526f665c2b5204465e5ed879fe/erdos-1139/Proofs/GoldbachSW2.lean#L3481-L3490"
+  },
+  "native_target_name": "zeta_truncation",
+  "source_declaration_label": "zeta_truncation",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "28a95c487d49e1b517959e08be70b1f525113fa9bf83b86f4a20df21fde5a635",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f77d970b3742a63c695c8b1e866b044e692154ecc2fceacbb73ba4726f0f07fc",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Proofs/GoldbachSW1.lean",
+      "sha256": "02d84503c961f08b021563607361ce44652602f6dbae08a20b02ce59fff856aa",
+      "bytes": 209000
+    },
+    {
+      "path": "Proofs/GoldbachSW2.lean",
+      "sha256": "8aa3f07616e14ec3c1b7718fc38f8ca6bf264c3cc09b25f5e0fc4999a78ff23a",
+      "bytes": 363347
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "3649b2eb14bf033592c481b57125ac34e5c755051f1713ed80abf0a949338fb9",
+      "bytes": 10662,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Proofs/GoldbachSW2.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/f44930f6811d8b56f040": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/linrock/math-proofs",
+    "source_commit": "38ad7ea8de1efe526f665c2b5204465e5ed879fe"
+  }
+}

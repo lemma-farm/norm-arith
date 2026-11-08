@@ -1,0 +1,121 @@
+{
+  "id": "5f93abba7a8bfbdfc3ae",
+  "source": {
+    "repository": "alejandro-soto-franco/EllipticPDE",
+    "commit": "ec784093f30308ef770ff855ce624725adf6f870",
+    "project": "alejandro-soto-franco--EllipticPDE--ec784093f303",
+    "path": "lean/EllipticPdes/Embedding/SobolevSharp.lean",
+    "file_id": "08945b8ebe0c7b1caf01",
+    "source_sha256": "08945b8ebe0c7b1caf01053d6bb08a4c16ca65258e8c58d1eedb45c9189d9ae9",
+    "start": 377,
+    "end": 383,
+    "original_start": 377,
+    "original_end": 401,
+    "declaration": "not_isCompactOperator_critEmb / hzero, hsucc",
+    "source_url": "https://github.com/alejandro-soto-franco/EllipticPDE/blob/ec784093f30308ef770ff855ce624725adf6f870/lean/EllipticPdes/Embedding/SobolevSharp.lean#L377-L383",
+    "archive_url": "https://github.com/PalomarArchive/alejandro-soto-franco--EllipticPDE--bea407da0588/blob/ec784093f30308ef770ff855ce624725adf6f870/lean/EllipticPdes/Embedding/SobolevSharp.lean#L377-L383"
+  },
+  "native_target_name": "EllipticPdes.Embedding.not_isCompactOperator_critEmb",
+  "source_declaration_label": "not_isCompactOperator_critEmb / hzero, hsucc",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "165790e710e3cf0d3a8330095363ba7b49f7e1825d6d52534942fd03e13a3b44",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "45714b6da70139b2e409bfd3408647e87579e24fc429984a90b49611d8a7ab03",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "EllipticPdes/Analysis/Dilation.lean",
+      "sha256": "cc4c0390f60c50feb1858dcf670b58132b4fdebc59425bfad8887a6778b819ac",
+      "bytes": 4821
+    },
+    {
+      "path": "EllipticPdes/Analysis/Mollifier.lean",
+      "sha256": "20191bd21c24893806f1b3e85a318195ee65fe91707f08f5c296af9416ccfb57",
+      "bytes": 6034
+    },
+    {
+      "path": "EllipticPdes/Analysis/SmoothCutoff.lean",
+      "sha256": "6627517fb3bb70593655d6737b5542df2172e7f9a13427dcedfc449d04ccf258",
+      "bytes": 1720
+    },
+    {
+      "path": "EllipticPdes/Embedding/Convolution.lean",
+      "sha256": "a6c526ad6f3e165e8c4e2bbc8bfb928cc9dc58be37eda63977955c689b64554e",
+      "bytes": 25819
+    },
+    {
+      "path": "EllipticPdes/Embedding/H01Sobolev.lean",
+      "sha256": "7373d2fb2c314f9736368b61957b167465055670d9b11a43cc93f8288020bc3d",
+      "bytes": 17195
+    },
+    {
+      "path": "EllipticPdes/Embedding/Morrey.lean",
+      "sha256": "dca0c1c404e2a394df885e68deeabac6c534d957e1a51b362e39adccec982ff3",
+      "bytes": 53446
+    },
+    {
+      "path": "EllipticPdes/Embedding/RayIntegral.lean",
+      "sha256": "0715c8c08ea265a1e70f5fafa78df1d2833647bc39a8ef7e908ad34f80a6717a",
+      "bytes": 32512
+    },
+    {
+      "path": "EllipticPdes/Embedding/SobolevSharp.lean",
+      "sha256": "08945b8ebe0c7b1caf01053d6bb08a4c16ca65258e8c58d1eedb45c9189d9ae9",
+      "bytes": 22517
+    },
+    {
+      "path": "EllipticPdes/Embedding/WeakGradient.lean",
+      "sha256": "61d90627ca8abdff10a95de79522a0ac3424009b957ec994cdb44d0c0b2ebe19",
+      "bytes": 20045
+    },
+    {
+      "path": "EllipticPdes/Sobolev/Basic.lean",
+      "sha256": "f444255013d5a2c78f507e25cf1465ac57c11077f00b0d04327ecd67c37d30d3",
+      "bytes": 24320
+    },
+    {
+      "path": "EllipticPdes/Sobolev/WeakDeriv.lean",
+      "sha256": "d14dcceaf72366d60d760066cf869b4d6e881c1b093875f5da2737d3e484a409",
+      "bytes": 22490
+    },
+    {
+      "path": "EllipticPdes/Sobolev/WeakDerivClassical.lean",
+      "sha256": "524588f72f5d8dcec27cc90c36f380e840c13790cc3e5127c8ad878c225d7557",
+      "bytes": 13113
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "927359624c6037e6fc03b9ddbf2d664e2a347afc0acee6743eac6e5bd0f1aeb9",
+      "bytes": 692,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "EllipticPdes/Embedding/SobolevSharp.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/5f93abba7a8bfbdfc3ae": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/alejandro-soto-franco/EllipticPDE",
+    "source_commit": "ec784093f30308ef770ff855ce624725adf6f870"
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "id": "986776a65b160e2ea559",
+  "source": {
+    "repository": "cenozoic-works/rhone-theory",
+    "commit": "babec8449a724c270450c7c0e2cd3985ccc2a989",
+    "project": "cenozoic-works--rhone-theory--babec8449a72",
+    "path": "Rhone/Statistics/Identifiability/CommonClockVolterra.lean",
+    "file_id": "08118056aee349e40ec8",
+    "source_sha256": "08118056aee349e40ec856e581b0b73708ffb29892fff4d6f62747921fdc67ae",
+    "start": 81,
+    "end": 94,
+    "original_start": 81,
+    "original_end": 94,
+    "declaration": "commonClock_volterra_unique",
+    "source_url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Rhone/Statistics/Identifiability/CommonClockVolterra.lean#L81-L94",
+    "archive_url": "https://github.com/PalomarArchive/cenozoic-works--rhone-theory--fb903f3fec24/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Rhone/Statistics/Identifiability/CommonClockVolterra.lean#L81-L94"
+  },
+  "native_target_name": "Rhone.Statistics.Identifiability.commonClock_volterra_unique",
+  "source_declaration_label": "commonClock_volterra_unique",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "19932a542f431a0364319d1596ed79506d59e42f84973d3a427655c1cf8ef2f4",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2c3e754587a81e3c139d9aee48aa89d96bc0fdaa53933f421d11b52c1f57ffaa",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Rhone/MarkovChain/Identifiability/EventKernel.lean",
+      "sha256": "dac5d60d466e36290d234333600abc3b9cc006244e2178dc68253e7e4870a7a5",
+      "bytes": 8606
+    },
+    {
+      "path": "Rhone/MarkovChain/Identifiability/Generator.lean",
+      "sha256": "8128115719ce1de7331a031c3b1cfb8b8592aa0233226caae8c046beac59e3b2",
+      "bytes": 4656
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ACComparisonBounds.lean",
+      "sha256": "10f58400ea1662bcca6911729560db66e5b343db592b41aec2e49b9c34b4b4bd",
+      "bytes": 4579
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/AEDensityMarginals.lean",
+      "sha256": "b2585b6800b17e3afe21265b90a261afb5a194d5e67eb51b6bb035ecbe7b99ca",
+      "bytes": 6998
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/AEWitness.lean",
+      "sha256": "d0fd1104bc4ec296f1fab4dc5fe3e080ef4d2db7b4a546a7acf005e412e8d18f",
+      "bytes": 1979
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/AbsolutelyContinuousClock.lean",
+      "sha256": "f46984131a8c1292b1044b051397aa94031f2a30561e02e7725e4aabd2b556e6",
+      "bytes": 3056
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/Absorption.lean",
+      "sha256": "ed3d0b271c28f6e48865a2ea97ff030b3cfa024af04dc9df0a7391f4a5ef9c83",
+      "bytes": 2909
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/Admissibility.lean",
+      "sha256": "8cdafa47a9e04411034ea210a63d0aed64a7b45382c0c11d245d6400582d159b",
+      "bytes": 3383
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/BackwardFlux.lean",
+      "sha256": "c8c9130e08c582f6013f949288160db3879e8f4242fdef6b1cdc4437a0a4a119",
+      "bytes": 6490
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/CTMC.lean",
+      "sha256": "23763b0f418b92a8e0d69c5f7a0044b4746277aa6e2219c0c37b64715ee8f144",
+      "bytes": 4341
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/Cemetery.lean",
+      "sha256": "34014295a545f6a7092386046a0a8a0a129074ff370fcbc06f99476d8911e1a7",
+      "bytes": 4479
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockColumnIntegral.lean",
+      "sha256": "ae139c1991901b9362c8d433935f6687219344b28027f8ff3a298e2f5bbb635d",
+      "bytes": 2116
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockDecay.lean",
+      "sha256": "1fe04ffd2fda067e64b25bf9f5c716b66703d09519c02a2fc7f34a10833342b8",
+      "bytes": 2454
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockLawIdentification.lean",
+      "sha256": "fbea8b927c465f8f337fc0422521604429775673c808ec6e7907259c04a00435",
+      "bytes": 2720
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockLawMarginal.lean",
+      "sha256": "e918ba78b4a6cb560d457190ffd07b4d7b36a7cc239f63cf80f289766f7d3581",
+      "bytes": 4817
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockLawProbability.lean",
+      "sha256": "41b2c9bea93c344f45093a194d318f7317d7b21a04f4596b8a8b002a77f88f14",
+      "bytes": 3769
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ClockReparameterization.lean",
+      "sha256": "ea2e8c45be6183e629edb882625d82f548073efed12028165d2fcacfc906858e",
+      "bytes": 3531
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/CommonClockVolterra.lean",
+      "sha256": "7595aacc94fe27df13b5767e5c637a10da84790ba4e012fe5cd3735aa889f342",
+      "bytes": 15570
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ConditionalClockLaw.lean",
+      "sha256": "75b9f629b926b70d81c4f0959d98b5cbfd396de7206dfe1f4e18c70fa5519979",
+      "bytes": 3078
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/DensityMarginals.lean",
+      "sha256": "7e61dd97ed13ee9ac540e497246c20d51cddde2cac3eaa29b128b72d9308db0e",
+      "bytes": 3577
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/DensityPositive.lean",
+      "sha256": "ba6ad134246a57142aa12445c4aa6079f48a7802f103627335b9402e49af7381",
+      "bytes": 2291
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/DifferentialDecay.lean",
+      "sha256": "db040b4273e8f724e0ebd86de54b89d61a7528747b657598ddca58c186e0bb57",
+      "bytes": 2340
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/EventMarks.lean",
+      "sha256": "c9f566aac6c34c098d3a2df1d1027834ea2b0fc989495b4ad2be104722123649",
+      "bytes": 2874
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/EventSemantics.lean",
+      "sha256": "545b365df845cb72f47604e7cffd42ab08fa510a05e00d60a42bfcb2f138631c",
+      "bytes": 3345
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ExitCDF.lean",
+      "sha256": "8b08738c8257b6005137045a853cdb1732878390572bd1911193324a01b0e1f7",
+      "bytes": 1768
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/FirstExit.lean",
+      "sha256": "a667c00c6a15c1970da01f035ac9d1a0548e040980f2d04fbd2a428e8a6e56cd",
+      "bytes": 2735
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/FirstExitLaw.lean",
+      "sha256": "8049383f0f03ca91df4b9c271d1a87f968d1afa149d2e0b461445daf1074b93a",
+      "bytes": 3388
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ForwardRank.lean",
+      "sha256": "dc4107c6a1939047bae6a9948416ae9fb0989c5662ac89abf95fa1d790fd3028",
+      "bytes": 2780
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/FullPanLaw.lean",
+      "sha256": "060cd1a23b7647ed767ebd19804ab7e29d680a3419f17c430ab42d11f5dff76b",
+      "bytes": 3989
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/GeneratorValid.lean",
+      "sha256": "b326913d1dc4b692766548af205ae1ceeeba3dd293fa305b0c1018193610c434",
+      "bytes": 3716
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/HalfLineIdentification.lean",
+      "sha256": "269165b7f7fb4ea0081a92913bc7b03f855ea32d012bab4710a2f39ec1523a58",
+      "bytes": 1470
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/InhomogeneousMarkovFlow.lean",
+      "sha256": "ca964a4cd900f43b0a7686de8055a122676e6276ad151620140ef83620189dfa",
+      "bytes": 16324
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableClockCalculus.lean",
+      "sha256": "e28a8fac022d37672971f219fd68ef757eacfed9da96669a5e11c56e950446da",
+      "bytes": 6104
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableMarkovBasic.lean",
+      "sha256": "a9e57871eb2de2d31976dbf287dab7ce90ab59622cd20611c08643ab65c17310",
+      "bytes": 5130
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableMarkovCoordinate.lean",
+      "sha256": "9ed5d546f5856ca3ff035fa70925765121373f4ba2a2a8de367862038d46cd5a",
+      "bytes": 3090
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableMarkovExistence.lean",
+      "sha256": "9f894a0626efd5d837475e1c80f71bbe8a4076f91a9a3778c9e60887b0ac8f29",
+      "bytes": 4417
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableMarkovFlow.lean",
+      "sha256": "e15b333ffdccfbb32cfad78e6b7746ea64d7f07e1a30b6468d7538ead8a1f37c",
+      "bytes": 5734
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrableMarkovMass.lean",
+      "sha256": "223d4d29e357f826f58245a4b64b366cb7bfaa3d5d3fcdd28ea0f2a269133168",
+      "bytes": 6241
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrablePanClock.lean",
+      "sha256": "0d1bae9caff95099015eeadab6d62d0f86b05cbde29a755e290f15b422a829a2",
+      "bytes": 9016
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrablePanExistence.lean",
+      "sha256": "d4c78013dddb4fc26164d63a147b3b6d4ec653ebaba5a351cac4e0bd08f03438",
+      "bytes": 3181
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrablePanLaw.lean",
+      "sha256": "07e5e17c7c4590706efe283548ec8b5cae23f0abcad5ea1abee9b7cbf8edcff1",
+      "bytes": 15296
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrablePanModel.lean",
+      "sha256": "8e5925ccfe1be44fa3dd6c3182f80cbedbe948d7b713bb1755a4acca721c02df",
+      "bytes": 6831
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegrablePanRates.lean",
+      "sha256": "76feacd3fdb409a08e0ab62ac2a6c95c0a7824912a338a003d6d6504bbf41e74",
+      "bytes": 3211
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegralRank.lean",
+      "sha256": "963966513724f3d3ac5711b310d17a3f8d8c8d4a5a25c8694497bf3383d188d0",
+      "bytes": 3543
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegratedClock.lean",
+      "sha256": "d31920d806ed9132d9384ae9047599a84b223d2dd318a4ebc30e6830e7ca6577",
+      "bytes": 2372
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntegratedNormPower.lean",
+      "sha256": "563a2bc2df28fc374a322bf8961e2fa020971c1dff4fd964ddb4d612b13158f4",
+      "bytes": 3083
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IntervalRank.lean",
+      "sha256": "982f504645471c8f45e11e58837aabd5040fd37c17561b683a6cde20fe5a646d",
+      "bytes": 2772
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/IslandAbsorption.lean",
+      "sha256": "42c5288bceaca5a618091b93e7f44691d6165eb5a459946d831c13077ec4e11e",
+      "bytes": 2983
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/JoinDerivative.lean",
+      "sha256": "841abf52fdc99a439f0f386aa806fc487bb6167906e6cd602356962a23d6ec35",
+      "bytes": 2691
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/JointDensity.lean",
+      "sha256": "339947a905bdd29cf451c5956dfed1bf1a994ecffc267bca604137b12b5b4af1",
+      "bytes": 5107
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/JointLaw.lean",
+      "sha256": "2b0ac641a0a0a971e01ad1039e8d6df233608b438b1615f051d0a4cd6c6dde6b",
+      "bytes": 2899
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/JointRestriction.lean",
+      "sha256": "cc056fe5e4397727441719c582ee0527758b572c863ac630bcc76afc1fca210f",
+      "bytes": 3923
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/LawSeparation.lean",
+      "sha256": "1eb628bf6fc159e0696b2123cdc2c1f17fe00ddc8e937d6cd685cf84462e8065",
+      "bytes": 2943
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/LocallyIntegrableLinearODE.lean",
+      "sha256": "7e369908ee4aa40ef99b50e24281e9f10048d2ca0b76b9c5fbeb9a5b8cf04a98",
+      "bytes": 2968
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/LocallyIntegrablePeanoBaker.lean",
+      "sha256": "70ac295a8b1ba716350cc7f0b3c970af3b4e9a1fb8a2e76400607112fd9fef99",
+      "bytes": 5795
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/MarginalClockODE.lean",
+      "sha256": "9ce58a1d2ac910f99e41e08080f9c62782bebb842ee24865bd9384f3a2f3f38f",
+      "bytes": 3269
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/MarkedLaw.lean",
+      "sha256": "40e93fc0968513f87ac9664fec7069d03dc53063047470e93b2d7832dc0050a4",
+      "bytes": 3106
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/MatrixFlow.lean",
+      "sha256": "e9790b009ec695dd8a69333f301bbf53fd08024cee9e4e451340cbd50201a9bc",
+      "bytes": 2409
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ObservableProbe.lean",
+      "sha256": "db0035e29c3316198eb5101532cd1147133856162c8ad140211ad052fb1bf6ca",
+      "bytes": 2722
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PairAbsorption.lean",
+      "sha256": "123e71f28893836d990adc0fa67ce4b374b9bbf0f17de461111ece492acd09b6",
+      "bytes": 2322
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PairClockIdentification.lean",
+      "sha256": "bfb008d2d455806fa8f6e3a9a18e809ce1966eabd79bd7b1387f8ed424ef7702",
+      "bytes": 2687
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PairProjection.lean",
+      "sha256": "37719b9301ff4a089ff302edce0226b63b4687ba9b2ffd8d92fe6a47cc9891fa",
+      "bytes": 2476
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanDiagonalSufficiency.lean",
+      "sha256": "95467de7e73b9a1b6c46b36c4464872b95c6edac8d16dc5fa8dc9a2505ea712c",
+      "bytes": 4638
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanFiveData.lean",
+      "sha256": "1f798dfb023966c56262e5eefa3c23ac2405bb1ca740044f32a9b577cb794b9b",
+      "bytes": 2492
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanFiveSpectrum.lean",
+      "sha256": "5d2d3ddb778d566f0e45c6001a6ff869fabf815634103ba747106825f6f0a0e9",
+      "bytes": 4190
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanForwardSeparation.lean",
+      "sha256": "1893e590fb61b2e552d993db24966e03006b5cb5a94c541670e987f2dd5b9845",
+      "bytes": 3217
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanMassPositivity.lean",
+      "sha256": "da31878b8b1333e64e93ee2ed576911f0ab36198916b962b63e451155b7ed4a9",
+      "bytes": 5893
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanMembership.lean",
+      "sha256": "e18999d96709c946c8874806df04738f19a5a1df77b5414edc0c3fda0a094f07",
+      "bytes": 5404
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanODEPositivity.lean",
+      "sha256": "18b12dc7dcba65dbbd26d5949f809297b6f89f9663ddaee6c5071dcfcb748268",
+      "bytes": 6801
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanPostPair.lean",
+      "sha256": "9591b53cc2f2e3cb7b51ee29df543286bc062d51458372a9f6b52a5b1c8df115",
+      "bytes": 3975
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanPreGenerator.lean",
+      "sha256": "43bc38e6a4689230ffdd47449de2f550b9595cda62a45b535f93dcc9f57ce2e2",
+      "bytes": 2483
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanRecombinationUniqueness.lean",
+      "sha256": "fe7ddaee91379615dfe3cebcb42403966352e19df16965deeddda643f07ebf09",
+      "bytes": 5620
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanReconstructionODE.lean",
+      "sha256": "a37abfc7d9f0549ea795018fd81a3cb50e89bb238f8cdfd2523c4dc76cdaad8c",
+      "bytes": 4288
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanRiccati.lean",
+      "sha256": "e8f450e442225080223463a8c83b386953ce744407fbff0770c8500be663b3a2",
+      "bytes": 2308
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanRiccatiUniqueness.lean",
+      "sha256": "ce734f2322c2f2b89d10a7f93f966acaae3c06ddc47f0f2d7ab07ff4e253b2d7",
+      "bytes": 2157
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PanSilentInvariants.lean",
+      "sha256": "d142ff99dd964ed1cb31a533f486b2d33bdea39aa4c7577325339f8a42a73042",
+      "bytes": 6386
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/Panmixia.lean",
+      "sha256": "8100f6991b85647284316cf6957805ce9cfb2672fad1f73a721e6f3143f9625f",
+      "bytes": 2496
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/PeanoBaker.lean",
+      "sha256": "722cb65f59faba858ed13ca82af4ba0573fdf05788056dc83bc200e2aa92b583",
+      "bytes": 7325
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RankAE.lean",
+      "sha256": "d6b37d9563ac4544425b6bd19ba62f7a9fe30fa734637e0a4b56894b4eec7b79",
+      "bytes": 3909
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RankFactorization.lean",
+      "sha256": "7787f820f2e455519d3d1dfdb38942bdab4527b6b9c2141231afcb880d068762",
+      "bytes": 3339
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RankMeasure.lean",
+      "sha256": "77006aa26c5bc948693c9b5be02229cbacd704e5ddb7f1556833e5b97cce08fe",
+      "bytes": 2058
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RankSeparator.lean",
+      "sha256": "011e44ec249ba6f54e23555ce4ea69ce186146120d58149acadb430f88633e53",
+      "bytes": 2215
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ReachableAbsorption.lean",
+      "sha256": "c078b93a5e75d5c3577ed3f32cbd36b1d7160dd08b6201b26a7da4ccb4968f81",
+      "bytes": 2903
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RegularDensityIdentification.lean",
+      "sha256": "d9aa6d3fa7a478e670934f7bf7d85ecfbd5a697318ff7e6751d233d5f2c6d334",
+      "bytes": 2742
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RegularJointLaw.lean",
+      "sha256": "a4d9d059644642c793075441058dbe204168663a6fba3ee0656cd0ee08f1f442",
+      "bytes": 5233
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/RegularJointLawNormalization.lean",
+      "sha256": "7d115663581bfa10f912346c3895bca2acb1c706e3808f42ffcc820e13611b54",
+      "bytes": 5176
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ScalarPanModel.lean",
+      "sha256": "acdcc7a6d12188cf7772e1da773f6a6e562762025a56ba54c7eac7f3498187e5",
+      "bytes": 3213
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ShearDensity.lean",
+      "sha256": "166923f6b405685ce8e876f7212ae706a4bddf8ae9b41f7e43f42362d560d05d",
+      "bytes": 2572
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/TriangularMass.lean",
+      "sha256": "768d7673fc8a20282789a055fe4f8844513d90ddd8a0014c6ae4b9c9151c8f0d",
+      "bytes": 2588
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/UnknownClockMembership.lean",
+      "sha256": "c7b93f0b20128b72cc9f3073bb3c5d7e46b1b609c493aaad3261b5c01d683466",
+      "bytes": 3819
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/UpperBranch.lean",
+      "sha256": "8d854fb3708cf22a802dc85c3a64f2c2d945837a8872c9a0e2d42f337bf0fb00",
+      "bytes": 4181
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/VectorPrimitiveAC.lean",
+      "sha256": "93ab902b0be03a9e02357a03ed5e6fcb1d97f7b467126489301af089b77edfdc",
+      "bytes": 2895
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/VolterraL1Bounds.lean",
+      "sha256": "edde16b4077f089b5ac1133243e9b78a6718bf3e02db1c7364468e325ab76bb6",
+      "bytes": 3124
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/VolterraReflection.lean",
+      "sha256": "7db13645b20ec1fec4b212f09878ba9fb2b9fa4363567452855e320a22d47e94",
+      "bytes": 1478
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/VolterraSeriesSolution.lean",
+      "sha256": "aa2d6b934e5970189b4d5eb9390340f5220c949e5a3688aafb3f56888784ccea",
+      "bytes": 5459
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/Witness.lean",
+      "sha256": "d134d1ab3dcae0cf7c4d44af0c864c33ea19ff1545d737fd78d5e034a0315995",
+      "bytes": 7419
+    },
+    {
+      "path": "Rhone/Statistics/Identifiability/ZeroClockDynamics.lean",
+      "sha256": "4a451ef8ee2281ed231d7233e24b8f16bf9f87c214958c60a113eb8309460ae1",
+      "bytes": 4806
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9773dc8a3095cdd485efd31b34bc69d495d84c5a26ab4ec68b0482303c7249a5",
+      "bytes": 12299,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Rhone/Statistics/Identifiability/CommonClockVolterra.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/986776a65b160e2ea559": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/cenozoic-works/rhone-theory",
+    "source_commit": "babec8449a724c270450c7c0e2cd3985ccc2a989"
+  }
+}

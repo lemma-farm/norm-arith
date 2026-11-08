@@ -1,0 +1,154 @@
+{
+  "id": "dc63a2fbc47faa6df34b",
+  "source": {
+    "repository": "scottnarmstrong/CoarseDeGiorgi",
+    "commit": "200c40c9c55a5e19188739d27466ddffcb2660c4",
+    "project": "scottnarmstrong--CoarseDeGiorgi--200c40c9c55a",
+    "path": "CoarseDeGiorgi/NegSobolev/GaussDerivLocal.lean",
+    "file_id": "03b1958e2d5b666868b3",
+    "source_sha256": "03b1958e2d5b666868b365b4aece84f7df8e35371dbc5324816a33ff784e7db9",
+    "start": 73,
+    "end": 95,
+    "original_start": 73,
+    "original_end": 95,
+    "declaration": "gaussDeriv_gaussian_local",
+    "source_url": "https://github.com/scottnarmstrong/CoarseDeGiorgi/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/NegSobolev/GaussDerivLocal.lean#L73-L95",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CoarseDeGiorgi--c1c596d07d50/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/NegSobolev/GaussDerivLocal.lean#L73-L95"
+  },
+  "native_target_name": "CoarseDeGiorgi.NegSobolev.gaussDeriv_gaussian_local",
+  "source_declaration_label": "gaussDeriv_gaussian_local",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "3b0a8a59354e130ea0880432751a2bb1ad6208f83a799a300fabeb1e131a9c67",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "67d142c44327f52e4f6e5329c6dc86a6815c232f96950583f8fed245aeab07c4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussDerivDomination.lean",
+      "sha256": "5e5c561d7d6a0d85ac5f5148cdbc745da6db1b9fb5d6ee68fa4a6a53c6828174",
+      "bytes": 7180
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussDerivLocal.lean",
+      "sha256": "fe56915d41c184aed21aac3c1b0c14e4ce2a79c1e0ed19fc376dab5edd671fc0",
+      "bytes": 4521
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussDerivLp.lean",
+      "sha256": "d4c16b8e0174640f222709b5fd890df60cb25b630a8e3d12bc99fa7db9760273",
+      "bytes": 1771
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussDerivPolynomial.lean",
+      "sha256": "615027a74e9fbbe859893e44973e38b014aaa7157dd4b7b432a62305a68d3357",
+      "bytes": 7621
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussDerivScaling.lean",
+      "sha256": "bc6eca2cf50bc33b646c71dfa03c13dc76ac868000fb3327293b9d4f8ac05779",
+      "bytes": 4262
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/GaussianBasic.lean",
+      "sha256": "ada71c00043c4e89672e71449a30bd3f77f7a59b88402d409ad5a0f5b16568b3",
+      "bytes": 6968
+    },
+    {
+      "path": "CoarseDeGiorgi/NegSobolev/TestNormWeakDeriv.lean",
+      "sha256": "a497ff14ba118afb937547b10f715011137ce50a60478cb0c1be22071ec5d0e4",
+      "bytes": 4964
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/GaussianKernel.lean",
+      "sha256": "9d9b39aedd10c3e43a63e3c9be1061ea9fd8d7ed9bcf148951bea697f1ac9467",
+      "bytes": 620
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/IsWeakDerivArray.lean",
+      "sha256": "fad7af3a4b9ee0e3595a02f21bb57a8d04e7dbe5d6df8fe8d783088052cf7dfd",
+      "bytes": 1737
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/Basic.lean",
+      "sha256": "96f2c39f8ec57451f8572b9da28cdf33f5fc853429cbf39197f3fa0eda29bbf7",
+      "bytes": 8615
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/BlockMatrix.lean",
+      "sha256": "9d300037ce988f2e2b08744fdf1a11479a9b370aab570e446e123a92d136396c",
+      "bytes": 22627
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/CoefficientField.lean",
+      "sha256": "f4f50aa72988bd71f735c868f93ad03a55fe2b4f06b23c10e5bce71a2c4156b8",
+      "bytes": 41101
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/HilbertFinite.lean",
+      "sha256": "4569d4d3865db2e35c71d852f48423219a54e25bd66adf2d79e0449c74ef5f5f",
+      "bytes": 15312
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Sobolev/L2Ambient.lean",
+      "sha256": "24a795f689a24272d8752be36c2e669ae5668567bce910607e1a1ca00d874837",
+      "bytes": 31157
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Sobolev/WeakDerivatives.lean",
+      "sha256": "6ff097ba19dc50027d509be28be4ec1d3749144792918666755bd9dbad6e1003",
+      "bytes": 6311
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "198bd117652a734a54946696a03013ffe5d6962434d0503ded7daf16fdac5d7f",
+      "bytes": 2756,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "873fbb3daa556485ee4639eb5f3a5a7f0df476ed9c88892e0253b5a4073f9c7d",
+      "bytes": 838,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lakefile.toml",
+      "sha256": "f25aa474fc75be0ba8efddf24d01e81f69c6ecd1289752da54ac5c063b2aa13f",
+      "bytes": 781,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lakefile.toml.source"
+    }
+  ],
+  "build_target": "CoarseDeGiorgi/NegSobolev/GaussDerivLocal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/dc63a2fbc47faa6df34b": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CoarseDeGiorgi",
+    "source_commit": "200c40c9c55a5e19188739d27466ddffcb2660c4"
+  }
+}

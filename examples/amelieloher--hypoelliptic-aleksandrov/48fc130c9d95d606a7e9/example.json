@@ -1,0 +1,153 @@
+{
+  "id": "48fc130c9d95d606a7e9",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "PDEFoundation/Sobolev/W1p/Product.lean",
+    "file_id": "0126cbe2c29de966f0bb",
+    "source_sha256": "0126cbe2c29de966f0bba92b3a51e15ab3aefa18f95e39fead7488dff8bc81a1",
+    "start": 111,
+    "end": 175,
+    "original_start": 109,
+    "original_end": 175,
+    "declaration": "eLpNormOn_mulContDiffMemLpTop_grad_coord_le",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/PDEFoundation/Sobolev/W1p/Product.lean#L111-L175",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/PDEFoundation/Sobolev/W1p/Product.lean#L111-L175"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "eLpNormOn_mulContDiffMemLpTop_grad_coord_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "5c3e6992d9f501683c2ea6b9b317715e1c06860c52ada4baced14987f79b88ce",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b738ac31fd39420e05cf4d9587c09f5598d15d0ea8cc03775dfc5d0e333d3b35",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "PDEFoundation/Ambient/Basic.lean",
+      "sha256": "66965d54cd828ad35dfbd65d5f271cdc38e1b0120c223d18acbbd7333f57151c",
+      "bytes": 582
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basis.lean",
+      "sha256": "cafef0c077eededd1dabf3c32eeb20334d19d3d5a1cffb10ed4d370328bf7cfb",
+      "bytes": 1508
+    },
+    {
+      "path": "PDEFoundation/Ambient/EuclideanNorm.lean",
+      "sha256": "7acf342fbc83a8ee6b5875be1dd1722bb9faa7ea810faf002873002a71f653cf",
+      "bytes": 12565
+    },
+    {
+      "path": "PDEFoundation/Geometry/Affine.lean",
+      "sha256": "e07e49a7a1fac1bcc9ab99f48bea2cc86fab099edd295857b2ca90319be23871",
+      "bytes": 2285
+    },
+    {
+      "path": "PDEFoundation/Geometry/ConvexDomain.lean",
+      "sha256": "f5b9f63e9deb6234d9d528e2519f2c6a0208d209957ee4db819a8759ee48bf6a",
+      "bytes": 6271
+    },
+    {
+      "path": "PDEFoundation/Geometry/Domain.lean",
+      "sha256": "e7b96b458af184a3d859c1b2caa9e7b66a4e7d0395d7c2e25e8f4f2ffa5f0dd0",
+      "bytes": 4333
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall.lean",
+      "sha256": "e0d5b89d0af6cd95bfb6c07bc5c8e45f5ae76be929dbaaea9f1b87c847093fe5",
+      "bytes": 245
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Basic.lean",
+      "sha256": "6340ceea9bb95841982e5f58ee6fab812fbb778764ffaf24143cb8b8365a414d",
+      "bytes": 10181
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Topology.lean",
+      "sha256": "adaf9da59165b82aab16198ad3b629e98389170ed5490b5f5f0e70130479d54e",
+      "bytes": 4282
+    },
+    {
+      "path": "PDEFoundation/Measure/AffineVolume.lean",
+      "sha256": "667d875195f7a0931d4c66380c75da92e2af9458b87ea4608a3b684de6018bdb",
+      "bytes": 6189
+    },
+    {
+      "path": "PDEFoundation/Measure/NormalizedLp.lean",
+      "sha256": "feddda821f55e6efe52c44667729743bfa91c26603b50dc0bd8ccaec7d2768c8",
+      "bytes": 15630
+    },
+    {
+      "path": "PDEFoundation/Measure/RestrictedVolume.lean",
+      "sha256": "39c16b97f4e69c566e4e3898a96de6dc4eb3169f80f9d39b33a275234b44bf22",
+      "bytes": 2563
+    },
+    {
+      "path": "PDEFoundation/Sobolev/ClassicalGradient.lean",
+      "sha256": "93072a444ee1adff09632b96e6ad0a28d463d7222e1244223044f76ee6e0969a",
+      "bytes": 2660
+    },
+    {
+      "path": "PDEFoundation/Sobolev/W1p/Algebra.lean",
+      "sha256": "6b2abb3aecac8a57f8ff40d1f042c3c1749a5ca7aaf2d1d7e04fcfe224eb4fb6",
+      "bytes": 6390
+    },
+    {
+      "path": "PDEFoundation/Sobolev/W1p/Basic.lean",
+      "sha256": "7fe4fda4b809a0015cc76b456b6ec64474a4ce4113ccb4f634cb59fbb4833e8f",
+      "bytes": 4178
+    },
+    {
+      "path": "PDEFoundation/Sobolev/W1p/Product.lean",
+      "sha256": "5c58b6f3dfb78edde6bedc8e9c4c785be1feaaefea83d4ac55c6d0a791ca3319",
+      "bytes": 7746
+    },
+    {
+      "path": "PDEFoundation/Sobolev/WeakDerivative.lean",
+      "sha256": "4534a5dc228eca25a5597d32a93428d00e5c1f4e123bcb886500f5d6daf0ef74",
+      "bytes": 10639
+    },
+    {
+      "path": "PDEFoundation/Sobolev/WeakDerivative/Algebra.lean",
+      "sha256": "9639baf0aedb083257e4d89358ebf238f139b7a4185814b3c12471ccf38359d6",
+      "bytes": 9617
+    },
+    {
+      "path": "PDEFoundation/Sobolev/WeakDerivative/Product.lean",
+      "sha256": "36b18c14bb549207e64760b5813e416370a5af6599a39df9180ed7bfd4e7af02",
+      "bytes": 9091
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "PDEFoundation/Sobolev/W1p/Product.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": "1.3.0",
+  "packages": [
+    {
+      "name": "mathlib",
+      "scope": "",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/mathlib",
+      "inherited": false,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.lean"
+    },
+    {
+      "name": "plausible",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/plausible",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "LeanSearchClient",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/LeanSearchClient",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "importGraph",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/importGraph",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "proofwidgets",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/proofwidgets",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.lean"
+    },
+    {
+      "name": "aesop",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/aesop",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "Qq",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/Qq",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "batteries",
+      "scope": "leanprover-community",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/batteries",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "Cli",
+      "scope": "leanprover",
+      "type": "path",
+      "dir": "/project/repo/norm-arith/.lake/packages/Cli",
+      "inherited": true,
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml"
+    },
+    {
+      "name": "CKN",
+      "type": "path",
+      "dir": "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/1288892441a4773c8024/__deps/CKN-b5e25360",
+      "inherited": false,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    }
+  ]
+}

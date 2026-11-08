@@ -1,0 +1,106 @@
+{
+  "id": "cadfb5cba645919395e7",
+  "source": {
+    "repository": "enaslund/unit-distance-bound-0.0427",
+    "commit": "edd88c0c175ab4d18cf6115e2f6ddf3865d36b12",
+    "project": "enaslund--unit-distance-bound-0.0427--edd88c0c175a",
+    "path": "lean/UnitDistance/Upstream/AINTLIB/CompletedZeta/FEPair.lean",
+    "file_id": "07456eda279bc135a09f",
+    "source_sha256": "07456eda279bc135a09fcbdb6d04899549947d2187663f1cca4f7aee2be3bf62",
+    "start": 49,
+    "end": 78,
+    "original_start": 49,
+    "original_end": 78,
+    "declaration": "isBigO_exp_neg_rpow",
+    "source_url": "https://github.com/enaslund/unit-distance-bound-0.0427/blob/edd88c0c175ab4d18cf6115e2f6ddf3865d36b12/lean/UnitDistance/Upstream/AINTLIB/CompletedZeta/FEPair.lean#L49-L78",
+    "archive_url": "https://github.com/PalomarArchive/enaslund--unit-distance-bound-0.0427--b3a8b62d2e9c/blob/edd88c0c175ab4d18cf6115e2f6ddf3865d36b12/lean/UnitDistance/Upstream/AINTLIB/CompletedZeta/FEPair.lean#L49-L78"
+  },
+  "native_target_name": "DedekindResidue.isBigO_exp_neg_rpow",
+  "source_declaration_label": "isBigO_exp_neg_rpow",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "017a3c82b20c509c059156119f7efbd3451fb2d01140bdbd36d46e87639a3e65",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9a4ed5828eb114d2cebb6e5ddda99774f8df3ad675917891b4882ef259e3d9c1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/ClassTheta.lean",
+      "sha256": "911782026509848a4c31738926bbea5c599a4038bdee0d8a3e34b5b4c5e943a9",
+      "bytes": 13057
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/DualLattice.lean",
+      "sha256": "0cb9e2842d94b64c28cdb31343254c703e36fd82ab1fe599adcd797b7f231c95",
+      "bytes": 11678
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/FEPair.lean",
+      "sha256": "d20838e1214207d698f3dfcfcbbc3ada673c0a6481ef6599b452cf1cf8dae9e9",
+      "bytes": 11258
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/HeckeTheta.lean",
+      "sha256": "eacb2171af5a439ad1491b753a9e74241441f563ba4ce038571b70d29ececbc6",
+      "bytes": 41900
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/IdealLattice.lean",
+      "sha256": "3e4e3e87892c8adaec46ad18912c847f01ae2fb4f86f8ca7ec4a2cd2ea64693c",
+      "bytes": 18950
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/PoissonLattice.lean",
+      "sha256": "a2f5dfd85a9a26b13ad6e1bfafc87df2f4a2083498d01c11da422f6076996351",
+      "bytes": 19640
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/PoissonSummation.lean",
+      "sha256": "5781ec8e3454eb4151ba21004b8bba8cf73c9f69652266b4115a63d93f83518c",
+      "bytes": 34273
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/ThetaEstimates.lean",
+      "sha256": "2db5f649c62a5f592bbbee0971239af9e58122b90dfe5976c6b0676f29616936",
+      "bytes": 29104
+    },
+    {
+      "path": "UnitDistance/Upstream/AINTLIB/CompletedZeta/ThetaLattice.lean",
+      "sha256": "355cd1fb60c69f8c680d5b22fa96725a518156760e6ea75d9cdfc140d7abec0b",
+      "bytes": 26724
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5daa450380b01f3b9c1e43c57a35de8e658cce55d9fffb3edcab6671c0223a5a",
+      "bytes": 576,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "UnitDistance/Upstream/AINTLIB/CompletedZeta/FEPair.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/cadfb5cba645919395e7": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/enaslund/unit-distance-bound-0.0427",
+    "source_commit": "edd88c0c175ab4d18cf6115e2f6ddf3865d36b12"
+  }
+}

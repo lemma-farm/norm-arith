@@ -1,0 +1,1181 @@
+{
+  "id": "a1038ddc352dc464fd5a",
+  "source": {
+    "repository": "pmaronow/slowequilibration-palomar",
+    "commit": "a28aaa336343c4caf43791ababd8ed0ee5c7b58e",
+    "project": "pmaronow--slowequilibration-palomar--a28aaa336343",
+    "path": "SlowEquilibration/PairValueCovariancePerturbation.lean",
+    "file_id": "03bd24a3a751bac5e1a3",
+    "source_sha256": "03bd24a3a751bac5e1a32b6bbec774289e37479fcb1272f5024a3888335bfcf5",
+    "start": 73,
+    "end": 81,
+    "original_start": 68,
+    "original_end": 81,
+    "declaration": "value_gradient_cross_order",
+    "source_url": "https://github.com/pmaronow/slowequilibration-palomar/blob/a28aaa336343c4caf43791ababd8ed0ee5c7b58e/SlowEquilibration/PairValueCovariancePerturbation.lean#L73-L81",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--slowequilibration-palomar--34a70045061a/blob/a28aaa336343c4caf43791ababd8ed0ee5c7b58e/SlowEquilibration/PairValueCovariancePerturbation.lean#L73-L81"
+  },
+  "native_target_name": "SlowEquilibration.NormalizedPairObservations.value_gradient_cross_order",
+  "source_declaration_label": "value_gradient_cross_order",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "83e7a1711b6ea3f374482505e5dc8b121f6d67c46b82b1ce1d9eb56559af73c6",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9626af1d494aac964bc53001c2257ec919fd15277006657475bbf053a8c65751",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SlowEquilibration/CoefficientKacRice.lean",
+      "sha256": "a386fdbc510856ad53bc55be2b072e42aeb8d7f5e2b8279a5c9aeebbcdd71a93",
+      "bytes": 44079
+    },
+    {
+      "path": "SlowEquilibration/ConditionedIntrinsicHessian.lean",
+      "sha256": "f94b142ecf43b72e1c97959fbdd7ce415e050e4e1b54309b943eef37f7cfff67",
+      "bytes": 12628
+    },
+    {
+      "path": "SlowEquilibration/CovarianceProfileOrders.lean",
+      "sha256": "5175f33ef48a2dafddea5061739a60efae89224e2771317edc79c6a568d41ded",
+      "bytes": 4744
+    },
+    {
+      "path": "SlowEquilibration/DegreeWindow.lean",
+      "sha256": "7e5fd58ff6de31ae66b1c2949a54f11f838ef534585e5f04264661dc44327a04",
+      "bytes": 3536
+    },
+    {
+      "path": "SlowEquilibration/GOEAsymptotics.lean",
+      "sha256": "581233dc45a4921a99f2dc74b7a24243fdf284a39b52f2eb94929861a6a75f1b",
+      "bytes": 13782
+    },
+    {
+      "path": "SlowEquilibration/GOEClippedDeterminants.lean",
+      "sha256": "d67dca895d80e30508e6ddb14975d3ad2fee2ea4cb52516b2f5daf3412a5f657",
+      "bytes": 8549
+    },
+    {
+      "path": "SlowEquilibration/GOEDeterminantMoments.lean",
+      "sha256": "df6832bcf83068a20d837615cced94f928bad7aff346471da70fab71b58e8797",
+      "bytes": 13433
+    },
+    {
+      "path": "SlowEquilibration/GOEEdgeConcentration.lean",
+      "sha256": "52dc767323b2584cca445a29e2012b9f11eecc5c75c13caf576f5b80410cbbf1",
+      "bytes": 11429
+    },
+    {
+      "path": "SlowEquilibration/GOEExtremalEdges.lean",
+      "sha256": "aa4926b699eb4f367d970f7dabd81ee55a9d905ad5feb6944e02740a3e137d53",
+      "bytes": 8264
+    },
+    {
+      "path": "SlowEquilibration/GaussianAffineDeterminant.lean",
+      "sha256": "d0c0e2685e0f716b6fb69942d5be87c41f732af08cc57cd94313b9851a3fd0d4",
+      "bytes": 15955
+    },
+    {
+      "path": "SlowEquilibration/GaussianAffineDeterminantAllDimensions.lean",
+      "sha256": "09bb3ab12477864ebfb19d413d9989928d5d0696f7ffc854c267531cb5018928",
+      "bytes": 6235
+    },
+    {
+      "path": "SlowEquilibration/GaussianAffineDeterminantFinite.lean",
+      "sha256": "a089a8527d8ebaa207eb957b94a12dab6bb057d2f7bc6ec08cd52806da834fe2",
+      "bytes": 20180
+    },
+    {
+      "path": "SlowEquilibration/GaussianAffineDeterminantUniform.lean",
+      "sha256": "db48b85cc8d988b71e481c5526beadd23a91dfa4b11d7761442505cc452300d9",
+      "bytes": 8187
+    },
+    {
+      "path": "SlowEquilibration/GaussianBlockFiber.lean",
+      "sha256": "40139307d5515c409ea5c5f0c48a965b9984d255bdbf6e74e1b7692f08e4b722",
+      "bytes": 14084
+    },
+    {
+      "path": "SlowEquilibration/GaussianCompactFeatureComparison.lean",
+      "sha256": "ae912cfbf7f63a229411c9d8ff94b51086d116e80dc94bd9d3ee4e629f76892a",
+      "bytes": 8293
+    },
+    {
+      "path": "SlowEquilibration/GaussianCompactMaximum.lean",
+      "sha256": "02e94f7c53c482f80301a6b5e1172130e0355f91d36566c9034bf3807f228901",
+      "bytes": 8546
+    },
+    {
+      "path": "SlowEquilibration/GaussianCovarianceRepresentation.lean",
+      "sha256": "e515922ebf065d3f9c690a30091537bf89dd0d15e21eb6e79a5e3d96db1fa52b",
+      "bytes": 6210
+    },
+    {
+      "path": "SlowEquilibration/GaussianDensity.lean",
+      "sha256": "b4d645ce61620e1f01ca173d181830cedd84702412b2137eb64bcd1a36bb1ff9",
+      "bytes": 7461
+    },
+    {
+      "path": "SlowEquilibration/GaussianDominatedEdge.lean",
+      "sha256": "2e8f1b574c720bbb88cbf31502013bad49e20210adbc74e8b2c4c978c9b1b985",
+      "bytes": 13840
+    },
+    {
+      "path": "SlowEquilibration/GaussianFiberDensity.lean",
+      "sha256": "3936a2fd655f0585a0259fcc66ded590482bfb88a858d444a0a52a129d763f07",
+      "bytes": 6362
+    },
+    {
+      "path": "SlowEquilibration/GaussianFiniteMaximum.lean",
+      "sha256": "c9675ac48acc9d3ab654cf8e709982e4165a1eb302e6c72ea66ac9c4f330e97a",
+      "bytes": 7427
+    },
+    {
+      "path": "SlowEquilibration/GaussianGlobalKacRice.lean",
+      "sha256": "2024e0920a508aae5d16001602448d539a1c8a04547c657cac09cb88b5a798ff",
+      "bytes": 9574
+    },
+    {
+      "path": "SlowEquilibration/GaussianIncrementComparison.lean",
+      "sha256": "793d97d3ffdda1cd3a72ddef5caffdb24eb6465311c0c6520a572c9dbea0f1e1",
+      "bytes": 4498
+    },
+    {
+      "path": "SlowEquilibration/GaussianKacRice.lean",
+      "sha256": "bbb742b76d123f0668b943d052cddcb9efd1744e7ebbc59343617246d4c7fc86",
+      "bytes": 7055
+    },
+    {
+      "path": "SlowEquilibration/GaussianLocalCoordinates.lean",
+      "sha256": "fb96b5ec6c3c1e1c17ae0cd5fe8e75012f74360711d0cfdfad81ee190c1fe44b",
+      "bytes": 9309
+    },
+    {
+      "path": "SlowEquilibration/GaussianMatrixFeatures.lean",
+      "sha256": "775c65c9323fa98e629a4528faeb7c8ea58239deb515ed2296db82be7ef13cbd",
+      "bytes": 4476
+    },
+    {
+      "path": "SlowEquilibration/GaussianMatrixMomentLaw.lean",
+      "sha256": "9ff0eebce7941af569ec4035a2ac01ef639dd3f504f20eedce53abccf8e712c4",
+      "bytes": 8297
+    },
+    {
+      "path": "SlowEquilibration/GaussianNonorthogonalRegression.lean",
+      "sha256": "bb77589a369c52bab4a4d0459f04b65e730fd7caa75a2d5e080367fdcac952f8",
+      "bytes": 3724
+    },
+    {
+      "path": "SlowEquilibration/GaussianNormMean.lean",
+      "sha256": "79c9db75518ebcdc1996689f017621b548b80f732f37949ba8517cc75841cdd4",
+      "bytes": 3325
+    },
+    {
+      "path": "SlowEquilibration/GaussianObservationCoercivity.lean",
+      "sha256": "5f4eb2d287a49c071942b38e890657a8d6652e9e3950726815980505851942b3",
+      "bytes": 5452
+    },
+    {
+      "path": "SlowEquilibration/GaussianObservationLowerBound.lean",
+      "sha256": "786606c971862e103aa8722c2328618cf8a69a29cac202fd4bcafe5ccde90b6f",
+      "bytes": 1642
+    },
+    {
+      "path": "SlowEquilibration/GaussianOrthogonalRegression.lean",
+      "sha256": "12368c73ff4e469742ed1a191873269daa44615637a53d6baa1af1ca1627447e",
+      "bytes": 6259
+    },
+    {
+      "path": "SlowEquilibration/GaussianPairBlockBounds.lean",
+      "sha256": "bfabfc4c347380a844eaf491fb05d4a4195452f5c1a12d243c05f9aa86092008",
+      "bytes": 6184
+    },
+    {
+      "path": "SlowEquilibration/GaussianRegression.lean",
+      "sha256": "5d9220a52cd307bf2f0a6f5c61c27b8aed26d748eb3d92f05e89d9982a00658c",
+      "bytes": 10965
+    },
+    {
+      "path": "SlowEquilibration/GaussianRegressionCovariance.lean",
+      "sha256": "ac3921bd31b64820fafbb967c25a280921854b2d6fa90b092a64a1b94fe43230",
+      "bytes": 5722
+    },
+    {
+      "path": "SlowEquilibration/GaussianRegressionDensity.lean",
+      "sha256": "aa4c0d3530b7ce1436745806b56f5f7550c405b45cf8206a8b79d033552e54e1",
+      "bytes": 11688
+    },
+    {
+      "path": "SlowEquilibration/GaussianRegressionIsometry.lean",
+      "sha256": "263f765c27f7d73a6490dacad3a9e4ab046a26ab762e1ec7af7b02f6e4bceb8c",
+      "bytes": 4623
+    },
+    {
+      "path": "SlowEquilibration/GaussianRegressionSchur.lean",
+      "sha256": "abb8418fc8254bf898dcec8bd95204cb76607c81cdba7ee78ec731e75074150f",
+      "bytes": 3398
+    },
+    {
+      "path": "SlowEquilibration/GaussianResidualCoercivity.lean",
+      "sha256": "8d4006f102c53e77b6bb612a31258841ec01001d4012098e1069f7159942113e",
+      "bytes": 2522
+    },
+    {
+      "path": "SlowEquilibration/GaussianSpectralNorm.lean",
+      "sha256": "f7cf87e99219054ff3fe038b220c5feffaa4c9a6be7a16f503b37a8f214abbd5",
+      "bytes": 4943
+    },
+    {
+      "path": "SlowEquilibration/GaussianSpinComparison.lean",
+      "sha256": "006daad5dfd4644ac721e8cc65b9f5e5537000ab9e7bcd6f81135f4a9a99b83c",
+      "bytes": 30057
+    },
+    {
+      "path": "SlowEquilibration/GaussianSpinInterpolation.lean",
+      "sha256": "96fad747515ffe1cdc16141b5df76ac8706532e1d5cc3859a549ef1d8f2cd949",
+      "bytes": 33494
+    },
+    {
+      "path": "SlowEquilibration/IntrinsicGradientRegression.lean",
+      "sha256": "cb4e55c177edd01215f8c30f64ccb45add28dc703e7bc357c5661c8326a7cd66",
+      "bytes": 13124
+    },
+    {
+      "path": "SlowEquilibration/IntrinsicHessianLaw.lean",
+      "sha256": "0227c193dd7c2848c9c3931f39d4c396337fa48ebfd95c991481c36e66d07e29",
+      "bytes": 18072
+    },
+    {
+      "path": "SlowEquilibration/InverseSqrtCalculus.lean",
+      "sha256": "9717cca804d2d9dc7a8449d2ca87b062fb7cb6a4bcec6848fba45b16c9a4fc1e",
+      "bytes": 4318
+    },
+    {
+      "path": "SlowEquilibration/JointFieldRegression.lean",
+      "sha256": "4bc10c1ab06401b09dc1a18cdf5fd456344204da0d7359c95f41471bfff3b91e",
+      "bytes": 10838
+    },
+    {
+      "path": "SlowEquilibration/MixtureCurvature.lean",
+      "sha256": "e4bfd62df17d3684ad55c4026a0ac4f9dfd4e6ed7d354b4695c8faed2f81e4d4",
+      "bytes": 23881
+    },
+    {
+      "path": "SlowEquilibration/MixtureThresholds.lean",
+      "sha256": "ce468373cec762cdb1b8cd3474e8d43f32f546239d3cf77c39077ba47112c091",
+      "bytes": 8660
+    },
+    {
+      "path": "SlowEquilibration/NormalizedObservationBlocks.lean",
+      "sha256": "d94189e662e3b291f5f182bf6d58d33d066a311938d2afc191ffc67d42b9e219",
+      "bytes": 1942
+    },
+    {
+      "path": "SlowEquilibration/NormalizedObservationCoercivity.lean",
+      "sha256": "55c3c67d702b4cd89436a973505fde1e23c13776a31dacf863e7d62c297092a6",
+      "bytes": 8486
+    },
+    {
+      "path": "SlowEquilibration/NormalizedPairObservations.lean",
+      "sha256": "73efcea0f735578dd35a84edae565afd050952702f2c1e07f72ea02a8a37e44a",
+      "bytes": 6662
+    },
+    {
+      "path": "SlowEquilibration/ObservationCrossBlockOrders.lean",
+      "sha256": "8e873c2c06c45991277022e84843360ef0f2bb161c8b567ce46023fbf70d8bae",
+      "bytes": 6568
+    },
+    {
+      "path": "SlowEquilibration/ObservationCrossBlocks.lean",
+      "sha256": "1321145eea635b45b821dc3dd218f38330a3903cfca7cf3e1d23a1bc5d1d30c1",
+      "bytes": 4142
+    },
+    {
+      "path": "SlowEquilibration/ObservationTargetEquiv.lean",
+      "sha256": "fdf2bf6473008cde6b405a039ef72ff56a9cc135fbb8a802dc051ebf6d481950",
+      "bytes": 2310
+    },
+    {
+      "path": "SlowEquilibration/PairGradientNondegeneracy.lean",
+      "sha256": "bf9a2603602397e154b477a9c279646d7e2be60885e43278588d251a24fde683",
+      "bytes": 2884
+    },
+    {
+      "path": "SlowEquilibration/PairGramSchurDeterminant.lean",
+      "sha256": "ee90631049b8ad604d76fe8b22f1139c3a2d37879567ddc9a14e719b8b8ca772",
+      "bytes": 7492
+    },
+    {
+      "path": "SlowEquilibration/PairObservationCrossCovariance.lean",
+      "sha256": "86bf61826306ce8a7a1a99dbbf0ef156ec2fe90a768ecd7f5553dd56fb6abd77",
+      "bytes": 5622
+    },
+    {
+      "path": "SlowEquilibration/PairObservationGrouping.lean",
+      "sha256": "0f16586897e6021fa67382bcff213095631f1c1839e269477f31ba55972e2883",
+      "bytes": 4985
+    },
+    {
+      "path": "SlowEquilibration/PairObservationNormBounds.lean",
+      "sha256": "8b71cf0f8beac6444d0ab4d4d91af71dfabe5fa5b134c06ad1ed4ae1741f760f",
+      "bytes": 4581
+    },
+    {
+      "path": "SlowEquilibration/PairObservationSmallOverlap.lean",
+      "sha256": "a2976755ab9130469605a3333869f321b7f088a7cb534097faf0d098e2781138",
+      "bytes": 6878
+    },
+    {
+      "path": "SlowEquilibration/PairOrthogonalJetCovariances.lean",
+      "sha256": "7fee122e3626f3949757242846d403f91356482e33897deff27e6658661f14c1",
+      "bytes": 4503
+    },
+    {
+      "path": "SlowEquilibration/PairResidualScoreCoercivity.lean",
+      "sha256": "74e003834bd18749fa7ab87f17f1cab1c58dbf6c97bb46f7febd4ef99ff48773",
+      "bytes": 3147
+    },
+    {
+      "path": "SlowEquilibration/PairScoreCovariancePerturbation.lean",
+      "sha256": "28702dd9ff03341e09a201d20e053e0ba822d20b089238839ae2203d147fad98",
+      "bytes": 6853
+    },
+    {
+      "path": "SlowEquilibration/PairScoreDisintegration.lean",
+      "sha256": "7ce34435a688428d44b1334c8ca4bc8fd70ac8dbbd089b33c6613382810be30d",
+      "bytes": 4627
+    },
+    {
+      "path": "SlowEquilibration/PairValueCovariancePerturbation.lean",
+      "sha256": "d851a64ea494e042d2c39ce6abcafd42e848541c85810bc1502730b0018f703d",
+      "bytes": 7742
+    },
+    {
+      "path": "SlowEquilibration/PairValueObservationGrouping.lean",
+      "sha256": "7cddedbd8738856307160f7bdde6736c15862944e815df8376a670c326748734",
+      "bytes": 3488
+    },
+    {
+      "path": "SlowEquilibration/RareEventMomentTransfer.lean",
+      "sha256": "f6f6ec2829d4c61db8694c0579578214983ef38ab4e3a2569cf2c777dbc1498f",
+      "bytes": 9175
+    },
+    {
+      "path": "SlowEquilibration/RoundSphereVolume.lean",
+      "sha256": "e0c7b1c2b24b2aaca3aae6dd74d98ffb97cefbc8be6c6519f9985f8e0ff1a5fe",
+      "bytes": 4755
+    },
+    {
+      "path": "SlowEquilibration/ScalarCoefficientCovariance.lean",
+      "sha256": "af295b43cf7d326d8686948ad17e56905a6d4acbd3efb153f0bbca5283d9eebc",
+      "bytes": 2248
+    },
+    {
+      "path": "SlowEquilibration/ScoreCovariance.lean",
+      "sha256": "886097d14d8e42866ab10dc6f07096691f62355b212cc21e0fb8ebef19040ba8",
+      "bytes": 4543
+    },
+    {
+      "path": "SlowEquilibration/SpectralCounting.lean",
+      "sha256": "fe310a49ad4175c9592c30a424f3c642b2c7fef1a7e498e757bd7ff2f78bda18",
+      "bytes": 13114
+    },
+    {
+      "path": "SlowEquilibration/SpectralTraceLipschitz.lean",
+      "sha256": "dd3683744ccf5222f09c6278694160c81cb011b0289960f04c37f5a5c291a100",
+      "bytes": 9459
+    },
+    {
+      "path": "SlowEquilibration/SphereChartVolume.lean",
+      "sha256": "82f575ab8229f750b2c648453d0c046dc29e4167b41b6209e7eb2636afb224a0",
+      "bytes": 41660
+    },
+    {
+      "path": "SlowEquilibration/SphereHessian.lean",
+      "sha256": "a1214e5e6ec834353216e119757d36594bcad658c24747b40fb1fead87480e1b",
+      "bytes": 11157
+    },
+    {
+      "path": "SlowEquilibration/SphereVolume.lean",
+      "sha256": "a1a866bf3ed74c821b8b7b45c26fa94bbfc8fd610ea0ecf35e77691281aabb92",
+      "bytes": 8115
+    },
+    {
+      "path": "SlowEquilibration/SphericalChartGeometry.lean",
+      "sha256": "d13cff2a6f850a9482bc15f6ff1020e2d5a83b3a3877282764d74c156e0edcc3",
+      "bytes": 7766
+    },
+    {
+      "path": "SlowEquilibration/SphericalChartKacRice.lean",
+      "sha256": "09db01d208a2a72e666d12679240812dc4e577a8132922b89a55340c02a4ae03",
+      "bytes": 15238
+    },
+    {
+      "path": "SlowEquilibration/SphericalConcentration.lean",
+      "sha256": "c851e29196e734dc5b42f9818c8dd03741694a1dd4b2b5b9fba9006c5f222f5c",
+      "bytes": 11471
+    },
+    {
+      "path": "SlowEquilibration/SphericalForm.lean",
+      "sha256": "8034400bf38e87cf6e736660efc4bb88f754ddb29536d9733be44a6dec57566e",
+      "bytes": 8686
+    },
+    {
+      "path": "SlowEquilibration/SphericalGaussianJet.lean",
+      "sha256": "0f9c89ad03db460a71301245c5433b6085110fdf6eb637fce257c6b058240a60",
+      "bytes": 51462
+    },
+    {
+      "path": "SlowEquilibration/SphericalGibbs.lean",
+      "sha256": "8056605a20d786dd48acecb0d716e25f831d0b479cb3619e31f07b9a63f4a38d",
+      "bytes": 8492
+    },
+    {
+      "path": "SlowEquilibration/SphericalHessianTraceCovariance.lean",
+      "sha256": "ee8ddc4938c4937649bcc9bfca199fc6865c5c4018a6f89009575c4c19a77716",
+      "bytes": 7470
+    },
+    {
+      "path": "SlowEquilibration/SphericalIntrinsicHessianJet.lean",
+      "sha256": "a578637090bbed1b203891697555e8a76c0b6319e839c3a671bdda42b7edc2f1",
+      "bytes": 2823
+    },
+    {
+      "path": "SlowEquilibration/SphericalModel.lean",
+      "sha256": "b38874c0a51ddff3ca4c09f970b159437b46a73b2b172b8a0fa98a2fb5f4e89f",
+      "bytes": 39117
+    },
+    {
+      "path": "SlowEquilibration/SphericalPairRegression.lean",
+      "sha256": "0dbf1464ad65db3aedcae9270d6bc6d9fa2f85b18ee0fc27bcfb584fe21df8fc",
+      "bytes": 8998
+    },
+    {
+      "path": "SlowEquilibration/SphericalScoreDensity.lean",
+      "sha256": "2db817304712acc7df4b5db6737c91ead297f09a9faa972bcaf968f75db58d4a",
+      "bytes": 13106
+    },
+    {
+      "path": "SlowEquilibration/SphericalSequentialRegression.lean",
+      "sha256": "94c1382112b36185b0f892d70e3a857169669c1c613c9f67ba850a7bd91bb798",
+      "bytes": 16700
+    },
+    {
+      "path": "SlowEquilibration/SphericalTwoPointCovariance.lean",
+      "sha256": "0d4149a6a68a8c1c779d83c468bdabe9d3c91b24bb4c715841551855d9eae023",
+      "bytes": 14512
+    },
+    {
+      "path": "SlowEquilibration/SymmetricGaussianCovariance.lean",
+      "sha256": "c180e6b407e121e45e1e6048a69da9f22a3f85b5bf776361b0f36e1562c769ab",
+      "bytes": 6472
+    },
+    {
+      "path": "SlowEquilibration/SymmetricGaussianRealization.lean",
+      "sha256": "dcfcc8b303a0d5fad344c01599e16e9b60ddb0db860629b1a0455562f41da2d2",
+      "bytes": 5204
+    },
+    {
+      "path": "SlowEquilibration/Thresholds.lean",
+      "sha256": "71821dbf0776aa0ff9aee907c3fc90430b0e5d17c4d6b3231a99d1980bd7f3f6",
+      "bytes": 21765
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/BlockEnergy.lean",
+      "sha256": "2a05e1bccb8a5c6cc59d2128117be6f2a8d197934b8125324b79732545bc05ef",
+      "bytes": 21572
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/EdgeAsymptotics.lean",
+      "sha256": "5613f75ed215d097f3ed975ba151b483f016dfd059f4428fda3b8e2db54f556c",
+      "bytes": 33420
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/GOESpectrum.lean",
+      "sha256": "7b2cde29b068175564600cd002161c51e3c5a518915433c458f87ad39a15e18f",
+      "bytes": 21478
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/GaussianConcentration.lean",
+      "sha256": "91bf3898e32844f5f3ec73aabd4bf08937b18e6cb67c8be4f520b6b4ae90dd7c",
+      "bytes": 61798
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/GaussianMatrices.lean",
+      "sha256": "8ac0797b293c9874a1d1e89b8e451e39b30f79327588529675f4c9fdb1d88696",
+      "bytes": 37539
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/GaussianMoments.lean",
+      "sha256": "ebf5aa92c495e88967f36e9d12c666216063eb97ea8734b53655554f8320f65b",
+      "bytes": 15262
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/MinMax.lean",
+      "sha256": "47b15c527b9fbad765f4cffa1e908821723c4437659cad4433887a84e0baacaa",
+      "bytes": 8166
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/PathEnergy.lean",
+      "sha256": "aaba50d4c8fa7a51aa5c0bbb156207215f57248352f1edbdf05fe8e27e4cc723",
+      "bytes": 11540
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/PathSpectra.lean",
+      "sha256": "ea46178c2fd906a31fe1cf1b10369ce51d22749334e25f027b982bd8b7a50ae7",
+      "bytes": 46383
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/Powers.lean",
+      "sha256": "a6abf25e79193212d2f88932e58e8bfa90b95608303b31fa4597942b998c61ec",
+      "bytes": 6658
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/Resolvent.lean",
+      "sha256": "a6a1e1f9cc2d02864266fe2964e26004f0cda76f6b22121570dcd47c53539f0b",
+      "bytes": 20570
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/MathematicalPhysics/CriticalSK/TriNoise.lean",
+      "sha256": "b57d5dad76d33949e64b549650d11b008073c98507d0b6b47021b77c0c59a8ce",
+      "bytes": 28011
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Gaussian/GaussianFiniteIBPError.lean",
+      "sha256": "552c1845af22dfcf51a5d88b275ce317059e07e062b65e14eac246822fa6da4c",
+      "bytes": 2030
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Gaussian/StandardGaussianProduct.lean",
+      "sha256": "2f9244c9fd75ceac45bc2ad742a91d1eb2c684b8faa46bb0eba4ee03128252a9",
+      "bytes": 10315
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Localization/CoordinateDeriv.lean",
+      "sha256": "7497ae3c342f390520db4c8e2b0a4b8c04807ad8bf32c308102b8854ee32fb33",
+      "bytes": 7964
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Localization/FrobeniusSq.lean",
+      "sha256": "5efb7d3fa492e998a9a8bb9362faa6d07221285af3eb5f5372ddb968359e59a4",
+      "bytes": 2908
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Localization/SymmetricElementaryComm.lean",
+      "sha256": "a6741d0fa11cd1a6348ac671d13cb67c3edacbb8c786962f9dcaa0199f50d52c",
+      "bytes": 4672
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Matrix/MatrixCoordinates.lean",
+      "sha256": "156123a2d96a67d9e92c55616fc67e918b79f400bda360a8f3ca2127b7394c97",
+      "bytes": 4224
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Matrix/MatrixLogDet.lean",
+      "sha256": "721b48b823e13fa7d08bc697d6e05ef983574da192206df520db953053478aab",
+      "bytes": 3078
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Matrix/OpNorm.lean",
+      "sha256": "db502ad61c6d5a5cda0c7242dc464d771bf769ab0483c2050732919b23cccc12",
+      "bytes": 6388
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Matrix/RegularizedLogDet.lean",
+      "sha256": "768393c2803511b10a9e22eda7e2f4a764b9f2c761f7ef6f8453e933655b3f5c",
+      "bytes": 11473
+    },
+    {
+      "path": "SlowEquilibration/Upstream/OAI/Probability/SKGap/Model.lean",
+      "sha256": "a64e6458d2de013be40d7b6ae4c4ca14d2062a13652c8a67655536e7a567987e",
+      "bytes": 2760
+    },
+    {
+      "path": "SlowEquilibration/ValueObservationSmallOverlap.lean",
+      "sha256": "2f82433b46ee678ef057375623b97f1ac6ae31fb17d62e0ea05c3768df2bcf69",
+      "bytes": 5645
+    },
+    {
+      "path": "SlowEquilibration/ValueTangentConditioning.lean",
+      "sha256": "0263619ed41205e72982fa055fbff64e456b5351cea50cd8f5236d432d339c50",
+      "bytes": 7772
+    },
+    {
+      "path": "SlowEquilibration/WeightedAreaFormula.lean",
+      "sha256": "758825356216fe04568e22241612fa1a4034bf34283a07b97aa75c3f86e1f0d7",
+      "bytes": 19241
+    },
+    {
+      "path": "SlowEquilibration/WholeFieldRegression.lean",
+      "sha256": "f5e6a8e60eee90524d9c22b76ed722fc1ba9f2d61536887e958859485d5e3d9f",
+      "bytes": 19168
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/Algebra.lean",
+      "sha256": "e8bd1e370872d36037afc9f6bc6a2c069bbcb95605a4a50166ceb97f59cc4432",
+      "bytes": 1356
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/ContinuousBilinForm.lean",
+      "sha256": "6a2092c753f4236b1199eb1ac422c195ba053b18958e38ecd9677f49d4e5fd91",
+      "bytes": 11938
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/DenseCountable.lean",
+      "sha256": "566c521ca58fc01cbe8fc4141086f98df387c91a457b505f2cdd9ad91900ea0f",
+      "bytes": 1087
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/ENNReal.lean",
+      "sha256": "b2a68bed534ee371044d77b8223b6f0969074066b11cd1ddf6bbf68c9267403a",
+      "bytes": 1908
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/FiniteInf.lean",
+      "sha256": "5731080f16cb712effaffa72739ff36d4a4835f9385e5bbb8e06d88c6617425d",
+      "bytes": 2324
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/HasLaw.lean",
+      "sha256": "990e35242e14e80f00f290de63d1da4ba1d70c3c14f757312170dce8d0a478f6",
+      "bytes": 668
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/LinearAlgebra.lean",
+      "sha256": "9d01184f8cbf9b79e29a7fa28f0ddd73c2d5dc3cbda690a02a7fd90ea7594a64",
+      "bytes": 3295
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/MeanInequalities.lean",
+      "sha256": "396701f3112dea060898d6e5c3e979786f0f541618e22f290118251b00b2106e",
+      "bytes": 2358
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/MeasureTheory.lean",
+      "sha256": "6792d2d55e8d05aa83b0faadd256092129bf834c64c483c76d74af9b7ea46f94",
+      "bytes": 14813
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/Metric.lean",
+      "sha256": "13f5040961175788f8631ba4551a00ef4671a0c172ba85f145c57b025f7b7d9e",
+      "bytes": 2091
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/NNReal.lean",
+      "sha256": "92dbb17acfc90d8544d9021074814bbba164de8c85b4796603a261237bd87336",
+      "bytes": 411
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/Nat.lean",
+      "sha256": "637f1fa12fb1cd584ce886f06b9a5167b5a7e96415740112e0ed60157916be10",
+      "bytes": 310
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Auxiliary/Topology.lean",
+      "sha256": "ce23e4180f97416196f30f05f52756ecc46c99737ec9bb674c9ed3f16014e2b6",
+      "bytes": 5509
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/Chaining.lean",
+      "sha256": "6552a56406f1ff6ad8cdbc76d688962c8af271600d87e6bb0e3c7c177ea4ff46",
+      "bytes": 12382
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/CoveringNumber.lean",
+      "sha256": "559c92ab7e0900f689987a0cbed9b6b77f3dd3a8a9011a3a0e1bd6bf5def11ed",
+      "bytes": 16667
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/HasBoundedInternalCoveringNumber.lean",
+      "sha256": "3dd6b2e56ba360438dda3b8b35fce1ef486efa75277d50c9042a3b4f891020bd",
+      "bytes": 7981
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/IsKolmogorovProcess.lean",
+      "sha256": "ae96f13879c65b93b85dc64a15c28557f246af7dc27727e6c9dad2aacd43a5a8",
+      "bytes": 53934
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/KolmogorovChentsov.lean",
+      "sha256": "dc6f7989cedef6ed60af2bd4f049e04820074f8c7cb080f653317d4a5c64b9da",
+      "bytes": 62684
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/KolmogorovChentsovInequality.lean",
+      "sha256": "8a6c53ec559e9c9604437da6fa15c89b3d87338027f73a96be9f4c33a87b483b",
+      "bytes": 18713
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Continuity/LimitModification.lean",
+      "sha256": "fa87ed79b592488cb7128515f78c47f3a31ce31fabcd9b4dc7c138275094f2c2",
+      "bytes": 19143
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/BrownianMotion.lean",
+      "sha256": "7daf985315ea32196f55dfdcec7f8f162aaac40d11ae26acb5d4c5498124d015",
+      "bytes": 38192
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/CovMatrix.lean",
+      "sha256": "636b58daecbf92967a89046cd359315b4620fd7648e68ebb52793fb10b7b992d",
+      "bytes": 4793
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/Gaussian.lean",
+      "sha256": "7970de8c7bceb385a286a4dc9b5ddbf377102fdd9943c68baf852a12b66f7a64",
+      "bytes": 934
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/GaussianProcess.lean",
+      "sha256": "e3191af57178e769ce08a238420ae58eb3e5577cee8c81c1b3368e28d2ffdfb9",
+      "bytes": 1936
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/Moment.lean",
+      "sha256": "2525d6421fd74514092fc6cdd02754e34d575d3ceb13f33e4da7a0bb5b134ffc",
+      "bytes": 6789
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/ProjectiveLimit.lean",
+      "sha256": "ee77f2fab3c0bb4ba38ab80bd16b94478d3958b0c4ed7b3d4eaea9cc390b983d",
+      "bytes": 9876
+    },
+    {
+      "path": "vendor/all-lean/BrownianMotion/Gaussian/StochasticProcesses.lean",
+      "sha256": "c5fc98b72eb3044fe49add5b47ce10ec8a9aeb1e47aa11aa32a91a2e0c393f81",
+      "bytes": 2399
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/ContinuousAEAdaptedPredictable.lean",
+      "sha256": "1931d42cc33095045cfc0e14aef33a430bc19ef24eb04e38e8a22fe8c44fcbf6",
+      "bytes": 4657
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/ContinuousAdaptedBrownianIntegral.lean",
+      "sha256": "de6e12d845270fe919baddb2e89bcd400d62ba5953c0842dc1d386a2adb043ec",
+      "bytes": 7525
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/ContinuousAdaptedPredictable.lean",
+      "sha256": "78d0e6357630ca7eb9ffb9057f5c5bae95ef0af06a07aebc315fe2920ecd3624",
+      "bytes": 8771
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/ContinuousAdaptedSteps.lean",
+      "sha256": "e6c417cde2ec83385ffd2977a51de69059a9cff442d1958e6992272ebae2b536",
+      "bytes": 7029
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredBrownianElementary.lean",
+      "sha256": "65cb0a061042894dd4e78d5c5520f293838011b772a6cbecc5b24fb42c950efc",
+      "bytes": 14772
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredBrownianIntegral.lean",
+      "sha256": "d425768139b8e904c7bcee4df1cfed4f908acdac836bb3859b3f87ee37ae6203",
+      "bytes": 23538
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredContinuousBrownianIntegral.lean",
+      "sha256": "3c2904e79a8089f013c0f0548b50d1945928486892d1adc634ce32577ff16973",
+      "bytes": 7569
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredItoContinuous.lean",
+      "sha256": "1f1a56367620ae4248bb14be0cc1758d2f4fc74e38cbde3f854dca6063015af0",
+      "bytes": 33928
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredItoL2Continuity.lean",
+      "sha256": "883349c45ef361845a206df01cdc3c131db5d956999f6f868e1f14ef8db4fabc",
+      "bytes": 12439
+    },
+    {
+      "path": "vendor/all-lean/FourPapersCommon/FilteredItoProcess.lean",
+      "sha256": "031423712188cd19a9f14dd418b353636dadb50f1688c4cb9b6132ab44fdbcbe",
+      "bytes": 37380
+    },
+    {
+      "path": "vendor/all-lean/KolmogorovExtension4/CompactSystem.lean",
+      "sha256": "e1e1955579e5050d41ddf6543af8afd3b45f88e1b4d493bb83d81010c24dda7a",
+      "bytes": 13060
+    },
+    {
+      "path": "vendor/all-lean/KolmogorovExtension4/KolmogorovExtension.lean",
+      "sha256": "63fd1ac225913bbfeca8d118984f56fed7bd49d7b80c563771a256892397dcbc",
+      "bytes": 8813
+    },
+    {
+      "path": "vendor/all-lean/KolmogorovExtension4/RegularContent.lean",
+      "sha256": "82ddc42c79edb22dfb6b5c0ab26c2c8e8ed98e1e2d8d7d4cf4ddc000452eb27e",
+      "bytes": 4247
+    },
+    {
+      "path": "vendor/all-lean/Lemmas/SpinGlass/gaussian_concentration.lean",
+      "sha256": "d9057a9493b17b415cb4a3c0bff3ef8f29fde3becd4270bf659578042fee42a3",
+      "bytes": 133437
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/AdaptedContinuous.lean",
+      "sha256": "adad7ebb67fd47f77eda21a2e09406e2e6327ec8b0fa8189c07f45793698aaf8",
+      "bytes": 4752
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/AdaptiveGradientDisclosure.lean",
+      "sha256": "0cecebfd00943a01f09e58d3efc0274832fe4d9e81d1b01a3107ef36efcf5f7d",
+      "bytes": 5429
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/CenteredGaussianConcentration.lean",
+      "sha256": "45f1099faf1a2c18b7bf1e8b5fb9cec46d36e7bd274fde132c7aa2a98ae290b9",
+      "bytes": 4113
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/EuclideanNets.lean",
+      "sha256": "f723e60a82c115b7a2ea0e0e7b9a91da497f4d4ed172c0fa1fae4d2d263a0121",
+      "bytes": 5545
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/FiniteModel.lean",
+      "sha256": "29359ff51c45592af43f6fe35ff502328ef18453b5cd71f12a66d6e6cd48b647",
+      "bytes": 11793
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianExponentialNorm.lean",
+      "sha256": "7382b48fb0eb8794f47784319c4c7a249823c6e5956af88fe53c7341ae9815b7",
+      "bytes": 2081
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianIntegrationByParts.lean",
+      "sha256": "702045b28edf360b18eb64068e439cfdaf53fe782111f61387e58b506c9129dc",
+      "bytes": 11811
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianLandscape.lean",
+      "sha256": "fc060fb2fa3941a7cf44748ff0d196ba0b7babd0e9329f19e110d80423c5c831",
+      "bytes": 15736
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianLandscapeMoments.lean",
+      "sha256": "4ea22a5313574a6fdb35d521cd92131e7e5c4daf117f8f8b15b8fdf1c3b8ecf0",
+      "bytes": 14473
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianLipschitzConcentration.lean",
+      "sha256": "1dc01bffa6a8bd10100de00255e50251b677fe46f02bc37ed48fb3c4a78e9c67",
+      "bytes": 5197
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianOrthogonalForkCovariance.lean",
+      "sha256": "a672a33c56eb9845f8aad746e5911264c7a1d325d75255581f4873971f97690d",
+      "bytes": 13886
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianRotationConcentration.lean",
+      "sha256": "afe59284f396d4c90f9af3b335dd39b21b49d802e21dada68d2cfded3908c08f",
+      "bytes": 6456
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianRotationExponential.lean",
+      "sha256": "1002d39aa7c8affc813b8c08b0c589375e01f42ed7c309fa5f3ab15069a72787",
+      "bytes": 4786
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianRotationVariance.lean",
+      "sha256": "a2f59be42ecd5545a12e3d42d0399e412f2005688e10caf325b62734d62c77f6",
+      "bytes": 11499
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/GaussianSmoothConcentration.lean",
+      "sha256": "6493ec4e4d6cb013332eae0339447070c4d233537ad8866336bc12582a5e6fef",
+      "bytes": 5173
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HamiltonianDerivativeCovariance.lean",
+      "sha256": "a92ee57f1940b1c284770938385caebfe79f8ac8e4536e7a24ffafbecda9ac19",
+      "bytes": 18103
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HamiltonianTangentHessianCovariance.lean",
+      "sha256": "e88cd4f95394e4f8879e724fa684fd3785a730413725a4e5cf5550de289fe8bf",
+      "bytes": 9212
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HamiltonianTangentHessianGaussianLaw.lean",
+      "sha256": "3da9f66623b982e7268a5d3c5d9fa7e3a759ccec97a026c645809c33e1893309",
+      "bytes": 7427
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HamiltonianTangentJetCovariance.lean",
+      "sha256": "7355e388250a3005d811dbd494bbae6907de6860e5f660b06dcf4739eefb8339",
+      "bytes": 5797
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HardSphereDynamics.lean",
+      "sha256": "63ff2e7511be92c8d42c4aa22b7e2d9d08bb125785770787012670978448ba9a",
+      "bytes": 18184
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/HardSphereStochastic.lean",
+      "sha256": "35fe15b6bd105593a2642d9beadecfae4ca827863fa98be202470d535d982393",
+      "bytes": 17685
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/LandscapeDerivatives.lean",
+      "sha256": "b6743ab2440583deac055bdc0697b4cc612a66e2e9abf3b7c132bb27be38cb77",
+      "bytes": 17931
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/LipschitzBumpApproximation.lean",
+      "sha256": "35c4efa64bc9863e2fa6632ed488e93a5e8cd9072efd614a2656a99bfbda9d79",
+      "bytes": 4534
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/OrthogonalGaussianDisclosure.lean",
+      "sha256": "8938575da2e3256bf498191191c4c982085c89d7e023503720c6039469faabf7",
+      "bytes": 7951
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/PredictableDriftTime.lean",
+      "sha256": "1e88eea078e63a17d28c39a249731dbd548e33ed457eedf360bf19b135244aea",
+      "bytes": 23805
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/PredictableItoTime.lean",
+      "sha256": "56c8a4ff02c9fb06cf3595430dc9f59024f5b966753711c40f2bab0c42082754",
+      "bytes": 19866
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/SphereGibbsEntropy.lean",
+      "sha256": "c6cf8a411666de0d08c8d95ea01b1d120c07e02e725b42ad259de8f0e81558fc",
+      "bytes": 18501
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/SphereInitialLaw.lean",
+      "sha256": "2030e017f20d7b61b060881d9a3dbfd2f1c786c11d7e0d6854f5fa53a1df86bb",
+      "bytes": 9093
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/SphereSurfaceIdentification.lean",
+      "sha256": "435966f9649b8cb19e8b1fb2970e80003fcbef812e18c7811b9a9bfb8c6e8155",
+      "bytes": 9662
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/SphereTensorObservable.lean",
+      "sha256": "3db371d73edbc737f07c258ab9004bf5b3b8cef1ffd98ab6a53289a3d35f3cb5",
+      "bytes": 6166
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/SphericalIntegrationByParts.lean",
+      "sha256": "3d14c7b8d96e40092a2f32e9f795a6afb0f36be0117e94580eb2d18e22c5aef5",
+      "bytes": 8704
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/TensorHamiltonianRotation.lean",
+      "sha256": "40dc654a74cbaa9852b85c2e1526cb801415c4097b3c735f670367c9e1a8c54a",
+      "bytes": 3822
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/TensorOrthogonalAction.lean",
+      "sha256": "4940f4ea635c9fd25a16758cdbfb736af1b2221561393a5f1b179731ad3a555b",
+      "bytes": 5438
+    },
+    {
+      "path": "vendor/all-lean/SphericalAging/VectorBrownian.lean",
+      "sha256": "de5b6b3d3e9b9fd226e1f9cd846c511711114c8a025455b1ced887bcf2d6874f",
+      "bytes": 23885
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/CameronMartin.lean",
+      "sha256": "c524bfed401efe7d83f6d1b3a2cb077de2f72c1932e787bd9222a759c380d57d",
+      "bytes": 12230
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/CameronMartinTheorem.lean",
+      "sha256": "546f5fe827611586b0109dd5d4809734c37f5dbf81d6907ee7e51e9907313e83",
+      "bytes": 29099
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ContinuousExitTime.lean",
+      "sha256": "3598e3099bd07112661f95b3686cf7443f181e84a57d568c5c466d477b113c9b",
+      "bytes": 53250
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ElementaryIto.lean",
+      "sha256": "ff81d58312674a3adcd4079b0e93a9d31c7c3a8ed052f2fb68d18352fc557392",
+      "bytes": 22124
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ElementaryMartingaleIntegral.lean",
+      "sha256": "b9e0112c3af96d04081d93ee67594439748d0af123687650b8c37d7c2ceb9381",
+      "bytes": 29283
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/FubiniLift.lean",
+      "sha256": "ba512933776b1be0333e8110b37abb04852ded3d1c92516dabe5cf36724c5cf7",
+      "bytes": 41089
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/IteratedIntegral.lean",
+      "sha256": "5105c6a901188adde28b2e189bf69fbb8a66813ab1101fcba76678b060c5f3b2",
+      "bytes": 65495
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoConstruction.lean",
+      "sha256": "a0601696ef8f911895312f7f28888a70422fddc9b1e632a6629ce34c445edb59",
+      "bytes": 25139
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoFormula.lean",
+      "sha256": "505c4797e758478d5bdb895d3de319066fd442a8d2dbdebf4b2be2d27eca7d6e",
+      "bytes": 23242
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoFormulaGeneral.lean",
+      "sha256": "83462d713d6e86891216fd1355a34252f71f836653e25b3d57a48d4915470827",
+      "bytes": 26660
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoFormulaPartition.lean",
+      "sha256": "60971b65065ec0f4017158e23a8544d1662ab22f58d97a0ff486730b9feb01c2",
+      "bytes": 73440
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoMaximal.lean",
+      "sha256": "b0afeefb1abf6143ab8c7cc1e7bcdc7dd67b9d9f031e351555dd0377620c5cdc",
+      "bytes": 25144
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/ItoProcess.lean",
+      "sha256": "15134224c2b54ea1717430969a370801a5bb035f303ec09b8fa27e3d6d740f54",
+      "bytes": 36770
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/LocalMartingaleContract.lean",
+      "sha256": "a4d55a8bf2a4e9d304ce537de22d380eb90ad26d4a1a69283770c3a68047899e",
+      "bytes": 35874
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/LocalizingStoppedProcess.lean",
+      "sha256": "c531a5e50d4de1f1bc6f3d5a0e2adfa59764f00d9d3b0b90737df1a5f02bd708",
+      "bytes": 36954
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/MartingaleLeftSum.lean",
+      "sha256": "c74661c80df4602dec3cdb790bfd65e43e915b4395d74e6652c84d4a2e0eee8b",
+      "bytes": 49128
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/PartitionStoppingTime.lean",
+      "sha256": "e7932b0e432950e20a4fed6095bdcb5fdc249ec0b10a069a1a73c32a50f545b4",
+      "bytes": 36166
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/PredictableDensity.lean",
+      "sha256": "57e3028244bf6d69a0f2504fa709c1ea67e82b36fad1af22ed80087709ce167e",
+      "bytes": 19371
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/PredictableProcess.lean",
+      "sha256": "ca456eb3197983080adb767a506e3a55b905f3ecbe0f552231a4dbe7f4bf9339",
+      "bytes": 16908
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariation.lean",
+      "sha256": "aa3158a3b95897d5e8f85693f63f29b78c943404f57e7a31db5f1c248291a397",
+      "bytes": 41280
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariationContract.lean",
+      "sha256": "8a3eb1e348405bb33459ee370161e7084d11b21299cf21c1b145bd8a6fad61d4",
+      "bytes": 48120
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariationDensity.lean",
+      "sha256": "8deea961e65d20eb9cec89571af27a5d7fc038dc8de141cb15ef3f0de4d48d28",
+      "bytes": 31544
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariationElementary.lean",
+      "sha256": "ab83daa317e1485356e61c54c0700be884881e31b4f04e110bbd1a99a78150a5",
+      "bytes": 36503
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariationGrid.lean",
+      "sha256": "46c3949c854abe8bc9a1848ed6394cb219620114102a8763fdecedac3e49def8",
+      "bytes": 31752
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/QuadraticVariationTightness.lean",
+      "sha256": "db995c0923c1d5dfd04665520abfa810a3d50db6ceb2a3c6dc03799f994ca40f",
+      "bytes": 5765
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/Simplex.lean",
+      "sha256": "345363370851706a73f9e45f79d7c5594b4cdba5eaddb34795b89e5856394103",
+      "bytes": 18928
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/Symmetrization.lean",
+      "sha256": "9958ed84ac350406a0d71bb63be70ec3679f9fe28f89c567b5f7da334271e6ee",
+      "bytes": 23312
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/TendstoInMeasureAlgebra.lean",
+      "sha256": "a55c27200109d640176f03c73f8e83cfbdf6631d876bbb1db119f365ea56292c",
+      "bytes": 7642
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/TightProduct.lean",
+      "sha256": "15d072a0be1a441474149f27880f9911805b80c679a2b26d099b38fbfbe86222",
+      "bytes": 24407
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/UniformPartitionSums.lean",
+      "sha256": "a266c334a12dd4fc2f2d33fed311f0d26a887a0dbb6dc4f7c1898bc960be5d48",
+      "bytes": 32623
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/WeightedBracketRiemann.lean",
+      "sha256": "215107f028a8048a40cb70559d7e09c5f12e76dbb6167f14e9e763d912c6d5a4",
+      "bytes": 59306
+    },
+    {
+      "path": "vendor/all-lean/StochasticCalculus/WienerIntegral.lean",
+      "sha256": "e8c251c6f1487d576b83972100c199b71bfb32351abffb8c10adf003a73e0824",
+      "bytes": 57228
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "ec65b44ea9ba2817c74a168c49346b8e54457f4de20806ca87b1e38b7404047c",
+      "bytes": 2371,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SlowEquilibration/PairValueCovariancePerturbation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-types-v3-jet-simp-case/a1038ddc352dc464fd5a": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/slowequilibration-palomar",
+    "source_commit": "a28aaa336343c4caf43791ababd8ed0ee5c7b58e"
+  }
+}

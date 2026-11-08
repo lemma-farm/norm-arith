@@ -1,0 +1,63 @@
+{
+  "id": "bb6c6ecf87895c1c2f92",
+  "source": {
+    "repository": "carson-olaf/c3a-two-temperature-bound",
+    "commit": "033952dc1ca04e62a7b2a341561d07c9809437b9",
+    "project": "carson-olaf--c3a-two-temperature-bound--033952dc1ca0",
+    "path": "formalization/lean/RequestProject/ProductWeights.lean",
+    "file_id": "031f23481694214822a9",
+    "source_sha256": "031f23481694214822a990cd62d81485132df30f433807a7435e050120a4bb22",
+    "start": 140,
+    "end": 164,
+    "original_start": 136,
+    "original_end": 164,
+    "declaration": "mass_deviation_le",
+    "source_url": "https://github.com/carson-olaf/c3a-two-temperature-bound/blob/033952dc1ca04e62a7b2a341561d07c9809437b9/formalization/lean/RequestProject/ProductWeights.lean#L140-L164",
+    "archive_url": "https://github.com/PalomarArchive/carson-olaf--c3a-two-temperature-bound--5342854df778/blob/033952dc1ca04e62a7b2a341561d07c9809437b9/formalization/lean/RequestProject/ProductWeights.lean#L140-L164"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "mass_deviation_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "c746c657f1ebb04778556592b631d073fb7b655d2645a31609fbc269dc63cca1",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "aa05220ed06dd827cb7492a70b37fff7e8d770cdb8b01a847eac0669d5758d64",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/ProductWeights.lean",
+      "sha256": "031f23481694214822a990cd62d81485132df30f433807a7435e050120a4bb22",
+      "bytes": 9750
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "7d7b14e4760206f6726c08b5d4a42a646963195ec871f10780bed21a42d4edba",
+      "bytes": 462,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "84d5cd34acd18033ea700110786fd0f6b3392871d76a683d155c82e196c41072",
+      "bytes": 3580,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RequestProject/ProductWeights.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/carson-olaf/c3a-two-temperature-bound",
+    "source_commit": "033952dc1ca04e62a7b2a341561d07c9809437b9"
+  }
+}

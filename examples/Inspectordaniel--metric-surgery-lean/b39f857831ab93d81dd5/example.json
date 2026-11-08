@@ -1,0 +1,81 @@
+{
+  "id": "b39f857831ab93d81dd5",
+  "source": {
+    "repository": "Inspectordaniel/metric-surgery-lean",
+    "commit": "91c2fc65884c9b284fdc6ba4071aa63c12ded471",
+    "project": "Inspectordaniel--metric-surgery-lean--91c2fc65884c",
+    "path": "Tablet/LipschitzSeparable.lean",
+    "file_id": "09ef1638d889c12aafe3",
+    "source_sha256": "09ef1638d889c12aafe31d3e66c9dc51a67224bc32a57a9e6732ce53d372fc8a",
+    "start": 70,
+    "end": 91,
+    "original_start": 60,
+    "original_end": 91,
+    "declaration": "LipschitzSeparable.hgen",
+    "source_url": "https://github.com/Inspectordaniel/metric-surgery-lean/blob/91c2fc65884c9b284fdc6ba4071aa63c12ded471/Tablet/LipschitzSeparable.lean#L70-L91",
+    "archive_url": "https://github.com/PalomarArchive/Inspectordaniel--metric-surgery-lean--ed529b7675cf/blob/91c2fc65884c9b284fdc6ba4071aa63c12ded471/Tablet/LipschitzSeparable.lean#L70-L91"
+  },
+  "native_target_name": "LipschitzSeparable",
+  "source_declaration_label": "LipschitzSeparable.hgen",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "94a072c779a4c4d339af3119377155d79efc4ca1065585f3a0fa33587f78bb0f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d7ce8e08dfdf3e0ecb563da20230edbafbb4081f852089c7f136428e38eff6b2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Tablet/ConeInterpolation.lean",
+      "sha256": "9a7359f848881a7b7228bb621e68656b03dbd94ea6dbe7fdc652ce369c3fa5e4",
+      "bytes": 3278
+    },
+    {
+      "path": "Tablet/LipschitzSeparable.lean",
+      "sha256": "09ef1638d889c12aafe31d3e66c9dc51a67224bc32a57a9e6732ce53d372fc8a",
+      "bytes": 19489
+    },
+    {
+      "path": "Tablet/Preamble.lean",
+      "sha256": "38a314c85cdcdc7fcc2cde4d486fdbdcec27efd56e8f3902b29f432840adbb75",
+      "bytes": 857
+    },
+    {
+      "path": "Tablet/RationalCompatibleValues.lean",
+      "sha256": "7e6e92e297698d3d13725f8cdb3fb2179a30b108e8585e706d4ebd23d601f6eb",
+      "bytes": 4524
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "ad44ed021721776f0c16d9d376ef7c06ae2fc074fe8e8f87caa2785ef048dde3",
+      "bytes": 401,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Tablet/LipschitzSeparable.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b39f857831ab93d81dd5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/Inspectordaniel/metric-surgery-lean",
+    "source_commit": "91c2fc65884c9b284fdc6ba4071aa63c12ded471"
+  }
+}

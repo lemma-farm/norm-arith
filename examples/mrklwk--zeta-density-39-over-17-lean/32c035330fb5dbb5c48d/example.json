@@ -1,0 +1,78 @@
+{
+  "id": "32c035330fb5dbb5c48d",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0",
+    "project": "mrklwk--zeta-density-39-over-17-lean--ee2a8a32be49",
+    "path": "lean/GuthMaynard/NativeSource/GuthMaynard/Weyl.lean",
+    "file_id": "071056fa73294132b38d",
+    "source_sha256": "071056fa73294132b38da210181852f7f1a85e31cf07b02e5a1685aeab244115",
+    "start": 484,
+    "end": 509,
+    "original_start": 476,
+    "original_end": 509,
+    "declaration": "logarithmic_weyl_AB_process",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/GuthMaynard/NativeSource/GuthMaynard/Weyl.lean#L484-L509",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/GuthMaynard/NativeSource/GuthMaynard/Weyl.lean#L484-L509"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "logarithmic_weyl_AB_process",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d5e5b4979c50cce8bc92237d82ad6fd2c24e73322b231359b50dd61b5ed6148a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c4b0256316552ad0e6e3cdad28adb7de8cff3f766df37e58fd9c879037c9e3c1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/SecondDerivative.lean",
+      "sha256": "499d5421f439b55b681445ef2decb5057a77e42b4e310680dbcdd1f60b45630a",
+      "bytes": 17373
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/SecondOrderMeanValue.lean",
+      "sha256": "f29f5d79b3959cf251901b3a430a5c87cdca8f966c50225d4afb541a01596857",
+      "bytes": 3037
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/VanDerCorput.lean",
+      "sha256": "4d94abf1fbb3d7d1574c31056d0cb1e7213d6f4d81f31bfa09fc7dbff0eb6c5d",
+      "bytes": 29357
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/Weyl.lean",
+      "sha256": "071056fa73294132b38da210181852f7f1a85e31cf07b02e5a1685aeab244115",
+      "bytes": 25626
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "d43e5befa037daff1d2aa3286d7d7e399a2da2e420b22b9675e134ceea027c71",
+      "bytes": 692,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5ca02654a1c2367f69008faae6b10c8a49a039ea55c21dfe54174cab961a62c3",
+      "bytes": 3574,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GuthMaynard/NativeSource/GuthMaynard/Weyl.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0"
+  }
+}

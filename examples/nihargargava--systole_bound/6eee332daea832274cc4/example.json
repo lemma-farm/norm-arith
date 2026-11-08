@@ -1,0 +1,171 @@
+{
+  "id": "6eee332daea832274cc4",
+  "source": {
+    "repository": "nihargargava/systole_bound",
+    "commit": "a54807b9bf6cbd61194c1fb78da380535ec8a871",
+    "project": "nihargargava--systole_bound--a54807b9bf6c",
+    "path": "CookMagyar/UnweightedCompleteModel.lean",
+    "file_id": "01cc35150d3956f5bb44",
+    "source_sha256": "01cc35150d3956f5bb442a664559fbc7d2d542432759184cf575629ead95b348",
+    "start": 117,
+    "end": 145,
+    "original_start": 105,
+    "original_end": 146,
+    "declaration": "norm_cubicUnweightedExpSum_sub_allResidueModel_le",
+    "source_url": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/CookMagyar/UnweightedCompleteModel.lean#L117-L145",
+    "archive_url": "https://github.com/PalomarArchive/nihargargava--systole_bound--2ba371315fe1/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/CookMagyar/UnweightedCompleteModel.lean#L117-L145"
+  },
+  "native_target_name": "SystolicGrowth.CookMagyarMajorArc.norm_cubicUnweightedExpSum_sub_allResidueModel_le",
+  "source_declaration_label": "norm_cubicUnweightedExpSum_sub_allResidueModel_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "74feca1fdcebbc6806c7a5e68f69303327568386e125b5f92f1405e363795e53",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "8d57f6f076b41fd79e31dbb2fec885aeb308eb8fdf5df5c6e4495d4fd6b47ce1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CookMagyar/AbelError.lean",
+      "sha256": "851fcdc479cdb1b0f9f487c62860b302ffc0180a9fb42c9a11335338848b5e2f",
+      "bytes": 5650
+    },
+    {
+      "path": "CookMagyar/ArcGeometry.lean",
+      "sha256": "01810f05642a325c9eefbcfd2843f07220219eb50406d6c5fb6192d64d5166e3",
+      "bytes": 12565
+    },
+    {
+      "path": "CookMagyar/ArcPhasePeriodicity.lean",
+      "sha256": "4fab3809d72c09a39a1c61dbee181048bd7379c44244cdaf203726671d82af98",
+      "bytes": 5337
+    },
+    {
+      "path": "CookMagyar/Arcs.lean",
+      "sha256": "4e6b63825aa43444889916bbcbb5c0c0cef0c7878039a941d232cd8636724019",
+      "bytes": 7775
+    },
+    {
+      "path": "CookMagyar/CircleMethod.lean",
+      "sha256": "516f2e0f59063dff24d9afe147f13c6c009ac076f4dff5a9215772b22992d71a",
+      "bytes": 10961
+    },
+    {
+      "path": "CookMagyar/CubicAbelPhase.lean",
+      "sha256": "e9592dec623254d8d6105f25bf3916e2369bb2e511e300f8ad02154e72d6dc14",
+      "bytes": 26063
+    },
+    {
+      "path": "CookMagyar/CubicResidueAbel.lean",
+      "sha256": "75845f61cbc801affd8d23065c2ee57163d86eee1c1dfe2c50fed8c31dd430ca",
+      "bytes": 12511
+    },
+    {
+      "path": "CookMagyar/FiniteFourier.lean",
+      "sha256": "45a72b7776ff44845c1e9b4a5cdf26845c7dc2fdc414f4f2eaebe733671f2aa2",
+      "bytes": 5387
+    },
+    {
+      "path": "CookMagyar/HuaDivisorBound.lean",
+      "sha256": "b9db0c01d205e04999abb4c3ba46f24f2c5a046ad35212e3e6c6ce425439afde",
+      "bytes": 105436
+    },
+    {
+      "path": "CookMagyar/HuaEstimate.lean",
+      "sha256": "18f939caf79b6f9e7d3dab5ec35a161ba362b2165446fb874c7b334697ac1830",
+      "bytes": 90793
+    },
+    {
+      "path": "CookMagyar/HuaMoment.lean",
+      "sha256": "7725f630f262db603da18ea07c8873f06e906d247dddb656bd59c59a6b3eed84",
+      "bytes": 6181
+    },
+    {
+      "path": "CookMagyar/HuaOrthogonality.lean",
+      "sha256": "fd442826ef3bac0dc59214b46901813b6d30b23eaa2011b73b1aa8cd84109476",
+      "bytes": 11181
+    },
+    {
+      "path": "CookMagyar/HuaShift.lean",
+      "sha256": "d3b98e27ad11dfa445b1fe62fdffea9bdb09a404d27e49fe48a1795b72151141",
+      "bytes": 25612
+    },
+    {
+      "path": "CookMagyar/MajorArcArithmetic.lean",
+      "sha256": "743e98ef1a71f7a23fe0a2930ea4bacc165e3563b3219e7f6232dc14cf079d13",
+      "bytes": 11040
+    },
+    {
+      "path": "CookMagyar/PrimePowerAnalytic.lean",
+      "sha256": "78e4e75c751a6f6f202052c64fc09d00896702ff57f2bdebff5cf9eae3a19daa",
+      "bytes": 12363
+    },
+    {
+      "path": "CookMagyar/PrimePowerAsymptotic.lean",
+      "sha256": "696fe5c3b4ec383eb82e91c618b75a9a21281eb2a07650e71f96064b681b4dda",
+      "bytes": 4785
+    },
+    {
+      "path": "CookMagyar/PrimePowerBridge.lean",
+      "sha256": "90295919a4da7d9d3d2d63f9151ca09ce796c60cb5daa91595a8b13324ca88f5",
+      "bytes": 13450
+    },
+    {
+      "path": "CookMagyar/PrimePowerMass.lean",
+      "sha256": "2b5cbab92519e672942cc399c97de28ccb10e91e8809a33571765ed1f5e74ba6",
+      "bytes": 5271
+    },
+    {
+      "path": "CookMagyar/PrimePowerRemoval.lean",
+      "sha256": "be6acc54fb5bf197421b2982d835d2d14dedee232ce217d67062d558a8823707",
+      "bytes": 5256
+    },
+    {
+      "path": "CookMagyar/UnweightedCompleteModel.lean",
+      "sha256": "ac07f3943494f13f89b4e11eed6041d29c8573bb5989fbda53c431e3999af162",
+      "bytes": 9799
+    },
+    {
+      "path": "CookMagyar/UnweightedResidueAbel.lean",
+      "sha256": "f15d7df461688b335de99f9f5d0eb88e91d2cf1d3511935a5a599f5b478e7911",
+      "bytes": 3998
+    },
+    {
+      "path": "CookMagyar/UnweightedResidueCount.lean",
+      "sha256": "981b191df4392ea3504deaf9adbfa0bdf5083d1ee2a1ddfa70ba05d11f734349",
+      "bytes": 3563
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea0870ec40534e309e6f95a588b8d2cb9108c5297c20d52957a99940feff6163",
+      "bytes": 662,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "CookMagyar/UnweightedCompleteModel.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/6eee332daea832274cc4": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nihargargava/systole_bound",
+    "source_commit": "a54807b9bf6cbd61194c1fb78da380535ec8a871"
+  }
+}

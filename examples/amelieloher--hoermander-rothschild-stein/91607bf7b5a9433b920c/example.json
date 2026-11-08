@@ -1,0 +1,131 @@
+{
+  "id": "91607bf7b5a9433b920c",
+  "source": {
+    "repository": "amelieloher/hoermander-rothschild-stein",
+    "commit": "d1462014b4ca69cf04b250582ea45021aa07b546",
+    "project": "amelieloher--hoermander-rothschild-stein--d1462014b4ca",
+    "path": "RothschildStein/H2/KernelDifferenceIntegral.lean",
+    "file_id": "03e382d57858444fc710",
+    "source_sha256": "03e382d57858444fc710fcba5702a7d41a5761c017eb7d8fcb8131e872fe4a38",
+    "start": 40,
+    "end": 67,
+    "original_start": 40,
+    "original_end": 67,
+    "declaration": "LocDoubling.kernel_difference_integral",
+    "source_url": "https://github.com/amelieloher/hoermander-rothschild-stein/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H2/KernelDifferenceIntegral.lean#L40-L67",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hoermander-rothschild-stein--a3f8df3a01f8/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H2/KernelDifferenceIntegral.lean#L40-L67"
+  },
+  "native_target_name": "RothschildStein.H2.LocDoubling.kernel_difference_integral",
+  "source_declaration_label": "LocDoubling.kernel_difference_integral",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "4ed57999b38ff4c09afa23cb958c8db48b7e40cb41593d38ea38d2cce17f8f94",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "684a5ce7054fe4b458fffe6e9af2ec3e117afaf6996c9b9e4ea25d3e4981e48c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RothschildStein/H2/AnnularIntegrals.lean",
+      "sha256": "bfab23bcb5e7befa450374215647c3690e3b5601bd9cdcce5168e683fe5d0f9b",
+      "bytes": 3888
+    },
+    {
+      "path": "RothschildStein/H2/BallMeasures.lean",
+      "sha256": "3417494ec8a9c3f859e931e02a63d013c933d659d3890c40643edda35414fde2",
+      "bytes": 2659
+    },
+    {
+      "path": "RothschildStein/H2/KernelCancellation.lean",
+      "sha256": "f2d92b65c31cbbf66340ddba64c8eab4993b684ce1079a36800b2e72e65d5b1a",
+      "bytes": 2671
+    },
+    {
+      "path": "RothschildStein/H2/KernelClass.lean",
+      "sha256": "55c0e5a0a58c2c0bc83a22c7c48e3523004f60c11bad97f0f2f3c3a799ebc7a0",
+      "bytes": 3972
+    },
+    {
+      "path": "RothschildStein/H2/KernelDifferenceIntegral.lean",
+      "sha256": "03e382d57858444fc710fcba5702a7d41a5761c017eb7d8fcb8131e872fe4a38",
+      "bytes": 3582
+    },
+    {
+      "path": "RothschildStein/H2/KernelTailBound.lean",
+      "sha256": "94e6a4ee07689149647ac01dfb0d980760df3eef73ff21559c51eacbb0bad48b",
+      "bytes": 2228
+    },
+    {
+      "path": "RothschildStein/H2/KernelWeights.lean",
+      "sha256": "643753cca854b57a02cccdbfecf099b6452f6e84f93fb63bc86514cdeb02cb77",
+      "bytes": 2726
+    },
+    {
+      "path": "RothschildStein/H2/LocDoubling.lean",
+      "sha256": "c89981f1040cdde43fdf2718c4be51f4a6902a13d284c8160c3d690edfd5a1fb",
+      "bytes": 2972
+    },
+    {
+      "path": "RothschildStein/H2/Patches.lean",
+      "sha256": "fd17523c0ca4deb8fcf7b53e104378e999b2ff6a6cbfedd216ca7b6c438c6631",
+      "bytes": 1749
+    },
+    {
+      "path": "RothschildStein/H2/ScaledTail.lean",
+      "sha256": "c33d6b2b644a65c81eee0187aa01445af1eeec3389e806ac1404f9b216f624a0",
+      "bytes": 1738
+    },
+    {
+      "path": "RothschildStein/H2/VolumeComparison.lean",
+      "sha256": "7d60a9c40cfba797f8c526df61362cc1464da8d13b81e6275d7b75254c345397",
+      "bytes": 1671
+    },
+    {
+      "path": "RothschildStein/H2/VolumeGrowth.lean",
+      "sha256": "5609e66658ecc2f20ed3f5abbea935f84ae4205f422c1f3cd44c96d680dffc68",
+      "bytes": 3806
+    },
+    {
+      "path": "RothschildStein/H2/VolumeIntegrals.lean",
+      "sha256": "71e1c00312ef5703639876f1af758ccdda9c25add173ae228f1b5dd87f0fcf72",
+      "bytes": 6068
+    },
+    {
+      "path": "RothschildStein/H2/VolumeMeasurability.lean",
+      "sha256": "885dbe1f8ca565381009202a7ca047d47155a79f79b91722da56c12f48dc837f",
+      "bytes": 1213
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a1d28685d932ab03a360adc0e9c9af36d224bace1928bcecc09597d9195731bf",
+      "bytes": 1882,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RothschildStein/H2/KernelDifferenceIntegral.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/91607bf7b5a9433b920c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hoermander-rothschild-stein",
+    "source_commit": "d1462014b4ca69cf04b250582ea45021aa07b546"
+  }
+}

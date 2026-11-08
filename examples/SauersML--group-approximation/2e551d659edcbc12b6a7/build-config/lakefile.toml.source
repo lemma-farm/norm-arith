@@ -1,0 +1,154 @@
+"name" = "GroupApproximation"
+"version" = "0.1.0"
+"defaultTargets" = ["GroupApproximation", "PalomarChallenge", "PalomarSolution", "PalomarLIXChallenge", "PalomarLIXSolution", "PalomarSurjunctiveNonsoficChallenge", "PalomarSurjunctiveNonsoficSolution", "PalomarSurjunctiveNonsoficModelTests", "PalomarPestov91Challenge", "PalomarPestov91Solution", "PalomarTypeA2Challenge", "PalomarTypeA2Solution", "PalomarGubaThompsonChallenge", "PalomarGubaThompsonSolution", "PalomarGKPCommutingActionsChallenge", "PalomarGKPCommutingActionsSolution", "PalomarSTWProblemX1Challenge", "PalomarSTWProblemX1Solution", "PalomarSTWProblemXXIIChallenge", "PalomarSTWProblemXXIISolution", "PalomarBlanchardToeplitzChallenge", "PalomarBlanchardToeplitzSolution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "GroupApproximation"
+"moreLeanArgs" = ["-DwarningAsError=true"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Audit"
+"srcDir" = "scripts"
+"roots" = ["Audit.DeclFilter", "Audit.Scan", "Audit.Plants"]
+
+[["lean_lib"]]
+"name" = "PalomarChallenge"
+"roots" = ["Palomar.Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSolution"
+"roots" = ["Palomar.Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLIXChallenge"
+"roots" = ["Palomar.LIXChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLIXSolution"
+"roots" = ["Palomar.LIXSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLIXStrongChallenge"
+"roots" = ["Palomar.LIXStrongChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLIXStrongSolution"
+"roots" = ["Palomar.LIXStrongSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSurjunctiveNonsoficChallenge"
+"roots" = ["Palomar.SurjunctiveNonsoficChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSurjunctiveNonsoficSolution"
+"roots" = ["Palomar.SurjunctiveNonsoficSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSurjunctiveNonsoficModelTests"
+"roots" = ["Palomar.SurjunctiveNonsoficModelTests", "Palomar.SurjunctiveNonsoficSoficityEquivalence", "Palomar.SurjunctiveNonsoficSurjunctivityEquivalence"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarPestov91Challenge"
+"roots" = ["Palomar.Pestov91Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarPestov91Solution"
+"roots" = ["Palomar.Pestov91Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarPestov91ModelTests"
+"roots" = ["Palomar.Pestov91ModelTests"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarTypeA2Challenge"
+"roots" = ["Palomar.TypeA2Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarTypeA2Solution"
+"roots" = ["Palomar.TypeA2Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarGubaThompsonChallenge"
+"roots" = ["Palomar.GubaThompsonChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarGubaThompsonSolution"
+"roots" = ["Palomar.GubaThompsonSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarGKPCommutingActionsChallenge"
+"roots" = ["Palomar.GKPCommutingActionsChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarGKPCommutingActionsSolution"
+"roots" = ["Palomar.GKPCommutingActionsSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemX1Challenge"
+"roots" = ["Palomar.STWProblemX1Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemX1Solution"
+"roots" = ["Palomar.STWProblemX1Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemX1ModelTests"
+"roots" = ["Palomar.STWProblemX1ModelTests"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemXXIIChallenge"
+"roots" = ["Palomar.STWProblemXXIIChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemXXIISolution"
+"roots" = ["Palomar.STWProblemXXIISolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSTWProblemXXIIModelTests"
+"roots" = ["Palomar.STWProblemXXIIModelTests"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarBlanchardToeplitzChallenge"
+"roots" = ["Palomar.BlanchardToeplitzChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarBlanchardToeplitzSolution"
+"roots" = ["Palomar.BlanchardToeplitzSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarBlanchardToeplitzModelTests"
+"roots" = ["Palomar.BlanchardToeplitzModelTests"]
+"srcDir" = "."

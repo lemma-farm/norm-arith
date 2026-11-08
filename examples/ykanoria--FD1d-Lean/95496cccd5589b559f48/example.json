@@ -1,0 +1,81 @@
+{
+  "id": "95496cccd5589b559f48",
+  "source": {
+    "repository": "ykanoria/FD1d-Lean",
+    "commit": "26a5b4e2fd83fa86053239e09e92af370c62f18c",
+    "project": "ykanoria--FD1d-Lean--26a5b4e2fd83",
+    "path": "FD1D/FiniteConvergence.lean",
+    "file_id": "0363dac70200c088101e",
+    "source_sha256": "0363dac70200c088101e74123177ef603f8c1f7aa080aabb5dc12a10801ee767",
+    "start": 145,
+    "end": 177,
+    "original_start": 145,
+    "original_end": 177,
+    "declaration": "lawL1_block_contraction",
+    "source_url": "https://github.com/ykanoria/FD1d-Lean/blob/26a5b4e2fd83fa86053239e09e92af370c62f18c/FD1D/FiniteConvergence.lean#L145-L177",
+    "archive_url": "https://github.com/PalomarArchive/ykanoria--FD1d-Lean--8f90e399686d/blob/26a5b4e2fd83fa86053239e09e92af370c62f18c/FD1D/FiniteConvergence.lean#L145-L177"
+  },
+  "native_target_name": "_private.FD1D.FiniteConvergence.0.FD1D.FiniteKernel.lawL1_block_contraction",
+  "source_declaration_label": "lawL1_block_contraction",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "89a24a243437d14308dfe33148cd8cd0200945b8188a9bae460cf73690ae33de",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "60a3459ddb78c33c2fbade8a52b8aa451e3d2fee885e18308e315dfdb8d911cd",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FD1D/Basic.lean",
+      "sha256": "ec56b5a15c189c38019cde2130ac802d716c7386cc1218f75cb9554c3d6de113",
+      "bytes": 1407
+    },
+    {
+      "path": "FD1D/Expectations.lean",
+      "sha256": "58ee908053806a4c3f3ed5659ade0800b016236faa0f3734441248c2127f942d",
+      "bytes": 2447
+    },
+    {
+      "path": "FD1D/FiniteConvergence.lean",
+      "sha256": "0363dac70200c088101e74123177ef603f8c1f7aa080aabb5dc12a10801ee767",
+      "bytes": 11119
+    },
+    {
+      "path": "FD1D/Markov.lean",
+      "sha256": "caeeed9ceccba20dadfba07c507f4c42b1b06e730976e311dc94ccb08cbb56d8",
+      "bytes": 30925
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "4410d82ba9713c379fc0948e4a01184768b0e0e41870ac009aa5058d11dbf497",
+      "bytes": 458,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "FD1D/FiniteConvergence.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/95496cccd5589b559f48": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/ykanoria/FD1d-Lean",
+    "source_commit": "26a5b4e2fd83fa86053239e09e92af370c62f18c"
+  }
+}

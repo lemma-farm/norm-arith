@@ -1,0 +1,19 @@
+"name" = "EscauriazaSereginSverak"
+"version" = "1.0.0"
+"defaultTargets" = ["ESS"]
+"buildDir" = ".lake/build"
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "ESS"
+"globs" = ["ESS"]
+"leanOptions" = {"autoImplicit" = false, "warningAsError" = true}
+
+[["lean_lib"]]
+"name" = "Comparators"
+"srcDir" = "comparators"
+"globs" = ["Linear.+", "Regularity.+"]
+"leanOptions" = {"autoImplicit" = false}

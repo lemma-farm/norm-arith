@@ -1,0 +1,106 @@
+{
+  "id": "39b1ba883bf0300f56ab",
+  "source": {
+    "repository": "scottnarmstrong/LiebThirring",
+    "commit": "8bf4656f07f5aaa227b0b850d77b16976915bbd4",
+    "project": "scottnarmstrong--LiebThirring--8bf4656f07f5",
+    "path": "LiebThirring/Assembly/WeakBaxter.lean",
+    "file_id": "0c5733e9e64ec51cf6ee",
+    "source_sha256": "0c5733e9e64ec51cf6eeca459086032e4abd366a572dd9625f01f4fe070bd763",
+    "start": 123,
+    "end": 132,
+    "original_start": 123,
+    "original_end": 132,
+    "declaration": "weakBaxter_of_baxter",
+    "source_url": "https://github.com/scottnarmstrong/LiebThirring/blob/8bf4656f07f5aaa227b0b850d77b16976915bbd4/LiebThirring/Assembly/WeakBaxter.lean#L123-L132",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--LiebThirring--405b8eacc42e/blob/8bf4656f07f5aaa227b0b850d77b16976915bbd4/LiebThirring/Assembly/WeakBaxter.lean#L123-L132"
+  },
+  "native_target_name": "LiebThirring.Assembly.weakBaxter_of_baxter",
+  "source_declaration_label": "weakBaxter_of_baxter",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "7a5b946e38f5fd24ab150a5ed2e0ab9cb0d580067125253c6621d075fce6b5ab",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a3e90f3b9919df15dfa7aaf0f16b28f2d8e8b4553f79cc6cbe6c68221e1fc0fc",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LiebThirring/Assembly/Coulomb.lean",
+      "sha256": "2fad50492ac99ce2feeac95f43076c7e02c44a8509b170adc6ea1c4ebfa99e34",
+      "bytes": 3334
+    },
+    {
+      "path": "LiebThirring/Assembly/FiniteAveraging.lean",
+      "sha256": "3b0b24986b1b7ee2021ab33a8792bd13989b72e0dd1bb312882d0a0e5a38ecd7",
+      "bytes": 3121
+    },
+    {
+      "path": "LiebThirring/Assembly/NuclearReindex.lean",
+      "sha256": "ad7f0102e0cb4dc6ebf562a59bede719720fd5d682683b4b7d294efeae5d53d6",
+      "bytes": 3873
+    },
+    {
+      "path": "LiebThirring/Assembly/WeakBaxter.lean",
+      "sha256": "0c5733e9e64ec51cf6eeca459086032e4abd366a572dd9625f01f4fe070bd763",
+      "bytes": 6083
+    },
+    {
+      "path": "LiebThirring/Defs/Configuration.lean",
+      "sha256": "b97f0d3d0720947155d7524964cc65a4bd69fcfc59b7ecc2e530984a1d0e28a7",
+      "bytes": 1999
+    },
+    {
+      "path": "LiebThirring/Defs/Coulomb.lean",
+      "sha256": "0b60946f468069132aa17987bcbc4bac967984358bfb9b0c5bcb5fa6c995376f",
+      "bytes": 2171
+    },
+    {
+      "path": "LiebThirring/Defs/Density.lean",
+      "sha256": "e45c2cac17ffcabd2ea0197937e1dcbbb85570bddb69053170eb01c0c72d75dd",
+      "bytes": 673
+    },
+    {
+      "path": "LiebThirring/Kinetic/DensityBasic.lean",
+      "sha256": "baa03fbe06f801055d425a9b601856a5bb0108d95694ccaa61a9236abec2ec83",
+      "bytes": 4372
+    },
+    {
+      "path": "LiebThirring/Kinetic/Insertion.lean",
+      "sha256": "182ae884e0087ec1c00ab34234feda10d195ca7c80410e82db1246e899dcd5d6",
+      "bytes": 2944
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "53db2ebe0a2be6580c621d760f8903fbd86fedd6504cf039b20967b76619e62d",
+      "bytes": 657,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "LiebThirring/Assembly/WeakBaxter.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/39b1ba883bf0300f56ab": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/LiebThirring",
+    "source_commit": "8bf4656f07f5aaa227b0b850d77b16976915bbd4"
+  }
+}

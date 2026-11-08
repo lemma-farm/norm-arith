@@ -1,0 +1,74 @@
+"name" = "regularity_structures"
+"defaultTargets" = ["RegularityStructures", "Phi43Statements", "Phi43", "Witnesses", "Regression"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "RegularityStructures"
+"globs" = ["RegularityStructures.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Phi43Statements"
+"globs" = ["Phi43Statements.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = false, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Phi43"
+"globs" = ["Phi43.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "TheoremAChallenge"
+"roots" = ["comparators.TheoremA.Challenge"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "TheoremASolution"
+"roots" = ["comparators.TheoremA.Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ReconstructionChallenge"
+"roots" = ["comparators.Reconstruction.Challenge"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ReconstructionSolution"
+"roots" = ["comparators.Reconstruction.Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SchauderChallenge"
+"roots" = ["comparators.Schauder.Challenge"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SchauderSolution"
+"roots" = ["comparators.Schauder.Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Witnesses"
+"srcDir" = "tests"
+"globs" = ["Witnesses.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+
+[["lean_lib"]]
+"name" = "Regression"
+"srcDir" = "tests"
+"globs" = ["regression.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}

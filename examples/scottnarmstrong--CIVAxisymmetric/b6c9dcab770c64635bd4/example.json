@@ -1,0 +1,369 @@
+{
+  "id": "b6c9dcab770c64635bd4",
+  "source": {
+    "repository": "scottnarmstrong/CIVAxisymmetric",
+    "commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681",
+    "project": "scottnarmstrong--CIVAxisymmetric--9f539dc7bf7d",
+    "path": "CIV/Closure/StretchingBounds.lean",
+    "file_id": "067bcffc84b4cccad72f",
+    "source_sha256": "067bcffc84b4cccad72f28bb1adb6c4ce0ce95a0414a1816e3644a5679ac0d7a",
+    "start": 272,
+    "end": 308,
+    "original_start": 272,
+    "original_end": 315,
+    "declaration": "abs_stretchGTerm_le",
+    "source_url": "https://github.com/scottnarmstrong/CIVAxisymmetric/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Closure/StretchingBounds.lean#L272-L308",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CIVAxisymmetric--a71f9ac656b8/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Closure/StretchingBounds.lean#L272-L308"
+  },
+  "native_target_name": "CIV.abs_stretchGTerm_le",
+  "source_declaration_label": "abs_stretchGTerm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "863426aa4b48efbc684965b1b04720f609ea1048565cefbf601e6a6614f7f087",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e58c764a944baeefdd5a15048e50b2969a442ba9ebb920c8d9e798c039301618",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CIV/Analysis/CurlCutoff.lean",
+      "sha256": "456b0f296328e2df6298442258de9da71540441d0cf5333ca92119e64ce7f4ba",
+      "bytes": 6811
+    },
+    {
+      "path": "CIV/Analysis/DivCurl.lean",
+      "sha256": "bb338d3ae281d0fab0573f31377e1df59cf1e77529edfac7af8b1bfad27b5e5a",
+      "bytes": 18910
+    },
+    {
+      "path": "CIV/Closure/EllipticBounds.lean",
+      "sha256": "0828fbb6e634eee98586a20630518cd025c696339b1abf1ad164878c61397049",
+      "bytes": 20697
+    },
+    {
+      "path": "CIV/Closure/EnstrophyBalanceTerms.lean",
+      "sha256": "139f14cf8afe6303a71ba08dc4a8b5ca9a4c8b95ae2a57885a142af8bfd26ff1",
+      "bytes": 78623
+    },
+    {
+      "path": "CIV/Closure/StretchingBounds.lean",
+      "sha256": "0683cc38e70c955e0ca642869b32b5ecfc8cd2fe9e125cb7488011051b275874",
+      "bytes": 40745
+    },
+    {
+      "path": "CIV/Comparison/Barrier.lean",
+      "sha256": "6467c1815e2a085bf96061bec2f9640fe05a588f61dc074d58528141207516e3",
+      "bytes": 24414
+    },
+    {
+      "path": "CIV/Comparison/Commutator.lean",
+      "sha256": "9c6ecbfe74398175d84e5194b9ddae3b7739fd4347206dac80eb6c0f9c88a4a0",
+      "bytes": 9396
+    },
+    {
+      "path": "CIV/Comparison/Mollifier.lean",
+      "sha256": "89a4349f2ff14d3e8ebb28a24356b7bb8c3da6e2812e8a3ce8c1eec7d39d305c",
+      "bytes": 10305
+    },
+    {
+      "path": "CIV/Comparison/MollifySlice.lean",
+      "sha256": "bbe814e290246670a48b986c57f382eac406368db7b2340dd873c9d375dad54d",
+      "bytes": 6721
+    },
+    {
+      "path": "CIV/Identities/Axisymmetric.lean",
+      "sha256": "014d981706449bec2b9653740d9d8cf3723b3864e2b6b493f3e86f1e24bdb6dd",
+      "bytes": 22417
+    },
+    {
+      "path": "CIV/Identities/CartesianVorticityEquation.lean",
+      "sha256": "94f9875e8fbf27a79317ebbe56182e9a698711f40aa7596db0cf564ca904c5f6",
+      "bytes": 20107
+    },
+    {
+      "path": "CIV/Identities/Divergence.lean",
+      "sha256": "98e7f7b33d0ec7171863f94323e3f86154a885db193194775643425cf5668f53",
+      "bytes": 1445
+    },
+    {
+      "path": "CIV/Identities/GradientIdentity.lean",
+      "sha256": "f94e49add2c57aeee3452e17a1ef6eb1ea1a261945b32c057d837947aa52b6c0",
+      "bytes": 2392
+    },
+    {
+      "path": "CIV/Identities/Laplacian.lean",
+      "sha256": "1bd8c7cd0b876c8db9ca965742ef49f17f132904190505d74c162bd1be09af14",
+      "bytes": 12729
+    },
+    {
+      "path": "CIV/Identities/MeridionalSlices.lean",
+      "sha256": "817cbbb72c2503fae88791d4bf77c4c95e5132f35d7cb1a39f661d4e2df3f919",
+      "bytes": 4168
+    },
+    {
+      "path": "CIV/Identities/PartialCalculus.lean",
+      "sha256": "a51c5afa67340b3f8dcf713b096361720c759ec8b9e5f0425563545ffe43b75a",
+      "bytes": 8363
+    },
+    {
+      "path": "CIV/Identities/PartialSmooth.lean",
+      "sha256": "cd33eeee6f296fd467ecd623c478b9b51e2378d389b1f7af1c0ed1c2a3deb77f",
+      "bytes": 7935
+    },
+    {
+      "path": "CIV/Identities/PlaneTransfer.lean",
+      "sha256": "2d0dc42d47722f27612400c1fd05b57fd0530f33d2b7dd73f9f208500f2b2746",
+      "bytes": 33005
+    },
+    {
+      "path": "CIV/Identities/PotentialVorticity.lean",
+      "sha256": "51c4f5d87124383265f16cfa404ec00043ed98898e8d3a583c1db688132bf768",
+      "bytes": 14198
+    },
+    {
+      "path": "CIV/Identities/RadialQuotientContinuous.lean",
+      "sha256": "48111031a14e8f79ac3d298cd8c09e8f3ef8638915fde38587b06d202a5643ee",
+      "bytes": 11054
+    },
+    {
+      "path": "CIV/Identities/ScalarSystemR.lean",
+      "sha256": "c3c0f4d3580d11a248bdb2620c63766952cf168f753d2a0405efe90226e4ddef",
+      "bytes": 1937
+    },
+    {
+      "path": "CIV/Identities/ScalarSystemZ.lean",
+      "sha256": "7a3e665f3be075c924812cebddd1f72ea7f73a1848a4366afa379800556be24b",
+      "bytes": 1930
+    },
+    {
+      "path": "CIV/Identities/StretchingIdentity.lean",
+      "sha256": "c9c3d65e207cb6a22ffae3214eda4a81157dc85a1d08d792dbdcbd9181ee0e82",
+      "bytes": 1858
+    },
+    {
+      "path": "CIV/Identities/Transport.lean",
+      "sha256": "1d9f691f8474130630ff580df3f228d3afb2e48b3ffd4540498dbc29d77fde83",
+      "bytes": 3171
+    },
+    {
+      "path": "CIV/Identities/Vorticity.lean",
+      "sha256": "750729c7a0abd71cdc2352d99767a2c4bc1c3a611be9366522ad7b34edfdcd5b",
+      "bytes": 3691
+    },
+    {
+      "path": "CIV/Identities/VorticityEquation.lean",
+      "sha256": "cd1cffe5efc6bb700718fe437c0ed662ec36c2353814f83b94c46800ddbd6e96",
+      "bytes": 40663
+    },
+    {
+      "path": "CIV/Setting/AngularMeanSmooth.lean",
+      "sha256": "cee70c55492076ea580bf6a578fc6e68e0b58517334360286b7cecd0d6a65e4b",
+      "bytes": 16020
+    },
+    {
+      "path": "CIV/Setting/Cylinder.lean",
+      "sha256": "6962f5bdff10f060e87491902888636829b8dbc8468cb0c82e05f51e1f4fa037",
+      "bytes": 439
+    },
+    {
+      "path": "CIV/Setting/Rotation.lean",
+      "sha256": "7c0e91f38556280c713583e7f446be24e5563dcd953044812033fbfa084e67ce",
+      "bytes": 699
+    },
+    {
+      "path": "CIV/Setting/RotationLemmas.lean",
+      "sha256": "719d57fcd5a0cc14c34046071c160037971cb202227bad6692bbe05c54aae871",
+      "bytes": 13773
+    },
+    {
+      "path": "CIV/Statements/AngularMean.lean",
+      "sha256": "06d3d6f3fb67d23a9496dacf4ac6a640e22b5026eab226759cdb2a53087e617f",
+      "bytes": 601
+    },
+    {
+      "path": "CIV/Statements/AngularMeanScalar.lean",
+      "sha256": "5281c66d8f3397ea28e7157e93b4e6a0db3f41c9322c2a14d9d090d67d33cdba",
+      "bytes": 570
+    },
+    {
+      "path": "CIV/Statements/Circulation.lean",
+      "sha256": "10a42dbc1ae057e325bd72be74f03cfda58300975d2b9b71132a7820902f0a14",
+      "bytes": 473
+    },
+    {
+      "path": "CIV/Statements/ForceC2Bounded.lean",
+      "sha256": "ca6b261ee36740ee176f67696ce35e15ad20f9e8386bbc2273b5cae4bc33edd6",
+      "bytes": 647
+    },
+    {
+      "path": "CIV/Statements/GradPair.lean",
+      "sha256": "9c4a84b41943adeac9bdc8e52cbb008054ef70fffe02da8319f6d5e9abae16a3",
+      "bytes": 499
+    },
+    {
+      "path": "CIV/Statements/IsAxisymmetricOn.lean",
+      "sha256": "f73fda8642f7db6c8d30bb99cbf58bcac843f6b068f1235ab8a41c4ceaeed0c4",
+      "bytes": 556
+    },
+    {
+      "path": "CIV/Statements/IsClassicalSolutionOn.lean",
+      "sha256": "3dccad33ee443bf1f3932fb9d3a7541eb50ec0a8041ddba5528bc868451d9c63",
+      "bytes": 1228
+    },
+    {
+      "path": "CIV/Statements/Meridional.lean",
+      "sha256": "4b810a51b4a5111abefac5743ed7e74cb6dc06cf02c6cf48b9579773446b1eec",
+      "bytes": 436
+    },
+    {
+      "path": "CIV/Statements/MeridionalQuantity.lean",
+      "sha256": "fb5272ed40fb7225988c783e8440ab6583d18699fa16aceb080835eee07ae036",
+      "bytes": 673
+    },
+    {
+      "path": "CIV/Statements/MultiPartial.lean",
+      "sha256": "640bf27fee3cef444d187b359926e93b97e5cb868286965944a280498395756c",
+      "bytes": 580
+    },
+    {
+      "path": "CIV/Statements/PartialLaplacian.lean",
+      "sha256": "5141d08d33c7cda443e29da7186c2decac13cd7f0c7e9841cd2088ab844963e5",
+      "bytes": 628
+    },
+    {
+      "path": "CIV/Statements/RadialQuotient.lean",
+      "sha256": "a08a46ad1912131b4c78c13a62ebc1a1c7ce41a3aab75d5daa4c2a0cfb9c5461",
+      "bytes": 820
+    },
+    {
+      "path": "CIV/Statements/RotField.lean",
+      "sha256": "1d786fd19505ca35ba011248f365ee0899e317cbcbcddb7d4d1c2709ef64a8a8",
+      "bytes": 508
+    },
+    {
+      "path": "CIV/Statements/RotZ.lean",
+      "sha256": "bdd57ce87183c466ff122234001d1ce821a9734ec7f472674121c4c0549ca165",
+      "bytes": 502
+    },
+    {
+      "path": "CIV/Statements/TimeDeriv.lean",
+      "sha256": "f547d96d7c6dbcfaf04f588309fbc2310c25dbe1753418856b08e7b678b6cf89",
+      "bytes": 484
+    },
+    {
+      "path": "CIV/Statements/UnitCylinder.lean",
+      "sha256": "cb6bc8e748c60d381fa8c44c921c8418dedf6cc3bf07010ea8f1e46a7cd6f0ed",
+      "bytes": 554
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "c7b14eb527448ec264846e1e79c80e1f70d8052672030828b3f49de827cb8ce4",
+      "bytes": 14068
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "b56c8b81974579071237443f53b93d74ded384d9046f3a0a330f46e1320bef42",
+      "bytes": 9651
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "59178b3c1806f27f77361cc85c28067fdb84041cf4a24771b6be74fe005895db",
+      "bytes": 521
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "b38ea328578e3a7c288d5f7c3fe8e886e29c03bc5ea4688b0c905e11a60f4000",
+      "bytes": 1004
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Measure/RestrictedVolume.lean",
+      "sha256": "74f0e3f0bfac353d5b049fd51e0cd36b3e23314636cfdc3e7c7c5365b5458f9b",
+      "bytes": 844
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Mollify/Basic.lean",
+      "sha256": "9dbd21fe176eb13a5d31d69658c6fab42db0d7d0947d9a0a2262e66da7013cce",
+      "bytes": 3866
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/TestFunction.lean",
+      "sha256": "2f4a1df1941bf7f03edfdecb5a97c54b2ca1c31a55423f0ad160c9bd1540600d",
+      "bytes": 1185
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/WeakDerivative.lean",
+      "sha256": "6c132e146da20c76ebad033cd3781bb0153c34f9f25776a4cd980d12175e7f11",
+      "bytes": 10371
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "135b6d0a77d5e6e5b77a95ac31f4c5e236936ad0074d3bb57b1f01192069a196",
+      "bytes": 434
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpatialPartial.lean",
+      "sha256": "23cf8c08a5954fd5213beeb4f4370b0ae476875c192f4ed60108866203833ccb",
+      "bytes": 609
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpatialSecondPartial.lean",
+      "sha256": "ba7ad74c79af8357d814f9e19b6e824d55d78273f240c617697ae64050ede200",
+      "bytes": 533
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/TimePartial.lean",
+      "sha256": "e20bf296e9fa74e97d68750205683a77fafb4e46a8dc8b5a05dbcd7ab2eb2c82",
+      "bytes": 528
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "75d612c041a18d648f33d712626622043bc8ede49f7e73b4843adb11b6e66cce",
+      "bytes": 758,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5322043bfa9a9a2310f25fb0aee55316554d04d72d02600f23bdf4325e9fe148",
+      "bytes": 2734,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lakefile.toml",
+      "sha256": "15438f825490ead1cc045bfa563b3ef8ce609cd2a30b7e8ad74e5aeb7e2502bb",
+      "bytes": 774,
+      "snapshot": "__deps/CKN-b5e25360/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CKN-b5e25360/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CKN-b5e25360/lean-toolchain.source"
+    }
+  ],
+  "build_target": "CIV/Closure/StretchingBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b6c9dcab770c64635bd4": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CIVAxisymmetric",
+    "source_commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681"
+  }
+}

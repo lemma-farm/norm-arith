@@ -1,0 +1,23 @@
+"name" = "GoldbachLeanBombieriVinogradov1965"
+"version" = "0.1.0"
+"defaultTargets" = ["ChallengeBombieriVinogradov1965", "SolutionBombieriVinogradov1965"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "LeanLab"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeBombieriVinogradov1965"
+"roots" = ["ChallengeBombieriVinogradov1965"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SolutionBombieriVinogradov1965"
+"roots" = ["SolutionBombieriVinogradov1965"]
+"srcDir" = "."

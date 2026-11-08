@@ -1,0 +1,96 @@
+{
+  "id": "d317a5a8dca6c68cbdac",
+  "source": {
+    "repository": "jtraverso/pseudorandom-hypergraph-matchings",
+    "commit": "3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f",
+    "project": "jtraverso--pseudorandom-hypergraph-matchings--3957f3c0dbc3",
+    "path": "PseudorandomLib/PatternInc.lean",
+    "file_id": "0ca7026f519999bc73cd",
+    "source_sha256": "0ca7026f519999bc73cde86efb35d96c5b449672eae1232b4ab0d894d21c918e",
+    "start": 159,
+    "end": 170,
+    "original_start": 154,
+    "original_end": 170,
+    "declaration": "abs_Xp_inc_le",
+    "source_url": "https://github.com/jtraverso/pseudorandom-hypergraph-matchings/blob/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f/PseudorandomLib/PatternInc.lean#L159-L170",
+    "archive_url": "https://github.com/PalomarArchive/jtraverso--pseudorandom-hypergraph-matchings--40c1ca802506/blob/3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f/PseudorandomLib/PatternInc.lean#L159-L170"
+  },
+  "native_target_name": "Pseudorandom.Patt.abs_Xp_inc_le",
+  "source_declaration_label": "abs_Xp_inc_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "621bb03708e47c8b822192456da2be8247f8e17e55c845891e5bee5e8357485d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b7190cb76678ef94c6dc793016ca21b0f0d066a6d231104dcbc40a0116904192",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "PseudorandomLib/Bernstein.lean",
+      "sha256": "bccabebb1dd8686b1de67220160811e680b344b92aa423714af3a084f249c97d",
+      "bytes": 18975
+    },
+    {
+      "path": "PseudorandomLib/Cylinder.lean",
+      "sha256": "f081ec3fb1115ae64780bd45468dc131837bdbffb4c38abd203842bffc3c6857",
+      "bytes": 7929
+    },
+    {
+      "path": "PseudorandomLib/FiniteProb.lean",
+      "sha256": "ae99fd2684c255fac74d634bb7dcffc676c5eea82fa2f082549c7136152975f4",
+      "bytes": 9992
+    },
+    {
+      "path": "PseudorandomLib/Freedman.lean",
+      "sha256": "7a304e313fe4bb6b9641f3ed69025597d911812c8a6618db13fbae8284692454",
+      "bytes": 18789
+    },
+    {
+      "path": "PseudorandomLib/PatternAux.lean",
+      "sha256": "fe49c399ec1494c0ed591f6d634bd08d8d340e9d8c44c330a9406535062bcc2b",
+      "bytes": 8838
+    },
+    {
+      "path": "PseudorandomLib/PatternCount.lean",
+      "sha256": "20c5410cde57731e276f52f34d0a99859bbf4c0dd9e6f8ec338530a82cbcbd28",
+      "bytes": 7177
+    },
+    {
+      "path": "PseudorandomLib/PatternInc.lean",
+      "sha256": "0ca7026f519999bc73cde86efb35d96c5b449672eae1232b4ab0d894d21c918e",
+      "bytes": 11125
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1e1494d6a26013d09e4b1cf3f4105bb95e4cc29190ab8b1971dad0a7660f2e0e",
+      "bytes": 618,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "PseudorandomLib/PatternInc.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/d317a5a8dca6c68cbdac": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jtraverso/pseudorandom-hypergraph-matchings",
+    "source_commit": "3957f3c0dbc34fd310cb5fecf7941fddc9ef6c8f"
+  }
+}

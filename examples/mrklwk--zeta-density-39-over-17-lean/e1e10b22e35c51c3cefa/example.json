@@ -1,0 +1,403 @@
+{
+  "id": "e1e10b22e35c51c3cefa",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d",
+    "project": "mrklwk--zeta-density-39-over-17-lean--c55fc0088bd4",
+    "path": "CenteredDilatedReflection.lean",
+    "file_id": "0214c84f67532a6037c9",
+    "source_sha256": "0214c84f67532a6037c9d48979c794eed03c412bef0a7ff8be9c8aa220ef867b",
+    "start": 76,
+    "end": 99,
+    "original_start": 57,
+    "original_end": 99,
+    "declaration": "reflection_local_energy_dilated_short_range",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/CenteredDilatedReflection.lean#L76-L99",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/CenteredDilatedReflection.lean#L76-L99"
+  },
+  "native_target_name": "Montgomery.RationalMoment.reflection_local_energy_dilated_short_range",
+  "source_declaration_label": "reflection_local_energy_dilated_short_range",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "a9aea3e065e51e8e6d05301cb97ab63b6592feca5b31207ae867725dde79a4a8",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a4c18880c22e32defb53070fc5c12bbe4f64b79865cf79530bfc4d3f7c073c9e",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CenteredDilatedReflection.lean",
+      "sha256": "0214c84f67532a6037c9d48979c794eed03c412bef0a7ff8be9c8aa220ef867b",
+      "bytes": 5951
+    },
+    {
+      "path": "CenteredShortReflection.lean",
+      "sha256": "462e37729e1a091bf6d6e6365432b4ad25adf268fd6863e90e7d109474a64446",
+      "bytes": 7646
+    },
+    {
+      "path": "CyclicProductMoment.lean",
+      "sha256": "8f4fbcfda0ddc64b844dc00827f959ce7457e5af1ecb072a01d368464616dae5",
+      "bytes": 5971
+    },
+    {
+      "path": "GuthMaynard/Improvement/CenteredKernelBridge.lean",
+      "sha256": "dc83ceeb59404114f41bef64c82a584fee34987eba258bd84dba06b624d52484",
+      "bytes": 5629
+    },
+    {
+      "path": "GuthMaynard/Improvement/CenteredPoisson.lean",
+      "sha256": "e12da451cd32f06056d9c4ba755fa866a0998ee9f02a9751b0742ba18aec3200",
+      "bytes": 5102
+    },
+    {
+      "path": "GuthMaynard/Improvement/CenteredTruncation.lean",
+      "sha256": "ae643701b45d53e312cd2df39f7500ae13ebb65208933d40fbe1031b8069e3be",
+      "bytes": 4190
+    },
+    {
+      "path": "GuthMaynard/Improvement/CubicKernel.lean",
+      "sha256": "110aa078d98bd0d9fe5ee68744ce8c77f993509977a2745d95fef965f3bd56e4",
+      "bytes": 5697
+    },
+    {
+      "path": "GuthMaynard/Improvement/DirichletMeanValue.lean",
+      "sha256": "4071071f03ece311eaa1914a60e370f5bb7c70a187226cb72d628b82681d1d58",
+      "bytes": 14681
+    },
+    {
+      "path": "GuthMaynard/Improvement/LogFourierDecay.lean",
+      "sha256": "f9b9036484d4fdee9853ed6e68f9430694faae53dd3c8bbc9ea11a527bdfd7fc",
+      "bytes": 2792
+    },
+    {
+      "path": "GuthMaynard/Improvement/LogModulated.lean",
+      "sha256": "a43442309f2336aef8dcd2ee991db6f86fc896b1abc42f88e3315b7a2754dec7",
+      "bytes": 5979
+    },
+    {
+      "path": "GuthMaynard/Improvement/LogPoissonBudget.lean",
+      "sha256": "45d12ccc2275692fa68835ced5f206db9a9cd7bf862552cd423c490f277dd884",
+      "bytes": 3845
+    },
+    {
+      "path": "GuthMaynard/Improvement/LogPoissonTail.lean",
+      "sha256": "0c5c673a8bdebbae241b31b30bb6d2fb18190edfd039273b35afa8576a5d1c5a",
+      "bytes": 4121
+    },
+    {
+      "path": "GuthMaynard/Improvement/MeasureGate.lean",
+      "sha256": "ec41e08a27ee5a71b8aa789cea672a52ff96b3ed2c1b49b83892126a537e4375",
+      "bytes": 12153
+    },
+    {
+      "path": "GuthMaynard/Improvement/PoissonReduction.lean",
+      "sha256": "dd6debee0581bba815631e135402cb2b5f0f042ca39e2397bf3aa88865082ea5",
+      "bytes": 10300
+    },
+    {
+      "path": "GuthMaynard/Improvement/PoissonTails.lean",
+      "sha256": "406f8d34834d5cbcc8964bd2252bde8507b313e99d1ece8cb84d25f3609c867f",
+      "bytes": 5828
+    },
+    {
+      "path": "GuthMaynard/Improvement/RadialDecay.lean",
+      "sha256": "9bd17136a1bde38fa06b3d8d597c3c11ca3523c3f29a5c411e9c182be6b01ada",
+      "bytes": 5960
+    },
+    {
+      "path": "GuthMaynard/Improvement/RadialFamily.lean",
+      "sha256": "855ff6565ba6d989a50b911f5e0b7aa52f3267bbe2fd6a0e677c83a7c664b11c",
+      "bytes": 5779
+    },
+    {
+      "path": "GuthMaynard/Improvement/ReflectionKernelBridge.lean",
+      "sha256": "e1e2ca271d8744afb796156ce2cfbe006aaba9d0c7e8b7d0a672ecd7df266043",
+      "bytes": 3661
+    },
+    {
+      "path": "GuthMaynard/Improvement/ReflectionNear.lean",
+      "sha256": "3c5e27ee905bd38cb7ec3ac2ea73209147ae3053b0f9d0973688cbd66b5934f0",
+      "bytes": 2621
+    },
+    {
+      "path": "GuthMaynard/Improvement/RetainedCubicKernel.lean",
+      "sha256": "efbabab3aa13b55adebf0f84f9e833e3385b555dc7a85ab2a8fbaafefd6515ce",
+      "bytes": 6211
+    },
+    {
+      "path": "GuthMaynard/Improvement/SamplingVariation.lean",
+      "sha256": "e59f1bf0a058e8c3923f5145d29c583f53f769712d2051942755fbf9369a43ae",
+      "bytes": 5535
+    },
+    {
+      "path": "GuthMaynard/Improvement/SecondKernelError.lean",
+      "sha256": "061ac6949b1173ad5c406b4efade014d0b0ea0f6f4ecbe784f021801fb8f568d",
+      "bytes": 4637
+    },
+    {
+      "path": "GuthMaynard/Improvement/Smoothing.lean",
+      "sha256": "8f191f7d75d013ae91de2e35c58b758b98f7ab043ce8545411c4a28977c24a67",
+      "bytes": 5257
+    },
+    {
+      "path": "GuthMaynard/Improvement/SmoothingFourier.lean",
+      "sha256": "65e83f706bdf29f3c78dadfb5665ba64da6091220f399dd999317d312daf7b5e",
+      "bytes": 7308
+    },
+    {
+      "path": "GuthMaynard/Improvement/SmoothingScale.lean",
+      "sha256": "e9f80d70f38bd11f893d423b9682b24f9a9d8408f926bddf71800424acb94325",
+      "bytes": 5127
+    },
+    {
+      "path": "IntegerFourthMoment.lean",
+      "sha256": "ecbba731cc35489367753f0f2c85b5d0a3d249ceaaecc80ce3bfc5786d35cc44",
+      "bytes": 5583
+    },
+    {
+      "path": "MathCollab/Density/AllFrequency.lean",
+      "sha256": "19d09eb2ec82744249c3638cd76ada57d3250b8009581baf22955c9c268e4ce3",
+      "bytes": 4989
+    },
+    {
+      "path": "MathCollab/Density/AnalyticTransforms.lean",
+      "sha256": "df0549c92d9902ad734ff7f5e6dd823b7b87560e8b33165880cf5f8be1d2a2a7",
+      "bytes": 11327
+    },
+    {
+      "path": "MathCollab/Density/BandEnergy.lean",
+      "sha256": "2393f3f6d3fe92326970e29f5536ae6293d6f94a37c96d1ec18c16a8e96baaf4",
+      "bytes": 4726
+    },
+    {
+      "path": "MathCollab/Density/ComparisonCutoff.lean",
+      "sha256": "8138a1f5b9cb8517b0f69a74872a21c7cc022cb59f531d140b4d226502bf691c",
+      "bytes": 3347
+    },
+    {
+      "path": "MathCollab/Density/CompletePairs.lean",
+      "sha256": "d09ce39ca554438bb061c3461bcf8f42281bfca7d7e5215776fed66f0d976379",
+      "bytes": 4204
+    },
+    {
+      "path": "MathCollab/Density/CutoffTransforms.lean",
+      "sha256": "60ab9bdbfe8f6d5e5151cf215d3c7d0429a90cb482200f3fc23b7785cc45be69",
+      "bytes": 8864
+    },
+    {
+      "path": "MathCollab/Density/DivisorGrowth.lean",
+      "sha256": "562aa684d8457d3d65c230f4ff493c65b5793ca57e539bfa7afaadcd380be7e3",
+      "bytes": 6163
+    },
+    {
+      "path": "MathCollab/Density/DyadicBlocks.lean",
+      "sha256": "e4623ac7a8f0da56ec1c264c6fac6206a0e66a9d03eb9b09714a199ca426f807",
+      "bytes": 9113
+    },
+    {
+      "path": "MathCollab/Density/FixedBandError.lean",
+      "sha256": "6ab989fa27dfcd76c8629e5a0566e5a37fb445508ab30c0d6552765422840e56",
+      "bytes": 4537
+    },
+    {
+      "path": "MathCollab/Density/LargeValueDefinitions.lean",
+      "sha256": "4a1585bf7e2ac03be6560e708c3a88e47ac33f51d1a9f5f14e6025d3f0332aa0",
+      "bytes": 2754
+    },
+    {
+      "path": "MathCollab/Density/LocalCover.lean",
+      "sha256": "f3cea2eacf9af3d1bda3e6a839ef5d74ab232ca6008dbcf45e9da4eaf7d29de7",
+      "bytes": 7657
+    },
+    {
+      "path": "MathCollab/Density/MellinKernel.lean",
+      "sha256": "09cfa03a2dfc30749d1061541ed299277ec1815fe924195186477205aeaac4b2",
+      "bytes": 13701
+    },
+    {
+      "path": "MathCollab/Density/Oscillatory.lean",
+      "sha256": "580e05b898f6f294493f0b74bb2404510ae0475dff59e41fe648229cb95c6062",
+      "bytes": 18018
+    },
+    {
+      "path": "MathCollab/Density/Packing.lean",
+      "sha256": "090d8644eacd72462497ff394eedc8d3fa5b44ad09a4eeef042732118f1e06ed",
+      "bytes": 6419
+    },
+    {
+      "path": "MathCollab/Density/ProductGrouping.lean",
+      "sha256": "63f09eb81da53f9e56a9c64477f89be9e4fdd6f8fa33a49281d10b79a5dd0314",
+      "bytes": 5988
+    },
+    {
+      "path": "MathCollab/Density/Reflection.lean",
+      "sha256": "60d60bdfe2da05e316ecd91be8d7be5cd107790d0c6fce5a888fa41260569417",
+      "bytes": 6062
+    },
+    {
+      "path": "MathCollab/Density/ReflectionAssembly.lean",
+      "sha256": "dcc0a8f46f29f8225893f2a663b10c86c735afaf0481b5930505e6a877ff8a9a",
+      "bytes": 9042
+    },
+    {
+      "path": "MathCollab/Density/ReflectionDefinitions.lean",
+      "sha256": "67a9a46c104af5d5b19c3f1f20416a09305bc903b1a951650cf95b799c0c17e1",
+      "bytes": 10536
+    },
+    {
+      "path": "MathCollab/Density/UniformIBP.lean",
+      "sha256": "36db4f6959ffb8d7c2d2848fc37904b4c622f1dd489ef863520fdfd781301e83",
+      "bytes": 16109
+    },
+    {
+      "path": "MathCollab/Density/WeightedSquare.lean",
+      "sha256": "4779efc4c0777338a5ae6ac4b2c066b98cd8a3986ba251362bc52d0b737a072d",
+      "bytes": 2754
+    },
+    {
+      "path": "ProductFourthMoment.lean",
+      "sha256": "134a20e315b7452ddd1974b7832a828543c18cc975a1f2dffdb529723789c466",
+      "bytes": 4011
+    },
+    {
+      "path": "RationalCoefficientEnergy.lean",
+      "sha256": "67506e647f731d7234fbc238758532d1361bd9ff556b04e22320a762c226077f",
+      "bytes": 5530
+    },
+    {
+      "path": "RationalCyclicMoment.lean",
+      "sha256": "db0385ae593ae0a9719332bc76ddd863e150ca7ced3eca6f44d2f85547002bb6",
+      "bytes": 7920
+    },
+    {
+      "path": "RationalDifferenceEnergy.lean",
+      "sha256": "b89fa6084937e4a05f1e67aca612c5381311754fecedff9f337f00fa7bb9cd5d",
+      "bytes": 5996
+    },
+    {
+      "path": "RationalDilatedDifference.lean",
+      "sha256": "18fcb519b551d70d6b29ab54d3f7d03bf760dd601fdf5ab32c22722dfed06c4a",
+      "bytes": 7881
+    },
+    {
+      "path": "RationalDilatedHeight.lean",
+      "sha256": "3e24ea6eba2673b0961ab33e5f7f94005eb008bf44dab4bbcf62e9294ae4fe82",
+      "bytes": 9231
+    },
+    {
+      "path": "RationalDyadicDifference.lean",
+      "sha256": "f4caff63c4d17f64725401187ebccd45625c9351f8436e805bea483c13cf5b63",
+      "bytes": 8704
+    },
+    {
+      "path": "RationalDyadicShortRange.lean",
+      "sha256": "d7dc7037720738850c4524f31a3cee63322e6d5a9263e53194a8b60575dc9bbb",
+      "bytes": 4491
+    },
+    {
+      "path": "RationalEnergyIdentities.lean",
+      "sha256": "13f960419960335b7b1fd79bea51e1aa7ccbd3d32f222c67de738bbb4f447b70",
+      "bytes": 7462
+    },
+    {
+      "path": "RationalFiniteHeight.lean",
+      "sha256": "87bbf132b4e19d13462dffe7499fdb5542a2de08b37ad0804f1e98e4756c88a4",
+      "bytes": 9406
+    },
+    {
+      "path": "RationalFrequencySeparation.lean",
+      "sha256": "443bf3bb62c1cd139d89661776a76ee701335da251d25e8fbe89f3c2b31af52a",
+      "bytes": 4091
+    },
+    {
+      "path": "RationalGcdDecomposition.lean",
+      "sha256": "c53edee16e4d318dde6fbca624da92c30c6ce717535bb89aa17eab5ac9e30dc7",
+      "bytes": 8890
+    },
+    {
+      "path": "RationalGeometricShortRange.lean",
+      "sha256": "6a0e552d023f89b35d80cfdd922b0eae965758247ac108289a21eed83fbc32e9",
+      "bytes": 6717
+    },
+    {
+      "path": "RationalHigherMoments.lean",
+      "sha256": "4586d4c3bc72b687c02cfd79970c8e93e92765e811112e4c7676a77e264bb00b",
+      "bytes": 5065
+    },
+    {
+      "path": "RationalMomentCover.lean",
+      "sha256": "df14be8d155ce3c68756014fd50a9bcf589aa77d4ad6d94d0003df4dc41824bb",
+      "bytes": 3234
+    },
+    {
+      "path": "RationalMomentDuality.lean",
+      "sha256": "4a9519491f7b8a4a064995bb0bd40dbc65f4416c001c564d9d46839a7a5d2536",
+      "bytes": 4556
+    },
+    {
+      "path": "RationalMomentTheorem.lean",
+      "sha256": "e985f700263046c00a2bae4324e2bb7783132c3e0c1c3ab90f4615c150fe0526",
+      "bytes": 4355
+    },
+    {
+      "path": "RationalPrimeCoordinates.lean",
+      "sha256": "cbd862350a0c12dbbb998b46d2a0570956842423b3e42759da695eccea9c0810",
+      "bytes": 8317
+    },
+    {
+      "path": "RationalShortRange.lean",
+      "sha256": "57c9ee3bffa95159ed329c6be8be35e7bc1b2b0e74f2530374ec56c14992f426",
+      "bytes": 3860
+    },
+    {
+      "path": "RationalTransferSubpower.lean",
+      "sha256": "cb84d19ded0f12e3d6f74c52659f4a480da7af9c6e8b832a817dae704488240c",
+      "bytes": 5338
+    },
+    {
+      "path": "RationalUniformShortRange.lean",
+      "sha256": "85b5e9eb6ec13ed2fa789af8d6f823ee99cd034e2339a5ee143027d4045ae9e6",
+      "bytes": 6390
+    },
+    {
+      "path": "SeparatedFrequencyMeanValue.lean",
+      "sha256": "36ee509a054790a4749c74bd207984a15b20b45e4de7b40d1bb31e7effc2f34c",
+      "bytes": 15559
+    },
+    {
+      "path": "WeightedFourthMoment.lean",
+      "sha256": "ecfe67e840396e63f77f628f71ac676c3153c05cbd594ebdea8ad0c040c47c08",
+      "bytes": 9926
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "6950d352df01d762a5c0465b77e813bd563f727d0d5094bc9ff1561d8020261e",
+      "bytes": 258472,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CenteredDilatedReflection.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d"
+  }
+}

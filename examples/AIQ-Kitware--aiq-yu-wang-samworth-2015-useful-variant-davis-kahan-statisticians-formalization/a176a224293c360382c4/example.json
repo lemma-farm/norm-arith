@@ -1,0 +1,266 @@
+{
+  "id": "a176a224293c360382c4",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "commit": "234e61473e5378fd89585d8929cfba560b046323",
+    "project": "AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization--234e61473e53",
+    "path": "DavisKahan/Riccati/BoundedSharpEstimates.lean",
+    "file_id": "0a60c3b45ae7237a52b1",
+    "source_sha256": "0a60c3b45ae7237a52b1aabe571a9a0ce371b0334a22cf63dc1da41a714a2040",
+    "start": 354,
+    "end": 397,
+    "original_start": 354,
+    "original_end": 442,
+    "declaration": "exists_near_singular_pair",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization/blob/234e61473e5378fd89585d8929cfba560b046323/DavisKahan/Riccati/BoundedSharpEstimates.lean#L354-L397",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formal--b7b289f4bf00/blob/234e61473e5378fd89585d8929cfba560b046323/DavisKahan/Riccati/BoundedSharpEstimates.lean#L354-L397"
+  },
+  "native_target_name": "TauCeti.DavisKahanExt.exists_near_singular_pair",
+  "source_declaration_label": "exists_near_singular_pair",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "9c0d02f10f39cabdb09236d7d2abe45ee38868120b5111775b1d7245f26be671",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b389411112b87fe6c3a8d3793a687741a902a014d11b597937eaf0cde218d101",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DavisKahan/BoundedOperator/Compat.lean",
+      "sha256": "d74878916db6b71cffe4edf806fd52af2043f69dd5478932de06e5ba629111fe",
+      "bytes": 7832
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/OperatorAngleComplex.lean",
+      "sha256": "6891953ba01067dbbf9fe9dd7a443cd0401f9f2e69e57796360d8c0f05cd5882",
+      "bytes": 52989
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/OperatorAngleReal.lean",
+      "sha256": "8a271a0f10813d0ac1d054bf6ee886d6632e06db0969dc6d7d1e58774a446838",
+      "bytes": 8710
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/PaperOperatorAngle.lean",
+      "sha256": "7e994a13add7b8ece2b0b23c65c9047bc574065f8756b3160d9687ce64d5d889",
+      "bytes": 14625
+    },
+    {
+      "path": "DavisKahan/OperatorIdeal/CanonicalRealView.lean",
+      "sha256": "24aebc9043e5526584ff4b4e99abc949b4567597ad75e2296f0e88e4ca44bbca",
+      "bytes": 20111
+    },
+    {
+      "path": "DavisKahan/Riccati/BoundedBasic.lean",
+      "sha256": "f53b7f95e528050e7d13a0d70f2e6162a078c445b51c6f3dcbe4dbea4a52294a",
+      "bytes": 2657
+    },
+    {
+      "path": "DavisKahan/Riccati/BoundedCore.lean",
+      "sha256": "7190a323f93900bf22ede36d03c7a3a935f35532d86b296f0894fa7eecbb7bb2",
+      "bytes": 5244
+    },
+    {
+      "path": "DavisKahan/Riccati/BoundedEstimates.lean",
+      "sha256": "93c5b695dba26c251f2b14f73ea7fb7adbef34c91140e247840b3bedd59217cf",
+      "bytes": 9774
+    },
+    {
+      "path": "DavisKahan/Riccati/BoundedReduction.lean",
+      "sha256": "3a228ebcb1f90f9a69c9657675aca39cff2692bb0f892170083055a11810245d",
+      "bytes": 4054
+    },
+    {
+      "path": "DavisKahan/Riccati/BoundedSharpEstimates.lean",
+      "sha256": "bc791a2e736223d2fb085db50d5871417526a99214ac7238d16783c594907107",
+      "bytes": 22812
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/AbstractSpectrum.lean",
+      "sha256": "09b30adbe5a1689a7e3ed94848289bfc8b6774c4fb7f5ee350ee81cdac6e911b",
+      "bytes": 21367
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/Complexification/Subspace.lean",
+      "sha256": "40cb8ef110aa63b8684a4e9b8b32c4d5342edcba4d03c9a034a66eb5b66a7dd7",
+      "bytes": 14108
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/GraphSubspace.lean",
+      "sha256": "4220777ed0826348de1b295f1fabbc643805743602e2bbb26532036aff96f6cc",
+      "bytes": 39816
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/OperatorAngle.lean",
+      "sha256": "b790b9cd38fa8fbc12cdd72ea2a3aeb38b32a86b3841ef308697b866d717eab6",
+      "bytes": 1781
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/PartialMap/Basic.lean",
+      "sha256": "501942299ea1e66aa8a3b3f685d8892095e9cba76921808655637465b67ea000",
+      "bytes": 3571
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/PartialMap/BoundedRealization.lean",
+      "sha256": "02034c90ddb4ffcf0b85eabd1c4bc8dd8ce7db4d09bc255278686380c8dabd52",
+      "bytes": 1314
+    },
+    {
+      "path": "DavisKahan/Sylvester/ClosedSylvesterEquation.lean",
+      "sha256": "8a777a99d5ea9c6eb82ed311adaa2bdfd9ec737887c670517c743b16c4b35889",
+      "bytes": 1780
+    },
+    {
+      "path": "DavisKahan/Sylvester/Gap.lean",
+      "sha256": "6145c83df4c505a35813213782e63ef819a10d2d59f894e413d2ab33be754c4f",
+      "bytes": 5271
+    },
+    {
+      "path": "DavisKahan/Sylvester/Spectrum.lean",
+      "sha256": "dc96760afb27c5ce95e585025213aae94963b492937d00c3a8f94d7e7790610e",
+      "bytes": 28014
+    },
+    {
+      "path": "DavisKahan/Sylvester/Unbounded/Equation.lean",
+      "sha256": "f9faf5f0b684432cee9e16f01344aac688d03f48fd4cd6430f1d874a6eb3ebf8",
+      "bytes": 1282
+    },
+    {
+      "path": "DavisKahan/Sylvester/Unbounded/Neumann.lean",
+      "sha256": "94046e2daaee847cd82b29f9207569d50d360a1b75fb85f02e63a9c38b055bd2",
+      "bytes": 20911
+    },
+    {
+      "path": "ForTauCeti/Analysis/CStarAlgebra/SelfAdjointGapInverse.lean",
+      "sha256": "53dac73184cdb9f5ff3224d79ec660f5debf270f5b6000b705bfbf8b060d8225",
+      "bytes": 4087
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/Projector.lean",
+      "sha256": "d46c5ca48cec2ab277eed7d7aa45417eb38661cd1712b774516ca8d8ef2428ff",
+      "bytes": 4324
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/SinTheta.lean",
+      "sha256": "3eb2d6e0d85e3a5d627914cf4603787a3535818592173d6b2278919d556ca1f9",
+      "bytes": 11172
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/CoerciveUnit.lean",
+      "sha256": "e523f937d703c41b0c7d8c4dd42b652f78d6c7e0858b91843d81f79e4d2ed785",
+      "bytes": 19547
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/Basic.lean",
+      "sha256": "b02e0bf5c3c1223271dd881d173a6ae9f22c71eabd85df18c4cd78630b6aa516",
+      "bytes": 30393
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/FunctionalCalculus.lean",
+      "sha256": "e7a10c5be850c8ac52376fac0fd32a7c67091ce0b9f5fd39f178d35a10c0edc4",
+      "bytes": 27437
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/LinearPMap/Closed.lean",
+      "sha256": "800720d90418bd426fdb9a588dc477131a886d39b2159211ef3929a71db4e9e1",
+      "bytes": 47548
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/LinearPMap/Constructions.lean",
+      "sha256": "de561a8103250e65d9d0802d924c0ea6ce87674e6e0675e4d39eb4fc70e1bf59",
+      "bytes": 15002
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/LinearPMap/Sylvester.lean",
+      "sha256": "2d40677aa9d7412ccb46bdbe178d7b5b74805806cac7aa83540f9317763f4dd9",
+      "bytes": 8661
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/OperatorModulus.lean",
+      "sha256": "26481217c9c16266b561433945afc8bde724c839d036f9c92552d81fe8dbde93",
+      "bytes": 13093
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Blocks.lean",
+      "sha256": "b727ee686c4b86017226999b5254c02641a88107ee012c948b13a1cf33749adb",
+      "bytes": 10882
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Gap.lean",
+      "sha256": "82334842f94fe21f67559faa2f2089c1baa3be65416831d8e1eeeac7a85e09b6",
+      "bytes": 27151
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/QuadraticFormBounds.lean",
+      "sha256": "7c6687faa82929f81004d1e25d900d01257d25d2ae07df0855cf36b8f30ad286",
+      "bytes": 4728
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducedExtension.lean",
+      "sha256": "214e517b63cee53ee28ed9f91dd7d57f07f610eb0ca8183fbb3b9a593a66aef6",
+      "bytes": 6597
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducingSubspace.lean",
+      "sha256": "991c9e8d716aa17d1f9cdb28fdfa076d9b917c3b0d1eaacd78644a6653359c40",
+      "bytes": 6649
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/SpectralOrder/Real.lean",
+      "sha256": "57125682a72bab07aaf00eaff875abdb110a233db5c4a83c91c6fba7aace98ee",
+      "bytes": 13058
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Bound.lean",
+      "sha256": "31c09f5dba35c1f7415a290f0e5127e75ece629bb14900d6f9b786aa82976692",
+      "bytes": 26372
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Operator.lean",
+      "sha256": "bdcb11ee456d503f559e13c42b1ddb7352d0dae3bac8d03cbe2c96e56a60dc37",
+      "bytes": 3284
+    },
+    {
+      "path": "ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean",
+      "sha256": "a355b4429220f95a7f7ca3f203d805d28b8b15c857064815f9840715c0daec60",
+      "bytes": 30755
+    },
+    {
+      "path": "ForTauCeti/Analysis/OperatorIdeal/Family/OperatorNorm.lean",
+      "sha256": "550a63d1de5d7442d9ed581eb7ba34cf18786a80fa44194410d241358fa2353b",
+      "bytes": 7952
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e06a439f703971b650535afab26ce9a1574955e1560628763b978cb10a33f6ac",
+      "bytes": 1146,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DavisKahan/Riccati/BoundedSharpEstimates.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-scope-v3/a176a224293c360382c4": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "source_commit": "234e61473e5378fd89585d8929cfba560b046323"
+  }
+}

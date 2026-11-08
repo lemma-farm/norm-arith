@@ -1,0 +1,15 @@
+"name" = "systolic_growth"
+"version" = "0.1.0"
+"defaultTargets" = ["SystolicGrowth"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "SystolicGrowth"
+"roots" = ["Challenge", "Solution", "main", "MainTheorem", "Core.SystolicCore", "Core.Reduction", "CookMagyar.All", "CookMagyar.DecayTemp", "SurfaceGroup.Presentation", "SurfaceGroup.Raw", "SurfaceGroup.Standard", "SurfaceGroup.Tietze"]
+"globs" = ["Challenge", "Solution", "main", "MainTheorem", "Core.+", "SurfaceGroup.+", "CookMagyar.+", "BuserSarnak.+", "Geometry.+", "Vendored.+"]
+"srcDir" = "."

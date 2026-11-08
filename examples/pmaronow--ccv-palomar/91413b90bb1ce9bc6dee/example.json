@@ -1,0 +1,256 @@
+{
+  "id": "91413b90bb1ce9bc6dee",
+  "source": {
+    "repository": "pmaronow/ccv-palomar",
+    "commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598",
+    "project": "pmaronow--ccv-palomar--f3ef2ef312d4",
+    "path": "NearlyMinimax/HighObservableProductRule.lean",
+    "file_id": "01e0742110d326910471",
+    "source_sha256": "01e0742110d32691047196c707526a9c12971b117e14ec8f7f7b6b3a4afeccf1",
+    "start": 69,
+    "end": 77,
+    "original_start": 69,
+    "original_end": 77,
+    "declaration": "historyMarkedPrior_observable_product_rule",
+    "source_url": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/HighObservableProductRule.lean#L69-L77",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--ccv-palomar--47775cd59e5a/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/HighObservableProductRule.lean#L69-L77"
+  },
+  "native_target_name": "NearlyMinimax.historyMarkedPrior_observable_product_rule",
+  "source_declaration_label": "historyMarkedPrior_observable_product_rule",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "cca3540d2635b8e75f90b38525b68167631a1632be3edbe0d6b88aef9d63996e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "057bfea4f244a3003e3a4071a46d278f7b7f7ad92f96b9631b3b5505ab41e27e",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "NearlyMinimax/HighObservableProductRule.lean",
+      "sha256": "01e0742110d32691047196c707526a9c12971b117e14ec8f7f7b6b3a4afeccf1",
+      "bytes": 6967
+    },
+    {
+      "path": "NearlyMinimax/HistoryActivity.lean",
+      "sha256": "adff9a42e5ffcf9f0adffa50abff0a46c09b452363f1febf6bd4c04edff5336a",
+      "bytes": 10198
+    },
+    {
+      "path": "NearlyMinimax/HistoryAdjacentExchange.lean",
+      "sha256": "faca9fa59d82800a758379a9c160441ee55747df418d5ed23e0a26ad5f97295c",
+      "bytes": 10016
+    },
+    {
+      "path": "NearlyMinimax/HistoryAppend.lean",
+      "sha256": "2dfee6d322b48f0284f961f9d68cd3fab2dbd5217106579ba24d0913f73f2b1d",
+      "bytes": 4545
+    },
+    {
+      "path": "NearlyMinimax/HistoryAppendMeasurable.lean",
+      "sha256": "8bb115c769a6015bf58eb223159e808f827c72b121327cb864ce13e783203df9",
+      "bytes": 2973
+    },
+    {
+      "path": "NearlyMinimax/HistoryCanonicalDeletion.lean",
+      "sha256": "c6b27175976e8a11bad72f9586e5f8ac60503de995db34e143f79e85ab726c3c",
+      "bytes": 5307
+    },
+    {
+      "path": "NearlyMinimax/HistoryComponents.lean",
+      "sha256": "a62989dcd2a8f96c9fdf5cc57acc9c51ce488d609a5424779382e75757f16d6d",
+      "bytes": 19555
+    },
+    {
+      "path": "NearlyMinimax/HistoryConnectedCount.lean",
+      "sha256": "5a7a00f62eb843cecb4d6f18b7cdc0d30eef8b4b73dd438bab74df0c6932cbec",
+      "bytes": 4109
+    },
+    {
+      "path": "NearlyMinimax/HistoryCoordinateTransport.lean",
+      "sha256": "d406226c37c572e5f6e58cbe4e9d0c2ee5993b1761a0f5b36d47c4246b10977a",
+      "bytes": 5982
+    },
+    {
+      "path": "NearlyMinimax/HistoryCoverConnectivity.lean",
+      "sha256": "b94a9b31ac74ef6d3e1d4a7e63b583083c0d9654d5180867e653457887740c77",
+      "bytes": 5643
+    },
+    {
+      "path": "NearlyMinimax/HistoryDensityDerivative.lean",
+      "sha256": "1223fef1729436a257f492e9811ac535af1977b03e5c77f5ac8eb19ea82cfc5b",
+      "bytes": 7773
+    },
+    {
+      "path": "NearlyMinimax/HistoryDensityEmbedding.lean",
+      "sha256": "cef666c44c53174dfac87adad89200f8008d5bccac034d291b240a5378699f45",
+      "bytes": 2505
+    },
+    {
+      "path": "NearlyMinimax/HistoryDensityTransport.lean",
+      "sha256": "e8483bb558921e3264161f482d1b99f793641072c8fb228c567d1aeb2c3df61d",
+      "bytes": 3734
+    },
+    {
+      "path": "NearlyMinimax/HistoryExpectationDerivative.lean",
+      "sha256": "b73a15f568fa65de51909382073b2d392da8bb5e0f3ed0e85e890c71cc0867da",
+      "bytes": 4019
+    },
+    {
+      "path": "NearlyMinimax/HistoryGas.lean",
+      "sha256": "5b58458d150b20728d92206eb1f4095ab9392360d6f2491151bf73c8ae7e5655",
+      "bytes": 10652
+    },
+    {
+      "path": "NearlyMinimax/HistoryLabelDerivative.lean",
+      "sha256": "5c9b6efa7df079b8a9852a650fe0b3bed879a20ffb1840e5099b67850d89ac09",
+      "bytes": 6922
+    },
+    {
+      "path": "NearlyMinimax/HistoryMarkedAppend.lean",
+      "sha256": "09f7e05f0ae0f4dc5818244d9b02e10b051e83940b301b187cd304c39601c637",
+      "bytes": 9829
+    },
+    {
+      "path": "NearlyMinimax/HistoryMarkedExchange.lean",
+      "sha256": "c9ee81a53fb17c18b1cf0d25d37ce387c67b1b051f431b76b2ca3334fca43201",
+      "bytes": 6560
+    },
+    {
+      "path": "NearlyMinimax/HistoryMaximalDelete.lean",
+      "sha256": "da4935ae189557dcf850ebf23e402370da77e8385fb2f2ece43b84d27c1c092a",
+      "bytes": 7346
+    },
+    {
+      "path": "NearlyMinimax/HistoryOrderVolume.lean",
+      "sha256": "47372c71e2d043ca949f915d7c740fcf05b7abda9108cc4e239b326fff81be84",
+      "bytes": 11659
+    },
+    {
+      "path": "NearlyMinimax/HistoryPolynomial.lean",
+      "sha256": "30852454598f2aaa8aefe722bae29dd44952736df299a615911d9e9e5089b7c8",
+      "bytes": 4963
+    },
+    {
+      "path": "NearlyMinimax/HistoryPositivity.lean",
+      "sha256": "bba40c9eef36fe44d3234e32289f92eed1157e52882ff9ed386d459d896d2c4f",
+      "bytes": 7459
+    },
+    {
+      "path": "NearlyMinimax/HistoryPrefixHeap.lean",
+      "sha256": "9df1c09e80ed93a3c3d1b897b3d446559991d9fb8c75c560d1614ff641fe95fa",
+      "bytes": 6458
+    },
+    {
+      "path": "NearlyMinimax/HistoryPriorDensity.lean",
+      "sha256": "05986f973ed9309c8e3e41019bc1df4ae9efc7e6da5410ccb1ffb6209fab07e6",
+      "bytes": 14665
+    },
+    {
+      "path": "NearlyMinimax/HistoryPriorMeasureIdentity.lean",
+      "sha256": "06d71cc4a563173041ff49fd2fb6957e9606d4a828979a1c76f56c5f2ff2fd1f",
+      "bytes": 3098
+    },
+    {
+      "path": "NearlyMinimax/HistoryPriorWeakTransport.lean",
+      "sha256": "b0c2b2c7cc0e8d815ef5f3b6f0089bfdbb3c60baabb3165b73ecb99c836eedb6",
+      "bytes": 6088
+    },
+    {
+      "path": "NearlyMinimax/HistoryProjection.lean",
+      "sha256": "4264ee4f0bd354d4c59da02dee25726d6b0070a4f92d2938731e27473e1e9aff",
+      "bytes": 7828
+    },
+    {
+      "path": "NearlyMinimax/HistoryReferenceAppendTransport.lean",
+      "sha256": "ef54d81a5bbf82cce2ca5b409307edeb372685585971943492989fff02790135",
+      "bytes": 10056
+    },
+    {
+      "path": "NearlyMinimax/HistoryReferenceMeasure.lean",
+      "sha256": "714ee1f4a3530b4e845e669aa6766d1c831ef2006b80f0dcf020712590ef91a7",
+      "bytes": 9559
+    },
+    {
+      "path": "NearlyMinimax/HistoryReferenceSum.lean",
+      "sha256": "684b5e7ca38dbe959d86c635580b00539148e20f09fd1fd7c811cea5baed0190",
+      "bytes": 8321
+    },
+    {
+      "path": "NearlyMinimax/HistoryShapeChangeVariables.lean",
+      "sha256": "5af370a13d81e149399ed81ca349f8ef7554f2aa0e2f6c0c5b28aff068f02cc1",
+      "bytes": 4440
+    },
+    {
+      "path": "NearlyMinimax/HistoryShapeCount.lean",
+      "sha256": "11c9aef65a83408e2570ee9310aa63a44fc1789467fcbf99d82c48375fe8742b",
+      "bytes": 7569
+    },
+    {
+      "path": "NearlyMinimax/HistoryShapeDegree.lean",
+      "sha256": "fa14e6566ac41a6391f24527930fd03c43ff9a2ebd3cde73601a780e57bad982",
+      "bytes": 5505
+    },
+    {
+      "path": "NearlyMinimax/HistoryShapes.lean",
+      "sha256": "f7674d74e99e24ed5204eb07e4eed4f3e55ee9be12f8ec3d3def5f38976d4221",
+      "bytes": 5621
+    },
+    {
+      "path": "NearlyMinimax/HistorySpanningWalk.lean",
+      "sha256": "48d0483ad0c2af9cde6af401cda1ce6d1206c54a1c3d2e0566537d70d211d8c6",
+      "bytes": 4906
+    },
+    {
+      "path": "NearlyMinimax/HistoryUpperSets.lean",
+      "sha256": "0f818bc0792fc8879437806820794d30911cd3278e4bd39a8452e5d7f2d7a0a4",
+      "bytes": 12709
+    },
+    {
+      "path": "NearlyMinimax/HistoryWeakTransport.lean",
+      "sha256": "73eb8714fc4d1c221bfa6f31aee312aeb13366cc8c01f275c82d24d2ea6c02b4",
+      "bytes": 9066
+    },
+    {
+      "path": "NearlyMinimax/HistoryWordTransport.lean",
+      "sha256": "c5394b1778968cb074023bb44bb4d007f9be7b293381ab6a8faff94bc4358561",
+      "bytes": 5486
+    },
+    {
+      "path": "NearlyMinimax/WordHeap.lean",
+      "sha256": "fca7a04f7140d2bb691a878109d2e859b28766a5d79e712c47a0ab14bcca3e13",
+      "bytes": 10333
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "b9e1e4aad096bf66f9afd5cb5d27750a9e3ed0169ad1ee8c5d558ff3f0ca3c91",
+      "bytes": 547,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "NearlyMinimax/HighObservableProductRule.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/91413b90bb1ce9bc6dee": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/ccv-palomar",
+    "source_commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598"
+  }
+}

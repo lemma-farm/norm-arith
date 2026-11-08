@@ -1,0 +1,158 @@
+{
+  "id": "5bcc6664496904de963d",
+  "source": {
+    "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+    "commit": "58a9ffe548ea64319ac8cba098634340ee6270cb",
+    "project": "scottnarmstrong--CaffarelliKohnNirenberg--58a9ffe548ea",
+    "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean",
+    "file_id": "04c471bddae222100fff",
+    "source_sha256": "04c471bddae222100fffb2c6955832af82c0f48324678aae0899ff73da9a966d",
+    "start": 107,
+    "end": 143,
+    "original_start": 107,
+    "original_end": 143,
+    "declaration": "CKN.Foundation.Euclidean.exists_spatialMultiplierHeatKernel_bounds_of_degreeOne",
+    "source_url": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean#L107-L143",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CaffarelliKohnNirenberg--b8e78fb1bbb0/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean#L107-L143"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "CKN.Foundation.Euclidean.exists_spatialMultiplierHeatKernel_bounds_of_degreeOne",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "166a8319155466b1a8a1c5bfa3f89f4a08a814ae9bfbf0b46e17e32d0d9c1352",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "efb5a6e9a78f20be990b4931929ee3e569a48e43069eda0bd70948a67a83f23a",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CKN/Foundation/Euclidean/DegreeOneSymbol.lean",
+      "sha256": "74f53ca48e9406421cdde1c7ff16a918a970ab47c8feda104b38e306657ba044",
+      "bytes": 4820
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBounds.lean",
+      "sha256": "48995a9dbf3a731f1ec270e5caf8d58a130706b70c6c1678b33a8d3f3d91a912",
+      "bytes": 22340
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean",
+      "sha256": "04c471bddae222100fffb2c6955832af82c0f48324678aae0899ff73da9a966d",
+      "bytes": 7441
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsProof.lean",
+      "sha256": "5e5a32b33a7d101d4d9328a5ddfdbcbabd5e80331421a54a0a03e3a55370b4d3",
+      "bytes": 25441
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelGaussianDerivativeBounds.lean",
+      "sha256": "bec3692f22ed8c8955eab2b2152104bfe1d2a2a293da34e41cf9c06e454d5326",
+      "bytes": 17268
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelHighFrequencyFourier.lean",
+      "sha256": "b8836297255a9b41ca52a169dd4fa961f4107459cf5866ca5b4cb2db2af31c7f",
+      "bytes": 3477
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelHighSymbolBounds.lean",
+      "sha256": "d4edff3f392b848673127d99bb584e0cf0262a7b0fd104b65092bfeaf835d0e1",
+      "bytes": 18968
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelL1.lean",
+      "sha256": "2833e0473b71f61bc40be45714c9c205a5d75aa723fa1938562dc04a0101429a",
+      "bytes": 7265
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelLowFrequency.lean",
+      "sha256": "e95f8a1b56ce6be966f4b7fb54361ddb7c4ec311e235ba6b9cd91fde3962c4d4",
+      "bytes": 12020
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelOscillatory.lean",
+      "sha256": "bd2b56a07963262e35788184ef4904b8e3d3d9fbefe5a60ae7a951141737da30",
+      "bytes": 37556
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelScaling.lean",
+      "sha256": "c6edc9fa46440a0ad4c9221372011239735fe9d337741e0d7f221c3d15d5bf7d",
+      "bytes": 7407
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelSpatialDerivative.lean",
+      "sha256": "81cc7ea7d7e39b4f4607cb927d1d73238f583888c1561d9debd74f417c935cfb",
+      "bytes": 12690
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelTimeDerivative.lean",
+      "sha256": "f3f45474784827629f4d901eec184db3466bfa0b7a43f8cc66584be87db73e7a",
+      "bytes": 11476
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelUnitBound.lean",
+      "sha256": "5bc6e743c9249439ecdc20be2d2702124a636b3b8544e9b8f0d9a72ed1f8817d",
+      "bytes": 8023
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierKernel.lean",
+      "sha256": "93621b5a6686b24f1d1ec60aee2b04a8bb9a810870bbe1258ab3f727946d3458",
+      "bytes": 8303
+    },
+    {
+      "path": "CKN/Foundation/Heat/Basic.lean",
+      "sha256": "03e8364f80ab369d3069bf0aacffa99676142fbf0c2c1011d4516161eb006b9c",
+      "bytes": 6319
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "b47e85662a71658c09f1f15a9d882fd12a3a5261bfd992c4ce87d976028ae62c",
+      "bytes": 14036
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Vec3Norm.lean",
+      "sha256": "4fae02a7de704a2fe78dd6c873e378435e10cdb0816c61364f1613f178b016fb",
+      "bytes": 4545
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "0c154a7e1a1b1c55836a9a50a2bcf7a93b91e21b40a9f48002848f92ca9ef786",
+      "bytes": 507
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "2ecc7d875b3f7ae01aa83bd30037c54cd2b4ffa30735b88601936ba2cb525b2d",
+      "bytes": 990
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5fc7eefe174a521d64337c17bdae8552d863eac8d31edbe50028f895ac3f4a7b",
+      "bytes": 922,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "f1686636e490cb54e7091701515e72fb12b49b93cba254da329fd6add0c7c14e",
+      "bytes": 3549,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg",
+    "source_commit": "58a9ffe548ea64319ac8cba098634340ee6270cb"
+  }
+}

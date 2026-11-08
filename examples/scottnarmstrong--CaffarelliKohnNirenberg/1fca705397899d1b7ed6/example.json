@@ -1,0 +1,728 @@
+{
+  "id": "1fca705397899d1b7ed6",
+  "source": {
+    "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+    "commit": "58a9ffe548ea64319ac8cba098634340ee6270cb",
+    "project": "scottnarmstrong--CaffarelliKohnNirenberg--58a9ffe548ea",
+    "path": "CKN/Core/HeatPotential/HeatFarAssemblyGeometry.lean",
+    "file_id": "026ea7d5c0fe962056b6",
+    "source_sha256": "026ea7d5c0fe962056b6cc65921f8075e039452d96368747a3ab291c6fc24114",
+    "start": 69,
+    "end": 121,
+    "original_start": 63,
+    "original_end": 121,
+    "declaration": "farShellAssembly_gauge_lower",
+    "source_url": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/HeatPotential/HeatFarAssemblyGeometry.lean#L69-L121",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CaffarelliKohnNirenberg--b8e78fb1bbb0/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/HeatPotential/HeatFarAssemblyGeometry.lean#L69-L121"
+  },
+  "native_target_name": "CKN.Core.HeatPotential.farShellAssembly_gauge_lower",
+  "source_declaration_label": "farShellAssembly_gauge_lower",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "c049cdd7bcd7169290ebc703edd86ab7ffe7f81d62dae185d1b2d8def1de8e7f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3d086e09d8bc5882406dabad58d04d5b8b593cfa64cbd56077a33450a16263f2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CKN/Core/HeatPotential/Campanato.lean",
+      "sha256": "de519d8ef33f87d32009770632cac17d8ee6d111b82ba9df0a0065d39f97ac21",
+      "bytes": 11505
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Far.lean",
+      "sha256": "385da48f207080e175eae2952d4e6f6d8eb61473db487082fb051cb59e04d435",
+      "bytes": 24703
+    },
+    {
+      "path": "CKN/Core/HeatPotential/FarOscillation.lean",
+      "sha256": "2ec4a8fa85e976d9d553c85882d7da89dc6fadd7e3dd1127b48a169c6af49927",
+      "bytes": 32392
+    },
+    {
+      "path": "CKN/Core/HeatPotential/FarShell.lean",
+      "sha256": "3be5bd817d9aa32502d9e1b80969a74b97d14f7e845fb125fdb98a667fd963e1",
+      "bytes": 31023
+    },
+    {
+      "path": "CKN/Core/HeatPotential/GeneralSymbol.lean",
+      "sha256": "0147a87f013f2e49da6d55c2e8ebdac910d5418827c3952ff998de6103738d60",
+      "bytes": 984
+    },
+    {
+      "path": "CKN/Core/HeatPotential/GeneralSymbolHeatKernelSplitData.lean",
+      "sha256": "2bcf167268b4d53e7da33d6677cda61a3890b8d5b55e87e4a794888ed35cc6fe",
+      "bytes": 10437
+    },
+    {
+      "path": "CKN/Core/HeatPotential/GeneralSymbolPairings.lean",
+      "sha256": "843891639fcae6dbc8e2f0085a6ca3a4c74c6d46de69e1e70542a839c44aaa31",
+      "bytes": 13332
+    },
+    {
+      "path": "CKN/Core/HeatPotential/HeatFarAssemblyGeometry.lean",
+      "sha256": "a1cf642014ec89c84ac10feda6873774234c3697f8cf12ca3da74cf9ee5c7efc",
+      "bytes": 9759
+    },
+    {
+      "path": "CKN/Core/HeatPotential/HeatFarStripBound.lean",
+      "sha256": "56231d1f33dfa525ee2d3674a92f0c2255e91cbf813dd584307d064b378f8a65",
+      "bytes": 17485
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Kernel.lean",
+      "sha256": "9db79888e8c6a3a89c6fe1eb7eebec8f88253ef39c7be26779d682ba1dab08fb",
+      "bytes": 4217
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Morrey.lean",
+      "sha256": "e1481fea0e4109629d657da27f4464d4703e85dc7352edd4aedaa465c320392d",
+      "bytes": 1935
+    },
+    {
+      "path": "CKN/Core/HeatPotential/MorreySources.lean",
+      "sha256": "736b8e9ddda80d6005db2d2bc4bc838fbc72eb367de4ef6095765c7dfdf43675",
+      "bytes": 9386
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Near.lean",
+      "sha256": "c1a8c07c102b9e3c3039cea0b7deb39b7163227a0e3ca6d64101df158ee68f09",
+      "bytes": 919
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedAssembly.lean",
+      "sha256": "64a6e7494a8a67f080c9c86826e411f5f8c6bed9240b504dc1041a57b399f43e",
+      "bytes": 16768
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedBase.lean",
+      "sha256": "f2ab27be1d3c684feeb774454404834054ec4a20e21da44c037928bc08177f13",
+      "bytes": 31047
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedCampanato.lean",
+      "sha256": "3a112b8e2cf8802a3692822d18fd6f0e43e577efad90939a290b67539c5738f4",
+      "bytes": 24329
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedEnd.lean",
+      "sha256": "2ddd76238e14d0e098e2ef9b55284d3ea809923383f51a5743c393d60e235566",
+      "bytes": 19703
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedFar.lean",
+      "sha256": "92dbacaa7ed2f47b9d998d5ce7869d6a539680d214c78c0414dcd1113227ebf7",
+      "bytes": 20718
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedNear.lean",
+      "sha256": "5880defe81456746dd3d84b2fd503952495320fe4c0e25f102598bc05a8f14f4",
+      "bytes": 18466
+    },
+    {
+      "path": "CKN/Core/Step3/DuhamelAdjoint.lean",
+      "sha256": "284f57b054bf951cef1d4b74f90cc81c25e762c61371075710f0a99f4c74e377",
+      "bytes": 23297
+    },
+    {
+      "path": "CKN/Core/Step3/LocalEquationRepresentation.lean",
+      "sha256": "b1517e3ff4ee407bebfeb3005017decab9720df3187145b58b8dae034114806d",
+      "bytes": 1714
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationBasics.lean",
+      "sha256": "8533d85d2a31fd135cc157260b9074b86c73f6b79725237e32622911ed1548c6",
+      "bytes": 14445
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationDuhamel.lean",
+      "sha256": "50c7edb7e246b900946c6aed7d155aef2298806b96c25c4feb8f9ad956f8b848",
+      "bytes": 30121
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationDuhamelKernels.lean",
+      "sha256": "a19ec56d06dd751479cd2b06420d24729fc1b37a1a800e1e845a51ce1304be23",
+      "bytes": 10690
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationLaplacian.lean",
+      "sha256": "18362f4e55ad8f81959fe38fa8bd80ac7399c29217fb41c844138b1ee52a3d69",
+      "bytes": 24511
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationTested.lean",
+      "sha256": "d1a2f53cdbeb5199d4867f0c70338d0c4ab0c31d392e2d830d32b2dd19914915",
+      "bytes": 26344
+    },
+    {
+      "path": "CKN/Foundation/Ambient/Euclidean.lean",
+      "sha256": "7e04cb72b1cccc0ab0a08bfa79969f663189435f63c3cfe76ca39ab2ac1513fa",
+      "bytes": 2682
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/DegreeOneSymbol.lean",
+      "sha256": "b6d36e1e188665fb3268bc1c9e675e3542a01bac56c68cb535bab2b8b6fff280",
+      "bytes": 4790
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBounds.lean",
+      "sha256": "e012f85bcf5a6ad1ad0fce309eb7a2665d816e6f9cef577cdf680ca1f08c47d1",
+      "bytes": 21987
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsAssembly.lean",
+      "sha256": "56b499a935a11b5ac6e8e774f10bd8f4e5ae59ffa6c33987497e2dbd9699ae16",
+      "bytes": 7048
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelBoundsProof.lean",
+      "sha256": "d85fcfec34b2f19eb6971bbc701b5e35c9d3e7340083b427aa0ac4002c0896c3",
+      "bytes": 24281
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelCrossZero.lean",
+      "sha256": "ba88b0bf4e79ab51942e80d255e71817d0115818dd6a2cc32b5433b0edc483f3",
+      "bytes": 4060
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelGaussianDerivativeBounds.lean",
+      "sha256": "abb0228b893cc2de5187bc6bc595dacf820c8c1a9d423878774a21a150a1752d",
+      "bytes": 16595
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelHighFrequencyFourier.lean",
+      "sha256": "60e99bd0bfbf7be355d710254484469306c2bd69f3ef1fe61e05deea505f92c2",
+      "bytes": 3275
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelHighSymbolBounds.lean",
+      "sha256": "7ca54a489f6fdba2fb9f8b152136546aa73ae62630edd5429cfe99a1dd083b2e",
+      "bytes": 17783
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelL1.lean",
+      "sha256": "a10a951727de6725f5343b9146e3215f66ca19f697eec115d3065b7426abc149",
+      "bytes": 6741
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelLocalIntegrable.lean",
+      "sha256": "4557ff8307da1c9d6dff42cf0539816f748d1f7d9c771392d00c38b82372ed10",
+      "bytes": 14502
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelLowFrequency.lean",
+      "sha256": "e36379bc50a0c2b4934caf841887b8fcfffc7448b22a30982866f23c9bd188a2",
+      "bytes": 11360
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelOscillatory.lean",
+      "sha256": "c064483bbaa0d512802972d727ab7a7326108b35b47c17c3204eea6fefa33924",
+      "bytes": 35458
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelScaling.lean",
+      "sha256": "1c491c53f1e04b5c9c29505830b4a47cb0044fc311118721eceda1b8584dcfd2",
+      "bytes": 6947
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelSpatialDerivative.lean",
+      "sha256": "4ca3ce044774a6e623479f88e6aea17e9c73f629e163767dee43adf3b4ea7760",
+      "bytes": 12006
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelTimeDerivative.lean",
+      "sha256": "432d3a8a9b9ba839759fa25a64d8840104f344995833214020bed1df0d3b0adb",
+      "bytes": 10968
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierHeatKernelUnitBound.lean",
+      "sha256": "f249d8a60fce7a51bb79cd39a781dfb4a309462305e885c8cb449a4df273cca7",
+      "bytes": 7709
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/SpatialMultiplierKernel.lean",
+      "sha256": "771f51a4d2fd9d0a929b3069e40bc70d23a00d66ce920b1d988e980af3eb7fbc",
+      "bytes": 8244
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersSphere.lean",
+      "sha256": "48b8c2c482cd38906f27a38fff92999aae8ace957714484fed7e4fdf56ff6240",
+      "bytes": 2913
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Newtonian.lean",
+      "sha256": "617c57659b5e4d4904b7f050e090b173ae6e29bc9c22ddcf1b8221909697cff6",
+      "bytes": 19201
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotential.lean",
+      "sha256": "7a0c097f484ab2353462126ff101c4b5ca8f9afacf49a98bc1645522acc2f379",
+      "bytes": 31544
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialIdentity.lean",
+      "sha256": "6c6d5f5589423f1ff0d9a49d0b5b019a4eb0fc0ee740b8365cf3f7faa17a9e94",
+      "bytes": 26922
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialKernelBridge.lean",
+      "sha256": "dac5474b756a841aeead47f2bc7fd9ed0d1738dd787bc8649fcd8a088dcf8197",
+      "bytes": 22570
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialPairing.lean",
+      "sha256": "757f2ec363cb50cd8644b3517345fb15224bd3d3da60a90bc67b5b847878de23",
+      "bytes": 3807
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialSmooth.lean",
+      "sha256": "3fd06ace650c2d6538e1482fe9511b00a7669f524bffb5b0ea86f585034f18ac",
+      "bytes": 12922
+    },
+    {
+      "path": "CKN/Foundation/Heat/Basic.lean",
+      "sha256": "4f7354999bfde44039d84b5daaf21de8c2cdc0a2c5701b8ac0ccd4bd0c0ec88e",
+      "bytes": 6257
+    },
+    {
+      "path": "CKN/Foundation/Heat/Bounds.lean",
+      "sha256": "a50db5c3387223a877ac5c19ddb501a3b4610097bc9e4dff1c65ac83ca539f94",
+      "bytes": 20308
+    },
+    {
+      "path": "CKN/Foundation/Heat/CausalDistribution.lean",
+      "sha256": "d2a239f233f75747573bd49284bd19d7835253b677dfec0a545d929a56e64094",
+      "bytes": 3712
+    },
+    {
+      "path": "CKN/Foundation/Heat/Convolution.lean",
+      "sha256": "a6b8c6f0820427c7f69d31291427368cd74711212292a000c7aac0874a30d545",
+      "bytes": 20138
+    },
+    {
+      "path": "CKN/Foundation/Heat/HigherBounds.lean",
+      "sha256": "bb16a26f5e0983956f029b975f6712866f102fbfa04b7addc15681ad1ca7359d",
+      "bytes": 22942
+    },
+    {
+      "path": "CKN/Foundation/Heat/Integrability.lean",
+      "sha256": "d57ca10eed420d20c87f3293e6cdda9afa81af1a2f165eb2a70b8b81a33f161d",
+      "bytes": 25282
+    },
+    {
+      "path": "CKN/Foundation/Heat/IntegralBounds.lean",
+      "sha256": "10af0203fcec24b2ca09fb59f5fcaff35e60e321eaa14d502c803f33a103180a",
+      "bytes": 12144
+    },
+    {
+      "path": "CKN/Foundation/Heat/Smooth.lean",
+      "sha256": "41c0615a649fe5711b35e229d332dafed5356b78798c334d00d96fff9bdefa61",
+      "bytes": 10205
+    },
+    {
+      "path": "CKN/Foundation/Heat/SpaceSecondDeriv.lean",
+      "sha256": "85e245db25e61079235bd45083cebd5329e3d0e927f48ddf6d39ea0f47d15363",
+      "bytes": 3083
+    },
+    {
+      "path": "CKN/Foundation/Heat/Subordination.lean",
+      "sha256": "ff0e2ce9f973745d98acb333f1efaf585021968c7fc6a7d4f9b1645299c47d7c",
+      "bytes": 28053
+    },
+    {
+      "path": "CKN/Foundation/Heat/TestFunction.lean",
+      "sha256": "bbbe390da37bec6f7d30dcf3cda4f9e606e2f77dbb2a20f5f5d230d520758867",
+      "bytes": 776
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/BallDisplays.lean",
+      "sha256": "9dd6cab210403f9b60c6a585af2d58388694dd0e2851b23d55b74b59ec4e0212",
+      "bytes": 6067
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "42a63462bee2ecf71f0d4f52109243c37b604d8e3315388431a5435492439afc",
+      "bytes": 13722
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Campanato.lean",
+      "sha256": "5a4a636a2eef6644b5f78aec5ddc989c21af1e330d97db71fd27e77875d6c32f",
+      "bytes": 3016
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolder.lean",
+      "sha256": "d6a2afb0ffa157e2a152e5b34902c40886a6b706393eeca676a7943adb78f5bb",
+      "bytes": 36165
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderCorollaries.lean",
+      "sha256": "bfb069d0d42930cb2d81fef05cdc6ef40e40709bee86ccef094b76f210b9420e",
+      "bytes": 2109
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderFinal.lean",
+      "sha256": "82d6a812aa148060f681fa95c1fda28f94640fa115f09ea97451b3840d18f988",
+      "bytes": 15507
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Doubling.lean",
+      "sha256": "28b18b11a28759e5c8a15a750dc0da225d23db80136bd99a4cb930cd0f0ac3cb",
+      "bytes": 10780
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Holder.lean",
+      "sha256": "a997b198091156b696266d33058cb9a3a809745fe6634a51d670f8eca894f4ab",
+      "bytes": 1637
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Average.lean",
+      "sha256": "7bc264f28c12370b69be3db4610105c203e9bea49624f70edfaf98ac463d3a84",
+      "bytes": 7993
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Scaling.lean",
+      "sha256": "8f210ba860b00b1a070a400d063abfa15d7de958fc806fa60e8972e95d87a6dd",
+      "bytes": 31100
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/SingletonNull.lean",
+      "sha256": "bf370dbc42f50e077ee4088f0a8f46637585bca12533400679f752e3fec61672",
+      "bytes": 719
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Slice.lean",
+      "sha256": "68c803026fe3865d3c062b3749bffadf3b84fd233b4e355c8e82a6dc38957ef8",
+      "bytes": 13670
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Maximal/HardyLittlewood.lean",
+      "sha256": "4c05737b8bd848b43d0625e2dc39ac9c3483f358fbbe00026921092d8c2a9581",
+      "bytes": 8315
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Maximal/StrongType.lean",
+      "sha256": "d361b5ee61256c0970400f18a8ab15b910957167ade308ff215e014ad3968b12",
+      "bytes": 29382
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Adams.lean",
+      "sha256": "f543a72c2e15b80a56c50de92b84d7d6b80a230f253392c0fc05ca9fa955d69a",
+      "bytes": 20642
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/AdamsBridge.lean",
+      "sha256": "14a977bb00804337d26e8988c425c628b3670a1fee53ee2089869ccf32214838",
+      "bytes": 15632
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/AdamsEndpoints.lean",
+      "sha256": "0f936c2ba2881741688bdcce3ab091b281a06a8cb6e19d4dd4f9e2635f70f166",
+      "bytes": 7043
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Basic.lean",
+      "sha256": "cf55341ed760138ce5e47add4f17d4d57a2e126409f41476b675583f945d0e66",
+      "bytes": 32543
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Hedberg.lean",
+      "sha256": "93ca355603a0336820ca779d6970647e7f0111fe76a1714ad0a3c6bad62fe5bb",
+      "bytes": 2893
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Inclusions.lean",
+      "sha256": "54b2200cbcf90e21e2626d9e7e560ad993921f4231ff58a7705f3651752040a4",
+      "bytes": 5917
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Kernel.lean",
+      "sha256": "11af2c327ec8375d64adcd325a4060a811fc90f90c41558ff2ab1f64b25e01c6",
+      "bytes": 23333
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/StripMass.lean",
+      "sha256": "c2b88fd753736d0cb20c64db0506ed075f07891212b3ca4d35c112ff0890255c",
+      "bytes": 13895
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Tail.lean",
+      "sha256": "c9ef8eb6639317f3fbc90476f6957e48c345e80b24056c6f31a4ebee0a99fc61",
+      "bytes": 18005
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "b73b04b54b95e528a4856526d8341131d771b6f3d0c443b27c0bf702ffb3b759",
+      "bytes": 9441
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Vec3Norm.lean",
+      "sha256": "70af79b0a834dbc264f9ce857312fd51b23f501ef97c3c31757246579913a1b9",
+      "bytes": 4512
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "0c154a7e1a1b1c55836a9a50a2bcf7a93b91e21b40a9f48002848f92ca9ef786",
+      "bytes": 507
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "122b81fbb0fd59ab38de55a229e54e4c3f1de3132d1b9aa9a1f006bbf88cc967",
+      "bytes": 986
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/CoordDeriv.lean",
+      "sha256": "3fabf3e9952845d787d8dc171623922a6837ddcd213eea9939864d47689ef709",
+      "bytes": 1737
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Ball.lean",
+      "sha256": "0be5ea44033fc87fe95a4bb8f1c10c4411514922c23a9ffec411b622d4d8d18a",
+      "bytes": 18784
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Basic.lean",
+      "sha256": "68dac016927281d9ace7ece57bbf9ac07b7ccadd3e56acffc2c5e77c388d65d2",
+      "bytes": 8651
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Profile.lean",
+      "sha256": "f8b3a6bbd2f4acf613a3a2268b73a5682d447a20fd420c7cc3e29a553d0700fd",
+      "bytes": 7320
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/SpaceTime.lean",
+      "sha256": "8d1e7692966cac0ea7d5ce185055069e7383e491af8f3e4848ed13dc4873dc66",
+      "bytes": 15686
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Measure/RestrictedVolume.lean",
+      "sha256": "f501eada1b2ff6a94dc125730f0d1cabcff759b60dbec132afacb1fcc76bd74d",
+      "bytes": 818
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/Basic.lean",
+      "sha256": "e018fa50cf4a188e26ae1414e8bca7a4f35dda44809004b0d83a5b286c9a8356",
+      "bytes": 3663
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/LpApproximation.lean",
+      "sha256": "15232de3c6fc36bde630df52ea97866acb122970032006ccff962319899de008",
+      "bytes": 13987
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/LpConvolution.lean",
+      "sha256": "4b46830c820dc6ef0f710f6ed57e69040c2c93e9595cb01783426181311a7ae5",
+      "bytes": 13406
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/SupportThickening.lean",
+      "sha256": "ceda2ebfb80e6e2bd23b0eff8a68bc551de3b095736dbd975e9c7567555c762c",
+      "bytes": 4396
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/Transport.lean",
+      "sha256": "c2381a44a220f42cc9825d2d205b1bec34d335fa8f61f79e129dadb5a9e38ace",
+      "bytes": 7990
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/GradientNorm.lean",
+      "sha256": "fa59d0b30bd93be374a58f52ac010c72e16f5b5ab9b29aec5bc3971f8501b549",
+      "bytes": 4675
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/TestFunction.lean",
+      "sha256": "dfe7db706f6bb6e81161fa0169a92609574726c466d93f13b7bf60d679dfa40e",
+      "bytes": 1160
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/W1p/Basic.lean",
+      "sha256": "c69701538326714c0943cad67b4dc3697172554cdb4e3e84e44616a764d57867",
+      "bytes": 3789
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakDerivative.lean",
+      "sha256": "c944a108949797988968aaf2511dcf518fed711eb10944d5365c8a584e00c26f",
+      "bytes": 10078
+    },
+    {
+      "path": "CKN/Pressure/LeibnizLaplacian.lean",
+      "sha256": "ec779dac1caba7d7258cc0db8d4de4d66544b0ca36f8926326f0ae6226ba77e2",
+      "bytes": 7183
+    },
+    {
+      "path": "CKN/Pressure/SliceIntegrability.lean",
+      "sha256": "12efec5bcd90e17d3503a78fdae0f19d7042c92acd79f402ecb8cfe7741a2166",
+      "bytes": 4461
+    },
+    {
+      "path": "CKN/Setting/Energy/Calculus.lean",
+      "sha256": "3edf860cb0553b2598e158ebcaf13e531436a10bbdff602f6632133afbb220a8",
+      "bytes": 5488
+    },
+    {
+      "path": "CKN/Setting/Energy/PointwiseEnergy.lean",
+      "sha256": "c20fc8f4720b2ed9077ea2838fb2f2fe72d0196d2b877ba8507b07c31f561529",
+      "bytes": 2159
+    },
+    {
+      "path": "CKN/Setting/Finiteness.lean",
+      "sha256": "9fdfd1f337e28824fc0e294c2c0af346408d6528560301bf28b45e868695c8b8",
+      "bytes": 22937
+    },
+    {
+      "path": "CKN/Setting/Monotonicity.lean",
+      "sha256": "412473f9186815beb67d418d8f8986a30f90b898e182bdbd7a38e1a95c759cbf",
+      "bytes": 10732
+    },
+    {
+      "path": "CKN/Setting/ScalingInvarianceBasic.lean",
+      "sha256": "cc9e30ece785b73be1765fb150883ada008414825cfc7cfb37ddca4968efcb97",
+      "bytes": 11828
+    },
+    {
+      "path": "CKN/Setting/ScalingInvarianceTests.lean",
+      "sha256": "5c980b3bee54a10656441744cced031392cb2d5bbd93f0ff4981b7c28e424d88",
+      "bytes": 14095
+    },
+    {
+      "path": "CKN/Setting/ScalingQuantities.lean",
+      "sha256": "ae194937a0287d03d2a17cd738a3eec2e5c6d9334f4b5d4a802ae322171a97bc",
+      "bytes": 31230
+    },
+    {
+      "path": "CKN/Statements/Alpha.lean",
+      "sha256": "bf00c34e6c3e60a450ef1403fe150f31d082b759a1bf2281cb2e1245acbd6941",
+      "bytes": 622
+    },
+    {
+      "path": "CKN/Statements/Beta.lean",
+      "sha256": "3f7025d00cced85f88f0d29fd09d4f19b8ae8a9b16952cd9c342cbd551d12a47",
+      "bytes": 688
+    },
+    {
+      "path": "CKN/Statements/Delta.lean",
+      "sha256": "54ad0b782ad8ec64f26a7a2cc9e60c31a49ecae01466368d11860bd325ba0547",
+      "bytes": 570
+    },
+    {
+      "path": "CKN/Statements/Gamma.lean",
+      "sha256": "ccba77ce60a5f89a04554581be3abdd16091e3a8b8bbdf1b64afc5b72c3ab256",
+      "bytes": 595
+    },
+    {
+      "path": "CKN/Statements/Lambda.lean",
+      "sha256": "7c83b6541fcc69c99e20fd00e3104f997899f9ba26f9355ab2dd2238af798ad8",
+      "bytes": 594
+    },
+    {
+      "path": "CKN/Statements/LocalBox.lean",
+      "sha256": "6abd3d9a007e3e176ead7f0b90c7e2c5137b77ed8bbd79b32f1e7b3cdd79c015",
+      "bytes": 505
+    },
+    {
+      "path": "CKN/Statements/LocalLp.lean",
+      "sha256": "ca05e087674eb7f51d064e89da5291c4dc8ae263dae8516b82c5484106c8d017",
+      "bytes": 522
+    },
+    {
+      "path": "CKN/Statements/LocalVecLp.lean",
+      "sha256": "19b0dfb3292a90e29b20e6476537f864faa40b80cfb47805bdba8d5d8e8d48ba",
+      "bytes": 425
+    },
+    {
+      "path": "CKN/Statements/ParabolicHolderVecOn.lean",
+      "sha256": "aa3850decc6a1ba82e488326e749daf99b36edd15a9b9c50bfb64c0cfd4c2981",
+      "bytes": 557
+    },
+    {
+      "path": "CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "d82b12e8ca3c9c3df3f9a268acf5adf1b01f875ba444e3b14aa4415a86f4b882",
+      "bytes": 364
+    },
+    {
+      "path": "CKN/Statements/SpaceTimeTestFunction.lean",
+      "sha256": "bb6dd2f6fb92584dce52b2687a7fb321d2892c17580cad36f2ae6c23d6797d73",
+      "bytes": 707
+    },
+    {
+      "path": "CKN/Statements/SpatialGradientSq.lean",
+      "sha256": "92605a9ccb14f0f1b4870ae73fb4151895d26ed491fa1202e8d4be35026529fd",
+      "bytes": 446
+    },
+    {
+      "path": "CKN/Statements/SpatialPartial.lean",
+      "sha256": "3f190a3b194b4064a8c76310d04e50c97fa59977a280b285be57a20f22072139",
+      "bytes": 575
+    },
+    {
+      "path": "CKN/Statements/SpatialSecondPartial.lean",
+      "sha256": "adf805c1640abbc5e55ba5c8efd1ad2f5704080c4ee1c522c2fb92683084c14c",
+      "bytes": 465
+    },
+    {
+      "path": "CKN/Statements/SuitableWeakSolutionIntegrable.lean",
+      "sha256": "daa390d67896df69c40d4a8ec4d8dc43747000144ca6dbb926d86477b4ebc722",
+      "bytes": 4040
+    },
+    {
+      "path": "CKN/Statements/Theta.lean",
+      "sha256": "5205c5f8bfecadd9eb513e1139a624fcc645f9d140228a7056d5ee21ad6bed93",
+      "bytes": 565
+    },
+    {
+      "path": "CKN/Statements/TimePartial.lean",
+      "sha256": "b6d0fba786f1bfe5393ec6f593ffcd8373f6d36b617c4976f881fe6d675d3a43",
+      "bytes": 499
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Exponents.lean",
+      "sha256": "655f0cfb3b28f4a56cba2747e7f24d9895f9a8f4dd9d9734c592afa2f3ba5f33",
+      "bytes": 1700
+    },
+    {
+      "path": "CKN/Foundation/Heat/PolyExpBounds.lean",
+      "sha256": "26acbfadcbff08ebb7150eaa0f3bc7130624d6f699066f9de9f77e7de2f7c405",
+      "bytes": 3563
+    },
+    {
+      "path": "CKN/Foundation/Measure/LayerCake.lean",
+      "sha256": "a1ccf6c7c36065792cac0cdd91bcea28be15b145b413303fe8e279c835b93d9e",
+      "bytes": 2568
+    },
+    {
+      "path": "CKN/Foundation/Measure/WeightedKernelIdentity.lean",
+      "sha256": "2d5a4c0d8eb53df1b46d7bd4167ba646ce62424588ae7e126990b5388f124959",
+      "bytes": 1506
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "73dc840a051106f5f26ef42de9abf5a6ad17c924382ae2d2fd492afff43287fc",
+      "bytes": 586,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CKN/Core/HeatPotential/HeatFarAssemblyGeometry.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg",
+    "source_commit": "58a9ffe548ea64319ac8cba098634340ee6270cb"
+  }
+}

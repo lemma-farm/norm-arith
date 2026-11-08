@@ -1,0 +1,141 @@
+{
+  "id": "a13670503fa474483fe3",
+  "source": {
+    "repository": "roos-j/lean-spherical",
+    "commit": "800b71afca91e42809c21e6e2fd9ae4f82467082",
+    "project": "roos-j--lean-spherical--800b71afca91",
+    "path": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean",
+    "file_id": "08467a2539f19f902319",
+    "source_sha256": "08467a2539f19f902319b7b6db2280cc0d30d3ebeda2ac757aeb63d7a10ed16e",
+    "start": 5791,
+    "end": 5830,
+    "original_start": 5791,
+    "original_end": 5830,
+    "declaration": "tsum_physicalBlock_moments_le",
+    "source_url": "https://github.com/roos-j/lean-spherical/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean#L5791-L5830",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-spherical--f9129e76398c/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean#L5791-L5830"
+  },
+  "native_target_name": "_private.LeanSpherical.Auto.Spherical.PowerWeights.GlobalToLocal.0.Auto.Spherical.PowerWeights.tsum_physicalBlock_moments_le",
+  "source_declaration_label": "tsum_physicalBlock_moments_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "16eec6c0d8fe683cfe3cd3534ecc5664115373a6b37da698a29a7442b1ce7ae0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "79dc3b50807915375273a907139d108e8bcdb522bb15e3650edace930364b2bc",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanSpherical/Auto/ConvexDuality.lean",
+      "sha256": "e20d609624814138892a60e94bf173bed48c5978b6d00a04580e6c43b4c920ec",
+      "bytes": 26064
+    },
+    {
+      "path": "LeanSpherical/Auto/FractalDimensions.lean",
+      "sha256": "035e2087fb8f897dcdb12c2a3c90ae6182784ab1d987b8d70cae3b32cbec5440",
+      "bytes": 105049
+    },
+    {
+      "path": "LeanSpherical/Auto/HardyLittlewoodMaximal.lean",
+      "sha256": "e4cc6e74c816a363ad347661b5aa9061aaff7d5b27baa8263aa32513f7cdeaf3",
+      "bytes": 71435
+    },
+    {
+      "path": "LeanSpherical/Auto/MarcinkiewiczInterpolation.lean",
+      "sha256": "746d115e38c3ea037546866a1a77ca19711954e0ca580182d58cdc34c3c2c046",
+      "bytes": 156288
+    },
+    {
+      "path": "LeanSpherical/Auto/RadialFourierTransform.lean",
+      "sha256": "2f762786eafe73cfd001e06a0087262a7fad8445d11e5caa12a8399e48992e04",
+      "bytes": 43286
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/AHRS/ExponentRegion.lean",
+      "sha256": "7acaaa089d50e99b173f605de607f312618cfca93043075717f56b0ce4fc4a7f",
+      "bytes": 48511
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/AHRS/LowerBounds.lean",
+      "sha256": "e2fcb9cf984dccc75d80c806d9603c12cb6f1a7ee7796490cf9ea14129f70d0b",
+      "bytes": 288662
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/Auxiliary.lean",
+      "sha256": "d557ef54398765ad2045f44226b0feb3e6fa78b1ed6a0a6cd10ab1090e9c6e2e",
+      "bytes": 399445
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/LegendreAssouad.lean",
+      "sha256": "72e05722fcc31106ece1dec9662ccefc3f695d1affc5c211ea4a6627f8927241",
+      "bytes": 285229
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/OscillatoryIntegralAux.lean",
+      "sha256": "fa0f671361311ef0e280b0e78b488d26397a6317095eac07ab7cc0328e8925e9",
+      "bytes": 226508
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/PowerWeights/Basic.lean",
+      "sha256": "4c872eaf73bd216ae078f1884d63f038467a720f1f4d763114cebf26f0dc4fc5",
+      "bytes": 306284
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean",
+      "sha256": "1960577897737f5b736027d198b6eca1404e32cb3e01a27c6ab8e586930247db",
+      "bytes": 338600
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/SphericalMaximal.lean",
+      "sha256": "345ab3cd5f6d681faa2cea31f572eaebdeebb80398b27f37576d54d86a344e46",
+      "bytes": 308689
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/SphericalMaximalL2.lean",
+      "sha256": "a90891fb17b4fb9bbd599d0c824363074d442501b6de22fae18277973adbcc74",
+      "bytes": 263822
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/SurfaceMeasureDecay.lean",
+      "sha256": "891838886b3e9160db332488cf0bbc110098c183d4ed2599106d840940ddf5c1",
+      "bytes": 352322
+    },
+    {
+      "path": "LeanSpherical/Definitions.lean",
+      "sha256": "d4aba7bc0d18645fd6f419e8a3f7d0aca74143202afe885950f6734fee246dc0",
+      "bytes": 11407
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "1d241149f9606ce02f944a0ac40275c6d7929fdcada9529ea712d385ee2178ff",
+      "bytes": 492,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "07885e1526f382d5372cfe897a21b9d82f97e19f213f29487bdb6c21a5a95c9f",
+      "bytes": 3605,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-6ec56cf8ea78cea1/a13670503fa474483fe3": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-spherical",
+    "source_commit": "800b71afca91e42809c21e6e2fd9ae4f82467082"
+  }
+}

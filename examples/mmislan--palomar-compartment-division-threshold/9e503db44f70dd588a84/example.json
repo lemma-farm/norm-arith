@@ -1,0 +1,71 @@
+{
+  "id": "9e503db44f70dd588a84",
+  "source": {
+    "repository": "mmislan/palomar-compartment-division-threshold",
+    "commit": "c5dacf41f334ccc781c4bda691c388b6214befb2",
+    "project": "mmislan--palomar-compartment-division-threshold--c5dacf41f334",
+    "path": "proofs/DividingCompartments/MarkovRenewal.lean",
+    "file_id": "0a5e753de8d80ee18de0",
+    "source_sha256": "0a5e753de8d80ee18de04f2e06aa2e0d17a588fe2aebceca5b7b1013605864d9",
+    "start": 68,
+    "end": 75,
+    "original_start": 63,
+    "original_end": 75,
+    "declaration": "Model.apply_bounded",
+    "source_url": "https://github.com/mmislan/palomar-compartment-division-threshold/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/proofs/DividingCompartments/MarkovRenewal.lean#L68-L75",
+    "archive_url": "https://github.com/PalomarArchive/mmislan--palomar-compartment-division-threshold--29db348fffe5/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/proofs/DividingCompartments/MarkovRenewal.lean#L68-L75"
+  },
+  "native_target_name": "DividingCompartments.MarkovRenewal.Model.apply_bounded",
+  "source_declaration_label": "Model.apply_bounded",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "502f70bd7486ff4eca80b462f660c4cbf223e1320766b72e99eabfeb4768040a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f36e3093926ada3eea7b7746997dc3495c030a32b18d1b358c24f9da63c64a8b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "proofs/DividingCompartments/FiniteBranching.lean",
+      "sha256": "7d40f886ec2d51515b5e676e137d921ce535afddf04f3c0fd0d4805e12f8ec15",
+      "bytes": 64875
+    },
+    {
+      "path": "proofs/DividingCompartments/MarkovRenewal.lean",
+      "sha256": "78614bad4d4e5e9564fa988024428f507955c59e5e0c8eec7b717ff9631b423a",
+      "bytes": 15936
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "8a254733ce5985b03975a666962dcbbc30d0429595fae7a0e9f70e4f8b28e141",
+      "bytes": 572,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "proofs/DividingCompartments/MarkovRenewal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/9e503db44f70dd588a84": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mmislan/palomar-compartment-division-threshold",
+    "source_commit": "c5dacf41f334ccc781c4bda691c388b6214befb2"
+  }
+}

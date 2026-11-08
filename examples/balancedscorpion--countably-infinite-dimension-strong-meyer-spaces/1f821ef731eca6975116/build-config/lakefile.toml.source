@@ -1,0 +1,25 @@
+"name" = "CountablyInfiniteStrongCrystallineMeasures"
+"version" = "0.1.0"
+"defaultTargets" = ["Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["require"]]
+"name" = "TauCeti"
+"path" = "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/1f821ef731eca6975116/__deps/TauCeti-7b6a96a1"
+
+[["lean_lib"]]
+"name" = "MeyerGeneralProblem"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

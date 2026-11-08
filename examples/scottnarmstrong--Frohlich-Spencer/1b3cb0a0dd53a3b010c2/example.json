@@ -1,0 +1,178 @@
+{
+  "id": "1b3cb0a0dd53a3b010c2",
+  "source": {
+    "repository": "scottnarmstrong/Frohlich-Spencer",
+    "commit": "e01623b7347c272eac9480f04743f38b8d0df223",
+    "project": "scottnarmstrong--Frohlich-Spencer--e01623b7347c",
+    "path": "FroehlichSpencer/BKT/ExpMoment/Claim32.lean",
+    "file_id": "09143a15fabb8604126f",
+    "source_sha256": "09143a15fabb8604126fad0b7d59d289cbb656e8262efa5a3e0bcdb47c1444f4",
+    "start": 89,
+    "end": 97,
+    "original_start": 62,
+    "original_end": 97,
+    "declaration": "sum_abs_le_sum_sq",
+    "source_url": "https://github.com/scottnarmstrong/Frohlich-Spencer/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/ExpMoment/Claim32.lean#L89-L97",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Frohlich-Spencer--d2b386690b28/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/ExpMoment/Claim32.lean#L89-L97"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "sum_abs_le_sum_sq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d28c198b358efce543c1ba14aab41891a6d786a01a7e678e7d58ee95f0257f73",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f58b189978b4b9e6372a11b1fac2af6e02586a31e1dcafdded253b9df265d0ce",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Covers.lean",
+      "sha256": "b025c3aec9c3e8212adaee09ce7722a27d0e1a3175f2de9614f1f01158cf0ddd",
+      "bytes": 8236
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/DensityBall.lean",
+      "sha256": "f9525bad3fa29a56e973fba8ea95be0600c52c206b00c5e2b6d791a55fcfd61b",
+      "bytes": 7763
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/DensityRouting.lean",
+      "sha256": "0541b36036062cb10942d9a2c5dae88b1745c407d84bf9fecea00e55a0d02b54",
+      "bytes": 8534
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Geometry.lean",
+      "sha256": "c08cd19ca8a5bc52536ad6958c3fcbf1284fb143ccc431989622c417aec8aefe",
+      "bytes": 1865
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/L41Span.lean",
+      "sha256": "a7019c964d575049b0117e6f4e195e9254eb3de6ff7b3d10ac7759bc16d3381c",
+      "bytes": 49266
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentGeometry.lean",
+      "sha256": "05b09b14f7d5f28a590ba3d51b3bede6ee347948ea732ea5590d436aa833423c",
+      "bytes": 17847
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ScaleMonotonicity.lean",
+      "sha256": "8878be5bbf7973993cac29e6547ae848a5861cba2c5c6300e537486bfea07cb4",
+      "bytes": 4001
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Squares.lean",
+      "sha256": "0a4d871afa33e8c0ab67ec0ba7878b66184e250481f4a846cbfcad355bc9390e",
+      "bytes": 5905
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/TorusDistance.lean",
+      "sha256": "80b4f68c850edb01b34bdbac99e2962d248ee05899d9e03488cc32193ed33c27",
+      "bytes": 16911
+    },
+    {
+      "path": "FroehlichSpencer/BKT/ExpMoment/Claim32.lean",
+      "sha256": "09143a15fabb8604126fad0b7d59d289cbb656e8262efa5a3e0bcdb47c1444f4",
+      "bytes": 20200
+    },
+    {
+      "path": "FroehlichSpencer/BKT/FiniteGraph/Basic.lean",
+      "sha256": "e807ddd5f02e3a8299e80837bbea34621c8872625b965bac1ffc8a20ec140a57",
+      "bytes": 2011
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityCenter.lean",
+      "sha256": "a2ac9a97a33cfc3b90f85fdf6f3bcc3b5fe541bdde6dea481f03263055c4ce98",
+      "bytes": 841
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityCenterExists.lean",
+      "sha256": "56ef7ef2bd2b9ea5419b1248af1c4791a53ed8e400be6b34a80a187cec7e0d2a",
+      "bytes": 1252
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityDiameter.lean",
+      "sha256": "74c9833ecbd13abf471bea429b98e95aefa6a363c73c959bf12ffad5dda37ce4",
+      "bytes": 1072
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityDomain.lean",
+      "sha256": "149c36e8429638056906445875627564800003212dbcd5ebf65f52b347e33ada",
+      "bytes": 725
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/Laplacian.lean",
+      "sha256": "d34593afcebdc4b998cde188393a89faa7a96202a04682dbaeb1d48f7608761c",
+      "bytes": 905
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/Multigraph.lean",
+      "sha256": "a43372fc6c884e5d347551d1de6de38da0b0eda8c1d9c77c34eca9bd110dd8b6",
+      "bytes": 931
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/MultigraphSimpleGraph.lean",
+      "sha256": "228a0c97c6f7ec60274a538501325aca1a7ab4edffe895b030f21c0b5234df8e",
+      "bytes": 915
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFree.lean",
+      "sha256": "34cd70cf3a2e6e876f9dc636248f84b05420f9b50a71195978ade13cf81c9cec",
+      "bytes": 823
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeConnected.lean",
+      "sha256": "ce3365a33d0ba256dfa66c7b464167b13190cb9d24fae046dafbb750a2cb8768",
+      "bytes": 2344
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodic.lean",
+      "sha256": "8062b631f280fdbaaeeabdcbaee0d804ddc013285e32ac5c4d23522e674af500",
+      "bytes": 850
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicConnected.lean",
+      "sha256": "b9e56baf72b8bc17d498e62509d0440b3f4061d133e0e3a3c989a65d55d75f67",
+      "bytes": 2648
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeEdge.lean",
+      "sha256": "88d4603d732817e9c1905fd2d24032469dfeec7d96eb2ea031e5f42ca1c2f0ec",
+      "bytes": 919
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicEdge.lean",
+      "sha256": "b09c21be56442a6e8aa0b5f1543af008780b6856eb76b6c3245c21eb05985322",
+      "bytes": 1226
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "38c9014efb085b9fcf38bec7caaead97ca1d2fa2b6d56c92a0075bec04fc2054",
+      "bytes": 629,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5b84211248ab6826d352c93c5f35054128deb50649f2600c6a2d77149fe337eb",
+      "bytes": 3550,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "FroehlichSpencer/BKT/ExpMoment/Claim32.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Frohlich-Spencer",
+    "source_commit": "e01623b7347c272eac9480f04743f38b8d0df223"
+  }
+}

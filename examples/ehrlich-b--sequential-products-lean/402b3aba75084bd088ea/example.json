@@ -1,0 +1,76 @@
+{
+  "id": "402b3aba75084bd088ea",
+  "source": {
+    "repository": "ehrlich-b/sequential-products-lean",
+    "commit": "9c6d92f5fc222d9d1646ae6044dcec053900ca83",
+    "project": "ehrlich-b--sequential-products-lean--9c6d92f5fc22",
+    "path": "RadicalRelativity/SpinFactor.lean",
+    "file_id": "0544332eeb00c641ab2f",
+    "source_sha256": "0544332eeb00c641ab2f3c430ea28591a838cdbadb9202da23a546cd8f9744c3",
+    "start": 377,
+    "end": 403,
+    "original_start": 377,
+    "original_end": 403,
+    "declaration": "sqrtPSD_nonneg",
+    "source_url": "https://github.com/ehrlich-b/sequential-products-lean/blob/9c6d92f5fc222d9d1646ae6044dcec053900ca83/RadicalRelativity/SpinFactor.lean#L377-L403",
+    "archive_url": "https://github.com/PalomarArchive/ehrlich-b--sequential-products-lean--7c5c76db591c/blob/9c6d92f5fc222d9d1646ae6044dcec053900ca83/RadicalRelativity/SpinFactor.lean#L377-L403"
+  },
+  "native_target_name": "SpinFactor.sqrtPSD_nonneg",
+  "source_declaration_label": "sqrtPSD_nonneg",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "2c4d1c57a5afdc788cbced4b581054a18cc00368c51422a05a4db4f89564d449",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "03155981e39a1a8209ae5b433cb3a8ec0d81e4fd5f380199881e751d4541b3d1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RadicalRelativity/OrderUnitSpace.lean",
+      "sha256": "f27ae63fa9db4a67222091f0efdad190ce0329838d57dcef5ccca257dcccd695",
+      "bytes": 13517
+    },
+    {
+      "path": "RadicalRelativity/SequentialProduct.lean",
+      "sha256": "ab3be2d523f179e3dec3e270fcd38fcc1656fbf88654bf0fb76010d1f5f36667",
+      "bytes": 41680
+    },
+    {
+      "path": "RadicalRelativity/SpinFactor.lean",
+      "sha256": "0544332eeb00c641ab2f3c430ea28591a838cdbadb9202da23a546cd8f9744c3",
+      "bytes": 55624
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "604554f23dfe097ef371fd8d7be03d44d6ded38d038261b44aa3e627b531dfaa",
+      "bytes": 806,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RadicalRelativity/SpinFactor.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/402b3aba75084bd088ea": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/ehrlich-b/sequential-products-lean",
+    "source_commit": "9c6d92f5fc222d9d1646ae6044dcec053900ca83"
+  }
+}

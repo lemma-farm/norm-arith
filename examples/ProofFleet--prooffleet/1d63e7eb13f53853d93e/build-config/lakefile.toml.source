@@ -1,0 +1,36 @@
+"name" = "moltresearch"
+"defaultTargets" = ["MoltResearch"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "MoltResearch"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solutions"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Tasks"
+"globs" = ["Tasks.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Conjectures"
+"globs" = ["Conjectures.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarEDPChallenge"
+"roots" = ["PalomarEDP.Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarEDPSolution"
+"roots" = ["PalomarEDP.Solution"]
+"srcDir" = "."

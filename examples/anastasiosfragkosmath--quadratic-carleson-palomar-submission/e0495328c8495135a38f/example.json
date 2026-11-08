@@ -1,0 +1,436 @@
+{
+  "id": "e0495328c8495135a38f",
+  "source": {
+    "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "commit": "3d3cf4316acac4c23140059a78fb570b1440394b",
+    "project": "anastasiosfragkosmath--quadratic-carleson-palomar-submission--3d3cf4316aca",
+    "path": "QuadraticCarleson/LacunaryFrozenInputL0.lean",
+    "file_id": "08756871b6550acbed83",
+    "source_sha256": "08756871b6550acbed83364212256fbdf2458e7c35aa390f19878bdd789a70bf",
+    "start": 73,
+    "end": 81,
+    "original_start": 73,
+    "original_end": 81,
+    "declaration": "norm_canonicalLevelBadPart_le_two_mul",
+    "source_url": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/LacunaryFrozenInputL0.lean#L73-L81",
+    "archive_url": "https://github.com/PalomarArchive/anastasiosfragkosmath--quadratic-carleson-palomar-submission--d28b1bb96b8f/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/LacunaryFrozenInputL0.lean#L73-L81"
+  },
+  "native_target_name": "QuadraticCarleson.LacunaryFrozenInputL0.norm_canonicalLevelBadPart_le_two_mul",
+  "source_declaration_label": "norm_canonicalLevelBadPart_le_two_mul",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "f7b06d3c88d5208de3c8c4db941dbfa1ebdb889f255380d1e0e55b1214b4c37b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "8e79a3f7a8357d4c0c4dffe64d199f6c2bd7eef36c3ef2dfb42c7a4357ac4122",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "QuadraticCarleson/Bohr.lean",
+      "sha256": "e83ef5b8ea32237eadf667261707a4e8fc62e0f93aebbb82b824c226554f3446",
+      "bytes": 1789
+    },
+    {
+      "path": "QuadraticCarleson/BohrIntersection.lean",
+      "sha256": "df6f8e9cc1162f2c3c5bf279e9aecf2544358d8ce9d412db891c09ab8c1af64f",
+      "bytes": 12564
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundBadPart.lean",
+      "sha256": "77b5178e6371532af308fc69465a586538c0fef780172d5ade9bcd4a7d5bc424",
+      "bytes": 14934
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundDecomposition.lean",
+      "sha256": "bbbc2fe229d4b75a55845b150f9e45d0be6b31652d76fa1df98bd2985a200a25",
+      "bytes": 12546
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundDyadicStopping.lean",
+      "sha256": "bd7c918e032e3350256d270a4e7a9035283c4428ec8e09827bc1cf27bef6464a",
+      "bytes": 42957
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundLevelAtoms.lean",
+      "sha256": "232e552be00340c6a05ba77b3bc7a265fd8838eba23c856e7059b091b26fb50d",
+      "bytes": 19633
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundLevelRecombination.lean",
+      "sha256": "b3138ed4d46d886d9fb97e620eb1569e9c0834e6e90123f1fb68538edde72745",
+      "bytes": 12999
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundStoppingIntervals.lean",
+      "sha256": "0a7571fef4fa4d4a787fc80bf90f712e13b3d2b26d37913ee0deaa46631485e2",
+      "bytes": 4210
+    },
+    {
+      "path": "QuadraticCarleson/CanonicalScaleAtomIntegrals.lean",
+      "sha256": "e7faf6217acb18dbd7c8eb06330523f0da4ac67da003b745a6f975e21213df7a",
+      "bytes": 5622
+    },
+    {
+      "path": "QuadraticCarleson/CanonicalScaleAtoms.lean",
+      "sha256": "0ad3f6b6608ae30c803ec1d8fa988facfa487a9ec9caf4909fd7d3677f4a14b8",
+      "bytes": 12105
+    },
+    {
+      "path": "QuadraticCarleson/Definitions.lean",
+      "sha256": "8acf1e2f7fdf6987fc03de6a7b712981f1cc9023882491aceb83f94d6fca5fdc",
+      "bytes": 3136
+    },
+    {
+      "path": "QuadraticCarleson/DyadicAtomScales.lean",
+      "sha256": "f43016b1da1bb8b31cbb8c63a53fea73259c2a357f4b482e23bc12a0570f893d",
+      "bytes": 11592
+    },
+    {
+      "path": "QuadraticCarleson/DyadicKernelInfinite.lean",
+      "sha256": "e736f3020433df073dfee52ac3adcbf80cd0d56bd61d55b5df05fcf59552fbfe",
+      "bytes": 8016
+    },
+    {
+      "path": "QuadraticCarleson/FiniteModulationKernelComparison.lean",
+      "sha256": "fb3b8f753bb3212050f5664eaefbc520db7a34edbe9ecf12eeb217f2896e3b72",
+      "bytes": 24028
+    },
+    {
+      "path": "QuadraticCarleson/FiniteSparseMaximal.lean",
+      "sha256": "d0c56747e4fa905e748ba34d424a90615ae747138952ac04696ea653a1be1896",
+      "bytes": 33661
+    },
+    {
+      "path": "QuadraticCarleson/HardyLittlewoodMaximal.lean",
+      "sha256": "6d0a9eb817d91ec333dc8a0d706b50d35dd4528ab0bb2d5e5f5af4fa523ec1a4",
+      "bytes": 11311
+    },
+    {
+      "path": "QuadraticCarleson/HarmonicPhaseSum.lean",
+      "sha256": "fd1198ec0fa285ebf61c1f73fa8e7623016f8fe8585967a15e7a1365f0d5a299",
+      "bytes": 18376
+    },
+    {
+      "path": "QuadraticCarleson/HilbertFiniteTruncationWeakOneOne.lean",
+      "sha256": "e9460a1575a4a5ddf1c1dd155ba0d97055bd155f4ed98a2f6f8099d9dcb43567",
+      "bytes": 16511
+    },
+    {
+      "path": "QuadraticCarleson/IntervalMaximalComparison.lean",
+      "sha256": "0336583a9d2291e47e68955ee6eb832209480fb6a0367205e42ef1ae8cc5fcfb",
+      "bytes": 10272
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryFrozenInputL0.lean",
+      "sha256": "26420c207f0699b8200151aa23a686bf1516407fb648b13e887e67d2f6c35f7f",
+      "bytes": 8815
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryLowSupport.lean",
+      "sha256": "db7f3ea1a0f5609098a6fb692ce79f3ad41bb8992fdcadea00bfd19b9680340a",
+      "bytes": 11181
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryMiddleOperator.lean",
+      "sha256": "a42e6a006de7840273bf6f6536052210e36d98903893a062424e1dd9da536903",
+      "bytes": 19825
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryMiddleRange.lean",
+      "sha256": "bca0e1fb936603e43348e760b8ded5a55b48ba3b00cf95ae97ac5c331ec21f23",
+      "bytes": 9635
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryMiddleRangeSummation.lean",
+      "sha256": "26d7006ca664758b2292aee06118d32b5d741c101215d46b98df6a29a1ad0c56",
+      "bytes": 6928
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryVerySmallOperator.lean",
+      "sha256": "248ab932668b9110a07b2efd1f60089f18a100af2546cb7f12d00b2b4dcec34f",
+      "bytes": 43573
+    },
+    {
+      "path": "QuadraticCarleson/LacunaryVerySmallRange.lean",
+      "sha256": "0a9529dedee6bc85fbd765dd7f39792426f8b679324db7e712f686255e480c7e",
+      "bytes": 10766
+    },
+    {
+      "path": "QuadraticCarleson/LowKernelBadAtomSharp.lean",
+      "sha256": "a2c2389961ceb789c1879be69886603dd40d0e4b12dd12ced26a3d2983fcc3d1",
+      "bytes": 10046
+    },
+    {
+      "path": "QuadraticCarleson/LowKernelCalderonZygmund.lean",
+      "sha256": "59de45f4ace4bd29e6552ecd4b8494aab70fde289c336cd40bab5a826fe00d50",
+      "bytes": 7620
+    },
+    {
+      "path": "QuadraticCarleson/LowKernelDerivative.lean",
+      "sha256": "9c23e758b4f3c4c77adb9fc103ddb845b1a8a61e9c5a5dd2e3055a4b9a823577",
+      "bytes": 20422
+    },
+    {
+      "path": "QuadraticCarleson/LowKernelLevelSummation.lean",
+      "sha256": "350db9fa011e735b804c19d6d83caed7712cc547228a1b01f11b9f3bd8598fc2",
+      "bytes": 11050
+    },
+    {
+      "path": "QuadraticCarleson/LowKernelRealMaximal.lean",
+      "sha256": "5ad52ace02c1b9def5cfd070a896908bfbe0c7ae5958350c132ceea56d2ed1a4",
+      "bytes": 11490
+    },
+    {
+      "path": "QuadraticCarleson/LowOscillatoryMajorant.lean",
+      "sha256": "9593d8fd42b186f36ec5a4c9dfd9ed6cb6fbf18e9ddc04e67e103a8e6625ede6",
+      "bytes": 15008
+    },
+    {
+      "path": "QuadraticCarleson/OscillatoryReductionKernel.lean",
+      "sha256": "a86d0edf58951e4ae6199cd474094bf6ee3e34412fee62f1a72c4ae5eabdc62b",
+      "bytes": 7092
+    },
+    {
+      "path": "QuadraticCarleson/OscillatoryReductionL1.lean",
+      "sha256": "f59cc8c0d291304fbfa921db4365fe29f136c1ecbd85e5a851cb4012635dd3b4",
+      "bytes": 4752
+    },
+    {
+      "path": "QuadraticCarleson/OscillatoryReductionSeries.lean",
+      "sha256": "6b7e332da5b3834d8ad8dba9c12af9171fc5ebedb0a06e71a66ab791cadd0f49",
+      "bytes": 4030
+    },
+    {
+      "path": "QuadraticCarleson/PVFourier.lean",
+      "sha256": "ce9b2778b9f64b0a75585422424dfc2c499d64741107703cd92fe6083fa6339a",
+      "bytes": 12498
+    },
+    {
+      "path": "QuadraticCarleson/PVSymmetricLimit.lean",
+      "sha256": "7e8cd2d50334c1a625024df4886f31b04e06ffc4f547658d0634e5c30a60d2d1",
+      "bytes": 6557
+    },
+    {
+      "path": "QuadraticCarleson/PositiveDyadicKernel.lean",
+      "sha256": "cfbed69a86de35edbaa2748c171e71aac4996d876135f639023f24f97815022c",
+      "bytes": 22161
+    },
+    {
+      "path": "QuadraticCarleson/PositiveEndpointOptimization.lean",
+      "sha256": "d059e7f0819ce67fcff7c16b15fee093b075d74d2c65f5f736f3fb0d933d6371",
+      "bytes": 30690
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightConvergence.lean",
+      "sha256": "4c190113fba38d86b5f196f57b008ca2cf8071badea6fffe6e991bd9450e3d87",
+      "bytes": 3287
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightEstimate.lean",
+      "sha256": "3697e98aaf7003d7da8a5290a77990bd34bc6462f4924a89143e149e44728863",
+      "bytes": 7239
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightFullEndpoint.lean",
+      "sha256": "75cf6c40472b541a60a405b18cc320217c0ca806f2f012c97963fe4cec722c76",
+      "bytes": 4522
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightSummation.lean",
+      "sha256": "85f63ba4533b03e0cf735bdf847dd724597849fb8f3443bd7a4ba53215e45351",
+      "bytes": 5660
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightTail.lean",
+      "sha256": "c287be4880ec52c63aa0fd0a899ad752cc4b82aafa7e2a80d838046d41022663",
+      "bytes": 6885
+    },
+    {
+      "path": "QuadraticCarleson/PositiveHighHeightWeighted.lean",
+      "sha256": "eadf652add0924b20dcc1ab7db1da5ca38a3fef66a0a393be644f7c1ca4b2b28",
+      "bytes": 4393
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLevelIntegration.lean",
+      "sha256": "9f22abcc032c123230908aacb4066f9c90dce220f0da07d4e4b546e14ce251b2",
+      "bytes": 24287
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLowFullEndpoint.lean",
+      "sha256": "6391bcdd3dcdc67cccb93dce302fb54acfca8e10d237988881b0087014d4b974",
+      "bytes": 6355
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLowFullHeightIdentity.lean",
+      "sha256": "f12bc6e9479b2961d4e242b8dfef85c2aa4a14045ce68177599dbdca040e8d63",
+      "bytes": 4614
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLowFullIntegral.lean",
+      "sha256": "f67199be3f80f415d361ac2b216ad4a4cffe03e435b586191fee55a8e7922ff6",
+      "bytes": 6354
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLowFullMajorant.lean",
+      "sha256": "73df2abc6a2b67d69835c94058ea4d70dfb181be8f9e8d85eddffacdcc3c3fa5",
+      "bytes": 7761
+    },
+    {
+      "path": "QuadraticCarleson/PositiveStoppingBadRecombination.lean",
+      "sha256": "ced685eed3347d0a6143b92e80df97ce5a8ac8618dee2c2510e00759c0fef288",
+      "bytes": 6416
+    },
+    {
+      "path": "QuadraticCarleson/PrincipalValueDistribution.lean",
+      "sha256": "592d5bcf9cc46507ab0624db14af1cf24a1e459c28b6395feafb642c0357d5e3",
+      "bytes": 14186
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticAveragingTTStar.lean",
+      "sha256": "c17a4076806888c27773b90fae089f3c54bc31f7d02b9f3e171418eb745b4960",
+      "bytes": 9500
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticCenteredMaximal.lean",
+      "sha256": "bd38847c80ddd68481345134e68f4992a3b976b713b52ed20b027cbcca344ccc",
+      "bytes": 17518
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveraging.lean",
+      "sha256": "ba164156745d4e641f4faa491c1f26e645655df6e433b0dd7d3e42a840ff128a",
+      "bytes": 10641
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingAllHeights.lean",
+      "sha256": "c744ff09dd1452c595e49b7f8fb984d8de2c6c002521974b75a3acd7f9d8ac5d",
+      "bytes": 7053
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingAmplitude.lean",
+      "sha256": "6d739bff9c8a27a18547d6669ef902c27eac06d4672d0c4b2f6c09252bc46b3f",
+      "bytes": 9568
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingContinuity.lean",
+      "sha256": "befa25adfbefea3249efb8e84462e2aa8e0ef4ee7df7128b8b9d04912a5be4c1",
+      "bytes": 3958
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingCorrelation.lean",
+      "sha256": "92cc891f77b75b8bbaf9527d44830859a3bbc38b719ab13f142f0d732829fc54",
+      "bytes": 10062
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingCountable.lean",
+      "sha256": "950c485184a1d40128ce96f01cb87b32676889d5a3d8158eff2259f6049cfeea",
+      "bytes": 5073
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingDyadic.lean",
+      "sha256": "5e57d699df59e6050df497f1ad9ff5e8878f1fe5ec8bd922bd361df5cee0e793",
+      "bytes": 5949
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingFinite.lean",
+      "sha256": "d9170c49945f85640a448f0ef12a7de5cda178949b530ac5aa04ff7cbbefa305",
+      "bytes": 5965
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingNorm.lean",
+      "sha256": "066a9c459fd753217d616a59439535debf39ec831f0ffa175764232b6d9e28b2",
+      "bytes": 4812
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingRational.lean",
+      "sha256": "9adecdda2ef301f6c15f09e0d61a6008e40af2989154800fa03aab528a52838e",
+      "bytes": 6832
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingReal.lean",
+      "sha256": "a4c3cd82025a308048e087bc6666231240b7494d1428ddd190794a1bdb06762a",
+      "bytes": 5277
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingSigned.lean",
+      "sha256": "1862049601e6daf9b143111a2b723efcfda15a025aadc56a81d1a00edbc29d6a",
+      "bytes": 15773
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticHilbertMaximalMeasurable.lean",
+      "sha256": "1a028ec3578b0497deb57cae5d4d6da8bae4f56fdc4ad4f7aa9a0ebdded394b8",
+      "bytes": 7962
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticKernelDistribution.lean",
+      "sha256": "7b77af7ab5038c04633e2165f0ddea5858d3f1a06d99337083c9bc9234797e97",
+      "bytes": 1460
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticKernelLimit.lean",
+      "sha256": "fc6d09ca24ab3957f96cdeda9ed8502fa7fd1d65b5d54d8b5445f430bb0eea07",
+      "bytes": 1930
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2AdjointTransfer.lean",
+      "sha256": "49b1414a797110aad9e482e0eb1edb1dcd0a2183b87a95d0de5350a7ff9688ab",
+      "bytes": 8825
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Decay.lean",
+      "sha256": "706e6b016c25e6ddfc1e8e1a372a908df972ae7e3ab3448ee7c8aee0bd93f861",
+      "bytes": 19331
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Extension.lean",
+      "sha256": "867dd9dff797f05ccd44354da0e198f4e4fae2615b8d100fc90d74afee34311d",
+      "bytes": 4213
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Operator.lean",
+      "sha256": "3336f43e272f9466272b3a7890299644ffa26678e88b9968c6413f3f132699c9",
+      "bytes": 15892
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticTTStar.lean",
+      "sha256": "e7812e7437c359e05ec3c294e8a213097a5577c8e2b52c231f6253edd076205e",
+      "bytes": 33008
+    },
+    {
+      "path": "QuadraticCarleson/SchwartzOperator.lean",
+      "sha256": "0c92ed4b3494bab4de8bb0ccb47a49d2d8e070bbfd0acdebf2d14feae47c1a75",
+      "bytes": 4394
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "9163f0c71a84cc9c60f57f513b368af83bbe6b1fee27d751b9641248e6e16a00",
+      "bytes": 683,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "QuadraticCarleson/LacunaryFrozenInputL0.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/e0495328c8495135a38f": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "source_commit": "3d3cf4316acac4c23140059a78fb570b1440394b"
+  }
+}

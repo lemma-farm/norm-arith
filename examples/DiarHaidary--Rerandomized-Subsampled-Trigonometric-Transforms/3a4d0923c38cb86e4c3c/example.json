@@ -1,0 +1,76 @@
+{
+  "id": "3a4d0923c38cb86e4c3c",
+  "source": {
+    "repository": "DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms",
+    "commit": "929653a019eb4910fc6efb9cb34cc3c3c2f949d4",
+    "project": "DiarHaidary--Rerandomized-Subsampled-Trigonometric-Transforms--929653a019eb",
+    "path": "SRHT/OrthogonalBands.lean",
+    "file_id": "09c206900d28344037ec",
+    "source_sha256": "09c206900d28344037ec755e30190fba14a3601093f3769a148413fd4dd0654a",
+    "start": 31,
+    "end": 37,
+    "original_start": 28,
+    "original_end": 42,
+    "declaration": "SRHT.OrthogonalBands.norm_sum_sq_le",
+    "source_url": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms/blob/929653a019eb4910fc6efb9cb34cc3c3c2f949d4/SRHT/OrthogonalBands.lean#L31-L37",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Rerandomized-Subsampled-Trigonometric-Transforms--426a661d68e6/blob/929653a019eb4910fc6efb9cb34cc3c3c2f949d4/SRHT/OrthogonalBands.lean#L31-L37"
+  },
+  "native_target_name": "SRHT.OrthogonalBands.norm_sum_sq_le",
+  "source_declaration_label": "SRHT.OrthogonalBands.norm_sum_sq_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "89132b8ff23eb37ca613be8d5e51203855b5644474a941364ac37bb3ddb6f2fd",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "cae2eb2c0ad38892fa4288815de1edca76e3637b53c9bd75825afbaa666ef705",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SRHT/HardCore.lean",
+      "sha256": "9ceffe87a31409a70a183281274981de98e010f1ed4eb5f2261b5191bf7e7c2b",
+      "bytes": 13960
+    },
+    {
+      "path": "SRHT/MatrixNorm.lean",
+      "sha256": "965e222e1ccd22bb458953faa6b4b02c2dd95cb4cb1d5ed718848e8e383bd93e",
+      "bytes": 2780
+    },
+    {
+      "path": "SRHT/OrthogonalBands.lean",
+      "sha256": "09c206900d28344037ec755e30190fba14a3601093f3769a148413fd4dd0654a",
+      "bytes": 1606
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "6d56d35da266d72680dc3f891f8a10dd1f0dfb6f8224e8e25596748cc3a08dca",
+      "bytes": 450,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SRHT/OrthogonalBands.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/3a4d0923c38cb86e4c3c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms",
+    "source_commit": "929653a019eb4910fc6efb9cb34cc3c3c2f949d4"
+  }
+}

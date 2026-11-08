@@ -1,0 +1,66 @@
+{
+  "id": "92b5a9daa9504578db1e",
+  "source": {
+    "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "commit": "3d3cf4316acac4c23140059a78fb570b1440394b",
+    "project": "anastasiosfragkosmath--quadratic-carleson-palomar-submission--3d3cf4316aca",
+    "path": "QuadraticCarleson/PrincipalValueDistribution.lean",
+    "file_id": "0ba280630c4270760941",
+    "source_sha256": "0ba280630c42707609418bb625158cc942cc17cebf2a7f7f1ce0f00266e13c6e",
+    "start": 228,
+    "end": 244,
+    "original_start": 228,
+    "original_end": 244,
+    "declaration": "norm_principalValuePairing_le",
+    "source_url": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/PrincipalValueDistribution.lean#L228-L244",
+    "archive_url": "https://github.com/PalomarArchive/anastasiosfragkosmath--quadratic-carleson-palomar-submission--d28b1bb96b8f/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/PrincipalValueDistribution.lean#L228-L244"
+  },
+  "native_target_name": "QuadraticCarleson.norm_principalValuePairing_le",
+  "source_declaration_label": "norm_principalValuePairing_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "7bc064c87087e6f1cf602ca43a1b09d9e54ed3e19988ef12ad51a061a2c48719",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0702370c94d13795857c453a6a56fba749a5fa19ad563b335edddfbadba35c7c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "QuadraticCarleson/PrincipalValueDistribution.lean",
+      "sha256": "0ba280630c42707609418bb625158cc942cc17cebf2a7f7f1ce0f00266e13c6e",
+      "bytes": 14910
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9163f0c71a84cc9c60f57f513b368af83bbe6b1fee27d751b9641248e6e16a00",
+      "bytes": 683,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "QuadraticCarleson/PrincipalValueDistribution.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/92b5a9daa9504578db1e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "source_commit": "3d3cf4316acac4c23140059a78fb570b1440394b"
+  }
+}

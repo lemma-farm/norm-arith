@@ -1,0 +1,208 @@
+{
+  "id": "d90c6dca019572e0852e",
+  "source": {
+    "repository": "rwst/Subspace-Theorems",
+    "commit": "ce289c64054c8ffcfb6fd37d5881312c6a5d577d",
+    "project": "rwst--Subspace-Theorems--ce289c64054c",
+    "path": "ArithmeticHeights/BombieriVaalerField.lean",
+    "file_id": "008838cf98056e53671b",
+    "source_sha256": "008838cf98056e53671b162bb2492062779f758a155d399031ae04d2acb9e93d",
+    "start": 112,
+    "end": 123,
+    "original_start": 112,
+    "original_end": 123,
+    "declaration": "sum_sq_le_of_mem_smul_mixedBall",
+    "source_url": "https://github.com/rwst/Subspace-Theorems/blob/ce289c64054c8ffcfb6fd37d5881312c6a5d577d/ArithmeticHeights/BombieriVaalerField.lean#L112-L123",
+    "archive_url": "https://github.com/PalomarArchive/rwst--Subspace-Theorems--9bd9bba330e8/blob/ce289c64054c8ffcfb6fd37d5881312c6a5d577d/ArithmeticHeights/BombieriVaalerField.lean#L112-L123"
+  },
+  "native_target_name": "NumberField.mixedEmbedding.sum_sq_le_of_mem_smul_mixedBall",
+  "source_declaration_label": "sum_sq_le_of_mem_smul_mixedBall",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "dddc34036b32b9f64c7456850399d96780768ed34bdc778cd05a278e9c882fc8",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9fc526a8d1e0872436492ef7ac6b45bd94fa0ac0733bb7f6cbd3ecd88747bac8",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ArithmeticHeights/Absolute.lean",
+      "sha256": "6057d8e76a742a287195e6623a7e88f5cd5936f514064b4b74102761b832da86",
+      "bytes": 39491
+    },
+    {
+      "path": "ArithmeticHeights/AdaptedBasis.lean",
+      "sha256": "7ea7003700d0cbbf4f3e3949e6b888ca053e16e7321c26a42981eb3affa4e654",
+      "bytes": 20061
+    },
+    {
+      "path": "ArithmeticHeights/Affine.lean",
+      "sha256": "8618fe375d60f3e823706da17058116c4c7064379adc5d58bbc5c52fbc420dc6",
+      "bytes": 10899
+    },
+    {
+      "path": "ArithmeticHeights/Arakelov.lean",
+      "sha256": "040e847f3c675f58a57af5b3175a493700959b5fcb1f895df882ac6c744f6a07",
+      "bytes": 44081
+    },
+    {
+      "path": "ArithmeticHeights/BombieriVaalerField.lean",
+      "sha256": "ae89bbe0c06c83ef2ca85eb7009e741c47479767e26e2f67b25588f0f706f2df",
+      "bytes": 21249
+    },
+    {
+      "path": "ArithmeticHeights/CauchyBinet.lean",
+      "sha256": "2169397f8921a1663e1e686af6778b30c1a96f8174357797ed17c21ce812a531",
+      "bytes": 17794
+    },
+    {
+      "path": "ArithmeticHeights/CubeSlicing.lean",
+      "sha256": "1cfb84c0492f3c326fb3aee30f58f072247fc634530cbaac40fe1df0fc003495",
+      "bytes": 24549
+    },
+    {
+      "path": "ArithmeticHeights/Duality.lean",
+      "sha256": "89c61cb747a5e7938d02bacc882c63e19c7f18c9ae547018942ced054d7475db",
+      "bytes": 43276
+    },
+    {
+      "path": "ArithmeticHeights/Extension.lean",
+      "sha256": "6c558ba80fe4adc31d6a591813b53d6f250ba097ecae41874944a1be831c6110",
+      "bytes": 20305
+    },
+    {
+      "path": "ArithmeticHeights/Extraction.lean",
+      "sha256": "d81d759225034a4304fe428104fd13204b9f9367cb8ce0a0a8867a45966ca95e",
+      "bytes": 12954
+    },
+    {
+      "path": "ArithmeticHeights/FinitePlaceIdeal.lean",
+      "sha256": "31ed5af094086ee839d8fef1e56d7a833d983a88c3aa900319a7a126dd79839b",
+      "bytes": 8866
+    },
+    {
+      "path": "ArithmeticHeights/GaussMeasure.lean",
+      "sha256": "5684f7759c5f968b33af5edaced03d2480d4e9ca81c9254c2470dbd44d063970",
+      "bytes": 11324
+    },
+    {
+      "path": "ArithmeticHeights/GramCovolume.lean",
+      "sha256": "ff0dd7de249c9eb49e04413bafdc768bc1f2c19162d95f25df71b66b3b13a617",
+      "bytes": 8587
+    },
+    {
+      "path": "ArithmeticHeights/LinearForm.lean",
+      "sha256": "d42580bae6571434651e249c5b6128e1aa5efeca16138078c0d69a73e6e62d1c",
+      "bytes": 23879
+    },
+    {
+      "path": "ArithmeticHeights/LogConcave.lean",
+      "sha256": "d46d294aa5e8790ce2a2594f732ae049eabca10104f952713e2370133330521b",
+      "bytes": 8713
+    },
+    {
+      "path": "ArithmeticHeights/Matrix.lean",
+      "sha256": "cee5c5d670078bc87bfef77d752d601d1277015298fdd88255b12bc3bb22e64b",
+      "bytes": 36206
+    },
+    {
+      "path": "ArithmeticHeights/MinkowskiSecond.lean",
+      "sha256": "61b83a1150f367f8736a328196f77efc1ff07586ea02c4eb0b7d9d9a2325bda5",
+      "bytes": 40064
+    },
+    {
+      "path": "ArithmeticHeights/MixedBall.lean",
+      "sha256": "06bcff0ee30e1829f9f76d0c84d1ce819562f3ff8565c843810ab5f8fd61f72c",
+      "bytes": 43975
+    },
+    {
+      "path": "ArithmeticHeights/MixedLattice.lean",
+      "sha256": "6da9684e18fff4e5b2c52a7f02010a46c6de245b2acf1bbbf6e3c649cdf9b503",
+      "bytes": 14613
+    },
+    {
+      "path": "ArithmeticHeights/NormProd.lean",
+      "sha256": "c228912a10420303dab91a68b1bee8b570b243e84f6ebf08bc270535d16e426d",
+      "bytes": 3934
+    },
+    {
+      "path": "ArithmeticHeights/NumberFieldLattice.lean",
+      "sha256": "9be5489595f4e75d869919aabd89a657c077e5cd6e8fd20405235e9d491d0e32",
+      "bytes": 50555
+    },
+    {
+      "path": "ArithmeticHeights/Plucker.lean",
+      "sha256": "93fe5a5e645f9484a1b2ef8a919676f45ebdadcf81286af12fe03341dbb1ae9e",
+      "bytes": 19572
+    },
+    {
+      "path": "ArithmeticHeights/PrekopaLeindler.lean",
+      "sha256": "32ad70239100261d5e3d5cf93fa2a170b3e3b0766725e167636132aa50523f95",
+      "bytes": 33913
+    },
+    {
+      "path": "ArithmeticHeights/ProductOfBalls.lean",
+      "sha256": "ca370367563a8059340c8a3097d92955c50e239cb33aa11a7d69752b1297ea14",
+      "bytes": 20898
+    },
+    {
+      "path": "ArithmeticHeights/PseudoBasis.lean",
+      "sha256": "b43a601f490186efe54994109dd271d622b20f0341f8a8c2b56ef5a00f91d97c",
+      "bytes": 17596
+    },
+    {
+      "path": "ArithmeticHeights/QuotientFubini.lean",
+      "sha256": "2409d3ae58854768df964f3db1086569ad91c2b5c8fecf8fa7de5ac5f953d490",
+      "bytes": 36262
+    },
+    {
+      "path": "ArithmeticHeights/RowSpace.lean",
+      "sha256": "9e7c51767eadd5603dc2cf7a9e88255c00e6991b22e3a9cbcfa0bb4f85ea0d39",
+      "bytes": 23842
+    },
+    {
+      "path": "ArithmeticHeights/SliceBound.lean",
+      "sha256": "d7a54b0c37a7d2eddfb1c7e37b3fa09cea957704de0423e2bcdfd8bdf7fcab1c",
+      "bytes": 25339
+    },
+    {
+      "path": "ArithmeticHeights/Subspace.lean",
+      "sha256": "e7d47cd9a065202debcc4964e121b6fab6c8670f264a233aa17ac52828ddd4cf",
+      "bytes": 25136
+    },
+    {
+      "path": "ArithmeticHeights/SuccessiveMinima.lean",
+      "sha256": "8746eca074ca04e002718efb2bfe67d349158b2a0175189e458ac5fa69c295a5",
+      "bytes": 35575
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "379a44e8f9ff0c6e265d5dd8fb022578ca5a8c902cefe9370792a647429dda53",
+      "bytes": 3006,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ArithmeticHeights/BombieriVaalerField.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/rwst/Subspace-Theorems",
+    "source_commit": "ce289c64054c8ffcfb6fd37d5881312c6a5d577d"
+  }
+}

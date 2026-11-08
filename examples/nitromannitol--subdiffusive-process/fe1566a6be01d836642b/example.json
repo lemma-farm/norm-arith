@@ -1,0 +1,68 @@
+{
+  "id": "fe1566a6be01d836642b",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/DirichletForm/Energy.lean",
+    "file_id": "02f6c44f4673af0cef34",
+    "source_sha256": "02f6c44f4673af0cef34ee6d2e4f7b030991034cc9a234dd600d8d2df653fa81",
+    "start": 184,
+    "end": 197,
+    "original_start": 157,
+    "original_end": 204,
+    "declaration": "ClosedForm.tendsto_form_self_of_tendsto_energyNormSq",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/DirichletForm/Energy.lean#L184-L197",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/DirichletForm/Energy.lean#L184-L197"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "ClosedForm.tendsto_form_self_of_tendsto_energyNormSq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "0900f9979a84b5c94dbb5d3894060543544b8bfc5264f87d9e6e84e6b5f739cb",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "dfb9d3ab40122b3b905479963e764d58511e4509453120f2421ae3db04746a38",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Basic.lean",
+      "sha256": "d5d0d29d80f8bed598fd2a3873f913c1826c8cc4ddc5bf350a2a054732b22ddc",
+      "bytes": 18420
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Energy.lean",
+      "sha256": "0ffdafe1da7ae0caf33c89d80762648e3bf775b9f112b78803a78a892d0df31e",
+      "bytes": 13810
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea9f9e22a41d24724511bfd5c629dbbd402e9ddaf4d4d7e07f27d8919e652ff3",
+      "bytes": 880,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/DirichletForm/Energy.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

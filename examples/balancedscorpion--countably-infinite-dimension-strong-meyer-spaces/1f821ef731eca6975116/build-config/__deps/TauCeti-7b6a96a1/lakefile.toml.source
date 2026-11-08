@@ -1,0 +1,25 @@
+"name" = "TauCeti"
+"defaultTargets" = ["TauCeti"]
+"platformIndependent" = true
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "TauCeti"
+"globs" = ["TauCeti.*"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "axioms"
+"root" = "scripts.Axioms"
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "module-system"
+"root" = "scripts.ModuleSystem"
+"srcDir" = "."

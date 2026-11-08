@@ -1,0 +1,56 @@
+module
+
+public import GinibrePoincare.Analysis.StrongConvexRadialDensity
+                                                      
+
+@[expose] public section
+
+open MeasureTheory ProbabilityTheory Set Filter
+open scoped Topology
+namespace GinibrePoincare
+noncomputable section
+set_option backward.isDefEq.respectTransparency false
+
+                                                                            
+                                                                      
+                              
+                                                              
+                                                                             
+
+                                                                    
+                                   
+                                                               
+                                                                                       
+                                                                  
+                                                                                            
+                                                                                              
+            
+                                                                      
+                                               
+                                                              
+
+                                                               
+                                   
+                                                               
+                                                                                   
+                                                    
+                                                                           
+                                                                                                
+                                                                                 
+                                                  
+                                                   
+                                                 
+                                                             
+                                             
+                                                 
+                                                                    
+                                                        
+           
+             
+                        
+             
+                             
+
+                                                           
+end
+end GinibrePoincare

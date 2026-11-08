@@ -1,0 +1,158 @@
+{
+  "id": "fefdcd1baa2fc7e79909",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/FlatteningWeakApproximation.lean",
+    "file_id": "0671f08c78c970ca0a31",
+    "source_sha256": "0671f08c78c970ca0a314de4d55bb30c7fc99d8afeb9ca938f13f384da92303f",
+    "start": 48,
+    "end": 57,
+    "original_start": 48,
+    "original_end": 57,
+    "declaration": "spatialMollify_eventually_bounded_on_compact",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Counterexample/FlatteningWeakApproximation.lean#L48-L57",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Counterexample/FlatteningWeakApproximation.lean#L48-L57"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "spatialMollify_eventually_bounded_on_compact",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "6a4cdb4ab868a3ad6149d96831c47a843a9f562ddf9c0f7e5e12c67e2ad6b948",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c0384cf915b1f44b949cba1ca557e07f6d3179395e04accf487e5ea0554a9a62",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/Ambient/Basic.lean",
+      "sha256": "253abb3250822ba9e62d2faffa1391c4c3bcd5170e19a175ac17d40c6c03eb5e",
+      "bytes": 468
+    },
+    {
+      "path": "HypoellipticAleksandrov/Ambient/MatrixContraction.lean",
+      "sha256": "3667089634b339dc41d4b3490974b58e5301855ea646273e6c645d189b155554",
+      "bytes": 3054
+    },
+    {
+      "path": "HypoellipticAleksandrov/Coefficients/Ellipticity.lean",
+      "sha256": "860387caf47fcf225807bc5d2becf2fa81bad6c9435a430efb3fc38b68648707",
+      "bytes": 7723
+    },
+    {
+      "path": "HypoellipticAleksandrov/Geometry/KineticPoint.lean",
+      "sha256": "4fa02f3a1c6db41f5cea5931856a55645f0ff9b3e6fb7541e344f2b0b92484d7",
+      "bytes": 3888
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/FlatteningWeakApproximation.lean",
+      "sha256": "0671f08c78c970ca0a314de4d55bb30c7fc99d8afeb9ca938f13f384da92303f",
+      "bytes": 3365
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Geometry.lean",
+      "sha256": "01c5ba005eb5112fe6333ff9a6bd6c30156c5acba7e0ca07cec10a672af41759",
+      "bytes": 8101
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/MollifyApproximateIdentity.lean",
+      "sha256": "1e57103c370c2b2b54444f8ab1043b930caf828aed23fb27752e0b74b5eb39ab",
+      "bytes": 7646
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/MollifyWeakJets.lean",
+      "sha256": "84a0de77d479c1fdc34a0cae11924854c55a3e7b0830a2decdef52c5fd84e40b",
+      "bytes": 6049
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/ProfileBounds.lean",
+      "sha256": "21461d597811ad2b1b842e4545dc2cc37f4a40f9ac6fe3412c440097a6b7c15f",
+      "bytes": 5078
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/ShellGeometry.lean",
+      "sha256": "466b807e85ee7db4f02193eceb4731e4a2c1ea1da17d2d58710de264f436c3e8",
+      "bytes": 3318
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Operator.lean",
+      "sha256": "d9acb5f86d84b5fc0e6c992b01be8f0a434fe3cea5de774f17b5f034937ac4b8",
+      "bytes": 6857
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/KineticClassical.lean",
+      "sha256": "081d0e4f7aa2f6b505790edc2f55b590af29d4dc9c6eb510e9781d486cc9d5b8",
+      "bytes": 11245
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basic.lean",
+      "sha256": "0768ef11188e4c4af39f4d6af323f7edbf4acb1ad44ef127da007fe762af8df0",
+      "bytes": 587
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basis.lean",
+      "sha256": "cafef0c077eededd1dabf3c32eeb20334d19d3d5a1cffb10ed4d370328bf7cfb",
+      "bytes": 1508
+    },
+    {
+      "path": "PDEFoundation/Ambient/EuclideanNorm.lean",
+      "sha256": "4262eb629f64cd2d5e897d50c78ce2a0c3ae59eca94dcdf8ed9cd45aae7b62f9",
+      "bytes": 12527
+    },
+    {
+      "path": "PDEFoundation/Geometry/Affine.lean",
+      "sha256": "e07e49a7a1fac1bcc9ab99f48bea2cc86fab099edd295857b2ca90319be23871",
+      "bytes": 2285
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall.lean",
+      "sha256": "e0d5b89d0af6cd95bfb6c07bc5c8e45f5ae76be929dbaaea9f1b87c847093fe5",
+      "bytes": 245
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Basic.lean",
+      "sha256": "6340ceea9bb95841982e5f58ee6fab812fbb778764ffaf24143cb8b8365a414d",
+      "bytes": 10181
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Topology.lean",
+      "sha256": "adaf9da59165b82aab16198ad3b629e98389170ed5490b5f5f0e70130479d54e",
+      "bytes": 4282
+    },
+    {
+      "path": "PDEFoundation/Sobolev/ClassicalGradient.lean",
+      "sha256": "8b7f1a86e6b75cfa1b0493bdc26a31b04398bb27fd8e86db23fd1f7cd35267fc",
+      "bytes": 2652
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/FlatteningWeakApproximation.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

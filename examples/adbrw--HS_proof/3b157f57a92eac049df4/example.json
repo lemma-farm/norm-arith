@@ -1,0 +1,83 @@
+{
+  "id": "3b157f57a92eac049df4",
+  "source": {
+    "repository": "adbrw/HS_proof",
+    "commit": "b75523f0036bc857f31620ee18af970151036311",
+    "project": "adbrw--HS_proof--b75523f0036b",
+    "path": "HSFormal/AsymptoticRelabel.lean",
+    "file_id": "077c9d62f3e313fb4472",
+    "source_sha256": "077c9d62f3e313fb4472141d2327a244378997a01df476ef7ab0e2c09689d978",
+    "start": 138,
+    "end": 149,
+    "original_start": 138,
+    "original_end": 149,
+    "declaration": "relabelFunctor_isEquivalence",
+    "source_url": "https://github.com/adbrw/HS_proof/blob/b75523f0036bc857f31620ee18af970151036311/HSFormal/AsymptoticRelabel.lean#L138-L149",
+    "archive_url": "https://github.com/PalomarArchive/adbrw--HS_proof--a8b959d4efc0/blob/b75523f0036bc857f31620ee18af970151036311/HSFormal/AsymptoticRelabel.lean#L138-L149"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "relabelFunctor_isEquivalence",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "4b50131a72c1fa519143a3ef05d89afac3a290ab5780037d02a68a68ccef959a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0d134b278716c426dfecb4220d721a578548f837cf1fa792549cb80606b29d8b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HSFormal/AsymptoticCategory.lean",
+      "sha256": "6c177e6c234355a9aaaf8047bfdeda50e26d484fc0759265ef668deb774c862b",
+      "bytes": 36748
+    },
+    {
+      "path": "HSFormal/AsymptoticRelabel.lean",
+      "sha256": "b5c70f2a50b1a5e14d2e111f90d4d9c736c8aabeb98efcd8d3ae92b366ccee09",
+      "bytes": 7581
+    },
+    {
+      "path": "HSFormal/AsymptoticSupport.lean",
+      "sha256": "603c8d685de15d9c0d9707d0b7334e73d3189735a794a464467aed35080ae8e2",
+      "bytes": 24006
+    },
+    {
+      "path": "HSFormal/ControlledMatrices.lean",
+      "sha256": "e49625e6d1983b423d58d9a67a4b76ef29a008a3117843451c3fcf0b138492e7",
+      "bytes": 10086
+    },
+    {
+      "path": "HSFormal/FiniteMatrixSupport.lean",
+      "sha256": "fc4352cd17163db0547bbee8c80d6c8ae19ebbabbe70ecfc02cf651a1a04dee5",
+      "bytes": 3967
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "aa5bd91d93d44f09595a33bb87ae2a94ccb9cf5d83513d40a92ccad8a34ac6ac",
+      "bytes": 378,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HSFormal/AsymptoticRelabel.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/adbrw/HS_proof",
+    "source_commit": "b75523f0036bc857f31620ee18af970151036311"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "4ef43f0428e6ae172fbc",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d",
+    "project": "mrklwk--zeta-density-39-over-17-lean--c55fc0088bd4",
+    "path": "GuthMaynard/NativeSource/GuthMaynard/TraceDispersion.lean",
+    "file_id": "081c9076875501ce1a8c",
+    "source_sha256": "081c9076875501ce1a8cb65b4c48a02288e3a789830d3de85d5eecc793bf8572",
+    "start": 20,
+    "end": 35,
+    "original_start": 20,
+    "original_end": 35,
+    "declaration": "sixthMoment_dispersion_nonneg",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/GuthMaynard/NativeSource/GuthMaynard/TraceDispersion.lean#L20-L35",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/GuthMaynard/NativeSource/GuthMaynard/TraceDispersion.lean#L20-L35"
+  },
+  "native_target_name": "GuthMaynard.NativeMoment.sixthMoment_dispersion_nonneg",
+  "source_declaration_label": "sixthMoment_dispersion_nonneg",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "555df22aafb8286d3983205f94b52d445d74a9c115f0da9afd116ada6b9efb38",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f52b4e8ed54ae19309c587be777814180da1a20150c41a11b98cd6c67ed61171",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GuthMaynard/NativeSource/CompletedZetaSymmetry.lean",
+      "sha256": "4aaf9b35dea5a3721146b057b9d516a92cd50d4f38deb77e84b26db9c0c4231b",
+      "bytes": 3200
+    },
+    {
+      "path": "GuthMaynard/NativeSource/FiniteDirichletPolynomial.lean",
+      "sha256": "bc8c1071e8d50bb43b2788d262384e0b10a7c7001d481a3c2741d484a9e5a86b",
+      "bytes": 3834
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/DirichletPolynomial.lean",
+      "sha256": "f92fa4138b369ac65483f82a2f28d7e7116f278e6affcf1a6ab2d667076bf934",
+      "bytes": 9559
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/LargeValuesDefinitions.lean",
+      "sha256": "c5446a006443648eb1603182d7ee1783af7bff6c473eb438e57b3ba4ac4418cf",
+      "bytes": 9221
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/LargeValuesMatrix.lean",
+      "sha256": "1ab9c5748dcc3fe3bd6401b6a063a59b0abdb05cdc13e7bd6ff530aad316f7fe",
+      "bytes": 16015
+    },
+    {
+      "path": "GuthMaynard/NativeSource/GuthMaynard/TraceDispersion.lean",
+      "sha256": "aa7f34bab50b9fb1634dc7f4b4a38e50f9c3bbe8085ac82cd335522a722701a0",
+      "bytes": 12186
+    },
+    {
+      "path": "GuthMaynard/NativeSource/PrimeNumberTheoremAnd/Mathlib/Algebra/Notation/Support.lean",
+      "sha256": "10b16e46233190da2e265fba187c47446887a12096107e7e1073a1049f555326",
+      "bytes": 319
+    },
+    {
+      "path": "GuthMaynard/NativeSource/PrimeNumberTheoremAnd/SmoothExistence.lean",
+      "sha256": "960e62bf8a908694ccb71e4c4e61da8653e68507aa5f3f5aa5ae904198e2854b",
+      "bytes": 4367
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "6950d352df01d762a5c0465b77e813bd563f727d0d5094bc9ff1561d8020261e",
+      "bytes": 258472,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "GuthMaynard/NativeSource/GuthMaynard/TraceDispersion.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4ef43f0428e6ae172fbc": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d"
+  }
+}

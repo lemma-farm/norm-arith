@@ -1,0 +1,63 @@
+{
+  "id": "2dd794140b0dcd174a5c",
+  "source": {
+    "repository": "roos-j/lean-trilinearht",
+    "commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46",
+    "project": "roos-j--lean-trilinearht--0fac9f4ed4aa",
+    "path": "TrilinearHT/Auto/Prerequisites/FourierApproximation.lean",
+    "file_id": "032800af8ea197d6b511",
+    "source_sha256": "032800af8ea197d6b511166277f42f4f9138bf1eea761802310cfa1360353d2f",
+    "start": 415,
+    "end": 441,
+    "original_start": 258,
+    "original_end": 441,
+    "declaration": "sum_frequencyShell_le",
+    "source_url": "https://github.com/roos-j/lean-trilinearht/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Prerequisites/FourierApproximation.lean#L415-L441",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-trilinearht--96f63735ff5a/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Prerequisites/FourierApproximation.lean#L415-L441"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "sum_frequencyShell_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d9fa153724a1548576aac016e60e430fc701620850457e991cec599cb25df173",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "562bd42ae29d12be405062a14f3bc7e028725b4d6104d57859bc6aaf32fe0101",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/FourierApproximation.lean",
+      "sha256": "032800af8ea197d6b511166277f42f4f9138bf1eea761802310cfa1360353d2f",
+      "bytes": 56544
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "30ea658bc0a505305dae0c6a46ae284a28f12a64780b2b64a44bfb72c7c461a2",
+      "bytes": 448,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "8bfa23d5c46a0417839ac6e5a993ed109d687d8e1b830c920f10f7e1929b8136",
+      "bytes": 3590,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "TrilinearHT/Auto/Prerequisites/FourierApproximation.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-trilinearht",
+    "source_commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46"
+  }
+}

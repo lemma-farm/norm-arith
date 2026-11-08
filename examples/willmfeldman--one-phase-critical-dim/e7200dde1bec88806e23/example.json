@@ -1,0 +1,93 @@
+{
+  "id": "e7200dde1bec88806e23",
+  "source": {
+    "repository": "willmfeldman/one-phase-critical-dim",
+    "commit": "d55068c8ca74db340bcb7b36c1f21a4ebf93a53c",
+    "project": "willmfeldman--one-phase-critical-dim--d55068c8ca74",
+    "path": "OnePhaseDimension/Certificate/Bounds/GraphShapes.lean",
+    "file_id": "0aa44f1a6bf14534cad9",
+    "source_sha256": "0aa44f1a6bf14534cad905de6bec6110b8bb21875932d52a887eb6949e75f509",
+    "start": 483,
+    "end": 491,
+    "original_start": 441,
+    "original_end": 592,
+    "declaration": "Comp.eval_sq_le (c110 branch)",
+    "source_url": "https://github.com/willmfeldman/one-phase-critical-dim/blob/d55068c8ca74db340bcb7b36c1f21a4ebf93a53c/OnePhaseDimension/Certificate/Bounds/GraphShapes.lean#L483-L491",
+    "archive_url": "https://github.com/PalomarArchive/willmfeldman--one-phase-critical-dim--2044129ba46e/blob/d55068c8ca74db340bcb7b36c1f21a4ebf93a53c/OnePhaseDimension/Certificate/Bounds/GraphShapes.lean#L483-L491"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "Comp.eval_sq_le (c110 branch)",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "f4e21db0d4eff098d6b5be01ffa132b4dea2bc48b55c5c785f1f210470d4d759",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "bb352d4be224b8babc157d1fb1d1b4043981c44f8d40836f0d6b1c18bf90abc4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "OnePhaseDimension/Certificate/Bounds/Contraction.lean",
+      "sha256": "9dadb12b1731d7ac582365691c7059009bf10f459fe0c806b9c222fe9876cd8e",
+      "bytes": 8186
+    },
+    {
+      "path": "OnePhaseDimension/Certificate/Bounds/GraphShapes.lean",
+      "sha256": "0aa44f1a6bf14534cad905de6bec6110b8bb21875932d52a887eb6949e75f509",
+      "bytes": 30589
+    },
+    {
+      "path": "OnePhaseDimension/Certificate/Bounds/TensorBounds.lean",
+      "sha256": "2ec3aaaa9404439c3fad7c3572d83ea68a37bd6c593b89171c2c7fd8ec56d802",
+      "bytes": 29119
+    },
+    {
+      "path": "OnePhaseDimension/Certificate/Eval.lean",
+      "sha256": "93bb8bf4227d77282f6925579bfe65a3b2eb5405d3797c2dbe8679a08fbfbdc5",
+      "bytes": 30337
+    },
+    {
+      "path": "OnePhaseDimension/Certificate/Graph.lean",
+      "sha256": "afe4c5ead19f748995c6e61c87d3ea94afe70064d2bfd62f16800a35261622a8",
+      "bytes": 21544
+    },
+    {
+      "path": "OnePhaseDimension/Certificate/Ops.lean",
+      "sha256": "9fd2a32780de91f5d8bd7c445995fd71493d176b64b5d17258c21822b23b3461",
+      "bytes": 38357
+    },
+    {
+      "path": "OnePhaseDimension/Statements/Certificate.lean",
+      "sha256": "e895f71d6af89f0233a15bc670d2f9bcd9957340182fa8375c4dd65e0b73a874",
+      "bytes": 10082
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "ca997f7d0fbeda372786e915e2cbecd74931caf9b394238d07547fc5386f093b",
+      "bytes": 1006,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "OnePhaseDimension/Certificate/Bounds/GraphShapes.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/willmfeldman/one-phase-critical-dim",
+    "source_commit": "d55068c8ca74db340bcb7b36c1f21a4ebf93a53c"
+  }
+}

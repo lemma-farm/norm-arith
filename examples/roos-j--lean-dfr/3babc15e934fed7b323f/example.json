@@ -1,0 +1,194 @@
+{
+  "id": "3babc15e934fed7b323f",
+  "source": {
+    "repository": "roos-j/lean-dfr",
+    "commit": "5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4",
+    "project": "roos-j--lean-dfr--5c7595a83657",
+    "path": "DFR/Auto/MonomialSmoothing/GlobalSmoothingAndOriginalMonomials.lean",
+    "file_id": "05cb0a2fb3d87616e7dd",
+    "source_sha256": "05cb0a2fb3d87616e7dda8d62d60cd8b40fe471eb6a394be463e44ea494acfc9",
+    "start": 7398,
+    "end": 7445,
+    "original_start": 7398,
+    "original_end": 7461,
+    "declaration": "sumX1_triv",
+    "source_url": "https://github.com/roos-j/lean-dfr/blob/5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4/DFR/Auto/MonomialSmoothing/GlobalSmoothingAndOriginalMonomials.lean#L7398-L7445",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-dfr--500ac5d1958e/blob/5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4/DFR/Auto/MonomialSmoothing/GlobalSmoothingAndOriginalMonomials.lean#L7398-L7445"
+  },
+  "native_target_name": "Auto.MlcGlob.sumX1_triv",
+  "source_declaration_label": "sumX1_triv",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "1dd1d5ee3b782c54d0af4bd0cef6fdb17cc22271fcf35ce4ac5c74f86757cbf1",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "964c5f69f2a7226099d866db58a7f404c3b39ce5f9a902a4c6688fe70c74f9cb",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DFR/Auto/BilinearInterpolation.lean",
+      "sha256": "7a00405993a26045bfd117249f265bc36f40345f576c09c31c1cf4969f55108f",
+      "bytes": 18205
+    },
+    {
+      "path": "DFR/Auto/FourierCompatibility.lean",
+      "sha256": "d3df658aecbd8fdabc015888f85b008aeed4b57fe345a8314f1c55fd7c71c21c",
+      "bytes": 2581
+    },
+    {
+      "path": "DFR/Auto/MonomialSmoothing/GlobalSmoothingAndOriginalMonomials.lean",
+      "sha256": "65092fc6b0914f937a7ca61a7dcc73532dc13a35a871085b88dc96bdcf487a01",
+      "bytes": 364479
+    },
+    {
+      "path": "DFR/Auto/MonomialSmoothing/LocalSmoothingForBoundedInputs.lean",
+      "sha256": "f64d27da32a0c39f6f2607a9f83c9d7003e087336083b091ab54bcd1d25d1fa6",
+      "bytes": 451904
+    },
+    {
+      "path": "DFR/Auto/ParabolicAveraging.lean",
+      "sha256": "65920909429648cd7e6e2d0740c6f861e071b2458c4024a7046b0a9e7b4a0f59",
+      "bytes": 81716
+    },
+    {
+      "path": "DFR/Auto/SchwartzRegularization.lean",
+      "sha256": "1c20e3fac27a920237655da8e3314e3094429e6051f3d3107652df191d2df332",
+      "bytes": 20663
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean",
+      "sha256": "5ebc50cdf4aa22ef7c279c7c962acea03086b8923322987fe532c704f97cefc7",
+      "bytes": 307160
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/BasicEstimate.lean",
+      "sha256": "1b84066267ac681db0ee452e6099cfd7bbe89385c2b929612f7bf0dff0755411",
+      "bytes": 417692
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/Decomposition.lean",
+      "sha256": "1d59d1524f4830ac38029e0811f393b21cba9c856f67cf8f2065240dd8300d01",
+      "bytes": 512838
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/FlatContribution.lean",
+      "sha256": "b3ca46f7de074bc3c8363e3b2cdfe0120b6909e10a6364d1f533759a402b8f71",
+      "bytes": 172379
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/SharpContribution.lean",
+      "sha256": "232b9431456343a043dc5b75fb92289f02b0817c5f3b322b69810fcd883de51c",
+      "bytes": 239544
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/Smoothing2D.lean",
+      "sha256": "a4d13909af9323fe898813d6a461d8076ccf25c2938c91d3f5b78a4eb0563228",
+      "bytes": 633
+    },
+    {
+      "path": "DFR/Auto/SobolevNorms.lean",
+      "sha256": "94480f1ee222d7fd042baf10b78ba87fe2069085f49f3f5dbfefb4996518fff1",
+      "bytes": 8441
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/CalderonVaillancourt.lean",
+      "sha256": "088b536fb2bd77a64c37ef285428687e40fed0c65d42c13a94f89dcca31d2f06",
+      "bytes": 128495
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/CotlarStein.lean",
+      "sha256": "bc20927a56989392341de55c73829b312bb17a5635b128bbdad818235444a586",
+      "bytes": 23034
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/FractalDimensions.lean",
+      "sha256": "035e2087fb8f897dcdb12c2a3c90ae6182784ab1d987b8d70cae3b32cbec5440",
+      "bytes": 105049
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/HardyLittlewoodMaximal.lean",
+      "sha256": "82d8f2fc49f5c35f6755a1d4373a7439186fad655b3988bfd1bd24f1b1823d76",
+      "bytes": 71043
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/LittlewoodPaley.lean",
+      "sha256": "a36c3a9bb0e306e2a28b5bc7bf5ff8ab76f882f41f011f4d24fd01ad69e31790",
+      "bytes": 77849
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/MarcinkiewiczInterpolation.lean",
+      "sha256": "746d115e38c3ea037546866a1a77ca19711954e0ca580182d58cdc34c3c2c046",
+      "bytes": 156288
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/RadialFourierTransform.lean",
+      "sha256": "2f762786eafe73cfd001e06a0087262a7fad8445d11e5caa12a8399e48992e04",
+      "bytes": 43286
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/Spherical/Auxiliary.lean",
+      "sha256": "d557ef54398765ad2045f44226b0feb3e6fa78b1ed6a0a6cd10ab1090e9c6e2e",
+      "bytes": 399445
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/Spherical/SurfaceMeasureDecay.lean",
+      "sha256": "891838886b3e9160db332488cf0bbc110098c183d4ed2599106d840940ddf5c1",
+      "bytes": 352322
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/SteinInterpolation.lean",
+      "sha256": "9a7757a41ad7254d95fe395e3073e53e7be66d840896f2d251c4496f40110503",
+      "bytes": 354195
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "eb19e5806511d5f8c63cf0f7bfc99778b1d4f170ddeb72b5945c6d3d9a4ad3d5",
+      "bytes": 733,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c7800cc06bda639f5863f82d6a8cc8a0de46a5622f05e796b96860c0cd0255e2",
+      "bytes": 2756,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/lakefile.toml",
+      "sha256": "67eac2f07a4c878b2d873b4437bea224c4d55d5eaf69bfc103677252d86999d3",
+      "bytes": 462,
+      "snapshot": "__deps/lean_spherical-fe99b585/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/lean_spherical-fe99b585/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/lean_spherical-fe99b585/lake-manifest.json.source"
+    }
+  ],
+  "build_target": "DFR/Auto/MonomialSmoothing/GlobalSmoothingAndOriginalMonomials.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/3babc15e934fed7b323f": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-dfr",
+    "source_commit": "5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4"
+  }
+}

@@ -1,0 +1,15 @@
+"name" = "lean-spherical"
+"version" = "0.1.0"
+"keywords" = ["math"]
+"defaultTargets" = ["LeanSpherical"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false, "weak" = {"linter" = {"mathlibStandardSet" = true}}, "maxSynthPendingDepth" = 3}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "LeanSpherical"
+"srcDir" = "."

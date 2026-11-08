@@ -1,0 +1,671 @@
+{
+  "id": "4178805f5804b67aa8c6",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "RegularityStructures/Abstract/Singular/Ident/LatticeAvg.lean",
+    "file_id": "06a8dba57a928d43fc85",
+    "source_sha256": "06a8dba57a928d43fc858b36fb4e40b9f4e814b48d989a25644b107e7570ae8e",
+    "start": 73,
+    "end": 93,
+    "original_start": 73,
+    "original_end": 98,
+    "declaration": "abs_finsum_cell_sub_le",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/Singular/Ident/LatticeAvg.lean#L73-L93",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/Singular/Ident/LatticeAvg.lean#L73-L93"
+  },
+  "native_target_name": "RegularityStructures.abs_finsum_cell_sub_le",
+  "source_declaration_label": "abs_finsum_cell_sub_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "bf16fd1bc01d337f45d286dc22f4413cd532bcc45d0b6d115a81138572b86f96",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "878d0f7758e8f57596cd474c713df03b8f0167175012bc29f9f989d9c065e4de",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RegularityStructures/Abstract/FixedPointTimeSlab.lean",
+      "sha256": "d9383582be8d25fcde9299453e25c25dfb4fa88becba501ed31138ca219f5fe9",
+      "bytes": 2306
+    },
+    {
+      "path": "RegularityStructures/Abstract/Germ.lean",
+      "sha256": "411c97f2995acbfaa2d0952909abf081f85ee8f0663b41aca0fa00034d0d808f",
+      "bytes": 1877
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration.lean",
+      "sha256": "96fd304cef8961890fceac9539413ed90c6c656f1c529655636374be5bce3edb",
+      "bytes": 5841
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute.lean",
+      "sha256": "cccddbb30cd944345422a51c90a991689085d04220ac90ea4aa865a33ec4c0c2",
+      "bytes": 812
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute/Lemma516.lean",
+      "sha256": "eb997e8f2b77ed63cd47e5612fe69a1f05dd4101e5dd5b38e1ed11ac6cccaad1",
+      "bytes": 2211
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute/Reg.lean",
+      "sha256": "ce2268ee40e2736d117f8a43b294d59229a1c7168612b3226583725b6787bb89",
+      "bytes": 3985
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/JMapLinear.lean",
+      "sha256": "0b64143cf0bd74a61b9e6f4063a48edeca2d8bd661396a670d9acbf78a4b0e56",
+      "bytes": 1797
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Approx.lean",
+      "sha256": "7f084cd311424d146240e6a5692d1f943d1bbf5222aacce762bf256d9ee4a8b0",
+      "bytes": 6246
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/ApproxPoly.lean",
+      "sha256": "1e0b10a538c97b2fa52ca39c2d284dff8968a950db87f12956e98bab83f18eed",
+      "bytes": 4257
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Compat.lean",
+      "sha256": "f7da8382d6f7f2e67e5eef799d9a328c7a0f0baeaa29a4370b2387bf33fafb0f",
+      "bytes": 5390
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Inject.lean",
+      "sha256": "f331bfd2229a2b6baf84ffe4eb22596b4eed3cff62cf4fe6a03f36a9797a058b",
+      "bytes": 2848
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyPairing/Limit.lean",
+      "sha256": "77c255ddf8d4dff13e5ab441659483728c000b69f19c72b669ce1debbd85cb3d",
+      "bytes": 6763
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Def.lean",
+      "sha256": "f7fae9a59403ded6ce48d7191844d6df91eb9eea2144bf06dad37adde755b610",
+      "bytes": 1777
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Germ.lean",
+      "sha256": "15196bdc79a0efba6873146b774e810109bd7a7ff692d6fe9e75496eb3d34aa4",
+      "bytes": 1685
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Measurable.lean",
+      "sha256": "8351bc7eca1c7c1f87ec6ea3b0ca62c0c262b6b0875a45d12970a416febfdad9",
+      "bytes": 1485
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Reg.lean",
+      "sha256": "0c603251040152fc7ce8f0e43a74f5ce96d751d8b63cce3ce4a0138d71ec264f",
+      "bytes": 1471
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Theorem512/Helpers.lean",
+      "sha256": "e83c026449536620de3455b4145266580969b4309c9fbeda89815f0ca7736b5d",
+      "bytes": 2237
+    },
+    {
+      "path": "RegularityStructures/Abstract/Model.lean",
+      "sha256": "3610daa533b92f9a39fe137f7abb8df3834e80860005687105ed8504546b3d07",
+      "bytes": 10479
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial.lean",
+      "sha256": "2fbe686bf4335eeb828aeefa09849e729ff4dcf75d7ab994c1076620338dff37",
+      "bytes": 680
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Basic.lean",
+      "sha256": "7ff49b9274e5e815101284b80a9704a92b47b1d754d63239b02072f74dba9069",
+      "bytes": 4411
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Bound.lean",
+      "sha256": "13b3a9c8be451ad2e72c4394d3b5ebaec735d92934d90336c063e9fcaa112b47",
+      "bytes": 3239
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Coeff.lean",
+      "sha256": "d645f805b06272ad8ed19ca7dfa6255c3b28a0b223c3ed15afa19a783471defb",
+      "bytes": 2623
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Fubini.lean",
+      "sha256": "dc48e640a65120eba13e69b2e12ab81faafae5757d7a40d907b73017a64e4274",
+      "bytes": 3667
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Growth.lean",
+      "sha256": "5beb0e12d7b4ae617044908927b9843583b2a015423bfee5e163c34fb00ec926",
+      "bytes": 9633
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Reg.lean",
+      "sha256": "a291c76050f5f83ff3bb37a78c0cde35a2a617f9dc0ffcc726bcd7764b69c7ac",
+      "bytes": 7475
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Structure.lean",
+      "sha256": "6a839374af76a61f1cf280a93058e3feb10cd4d6cd3c7b97923c100cd2c133e4",
+      "bytes": 3493
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Translate.lean",
+      "sha256": "092323df859362ed9fb744b342e0ec53a54f8bedbaaf8599d9ace86868408c17",
+      "bytes": 5665
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductBounds.lean",
+      "sha256": "825fe7134766a3270ee022c04d29584475c2a349fee77e113306ea124ceb0e3d",
+      "bytes": 4091
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductDefs.lean",
+      "sha256": "7eac2fe180c52723e9818223f5903dd77116e7edd6945e3be93404705a5a3a38",
+      "bytes": 15151
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyContinuousModel.lean",
+      "sha256": "3aab717dc58038c73ed5cf7b49dfbd675930913561eb809ffe7d9170117f16d0",
+      "bytes": 2217
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyModelBound.lean",
+      "sha256": "12044e9644ecc98c47de1a95a6fc95659f0cd5f8203984207cf6ea087bd5b517",
+      "bytes": 4460
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyR4Convolution.lean",
+      "sha256": "378370b965933a63ce61b0a933f71bd0d36410ce40d80c4d4de8b85e8a53128d",
+      "bytes": 1974
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyR4ModelBound.lean",
+      "sha256": "3e472c3fbc1a56f9faed9669e3a6142b4e9c0120fd3149cb0938c0350a06e6d0",
+      "bytes": 2229
+    },
+    {
+      "path": "RegularityStructures/Abstract/RegularityStructure.lean",
+      "sha256": "dbd69b73c8f05200b3e8ccaa29853a5b9d3f0b9c30db7103ceb5c0ab54842a05",
+      "bytes": 9655
+    },
+    {
+      "path": "RegularityStructures/Abstract/RegularityStructureDegrees.lean",
+      "sha256": "ea8217855de350dd1357ec2b80df2ba48bd387168fb89f3c771c939ec9fe4f5d",
+      "bytes": 1310
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Ident/FunctionModel.lean",
+      "sha256": "aae5565c163cf40a0305a4f0a29bdde5e9d87d8ce78374af1607338a232ff683",
+      "bytes": 8485
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Ident/LatticeAvg.lean",
+      "sha256": "8f4b972f02a24f0adf73c7269806cf31724b830b7ff7ecdf1277dcfd886850e5",
+      "bytes": 5433
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Ident/Pointwise.lean",
+      "sha256": "17a09beb67b9d6df02a0663c8bda29f3748dc715a674612ce6a049f7967d89be",
+      "bytes": 2054
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/Defs.lean",
+      "sha256": "f24ea6c2d206eba2f5ff0674978eae72d5f8e1e6ca7c933bb01b3dae4a9b6dd0",
+      "bytes": 3847
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairing/Increment.lean",
+      "sha256": "6965ac2b8ee0aff59f3a130bf656f7192df25c40122b1563bfa5ba58a3014c09",
+      "bytes": 1598
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Window/Basic.lean",
+      "sha256": "55fe9d1902653408aa0bec17b25570c8f9502d05ceb2c77d0a60c3d4f4ba53cc",
+      "bytes": 2759
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularDefs.lean",
+      "sha256": "cde40c6708f19806db772a9a2be7ac456dd6b4286f8f487986aeef8a97eac3bd",
+      "bytes": 5657
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Basic.lean",
+      "sha256": "6c31c1402237906ec3e75b222316f0e6f83a2e1e8c4a99b0d62a8cbadb893c96",
+      "bytes": 1294
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Decomposition.lean",
+      "sha256": "0740626b4d9b86ca500da82092b9bab26c3ab2452c9a5637078412b522315376",
+      "bytes": 1176
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Scaled.lean",
+      "sha256": "5e01051880a373398729489b5369c540b7f789ba5c08208b48b2c7f8db904b8b",
+      "bytes": 3383
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition.lean",
+      "sha256": "5853d9aa2a363864f52f4b977a69d760cea095cbbe5d15a167b0990da5287994",
+      "bytes": 1057
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Basic.lean",
+      "sha256": "51cf748cc32acdc0e4ccd4a49bd3603b3511c1b6a0420ea9107bd28c42d29c7d",
+      "bytes": 5229
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Deriv.lean",
+      "sha256": "d22b2c55e5b2119a2f12954345461aa78f95dacf544d239a015fff1ccf5382bf",
+      "bytes": 1950
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/LineIter.lean",
+      "sha256": "0982b77602a1a386173a8f7d21135abc2996bc0dfde5ca7cd90e77db681d612e",
+      "bytes": 5302
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Moment.lean",
+      "sha256": "e05c3bfb3ad837db00aea877f9ecf3c97c2b811cfff83e70b52dc170b05303c5",
+      "bytes": 1011
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Regularising.lean",
+      "sha256": "e8bfecc401368848be1abfc0588ebdadf5dff1a30f92f40dcc9d09cc800d4417",
+      "bytes": 1165
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Scaling.lean",
+      "sha256": "d82c98999bbbdd7c66890a8959ef44c742f389c0d87953553c29a40058b0a3fe",
+      "bytes": 2609
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/ScalingDeriv.lean",
+      "sha256": "f42a559eb895ff8d36e2c55bfa553c3d6ccaa253ea2fe1cb7b7beaaf7118e700",
+      "bytes": 3748
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Support.lean",
+      "sha256": "d7420ec5bb63f3bc6ac442e59f5b565edf165f5b0047afa6733199da4e870942",
+      "bytes": 1961
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/SupportBound.lean",
+      "sha256": "ff4bf4b9e56674dea656e4f8db27e663d9860d582181613b11ab9486304a6c11",
+      "bytes": 1345
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Vanishing.lean",
+      "sha256": "6b214215fa5c12b7813b4b6331ad2feb40d08b67bd41e17beef2bd98cb68db01",
+      "bytes": 3599
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/FlatExp.lean",
+      "sha256": "ec46d91ba968289e2fff4f30e171a5e5839bf38a6a2acf47ed282307b0e8b30c",
+      "bytes": 5291
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Kernel.lean",
+      "sha256": "b72e399211558a4839a9dfa4ab687e7a9d5e2845b3d59e2245880c959adf32eb",
+      "bytes": 8782
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/DerivativeScaling.lean",
+      "sha256": "88d2049561060b9cae51ebe4af778fc32c286d1b3a0de329290fd9c49d55ecd8",
+      "bytes": 4200
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Diff.lean",
+      "sha256": "31e17556c6319cb5d90515608ad2470b9ed3cfd95d7ce399a085ef5942bf27b1",
+      "bytes": 1465
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Reflect.lean",
+      "sha256": "d3aa5afe95a247a3b43732ab151b8249af7d81b615d8999ac8ee67f606bb7a6d",
+      "bytes": 3779
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Shell.lean",
+      "sha256": "b92ed73f637d89db2dfd6819a878bc4d73c22620394ed87863a07e213e45f631",
+      "bytes": 1595
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorDeriv.lean",
+      "sha256": "a365b92e4bdae5d356fffd9533d4bea2c243df21d85cc542643c477b4b6cb73d",
+      "bytes": 5829
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorGen.lean",
+      "sha256": "711e04fde48d20b13f7747ccc15161debc364df040c72bbd77f0fc0d9e5e1c38",
+      "bytes": 2035
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorKernel.lean",
+      "sha256": "1ad6138ea693b6f979c343c6c9ab82acf36878d9210260bd087da8efa7f1b732",
+      "bytes": 7312
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorOp.lean",
+      "sha256": "04059b8dbcc34fe93181f11efd37f46a2af0720c59983ea7019f53a97c97629b",
+      "bytes": 5013
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorSum.lean",
+      "sha256": "4c764f408fc0ccfb18d6190c6af83a5c786ebeb7e8414cc96941e4544f8cd53c",
+      "bytes": 6501
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorTy.lean",
+      "sha256": "1691fc2b9d60f6d828fd05e84d3c5d96bb839799cc012526a24ccabe4f7ff7f5",
+      "bytes": 6116
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorWord.lean",
+      "sha256": "cacc7ae2ba4f9f1b7979c2f74af9be0b30124abca5e256b680c49829d8ed99b6",
+      "bytes": 3967
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Conservative.lean",
+      "sha256": "070f7a5fd41f89ce274312d5dbe44595a9c95af50beba7b3c94c302c48f352f7",
+      "bytes": 2898
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Gaussian.lean",
+      "sha256": "1951599b8d6c484c2cbe9d27a8d4dcad0acc90497964f43e4b4d46647defc86c",
+      "bytes": 3379
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorBridge.lean",
+      "sha256": "6da945aa1719ae98c90d8ba0a3f69124635232da4412c844606e3942f07f0f24",
+      "bytes": 2825
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorDeriv.lean",
+      "sha256": "681b81d87116c4ded87d00cc6e07c78e363085944869bb4dfd557eaa3d1c9be7",
+      "bytes": 3941
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorDiff.lean",
+      "sha256": "043b48e66a632c36e9f608de082499078834d19d73673e25458c20126b67ffa5",
+      "bytes": 4492
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorIBP.lean",
+      "sha256": "424c15093c906bcb94883da333f76bd020d20eb579a0b6ac2fc152769f2ec5fd",
+      "bytes": 3447
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorIdentity.lean",
+      "sha256": "a8a6186384b3338d27ab0938e2705ae55cacd8d543e64682c251ad3c2a02acc6",
+      "bytes": 5527
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorKernel.lean",
+      "sha256": "6461d89f224d099d75ed4d551d0b751fc34c5a633df6b1121923f2582c3c5f2a",
+      "bytes": 3515
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorLimit.lean",
+      "sha256": "f2b704da92812a13af831f73b2c288bd23a1268694a35205886a047cee7672be",
+      "bytes": 2257
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorLip.lean",
+      "sha256": "d2efa19397c0800874e5c3445dbec25b0552246c731b041e855178bc8c0a1659",
+      "bytes": 3452
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorMoment.lean",
+      "sha256": "fd3e9b5df56aebe18cd389d6dacddaa3677cfac61648e29f3b41c8e6b84e26d6",
+      "bytes": 4262
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorPDE.lean",
+      "sha256": "de8e7036872d0ddcc54494d120e6bfc343213864f3022aeffe4374562b9ad1b6",
+      "bytes": 5054
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorProps.lean",
+      "sha256": "4b934c6aec0a881c16ff9faf1bda01752d190450a90d4a937f554ee4abeb287e",
+      "bytes": 2590
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorStep.lean",
+      "sha256": "9d1311317b5478344d79e204fb952f94dd7c782944507ab6bcc5cfab1ea80f8c",
+      "bytes": 4790
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorSymbol.lean",
+      "sha256": "159b04d2a8d628c44f9535d2eeac3e8df35d3bfcebbbd1db27389bcf92e99cb9",
+      "bytes": 10684
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Moments.lean",
+      "sha256": "3d17641d69ee8d106fd3e86d6c4f7a1362859d023c10a16e2f6a014c485740cc",
+      "bytes": 7046
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Parabolic.lean",
+      "sha256": "50871ac19288403df075a2d289ee3b1ffc4818a9f40c78fff9c79f86c937b9c7",
+      "bytes": 5497
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/ParabolicSemigroup.lean",
+      "sha256": "304d788debaefc7991fd3f45f5f610a5c4b1974c760dc9744a5d84c0577e5d87",
+      "bytes": 5492
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Quartic.lean",
+      "sha256": "0ec84cb926e5d172848e3c902f74ecbb849c2f0a73c226996d7b87d3c21c27a0",
+      "bytes": 3400
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Schwartz.lean",
+      "sha256": "2d5914c795e6f1f55e3e97a29c65b66ccd9241718310a6ac7b9089e4724b7089",
+      "bytes": 7525
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Symbol.lean",
+      "sha256": "080f188aa955ec977fe769f4f87c242e0d2f015df0c6e920f158374e7a2a2862",
+      "bytes": 9061
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/SymbolDeriv.lean",
+      "sha256": "b7211c2d6abfb64d90d7d99aef6abf5fcf84f096d25deeba7826388ca4b8c90c",
+      "bytes": 4171
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/SymbolScale.lean",
+      "sha256": "c4ba52ac2c004d3dd4cbeadf554be0f592a2d45657f08944392939019636929c",
+      "bytes": 6500
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/TimeDeriv.lean",
+      "sha256": "b127017f5404049c715fedb94ac87fce56e74c57b87c626d151512debf9104d6",
+      "bytes": 11506
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "3df36918fe8656f84a375185af90286b17494c9036a154ab48d425524442d490",
+      "bytes": 3478
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/DyadicPartition.lean",
+      "sha256": "6509c45ddd9bfc575ed52accb7d102c6b718f88d62ea18f81473c98ab95ed0d0",
+      "bytes": 5474
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Generator.lean",
+      "sha256": "b98bd414ef5f612d8b94e975cdd90980d4f6c65cd6fec6b9d21d0e8b1bb86d4c",
+      "bytes": 2568
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling.lean",
+      "sha256": "e2ee0566704859c0c9663adc952f5027f65d082acad4bb9348fa35223d8512c6",
+      "bytes": 741
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling/Algebra.lean",
+      "sha256": "ba73d17d31a1d01bbfdc6f5ce64e53d508dba32d052bd4d09dc31d37e8032f73",
+      "bytes": 7315
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling/Integral.lean",
+      "sha256": "9e65d89da9e675971c27c8aaa587ce22d1df84c0238f4a4e2b76837698730cb1",
+      "bytes": 10729
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Bump.lean",
+      "sha256": "2053e886d48a33311e0b4584b904706b988610b83c156a6fdc3eaa5930d5df04",
+      "bytes": 6041
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Cell.lean",
+      "sha256": "8124f3b64af54ab0a1d9d3396034dd2c4ab3a4b7eab8273aa56be955b2e236b1",
+      "bytes": 5320
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Count.lean",
+      "sha256": "f09de0f7038bf656463cb26a51ef934209439aee635c226842ba4ec4de0b71cf",
+      "bytes": 5373
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Partition.lean",
+      "sha256": "e11456e7f67ee13ed209e9e9bf1b0ac8e6a9a817d367ceeca7a25b60f0bb8fd7",
+      "bytes": 3482
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/MomentBump.lean",
+      "sha256": "eba2a74d841b2cef50c0457d749f97132e9d3ef5cc4f560801422557e8ed6517",
+      "bytes": 8006
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Polynomial.lean",
+      "sha256": "6002d3d3431da8c8d74d76a3b7d53a2c46d4ef2cdc41e8e2516fec46542bc5e0",
+      "bytes": 4551
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/RegularisingDecomposition.lean",
+      "sha256": "aae129dc7d97b3fd61318bdd14ca2a6d16a83d34beb8c1e27a716760b31666a7",
+      "bytes": 2630
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/SingularKernel.lean",
+      "sha256": "2fd36b8fbb0398f4a4d33c67db8fb56260ca7a056c6c309243cbe8b06542ef31",
+      "bytes": 2428
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/SmoothNorm.lean",
+      "sha256": "7e3082f3ac269320601a52559b98eab73aa83bd8260a2d3d412eae0c1f6ed0cc",
+      "bytes": 6740
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunction.lean",
+      "sha256": "34bea470cabb919051806391b7b0e578450b3185d9d9a394c58915acc79526a9",
+      "bytes": 8655
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunctionExists.lean",
+      "sha256": "5321f239f1b98742435b610715f32ecd7dfa17cbead33def3a44677c002577e8",
+      "bytes": 3822
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Basic.lean",
+      "sha256": "3e9b5eed46d3cee088915fb02ad01727fa7487e5914a581b377a6e4f7ddd683d",
+      "bytes": 5630
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Consistency.lean",
+      "sha256": "0bb9d2aa88c8bb6becfbe424e19fecc458e4634843b6ad134aa17d82f137bc0f",
+      "bytes": 1321
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Operator.lean",
+      "sha256": "a97da29d8958bfcc22c40df99d08cbb82768584687e79a1fd34d208a7265bc92",
+      "bytes": 2134
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing.lean",
+      "sha256": "70f17b5a91ed6259687821fe01b64a06450700a792ea4d515e0d57479f394add",
+      "bytes": 765
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Basic.lean",
+      "sha256": "8debf11006773eee87d1d140310dc14dbbcfd5358c2b2c663e127353a07185f9",
+      "bytes": 3592
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Fubini.lean",
+      "sha256": "6a07594ca0d655e8832c158873197f29cedc72a78df5948ed71dea9e0e49beda",
+      "bytes": 1502
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Main.lean",
+      "sha256": "69aa577e008de9572063112d4e5d471cf6c4dfe017cf6840ccf581a34e9bf8c4",
+      "bytes": 2534
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Moment.lean",
+      "sha256": "1df39c39e44b7649f608d636b82a6a1a4ea56580c755988a890cd2e8df2f1d5b",
+      "bytes": 1792
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Swap.lean",
+      "sha256": "cc6965134fd42b5a47aedc8e79f4f2abd0ed7b5fbdc9c91abc340cbcab61791c",
+      "bytes": 2817
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Tendsto.lean",
+      "sha256": "b05a8981811f951997c7c4cfaf6b4113934f431d012ab621fa6ef0af395dc3ef",
+      "bytes": 1587
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "ee218b74d3e26f0c5ae259a32c34fb3424f8277ccc40bf4d9a4dcdf04b36276d",
+      "bytes": 1823
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernel.lean",
+      "sha256": "925dc3ac647fab1796f3718c2565ae12ed4119a037c0b4811cacb1775aa4c288",
+      "bytes": 6722
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RegularityStructures/Abstract/Singular/Ident/LatticeAvg.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4178805f5804b67aa8c6": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

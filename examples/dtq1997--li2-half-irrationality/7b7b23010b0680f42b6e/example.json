@@ -1,0 +1,63 @@
+{
+  "id": "7b7b23010b0680f42b6e",
+  "source": {
+    "repository": "dtq1997/li2-half-irrationality",
+    "commit": "950ee9d53914e1afb89c8f835a8bca6ccfaa0108",
+    "project": "dtq1997--li2-half-irrationality--950ee9d53914",
+    "path": "Li2Unified/Modular/Base/DecayPNTSobolev.lean",
+    "file_id": "0c70e05ef54900dd64d5",
+    "source_sha256": "0c70e05ef54900dd64d5a655411e5b7243f9bbfbdfcf654bc7cc10a68c78e81c",
+    "start": 341,
+    "end": 347,
+    "original_start": 315,
+    "original_end": 349,
+    "declaration": "W21_approximation / e2",
+    "source_url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/Li2Unified/Modular/Base/DecayPNTSobolev.lean#L341-L347",
+    "archive_url": "https://github.com/PalomarArchive/dtq1997--li2-half-irrationality--ba6c4988f6ba/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/Li2Unified/Modular/Base/DecayPNTSobolev.lean#L341-L347"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "W21_approximation / e2",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "4638c8cd37876272fc7429088877a189190da7b1a6ab39d002ace4bd4c55afad",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "91e022ab9b1d298ca8ed9e59b9df1edbebefb8a48b362c0f9e2c187d5ddb12ec",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Li2Unified/Modular/Base/DecayPNTSobolev.lean",
+      "sha256": "0c70e05ef54900dd64d5a655411e5b7243f9bbfbdfcf654bc7cc10a68c78e81c",
+      "bytes": 16750
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "555d7fe14b88329b10ce17be4ff0c2d4e4a715b44749dac62c563342ef8d780d",
+      "bytes": 373,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "59faf4182227fd008790e223b2b5b1d6b08877ff26757c847a64a80e7c33d92e",
+      "bytes": 3595,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Li2Unified/Modular/Base/DecayPNTSobolev.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/dtq1997/li2-half-irrationality",
+    "source_commit": "950ee9d53914e1afb89c8f835a8bca6ccfaa0108"
+  }
+}

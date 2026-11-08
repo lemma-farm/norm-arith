@@ -1,0 +1,76 @@
+{
+  "id": "e63d581782862b30246d",
+  "source": {
+    "repository": "plasma-ai/erdos-173",
+    "commit": "4a368a652753fab53272f7a747755876f04bc2cc",
+    "project": "plasma-ai--erdos-173--4a368a652753",
+    "path": "OAI/MeasureTheory/CompactFactors/ConditionalSelection.lean",
+    "file_id": "0b77d4055c221bb1db10",
+    "source_sha256": "0b77d4055c221bb1db109e208eda511aa332e4df6b45aa42fa7e3d244e9a58b3",
+    "start": 410,
+    "end": 423,
+    "original_start": 410,
+    "original_end": 423,
+    "declaration": "EuclideanFiveColor.FiniteBins.linear_combination_dist_bound",
+    "source_url": "https://github.com/plasma-ai/erdos-173/blob/4a368a652753fab53272f7a747755876f04bc2cc/OAI/MeasureTheory/CompactFactors/ConditionalSelection.lean#L410-L423",
+    "archive_url": "https://github.com/PalomarArchive/plasma-ai--erdos-173--306cfcbb8ec3/blob/4a368a652753fab53272f7a747755876f04bc2cc/OAI/MeasureTheory/CompactFactors/ConditionalSelection.lean#L410-L423"
+  },
+  "native_target_name": "OAI.EuclideanFiveColor.FiniteBins.linear_combination_dist_bound",
+  "source_declaration_label": "EuclideanFiveColor.FiniteBins.linear_combination_dist_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "67806e6565ee394f904f4f5eb66154d46d03b0dd3915719630e8bc3ee56db64e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "61c91ccaa7b205c689d1cb9892198133b00aaabe717dea500d2dcb7f0aa30e63",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "OAI/Analysis/PlaneSpectrum/PhaseCollision.lean",
+      "sha256": "6c2b3819d772371093cab7a4dd5a0c65a05cd458ad7844b2c029674d0d785f20",
+      "bytes": 25729
+    },
+    {
+      "path": "OAI/Analysis/PlaneSpectrum/PhaseEncoding.lean",
+      "sha256": "d81f563f719ad67ebcfd1cb94eca3e26911754b706fa2ca7137fb20d7eeb0654",
+      "bytes": 10580
+    },
+    {
+      "path": "OAI/MeasureTheory/CompactFactors/ConditionalSelection.lean",
+      "sha256": "ab83a8551b7250b9d6e1f3f0bf78390ddaed85c40e7123f17e2a9d182f01ffb0",
+      "bytes": 21310
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "b20d1f86ce8c3219ba3713db575269ee7a20b2016c795681f619dddd87cc62b0",
+      "bytes": 552,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "OAI/MeasureTheory/CompactFactors/ConditionalSelection.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-7dd11aab5ec1809f/e63d581782862b30246d": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/plasma-ai/erdos-173",
+    "source_commit": "4a368a652753fab53272f7a747755876f04bc2cc"
+  }
+}

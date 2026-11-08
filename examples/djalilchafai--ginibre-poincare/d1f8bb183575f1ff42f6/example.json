@@ -1,0 +1,591 @@
+{
+  "id": "d1f8bb183575f1ff42f6",
+  "source": {
+    "repository": "djalilchafai/ginibre-poincare",
+    "commit": "fb58b4fd765f19a65c46cb82fb647fb0d94e28ca",
+    "project": "djalilchafai--ginibre-poincare--fb58b4fd765f",
+    "path": "GinibrePoincare/Analysis/MatrixSymmetricLift.lean",
+    "file_id": "03e6e167cc0ff09bb6fc",
+    "source_sha256": "03e6e167cc0ff09bb6fcaa97eefaa7e317ea0aec90c7667b89f989445d98ee78",
+    "start": 91,
+    "end": 114,
+    "original_start": 91,
+    "original_end": 114,
+    "declaration": "matrixSpectral_overlap_lsi_compactLipschitz",
+    "source_url": "https://github.com/djalilchafai/ginibre-poincare/blob/fb58b4fd765f19a65c46cb82fb647fb0d94e28ca/GinibrePoincare/Analysis/MatrixSymmetricLift.lean#L91-L114",
+    "archive_url": "https://github.com/PalomarArchive/djalilchafai--ginibre-poincare--2abb6cec2279/blob/fb58b4fd765f19a65c46cb82fb647fb0d94e28ca/GinibrePoincare/Analysis/MatrixSymmetricLift.lean#L91-L114"
+  },
+  "native_target_name": "GinibrePoincare.matrixSpectral_overlap_lsi_compactLipschitz",
+  "source_declaration_label": "matrixSpectral_overlap_lsi_compactLipschitz",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "22bbf01235fd13e67b64f5f0ec29e21616b25302d607ea74671d80a4655a173d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "24a76023ee2808c477269adb8473c3873e6a4296c0a8557cf4da37e2d9dadf93",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GinibrePoincare/Analysis/AngularMoments.lean",
+      "sha256": "a689e717b22cf25d388d27f7d15ed15200026362d1dec309109f79eface0c5a9",
+      "bytes": 2205
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BernoulliBinomialBridge.lean",
+      "sha256": "ac0c1c4a53072a635c358ff784113444ce63ada8f299a3d23dca3040eb9062d0",
+      "bytes": 4098
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BernoulliCubeExpectations.lean",
+      "sha256": "5bf9e72ed050abfa4460cc3de69c13a5ac41ca019e85d4a1a11e77795d9369eb",
+      "bytes": 3581
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BernoulliCubeLSI.lean",
+      "sha256": "c41a1b7b787b7cb06b0ddc64c097444f077f921b2febfc34f4286b09608a5901",
+      "bytes": 1820
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BernoulliGaussianCLT.lean",
+      "sha256": "b309d48a0aad669ce0082a6f71990f1190ad19530eb54e8f6a61dd60736334d6",
+      "bytes": 4899
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BernoulliTaylorEnergy.lean",
+      "sha256": "8015100c4f9cd1d1b729fbcecca19e06b5a5bb99593c1d6c5b4b422d143de804",
+      "bytes": 7221
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BlockMagnitudeGradient.lean",
+      "sha256": "29b776f8160b2be74834c43f6aa558bd8fe3b70a23607f2fefa0d6835f44263c",
+      "bytes": 3942
+    },
+    {
+      "path": "GinibrePoincare/Analysis/BlockMagnitudeLift.lean",
+      "sha256": "ff6c3d916bf32d479beacbbe3375838bf9db18b763b4df1b26c6e93a014b8621",
+      "bytes": 7116
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CollisionNull.lean",
+      "sha256": "aa9d6fc649bbc88927847b2b6feb27c25ad0f704013e19400ae4d9ee71b68272",
+      "bytes": 4997
+    },
+    {
+      "path": "GinibrePoincare/Analysis/CompactLipschitzLSIExtension.lean",
+      "sha256": "89c9ac98e4f8fee60f61fe4a227e35c06b9b883f34c0daf6a64d81ec0af863da",
+      "bytes": 6055
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexGaussianDensity.lean",
+      "sha256": "d2e0731fc399a245a5c61b0a488cb0cd3e1a23ff792e966a59195e4d5aa6a08d",
+      "bytes": 5853
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexGaussianMoments.lean",
+      "sha256": "c7eb9d65bbd1a2eef9b58fc92f7108bba574c8596215c09499edfad1c0b1dd53",
+      "bytes": 3806
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexGaussianProductIntegral.lean",
+      "sha256": "3085dfdb56df00f746ccd79227e688e45fcd98420b43d5cb15027488d52d1f75",
+      "bytes": 1897
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexHermite.lean",
+      "sha256": "71c533ea8a56417440a957e74d7673acb989082b8389568732f43f623f233048",
+      "bytes": 3400
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexHermiteLowering.lean",
+      "sha256": "a0d0f16428b05fe656936376c5436c9dbe0c366dd8fafa9e5a757eec02b032b4",
+      "bytes": 7358
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ComplexHermiteOrthogonality.lean",
+      "sha256": "86bbd70c863a0027922ccbb9f83aca20ce9135a5cfb13304a64a7bffe7f7d218",
+      "bytes": 2824
+    },
+    {
+      "path": "GinibrePoincare/Analysis/EntropyL2Closure.lean",
+      "sha256": "9ff34d4a537ade29c12dfe770b4cb2ac60901c6300f4ecdf60e48419f2c9f5cf",
+      "bytes": 3469
+    },
+    {
+      "path": "GinibrePoincare/Analysis/EntropyLimitStability.lean",
+      "sha256": "efa12e65cfcf4a427714dd448578de92dbe56a28ca9598eb21237d492839a479",
+      "bytes": 5384
+    },
+    {
+      "path": "GinibrePoincare/Analysis/EntropyProductDecomposition.lean",
+      "sha256": "723e0edc73dbd12f0223fbaad71b4c393d01c7c5baaa2490d27e1eaefe351d40",
+      "bytes": 2129
+    },
+    {
+      "path": "GinibrePoincare/Analysis/EquilibriumFactorization.lean",
+      "sha256": "df9eff03f98112d8f534e76af4075e8bb45111edd71023deba649597c229f552",
+      "bytes": 13284
+    },
+    {
+      "path": "GinibrePoincare/Analysis/EquilibriumProbability.lean",
+      "sha256": "5988b4df8eae8af3cb7b450a91498c27b3baab854aebdd749aea3557e8112148",
+      "bytes": 13301
+    },
+    {
+      "path": "GinibrePoincare/Analysis/FiniteEntropyTensorization.lean",
+      "sha256": "be1300910e28d92141fa9366bd4f912d1cb3e8791f12f0852fb3c3996c7a9140",
+      "bytes": 7195
+    },
+    {
+      "path": "GinibrePoincare/Analysis/FinitePiDensity.lean",
+      "sha256": "824ca7d80c5ccce22c53f027fc77657e69484a082029c6f2069180f3d345fcd7",
+      "bytes": 4797
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianBlockLSI.lean",
+      "sha256": "1f5b10c7f244696b403291b6fa81ff2c542cd1a96a841089dc52de5bd6c740cc",
+      "bytes": 6615
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianBlockRadialLaw.lean",
+      "sha256": "0d6faa47854eb3e3ba9a8807b22a2b09324e888367add3fda12d2d141b57eccb",
+      "bytes": 7707
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianCurryLaw.lean",
+      "sha256": "249804bc5cf971224d4dbc2b6e224b7d2061962a86ae9f951e55e0c493aaccb9",
+      "bytes": 2116
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianDensity.lean",
+      "sha256": "f7249983281e35f7593ffde5778d5bc2a53d9c8369f35b72ee95e9b575e9efe3",
+      "bytes": 3792
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianFiniteIndexLSI.lean",
+      "sha256": "8f2b582fc72735945186a2295a9a3300ac45911545a41c035d1bb506f16f6fb3",
+      "bytes": 3001
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianLSIFiniteProduct.lean",
+      "sha256": "12a9aab2b6250a3c0a4596d06d6130d93328e760c29e1d1d33cf99a782c775b2",
+      "bytes": 16262
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianLSIProduct.lean",
+      "sha256": "eac3542ede1e5852c1ad1b983d2c4ad29551726bea9d4c7a9ac2b899197f0c79",
+      "bytes": 6727
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianLSIReal.lean",
+      "sha256": "c647609c0efb5dbb4d0312282adad28ff9be65822be558d4770c76f865704374",
+      "bytes": 5641
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianLSIReduction.lean",
+      "sha256": "4daafc1e10502d7f20d5f89b1588e5c504f3ba1a5582f9b64a3caa23bcf78643",
+      "bytes": 3865
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianLSIScaling.lean",
+      "sha256": "d3c1784854c2671969e425b22ec24b2c66207eb49f46947e4298d809ed8265dc",
+      "bytes": 5606
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianPiCoordinates.lean",
+      "sha256": "e5a148d0e3d97cf01019bd3ec06847e1ac0f69fb56ae2ea7a2e39c94571ca34e",
+      "bytes": 6603
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianPolynomialIntegrability.lean",
+      "sha256": "c0def1643c8f0b2b494062158d5e119bd775c3d6f3cee941c7de2c182a44b31a",
+      "bytes": 8342
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianRadialLift.lean",
+      "sha256": "edb4733ac2bb9283a5c77ff1dfe7bf0a61360792266d4b9aad7150149e37a00e",
+      "bytes": 6642
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GaussianSobolevApproximation.lean",
+      "sha256": "2e287658572945e36f92a76bc600cd1df9f5c5a2eeb04b6ebc73ee59251d5a7f",
+      "bytes": 12228
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreEntropy.lean",
+      "sha256": "1d11bb833e666f6a87f3523727fa60b8c0bbd97b0ee78762ad0312f5325188b9",
+      "bytes": 4477
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreMassFiniteness.lean",
+      "sha256": "d7da01519eb97f391c9f1bb8ab2c07ebd6c2c1075d8826429dba0c95bc45be53",
+      "bytes": 5910
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreMassPositivity.lean",
+      "sha256": "a04c45057c12e4dbacf9a052d54869114eaee7e67b4f50a00c41908797dda595",
+      "bytes": 4389
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GinibreRadialGamma.lean",
+      "sha256": "1dc7553fb535876d7b34aaa73444f9f28954cce0693d2f7485093de22fa733d9",
+      "bytes": 13791
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GlobalPhaseAction.lean",
+      "sha256": "b0d42061a80efa84906aa28fbd371cf6f32a19a7376ce8c789dce7c5f533b9d0",
+      "bytes": 40863
+    },
+    {
+      "path": "GinibrePoincare/Analysis/GroundStateDbar.lean",
+      "sha256": "7713b912ab61954d47cb79e305eb028caaaff4a1e377a7d5d7aff445d48038c4",
+      "bytes": 19577
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HermiteBinomialIdentity.lean",
+      "sha256": "0ab3eb5c36053f0b16982485a21c13afa841610c6ce0b3b1f1dd6c48867310dd",
+      "bytes": 19051
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HermiteEnergy.lean",
+      "sha256": "6fb68b5c6366a1f2057b4ec163d8d9168d191ea3f83fc36da9ae614a78cb0637",
+      "bytes": 19172
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HermiteL2Family.lean",
+      "sha256": "4350e87fcc1424213db35dd533e98f00fd969f65d3e88aa8e31896b8602c6ad5",
+      "bytes": 5417
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HermiteOrthogonalityCombinatorics.lean",
+      "sha256": "850649ef0e145b9817425dca90842b26d4ed761cd9f8e84fd1b6b0a1cd330fd8",
+      "bytes": 4892
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HermiteWirtinger.lean",
+      "sha256": "7c36c302507d5d4e3ea917a147dc90ac5652b400e297d455e8f3e92184d48a66",
+      "bytes": 13859
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HolomorphicVandermondeDivision.lean",
+      "sha256": "0364ce32ceefc7b1312f972b885776a0e16c12f71fd329f0287cb184f6df7ed8",
+      "bytes": 26456
+    },
+    {
+      "path": "GinibrePoincare/Analysis/HomogeneousRadialMeasure.lean",
+      "sha256": "c2214c75425581e77206c35424a028ae2aca01d1ccf4cb1da9e2390503a277ce",
+      "bytes": 10636
+    },
+    {
+      "path": "GinibrePoincare/Analysis/IntegralEntropyTensorization.lean",
+      "sha256": "28d1bfc6438a8faeb2c3f6041f73adb527eb86186e0ad8a913488173e14b051b",
+      "bytes": 14024
+    },
+    {
+      "path": "GinibrePoincare/Analysis/KostlanDiagonalIdentity.lean",
+      "sha256": "af9e6012994ffde6b3cac913d0ec666d64cb778c6d9088b5b9e361335b2fd5c5",
+      "bytes": 4186
+    },
+    {
+      "path": "GinibrePoincare/Analysis/KostlanEntropyTransfer.lean",
+      "sha256": "9fde9ca5a6d2a13ace11f16546ecd21b7843c1016edf9e66ab2aeb37dddcc264",
+      "bytes": 1558
+    },
+    {
+      "path": "GinibrePoincare/Analysis/KostlanGammaLaw.lean",
+      "sha256": "6cd16a7769df2984f191bffe89e01d546f74c8984ab62d7b6d2f2f171418b644",
+      "bytes": 7323
+    },
+    {
+      "path": "GinibrePoincare/Analysis/KostlanProductLaw.lean",
+      "sha256": "6dece43bc787d384fa83a6de091d1ac715474273c9f450b14ad29c77b50a8c09",
+      "bytes": 4940
+    },
+    {
+      "path": "GinibrePoincare/Analysis/KostlanRadialTransfer.lean",
+      "sha256": "cbd3b363d5f8344934b03448f5e498059533252a0fd242725592e64ae8c3ce1c",
+      "bytes": 6520
+    },
+    {
+      "path": "GinibrePoincare/Analysis/LipschitzMollification.lean",
+      "sha256": "9a281870357ab2b641c2fa85f5572d47dbbc78284cd6b14e192d6cc7dc3a3f01",
+      "bytes": 6204
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MagnitudeGradient.lean",
+      "sha256": "04b38862b000f58cc34d57151cf6f2a36810cfa9e882e4aeef5c0851a33048b9",
+      "bytes": 4193
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MagnitudeNullSets.lean",
+      "sha256": "3ff100222b49cb6c668437ca87f4fee420a71f9f8286205877be071134dc8afb",
+      "bytes": 2794
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixDeterminantDerivative.lean",
+      "sha256": "b4c9324a84b9aafc49f5d1a610049ecd9a574566fc22f4df68944a95cb1556c8",
+      "bytes": 2121
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixEigenvalueProjector.lean",
+      "sha256": "039ec078e5e0a0bd98404464b44b5ec0cf41a54e93449680a1a70354ee9dc3ed",
+      "bytes": 7034
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixGaussianLSI.lean",
+      "sha256": "abd71566037d07a00eef73044878984b2e9a3117fed844ff7f793ee9e454adf8",
+      "bytes": 5227
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixGaussianMeasure.lean",
+      "sha256": "2ca571ee7c4c3b2d4b8348ebf5354a7fb1dbe4b7713896556f72f29639688890",
+      "bytes": 5769
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixLabelPermutation.lean",
+      "sha256": "2ebdf864d4ed1604c8cb4ad00a2ef5e3bc5e32c260b64a1b28f504d120d75bec",
+      "bytes": 3438
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixLiftEnergy.lean",
+      "sha256": "3370921537b6b8b64dce834dca1d80cce8ad79b792a188f6394a3d3ad16c2645",
+      "bytes": 2714
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixLocalEigenvalue.lean",
+      "sha256": "9e9ed43a6e431e5839964f55a5e0950b882d4768657b83712f3b526d0e2c043c",
+      "bytes": 4211
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixLocalSpectrum.lean",
+      "sha256": "fdbaca0d35a0c64885acdb84d0d10bea3501a4888a5dbe2c5ab8fbe7fc44aa26",
+      "bytes": 6270
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixOverlap.lean",
+      "sha256": "9413212035a93414b9d3de91e320d22a9bc3e05b775fd9d6300da3929bcb81ba",
+      "bytes": 10418
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixPolynomialNull.lean",
+      "sha256": "5c6be14ed3c366da6ec9f662af4a1c3bab00ddfe3365febf14c335f79d88cd87",
+      "bytes": 4225
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixRealDifferential.lean",
+      "sha256": "92289d4e8c0e3c3fec66beee048c841fdc618bd4d7de5f20b8ae9a09e0431df9",
+      "bytes": 1987
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSimpleSpectrum.lean",
+      "sha256": "b532ce2d137cc98843c2c7df7fd1eec27e7110a9a677291d54f63125d9304d38",
+      "bytes": 3893
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSpectralBasis.lean",
+      "sha256": "cc8a9d50b718111d27732fd1037c6733dad94ac5bbec19f6952af989e3d98512",
+      "bytes": 5232
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSpectralLaw.lean",
+      "sha256": "60d4b10c7fd1206a185d23cb04101164b646098e88cf5a2410570ceaec2a66e7",
+      "bytes": 3224
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSpectralLiftDifferential.lean",
+      "sha256": "a1521bafc65e58c9933dc64b52929fb87c787fa7ce0b9f4931b8053dc00e9262",
+      "bytes": 2260
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSpectralProjector.lean",
+      "sha256": "f0ecbf840623594cb9973da12a7b3aa333766c604204fdac7ab54d509b63d544",
+      "bytes": 6388
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MatrixSymmetricLift.lean",
+      "sha256": "ec5b3ad789b893d66617c5e092698d67d8643c277ae37b4a075303e1c83a4ce4",
+      "bytes": 6018
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MeasureTransport.lean",
+      "sha256": "447dcb958274ab416d1323545723e113ffbe58cd499570628327c397c4ba4a7f",
+      "bytes": 1317
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MultivariateComplexHermite.lean",
+      "sha256": "051a554bbbf8fdb1c0528b04f70664e97e329d162e752c21d96b46c91522978a",
+      "bytes": 3245
+    },
+    {
+      "path": "GinibrePoincare/Analysis/MultivariateHermiteIntegrability.lean",
+      "sha256": "9bad9d4bec7895885afce2fb94c7edf2fcf932cd6d092624bac878847937fc43",
+      "bytes": 7481
+    },
+    {
+      "path": "GinibrePoincare/Analysis/NormalizedComplexHermite.lean",
+      "sha256": "47db85f35a1fe3abc75984a683f28679e6c9e9b9253e96f826455c1423ecccb5",
+      "bytes": 7102
+    },
+    {
+      "path": "GinibrePoincare/Analysis/PermutationLp.lean",
+      "sha256": "60108cde89b13436abd4563cf957c094a2d7c3c1a173e88ec2e19e2378f65464",
+      "bytes": 7187
+    },
+    {
+      "path": "GinibrePoincare/Analysis/PolarGaussianMoments.lean",
+      "sha256": "75206e79b61ec042b3dfddc1dfd14d8c44860d559ea1fafb599e06b2e9502ed3",
+      "bytes": 5392
+    },
+    {
+      "path": "GinibrePoincare/Analysis/ProductWeightedMeasure.lean",
+      "sha256": "09499ebec70487839333ee6d02ffbdf178f0b916ca9d455fd6221a38370b2aa3",
+      "bytes": 1372
+    },
+    {
+      "path": "GinibrePoincare/Analysis/RadialGaussianOrthogonality.lean",
+      "sha256": "2709331a77a5bd96c902a8f21a5314b5221ae3a2c891a2562556e855baf83a65",
+      "bytes": 4732
+    },
+    {
+      "path": "GinibrePoincare/Analysis/RadialGradientTransfer.lean",
+      "sha256": "bf559fc5c48af31b14345049743ca4c026b27d3e2e0e68c5ad46169b47593d0b",
+      "bytes": 6359
+    },
+    {
+      "path": "GinibrePoincare/Analysis/RadialMagnitudeProfile.lean",
+      "sha256": "7f6293cc8f8408828ada0167d6b8d8f966e030e5758e5ba715636e7cf831b696",
+      "bytes": 4386
+    },
+    {
+      "path": "GinibrePoincare/Analysis/RadialMoments.lean",
+      "sha256": "b1b3e9af77e39b62b9fd71276309d1080e61ddf9063e9254d2bbd90ce8cb67b7",
+      "bytes": 2110
+    },
+    {
+      "path": "GinibrePoincare/Analysis/RadialSobolevClosure.lean",
+      "sha256": "59fe88659038dbde898114c5f0f411fba00dc2e8dba2b4e62b7d47d78dec1c55",
+      "bytes": 5522
+    },
+    {
+      "path": "GinibrePoincare/Analysis/SobolevTruncation.lean",
+      "sha256": "228cbe8d6acecf92caa4de7eab1f109bc30223e1f047696beabb52ae848332f7",
+      "bytes": 7408
+    },
+    {
+      "path": "GinibrePoincare/Analysis/TaylorDifferenceQuotient.lean",
+      "sha256": "583ef3a41df1447e8af935105ecfe9c3241a1c898c1476f47a987965833c2310",
+      "bytes": 5815
+    },
+    {
+      "path": "GinibrePoincare/Analysis/TwoPointLSI.lean",
+      "sha256": "b879b4544f54c686f0a46669290eafb1f97b5a193887b77428575d211e55b7bc",
+      "bytes": 7014
+    },
+    {
+      "path": "GinibrePoincare/Analysis/VandermondeL2.lean",
+      "sha256": "0c4aabcef8aa032192c6cb95a3c17d60c289d11d5c96fd66eefa34d198191174",
+      "bytes": 7770
+    },
+    {
+      "path": "GinibrePoincare/Analysis/VandermondeL2Inverse.lean",
+      "sha256": "9bf1696854e26bfded1cd75b7a6ccd03739da05216b1c5b452253610183c39c9",
+      "bytes": 14534
+    },
+    {
+      "path": "GinibrePoincare/Analysis/VandermondeSymmetryL2.lean",
+      "sha256": "f0564f19b86b35632bee6263c44fd16183c51b2d91577a75d378addf5aeff7ce",
+      "bytes": 4322
+    },
+    {
+      "path": "GinibrePoincare/Concrete/AnalyticStatements.lean",
+      "sha256": "917b6cf47185ad502d41533b9ae3c84067c1a7cb6fc65f9b9bb3f7022b53f466",
+      "bytes": 1281
+    },
+    {
+      "path": "GinibrePoincare/Concrete/CenterOfMass.lean",
+      "sha256": "11da6cf0659c1b77e570991994d426355a683094d6f5e87b7d9e4591b9551a0d",
+      "bytes": 1447
+    },
+    {
+      "path": "GinibrePoincare/Concrete/Configuration.lean",
+      "sha256": "bc8cd90156193e79bd92a44dea0595a7ef4430fce5e6af44ab1ccc503174228b",
+      "bytes": 2617
+    },
+    {
+      "path": "GinibrePoincare/Concrete/GaussianProbability.lean",
+      "sha256": "b2dfb1711adbf69038a3417962c9677ef9c6e17ade801f179fa970fa5a18322e",
+      "bytes": 2830
+    },
+    {
+      "path": "GinibrePoincare/Concrete/GroundState.lean",
+      "sha256": "714a3f4a018f51beca664ddecd8889561ac3ad150af9616041560e9a3485f4ee",
+      "bytes": 1332
+    },
+    {
+      "path": "GinibrePoincare/Concrete/HolomorphicDistance.lean",
+      "sha256": "027b296084a04941c877f71224e13255367021e5da5b3545b643129f7c3fc8d1",
+      "bytes": 2588
+    },
+    {
+      "path": "GinibrePoincare/Concrete/MeasureModel.lean",
+      "sha256": "cc7b7659e307b520543756ca4ec0f4c7cb0d145e206759f68333eac2302295f9",
+      "bytes": 4686
+    },
+    {
+      "path": "GinibrePoincare/Concrete/NormalizedGroundState.lean",
+      "sha256": "9197ed37ca2380293910a2a47fa004912a038597ff6657676e1a90f4ce63cb06",
+      "bytes": 1622
+    },
+    {
+      "path": "GinibrePoincare/Concrete/SmoothTarget.lean",
+      "sha256": "0e90d6abb271b5dd9525c0f458046fa69a36419ff686ab69c3ee8cfcd33d6838",
+      "bytes": 3082
+    },
+    {
+      "path": "GinibrePoincare/Concrete/Vandermonde.lean",
+      "sha256": "aef13fe9ecfecd7c0b12a9677641534682c6cae7734612eb63738c8f0a6669db",
+      "bytes": 2189
+    },
+    {
+      "path": "GinibrePoincare/Concrete/Weights.lean",
+      "sha256": "6fe0865e3e7323ae23add26594ad9f1fcefb66b87694c9b79dacb9670e881971",
+      "bytes": 4528
+    },
+    {
+      "path": "GinibrePoincare/Concrete/Wirtinger.lean",
+      "sha256": "fa68b51a451b26d674ec0ceaf8cb7643264904ec2d705307fc96461d719f5908",
+      "bytes": 3397
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "4ea1e0340926758ae76f05e5e4138c741cc83daa6506879072d258416c91cc97",
+      "bytes": 415,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GinibrePoincare/Analysis/MatrixSymmetricLift.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-dependency-next-finalize-636929705/d1f8bb183575f1ff42f6": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/djalilchafai/ginibre-poincare",
+    "source_commit": "fb58b4fd765f19a65c46cb82fb647fb0d94e28ca"
+  }
+}

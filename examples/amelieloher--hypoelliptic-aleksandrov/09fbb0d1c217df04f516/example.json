@@ -1,0 +1,68 @@
+{
+  "id": "09fbb0d1c217df04f516",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularPositiveTailMoments.lean",
+    "file_id": "0b2fc77ea3ef297ce5c4",
+    "source_sha256": "0b2fc77ea3ef297ce5c4b11ec3466ab7df9dd99a205b31b83c8089b4b3814ba8",
+    "start": 55,
+    "end": 64,
+    "original_start": 47,
+    "original_end": 64,
+    "declaration": "bellmanAngularFirstMoment_bound",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularPositiveTailMoments.lean#L55-L64",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularPositiveTailMoments.lean#L55-L64"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "bellmanAngularFirstMoment_bound",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d50e4a780946a77a8e11575f10ca8c26511b98cd6a8517c2da1b5cd6556a53b6",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4909605749a328cd237951a7952b003a4cb3c1c88b075445920c19adc6595128",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularIntegratedCalculus.lean",
+      "sha256": "e38c1a6bbb326482f0c35b64ba72bc1d5441ca0fe8728b502304bfb79ca5cb8f",
+      "bytes": 4414
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularPositiveTailMoments.lean",
+      "sha256": "387b8ace6629fa02ae27df722e7d85b5cf8f6538f40fbc37c03e96dfa1bc3d44",
+      "bytes": 2920
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/AngularPositiveTailMoments.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

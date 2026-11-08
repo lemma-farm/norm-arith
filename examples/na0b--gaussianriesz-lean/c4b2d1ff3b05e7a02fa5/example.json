@@ -1,0 +1,116 @@
+{
+  "id": "c4b2d1ff3b05e7a02fa5",
+  "source": {
+    "repository": "na0b/gaussianriesz-lean",
+    "commit": "dc16c5de824a20c0164947c3a3e157887d9844c0",
+    "project": "na0b--gaussianriesz-lean--dc16c5de824a",
+    "path": "GaussianRiesz/GaussRieszKernelNearBounds.lean",
+    "file_id": "02fb82ac6cecdd2b73fd",
+    "source_sha256": "02fb82ac6cecdd2b73fdb7f3bef31c76b575cff8f93b25de475ac53a3eb4de4e",
+    "start": 68,
+    "end": 105,
+    "original_start": 10,
+    "original_end": 198,
+    "declaration": "GaussRieszKernelNearBounds",
+    "source_url": "https://github.com/na0b/gaussianriesz-lean/blob/dc16c5de824a20c0164947c3a3e157887d9844c0/GaussianRiesz/GaussRieszKernelNearBounds.lean#L68-L105",
+    "archive_url": "https://github.com/PalomarArchive/na0b--gaussianriesz-lean--aa7b9db0230e/blob/dc16c5de824a20c0164947c3a3e157887d9844c0/GaussianRiesz/GaussRieszKernelNearBounds.lean#L68-L105"
+  },
+  "native_target_name": "GaussRieszKernelNearBounds",
+  "source_declaration_label": "GaussRieszKernelNearBounds",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "0ad63e5eddcdd2da66428d3422a0e9e3ca4e43f8fefae98cbf5c8c97819da353",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "70b5184462306fc6485deebe62d606bac7bf3c135955e491ea6e737ecb8f1721",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GaussianRiesz/GaussRieszKernel.lean",
+      "sha256": "2ac5f17c6964ef628ec262da6a7c2587cfaa2813ff6477138faa0c22abe9a36a",
+      "bytes": 424
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearBallUniformTauMajorant.lean",
+      "sha256": "84b6fead55345819df2b1a75489e4ff4d860e5badf801d2534a790d20abdf4b5",
+      "bytes": 8525
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearBounds.lean",
+      "sha256": "02fb82ac6cecdd2b73fdb7f3bef31c76b575cff8f93b25de475ac53a3eb4de4e",
+      "bytes": 12206
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearFDerivBound.lean",
+      "sha256": "a5d7ad5dd694b763e8267ef8c96d3266fae2d97d6e1804cb528b55996e7d7735",
+      "bytes": 22461
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearReflectedSliceMajorants.lean",
+      "sha256": "7cb566892bbfda6fd3bcfc61a13e095a790702bd834e8eba7e136e3d8f02ad33",
+      "bytes": 6305
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearSliceBounds.lean",
+      "sha256": "9f0e42a6fa828ccd05fefdf078570eed76d739179a146daf8c9552107b841a70",
+      "bytes": 15079
+    },
+    {
+      "path": "GaussianRiesz/GaussRieszKernelNearSliceL1Bound.lean",
+      "sha256": "75f992b4a083af8032a7042938826afbbe41a41ad6f5ef8d1f961fa164180630",
+      "bytes": 17712
+    },
+    {
+      "path": "GaussianRiesz/OneSubReflectionIntegralTransfer.lean",
+      "sha256": "bef1487b9b2c3d9c86791aeebdc97dfc51e5028ac10b66b7170ab65ebbe9f802",
+      "bytes": 1195
+    },
+    {
+      "path": "GaussianRiesz/Preamble.lean",
+      "sha256": "7b91ef2a4d4242ae05d52ca2255154b34303a8e4059db83f18c8bded14f18e46",
+      "bytes": 1509
+    },
+    {
+      "path": "GaussianRiesz/RpowPowerReductionsToNegPower.lean",
+      "sha256": "1503abf79d630f2f9dd808d6abbd56d354ab291f8adecd99dc1e3dc366bb5b32",
+      "bytes": 5644
+    },
+    {
+      "path": "GaussianRiesz/TauPowerIntegralBounds.lean",
+      "sha256": "03ced45944d4e10cbbf2929df69acdba35162737206d36af725b18acdf904330",
+      "bytes": 7896
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1485e056ab730d68272ddfe7d83cdbae619090344f2574a7bd2812e4a80cdefb",
+      "bytes": 397,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "GaussianRiesz/GaussRieszKernelNearBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/c4b2d1ff3b05e7a02fa5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/na0b/gaussianriesz-lean",
+    "source_commit": "dc16c5de824a20c0164947c3a3e157887d9844c0"
+  }
+}

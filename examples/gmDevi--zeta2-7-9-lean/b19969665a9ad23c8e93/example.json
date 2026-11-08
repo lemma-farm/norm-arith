@@ -1,0 +1,76 @@
+{
+  "id": "b19969665a9ad23c8e93",
+  "source": {
+    "repository": "gmDevi/zeta2-7-9-lean",
+    "commit": "3797cb6e4f8653744c0aa8e66ec8eb3645e75dcd",
+    "project": "gmDevi--zeta2-7-9-lean--3797cb6e4f86",
+    "path": "Zeta2Lean/Proofs/JConvergence.lean",
+    "file_id": "05d3216f595467feae96",
+    "source_sha256": "05d3216f595467feae9636a07046cc64768ca88fd7b6ca9eebd0c2e037da74f3",
+    "start": 52,
+    "end": 67,
+    "original_start": 51,
+    "original_end": 67,
+    "declaration": "jc_pow_sub_pow",
+    "source_url": "https://github.com/gmDevi/zeta2-7-9-lean/blob/3797cb6e4f8653744c0aa8e66ec8eb3645e75dcd/Zeta2Lean/Proofs/JConvergence.lean#L52-L67",
+    "archive_url": "https://github.com/PalomarArchive/gmDevi--zeta2-7-9-lean--782bf3edf3d4/blob/3797cb6e4f8653744c0aa8e66ec8eb3645e75dcd/Zeta2Lean/Proofs/JConvergence.lean#L52-L67"
+  },
+  "native_target_name": "_private.Zeta2Lean.Proofs.JConvergence.0.Zeta2.jc_pow_sub_pow",
+  "source_declaration_label": "jc_pow_sub_pow",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "cd28b7938d03647978da2474bca806ce0c74d473328a9414ce5fbf8a0789438f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4448f583e6d0b23bc1ca7fcb4c89f30b67c98aac10dcbf92ca14e77b66f5f481",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Zeta2Lean/Defs.lean",
+      "sha256": "23fb3ad3c6e4ac0c586000fd27b9612f0eff3669763cf2e39012b466928c6799",
+      "bytes": 7286
+    },
+    {
+      "path": "Zeta2Lean/Proofs/JConvergence.lean",
+      "sha256": "05d3216f595467feae9636a07046cc64768ca88fd7b6ca9eebd0c2e037da74f3",
+      "bytes": 10970
+    },
+    {
+      "path": "Zeta2Lean/Statements.lean",
+      "sha256": "d500470add851ef024380ed1c6a3b8601004847ccf2d7160afbbc3f62e980df8",
+      "bytes": 5983
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "481be2a61aecab8476ca25d809a39eee1a9e7c590093916c630f8626bb0fda4f",
+      "bytes": 625,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Zeta2Lean/Proofs/JConvergence.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b19969665a9ad23c8e93": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/gmDevi/zeta2-7-9-lean",
+    "source_commit": "3797cb6e4f8653744c0aa8e66ec8eb3645e75dcd"
+  }
+}

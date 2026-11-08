@@ -1,0 +1,76 @@
+{
+  "id": "9beb15018cf8cb57b895",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinApproximation.lean",
+    "file_id": "082eb7bcf3e5bac7521c",
+    "source_sha256": "082eb7bcf3e5bac7521cecfa41054f19547619cd81a725310d57286824ec7aec",
+    "start": 64,
+    "end": 169,
+    "original_start": 64,
+    "original_end": 169,
+    "declaration": "piBernsteinApproximation_uniform",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinApproximation.lean#L64-L169",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinApproximation.lean#L64-L169"
+  },
+  "native_target_name": "HypoellipticAleksandrov.Parabolic.Dirichlet.piBernsteinApproximation_uniform",
+  "source_declaration_label": "piBernsteinApproximation_uniform",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "aa0c6d494bd165513ef5f8846ede18ff1f1cd2b301d1c374f5749bc6dc2566b0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3f4f808250880d19497828ea9fbb8af3ffa6cacb57441151929ee56081cc1292",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Dirichlet/FiniteFunctionProductSum.lean",
+      "sha256": "a2a2e557522d5f75b3cc9f26413843ee60664c4a47530fce031d8e2a39b88130",
+      "bytes": 1905
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinApproximation.lean",
+      "sha256": "d729be8af2376c3c4575aed3f1925f17b4c6c124ce4aa2e152331daa290923d0",
+      "bytes": 8196
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinCore.lean",
+      "sha256": "dfacfab3c5da20db259e5b114cec240aff767794e157ec78f340ee37c8a947a6",
+      "bytes": 4465
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "50f4e327de602c10798b31187ac25a1b404a9a3f95b0fad7c9304cf1c1ad1833",
+      "bytes": 2326,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/Parabolic/Dirichlet/PiBernsteinApproximation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/9beb15018cf8cb57b895": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

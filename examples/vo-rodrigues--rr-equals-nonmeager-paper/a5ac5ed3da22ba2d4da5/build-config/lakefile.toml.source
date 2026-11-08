@@ -1,0 +1,33 @@
+"name" = "nonm_rr"
+"version" = "0.1.0"
+"description" = "A mathlib formalization of non(M) <= rr."
+"license" = "Apache-2.0"
+"keywords" = ["math", "set-theory", "cardinal-characteristics"]
+"defaultTargets" = ["NonMRR", "AxiomAudit", "Challenge", "Solution", "PalomarAudit"]
+"leanOptions" = {"autoImplicit" = false, "warningAsError" = true}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "NonMRR"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AxiomAudit"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarAudit"
+"srcDir" = "."

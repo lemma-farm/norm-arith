@@ -1,0 +1,32 @@
+"name" = "one_phase_dimension"
+"version" = "0.1.2"
+"description" = "Flatness of one-homogeneous minimizers of the one-phase Bernoulli problem in dimensions at most six"
+"keywords" = ["math"]
+"defaultTargets" = ["OnePhaseDimension"]
+"preferReleaseBuild" = true
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false, "autoImplicit" = false, "weak" = {"linter" = {"mathlibStandardSet" = true}}, "maxSynthPendingDepth" = 3}
+"buildDir" = ".lake/build"
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "OnePhaseDimension"
+
+[["lean_lib"]]
+"name" = "OnePhaseDimensionChecks"
+"roots" = ["OnePhaseDimension.Certificate.Spike.Checks"]
+
+[["lean_lib"]]
+"name" = "Vocabulary"
+"srcDir" = "challenges/headline"
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "challenges/headline"
+"leanOptions" = {"weak" = {"linter" = {"style" = {"longLine" = false}}}}
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "challenges/headline"

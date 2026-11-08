@@ -1,0 +1,113 @@
+{
+  "id": "4d77f4f6e3ae4c1199aa",
+  "source": {
+    "repository": "scottnarmstrong/Critical2DKPZ",
+    "commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a",
+    "project": "scottnarmstrong--Critical2DKPZ--f1c98dacb2a8",
+    "path": "Critical2DKPZ/SHF/Flow/ScalarCollisionMass.lean",
+    "file_id": "01a6293aa32a7d15265f",
+    "source_sha256": "01a6293aa32a7d15265f452978f329d9820b5a2c5313c39eb6fbf43130e61739",
+    "start": 28,
+    "end": 64,
+    "original_start": 22,
+    "original_end": 64,
+    "declaration": "integral_scalarDensity_Ioo_le_laplace",
+    "source_url": "https://github.com/scottnarmstrong/Critical2DKPZ/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/SHF/Flow/ScalarCollisionMass.lean#L28-L64",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Critical2DKPZ--4b43cc0f06bc/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/SHF/Flow/ScalarCollisionMass.lean#L28-L64"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "integral_scalarDensity_Ioo_le_laplace",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "bc922f8e7b2f38fe5d3bae520eff7acbbaf192861a49b22c2aabf2ed7a71e09a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "785ef8397ddd467674da0ed4ef21da3227b5e94e7a6459ebe85bf6454525ee64",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/DiagramSeries.lean",
+      "sha256": "f8f55a018be60f47ec4d2d62b52c01e526d4797292a1d53dd94c63b033ccbfc4",
+      "bytes": 3995
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/GammaBounds.lean",
+      "sha256": "361542ea98825c55bf62a9ea60d44376edf8d42e3e5d9c108a7411adb6026250",
+      "bytes": 4722
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/KernelBlocks.lean",
+      "sha256": "baa3be92d3858957e0d2683bc4d53ee1fcbdf9dd21adee728ab100e0650199e7",
+      "bytes": 5923
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/Measurability.lean",
+      "sha256": "1c02030ef3d311cfcc3dc89901265dc2347d64ec47b17e8b8e33c859d2944f2e",
+      "bytes": 8370
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/ScalarDensity.lean",
+      "sha256": "f0d80fc3dd0f22edb6de29261a127d7eafc5d599ce59ba51bccb0661870008c7",
+      "bytes": 7102
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/ScalarLaplace.lean",
+      "sha256": "bfdb137e0e6f6c3a64ca319e349dbbe7ee7904d1f7f719e44649d997d3d24bd4",
+      "bytes": 8961
+    },
+    {
+      "path": "Critical2DKPZ/SHF/Flow/ScalarCollisionMass.lean",
+      "sha256": "36e61b0d6c8ca1506597c4dd342969e30c3d3e8756d62cd9a1a79384668443a1",
+      "bytes": 5211
+    },
+    {
+      "path": "Critical2DKPZ/Analysis/Heat/Basic.lean",
+      "sha256": "877330d30aa26ae2f8840fc018173c2ec842d63db8197d5828c844a4790f70af",
+      "bytes": 4169
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/HeatKernel.lean",
+      "sha256": "2be89dcf35e82cc3624f3083a67b30a6a81e6fb8ada6ce35eb991d72c073b15a",
+      "bytes": 1571
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/Plane.lean",
+      "sha256": "8a1fd90c0e621332f3bc0f26bdde629521aaa7a7d8412f78eea63478e795d8d2",
+      "bytes": 1450
+    },
+    {
+      "path": "Critical2DKPZ/SHF/DeltaBose/CollisionWords.lean",
+      "sha256": "925c180cd1342f93b456c40d3f1a7645f5fe2dc13b9789aa496f7a95af98d8d3",
+      "bytes": 3220
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "e5cd3bf7acef555513e360619bb2f26a5c8583e8bb5dfaf862b16bb7d26f8c3d",
+      "bytes": 1212,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "b9f7c453aa759ab21a05e7e8c8704d4e13290d796693088050685b3db072a197",
+      "bytes": 3547,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Critical2DKPZ/SHF/Flow/ScalarCollisionMass.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Critical2DKPZ",
+    "source_commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a"
+  }
+}

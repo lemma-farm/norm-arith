@@ -1,0 +1,63 @@
+{
+  "id": "bd4e17412fbbf257b5ec",
+  "source": {
+    "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a",
+    "project": "geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--ad7deb36ea56",
+    "path": "RequestProject/Euler/ContourHolderSpace.lean",
+    "file_id": "03f42786115711d9ed48",
+    "source_sha256": "03f42786115711d9ed48c457cf4304cecfe809ce6f46077a692772d6e8872871",
+    "start": 136,
+    "end": 149,
+    "original_start": 136,
+    "original_end": 149,
+    "declaration": "norm_sub_le_holder",
+    "source_url": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/ContourHolderSpace.lean#L136-L149",
+    "archive_url": "https://github.com/PalomarArchive/geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--538bf2aa90ac/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/ContourHolderSpace.lean#L136-L149"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_sub_le_holder",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d3d722606a14db1d09728afbc3a3f8a6efb15329f9216d79035ea64589f5ff70",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3a26899177b051e9706ebabb011ff103e7333455ee10f047104f82004b270208",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Euler/ContourHolderSpace.lean",
+      "sha256": "03f42786115711d9ed48c457cf4304cecfe809ce6f46077a692772d6e8872871",
+      "bytes": 7340
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "77fc085aa6a29e7ac04d9dc66e6e840cec00fa0c548cf34224454a50eaee20d3",
+      "bytes": 483,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "56e1ca3207a1a9a09d5380474aa06b8ea5147c7230e8543e951ed59b26b4e352",
+      "bytes": 3577,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RequestProject/Euler/ContourHolderSpace.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "source_commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a"
+  }
+}

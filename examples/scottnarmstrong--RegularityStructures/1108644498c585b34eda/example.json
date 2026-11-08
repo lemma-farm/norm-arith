@@ -1,0 +1,63 @@
+{
+  "id": "1108644498c585b34eda",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "RegularityStructures/Abstract/FixedPointBanach.lean",
+    "file_id": "0319036674661e0d586e",
+    "source_sha256": "0319036674661e0d586ee55b427b76a5860e4565bdb153d920d3d995ec37a595",
+    "start": 147,
+    "end": 151,
+    "original_start": 142,
+    "original_end": 151,
+    "declaration": "norm_sub_le_of_lipschitz_ball",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/FixedPointBanach.lean#L147-L151",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/FixedPointBanach.lean#L147-L151"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_sub_le_of_lipschitz_ball",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "4c532be4460d47806aa84d7964e42149624c048705148b008681ff47af7e5d3a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1e376a33f7b3a068a14950bdd29f4a1c0af9c01f4a71c639cea23cad0e0a1551",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RegularityStructures/Abstract/FixedPointBanach.lean",
+      "sha256": "0319036674661e0d586ee55b427b76a5860e4565bdb153d920d3d995ec37a595",
+      "bytes": 13086
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "20720495ad864c165d32838ea360dd8cd3bca5a04d6c3525ed8718c09375b692",
+      "bytes": 3841,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c23510dbf16297f927a8cb0b42d0816730c679720d11b5f8cd95e3da16240a90",
+      "bytes": 3555,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RegularityStructures/Abstract/FixedPointBanach.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

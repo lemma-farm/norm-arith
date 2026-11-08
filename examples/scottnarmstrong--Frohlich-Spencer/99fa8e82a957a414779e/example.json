@@ -1,0 +1,121 @@
+{
+  "id": "99fa8e82a957a414779e",
+  "source": {
+    "repository": "scottnarmstrong/Frohlich-Spencer",
+    "commit": "e01623b7347c272eac9480f04743f38b8d0df223",
+    "project": "scottnarmstrong--Frohlich-Spencer--e01623b7347c",
+    "path": "FroehlichSpencer/Infra/Green/PathExpansion.lean",
+    "file_id": "046f8ee88bc5a2ef9652",
+    "source_sha256": "046f8ee88bc5a2ef9652259201881508a346bce56d43ee24fdf3930bda3fcefe",
+    "start": 92,
+    "end": 105,
+    "original_start": 80,
+    "original_end": 106,
+    "declaration": "isUnit_restrictedOp_sub_of_diag_dominant",
+    "source_url": "https://github.com/scottnarmstrong/Frohlich-Spencer/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/Infra/Green/PathExpansion.lean#L92-L105",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Frohlich-Spencer--d2b386690b28/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/Infra/Green/PathExpansion.lean#L92-L105"
+  },
+  "native_target_name": "FroehlichSpencer.Infra.isUnit_restrictedOp_sub_of_diag_dominant",
+  "source_declaration_label": "isUnit_restrictedOp_sub_of_diag_dominant",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "aea10a367566597175e2b12601723d10ca6c93878c1712dd2d048c92d36e9f00",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "bbd2c3627999f2db68d8b57021f4d44d75e9b3410914c25a14a35f1e0b554ec9",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FroehlichSpencer/Infra/Green/Basic.lean",
+      "sha256": "31f9292555a76a21a11bab8198496c18f4433523309a9c1a9f8fcb804883ebc9",
+      "bytes": 4349
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Green/PathExpansion.lean",
+      "sha256": "046f8ee88bc5a2ef9652259201881508a346bce56d43ee24fdf3930bda3fcefe",
+      "bytes": 9411
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Resolvent.lean",
+      "sha256": "58e966c62e5b2749c1a510b0e765af5eeb2e1741425adba7202d2f79a65dafa2",
+      "bytes": 589
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Resolvent/Basic.lean",
+      "sha256": "bb91151c9c04b5219b7fd2a074d0e7c484a46097f7c798bb8fd1eb2cbdee680a",
+      "bytes": 3643
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Resolvent/Complex.lean",
+      "sha256": "e59f9acf1ac5edc628316bf4a9ed25c5f2c8953811eaa754328ff99294374f53",
+      "bytes": 11083
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Resolvent/Decoupling.lean",
+      "sha256": "6f84e4afb93e0e530472ee35a2d710e1078cd5bb970ec038bb35778c63fb81cc",
+      "bytes": 16612
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/Count.lean",
+      "sha256": "537e401c53dcc1ed133b68d07f0076c9ff783e49ecacdaeb56aa2fb93532623f",
+      "bytes": 5876
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/MinMax.lean",
+      "sha256": "d9caa973a270a25bcd462d4637b867aded3ca6a85fe3b8ba3475b8d0f3638fba",
+      "bytes": 14374
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/QuadForm.lean",
+      "sha256": "fc612ba451056a3552e6f5f39f32516e27b89a401159816379a0da3371e3f6d9",
+      "bytes": 4550
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/Regularity.lean",
+      "sha256": "169c2c9d6ea9072969d5da94f47da325593149e9a39195cbdfd651c2afb5fc53",
+      "bytes": 12193
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/Sorted.lean",
+      "sha256": "27ea03072ec1e431df5c268c386c1729900770671e5cbce89ed9e20905aa7331",
+      "bytes": 5509
+    },
+    {
+      "path": "FroehlichSpencer/Infra/Spectral/Weyl.lean",
+      "sha256": "a1cb105f9fa0e49e8f019dc2939cfff40ccd1ddf6f27903016197e1145099d39",
+      "bytes": 6528
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "827fbe4f99b4ae558e387fc71b9ef41e37f42158f3187b87a3087491d984fd2f",
+      "bytes": 589,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "FroehlichSpencer/Infra/Green/PathExpansion.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/99fa8e82a957a414779e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Frohlich-Spencer",
+    "source_commit": "e01623b7347c272eac9480f04743f38b8d0df223"
+  }
+}

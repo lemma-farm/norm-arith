@@ -1,0 +1,25 @@
+"name" = "pdt_inflation_model_set_dimension"
+"defaultTargets" = ["InflationDimension", "Challenge", "Solution", "DefinitionAudit"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "InflationDimension"
+"globs" = ["InflationDimension", "InflationDimension.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "DefinitionAudit"
+"srcDir" = "."

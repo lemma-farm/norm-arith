@@ -1,0 +1,68 @@
+{
+  "id": "3f4bc0f02c771a6b39b4",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Occupation/DensityFromTestsApproximation.lean",
+    "file_id": "09aa802856b5102563fa",
+    "source_sha256": "09aa802856b5102563fa991ff7456fdb9fcbeee2836ebd13a6de2ed5d9c1d7eb",
+    "start": 63,
+    "end": 69,
+    "original_start": 63,
+    "original_end": 69,
+    "declaration": "exists_continuous_test_approximation",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Occupation/DensityFromTestsApproximation.lean#L63-L69",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Occupation/DensityFromTestsApproximation.lean#L63-L69"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "exists_continuous_test_approximation",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "cb6fa8c5a5ab4b1d862aa4069a0a1b68599675ec87971558f65b79a4a39cec57",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d14558bcba38df9a088561396049c06dab9e6ed2c9543871a6e39fe815c44e20",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/MajorantApprox.lean",
+      "sha256": "008394734afaf4a0db0a5d1e201ba72089f11c0fa57517f044281a89f507d9d9",
+      "bytes": 4589
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Occupation/DensityFromTestsApproximation.lean",
+      "sha256": "09aa802856b5102563fa991ff7456fdb9fcbeee2836ebd13a6de2ed5d9c1d7eb",
+      "bytes": 4596
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Occupation/DensityFromTestsApproximation.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

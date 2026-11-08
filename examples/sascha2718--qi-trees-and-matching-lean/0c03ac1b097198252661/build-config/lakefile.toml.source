@@ -1,0 +1,32 @@
+"name" = "graphmatching"
+"defaultTargets" = ["GraphMatching", "GraphMarkovMatching", "ChainClasses", "BranchingProcess"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "GraphMatching"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GraphMarkovMatching"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChainClasses"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "BranchingProcess"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

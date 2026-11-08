@@ -1,0 +1,386 @@
+{
+  "id": "f42a62991528724c400e",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "Phi43/BPHZ/TreeI3Psi2DiagramMultiChaosOnePot.lean",
+    "file_id": "063b581874f0a4ed95d5",
+    "source_sha256": "063b581874f0a4ed95d56f4f8d9bbe8a4958dda53e057ed7da45ef9da6dd9d6c",
+    "start": 81,
+    "end": 100,
+    "original_start": 72,
+    "original_end": 100,
+    "declaration": "abs_J_mul_J_le_gen",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/BPHZ/TreeI3Psi2DiagramMultiChaosOnePot.lean#L81-L100",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/BPHZ/TreeI3Psi2DiagramMultiChaosOnePot.lean#L81-L100"
+  },
+  "native_target_name": "RegularityStructures.abs_J_mul_J_le_gen",
+  "source_declaration_label": "abs_J_mul_J_le_gen",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "dfd782a3ea69785cf9231a3b100e31c4ef30566ead965770eea83063e2b03dc5",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1bc51644ab7a3ede0e0387eabadb2e4d4dc55a627130ab25f3d00535ff2995a7",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Phi43/BPHZ/KernelCalculusBasic.lean",
+      "sha256": "0dbb6b648cf5b2fdb23b2db9e315a92ecf41268cce7d7c4791e95e0b6d415d7a",
+      "bytes": 5097
+    },
+    {
+      "path": "Phi43/BPHZ/KernelCalculusIncrement.lean",
+      "sha256": "c3f74c092bcf1c4799cee1a63bb83d6dc48684ea610ea0586d193e97278669cf",
+      "bytes": 5216
+    },
+    {
+      "path": "Phi43/BPHZ/KernelCalculusRenorm.lean",
+      "sha256": "911b6df34e783961dbd5e1f2e103b985ead7c3e281be2709df4fead74d9ce7ad",
+      "bytes": 6186
+    },
+    {
+      "path": "Phi43/BPHZ/KernelCalculusRenormIntegrals.lean",
+      "sha256": "fa900bff972768db8da83bc61614f70966f86ee95816930f7790d5dc83a8d992",
+      "bytes": 5486
+    },
+    {
+      "path": "Phi43/BPHZ/KernelCalculusRenormPointwise.lean",
+      "sha256": "00f887107a9af3e7400c9e0bac7b52bd7eb8477ae67d9f7756df397b825d2926",
+      "bytes": 7882
+    },
+    {
+      "path": "Phi43/BPHZ/SingularConvolutionLayer.lean",
+      "sha256": "650d84330cf2950adcb3304cdd608ea9e56dc3b9344731d26b5a4f7d98c031dd",
+      "bytes": 11802
+    },
+    {
+      "path": "Phi43/BPHZ/SingularConvolutionWeights.lean",
+      "sha256": "877afaa866f1feac14bf744ec66c698f6992784194d10f9d24387fdf4cf5b1e3",
+      "bytes": 1449
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneAbar.lean",
+      "sha256": "007edea8ec3c216cf695a458093b4f98d3b55d8ebc7195d2734b67f56dba2747",
+      "bytes": 4919
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneBasic.lean",
+      "sha256": "2c73877c1cca7010065b32a446268e9e1764feb6c4ca3640221b0bbf8b088019",
+      "bytes": 4692
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneCross.lean",
+      "sha256": "a98aa596a1e13cb96055fc22fe95dfe996cf1ae98a21128853ce845de3c850dd",
+      "bytes": 12247
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneFubini.lean",
+      "sha256": "3542eb7f72daccfcd5b78e44b0ed025f9909b8c3702a2cfb83e085fa6dc93951",
+      "bytes": 5422
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneIdentity.lean",
+      "sha256": "41f1fb3d67db0000e3e69c74de7833fd4d49f6751b105be7ce985618d4ba2e8e",
+      "bytes": 7526
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneLeaves.lean",
+      "sha256": "b6d186943ba2c7864a26806de6a0901820e475ed8ab81f04c545e4caaff6cd50",
+      "bytes": 4202
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOnePotPair.lean",
+      "sha256": "0f5d9d975e01b85451508d0755af60ad35b9db6f6ebefb41dce32bb2b26a4a7d",
+      "bytes": 5812
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOnePotential.lean",
+      "sha256": "6c0d7c87dc2da0bdd48145c8af20c08b1345e37b939e5982a66cf1a369867621",
+      "bytes": 6036
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2ChaosOneSplit.lean",
+      "sha256": "47a28e273d6a142291d34de443ff255519d8f14d55cb9b2fe93446b834bacb13",
+      "bytes": 5147
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramBasic.lean",
+      "sha256": "ee6f2f813e5761f7df9aeb343fcdbb470f8328f9308c654a99cae93932b8597c",
+      "bytes": 3477
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramDefs.lean",
+      "sha256": "a9673f1ee3dea7bfda780dfb3476a36cfa33f8f0bc576e27493cfd363da4a087",
+      "bytes": 4178
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramLeaves.lean",
+      "sha256": "1d55761e9b343ab25f3d43c98f65149d15fee4bbc12c6a03f562697257a51580",
+      "bytes": 7788
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramLevel.lean",
+      "sha256": "d8ff406271c0c9e3db551d4278f3b22e46e2acd1adf34d1356b85fefc48880e0",
+      "bytes": 2019
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramMultiChaosOnePot.lean",
+      "sha256": "ea1508347b7da633d661f08d4889b444c23e2773fd4d6fcd048b83159d3dde4b",
+      "bytes": 7510
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3Psi2DiagramPointwise.lean",
+      "sha256": "cf99b3bc6a3df6a9dbf2b070b456f914ae09a842ec702952e6a82c5cc8e1861d",
+      "bytes": 3810
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiChain.lean",
+      "sha256": "428f7010f029f562a88be0806dfe79d953e10e9ed23964c09f5481080f01b1d5",
+      "bytes": 2094
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiChainBasic.lean",
+      "sha256": "1cb595c3d0391905512c9be9ca02958fcbb56597d6649ff15ec7e2107d5beaf1",
+      "bytes": 3353
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiChainBound.lean",
+      "sha256": "359d949149cba5fc76fc37975fe2ccfe08f51d92fe6e54b84be005638c8ccb3d",
+      "bytes": 1672
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiDiagram.lean",
+      "sha256": "4c244eb1e347ffe4b48caec1865b3415acee14056aaf310cce927d7049aa7292",
+      "bytes": 2133
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiDiagramSlab.lean",
+      "sha256": "3ad13fc21d5a8272bd64f84e6cfa5c22a7cae498fc8ea829ce5b89eee82f8981",
+      "bytes": 14088
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiDiagramUniform.lean",
+      "sha256": "bc9553584641b6be3557e2bfa44aa0ba777aa2c838a26d2752745eedae9a1416",
+      "bytes": 14019
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiLeaves.lean",
+      "sha256": "215c5cf2049a29392a5a324684b5233f27ea2d15541d7568b322a831959cf21f",
+      "bytes": 4651
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiOuter.lean",
+      "sha256": "410e6ffc699faaeebc3ce32de0969821767f08737aed6229307208e0c30a8b9b",
+      "bytes": 4630
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiPointwise.lean",
+      "sha256": "c9ed4826419f4ca19d48c71dafb88f4b3c5ae61b93af7976425d855dc28515d2",
+      "bytes": 4546
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiPowers.lean",
+      "sha256": "506672cf8aa8aa1823e8df8df877e3090f757e2c87b17984cf733af79574d1a2",
+      "bytes": 10453
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiPrincipal.lean",
+      "sha256": "fb4be8ef0adc65dee30a0bd6ab0510b0bb964bcf4b9d87c71b5b8eac08aabd69",
+      "bytes": 2067
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiPrincipalBound.lean",
+      "sha256": "8f905bd3089f0816945c41a92eeef63723a041837e3a6ec3708d80d149e53836",
+      "bytes": 1415
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiSigma.lean",
+      "sha256": "8c0e6fc588ea5644253c7c3abc856179d8d390dab12721f28a4b9c40fbd389f1",
+      "bytes": 3561
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiSlab.lean",
+      "sha256": "d17e6a4f4742901a8371b7cadef8f0cd8a79a4626334fceaec2a4a261311b055",
+      "bytes": 3948
+    },
+    {
+      "path": "Phi43/BPHZ/TreeI3PsiTwoLevel.lean",
+      "sha256": "0bd0251b620e69c89846249c182935a0b18a15567de7e3ec03e6a0b0b7e95aca",
+      "bytes": 2443
+    },
+    {
+      "path": "Phi43/ClassicalSolution/Periodise.lean",
+      "sha256": "3598ac4f6f65675c9d4fa26ee763f9834f8fcbce6452424a1bb07c85f39c7d77",
+      "bytes": 3152
+    },
+    {
+      "path": "Phi43/ClassicalSolution/PeriodiseRegularity.lean",
+      "sha256": "0bc866e4685fa9ebffc637d65da9300ea02933ec3f03a9dddece4ce6e9b3da25",
+      "bytes": 10346
+    },
+    {
+      "path": "Phi43/Constants.lean",
+      "sha256": "cf6f059eacb1d28427fa4a39e0716616768c55668ea842031d61b8c41ff1c10c",
+      "bytes": 1502
+    },
+    {
+      "path": "Phi43/Constants/Finite.lean",
+      "sha256": "12177df97bcddc9a161c879ac143dd71db6533cfffc3fea492d5d2bf461a8a7a",
+      "bytes": 14504
+    },
+    {
+      "path": "Phi43/Mollifier.lean",
+      "sha256": "fdd3bcdb684ee374a482f5c8b21f88a5a9ef754d3055c01caeffab411fc1de22",
+      "bytes": 2289
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsConvolution.lean",
+      "sha256": "0abae1bb1ac6cbf827ae85c0fe3fecc3c2caa54be357ed5e9f4c0ee807507b21",
+      "bytes": 1896
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsCovariance.lean",
+      "sha256": "93eb821082faf285ac1bf2bada28ed8ecfcc0659b30e1d6e186ffa39cf016534",
+      "bytes": 7679
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsL1.lean",
+      "sha256": "b019f2c4158b53ebd8c456bf0d16340909e8ca18f4ed6950a44fa0c36b36b952",
+      "bytes": 2517
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsMollified.lean",
+      "sha256": "cf9cb4807049380fcdd47f33da02a39e48b1514546a4e6533b1fd1f6c01a5805",
+      "bytes": 14321
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsMollifier.lean",
+      "sha256": "fc53d1a61f8542cf5689fcb3efd6fcc9799494e1b1e2933c683c0527f4a7ebad",
+      "bytes": 10270
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsPeriodiseL1.lean",
+      "sha256": "85e53067c5413a93adb26c5902dd1c94bd609ccdb7b8b1cb22f9d91d326ad04f",
+      "bytes": 6745
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsSupport.lean",
+      "sha256": "2157724f93d97165c847bbd57fe0eb039d17102677b9b2ca979b450de59e37df",
+      "bytes": 4484
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "3df36918fe8656f84a375185af90286b17494c9036a154ab48d425524442d490",
+      "bytes": 3478
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunction.lean",
+      "sha256": "34bea470cabb919051806391b7b0e578450b3185d9d9a394c58915acc79526a9",
+      "bytes": 8655
+    },
+    {
+      "path": "RegularityStructures/BPHZ/TreeI3Psi2DiagramYoung.lean",
+      "sha256": "7e8a3c0e612936ee55917104585dafd4b9af1e6758ab14a8afc53060a3aca6fe",
+      "bytes": 1926
+    },
+    {
+      "path": "RegularityStructures/Probability/SpaceTimeMeasure.lean",
+      "sha256": "9d38cf38a053e3909660056ed589df0541d4be3b134c5bd2d185b19b7f4b544e",
+      "bytes": 2747
+    },
+    {
+      "path": "RegularityStructures/Probability/WhiteNoise.lean",
+      "sha256": "faed891d02b4807cfea6200c9da610ae1d16531cdaa1c7565e3bc734838cf97a",
+      "bytes": 1968
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "e3365f4095d48415155226f8e810fdd6148281b4c878841b3ed40a0789328db8",
+      "bytes": 1786
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernel.lean",
+      "sha256": "754d9d02eee13bdfea0e7cd923fca0dade943026d791fd1502cac80d64e6cbfa",
+      "bytes": 6482
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelFacts.lean",
+      "sha256": "ce68c011e1a430579ad6a55d45cb86a1823ac1896df4cf83d6580a875a7cfdd5",
+      "bytes": 4662
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelIntegrability.lean",
+      "sha256": "2e80393be0949c70e7f14e81eb0c6e52bbf7431cf5c11d04eacd2ea01c935eaf",
+      "bytes": 4775
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelIntegral.lean",
+      "sha256": "4760851f4ace80a37c1e5c34d075879f945d8eed4ba05eb5c9095347466a3c88",
+      "bytes": 9927
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelRegularity.lean",
+      "sha256": "433bd0c43920f6c2c2553ae3a3f2f3ee3b7349b3583f1722f1132989ce92694b",
+      "bytes": 10999
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsBasic.lean",
+      "sha256": "cf2443715063f6f3cf18cee79f37a847ca0e30d521452c5d2f23a1858840b53e",
+      "bytes": 2717
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGaussian.lean",
+      "sha256": "e61e998574aa1fcb30a5a7d134a530f1a3c5b78eb87560dafe74f747bc222975",
+      "bytes": 18255
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGeometry.lean",
+      "sha256": "10d920028323ef02b102804c551452eba86827a16705ef84e12f06dd698ae285",
+      "bytes": 11529
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGlobal.lean",
+      "sha256": "37687f07b793ac90fc9d24feb2932feecaa4d2ef548078baa4c5801b14551fb5",
+      "bytes": 5980
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsLargeTime.lean",
+      "sha256": "cf6ad8478caaa48776244ccadfdfba07152edb29c830d7c4813e4efc6b77cab8",
+      "bytes": 11681
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Phi43/BPHZ/TreeI3Psi2DiagramMultiChaosOnePot.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/f42a62991528724c400e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

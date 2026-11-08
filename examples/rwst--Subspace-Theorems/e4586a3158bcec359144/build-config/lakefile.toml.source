@@ -1,0 +1,185 @@
+"name" = "SubspaceTheorems"
+"testDriver" = "test"
+"defaultTargets" = ["ArithmeticHeights", "DiophantineApproximation", "QuantitativeSubspace", "STForMathlib", "CorvajaZannier2004", "AdamczewskiBugeaud2007", "Evertse1984", "NairKumarRout2025", "Bugeaud2013", "BugeaudEvertse2008", "Schlickewei1990", "CorvajaZannier2004Thue", "FaltingsWustholz1994", "Stephan2026a"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "autoImplicit" = false, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "ArithmeticHeights"
+"globs" = ["ArithmeticHeights.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "DiophantineApproximation"
+"globs" = ["DiophantineApproximation.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "QuantitativeSubspace"
+"globs" = ["QuantitativeSubspace.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "STForMathlib"
+"globs" = ["STForMathlib.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "CorvajaZannier2004"
+"globs" = ["CorvajaZannier2004.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "AdamczewskiBugeaud2007"
+"globs" = ["AdamczewskiBugeaud2007.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Evertse1984"
+"globs" = ["Evertse1984.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "NairKumarRout2025"
+"globs" = ["NairKumarRout2025.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Bugeaud2013"
+"globs" = ["Bugeaud2013.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "BugeaudEvertse2008"
+"globs" = ["BugeaudEvertse2008.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Schlickewei1990"
+"globs" = ["Schlickewei1990.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "CorvajaZannier2004Thue"
+"globs" = ["CorvajaZannier2004Thue.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "FaltingsWustholz1994"
+"globs" = ["FaltingsWustholz1994.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Stephan2026a"
+"globs" = ["Stephan2026a.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Challenge"
+"globs" = ["Challenge.*"]
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeFlat"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeCorvajaZannier2004"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "SolutionCorvajaZannier2004"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeAdamczewskiBugeaud2007"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "SolutionAdamczewskiBugeaud2007"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeEvertse1984"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "SolutionEvertse1984"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeQuantitativeSubspace"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "SolutionQuantitativeSubspace"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "ChallengeStephan2026a"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_lib"]]
+"name" = "SolutionStephan2026a"
+"srcDir" = "."
+"moreLeanArgs" = ["-Dlinter.deprecated=false"]
+
+[["lean_exe"]]
+"name" = "axioms"
+"root" = "scripts.Axioms"
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "«module-system»"
+"root" = "scripts.ModuleSystem"
+"srcDir" = "."

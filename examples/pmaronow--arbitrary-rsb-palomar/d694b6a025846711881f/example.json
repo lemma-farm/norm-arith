@@ -1,0 +1,96 @@
+{
+  "id": "d694b6a025846711881f",
+  "source": {
+    "repository": "pmaronow/arbitrary-rsb-palomar",
+    "commit": "5162e2d15b440ce46fd322f20eb429468d601948",
+    "project": "pmaronow--arbitrary-rsb-palomar--5162e2d15b44",
+    "path": "DepthPaper/StationaryJetComparison.lean",
+    "file_id": "05ad556cb35bfbcc5642",
+    "source_sha256": "05ad556cb35bfbcc5642adcbcbd8399dbefd4071f395c8d5a54bd29f90f796b8",
+    "start": 59,
+    "end": 84,
+    "original_start": 42,
+    "original_end": 84,
+    "declaration": "stationary_first_comparison",
+    "source_url": "https://github.com/pmaronow/arbitrary-rsb-palomar/blob/5162e2d15b440ce46fd322f20eb429468d601948/DepthPaper/StationaryJetComparison.lean#L59-L84",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--arbitrary-rsb-palomar--0236bf82e169/blob/5162e2d15b440ce46fd322f20eb429468d601948/DepthPaper/StationaryJetComparison.lean#L59-L84"
+  },
+  "native_target_name": "DepthPaper.stationary_first_comparison",
+  "source_declaration_label": "stationary_first_comparison",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "99f689eaec0087ae87f3bf9427c55538d6a4195941d84c4a0df53e12bdaff9de",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b32d3756556a81ef66688b7eaf07524e7cde2b45c552c04a2e2ad21e9c7c5a7c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DepthPaper/ConvexCoerciveCalculus.lean",
+      "sha256": "45b64706a2ec1e8afb7ec5222128a276c4be54ddea433ada03d2d2b2f10c8990",
+      "bytes": 6654
+    },
+    {
+      "path": "DepthPaper/ConvexStationaryBall.lean",
+      "sha256": "b75cf2c347d91d61e773ccddb044285a565903a28fd1b2d185dc2884195f15fc",
+      "bytes": 9268
+    },
+    {
+      "path": "DepthPaper/ImplicitStationaryJets.lean",
+      "sha256": "867d4c4803b0acbb94eff6872757d1a3d49bd44c6ff8e3499c1e750a7ed0f1fd",
+      "bytes": 11031
+    },
+    {
+      "path": "DepthPaper/PointwiseDerivativeBounds.lean",
+      "sha256": "a4e100be0eb907f33e370b17379dcf49ed5abf6b7f10692c45fb1d170ef689c8",
+      "bytes": 3995
+    },
+    {
+      "path": "DepthPaper/StationaryJetComparison.lean",
+      "sha256": "94322f965761bafa53a96e5e18f769ead7daaed1e21dc920c77c4d8f34395795",
+      "bytes": 8997
+    },
+    {
+      "path": "FourPapersCommon/PositiveHessianEquivalence.lean",
+      "sha256": "f714438612d241aa616d3e2fb648f54b8757b482e7a489a9084e34166e3404fc",
+      "bytes": 1985
+    },
+    {
+      "path": "FourPapersCommon/StationarySelector.lean",
+      "sha256": "481550ba3ffa19fe6ef1955d8dae5bb049a06750831fca3eaa438ce15c4b3448",
+      "bytes": 1610
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "7726e677630637264a41beb5b35da91dec137178538285f767070c877943db61",
+      "bytes": 2105,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "DepthPaper/StationaryJetComparison.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/d694b6a025846711881f": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/arbitrary-rsb-palomar",
+    "source_commit": "5162e2d15b440ce46fd322f20eb429468d601948"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "99285748ae1eddfa9158",
+  "source": {
+    "repository": "scottnarmstrong/CIVAxisymmetric",
+    "commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681",
+    "project": "scottnarmstrong--CIVAxisymmetric--9f539dc7bf7d",
+    "path": "CIV/Identities/AxisQuotients.lean",
+    "file_id": "0024a0061fc2c8f801c2",
+    "source_sha256": "0024a0061fc2c8f801c2657fd0e037bfbce12c3fbba468c1aca24b350372fc91",
+    "start": 209,
+    "end": 226,
+    "original_start": 203,
+    "original_end": 226,
+    "declaration": "abs_spatialPartial_two_zero_div_le_of_segment_bound",
+    "source_url": "https://github.com/scottnarmstrong/CIVAxisymmetric/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Identities/AxisQuotients.lean#L209-L226",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CIVAxisymmetric--a71f9ac656b8/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Identities/AxisQuotients.lean#L209-L226"
+  },
+  "native_target_name": "CIV.abs_spatialPartial_two_zero_div_le_of_segment_bound",
+  "source_declaration_label": "abs_spatialPartial_two_zero_div_le_of_segment_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "fffe4124ede2676a5312168d1213b50dc4da0de862a11859d4e52ffb1e699df2",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "cc0bf2f7655247e7baf29c56cf1c2f61a716e894f921fe108cc3dfad939aac5f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CIV/Analysis/SegmentQuotient.lean",
+      "sha256": "ff7c8c73e43059b74bbbd9bcd95f03f79f0aee437d3df8c369636ca0d243e97d",
+      "bytes": 3730
+    },
+    {
+      "path": "CIV/Identities/AxisQuotients.lean",
+      "sha256": "9c0ebe9180e81396f01d007d5682b2c6959e5d5f341138b4df862d09ccd47804",
+      "bytes": 25295
+    },
+    {
+      "path": "CIV/Identities/Axisymmetric.lean",
+      "sha256": "2d64849194deb03f008db8b3c97c4076f749c400da255f8551e711566855bebb",
+      "bytes": 22446
+    },
+    {
+      "path": "CIV/Identities/MeridionalSlices.lean",
+      "sha256": "24f8fb799ae308cf6556cfc2c0b29a351a5570e1a7cad209c3344ad36fdb2467",
+      "bytes": 4196
+    },
+    {
+      "path": "CIV/Identities/RadialQuotientContinuous.lean",
+      "sha256": "4c947efcf156f75213ba741b239882fa6039b8572a74328fe19f4d5a948cd9de",
+      "bytes": 11110
+    },
+    {
+      "path": "CIV/Setting/AngularMeanSmooth.lean",
+      "sha256": "0e4be2c5476463a2b16267758420e62a01b30fcd2583c38d0f38ba92f96d6721",
+      "bytes": 16058
+    },
+    {
+      "path": "CIV/Setting/Cylinder.lean",
+      "sha256": "849baf8628471d0e2189248d2f9df32dfdd3c642fe0bd53c7a340a85b24e37da",
+      "bytes": 418
+    },
+    {
+      "path": "CIV/Setting/Rotation.lean",
+      "sha256": "2604fa66770657543290f7827bb256a99617343214f0e0376d4bd03f8e9e2ecc",
+      "bytes": 678
+    },
+    {
+      "path": "CIV/Setting/RotationLemmas.lean",
+      "sha256": "a8ad5cdde56defcb8f247b43772cf18d2f2845e7439d0f12ea957effe613f7c1",
+      "bytes": 13806
+    },
+    {
+      "path": "CIV/Statements/AngularMean.lean",
+      "sha256": "cbbf1ce3315c33a6887a7db3cf0e4c7338f4eb46a4c43644d73999c8f30c8d4b",
+      "bytes": 647
+    },
+    {
+      "path": "CIV/Statements/AngularMeanScalar.lean",
+      "sha256": "ad7a2f58774bc6aa4f8274b8628dcf2b59d897bc91f650172d457f6b0e04cf34",
+      "bytes": 616
+    },
+    {
+      "path": "CIV/Statements/AnisotropicBounds.lean",
+      "sha256": "df200cb8e7bd670d45e17d4d06ac24e13af0c136641847ba86e95a685161aea0",
+      "bytes": 1202
+    },
+    {
+      "path": "CIV/Statements/IsAxisymmetricOn.lean",
+      "sha256": "a8d4fc1ea00527495f80a1216862ddeeef1194e6a88f4b0e180d683ea244e373",
+      "bytes": 535
+    },
+    {
+      "path": "CIV/Statements/Meridional.lean",
+      "sha256": "ad1136b149df1981eedee4d440f414970aa28f2006df54c893361a5ec3cb8ce5",
+      "bytes": 415
+    },
+    {
+      "path": "CIV/Statements/MeridionalPartial.lean",
+      "sha256": "4e78f7418ac8ff1f31521c56a6212af8edb9545d2f9d284dc8c4bc64dcefc07a",
+      "bytes": 623
+    },
+    {
+      "path": "CIV/Statements/MeridionalQuantity.lean",
+      "sha256": "cbb5d06f1a1377c3254a3f05cca37dfecc5aa14c010f37144706bfc789f87281",
+      "bytes": 652
+    },
+    {
+      "path": "CIV/Statements/MeridionalSmallness.lean",
+      "sha256": "d9c5f49952c83832bfe56f8cfd246fd9d3f239c80dc3448a49185494428e8191",
+      "bytes": 689
+    },
+    {
+      "path": "CIV/Statements/RadialQuotient.lean",
+      "sha256": "b6141d14169c5535fcfc331412b56be6bdd48908b3b298315db29043e7e53b43",
+      "bytes": 799
+    },
+    {
+      "path": "CIV/Statements/RotField.lean",
+      "sha256": "458c4f13c5ea615f8818cf4963d6a5805282faf4d60046643d01f217b8024fb5",
+      "bytes": 487
+    },
+    {
+      "path": "CIV/Statements/RotZ.lean",
+      "sha256": "d48e2f2fcf64ee23f799171d23a84f2ed2619dc8788741e8c110efeb9d12067b",
+      "bytes": 548
+    },
+    {
+      "path": "CIV/Statements/UnitCylinder.lean",
+      "sha256": "6d2acde0617b5dfd3f4d5a4f4d733ea35d10fea3a07521a9847734e87b6d77bc",
+      "bytes": 533
+    },
+    {
+      "path": "CIV/Zoom/AnisotropicConsequences.lean",
+      "sha256": "e7460a31d5fce9174dd1de0dc14baa6e61cf8090e49878447c0a206354bb7615",
+      "bytes": 3605
+    },
+    {
+      "path": "CIV/Zoom/MeridionalSmallnessLemmas.lean",
+      "sha256": "a64cbaea2a8447bc9ac3cebb5a8ba941ee6d25e3d81f49df4c7c8a9b09255ae7",
+      "bytes": 9680
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "180a462d5507cb073b61173143e3020f1eb4fad1425a1b5916ef035d1dd8b2e5",
+      "bytes": 14112
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "76c3fb6afa2011fff41caeaac2a88e92770bc4d7ee74d720ee95d0d5e4f5e725",
+      "bytes": 9681
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "17ab9a95a19f2e302ada3dcb5f47b3a912157be756274830242d1e9c5c5763d9",
+      "bytes": 548
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "be01bd1709b06212377cd33aae1f04749033b75cc49478ff3e1be0fe9a34511f",
+      "bytes": 1044
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "a9dd13a9cd26f24411c6bb4b6d99c6ea4c31fa434fa035f96e7c4fdf8b9c4637",
+      "bytes": 413
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpatialPartial.lean",
+      "sha256": "4415eec0afbca2ec2cee4b384afde684a5542cfb9d506d55994f6ad02108847b",
+      "bytes": 638
+    },
+    {
+      "path": "__deps/CKN-b5e25360/CKN/Statements/SpatialSecondPartial.lean",
+      "sha256": "98d0a1cc5cff494dad9e0c9edf561b20d4ee536bcea1491b147618e3f9e279d0",
+      "bytes": 512
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "3100aba6d1808ca5410adf545f9346f52b60312d5f665f781b0f6fe9fcf0c3b9",
+      "bytes": 2734,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1b5136f3d4a2f8dc93ce12e750ce19823977e907fa4cd178d05e6436c079f39a",
+      "bytes": 758,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CKN-b5e25360/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lakefile.toml",
+      "sha256": "15438f825490ead1cc045bfa563b3ef8ce609cd2a30b7e8ad74e5aeb7e2502bb",
+      "bytes": 774,
+      "snapshot": "__deps/CKN-b5e25360/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CKN-b5e25360/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CKN-b5e25360/lean-toolchain.source"
+    }
+  ],
+  "build_target": "CIV/Identities/AxisQuotients.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/99285748ae1eddfa9158": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CIVAxisymmetric",
+    "source_commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681"
+  }
+}

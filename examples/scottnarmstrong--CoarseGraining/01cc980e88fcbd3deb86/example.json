@@ -1,0 +1,83 @@
+{
+  "id": "01cc980e88fcbd3deb86",
+  "source": {
+    "repository": "scottnarmstrong/CoarseGraining",
+    "commit": "28ca42c02fd286c8f63a45be3344f6f82d026db3",
+    "project": "scottnarmstrong--CoarseGraining--28ca42c02fd2",
+    "path": "Homogenization/Probability/IndependentSums/GammaSigma/Operations.lean",
+    "file_id": "05074ddaf3d45ea8e221",
+    "source_sha256": "05074ddaf3d45ea8e2212bec49e9e3125a8d30467751846d02de3f9a7caa4414",
+    "start": 92,
+    "end": 138,
+    "original_start": 82,
+    "original_end": 138,
+    "declaration": "hasGammaMomentGrowthWith_finsetAverage",
+    "source_url": "https://github.com/scottnarmstrong/CoarseGraining/blob/28ca42c02fd286c8f63a45be3344f6f82d026db3/Homogenization/Probability/IndependentSums/GammaSigma/Operations.lean#L92-L138",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CoarseGraining--c278d2cd6998/blob/28ca42c02fd286c8f63a45be3344f6f82d026db3/Homogenization/Probability/IndependentSums/GammaSigma/Operations.lean#L92-L138"
+  },
+  "native_target_name": "Homogenization.IndependentSums.hasGammaMomentGrowthWith_finsetAverage",
+  "source_declaration_label": "hasGammaMomentGrowthWith_finsetAverage",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "918bebe9e8a0aee8154b3fe1981918db4ae05a943e47747d21a20037da38961b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2d8bbfabf8fc62ce5b8bdd2499acf8a452cbabd483a5667cee985f37b34d1a26",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Homogenization/Probability/IndependentSums/GammaSigma/Basic.lean",
+      "sha256": "983e7b03af64284444c646a9250d83a6783391b9ac9919298c9f023f8151c293",
+      "bytes": 37299
+    },
+    {
+      "path": "Homogenization/Probability/IndependentSums/GammaSigma/Operations.lean",
+      "sha256": "788ce7cb05587cb707fc83211b715f2188ce43a9d114bbd6f332343700da68f0",
+      "bytes": 24505
+    },
+    {
+      "path": "Homogenization/Probability/IndependentSums/PsiCalculus.lean",
+      "sha256": "ff68597c9248e5d9d5601c57420af7d3fceebd5c330e7a06465768e8f7134a6d",
+      "bytes": 34704
+    },
+    {
+      "path": "Homogenization/Probability/IndependentSums/Triangle.lean",
+      "sha256": "03fc2db27fa4ba15eee6d11c342688cc59229f4a9dae447ae7f8537d324bd3d7",
+      "bytes": 41899
+    },
+    {
+      "path": "Homogenization/Probability/IndependentSums/WeakOrlicz.lean",
+      "sha256": "b3092cff70b8e697afa0e13376afede9baf6e630e1843a855841460f71200b59",
+      "bytes": 10415
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f25aa474fc75be0ba8efddf24d01e81f69c6ecd1289752da54ac5c063b2aa13f",
+      "bytes": 781,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Homogenization/Probability/IndependentSums/GammaSigma/Operations.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CoarseGraining",
+    "source_commit": "28ca42c02fd286c8f63a45be3344f6f82d026db3"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "42b535d395ac231d18d1",
+  "source": {
+    "repository": "CoolRmal/FavardLength",
+    "commit": "65f19d4c36d4e576417da893f54cf351aef9d672",
+    "project": "CoolRmal--FavardLength--65f19d4c36d4",
+    "path": "FavardLength/BasicProof/ProjLength.lean",
+    "file_id": "024e85e6bc8ce39c015f",
+    "source_sha256": "024e85e6bc8ce39c015f32039104992d8d5aa27a3ee23118fb70a53a24fe1258",
+    "start": 50,
+    "end": 53,
+    "original_start": 34,
+    "original_end": 72,
+    "declaration": "abs_cos_add_abs_sin_le_sqrt_two",
+    "source_url": "https://github.com/CoolRmal/FavardLength/blob/65f19d4c36d4e576417da893f54cf351aef9d672/FavardLength/BasicProof/ProjLength.lean#L50-L53",
+    "archive_url": "https://github.com/PalomarArchive/CoolRmal--FavardLength--e8794c618c42/blob/65f19d4c36d4e576417da893f54cf351aef9d672/FavardLength/BasicProof/ProjLength.lean#L50-L53"
+  },
+  "native_target_name": "Favard.BasicProof.abs_cos_add_abs_sin_le_sqrt_two",
+  "source_declaration_label": "abs_cos_add_abs_sin_le_sqrt_two",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "c1cbc4b768b005067a997a53cfa51056ee1e41daf9854194b329084211fee18f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "23f7a4b171a053b12015629e20c323bb138357e136bb1854360e4a496515320b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FavardLength/BasicProof/Cantor.lean",
+      "sha256": "b2123b157ef6d70791de238a01b9745e61b64d752bc2304a6830787d611ed42e",
+      "bytes": 8456
+    },
+    {
+      "path": "FavardLength/BasicProof/ProjLength.lean",
+      "sha256": "3838489e59fdaa52fc38f7c22b6f1b77d8be8b2a6a293add86a092eeddaf96fe",
+      "bytes": 5887
+    },
+    {
+      "path": "FavardLength/Defs.lean",
+      "sha256": "8b5071d5f15967864986747c6e142d76c15afad70275adee313fb04d5d58822d",
+      "bytes": 2086
+    },
+    {
+      "path": "FavardLength/Squares.lean",
+      "sha256": "fcba71e4e3fb2816d6356b8cf4841e337f0f37a385ebf7e0d28f61c03a3740f1",
+      "bytes": 1773
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "1cad057f1dece3f19b34994da96e66d64bca43b330292382ebba60730424f385",
+      "bytes": 554,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "FavardLength/BasicProof/ProjLength.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/42b535d395ac231d18d1": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/CoolRmal/FavardLength",
+    "source_commit": "65f19d4c36d4e576417da893f54cf351aef9d672"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "f92d61068ee0ece1bd8c",
+  "source": {
+    "repository": "vidick/MIPRE-formalization",
+    "commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6",
+    "project": "vidick--MIPRE-formalization--7798a80300e1",
+    "path": "MIPRE/Foundations/OpCalculus.lean",
+    "file_id": "098507a1b5d8f90e1d13",
+    "source_sha256": "098507a1b5d8f90e1d13950fd528e0da75427de06f715e288bbb772e61097ec6",
+    "start": 162,
+    "end": 167,
+    "original_start": 155,
+    "original_end": 167,
+    "declaration": "qform_mono",
+    "source_url": "https://github.com/vidick/MIPRE-formalization/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Foundations/OpCalculus.lean#L162-L167",
+    "archive_url": "https://github.com/PalomarArchive/vidick--MIPRE-formalization--0d44c812c686/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Foundations/OpCalculus.lean#L162-L167"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "qform_mono",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "f2ad190a3f12b734919b2978962ef8b52073265704b21714a832e4d621b0f2e0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "5ca3ed732d722cb32e9cd31fa180668c27c59b6961d346f329cae8d1172b6c8d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MIPRE/Foundations/OpCalculus.lean",
+      "sha256": "b5a328b11ce2395fff46b5b82230aeb610264c78c86202e8f3cc310baad41eb1",
+      "bytes": 8815
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "faa7307263d1595b2ea26330abecf036d9dc011c5f5f27083418db52fcd7d85c",
+      "bytes": 466,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "MIPRE/Foundations/OpCalculus.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vidick/MIPRE-formalization",
+    "source_commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6"
+  }
+}

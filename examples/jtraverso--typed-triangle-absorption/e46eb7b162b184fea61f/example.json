@@ -1,0 +1,2273 @@
+{
+  "id": "e46eb7b162b184fea61f",
+  "source": {
+    "repository": "jtraverso/typed-triangle-absorption",
+    "commit": "673c6d4118b5679783bafa7606fd2c611161a254",
+    "project": "jtraverso--typed-triangle-absorption--673c6d4118b5",
+    "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/InverseKQ4.lean",
+    "file_id": "03f297dcf9ed71d55247",
+    "source_sha256": "03f297dcf9ed71d552477704a915e070742053c36e94a79e33e2bbb2a73f330b",
+    "start": 385,
+    "end": 408,
+    "original_start": 375,
+    "original_end": 408,
+    "declaration": "ternaryInverse₈_KQ4",
+    "source_url": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/PartitionedTriangleAbsorption/BlowupB/Kappa/InverseKQ4.lean#L385-L408",
+    "archive_url": "https://github.com/PalomarArchive/jtraverso--typed-triangle-absorption--055c1b37404f/blob/673c6d4118b5679783bafa7606fd2c611161a254/PartitionedTriangleAbsorption/BlowupB/Kappa/InverseKQ4.lean#L385-L408"
+  },
+  "native_target_name": "PaddedComponents.ternaryInverse₈_KQ4",
+  "source_declaration_label": "ternaryInverse₈_KQ4",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "bacee6807bb048f02790d51c525c328caaa15c0e10083c344c34220baa70b1d5",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "5ca05c22466d4ba5480255119718a992e1b7e6c7627cc861feee4e076d8f413d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "PartitionedTriangleAbsorption.lean",
+      "sha256": "1b655dd170c48c96bebc7e4c03e219f717a31fab7f6bfaba1a026e2a225b7c42",
+      "bytes": 246
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/AntiEdgeFamily.lean",
+      "sha256": "30356e5f08248129cfb0b23a39297114b67c5f7b8cc1b4ef0bf050f72e251438",
+      "bytes": 10937
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/AntiEdgeSelection.lean",
+      "sha256": "b71e432c435f5c37fb245900ea5abde6b8cfa3991b9705018a80016a1a7a400e",
+      "bytes": 7311
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BernoulliBlocks.lean",
+      "sha256": "f2b4ea4267c68d65012863f90f2dbe082b040a5a9b60f354006b5ac8e31b9355",
+      "bytes": 7458
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BernoulliConcentration.lean",
+      "sha256": "d3c020aa48bdff792e7ca1fdbb5d17f03aef2f10dfd6cd92c0dd32ec2849cb76",
+      "bytes": 14135
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BernoulliExposure.lean",
+      "sha256": "bc3c35d5e0c9319087d38581e068d1368665a2f57e92141ae2049ec432a9dd08",
+      "bytes": 4943
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/AbsorberHook.lean",
+      "sha256": "ed6cb198f77594d61604be7038dd8215c3846859faff90d7d9a06282cfee0921",
+      "bytes": 6821
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/CompleteBlowup.lean",
+      "sha256": "a64fe6634880142758ec5291ec3fbacdfa39fe6ce9de28eafcd88f8726a2f259",
+      "bytes": 13818
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Cost.lean",
+      "sha256": "e3d4085a197a706d30972b434ab50bc669921819d4e22be43847d986874a1042",
+      "bytes": 10693
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/CubeBlocks.lean",
+      "sha256": "2188271f2daecdeb602de6b7c1ef67cbd8d3fddf033e6641446e181ca5c40cbe",
+      "bytes": 5469
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Darts.lean",
+      "sha256": "d01b007bb308ecd935a150a59df1aae9c58b9e28df99e940ace1af8b716f62b9",
+      "bytes": 10521
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Defs.lean",
+      "sha256": "f3572ede650174a531c9f3e7ce1201c97fee795ccbe1d36b92155d565b8d053f",
+      "bytes": 8170
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Deletions.lean",
+      "sha256": "31a6ba249e736189aa1967ec36114a67c721f64bb9a2a739bd989f1b1aa4ae42",
+      "bytes": 12394
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Families.lean",
+      "sha256": "e8effaa1533722b598fd41f24eef8de8d6105bd93282dfc30cbccf84eb875645",
+      "bytes": 3058
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Family001.lean",
+      "sha256": "5b68e6d7bbb340d1a007d0cd450d391c241ba204e8ebbb40616b1d82975801d3",
+      "bytes": 13339
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/GreedyEmbed.lean",
+      "sha256": "86b5572877e27360d5fd66cd624a7c72de4fb2445204dabe6640faab3974df8d",
+      "bytes": 5854
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/IntVec.lean",
+      "sha256": "a86737cb40e57ccc12626ff9f189e822e5188215651799ae908f6024a1fbdfe0",
+      "bytes": 13632
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/Collapse.lean",
+      "sha256": "71bdde8c64b4e440c5eb36362379ae68b83659b13f1cde14960a491535cfd3bd",
+      "bytes": 4685
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ComponentCharge.lean",
+      "sha256": "091223ca848398c1c4e423916c8eba6e95511fe21d1261b112252f98c11738c5",
+      "bytes": 34288
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ComponentChargeTorsion.lean",
+      "sha256": "9a60476b8140948fdf6af757ec645e1897f736ebcc76b2d4fa2f9dd781936d3a",
+      "bytes": 45799
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ComponentChargeU12.lean",
+      "sha256": "1c85ee052eec179addba24fa6bc837c9a1f27bda273437467853aa4f437e3f93",
+      "bytes": 28666
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ComponentChargeU6.lean",
+      "sha256": "2376369ccf2b6cc5b231d7a29ca09d85b52216e1a35880d1f737da1331c53d0b",
+      "bytes": 28633
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ComponentTorsion.lean",
+      "sha256": "6f149b3e827626f1ddc935a47adf83ced53502ddbbbac226f4d36a157a824d34",
+      "bytes": 34701
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/Components.lean",
+      "sha256": "679647030b18c22f3d9195d99f5719816225bd815075f76a3b33f0a32a927bb4",
+      "bytes": 18523
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/ExplicitHub.lean",
+      "sha256": "a25cfaaa35fca52ca3996fb41ab365430310287bb42eb031eac52356b6e07c0c",
+      "bytes": 5705
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/G3Families.lean",
+      "sha256": "dc2f3962257d78507ca89494459d301b698b9a281f8310d6acb1825d29d5b3cf",
+      "bytes": 217719
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/Hub.lean",
+      "sha256": "6dc7e2805585a8b570e3986fc22f5e267265cd7b54c9782990919b54f446682c",
+      "bytes": 4467
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/InverseKQ4.lean",
+      "sha256": "03f297dcf9ed71d552477704a915e070742053c36e94a79e33e2bbb2a73f330b",
+      "bytes": 25152
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/Links.lean",
+      "sha256": "55deaf425c8d7ca945de49290ed5b3c17096538542ec2aa2e25c2a8e3e9bab6c",
+      "bytes": 3682
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Kappa/Terminal.lean",
+      "sha256": "58ff216cab4fa835b98489710296b877676bb155591c3c83aa615da848bf8697",
+      "bytes": 9211
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashBridge.lean",
+      "sha256": "6b14b3cd6e074624669caf54a54756a46ce8067cc568f26f65e12db05197aacd",
+      "bytes": 16653
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashPadded.lean",
+      "sha256": "38b7cfb033342bb89a20c42b158d0d0b59c79451422c0bdda53972029f4b858b",
+      "bytes": 13272
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashPaddedBridge.lean",
+      "sha256": "51c0092f68b0f310b84f5a7d489b80250bba6ae7db36bab191f52bca76bcd86e",
+      "bytes": 11452
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashPaddedMain.lean",
+      "sha256": "1c0dd44af03e5da3c3467b122a1b2177759ba2de4cdc6a6cb82e746b367d8d7c",
+      "bytes": 14898
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashPerm.lean",
+      "sha256": "d3549cdcf26b60daad49c592b481c0180a9b4c12eed9a69a293fc9f2cbd38b97",
+      "bytes": 11594
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/KeevashReserve.lean",
+      "sha256": "3ad970e5e9e0c24e01af02d01beba182178b7564bd00e0ad4358dc685c621719",
+      "bytes": 18086
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/LinearAbsorber.lean",
+      "sha256": "001f6667ff77138fbaa00ca8e9e90f9703f6dae86da5d9d9bb60db0013e82414",
+      "bytes": 26621
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/LinearExtras.lean",
+      "sha256": "73bbb0d8791b65eecee4b15ad918d6491912c4b5231d481b6441465373de0ea4",
+      "bytes": 3304
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/LinearTrails.lean",
+      "sha256": "ca9495a6a0feb420a8ebb256e6393bcbdfb447426f6652d20c2399b6d0edf098",
+      "bytes": 19516
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Local.lean",
+      "sha256": "d8edb97980a998c5397edadccf7e6a757b199b8d99b7039e8940342f6e91d951",
+      "bytes": 23137
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Nearly.lean",
+      "sha256": "2f483995ed454690faa27f24c69412af76fbe736eb40746591eaaa83044867e7",
+      "bytes": 9215
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/OddAbsorber.lean",
+      "sha256": "d8020cc9af131d1486b85bfc9a0569dbc8e59c3a07e27330253c3881e0e9effb",
+      "bytes": 1595
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/OddBridge.lean",
+      "sha256": "1f83908b63244ef5b8163ca6eaff294ba2f1f10cdbc8631b7050c4e05ebebfbc",
+      "bytes": 4154
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/OddLinks.lean",
+      "sha256": "27bc40bf51f6547ac98189de50118c7c694ba1a62e7e0414681e35bd1f005ae4",
+      "bytes": 14794
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/OddTransformer.lean",
+      "sha256": "eee51dfbc86cddd9b5bbb04b15f66b04c09c54a4cefcf90b0e66c9a400f1580d",
+      "bytes": 24012
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedCharge/Cert.lean",
+      "sha256": "5c8fb3bd5c9d07b5fdf4df64e66ed5e27184eaed6d85861bf7e6bc290a4230d5",
+      "bytes": 8372
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedCharge/FnoC.lean",
+      "sha256": "e5ec9cc407ddbdc4b7e5795541809c853c84d8557aacd6fbf30b3d271466212c",
+      "bytes": 9878
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedCharge/PhysicalRefiner.lean",
+      "sha256": "7fa22d113a2f41e3ffc7b3327a0250cf189b203006c1df93f65fc0cf22e97963",
+      "bytes": 8916
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedCharge/Universal.lean",
+      "sha256": "c758c7334e7546096a7d9d70436a1bd2977bf543f475df41c5190e4630c4bb10",
+      "bytes": 15016
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/ComponentEven3.lean",
+      "sha256": "23c2ad559acf624e7ee2e27449f2c346ef6e5ed5cfcc242eb9a5b4f0f9093135",
+      "bytes": 23278
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/ComponentLattice.lean",
+      "sha256": "8d9d61d6638f98c6ee39eb4341600ea7a2d0cea4925c2ab4f0fea64126c24e56",
+      "bytes": 4430
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/LargeInverseFrame.lean",
+      "sha256": "7b3c3d173e0151cbb56d08632af53632d8d761105ad3a1768fde43df1e387632",
+      "bytes": 9393
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/LocalPaths.lean",
+      "sha256": "2d978962882e56a907e81880ca56f03c1f31de8e4a753c06a116424abb89e4af",
+      "bytes": 10153
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/MonoFamilies/Defs.lean",
+      "sha256": "9920a0b8fb47cfb64e837998381e81d71662a65d20f59e835c3ac79d84355bac",
+      "bytes": 38916
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/MonoObstruction.lean",
+      "sha256": "298baf482b190b20ba3e6ddf7e3029ef90f39bb8270c3579508c6d1edf53951c",
+      "bytes": 11270
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/MonoVertexMode.lean",
+      "sha256": "6fa4fd1067225ff7671642a5e8c6c2cff1756f5210397b406cc7b60712ae3e28",
+      "bytes": 7372
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/ReductionLarge.lean",
+      "sha256": "449542fa90c1a3e7237702d9bbe590bf41560e7522e83c27288848ff2b5bbf8f",
+      "bytes": 14424
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/Split.lean",
+      "sha256": "a1d8cd2498d89d65f890633de87106aec48fbc55e76b64cba93f826bbd3bd7cd",
+      "bytes": 15981
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/SubtypeRefiner.lean",
+      "sha256": "42b661a6f5b2658b4e4d57f7df8b68909ec133207e65a3c7826a79842e11c8e4",
+      "bytes": 10510
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedComponents/WitnessFrame.lean",
+      "sha256": "49d4547ed19fb697c9fab8650883df4a1815097df637d4ee67707b34c4e0c7e8",
+      "bytes": 1627
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/BoundedLattice.lean",
+      "sha256": "11d2ac314ff36294c0d6e245323e03634ef2f19f8c50dcaadd6ec7420d0ea309",
+      "bytes": 5645
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/CompleteCompatibility.lean",
+      "sha256": "babbe50638bccb758deda8ea6f1f4acafe88f1eb1f891a109418466496850938",
+      "bytes": 9637
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/CompleteCopyInverse.lean",
+      "sha256": "9ce10def77db5c17622ee53aa23e452aad7ad3925e7645e4d8d020198ea2f749",
+      "bytes": 6227
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/CompleteInverse.lean",
+      "sha256": "f608e3001776d47765c3e81035260a3fc18db576c8cbf81a19560051397e896e",
+      "bytes": 11006
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/CompleteResiduals.lean",
+      "sha256": "136bfaae534288d7033738a8c2265b3912d5a035ffbe75332bb0ce35c9064f68",
+      "bytes": 5029
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/ExplicitHub.lean",
+      "sha256": "08d857e4d243a2b12b1114d473599873ea92165013ac08c7b122395f97c0ba9d",
+      "bytes": 5752
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/ExplicitLedger.lean",
+      "sha256": "0a0dca2356e712366643de44c8d8a7d6f11458f88f78458c03dd14afdec8de7c",
+      "bytes": 2320
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/ExplicitTerminal.lean",
+      "sha256": "e9b200803835be6a6b06513e6fba187609519147a7e5d8d87c2cf07fea150e92",
+      "bytes": 12043
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/FamilyRefiner.lean",
+      "sha256": "22738d41479dd49516837807fe75cf6060eae3931043ce7891eb73f3f5407842",
+      "bytes": 5833
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/FiniteTemplates.lean",
+      "sha256": "c38c85c50befa90a3dc7d9b02f71d9983280112d8bea5e3f523afbf2f29f8bb4",
+      "bytes": 3316
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/FractionalRepair.lean",
+      "sha256": "36973ab91d29b5e8c7939bf84e3b97172ce37afc564a0666402b59d7525b3401",
+      "bytes": 4532
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/GuardedTokens.lean",
+      "sha256": "7be4a0c25632d605aa46446af557ce9217120bd800c6f2a251360edaf8008e42",
+      "bytes": 10280
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/HostGap.lean",
+      "sha256": "78650f40b225508c978505f31a30664d3e1cac91b9df7364c48db16383500fbf",
+      "bytes": 3360
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/HostInputs.lean",
+      "sha256": "bdb6ed1c25e9dc0ae0f51c72134d54efdfe948df5f9a6255d93f53ecbb37ac3a",
+      "bytes": 2694
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/HostInverse.lean",
+      "sha256": "b6adc8acda7814021ee8b698c6a1699a2db8959b4a926c214b05dc225858153b",
+      "bytes": 3029
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/LoadDefect.lean",
+      "sha256": "1a28c07789d32a69f2e0386e906648db1a8d7e369a2f11e6f0f34c554d6fede2",
+      "bytes": 4539
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedAssembly.lean",
+      "sha256": "bc50bd162a1ae5bc1b12052f8ff80a04896225a65dda6b392f707c7611a0d087",
+      "bytes": 7923
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedBridge.lean",
+      "sha256": "920a86be243563eb8090b66dead3a6f33b20b4b7f70edbd4a114d1062768d4fa",
+      "bytes": 3349
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedDefinitions.lean",
+      "sha256": "2521915c91500e3730b628f1e0316fed73094142b5e7b9e665b7e165f37a9903",
+      "bytes": 5146
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedExtension.lean",
+      "sha256": "b8f9fd048e4eaeae7dbfd6dd9859f3d2b383abab950338e74cd43853fbfabccb",
+      "bytes": 6749
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedFiber.lean",
+      "sha256": "9d195e3e39a0c57a3c991ad769e564e973e2ce94a854e3287c85799a87ca540c",
+      "bytes": 4113
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedParameters.lean",
+      "sha256": "2b7747070e6f75fdb23698071439a8b34f1201d0187521114fb7d143b8d05a26",
+      "bytes": 1111
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedPattern.lean",
+      "sha256": "4f306ff0d3c8c483a5af167bad30fffa5400f9672f8d24c79c7abe417559a4f3",
+      "bytes": 6177
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedScales.lean",
+      "sha256": "50baeb3526e449fb149ee4f690cbeb89775394508581e48cdef8e51618c49eb5",
+      "bytes": 5039
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedThresholdCore.lean",
+      "sha256": "bde91b0613af0bb5c8612a173e2717d1b3ca70ec06b8bb1d55e427b32d4024bc",
+      "bytes": 3227
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedThresholdScales.lean",
+      "sha256": "539ec30495b03a77de3db5088fb361040de0c5c447d657b2b9b62171d32a1d26",
+      "bytes": 6090
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedThresholds.lean",
+      "sha256": "99a34d43093f6cc835363356becf60ba10295d1b180921cfcf7ed5f9de720717",
+      "bytes": 7781
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PaddedWeights.lean",
+      "sha256": "bfd8118a0bf1663e02384b45db2584f8534417c6add1e7a2116925e85e7f0b57",
+      "bytes": 6673
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/ParityEvaluation.lean",
+      "sha256": "f7ffaa83a6d70568785f7f803824ed15ae267d80462f944ff04ffbd6f7adaf8e",
+      "bytes": 3148
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PhysicalBounds.lean",
+      "sha256": "908852ffb68646317bf3c754b8ddd60bbb947500291d8b60edce012076392987",
+      "bytes": 7119
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PhysicalCharge.lean",
+      "sha256": "148d1f6c766b6369c1a7710dbfded78bcfeb0daaa01a08c57f241d9272b70ae0",
+      "bytes": 5101
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PhysicalCounts.lean",
+      "sha256": "fcf7d6bb65ccaa6415b08effcafd18621a4a1a098f273c18988426bd0189bf9f",
+      "bytes": 14035
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PhysicalLattice.lean",
+      "sha256": "399f4f4d2e557385660ab93eb33356da726ec59636ce75c6dac661272c914150",
+      "bytes": 12106
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/PhysicalParity.lean",
+      "sha256": "4ba5e9dd9ddfee5470a50cf6e56b1b93e23d30576fc1efe77cf26577f1b9ef42",
+      "bytes": 6657
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/R2Refiner.lean",
+      "sha256": "c3d4bac621a2ad786da2ee68b4a18f12d812d4558a81bd2a9c16f1b8854037c9",
+      "bytes": 13163
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/RealTypeTotals.lean",
+      "sha256": "b192bddafb70d540fcc1cf7972fc9e7b3cacc8c67497bd0413a02d8cb249eb4c",
+      "bytes": 4986
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/ScalarLattice.lean",
+      "sha256": "078dcc8b8b292364511fbe1ecd4c216a63f0830d737bb64427a0455fe8f16615",
+      "bytes": 6063
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TemplateTransport.lean",
+      "sha256": "f3b3c0b9548d0e4adece91bb888558eeefaed53a6ced7384ea5346497bb2a67c",
+      "bytes": 4450
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TorsionChain.lean",
+      "sha256": "9ce1b184d4adb188c11355e7cd27efffd1a5a010458da77576b11d45f794180f",
+      "bytes": 11824
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TorsionFinite.lean",
+      "sha256": "d3f5710f771c100af0c21e92acd47ecb269a6a8418790cff39ce21ff74808847",
+      "bytes": 14408
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TorsionParity.lean",
+      "sha256": "31eac1355326b25d68564a5ee747105840b7ff51bedb4af3d6a38cd41575b880",
+      "bytes": 7307
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TorsionRealization.lean",
+      "sha256": "e5512901437a8fe7d16a020d16f83ee91a91f78db5b8bad6d08bdac38b6084b0",
+      "bytes": 5717
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TorsionRefiner.lean",
+      "sha256": "d2147b5a6966c9e2ef07168aa65a04de6b48e20fc114ee1764d2cac25ed87e3c",
+      "bytes": 9605
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/TypeInverse.lean",
+      "sha256": "d8a759f6d6ea2c5bdacf006dbbc27d2f395b3b534c483a1da8550587612c9847",
+      "bytes": 15341
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/UniversalF12.lean",
+      "sha256": "7d6d21399c911735e88c9016b7a6b27f1c012a02a1552499ebd162c01ad6a428",
+      "bytes": 10383
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF12/VerifiedF12.lean",
+      "sha256": "d06b62dbd38daa051639479f9a756cdee7d2b8b6b93536d49a0a1b69cd308ed5",
+      "bytes": 1628
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF3/Assembly.lean",
+      "sha256": "89f7ed05ab07e6fd2b1a7675396108b64c8d7aa23b9efbc085469d8fcd6450c2",
+      "bytes": 10698
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF3/Inverse.lean",
+      "sha256": "116d229af43bed55b36bdeb1079d21bfd13c91325f75e15e671a1a09f37a5d38",
+      "bytes": 25112
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedF3/Universal.lean",
+      "sha256": "19ecf859f498bd361d6b40b77e44c37d03071c10f0d1695cadd8cec87954bc62",
+      "bytes": 16660
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFbit/Inverse.lean",
+      "sha256": "1f035cf833bbc048602c34bb57357c89a5191673543c7bfca4e5d02b2d43b01f",
+      "bytes": 22424
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFbit/Lattice.lean",
+      "sha256": "38af471e1c72e5c0fe8368c59c985165ea2243ccce5b8d852242508cc5679ac3",
+      "bytes": 17617
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFbit/Supersets.lean",
+      "sha256": "95762a0035d61c6dc324b6373d3a5f85bfaaa7da81bed6ae6d7ede376794a4e7",
+      "bytes": 9825
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFbit/Universal.lean",
+      "sha256": "7e4a0ff7d54a26ea3a3fde1cd41aaf335b58840db7c1302a2355315c81761fb2",
+      "bytes": 19494
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/AdaptiveAverage.lean",
+      "sha256": "4a08b4e98c6a36bd50c110d9759891c1807a4b0825417d9235fd3dd657121216",
+      "bytes": 5581
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/AdaptiveMean.lean",
+      "sha256": "871818a15a2b276889478dcbc44096e0ed12b23f159ee6b2f96e08cbd6cee261",
+      "bytes": 7725
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/AdaptiveWindow.lean",
+      "sha256": "e5eba9d6d3e688ec8a47c18c10144c0f3906bbf768163e9344d5d5cd1f3c6d66",
+      "bytes": 5824
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/BoundaryIdentities.lean",
+      "sha256": "bc10a6058c37de2b3e43d8bdbedda0ae9cceecd945582f10f2207b9cfe254a34",
+      "bytes": 1986
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/CompleteModes.lean",
+      "sha256": "715e48fb6dd8e384fab3bf1fb23b4872bc140622b2e57705730e5bdd2660ad1b",
+      "bytes": 6837
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/CompletePhysical.lean",
+      "sha256": "6ce46bb50eaf799d137593a9ca28bccf17885243e8d328b2634a6ffd4be117ca",
+      "bytes": 2764
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/Deletion.lean",
+      "sha256": "8d05c5643f66cf1b5cee95958d451b1551b026ef834514b40d36a24173df2f16",
+      "bytes": 6022
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/GadgetPlacements.lean",
+      "sha256": "500f96fe2cc91c7de800a4bf7e260b65ad4d37b4029641cd2cb237d2c5cc5099",
+      "bytes": 9173
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/InverseEstimates.lean",
+      "sha256": "303b945a878af0cccb49aabb793ecf326c97792d9121b9701d8a09a16c8e2e80",
+      "bytes": 3839
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/LinkModes.lean",
+      "sha256": "c81370a61c4100450654f87e83b1f179cc8f7ac4a1790f8b3e5a37a03e08ec75",
+      "bytes": 2746
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/Marginals.lean",
+      "sha256": "7b1ea7001bf2701793a9aff7ef60e6bea4a587fe3ffcf0e5bfb7efba474d7c09",
+      "bytes": 7713
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/MassCoupling.lean",
+      "sha256": "f1736e5f0c1a9380dc8ce6e195ed44a4fc0ce41a1f36eddf9468b75c9a19e0f2",
+      "bytes": 6759
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/OctahedronChain.lean",
+      "sha256": "2c0f60ea7ae86330cf60b8754c2ea0aac3ad8d1e138d3b5a52a1088725c7b4b7",
+      "bytes": 7116
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/OctahedronKernel.lean",
+      "sha256": "67698f70f6765a213047bcd416e462ab9bde9af86241f79385b0e305935df230",
+      "bytes": 9929
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PhysicalChains.lean",
+      "sha256": "079963d34eabb1d869661d5e0ac784e3062f58d55b7a25d90337b302b6d3c773",
+      "bytes": 12745
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PhysicalEdgeModes.lean",
+      "sha256": "504c1da28b4af6b7be59c883820942949f6dd24bdfe69fb9ddd3136af3d07e16",
+      "bytes": 17615
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PhysicalTypeModes.lean",
+      "sha256": "a66aaa3c767634dc56bb3e7eade338fae9fba734e467a964f548a3e3a45adbcd",
+      "bytes": 13256
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PhysicalVertexModes.lean",
+      "sha256": "179ca5372ef240aca32ffe15caa857fff095c04f0cf7045c1204fc23c325c2cb",
+      "bytes": 17837
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PositiveRepair.lean",
+      "sha256": "a02b280037363c9aaed84c1c34c5c5dabb9ae75cebf9cb23890a3706796db64c",
+      "bytes": 2059
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/PrismKernel.lean",
+      "sha256": "e54698840f5986f5ce507e4603d0c1413941aee334777d43d4123ebc941e39ff",
+      "bytes": 15138
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/SequentialHost.lean",
+      "sha256": "26a3d4a379c22babc6c16580ea18eeb6b6389ff34437413225355ba3ecc3c273",
+      "bytes": 5099
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/SignedEdgeTransfer.lean",
+      "sha256": "3074c547ed71b697a73e7e1e5a43bc8d89e220ee74d0d2e04598bb0c55530c9b",
+      "bytes": 11524
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/SignedTransfer.lean",
+      "sha256": "223996f5758407fc6ab46b6ab9d1e143cfc545505e0a7050bce547b97b860a5b",
+      "bytes": 19185
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/TernaryCopies.lean",
+      "sha256": "9ab0a594ccff49695f023e43a02f1f1a739d53a130d3c43027c6760e6e2d7836",
+      "bytes": 7433
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/ThirdDistributions.lean",
+      "sha256": "eb6a6189687e543eff788566a0305e6400edab452e883974589672a03466aeae",
+      "bytes": 4359
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/VertexInverse.lean",
+      "sha256": "4ccfcdf5dd523294005878b5c0bf606621c9445a2581134080431b826cf7ad00",
+      "bytes": 15878
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFractional/ZeroRowInverse.lean",
+      "sha256": "4e1e26cd05be23471cb496b037b8ec2dc7dcee76918ceca2eec2cf62a0bfe34e",
+      "bytes": 7450
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFstar/Inverse.lean",
+      "sha256": "f7d523e368d66dbfbd43ef65177c80e314254b379f89ab55dd87f64f9ed63ac7",
+      "bytes": 28232
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFstar/Lattice.lean",
+      "sha256": "8b41c4257f30e9e1e520f76f3c2fbb37fd337837e761e85f475defe8bc46d8a0",
+      "bytes": 15573
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedFstar/Universal.lean",
+      "sha256": "d2e86c5d0a7bd51073e51af1accd6f1df953be26258b9da838b37935a09a2f9a",
+      "bytes": 13019
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedGeneral/Reduction.lean",
+      "sha256": "8cfd27fb5f9438b7c8a8c7d2ef20ef7ac37e7cfa61f8ab6ca084e59db2e66ba1",
+      "bytes": 18175
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedGeneral/TrivialLattice.lean",
+      "sha256": "58a64d5623823b3c0f3f99f459c1e7a52021d95d09757acf47c02159c978f1ae",
+      "bytes": 12509
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/BernoulliConcentration.lean",
+      "sha256": "3308c8b99a3c897b2cd4611d6762f53756dab745f726fb1ab0fd220474502714",
+      "bytes": 14531
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/BernoulliExposure.lean",
+      "sha256": "0d7fab8979b5849d403efe9ffd245cf10224bafd1f8239a8dd9b4b11413dffb9",
+      "bytes": 5338
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ExponentialSeries.lean",
+      "sha256": "7acf1fd5e8eb6e201551d6ebc8905e700f56485eda7ec2a29f198729e243c64c",
+      "bytes": 2039
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Asymptotic.lean",
+      "sha256": "fe962abedcada48672a137ebdc920b9cfb07b2135887fd65e6456ee260bebee0",
+      "bytes": 11995
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Conflicts.lean",
+      "sha256": "ab56227952be577467d57fbf595318445b9a749b190660b96b0c4936b66ddfa5",
+      "bytes": 15844
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Consumer.lean",
+      "sha256": "5d8d6e9f383b378f2eea0ef888ca32ec72f5b76ac674707d89d4979c524828f2",
+      "bytes": 6311
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/CubeTools.lean",
+      "sha256": "ef09acb8dcc3e718fc83575a5df137702877ec8cc3c23bd360e16f53a605746c",
+      "bytes": 14981
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/EffectiveConsumer.lean",
+      "sha256": "2732dff767d50a66a3d23b8cc64c6ced0828e83f711ddebb5f26e69a6cebe96c",
+      "bytes": 7722
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/EffectiveRound.lean",
+      "sha256": "e4fb50206ee4957d0575b38df916f579dace94a086ef0aefdf65cb381af9cda7",
+      "bytes": 6311
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Geometry.lean",
+      "sha256": "727080c3ca5e4bb60e3b4109684e16f593b1ba246ca06c3edd86bae53428a908",
+      "bytes": 14672
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Iterate.lean",
+      "sha256": "b831e937043594316bea27793d6a915e35ce4ee48b5391b2b2fc2acd9912701d",
+      "bytes": 9378
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Linear.lean",
+      "sha256": "e68835c384edcf8fe31d680c8f6da3a6b32c672c31e92d4fc5bfba9b2deac088",
+      "bytes": 6881
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/LoadTail.lean",
+      "sha256": "d0cdcaa6f83a0d7ebed56131bd16b728f968adf4c624d0739f17922b880d88c3",
+      "bytes": 19711
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Model.lean",
+      "sha256": "b76a353b8c2b0cc084183b40166e0b3f8fdfa9930f28b91cfd49fea73be34103",
+      "bytes": 15016
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/NearConsumer.lean",
+      "sha256": "4d683d7549bf1b9fe385636fdabd98c341a5ce2eba93500a0c736761ef1531e1",
+      "bytes": 8388
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/NearLoadRound.lean",
+      "sha256": "5ff0ade5e16d9499ac82653d1b15dca083383d54596f280e6fb8bea53f822cd3",
+      "bytes": 5244
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/PolynomialThreshold.lean",
+      "sha256": "172630a0c71a88626612fcc9da857b5a014137f59bb82b69c7f7d59cfba4dde8",
+      "bytes": 7652
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Reindex.lean",
+      "sha256": "b8f4a40f7c93c8c06f05d3a44de87ddbf47195ca70e1028a11cdfc61f7be7d51",
+      "bytes": 5390
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/Round.lean",
+      "sha256": "7fc9213903f7d168d191503a36572c7d8a92897fc8cf82391a5750bf86a60f5d",
+      "bytes": 19268
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/Nibble/StarTails.lean",
+      "sha256": "6b739634740a73314f86314337b92cc5ba0985609251c15eab6cc15052b2091f",
+      "bytes": 9641
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveConcentration.lean",
+      "sha256": "7a4f3d2b6ff6b6554b0c8a04414c9b801c3e58a9253f85d1c2a774fb6e49ca4d",
+      "bytes": 5821
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveConstruction.lean",
+      "sha256": "50d6e6eb8d1ec3b87dfcdea2b1fd7093a8012388d302b019937d39463334c59d",
+      "bytes": 6023
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveDegree.lean",
+      "sha256": "89bdc782f937a4f28dedc6185655f8df0e24bbbdab19b4c7fc8ffffab74ac04f",
+      "bytes": 3892
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveExistence.lean",
+      "sha256": "12674bf79b2a9fde4e58095c242856376ad3e9e8436f6f2305e485d0ade7a806",
+      "bytes": 7681
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReservePacking.lean",
+      "sha256": "ca8bd81185623c5cad0dd5c6f1a37066205019c5ab0f817904a9f0729f74d584",
+      "bytes": 8430
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveTests.lean",
+      "sha256": "2ddb0b320a4bd9252521b99a4736d972042be21e14fd6dc02308e6189176b7fe",
+      "bytes": 4484
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/ReserveWitness.lean",
+      "sha256": "d7de1310d0b82ff5011b205e34ad1acb26642370fc4260e74b3791ecce37a60f",
+      "bytes": 6864
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/TypedCoverDownConsumer.lean",
+      "sha256": "1d8dd8e054b6ff0126cdff165fa2254f2526d67aaaf1bac2cc1c8d84eb0757eb",
+      "bytes": 9072
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/TypedEffectiveConsumer.lean",
+      "sha256": "c471dbc66e48590be3c78c1b0af846d9c4bd35870e7afc52896c093b6cf7c1bd",
+      "bytes": 6444
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/TypedNearConsumer.lean",
+      "sha256": "373aaa1274bbcd3be37c7dbb79c60bdbba77b32efda624eafb35862a1b3d671c",
+      "bytes": 9365
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNibble/TypedNibbleAdapter.lean",
+      "sha256": "71fc04a9283e292632428b5144eceda9b33738da9d22ee34730e519a221e8aba",
+      "bytes": 10447
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Cert.lean",
+      "sha256": "d6a2f3eb3bcf77630c6cc8ccc345394143397431b3f9ffabca6e97a1f17a3cb4",
+      "bytes": 5362
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Families.lean",
+      "sha256": "1eab956fc027023c8d7b621549bd225f9d067fc4e02bf07c66208a6050c46c78",
+      "bytes": 12599
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/InverseFrame.lean",
+      "sha256": "32728750b87eb23507f2e523a8aeaf9ecef30ddfcdfdf6fdc103648bca453bdf",
+      "bytes": 5851
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Lattice.lean",
+      "sha256": "a1be85088e8b211320cd5f5325b87291025029455d9c133e70f0fe551de349cb",
+      "bytes": 13209
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/LatticeFrame.lean",
+      "sha256": "97839f3143429d1fc1cb0758c84d30b27d453735edbea5d8a928b6ff2d1bf414",
+      "bytes": 9763
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Paths.lean",
+      "sha256": "bc356c25331f970815c5a438de04c45d16fee49366a1f66204736feaf1fc9eb6",
+      "bytes": 18211
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Physical.lean",
+      "sha256": "c50e958a84ec555ed971e4441475d7640e0c27df3597543afa31eb3a51734a97",
+      "bytes": 10569
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/Universal.lean",
+      "sha256": "fdfe9bf9557e83f7625c9cd901eb9feb3837a7871d721e311c7b0e3d1c1e8dcd",
+      "bytes": 17391
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedNoCommon/UniversalFamilies.lean",
+      "sha256": "d3a93072d17da4db3a42fc50cef3cc900593326c14373aaf012e441ae68cdaec",
+      "bytes": 4337
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedQuantitative/EffectiveRate.lean",
+      "sha256": "412aa4ddeb3a53138b2084143ceeec691844d8dc0f3c6a9a681799734bcc762e",
+      "bytes": 8666
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedQuantitative/EffectiveSchedule.lean",
+      "sha256": "e0e87ae9503712e9b7f7138b789218d58b8d9963234f016fdfe5a844d2bb81f2",
+      "bytes": 10109
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedQuantitative/EffectiveTail.lean",
+      "sha256": "dce0879d8bf1daea2d45a5a36257486b97bcba2e8ff5a416e3c44abe41113c97",
+      "bytes": 4310
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedQuantitative/UniformThreshold.lean",
+      "sha256": "1e89667eb2bf1694b3abb8ced46063ee02202248718f882ab14656408de6f70f",
+      "bytes": 3461
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Assembly.lean",
+      "sha256": "d67d5c7094c6acff5cdae996b989c39f945beedefa1c4b4006295605964654a9",
+      "bytes": 9200
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Converse.lean",
+      "sha256": "2ab5756a847c70523d3f8934fa03a7c3dd295b6e63e28b0705c0414460fe55c3",
+      "bytes": 10305
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Covered.lean",
+      "sha256": "4aa05784d0e43fe4780a0e405929369c2242312735764db29bb95f10a795612f",
+      "bytes": 1984
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Family.lean",
+      "sha256": "5cddafea1256d3df6160d8a522ecf028f743862b47217da5a879886639976d0b",
+      "bytes": 6042
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Inverse.lean",
+      "sha256": "fa659819c81294fda715c1b7b4fe088b3972b9df8cbf113a07a17e6320b24168",
+      "bytes": 18867
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Lattice.lean",
+      "sha256": "9b9621f454680664472fa9d292d0abda09f27a892565ff27c04c699f9f6701fa",
+      "bytes": 9857
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/MonoMode.lean",
+      "sha256": "b04398f8cc483a48488fded5b720cc0b9f1b51282172b6d790109fec0306352a",
+      "bytes": 6085
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PaddedTrivial/Universal.lean",
+      "sha256": "da6aac59e008a0f160c30d6d01e373df503287a960a129066cac881bd25ab570",
+      "bytes": 13796
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/PhasedAbsorber.lean",
+      "sha256": "0143787cef9f19cc37e6820b972b3c248217e82f0802599a91663954ba38f08f",
+      "bytes": 22474
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Rainbow.lean",
+      "sha256": "92f118db86df88cfa27e1a837044afca41af90b83caa371996fa83f7c4389484",
+      "bytes": 21696
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/RainbowAbsorber.lean",
+      "sha256": "a3684048812df448ae28d6a53e55b8d7eba03ff9890a1fe0cf0d95d5873161c7",
+      "bytes": 16157
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/RainbowTarget.lean",
+      "sha256": "776d890f009bd73277087750acd79c78008c206b343c1aab8cc97221b1a59cc6",
+      "bytes": 9832
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/RainbowTerminal.lean",
+      "sha256": "9898db9046d80d2a767e2a496d9268571c6bd7a4a0d112d2a4de4e619968f7ad",
+      "bytes": 6442
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/RainbowTrails.lean",
+      "sha256": "a6e0830d439d5e60ccccd57336e0d4d33408b06afec236df71090907bbb02b20",
+      "bytes": 9528
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Rectangle.lean",
+      "sha256": "6670ddb2c02bfbc3c37910fd5aaf762c1382e1cc532648c4bcb10d6c352ade60",
+      "bytes": 10761
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/RepHost.lean",
+      "sha256": "c5606be94eefbd8b6b750f203bd8abac107e212616eb400fc1a19d12b50d51df",
+      "bytes": 11620
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/ReserveWeights.lean",
+      "sha256": "8eb9b597d2928b43076d0224a82bfbf73a8e2eacfe8ac77252de52af33a76f99",
+      "bytes": 4839
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Splitting.lean",
+      "sha256": "3ac236b6c89d489f795c77b69f448156f0c3b611e34bfd01f10bb259ae4a9e20",
+      "bytes": 24994
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Star.lean",
+      "sha256": "2882f3919b1f6da6ae38d4dc0fba19c76d2e001cd6d2c24e52913a40752e0a37",
+      "bytes": 8466
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/Characterization.lean",
+      "sha256": "3eaee41a7df58d2d1711fff16f4028a7d462424b9c9083441e71a0e20f9c69b5",
+      "bytes": 11299
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/FiniteLibrary.lean",
+      "sha256": "4e7e1a894d956ea1a774a843ef094388e803e94d9aa7def6c4940399de74773b",
+      "bytes": 6803
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/FiniteSupport.lean",
+      "sha256": "cda1115fbdf6a5b5fc9bb247272abd2f0a909bd3b63cf23e7f0de4c8663cfe4c",
+      "bytes": 5004
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/GuardedEmbedding.lean",
+      "sha256": "ae9c364218571c433f0c97c279e0dcad36743d4a18a7c0d359c2548247a932ae",
+      "bytes": 7415
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/GuardedLedger.lean",
+      "sha256": "0536ca7f55e73d2dc85aa36bd1a01517b70ef7daa530f33f39b87118363ab003",
+      "bytes": 4109
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/GuardedSupply.lean",
+      "sha256": "123cd65a6c343d5718d7bf15a1e61fb827e3ec41dd388194c691a3aece9e6155",
+      "bytes": 3726
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/GuardedTemplates.lean",
+      "sha256": "af1dd990d988a37cfd7d1da6c9e1a6558e19761c0c31c241900141a306932e3a",
+      "bytes": 13605
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/GuardedTerminal.lean",
+      "sha256": "9f0243d5ef7443990e8ef10196afc81b8ffce91964149a186db4c288e1fdfdca",
+      "bytes": 9917
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/HostCycles.lean",
+      "sha256": "e267c7661efcdc68c4e5cecf1c388401b40744774b54cdfb714ae26a9a09d2ee",
+      "bytes": 12476
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/HostLayer.lean",
+      "sha256": "9e428ba8cb7695903eb060b9cc310e4c7212984d3bf69fcbd0a8cbb2f2298018",
+      "bytes": 6317
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/HostSupply.lean",
+      "sha256": "18b45856607c08d4fd688c80d6fb915a8f0901fcf9a5a577baa77f4e167f5d41",
+      "bytes": 3457
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/HostTokens.lean",
+      "sha256": "ff936481b3bb759dbb2156c8d64fa01d1283ee9a9d8f05032ac5dd9ce8bcbcbd",
+      "bytes": 11670
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/LatticeBasics.lean",
+      "sha256": "76d7e7a7c662d8e4b90daad45276fb71cee43a937d291804e122ad986811fa7c",
+      "bytes": 6562
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/Main.lean",
+      "sha256": "3053b0edc89482bbf8d9c543d1c984da66f3c4c10f356d7be4a6ccc809650d03",
+      "bytes": 13992
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/Numeric.lean",
+      "sha256": "fd2eaab126288f488c3b15b920812ca419fbe101f8607dc055f0475f6b23371e",
+      "bytes": 3080
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/OrdinaryHost.lean",
+      "sha256": "38db6e5908cc363461f79b89d9f96dd39a3e1c9da2dae8c915df33d00541ef91",
+      "bytes": 18722
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/PredEnumeration.lean",
+      "sha256": "cc8293f0121361f3939e2691e4a4c75dac305f824bf29da90b8b14d08b641720",
+      "bytes": 5198
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/PrivateFamily.lean",
+      "sha256": "1b821aa00a0a0b7f411ea7f38196afd87bfe66a5dc3aabd81b5f9308724fb2ae",
+      "bytes": 12758
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/ChargeF0.lean",
+      "sha256": "118201ce17c5c8611dda007f7cf7cd2a7f72e1651a98f426eda5362587239b8e",
+      "bytes": 11161
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/ChargeLayer.lean",
+      "sha256": "6f98b542e23dad8680de97eb87927bd69ee39dd447bb1174ac5a0ad95d09cde5",
+      "bytes": 18091
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/ChargeLayerDefs.lean",
+      "sha256": "ffa263673584d0554af3b8683914244c6e4da9905604aad4dd71afd812edbd91",
+      "bytes": 11457
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/ChargeLayerSelect.lean",
+      "sha256": "497276001ed46ee5ef96b67249e9e99047b7a0a877db69fee10e07838b3cbb95",
+      "bytes": 13675
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/Estimates.lean",
+      "sha256": "64ec88a986f297e3d7c74c01c517b0870ed7b148892037bf284aa483fb33352c",
+      "bytes": 5688
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/PermCount.lean",
+      "sha256": "0b8ad83c4b34466c5184270061b7e0e9c434ae04dbb7cf75a2cd7ce916f701b3",
+      "bytes": 8029
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/RobustHall.lean",
+      "sha256": "b2bf653ce67780f088faba68a34f5ac06121f6fd3596aaac67b0997fbca71648",
+      "bytes": 7834
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/RobustRandom.lean",
+      "sha256": "e43cc12ed3d8f71ee386e65c8327d6b8cb720d32ddd35f980aeba2dfb7c45a4c",
+      "bytes": 22968
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/RobustSlots.lean",
+      "sha256": "df1d9a66931b517f68ccd3bf5edec189a947bd7cddd0b9099a28388f1bf79c28",
+      "bytes": 9070
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/RefinerF0/TokenPieces.lean",
+      "sha256": "f6b8bd4076e484ddf7c2c6f6e41473a8622ad00c8f9c54e43da40c3f3015ad06",
+      "bytes": 9969
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/TokenLayer.lean",
+      "sha256": "307406a0b243683b7f12d689acca40dc5257fc00e002997067500b204f72790d",
+      "bytes": 18051
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/TokenLedger.lean",
+      "sha256": "76cacf6ce6f1cadb0458fa99433d5118d799e1a8050ee8ef1beeabc2f4dcd587",
+      "bytes": 26009
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/UniformScales.lean",
+      "sha256": "5f626b7e7973e75ff1309eb47842c6834dc2547629764b9cf638f00ff4da3c70",
+      "bytes": 6917
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/StructuralF3General/UniversalF3.lean",
+      "sha256": "a6e33e7c5e6c52fbd8d0619aef10e5677f7d17f818531baaea04b45629c69072",
+      "bytes": 6000
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TeoremaB.lean",
+      "sha256": "65c9939c26e5700fbec614e81c2c1511d376ba23f26b7ce90ee7e1df3ee3a871",
+      "bytes": 14450
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TeoremaBBalanced.lean",
+      "sha256": "bd70c10317d6b2072e161b2a2a72ceaa3af62ad1a6ef8ce572f3b7436025af4c",
+      "bytes": 7975
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Chain.lean",
+      "sha256": "84c3aaa395af46c95f03722c942c0fd5b389164d85977c95148a3ba02e189d6e",
+      "bytes": 13165
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Evaluation.lean",
+      "sha256": "da88990ac278466cd63c2dcf8f16c2a672e8825c609efe7b7b9f2a571dbe9a36",
+      "bytes": 2801
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Finite.lean",
+      "sha256": "0d72a248867248227060e23521fd9fa8bbb159e551f5a2ccff755cd5ffd558c6",
+      "bytes": 20122
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Realization.lean",
+      "sha256": "a181e52b1ef306bb91e80db37e399cf29a0b3809a1822e2c62a9ac644fad6f63",
+      "bytes": 5866
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Refiner.lean",
+      "sha256": "fe09a236213a5894142a45cf2df65a10a791e1a33925c65dba9d7def01586109",
+      "bytes": 9577
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TorsionQ/Value.lean",
+      "sha256": "b79d2088eddefa33d1be9fb4028e8849112151eebad11b6f8f2cb7a34ae03b4a",
+      "bytes": 7575
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TypicalReserve.lean",
+      "sha256": "78bbee477f55d4641dbf14d7f546c638ef9d2d73729f9049865375916b88134a",
+      "bytes": 10763
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/TypicalReserveMain.lean",
+      "sha256": "9bb794080c9aec79cee0ab731a02f70794bb765df944470ab60cdf802ea6db61",
+      "bytes": 49674
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/UnifiedAbsorber.lean",
+      "sha256": "70f49a93d7025c4a05cafedb7c31b52aa40eb9f4be210e36ca970664c2d99cd8",
+      "bytes": 10601
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/Uniform.lean",
+      "sha256": "d6b1700451ebc18c7afc93223bd362bf963bb0c369e16e012aaddf9afc8e0d16",
+      "bytes": 12285
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BlowupB/ZeroDeg.lean",
+      "sha256": "46dcac05ade2bebaef173c943d2bb21e100f88111c4e79abd03ae283f5ed69cc",
+      "bytes": 21664
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/BoundedCoreReserveStage103.lean",
+      "sha256": "a29de123044519bc9ec2f541409e18688dd49220a1f6471d987a97325e50928b",
+      "bytes": 3569
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystFramingStage89.lean",
+      "sha256": "704d86463a82532b2d546e471b86bf10934e46cace990bf1750a6a65f642012d",
+      "bytes": 9550
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystInsertionStage89.lean",
+      "sha256": "ab8c5aada2b30201dd96b6238916de164aa4e92dd8c98dd112085e8686e6de2d",
+      "bytes": 11018
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystInsertionStepStage89.lean",
+      "sha256": "7f4bf2a8efb84daea64688c5b8f8daea286ae6dcedcb5e925f9c508273925fe4",
+      "bytes": 8520
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystInsertionTraceStage89.lean",
+      "sha256": "b97d276e0c2db327ab74b38035b5f772dfccdaae1463b51b02197f76e68c6da2",
+      "bytes": 17025
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystProducerStage89.lean",
+      "sha256": "0e663b9f8da060847401fccb5b71d66a69266fee0fcf125d1122a05260f714a1",
+      "bytes": 9150
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystSelectionStage89.lean",
+      "sha256": "3ef62f29e1793817a5bb076ed72f5de95e337fac218523ba404572637e27a4f1",
+      "bytes": 20527
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalystSeparationStage89.lean",
+      "sha256": "909ed880dec01ead23339176e5bd07d4bb78cc2084c0cbca4472f12ae8ed5dca",
+      "bytes": 27374
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CatalyticCleanupStage99.lean",
+      "sha256": "5f8938fff70ef960cd0768197698460ba8b7568ed169116e87c35f72d644363e",
+      "bytes": 16221
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CleanupIncidenceStage100.lean",
+      "sha256": "2a6e206220f21a0ab4ef0a21e0290fb20e449b1fe651d436e8c62b9cb64ed343",
+      "bytes": 5933
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CleanupInductionStage100.lean",
+      "sha256": "88f4f0f2d057b149d1bcb1a3e3e8427cec4be6c652c878b4c88fc946076a2208",
+      "bytes": 6422
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CleanupStepStage100.lean",
+      "sha256": "546bf439a06e2f2878b8c066305598e7bc2e25c94988a3236c27dd53d19a5a31",
+      "bytes": 12555
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CloneSupply/Basic.lean",
+      "sha256": "c73301a85e0a3c48c67c8feb6be8285c8390a4e0b9d8a46a66fd1934c8fde023",
+      "bytes": 5050
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CloneSupply/InternalDegree.lean",
+      "sha256": "4513cdcaf04a56d3b98a3da83126d8992e34d719fc7a920b1d15737ae3d1e676",
+      "bytes": 2741
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CoherentTransformer/BipartiteLinkHost.lean",
+      "sha256": "3615ac22b0bd4ba8be89d9769816d07a528381a82c8511c56d9c0a89825dc87b",
+      "bytes": 6149
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CoherentTransformer/ChargeInvariant.lean",
+      "sha256": "ec4236add4068d8be6c71605aab739d9e672d2053d5bbe39235aedd7df949461",
+      "bytes": 2470
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CoherentTransformer/Refutation.lean",
+      "sha256": "5a7417124b66363732cebc64490634539f0267c4d4c10558f43db54c614ea504",
+      "bytes": 7830
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CoherentTransformer/StarObstruction.lean",
+      "sha256": "ee2e172905ad1e9d5f14154f438799e3a2266bd8bb17adb9b925f7f4f9def43f",
+      "bytes": 5714
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CoherentTransformer/Target.lean",
+      "sha256": "fea24d6406cdc7353988a5728be22ba93885ef5c490ad9b3183b53678f665a1d",
+      "bytes": 4564
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Classes.lean",
+      "sha256": "c40d02af9817466efee0943d3a2b094f36ea911eccebb693d459047aee59aa61",
+      "bytes": 6950
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Counts.lean",
+      "sha256": "64cd20d4c85642cfc523b29e836de1fede47670a360324ffc3bfbd5c029d17a6",
+      "bytes": 8816
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Decomp.lean",
+      "sha256": "0c28617069c2655b11806f2a75ff713114b636fb2d2c33a1d29869c1109845db",
+      "bytes": 17288
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Families.lean",
+      "sha256": "2bdb528fc408cfe0ad4ab3582280738b81823b1c8caea69773641eb53e078c5e",
+      "bytes": 908
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Fibre.lean",
+      "sha256": "8c4920b530fb35876ed4eacdae5e8ce996ffbc2909a357045896c874388b8e1c",
+      "bytes": 7730
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Lattice.lean",
+      "sha256": "09dd197b395b3a03b24c53939a1c7b34310f52bc9d09849e96006390e35cf821",
+      "bytes": 11392
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Main.lean",
+      "sha256": "ebfb6df8dfa15e20736655b89bf59bfcc04855374bdfb87881e9d0dd8d3179df",
+      "bytes": 5568
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Template.lean",
+      "sha256": "83d84231f8613ec5395b3a6563eae9fda98d8498dd61ca8f49d7819818add812",
+      "bytes": 12126
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ColouredHub/Transformers.lean",
+      "sha256": "f01c7acde201d1c380e35329d144a33749c6fc1eef2a1d7d65981182d4f14c6e",
+      "bytes": 8760
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Compatibility.lean",
+      "sha256": "5c6255948f639e251319aac1ac355d008ee5bd28484ca8371de850d2c6bac8c7",
+      "bytes": 4143
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CompatibleRootedEmbeddingStage87.lean",
+      "sha256": "5209ce73785d77389b78166fdea5d8fd6c9d2a097a54677ec933e94c7e1583c9",
+      "bytes": 6759
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ConeBoundary.lean",
+      "sha256": "9c277861e758dcd6bb50c7faf3f91ee55545a71fa205296c74e068cb5377af0e",
+      "bytes": 6067
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/CongestionRootedEmbedding.lean",
+      "sha256": "df18e22a3608b0fbd4c5dab41bf005222277608ab6ce346c78a0f17686cfa5f7",
+      "bytes": 12494
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/DivisiblePrivateAbsorberStage101.lean",
+      "sha256": "b6ca93fdd56248d70aaedebcda4c425a32fc909cc0dd31d69b1f60a57e522acf",
+      "bytes": 4298
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/EdgeTypeMatchingStage91.lean",
+      "sha256": "4a0b4353c38f7d6e67920dd6a5cc2cb354f1cc792ab07371e0b54cce539a05d2",
+      "bytes": 3943
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/F0Geometric/CommonNeighbour.lean",
+      "sha256": "a90c3df2f56418f0c433b6806c902256a10a74bfae8b69c26e42d9c3af154508",
+      "bytes": 6161
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/F0ParallelObstruction.lean",
+      "sha256": "84cb8af0af0eebaa2d43339792fb4017790588f07b776c1bfff2a3e3472b9113",
+      "bytes": 25422
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/F0RigidBoost.lean",
+      "sha256": "9797d00e45d02d678cb3faf76d7f08b55126c18f3b96d7cb9f0bc88c477c50b3",
+      "bytes": 11042
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/FiniteBernoulliTail.lean",
+      "sha256": "def74029bf32bbbcdfd0166487bef3bfa759a15d26e56fba7b3fed2575b64df1",
+      "bytes": 3304
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/FiniteBernoulliUpperTail.lean",
+      "sha256": "2caf16187e457ff3021efbc1270e7114a79f76ac78165e1d551f3d70bea88e06",
+      "bytes": 2913
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/FinitePackingRepair.lean",
+      "sha256": "d01738a3c35876138d82b2964511775c8b174eee7d95927553c48f2648e5b85d",
+      "bytes": 3754
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/HingeCounting.lean",
+      "sha256": "e8d414d8284e6d4ee6d916e05043bdccf23f1c0f2e940be5cbbd8a51ee3f1b36",
+      "bytes": 8695
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/HingeTemplate.lean",
+      "sha256": "e7cf1c25f7062dbb01419f852a127482b548c6b085a09fb5d1e71a54f9796666",
+      "bytes": 2628
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/K5EdgeGadget.lean",
+      "sha256": "ade6156e1f45eec5795af6f1116d2c6a6079c788f0b9925c10ba355dcd781c9a",
+      "bytes": 1482
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ModThreeLayer.lean",
+      "sha256": "4dbbba0890836a6de77313232dc0f2fa520aa225203ffe94281a643ff81ba248",
+      "bytes": 28828
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/MoveLedgerStage88.lean",
+      "sha256": "01f05be9e52b62795fae8fe4ed37858c8deb39141a9e48190307278eb522aa8f",
+      "bytes": 6369
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/NearlyCompleteAbsorber.lean",
+      "sha256": "b81a9219a9013ebdc66386119f33fbd7daa1c32f390f7d5488191da3b114fc79",
+      "bytes": 5630
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Asymptotic.lean",
+      "sha256": "b8430931ecefbcf5cdc90e7804b1d1ab943b699b9abbd0cde41439ec42290ccc",
+      "bytes": 11603
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Conflicts.lean",
+      "sha256": "e483dde4df4739be9ca6c71961650b896d3d7931a607c9dc8b7752ad5fa54f30",
+      "bytes": 15362
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Consumer.lean",
+      "sha256": "d1a96d36e736cd12320bd2a5f19688732eeb5bb6289a4f2aa10a21fba14a9fb1",
+      "bytes": 5921
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/CubeTools.lean",
+      "sha256": "41c80f8e4ea72d7ffc1f7998708bc92d3b2a8ff7bcce79bfa3bc823084c6194d",
+      "bytes": 14590
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Geometry.lean",
+      "sha256": "a8e78c1fede1af21065d25b8b20dae59c7e443cf85c85bf1e6eabb7c61d52b19",
+      "bytes": 14282
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Iterate.lean",
+      "sha256": "407470b00b35c108657a6d0b69f9a7eec93050ceccefc97b182eec0a66963fd0",
+      "bytes": 8989
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Linear.lean",
+      "sha256": "e5dc4e3849e7a3fc4fcab1fb60d98b81b2f0df45c48fd66bd6d9172f83cf5a66",
+      "bytes": 6493
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/LoadTail.lean",
+      "sha256": "d1e01665b3ace803b6c380a5eb6cd731c681ac9af387092df354f6f55eebed9d",
+      "bytes": 19321
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Model.lean",
+      "sha256": "95d181bdedab9527a9b1cde6b05112af36294ed06cdb05786a8d0ea3200b58c7",
+      "bytes": 14650
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/NearConsumer.lean",
+      "sha256": "b3e5a8006dc153f3e0fe8dd4f41f2ebca558c3822d30ee166c4d0012215e1d1e",
+      "bytes": 7994
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/NearLoadRound.lean",
+      "sha256": "b2b50a7c57ca98f2860cac8232f97d54e7e693a0fe67001da8baa504cf0be532",
+      "bytes": 4849
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Reindex.lean",
+      "sha256": "a646dd7dc120c292e4900115e56dc83094464bebe7543cdd83b96934664e64d6",
+      "bytes": 5001
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/Round.lean",
+      "sha256": "6361ae2566886269ccacbcf9bc0cc970a5e91e12f89dad7e75b3decbbca135ed",
+      "bytes": 18881
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Nibble/StarTails.lean",
+      "sha256": "fbe5cbbf34de817c37f16636f3c414f4861d1d0b81838d440465cf9b48e5a31c",
+      "bytes": 9229
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/OnePartDivisibility.lean",
+      "sha256": "ecd2be7ca296d0e99a6a6582c93d597cf42d8791935dceac3c3f89d5e764ef2a",
+      "bytes": 5683
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/OrdinaryDecompositionTransport.lean",
+      "sha256": "0b3c2504ea4beabe68acc3e4749dabd4d0a61430a657b671a74308504f7773da",
+      "bytes": 2676
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PackingRestriction.lean",
+      "sha256": "46454428e0cd93ac515aa3b2776a0f0f2a1820dd076dbdcac1e57007fcbbe7f1",
+      "bytes": 9418
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PaddedDeploymentStage89.lean",
+      "sha256": "0f8e4b6624179e3780521fe133d3aea3b2d45bcb9192f8e664273ed94900f342",
+      "bytes": 6614
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairExchangeProducerStage87.lean",
+      "sha256": "a08cc184af008bfdc1672000cc84bf2440feea4c3aff4aab2b76a222ca0d31b3",
+      "bytes": 10815
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairExchangeStage86.lean",
+      "sha256": "81ae13e37f514cd1d1a3bd912d897d8cb235679c90242f4397ad3ecf0d7c9692",
+      "bytes": 4364
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairExchangeTemplateStage87.lean",
+      "sha256": "3e25ccfacf9a203fc841f6c084c0d16ab42707099a4072b0d9a78f47777bb795",
+      "bytes": 3425
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairExchangeTraceStage87.lean",
+      "sha256": "d3d031a694bf48f73807c65c2aec0bcba8816d64caae5295fa565478a22b1bc9",
+      "bytes": 7179
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairMoveAssemblyStage85.lean",
+      "sha256": "2eecb5d89b958188cfee501c7d857a5a7f0f95bf9a3d58d970a6207c009edf9f",
+      "bytes": 6904
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairMoveSelectionStage85.lean",
+      "sha256": "b0ac151637df7d4c6024b0d822ddb0eaec935ee4eea25c3f33c4343a7e6552a8",
+      "bytes": 11664
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairMoveStage85.lean",
+      "sha256": "f90795b01cfa0a307b25f084dda32aa3a56501e211b9154e82f94ef18d4664b1",
+      "bytes": 4883
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PairSplitDeploymentStage87.lean",
+      "sha256": "c4e8ef3c4268d5e01ab8a00f09dcd02f4eb843cc5a3e5fb2d130ee3198915834",
+      "bytes": 19250
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ParityChain.lean",
+      "sha256": "70f01c4aed1a0c0dfaa5a9cf08b2e3524268aa059f1639dc589681c52c8de701",
+      "bytes": 10117
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalCertificateProducer.lean",
+      "sha256": "5869be1cac8565594c73f9fed119f7430431f4fed86db3787edb866da6a3c4bc",
+      "bytes": 7199
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalHinge.lean",
+      "sha256": "73178b3821436da99621e9f08ec76cffbe2e6e323cf61aa04ef3d112c92ccf84",
+      "bytes": 6740
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalHingeSupply/Consumer.lean",
+      "sha256": "d23ed0c1329a6d2a3568b26ebad1500b8f149d38fa12d190efbafd175815560f",
+      "bytes": 7060
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalHingeSupply/Supply.lean",
+      "sha256": "13cc5678997d1682bb140d0fbd83515f09e3c743555145b93a9cb2be5efaa521",
+      "bytes": 11679
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalHingeSupply/Template.lean",
+      "sha256": "12e4cafc4f82868dec88c08e4c45424cfabcdbe295798d027957226dff10d191",
+      "bytes": 11415
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalMovesFrameStage87.lean",
+      "sha256": "9806071ff43b43a968355c918af529ccc38b4b7a08a8d72b32265e162538f448",
+      "bytes": 4051
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalMovesStage86.lean",
+      "sha256": "e391f4d668ff8633859ecdd2e31c5196063fdf18570214c773007ee6f4c1663b",
+      "bytes": 6152
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalPaddingStage89.lean",
+      "sha256": "4931e783150331fe4b2ffbb92569aaed7adf036e6f1150551f12d781e9e17d86",
+      "bytes": 9373
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalReserveTails.lean",
+      "sha256": "082c7176736041ada4ed9c2fd9a42ce0970ba5a754a17f6a5dacd987a62e313f",
+      "bytes": 4310
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PhysicalStarTail.lean",
+      "sha256": "3e3517e80fa3f974640c61b33938f85d83f359440bc54776cd6f4f9d1afe2903",
+      "bytes": 4451
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PositiveTargetBridgeStage96.lean",
+      "sha256": "5a8bd9dca9d6643d6dd6720d763c6bb8188a424a2b482b91baf83a1e11dea0d3",
+      "bytes": 2792
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateAbsorberProducerStage101.lean",
+      "sha256": "05990a01a7aefdcceaf5c51308461397b23cb339e4370e09c694dffe9fb686eb",
+      "bytes": 6603
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateFamilyProducerStage102.lean",
+      "sha256": "0a2e0bdd7a064fb5230022ecbdce86b1f33d1ed6861aa127f5b2a3f836a358dd",
+      "bytes": 7144
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/ClosedTrails.lean",
+      "sha256": "eddbd045db3ecb56f7b1e3adb6631350e86099b7774b76dd98dd1f4225ed63bb",
+      "bytes": 17463
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/Main.lean",
+      "sha256": "655469ddf66f98ad63a8a492a9efe71e8dfbb7854f90b654887f8825d4c2f773",
+      "bytes": 9771
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/Template.lean",
+      "sha256": "f5eb695b40098433e3f727748c6cdbb534169cc52e68ad1322a71e95e5dff48a",
+      "bytes": 6640
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/TemplateCounts.lean",
+      "sha256": "431152bfe533a472ecbebe96e65ec44fc9e7984ff5a4f32532a58094f74c83ea",
+      "bytes": 9073
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/TemplateDecomp.lean",
+      "sha256": "c7e8d147f0d6824e34f40d1acd06c8fc7aaa83439a0abbd1f6b750144d916053",
+      "bytes": 22537
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/TemplateOrder.lean",
+      "sha256": "50d6584652434b28331a80634f0e5417e8065e795d6368a5083f3b202ace11f1",
+      "bytes": 11402
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/Transformer.lean",
+      "sha256": "ae8bfc480a088b678b5da3f19b947fdfdae83b80991e3b840be34fc2005d368e",
+      "bytes": 12088
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/PrivateTemplate/TriangleBlocks.lean",
+      "sha256": "97588e8b5727f85212cc0f125aa30b1dca1fc44acfd6975f6ba1a92a0229c152",
+      "bytes": 8128
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RefinerAssembly.lean",
+      "sha256": "9c28ef4bea736c8614ce9251dd6ff35a27ac7a18ed1d2b3531162c8552718c93",
+      "bytes": 7986
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RefinerObstruction.lean",
+      "sha256": "de1f24feb7840c064e0443a5fadb8ff50a4ddadee3794f1444ae97bb808fa794",
+      "bytes": 10178
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReserveBudget.lean",
+      "sha256": "dffe83355c05953cc6242912a571c9e40893860fa3a402171914ddabdcf369d8",
+      "bytes": 1130
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReserveCoverDown.lean",
+      "sha256": "e94a443a97331e6058e4c8f3638b16ac219d5fa3e2ea7c5482537bc61dc75eb1",
+      "bytes": 10799
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReturnedAssembly.lean",
+      "sha256": "e1d97345ef492b7b8763bba53f1cb30310d25e56e40e53e7a4d28bf69e348953",
+      "bytes": 3384
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReturnedBasic.lean",
+      "sha256": "117f9f525a8dda1c0cf8b9f22333b8dcdd62dc0eb3b7152c9acd77ded98d8608",
+      "bytes": 9380
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReturnedBridge.lean",
+      "sha256": "999d0fd04611982b79dac8427d8fb71f8329e60104ffcdc2bbc6fb6b37a2eadf",
+      "bytes": 3299
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/ReturnedDivisibility.lean",
+      "sha256": "3a405747efaca1780a1d0c007f756c7c321121f4574fae69102242773671d7c7",
+      "bytes": 11137
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RootedAvoidanceCountsStage51.lean",
+      "sha256": "3eb168cd78386876428b0bfbf866ebdcaef6f660f24513fbb18957014b29c20c",
+      "bytes": 2546
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RootedEmbeddingSelection.lean",
+      "sha256": "5309931c9146510fb7dc933ed9ac08743d8e37439e89ace6917b52e75ae23813",
+      "bytes": 8693
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RootedTemplateEmbedding.lean",
+      "sha256": "30928939222388f3b261b32f58d90df5d386098ca0b59b68e3fdcbc0e9d9725c",
+      "bytes": 5859
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SelectedTripleCutStage98.lean",
+      "sha256": "05d2517b2a9a2f87824da3d3047ac1e0971435904335b29b0940ae550aa3834c",
+      "bytes": 12858
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SelectionControls.lean",
+      "sha256": "c8d0fb356c6e87e9e7451910220be75583e5bd3cf79858c028e77b6846eb6da0",
+      "bytes": 1642
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedAbsorberAPIStage57.lean",
+      "sha256": "d51085ac8264305f58295c6546983b2cfe83827fd0c538ad58106c49d2a7e316",
+      "bytes": 3169
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/Basic.lean",
+      "sha256": "775025493d290a98f898577c441a483eb916701d5b51cb0e4f27239c14bfa56a",
+      "bytes": 10342
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/Controls.lean",
+      "sha256": "96250924c22b735bd1c4e88e22dd3d1a452c622412403703923ed8569fe4ea8a",
+      "bytes": 23482
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/DoubleHexagon.lean",
+      "sha256": "75a9f92e0eb1e0e85b8e92017666a9f0ad511a56805ced464a1478148f9cc36d",
+      "bytes": 18264
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/DoubleHexagonAbsorber.lean",
+      "sha256": "8db00761d9e693eaf3c26f3a2c56f21cb12216eabe1df05804807722f6a09785",
+      "bytes": 16279
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/Localization.lean",
+      "sha256": "c10d97ff1c87d93aefad7e6f9e28c140416ff7c167d25af6875adeb7130914e3",
+      "bytes": 13133
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/Packing.lean",
+      "sha256": "531d0672659bff38004d229e653018ae2831f2f6a19a76843d3f2b599caba314",
+      "bytes": 12681
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedCertificate/Reduction.lean",
+      "sha256": "286238ae9b89cf79a4d32c2689b76b62585a072bcecab2e95ed62770844db05d",
+      "bytes": 7973
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Assembly.lean",
+      "sha256": "7473e41d4f85a0444f24c1f9879446b0ef9f0bb69907dd335721f9850bdc5898",
+      "bytes": 14830
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Core.lean",
+      "sha256": "9bb42a27b7444515e5cd38c98ecda68aafda929d2b95331bb825c95f291f9038",
+      "bytes": 13848
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Expansion.lean",
+      "sha256": "c6c47cc13d869932b838aa4f2c7b801cec2cc304e7f028b35bcd838a8975fb6d",
+      "bytes": 7063
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Gadget.lean",
+      "sha256": "60331786950543eb36f6e6b7934d5fbfbc974059f8029dc6792af84dd5f214fe",
+      "bytes": 10918
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Groups.lean",
+      "sha256": "9a2aa3805812ee697338681d8fba75305e8e69d56c3759acee6e7019ca8846e9",
+      "bytes": 4476
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Main.lean",
+      "sha256": "dad6aac9fbfd2e978236d2fd61827745a00f3c295b6142c6662323e4d708adab",
+      "bytes": 18506
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Select.lean",
+      "sha256": "1f903e73ed82728fc545b569f3c6de5e839318be22a2fecde191ecf28eb3ea25",
+      "bytes": 9180
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/SlotSelect.lean",
+      "sha256": "2bf2ea78452971a1bd17e651be03bb0c2005ad4e1cc28b2523fab4bd52428319",
+      "bytes": 7639
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Slots.lean",
+      "sha256": "e19b9a3e0db00fb0e9929fd1a8a8cd6989f7661e3bca4c9dc1a2653fc9d336e1",
+      "bytes": 14319
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHinge/Wedge.lean",
+      "sha256": "c12ede35bd03d3d5675b702d6bedc959866b4b0d83de1515faca27896df36891",
+      "bytes": 4236
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SignedHingeStage53.lean",
+      "sha256": "92741270d78378c295e42dbc948a74ae7ee01c4c481ae594f2cd768e0ff6dd88",
+      "bytes": 607
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SparseReserveGeometry.lean",
+      "sha256": "659acb3bd14960643b71ef7d78225a634178e870087f56dcfb61a1e4e1247e97",
+      "bytes": 4466
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage10.lean",
+      "sha256": "0aa0d6363dabf62d4a36bbcf0447b484ac2b1150fa6d2f52015581f5ece351ac",
+      "bytes": 393
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage11.lean",
+      "sha256": "f0b11671adf432f4df3553036c4059f75a034580e0eecb38a9f675921a6a02da",
+      "bytes": 907
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage12.lean",
+      "sha256": "49c91821dfb258432aa5937964fb387d697a1be8f3b72573878670089af51807",
+      "bytes": 783
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage13.lean",
+      "sha256": "a903583aa31c4f52413ca27719ebaaaa59d6873be3d4dd4b236352ba9803873e",
+      "bytes": 915
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage2.lean",
+      "sha256": "4540b8badd0eec586a39dbca60423bf9dec9df481e67b8fc9967a015a8bf82f3",
+      "bytes": 473
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage3.lean",
+      "sha256": "ea67e9962228d54135313a66bec6d1332d93347affe6edf28098b32ec468fb49",
+      "bytes": 499
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage4.lean",
+      "sha256": "c51c2cee182ffbcdabf0833d0cf27f06b5253428ac6f1c7bc8cfdf850930330c",
+      "bytes": 381
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage5.lean",
+      "sha256": "71d51af63a019687346773c6427d665eaeb4782cc4f55b4c6224a3efb421e4ed",
+      "bytes": 380
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage6.lean",
+      "sha256": "99609e1b9ec1d211fd27fbd40a6fdd3e4e2d198162475861b9b7d3505be089fa",
+      "bytes": 491
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage7.lean",
+      "sha256": "2de2bc8d7558893cccf344cc75f31d1ac5098f1cc75ed7e6d662708071306273",
+      "bytes": 439
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage8.lean",
+      "sha256": "4085bc751057479540de9ac17dd396d27269914d5c9e66c803b82f5982883b4f",
+      "bytes": 459
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Stage9.lean",
+      "sha256": "396635f8949a3d3e97ff72ddf5a1a93035ea4a70662cb3af3826ca5593bce4a0",
+      "bytes": 381
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/StarResidualControl.lean",
+      "sha256": "ce08151ee1e975d8fc22f3e7f11200dca6cb63e58feb7ce153808d262cbae2db",
+      "bytes": 5683
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TargetTripleSelectionStage95.lean",
+      "sha256": "6df64cb27e118ec7a29a662a1d4789f5110a3e6056cfaf7f797d1e4fb2168e61",
+      "bytes": 9454
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/Transformer.lean",
+      "sha256": "660f8f979a75a4d8c4049c2005ce6e0fb6b8eff718d45539eb79319f9e441253",
+      "bytes": 4538
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutBridgeStage94.lean",
+      "sha256": "e3c4460bf8483ccc9fb6939428aa0c9d9cbe6383b2749392a4879fc3db43261d",
+      "bytes": 12402
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutCornersStage94.lean",
+      "sha256": "8d85e544393c7315607cbe0ae5a47d0b3ff11da291aacff721d43bebc30deb63",
+      "bytes": 14874
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutExchangeStage94.lean",
+      "sha256": "0461301e3812f54aa70cc0201e501823deeec2635f0c4fca9230c6ec4f986b99",
+      "bytes": 16882
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutInductionStage94.lean",
+      "sha256": "e3bddfa1b19f639c6acc909b0d68c27512d9e8712d69cff905e1bdae09de30e7",
+      "bytes": 11666
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutInvariantStage94.lean",
+      "sha256": "a4ea9550e9b44b9831c787f34c7fa3194af544030750d9253187873ebe6e9446",
+      "bytes": 9724
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutLocalStage94.lean",
+      "sha256": "6b1c0428dd9ac0c3d01e825ef0f314d86e9988f7104688ac0a1ad853f1be164c",
+      "bytes": 25548
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutPartitionStage94.lean",
+      "sha256": "fe59b5c907570294ce667d83f64fda3f00dc6c346b5b65788cd085133f8c3e0b",
+      "bytes": 3013
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TripleCutStepStage94.lean",
+      "sha256": "631938d6fb0897da3c5be398b7e854b53b12791e03fd7d93ae0361e9b7ce4434",
+      "bytes": 29632
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedApplicationLinks.lean",
+      "sha256": "6eac263c5dafe3c88258f4af831c92420f6b052c0667621c94bbe06463a76682",
+      "bytes": 5140
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedBoundedCoefficients.lean",
+      "sha256": "dfc0dbe20c4c201f97f00cca85567a62a198a012dada579e09c6d5c9571977d4",
+      "bytes": 5680
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedCatalystBridgeStage93.lean",
+      "sha256": "c7791958e96ad117c951bfa5bce6dadcc80c20acf3f03267d6b833296b284330",
+      "bytes": 9823
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedCoverDownConsumer.lean",
+      "sha256": "4ef1b9a3f0d30d835d2cc74e69ae64954668ef09b49b5a8f487321796e159848",
+      "bytes": 8633
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedDeploymentStage90.lean",
+      "sha256": "ca3b0e5df71f39345237671fbc8cdc5cf8bac5f16dd7ebcdad7062df6b398945",
+      "bytes": 14584
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedDivisibilityCollapse.lean",
+      "sha256": "771fa7e027403579fae6edf9430281a01edf7963a4ff6b00101cef7e000009d4",
+      "bytes": 11386
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedEmbeddingSelection.lean",
+      "sha256": "b6471753ed94d9a774e761c69476a912048477bdb5adcd431202af60d57a2fc5",
+      "bytes": 2640
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLatticePadding.lean",
+      "sha256": "be7a285a0f931bfb82ec288381b39ddc91938583f58e901380870eeba09a2617",
+      "bytes": 10089
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLinkArithmetic.lean",
+      "sha256": "ccec70bc23bb0a2b756bfa0724614c7ba0adb419893a7d980030f4fc90c1077c",
+      "bytes": 2613
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLinkCoefficients.lean",
+      "sha256": "b5ba0a893db69c45817fe8b9b4500863b7cd268ef99aa6bb88dcccb5b2fa5999",
+      "bytes": 4559
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLoadCounterexample.lean",
+      "sha256": "3b49421bbefc7536bc5e937cd7f80205f2e4c72f7276963a5c2c3ad0fc3f6480",
+      "bytes": 18124
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLoadFamilies.lean",
+      "sha256": "8eaf4df4640bd49b75d2bbfe5ace0f3177486a4afd297f18d3ba6a03c7a769db",
+      "bytes": 5607
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLoadNecessity.lean",
+      "sha256": "0fd18965a2961b5e9761a3628065657c54c324bb60f6c489a501e45642bf1945",
+      "bytes": 15242
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLoadPreparation.lean",
+      "sha256": "4f0e8c81e2fce8924ed35f5542dfeae13c705450a959c50813dc126f9664b50a",
+      "bytes": 7303
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedLoadReserveObstruction.lean",
+      "sha256": "80697fdb4213a6f5aef8c12249548e23f7970f74784292c8fc33d07a91880c05",
+      "bytes": 9602
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedNearConsumer.lean",
+      "sha256": "051844055d2abef38d08f83ad326b010d3d8da8967dd227a89d37d35f0b1e4ee",
+      "bytes": 8952
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedNibbleAdapter.lean",
+      "sha256": "d842b187275820a874481ef9cfeb85c3f4800f98be0b9d58e15a9ead587a509e",
+      "bytes": 10012
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedPaddingProducer.lean",
+      "sha256": "757e12d5189bff2436d695b82c9bd72f6cb99161ff562b210c80feb036f9464d",
+      "bytes": 4647
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedPieceConditions.lean",
+      "sha256": "e2b64968bbc7e690de1c28272b0b5182a660574c3145c9e35779978fcdf8dc18",
+      "bytes": 2269
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedPreparationStage90.lean",
+      "sha256": "d4b68daec7fb0c8aea910598840dcd4bb96bb85f0ec21fb713e49d9abd1fcf1f",
+      "bytes": 4640
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedRefinerCharge.lean",
+      "sha256": "60933c57e83cf028abe6a43ffb7aab90458b1925d52c1ccc69cb5aee43a0c58b",
+      "bytes": 9059
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedRefinerTransport.lean",
+      "sha256": "95c9333e3aeb0846fb675eab01a6d0e8c377550989efe546c35174f69edf3d20",
+      "bytes": 7699
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedTransformerConstruction.lean",
+      "sha256": "190a86a5f7716fbb6d8c17c9dabc13b0860c3209a14defdccf834d3ff0d3623e",
+      "bytes": 3570
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedTransformerLabels.lean",
+      "sha256": "d4da777313904638406c7a250f2db67923c91c974d7cb44e823786c879a3d2ea",
+      "bytes": 5490
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/TypedTransportExamples.lean",
+      "sha256": "257b4e375373fb251323eee2abc2f7ff9fb89cc6a8cdbade2d693033e7afb0b8",
+      "bytes": 16509
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniformBoundedCoreStage104.lean",
+      "sha256": "365735ee81eb57fb53c18d35e97c557af608f0066153d9f81939e9e5c1c4afe8",
+      "bytes": 3036
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Assembly.lean",
+      "sha256": "2a3e6ec4bc0d34deaeee6d5770b35f8354321d70732199c6f429b10d55dfa2c5",
+      "bytes": 12883
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Basic.lean",
+      "sha256": "bd6836ecee31c0c337cd36fec2f9612e80e2a2b501164c9cbb7e9a65ef04103e",
+      "bytes": 13840
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Counting.lean",
+      "sha256": "5357bba77aa76b58601f43011ebaed40036b9267b31001101efcd53679a7dcda",
+      "bytes": 18987
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Global.lean",
+      "sha256": "310508d865cab79fe68608f41e5a8fe1e8ac57ec4e9e80c6310e79844d9df088",
+      "bytes": 13926
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Heap.lean",
+      "sha256": "2d131554075637f1e9b35f50076fa18a90d4de07039913440f9383f91acad2e7",
+      "bytes": 13996
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Hierarchy.lean",
+      "sha256": "612cc559bef9ec3d98bfa0e178dadb75188b2c330484490ab47394bc035154ee",
+      "bytes": 7556
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Level.lean",
+      "sha256": "d497859f48a088592b418f8af84398e497fd0c5f72802b5f41c2520e5933cc03",
+      "bytes": 48274
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Loads.lean",
+      "sha256": "ab32780581a954a10d05a3d3516eb776cc506e1419d07c670d6b4fc84e369a27",
+      "bytes": 10080
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Main.lean",
+      "sha256": "c6468d386f382028fca8d3e33cc9e84d7a6e7914eb4400107f9c517ce9c1e78e",
+      "bytes": 14387
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Physical.lean",
+      "sha256": "1b4cf1ee711ca107c19e37fa6387e7cbe845d879c5fef003c78a3c05b2c20f66",
+      "bytes": 7960
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Producer.lean",
+      "sha256": "cd13387b4a09b9bc09fbad2311e6c5b55bbeb14789e0831fe813637a94cc5f24",
+      "bytes": 12239
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/UniversalRefiner/Transport.lean",
+      "sha256": "720d4d6165a1d50eb9513a4cd16e09d80c3e0d7ff0c50429f94d746e4d1fb4c9",
+      "bytes": 7697
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/RefinerConstructionBudget.lean",
+      "sha256": "503d38b25dbb9341d8513206e3efcc98ed536872f43278fd6027c717d686a97d",
+      "bytes": 3341
+    },
+    {
+      "path": "PartitionedTriangleAbsorption/SparseReserveTailBudget.lean",
+      "sha256": "faef6eb8921b6dc304ca992959569ea46ef1681ff4372f7aba7402e871873f6d",
+      "bytes": 2479
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "4609eb016c7c9b1dd01efb0c3fabe57eef366b728c8d30f37f55b7dba130e304",
+      "bytes": 612,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "PartitionedTriangleAbsorption/BlowupB/Kappa/InverseKQ4.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jtraverso/typed-triangle-absorption",
+    "source_commit": "673c6d4118b5679783bafa7606fd2c611161a254"
+  }
+}

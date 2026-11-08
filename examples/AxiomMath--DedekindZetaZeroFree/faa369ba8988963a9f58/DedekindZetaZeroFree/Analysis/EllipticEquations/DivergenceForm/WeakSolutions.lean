@@ -1,0 +1,71 @@
+module
+
+public import DedekindZetaZeroFree.Analysis.SmoothFunctions.CompactOpenHolomorphyAndMeromorphy
+
+@[expose] public section
+
+noncomputable section
+
+namespace DedekindZetaZeroFree.KPContLocalEnergy.SobolevEnergyEstimates.Raw
+
+open MeasureTheory
+open KPContLocalNorm
+
+def zeroIndex (n k : ℕ) : MultiIndex n k := ⟨fun _ => 0, by simp⟩
+
+def firstIndex {n : ℕ} (i : Fin n) : MultiIndex n 1 :=
+  ⟨fun j => if j = i then 1 else 0, by
+    simp only [apply_ite Fin.val, Fin.val_one, Fin.val_zero]
+    simp⟩
+
+def value {n k : ℕ} {B : LocalBall n} (u : IntegerSobolev B k) : BallL2 B :=
+  u.derivatives (zeroIndex n k)
+
+                                                               
+                             
+                              
+
+                                                                      
+                       
+                                             
+                                                          
+                                                                                
+                                                                   
+                                                                 
+                                               
+                                                    
+                                               
+                                                      
+
+                                                                
+                                                                     
+                                      
+                                          
+                                                                     
+                                   
+
+                                                          
+                                          
+                                                     
+                                   
+                                          
+                                                       
+                                                               
+                                                                          
+                                                              
+
+                                                                   
+                               
+                                                  
+
+                                                              
+                                                        
+                       
+                                                                                   
+
+                                                                     
+                                         
+
+end DedekindZetaZeroFree.KPContLocalEnergy.SobolevEnergyEstimates.Raw
+
+end

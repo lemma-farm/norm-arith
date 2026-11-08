@@ -1,0 +1,136 @@
+{
+  "id": "8f43e49609429517bd6a",
+  "source": {
+    "repository": "sascha2718/qi-trees-and-matching-lean",
+    "commit": "35e78969d036b4f663fc9a96d8c22750834a6ac4",
+    "project": "sascha2718--qi-trees-and-matching-lean--35e78969d036",
+    "path": "GraphMarkovMatching/Stopped/FourLaw.lean",
+    "file_id": "07e838a7559e28965bcf",
+    "source_sha256": "07e838a7559e28965bcfbc082d0b42699094f980f93447c3582f772e613af78a",
+    "start": 984,
+    "end": 999,
+    "original_start": 915,
+    "original_end": 999,
+    "declaration": "fourLaw_contraction (hZ1–hZ4)",
+    "source_url": "https://github.com/sascha2718/qi-trees-and-matching-lean/blob/35e78969d036b4f663fc9a96d8c22750834a6ac4/GraphMarkovMatching/Stopped/FourLaw.lean#L984-L999",
+    "archive_url": "https://github.com/PalomarArchive/sascha2718--qi-trees-and-matching-lean--3baa1f2ce694/blob/35e78969d036b4f663fc9a96d8c22750834a6ac4/GraphMarkovMatching/Stopped/FourLaw.lean#L984-L999"
+  },
+  "native_target_name": "GraphMarkovMatching.Stopped.fourLaw_contraction",
+  "source_declaration_label": "fourLaw_contraction (hZ1–hZ4)",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "03e99c57dadd554f1605d22e582dab91d58cf8c5d71982be0351bbbf2e0b37f3",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4b3472e85e8f304c55d87146e8c16b701d4483552f9d7e057aeef4a58cc4053d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GraphMarkovMatching/Potential/Degrees.lean",
+      "sha256": "8366a4ce0e5a7c6f666bcc62d228c5084041d8f1c7fc76dd1d22d3209ae4beee",
+      "bytes": 3587
+    },
+    {
+      "path": "GraphMarkovMatching/Potential/Directed.lean",
+      "sha256": "37b5be75e315662cf153c408e94ca5a3bf056bfc81fb939054c12052199f9282",
+      "bytes": 5333
+    },
+    {
+      "path": "GraphMarkovMatching/Potential/Inverse.lean",
+      "sha256": "24a8fc8142b196b5a7dee3a131e623ca39a51f1432df8a5f818a157e4aef2cd8",
+      "bytes": 2955
+    },
+    {
+      "path": "GraphMarkovMatching/Potential/Restricted.lean",
+      "sha256": "287cb7de783128104206d0a0b509808cef5db61a7bcd72b96e8f47eb62a94507",
+      "bytes": 14323
+    },
+    {
+      "path": "GraphMarkovMatching/Process/Basic.lean",
+      "sha256": "84a1bcacd411abe255b09ca55dc949400a24e743c586c5f34009c6c5354d1831",
+      "bytes": 5490
+    },
+    {
+      "path": "GraphMarkovMatching/Process/Sim.lean",
+      "sha256": "995ee38ad45fa20a4fd1600b3dc2238e36370cd01572c63b2df77f88ed55b0d3",
+      "bytes": 2690
+    },
+    {
+      "path": "GraphMarkovMatching/Stopped/FourLaw.lean",
+      "sha256": "07e838a7559e28965bcfbc082d0b42699094f980f93447c3582f772e613af78a",
+      "bytes": 65040
+    },
+    {
+      "path": "GraphMarkovMatching/Stopped/Scalar.lean",
+      "sha256": "141bffafc9dfc0d1c5b1a9dc3d804025a535fe3529e35e55a0876a8a41cfe23c",
+      "bytes": 27436
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Contraction.lean",
+      "sha256": "106a548c5670b718ba0ffddc13cc3d6c08f8e3d755af8a9d588191bad3604a5e",
+      "bytes": 3575
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Pairing.lean",
+      "sha256": "6273984ca3154b853cc3359682596a3990fc00a3a1d8d09719f7af553490b2e1",
+      "bytes": 18965
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Phi.lean",
+      "sha256": "09a5a1c9e64af4861733e27d7036fb02fea7cf2647723bd6c687e3f501b7f6cd",
+      "bytes": 7723
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Potential.lean",
+      "sha256": "f6e7642b14d3cc50d9d4d9a9af065acadf965251c1c912f19d05be7069bbbd42",
+      "bytes": 5981
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Product.lean",
+      "sha256": "63e720035c156711c71b14b2723401215a6b7312c86d8e70df0f6764b21b93ca",
+      "bytes": 8769
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Square.lean",
+      "sha256": "984950669cf8d753436c6ecad4c600a2b035280e231d1dd33397b2fc2911f982",
+      "bytes": 13551
+    },
+    {
+      "path": "GraphMarkovMatching/Support/Tree.lean",
+      "sha256": "9b841c0414101eee906c4565da8733890fad9bac7f2aee7fd4964cf751f3ae3d",
+      "bytes": 6173
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "09c74382b5e859a022b8b05746d60dac0512503c38aeb118599f329db6180e64",
+      "bytes": 591,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GraphMarkovMatching/Stopped/FourLaw.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/8f43e49609429517bd6a": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/sascha2718/qi-trees-and-matching-lean",
+    "source_commit": "35e78969d036b4f663fc9a96d8c22750834a6ac4"
+  }
+}

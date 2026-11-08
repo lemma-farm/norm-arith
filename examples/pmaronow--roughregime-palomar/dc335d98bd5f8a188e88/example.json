@@ -1,0 +1,281 @@
+{
+  "id": "dc335d98bd5f8a188e88",
+  "source": {
+    "repository": "pmaronow/roughregime-palomar",
+    "commit": "ec97825d7539266fd3ebd9d0527c34b0ba5d0f65",
+    "project": "pmaronow--roughregime-palomar--ec97825d7539",
+    "path": "RoughRegime/SourceProfileRescale.lean",
+    "file_id": "0106f0815ea9581decb4",
+    "source_sha256": "0106f0815ea9581decb49598f5f5fa0cb2ecaecc69e3673fe5e197ddf31973fa",
+    "start": 59,
+    "end": 73,
+    "original_start": 13,
+    "original_end": 73,
+    "declaration": "source_profile_increment_holder_bound_rescale",
+    "source_url": "https://github.com/pmaronow/roughregime-palomar/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/RoughRegime/SourceProfileRescale.lean#L59-L73",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--roughregime-palomar--9ee2236482f9/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/RoughRegime/SourceProfileRescale.lean#L59-L73"
+  },
+  "native_target_name": "RoughRegime.LatticePriors.source_profile_increment_holder_bound_rescale",
+  "source_declaration_label": "source_profile_increment_holder_bound_rescale",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "6b98f9196d34e1b96fc9a016947a0e3e15f537dc6851aa92a20bcba813b06616",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3ae8e85bca78b8f0ab19cdba78a9536bb0ac2b22219a48e71fc1fc7ec1c180eb",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RoughRegime/AffineJets.lean",
+      "sha256": "53c94700d20298131f266af3e5009649c2fa3f2b049cb90e76aa0ccbcb4e9371",
+      "bytes": 1723
+    },
+    {
+      "path": "RoughRegime/BoxConvolution.lean",
+      "sha256": "d02537b3a184dc449abebdfe5bfd95cb326187253a4638298c5513a04c9289c9",
+      "bytes": 4023
+    },
+    {
+      "path": "RoughRegime/BoxKernel.lean",
+      "sha256": "3179ec095b43e10b0d6b816cac6713fc62ac1b01f1a5561816fea9f15760401a",
+      "bytes": 691
+    },
+    {
+      "path": "RoughRegime/CompactJets.lean",
+      "sha256": "285b416c1a8fa63ece6713734b5c3a0b8b2ac9fea222233c941aabf08a4f6be1",
+      "bytes": 4206
+    },
+    {
+      "path": "RoughRegime/DyadicCollars.lean",
+      "sha256": "b922d6cbc2d19b0b0668e82e7b09b8eaf9977310a6a9b59c6b10ab4ae37520fc",
+      "bytes": 5230
+    },
+    {
+      "path": "RoughRegime/DyadicTensor.lean",
+      "sha256": "adac3db2a6f98803d8be335e6fe6c1cd60fd0cddb9fc41defa28fb1d7c6816cb",
+      "bytes": 3955
+    },
+    {
+      "path": "RoughRegime/DyadicUniform.lean",
+      "sha256": "b125500c7ba3e98775248dffff81f6af6c875485ffb185a84c32ab0250bc839a",
+      "bytes": 8764
+    },
+    {
+      "path": "RoughRegime/GateLaw.lean",
+      "sha256": "a4d6585767c8852f08dad639bea6f034f279f56ba9e46bf9b0b69ee4591505ab",
+      "bytes": 20782
+    },
+    {
+      "path": "RoughRegime/GateRoot.lean",
+      "sha256": "b562034235bdca4d1f17113ff31bbd05773b5cabea0948fc4a4a3e0d976de4a8",
+      "bytes": 2487
+    },
+    {
+      "path": "RoughRegime/HierarchicalDerivativeSums.lean",
+      "sha256": "9bdf617675542368736e092982e3e07a2fb3669d0e98f21300d2f3350fd4226b",
+      "bytes": 3902
+    },
+    {
+      "path": "RoughRegime/HierarchicalPhases.lean",
+      "sha256": "0979a08c37d3f235468b8e829d33c9ccbc37f7015aa86bf9b07a3711454b0268",
+      "bytes": 10036
+    },
+    {
+      "path": "RoughRegime/HierarchicalSums.lean",
+      "sha256": "40bccc6ea56a711533de0a83d19068fcfb677d6dfd66cc21bc8e4cee8260eb16",
+      "bytes": 5992
+    },
+    {
+      "path": "RoughRegime/HolderConstants.lean",
+      "sha256": "7228044d0c135332212c21ccb6099edfb0d435d16d067285ede6c26b06582ba1",
+      "bytes": 3608
+    },
+    {
+      "path": "RoughRegime/HolderGeometry.lean",
+      "sha256": "7fcf5addb0ef53fca617ed3ce7ebf3cc96741f4e20d8f013d469964b8174ecbe",
+      "bytes": 2013
+    },
+    {
+      "path": "RoughRegime/HolderModulus.lean",
+      "sha256": "0ca55977f93f4c1de81db98c53ddd75cf8ec342b4b6f8b17819ed23e9d997f55",
+      "bytes": 5940
+    },
+    {
+      "path": "RoughRegime/HolderRegularity.lean",
+      "sha256": "768a787c4a50e4234a8f02f220f0602ac11dcc1852a131eae532e220e5f01ac6",
+      "bytes": 4085
+    },
+    {
+      "path": "RoughRegime/JetComposition.lean",
+      "sha256": "11f5c68245d538ca8e8bf4cbe2df2493c2c819c4f912ddb27e163f51a37d55a5",
+      "bytes": 6394
+    },
+    {
+      "path": "RoughRegime/Lattice.lean",
+      "sha256": "58969de991be4405220efdb68ece7f9830cd5540bca669733a3391c3a985c7fe",
+      "bytes": 20171
+    },
+    {
+      "path": "RoughRegime/LatticeConstruction.lean",
+      "sha256": "85074cf01096bcd711023cbb4cfef03be3f939073ddd259097db0138c73dce2d",
+      "bytes": 9526
+    },
+    {
+      "path": "RoughRegime/LatticeFourier.lean",
+      "sha256": "56619ee6a512f4cd82bf668c443c1bc2b1eace6327b5505697f0a422aec3d7af",
+      "bytes": 3170
+    },
+    {
+      "path": "RoughRegime/LatticeHolder.lean",
+      "sha256": "7e68ae2cbaf2bcb7c0c29ad2666612c769480dd83460542c34f31d949bf18fce",
+      "bytes": 7842
+    },
+    {
+      "path": "RoughRegime/LatticePenalties.lean",
+      "sha256": "e8a006dbf2ff4b25e9426b897293fb5bfedbf7be35e3c687fd02e2690df270a3",
+      "bytes": 10757
+    },
+    {
+      "path": "RoughRegime/LatticeScales.lean",
+      "sha256": "79f408c0e49e1f15062f7b906c110251babdaebc7ffa8e02ded849b9377c95c2",
+      "bytes": 11244
+    },
+    {
+      "path": "RoughRegime/Model.lean",
+      "sha256": "e0ff74aab13785c0148b02c0500cb8fe31c5f3c5128f5eaeba2b7b975a1c8885",
+      "bytes": 17749
+    },
+    {
+      "path": "RoughRegime/ParametricJets.lean",
+      "sha256": "ccc4e247f0c9bd146386ddcdd46660dcbeef172bd49fdefa647c5efbf8e43bf8",
+      "bytes": 1647
+    },
+    {
+      "path": "RoughRegime/PhaseDerivatives.lean",
+      "sha256": "801d12ac31caad740a306a9a4c7a7aa49bbd7adc7ac344276b5e4b504a6eb811",
+      "bytes": 4032
+    },
+    {
+      "path": "RoughRegime/PhaseInputs.lean",
+      "sha256": "201d01eafb27809399905d79da7af0b52b1518f918069533b6c931e4085466e2",
+      "bytes": 3254
+    },
+    {
+      "path": "RoughRegime/PoissonSampling.lean",
+      "sha256": "ceea6c4d9d686c42e436458e10fcca998f6d3bdfc6bc0d74f472c5f3af0a318f",
+      "bytes": 6702
+    },
+    {
+      "path": "RoughRegime/ProfileJets.lean",
+      "sha256": "a01fbf36032b127e21a2cb7ed7af2382086ef1a3a8a4f336443a166a126f10cb",
+      "bytes": 7146
+    },
+    {
+      "path": "RoughRegime/Rates.lean",
+      "sha256": "02e39f253d51f4183003ba5a96cab2846f882498c34454fe2d7a23694c539110",
+      "bytes": 4167
+    },
+    {
+      "path": "RoughRegime/ReciprocalComposition.lean",
+      "sha256": "40e34c4591e6500f222e992d7d579e7eddc06c618e5b901e6a7e0f115b88c81c",
+      "bytes": 11094
+    },
+    {
+      "path": "RoughRegime/SamplingDecay.lean",
+      "sha256": "60b8b7a2614f5845a183cc1afead274d99a5251cab3bc5ddd5f3aa2c51276663",
+      "bytes": 1344
+    },
+    {
+      "path": "RoughRegime/SelectorDerivatives.lean",
+      "sha256": "2dbfeee30c7375c5a2ffef22443db068c42527e0826236f63bab8167bba6c1aa",
+      "bytes": 6416
+    },
+    {
+      "path": "RoughRegime/SelectorFrechet.lean",
+      "sha256": "639eb9f618532c6f4be6874cf00a6b2389e839ee789b71f5d988a1c65f195c69",
+      "bytes": 2142
+    },
+    {
+      "path": "RoughRegime/SincDecay.lean",
+      "sha256": "08de58ff2bbe134a01a6b138188133de367cb563d1dbf0ae67c233c17036f205",
+      "bytes": 8097
+    },
+    {
+      "path": "RoughRegime/SincSupport.lean",
+      "sha256": "6ae2402bd78d895e8b523a834718d98fbad1254cb9cb0061b0a6fd430da6edad",
+      "bytes": 9259
+    },
+    {
+      "path": "RoughRegime/SoftDigits.lean",
+      "sha256": "fde4c3824ea8c7c0cfac280146e8e3a8c1d893aedf835d02a111ad9a29b42537",
+      "bytes": 12154
+    },
+    {
+      "path": "RoughRegime/SourceProfileHolder.lean",
+      "sha256": "e5c012203a27d5de74dbd89419a77c48000fcb2b71a7fc14ce6b1a43a60af837",
+      "bytes": 13222
+    },
+    {
+      "path": "RoughRegime/SourceProfileJets.lean",
+      "sha256": "25ffcdd1e8a0b4e021018c9da575e55b4509ff4c8615e060d32ceb73c1beb88a",
+      "bytes": 15123
+    },
+    {
+      "path": "RoughRegime/SourceProfileRescale.lean",
+      "sha256": "0106f0815ea9581decb49598f5f5fa0cb2ecaecc69e3673fe5e197ddf31973fa",
+      "bytes": 15325
+    },
+    {
+      "path": "RoughRegime/TrianglePowers.lean",
+      "sha256": "188b4ef349007eaa63fac068f741843f179bf3b8d6117e719d6cec6d260a0314",
+      "bytes": 2521
+    },
+    {
+      "path": "RoughRegime/UniformCube.lean",
+      "sha256": "db28f98cab5105b0108215a5d4c51acdee73759c1271db680a19f569eeccff6f",
+      "bytes": 1312
+    },
+    {
+      "path": "RoughRegime/Upper.lean",
+      "sha256": "41401eaff2042252727eee1c10bea35cfc33fa93e1d5bb52e19a65f09d9efbc9",
+      "bytes": 23712
+    },
+    {
+      "path": "RoughRegime/WeightedJets.lean",
+      "sha256": "7ee71597b46f23f18bd6fcb0007b66625c24d9b0d730016418b0de004f136e98",
+      "bytes": 8542
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "93da968535fed7d642359a7f7490ec6ce4f700e331d0baf755ffc6b9e432d77d",
+      "bytes": 601,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RoughRegime/SourceProfileRescale.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/a4c0cbfc347b02124461": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/roughregime-palomar",
+    "source_commit": "ec97825d7539266fd3ebd9d0527c34b0ba5d0f65"
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "id": "a99663d32606dd42840c",
+  "source": {
+    "repository": "scottnarmstrong/Frohlich-Spencer",
+    "commit": "e01623b7347c272eac9480f04743f38b8d0df223",
+    "project": "scottnarmstrong--Frohlich-Spencer--e01623b7347c",
+    "path": "FroehlichSpencer/BKT/Clock/Disorder/GridLocalFactor.lean",
+    "file_id": "017e8ee8af037923858a",
+    "source_sha256": "017e8ee8af037923858a926dff095a540832cfdef8aff92774df82aa00997cef",
+    "start": 223,
+    "end": 269,
+    "original_start": 210,
+    "original_end": 270,
+    "declaration": "genericEdgeProduct_bounds_loc",
+    "source_url": "https://github.com/scottnarmstrong/Frohlich-Spencer/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/Clock/Disorder/GridLocalFactor.lean#L223-L269",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Frohlich-Spencer--d2b386690b28/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/Clock/Disorder/GridLocalFactor.lean#L223-L269"
+  },
+  "native_target_name": "FroehlichSpencer.BKT.Clock.Disorder.genericEdgeProduct_bounds_loc",
+  "source_declaration_label": "genericEdgeProduct_bounds_loc",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "0f8f7c88b91af680a43a5217e1b99ce3898df81af2c25d87d0916691e5e4caed",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "ca9e38cec2ba73943ecacd78b97044419a476ec8712caaf8289012d3ac198e9e",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FroehlichSpencer/BKT/Bridge/GFFMeasure.lean",
+      "sha256": "d51539167481afd2657367254f791d83928619420b1a328fe1a25a0d2418a7bb",
+      "bytes": 2565
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Bridge/LogBoundTransport.lean",
+      "sha256": "85c86a0691edc62cd181bf5a0a430a1bf7173bf1844a249b3af2523cd4861469",
+      "bytes": 5894
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Bridge/SquareCarriers.lean",
+      "sha256": "576e157027fd0cdb0eb791e1a3c85c4707246ad25a0c2e8710bae5464f0c486f",
+      "bytes": 35474
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/CompatibleCoverConstraints.lean",
+      "sha256": "df27cf74de995e30dd559bed8f46c84fed05bb7c1a6baaa96beb601c6be97c7e",
+      "bytes": 5769
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/CoverReplacement.lean",
+      "sha256": "fff12af460f6863540405e47866a5d92bb2b98452f80a86b727c460d29062386",
+      "bytes": 6269
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Covers.lean",
+      "sha256": "b025c3aec9c3e8212adaee09ce7722a27d0e1a3175f2de9614f1f01158cf0ddd",
+      "bytes": 8236
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/DensityBall.lean",
+      "sha256": "f9525bad3fa29a56e973fba8ea95be0600c52c206b00c5e2b6d791a55fcfd61b",
+      "bytes": 7763
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/DensityNeighbourhood.lean",
+      "sha256": "9f2c1909c11e73eac21808ae41ca47c4430e5daca1c49172201fe4ae6fcce482",
+      "bytes": 6897
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/DensityRouting.lean",
+      "sha256": "0541b36036062cb10942d9a2c5dae88b1745c407d84bf9fecea00e55a0d02b54",
+      "bytes": 8534
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Geometry.lean",
+      "sha256": "c08cd19ca8a5bc52536ad6958c3fcbf1284fb143ccc431989622c417aec8aefe",
+      "bytes": 1865
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/L41Span.lean",
+      "sha256": "a7019c964d575049b0117e6f4e195e9254eb3de6ff7b3d10ac7759bc16d3381c",
+      "bytes": 49266
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentAnchorUniqueness.lean",
+      "sha256": "4581d0e9188672078c94cc5c3cbe880aa8df4c3f6d8ceb5957d2d148e14c9640",
+      "bytes": 4263
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentBall.lean",
+      "sha256": "15c48e56f33de406901c48ae3175c16ddfac33ff5e1b1d16d4fc848cbc4208f6",
+      "bytes": 13276
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentCompatibility.lean",
+      "sha256": "df2b742a4b6b8d87c3a61d779c660356ba990ec555969696c3506387f591c6d2",
+      "bytes": 6413
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentGeometry.lean",
+      "sha256": "05b09b14f7d5f28a590ba3d51b3bede6ee347948ea732ea5590d436aa833423c",
+      "bytes": 17847
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentScaleEstimates.lean",
+      "sha256": "bbb15cf5ed2b297897c1afff2b33b8ee6d6b21b85408fb61fcb5419ffd25596b",
+      "bytes": 9484
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentTransitivity.lean",
+      "sha256": "f7dbed1bcfc16233b86dfe39be7e9f5e41c34afc9cb3112f354ca590c0c4404c",
+      "bytes": 11842
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/PatchIsolation.lean",
+      "sha256": "19357c576dc9ec9769798a7fee72d368ba29dbd905d9333f564a7ed5f5815380",
+      "bytes": 8027
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/PeriodicAnchorUniqueness.lean",
+      "sha256": "8371fe720eb8d4621ec9f5da05656ef8a1c07bf32e4c8533adc070766479031c",
+      "bytes": 9777
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ScaleMonotonicity.lean",
+      "sha256": "8878be5bbf7973993cac29e6547ae848a5861cba2c5c6300e537486bfea07cb4",
+      "bytes": 4001
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SeparatedParentSelector.lean",
+      "sha256": "ab44dd4e5fcd39b1efa6342ddea5701152e3368cf31a62d49a8d38eea6fbc43e",
+      "bytes": 22115
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SeparatedPatch.lean",
+      "sha256": "8c3cc3189f11af4c4174957d6649b20bea6a15463fb4bb63817ac5d1472782bf",
+      "bytes": 6438
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SharedCoverSelector.lean",
+      "sha256": "e99adae094ce5777f5cb882c425a6368f4e433477f948fdaf0cb9e207556a90a",
+      "bytes": 6391
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SharedSeparatedParentSelector.lean",
+      "sha256": "30e753e822f170e78088c5ea4faedf94476db5475092ef8c3cb9e23e8f98abca",
+      "bytes": 11325
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SquareDiameterBounds.lean",
+      "sha256": "dd25a3141bce129c8dfa59418b523309721b844a96c07bd14b0efaaca69dfd42",
+      "bytes": 25540
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Squares.lean",
+      "sha256": "0a4d871afa33e8c0ab67ec0ba7878b66184e250481f4a846cbfcad355bc9390e",
+      "bytes": 5905
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/TorusDistance.lean",
+      "sha256": "80b4f68c850edb01b34bdbac99e2962d248ee05899d9e03488cc32193ed33c27",
+      "bytes": 16911
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Clock/Disorder/GridLocalFactor.lean",
+      "sha256": "12c1cae2b27d6b2066204ef6de67860f3be1056abdd975df918c66b242abc009",
+      "bytes": 34782
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Clock/Periodic/ClockWeight.lean",
+      "sha256": "e5079715e52bd1ceb209aa3f5081ebfedcb04ecdc7b71baa49616311f32bd660",
+      "bytes": 21074
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Clock/Periodic/Weight.lean",
+      "sha256": "ed7dbc72deb8bc05a92512bb2097e12b59fb903eb6e7368ff3942bebb19de38d",
+      "bytes": 5108
+    },
+    {
+      "path": "FroehlichSpencer/BKT/FiniteGraph/Basic.lean",
+      "sha256": "e807ddd5f02e3a8299e80837bbea34621c8872625b965bac1ffc8a20ec140a57",
+      "bytes": 2011
+    },
+    {
+      "path": "FroehlichSpencer/BKT/FiniteGraph/Green.lean",
+      "sha256": "2fa901343d931d5c7f48980656f6e0c6d9a295f1780236a9e9345a15ec96b502",
+      "bytes": 17916
+    },
+    {
+      "path": "FroehlichSpencer/BKT/FiniteGraph/Laplacian.lean",
+      "sha256": "52cdff49b51bd799b0577b8e889d89553687ce2af6dbb3e362b17e2921742496",
+      "bytes": 11174
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/Basic.lean",
+      "sha256": "025ee4cef133653af20d0edf268e224e5c9991770dd4db1a3943348643361503",
+      "bytes": 2382
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/ComplexCharacteristic.lean",
+      "sha256": "25cf3071d51df7df0d6997b96fd2527a7ab592093c2062c8e519af20ee203ba9",
+      "bytes": 14065
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/ComplexTranslation.lean",
+      "sha256": "99199e860e5fa727ff60dae3734657cf9251bdbc123702b046b51a23d5000a7a",
+      "bytes": 9176
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/ExponentialMoment.lean",
+      "sha256": "3940bdd467e294c287864d332f9fd234ec92a22daee345f49f2876ba8d98d1e1",
+      "bytes": 10634
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/FreeField.lean",
+      "sha256": "3065e8fd361582ac1096069834218af2c05d8e0d11c5aa063050803be7c8340c",
+      "bytes": 1363
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/Normalization.lean",
+      "sha256": "10e315ecd34ecff5c69cba2e71e6605aad32f090b9195695c1e1298028cb9d23",
+      "bytes": 14899
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Gaussian/OneDimensionalIntegral.lean",
+      "sha256": "8808a6b5595998225871f41e5bd8f69211007de38b2534fea3074320bc444454",
+      "bytes": 864
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/EdgeRatio.lean",
+      "sha256": "652f9a4a0183f25abdf7480769c68ed79240fe53a4e33603e628ee4d739f6c78",
+      "bytes": 3445
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/Energy/CostEnvelope.lean",
+      "sha256": "7121d56c07b9d4dcdf0114c4a97c9d4b3932405b8ccaa641a0a18156788ac904",
+      "bytes": 26124
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/GaussianInstance.lean",
+      "sha256": "b4f221520671adc05f6d76139d2195ff537a93e74f7bd66c2eed26cbac92f819",
+      "bytes": 12073
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/LocalFactor.lean",
+      "sha256": "c9ef377c7a3a2441e47b3790c8b0db0dfb5ef83cc749808cb0a3645f95af1d19",
+      "bytes": 11607
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/LocalFactorBounds.lean",
+      "sha256": "2e3aaa10ac37b72e7941747895a429a3e4bd57fe886dbd4edbe58108865f78ee",
+      "bytes": 31003
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/Moment/Taylor.lean",
+      "sha256": "f721f0df510a1c2f8a8d285b2d19261c69cf8986b15119286dbfc77d5fb4a43a",
+      "bytes": 24483
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/SpinWave/Base.lean",
+      "sha256": "e083214e462ff76027061196a7a2ff66cbb12a2e0c984a9692845df2fc9040d9",
+      "bytes": 14109
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/SpinWave/Graded.lean",
+      "sha256": "8ee0c1ab8d9ad020c4ba775f5330fc841fd501ae579ed8f620cd43459772e665",
+      "bytes": 2706
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/StripWeight.lean",
+      "sha256": "d08c95cf9ce2383ad27752b1f87179cd047253ae4930caa8696a738c38a0745b",
+      "bytes": 3830
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/Translation.lean",
+      "sha256": "801ff18da3455ba2cf57a4399edab263a36356f031dd5662c1109263a3272041",
+      "bytes": 15512
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Lattice2D/LogLowerBound.lean",
+      "sha256": "bee95f9f735d30affd8fe1b448b7e5100cdb773b8cf7eed6df642c53397ccda6",
+      "bytes": 28507
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Lattice2D/SquareFree.lean",
+      "sha256": "cefe5a25f314ac0a70dfa5b60130099e2def4e2bd9c365f0ac8a40ca6ac1a356",
+      "bytes": 8037
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Lattice2D/Torus.lean",
+      "sha256": "073e3040fb8d21ad07e69c016f85249418a717d4f35f6a877ed65098d4342f4c",
+      "bytes": 6469
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Potential/NashWilliams.lean",
+      "sha256": "df2d42b55e1761ad4c6175217140593538b98a4517034f8f722a4798b604f979",
+      "bytes": 13361
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Potential/Transport.lean",
+      "sha256": "ded7445d79de26c42f3525cd99ce2477d828b2d667371045e36b61ec4c2c1d47",
+      "bytes": 15127
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Potential/Variational.lean",
+      "sha256": "1b454ab8444f0293e0a22d2782f149dd7a9c48d55dfef649cb2496a673e724af",
+      "bytes": 6608
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Provider/GFFWellDefined.lean",
+      "sha256": "8149c7f82f036815fddb715d74f15ea80f11af04151ed04e9c56210c1ea98fa8",
+      "bytes": 1336
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Reduction/P24Assembly.lean",
+      "sha256": "449f29955b9f3791b207531134b7d01adb6196d2f30805ad9738f4bb0faa733e",
+      "bytes": 33859
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Reduction/SpinWaveTranslation.lean",
+      "sha256": "d004391f805d5ddf333e34d7e22b45685557aaf8acd93e1ec86acc6e6e50406b",
+      "bytes": 15845
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Reduction/T16AssemblyStatements.lean",
+      "sha256": "0e911217a0ed24e8e4dbe9be4999dfb8d1aeed5f9e5681432cc6a5f866c436a2",
+      "bytes": 15750
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Reduction/T22SeparationBridge.lean",
+      "sha256": "116699d8732fd4b6d624afb7f530b576cf931e30dfbc9b676aea49329beb4f24",
+      "bytes": 5216
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Asymptotic.lean",
+      "sha256": "acf166f2bc1c6aefbc1259f01eb37b79e6fdccf5e97480fa5a9b56dcaaaae153",
+      "bytes": 21079
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Coeff.lean",
+      "sha256": "301f87566942d0a9463609e0a4acbc03a14a4b5eec9dab6482554fd89006af93",
+      "bytes": 7718
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/CoeffBound.lean",
+      "sha256": "5dedbe60a04b9263a7a04bf7c2647232d816215bdc95a2d4cdf5775661a9ec35",
+      "bytes": 5514
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Contour.lean",
+      "sha256": "715064a0d2e71edf4bd76faa4d0d6091f3a5ffe86df1f441fbecd5a5abb17c1d",
+      "bytes": 7116
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Debye.lean",
+      "sha256": "2f812bc6c93f6a9ff2483456e5d346446a12a83f85a7ed9f0fa895c4ff7dd0c3",
+      "bytes": 6821
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/DebyeLog.lean",
+      "sha256": "76b531beadfa566155d874d3bee570386201005d6d034cc5d6f4b50112877dbd",
+      "bytes": 14210
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Defs.lean",
+      "sha256": "8c7c1435b9b6cafa8a541bb1c12e8b23541c2a67e4c8581e4ee6aeffad6855ea",
+      "bytes": 3686
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Elementary.lean",
+      "sha256": "5644e46c7e2bd6a0441f0a19ac5509a733b529ac0dd65b6632c51b45a0f52011",
+      "bytes": 5592
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Kernel.lean",
+      "sha256": "3d98b8eac168c47e090d7851d6f09dd487e8bbe4b0bd11d50cd4253c00731009",
+      "bytes": 18789
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Properties.lean",
+      "sha256": "98eb9efea324585a44d7c88bcfb859b0b84cc44e8c74b244fc1e4ce2cb157df2",
+      "bytes": 18915
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Series.lean",
+      "sha256": "e1aa1e3d0ba86c414f67ab29522e9e06ce0f7bacb10cd05f8ec30685363416a9",
+      "bytes": 8304
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/BesselInterp/Vertical.lean",
+      "sha256": "0762b1df10e5e2f54e45d4e76785998854d1632d8577953072912e994bf96a65",
+      "bytes": 4184
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/Contour/Factor.lean",
+      "sha256": "cd62330b72da6deb6e1e0d2d9197e964e793d5fc2e49fcf98c8be9a393337bd2",
+      "bytes": 6187
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/Contour/LocalFactor.lean",
+      "sha256": "48ce505e680c172da3697fde3503d03575e833465bdd4d5cd7aedec4f6044d54",
+      "bytes": 10591
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/Contour/Products.lean",
+      "sha256": "fdd5268b7f3046442c3b7900d8f835d65c97125e0c153efa335b50293b525bab",
+      "bytes": 16737
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/CosineFourier.lean",
+      "sha256": "6dd4a93abae89aa61441d44d9ee38811a6679fd804be62512e30b6e58a0ac50a",
+      "bytes": 5281
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Rotator/CosineFourierSummable.lean",
+      "sha256": "ec68f98b88b516b61f92971f41d29f09fa0fc7228ea0bd62efb580a9534260ce",
+      "bytes": 4700
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/BoundaryShellPacking.lean",
+      "sha256": "2a11fa66b5e2396f993e00656ed0ab799a9ed7b9163222be15d948aa90f905c6",
+      "bytes": 29691
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/ComponentCubeSum.lean",
+      "sha256": "34075b9dca81c8770667761a9400441ac72ac9657725994b80ae37fdac0193d5",
+      "bytes": 9557
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Components.lean",
+      "sha256": "abc76a0fec76cb4d83173d88bb8fd11c7fe8cb0d05613aff4b4d4967ee0f18ec",
+      "bytes": 35942
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Defs.lean",
+      "sha256": "0b2ab9eccad4b4be3e84f80dde8325ef10e875425fb6b8bca209177c9789ff7d",
+      "bytes": 1550
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/FlattenedWave.lean",
+      "sha256": "53f5abf14b85ea2cb7ea2fcba7dd6ee64593d4bfc34183d601579c3375b90842",
+      "bytes": 25676
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Initial.lean",
+      "sha256": "7ac03861684de7df6c62b87b5867a2c9516288a4571982a83e5f90a63531a986",
+      "bytes": 22696
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/InitialSupport.lean",
+      "sha256": "91cde5f2409f937acac4f71b72804cbc266cb86689d94922e3b29478032fd786",
+      "bytes": 9708
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/LatticePacking.lean",
+      "sha256": "1b590bee23909eefb5f57a628800a26bc44e6c8f39a8c0151b2a5a9db04532d8",
+      "bytes": 6245
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Lemma46Arithmetic.lean",
+      "sha256": "faddee335860ffddfda919ed4d9e65327995ca4b46799573e39680da914c0602",
+      "bytes": 19774
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Lemma46Induction.lean",
+      "sha256": "8e6dace031c5bd0b23473ca655cf987be752273c5ac1a4b05d18f25585cc219b",
+      "bytes": 62844
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Prop47.lean",
+      "sha256": "a08662dbaf54cf9b3e778e81bb607cdb263cafb32a94f042e2f24884ea786537",
+      "bytes": 25298
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Prop47Geometry.lean",
+      "sha256": "3d0aa779f4e5dc4a55a0847c2819a9a02ee80b1608d96c4b6b6bcb43204ef83c",
+      "bytes": 18196
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/Prop47Statements.lean",
+      "sha256": "af59da164acc51860232f3a5dd0d750593e0703a2fbca368ea6a5dc4335d2d41",
+      "bytes": 11655
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/ShellPacking.lean",
+      "sha256": "0328491b8d15606eef4ce67d5451636013c0d93055e09e4d8b9e9ba28842d8bf",
+      "bytes": 32474
+    },
+    {
+      "path": "FroehlichSpencer/BKT/SpinWaves/SquareGeometry.lean",
+      "sha256": "66ee5d54e29364bbfd3ae0273be8d064b9de763b581b8b4c1570d9fdf880ee1b",
+      "bytes": 26254
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/ChargeEnsemble.lean",
+      "sha256": "c5f8458fb60b97a3c557d149a7916dcdee7c32e53157520c62c9d95b72081674",
+      "bytes": 870
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityCenter.lean",
+      "sha256": "a2ac9a97a33cfc3b90f85fdf6f3bcc3b5fe541bdde6dea481f03263055c4ce98",
+      "bytes": 841
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityDiameter.lean",
+      "sha256": "74c9833ecbd13abf471bea429b98e95aefa6a363c73c959bf12ffad5dda37ce4",
+      "bytes": 1072
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/DensityDomain.lean",
+      "sha256": "149c36e8429638056906445875627564800003212dbcd5ebf65f52b347e33ada",
+      "bytes": 725
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/GFFLaw.lean",
+      "sha256": "5737ab1915543784f84a255a09e4df1562dd6b94b5fcf760a43694efaa121796",
+      "bytes": 1689
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/GFFWellDefined.lean",
+      "sha256": "1b6cc057e997f647d74669f25454837257164c8b7c05fd363911204869fc12f3",
+      "bytes": 1080
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/Laplacian.lean",
+      "sha256": "d1d02b487630ab4e90c43b5b6c5538f40df928e5b7242e6d2cc36990e43d5ff7",
+      "bytes": 918
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/Multigraph.lean",
+      "sha256": "a43372fc6c884e5d347551d1de6de38da0b0eda8c1d9c77c34eca9bd110dd8b6",
+      "bytes": 931
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/MultigraphSimpleGraph.lean",
+      "sha256": "228a0c97c6f7ec60274a538501325aca1a7ab4edffe895b030f21c0b5234df8e",
+      "bytes": 915
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFree.lean",
+      "sha256": "34cd70cf3a2e6e876f9dc636248f84b05420f9b50a71195978ade13cf81c9cec",
+      "bytes": 823
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeConnected.lean",
+      "sha256": "ce3365a33d0ba256dfa66c7b464167b13190cb9d24fae046dafbb750a2cb8768",
+      "bytes": 2344
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeEdge.lean",
+      "sha256": "88d4603d732817e9c1905fd2d24032469dfeec7d96eb2ea031e5f42ca1c2f0ec",
+      "bytes": 919
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodic.lean",
+      "sha256": "8062b631f280fdbaaeeabdcbaee0d804ddc013285e32ac5c4d23522e674af500",
+      "bytes": 850
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicConnected.lean",
+      "sha256": "b9e56baf72b8bc17d498e62509d0440b3f4061d133e0e3a3c989a65d55d75f67",
+      "bytes": 2648
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicEdge.lean",
+      "sha256": "b09c21be56442a6e8aa0b5f1543af008780b6856eb76b6c3245c21eb05985322",
+      "bytes": 1226
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "827fbe4f99b4ae558e387fc71b9ef41e37f42158f3187b87a3087491d984fd2f",
+      "bytes": 589,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "FroehlichSpencer/BKT/Clock/Disorder/GridLocalFactor.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/a99663d32606dd42840c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Frohlich-Spencer",
+    "source_commit": "e01623b7347c272eac9480f04743f38b8d0df223"
+  }
+}

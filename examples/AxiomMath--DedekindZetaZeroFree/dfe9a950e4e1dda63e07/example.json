@@ -1,0 +1,123 @@
+{
+  "id": "dfe9a950e4e1dda63e07",
+  "source": {
+    "repository": "AxiomMath/DedekindZetaZeroFree",
+    "commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d",
+    "project": "AxiomMath--DedekindZetaZeroFree--09afbb4ce657",
+    "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedCompactRegionBounds.lean",
+    "file_id": "00802f8145628d389386",
+    "source_sha256": "00802f8145628d389386d0819c58971763ea43b3c1f3ed89739fe35aad18ccd6",
+    "start": 44,
+    "end": 76,
+    "original_start": 26,
+    "original_end": 105,
+    "declaration": "norm_mellin_le",
+    "source_url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedCompactRegionBounds.lean#L44-L76",
+    "archive_url": "https://github.com/PalomarArchive/AxiomMath--DedekindZetaZeroFree--42e46c822b86/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedCompactRegionBounds.lean#L44-L76"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_mellin_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "27180a9d76685a4990055bb1a4d5909b84bc4459cf6d795f565f86579bb56b4e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "ec85718cbc20627407df10097a848e8b2cf00a55fd32a7872037f00e78dcf0e2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedCompactRegionBounds.lean",
+      "sha256": "9e4768fa430c9fe289ab7bb0ea6356020dc9474fc56fff7872935bc713e2b224",
+      "bytes": 13011
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Schwartz/PositiveSideJetSeminorms.lean",
+      "sha256": "a0ac3d601d482e5bf95ffb1decca2e94cb2865c31f0782aa95fd1de7bd1eb3b9",
+      "bytes": 1522
+    },
+    {
+      "path": "DedekindZetaZeroFree/Analysis/CompactSupport/IteratedDerivatives.lean",
+      "sha256": "ec89bb5030fafb16f26dfb2c08b67454c832e0bf8778258ca7e3200662b8ef08",
+      "bytes": 693
+    },
+    {
+      "path": "DedekindZetaZeroFree/Analysis/Gamma/ReciprocalRecurrenceAndRisingProducts.lean",
+      "sha256": "0e282903832613dc3db92ce6d4607ab5289b0c86d5011cb5516b92d7d81a32fc",
+      "bytes": 2250
+    },
+    {
+      "path": "DedekindZetaZeroFree/Arithmetic/RayClasses/Character.lean",
+      "sha256": "0094c75c3b45837570aa4728f4547943f7bfa5cc2d64fcf9b75b0a88bd0dba79",
+      "bytes": 2619
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/DerivativeIntegrationByParts.lean",
+      "sha256": "91491c68fb5627fdf825adab94898b352ea2e2afe39acbdb3087f4668c29b450",
+      "bytes": 3533
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/EntireRegularizedQuotient.lean",
+      "sha256": "12cb3d54af0a1d6d2d8801061a5faccf904d9a358e4315e5931db274c0925dca",
+      "bytes": 3425
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/OriginContinuationCharts.lean",
+      "sha256": "a44ba6cde39eb20c82a3ef789f887eff7e50dc1f64ea93ed0dca51858dbbb2ae",
+      "bytes": 4592
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/OriginRegularization.lean",
+      "sha256": "03813553ba07cc4ee111ad1689feac23987abbb3a4970f5af08cf3015f9432a6",
+      "bytes": 377
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/PositiveLineInversion.lean",
+      "sha256": "a5607ff567f85ada4582f2d5228064e98bebb161df567983efa4ee030e67faa0",
+      "bytes": 4223
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedGammaProduct.lean",
+      "sha256": "3f47f9f184bdcb1311c531fdb07bc5f2e44ffe5a07b263407531e7ed808c3f0e",
+      "bytes": 3333
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedVerticalDecay.lean",
+      "sha256": "cd3031dea8045a11d0e89ff4434118894763b462a62678db5e198b01f12115fd",
+      "bytes": 4410
+    },
+    {
+      "path": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/SourceDerivativePositiveStripBounds.lean",
+      "sha256": "08912c3704ba66a3538b2bad34b9dc679919f767e5439c0cb25aa760d6e87d9e",
+      "bytes": 9836
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "313de10493dae47d457da6bb9195fca5b121160d0b251a4e055797bf65246022",
+      "bytes": 561,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DedekindZetaZeroFree/HarmonicAnalysis/Mellin/RegularizedCompactRegionBounds.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AxiomMath/DedekindZetaZeroFree",
+    "source_commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d"
+  }
+}

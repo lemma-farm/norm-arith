@@ -1,0 +1,76 @@
+{
+  "id": "7774909c348d562aa7ac",
+  "source": {
+    "repository": "DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms",
+    "commit": "929653a019eb4910fc6efb9cb34cc3c3c2f949d4",
+    "project": "DiarHaidary--Rerandomized-Subsampled-Trigonometric-Transforms--929653a019eb",
+    "path": "SRHT/SelectorRepresentation.lean",
+    "file_id": "02144bf77383c49eb48b",
+    "source_sha256": "02144bf77383c49eb48bcb37f074c67c2af9898104140dd48c006412213f444c",
+    "start": 59,
+    "end": 76,
+    "original_start": 59,
+    "original_end": 76,
+    "declaration": "norm_matrixRepresentation",
+    "source_url": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms/blob/929653a019eb4910fc6efb9cb34cc3c3c2f949d4/SRHT/SelectorRepresentation.lean#L59-L76",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Rerandomized-Subsampled-Trigonometric-Transforms--426a661d68e6/blob/929653a019eb4910fc6efb9cb34cc3c3c2f949d4/SRHT/SelectorRepresentation.lean#L59-L76"
+  },
+  "native_target_name": "SRHT.SelectorRepresentation.norm_matrixRepresentation",
+  "source_declaration_label": "norm_matrixRepresentation",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "28d69940f0b4935262e1284203465b8666bb7a7dce386d7a0cd59a9876ad812b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "41217c0976b2bfe699f11443f16459a2bc010d7770a824f70b7e28c3248a5c2f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SRHT/HardCore.lean",
+      "sha256": "9ceffe87a31409a70a183281274981de98e010f1ed4eb5f2261b5191bf7e7c2b",
+      "bytes": 13960
+    },
+    {
+      "path": "SRHT/PositiveSelector.lean",
+      "sha256": "9014eaf75af759cad421a85d149cac50438101139c06a166375f51fbde4b5ba7",
+      "bytes": 16671
+    },
+    {
+      "path": "SRHT/SelectorRepresentation.lean",
+      "sha256": "02144bf77383c49eb48bcb37f074c67c2af9898104140dd48c006412213f444c",
+      "bytes": 14104
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "6d56d35da266d72680dc3f891f8a10dd1f0dfb6f8224e8e25596748cc3a08dca",
+      "bytes": 450,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SRHT/SelectorRepresentation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7774909c348d562aa7ac": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms",
+    "source_commit": "929653a019eb4910fc6efb9cb34cc3c3c2f949d4"
+  }
+}

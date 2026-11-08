@@ -1,0 +1,78 @@
+{
+  "id": "1eeb36df8819c4ad3ea1",
+  "source": {
+    "repository": "SauersML/group-approximation",
+    "commit": "a593f2e6166dc754348d76e808b86f05c3b21df9",
+    "project": "SauersML--group-approximation--a593f2e6166d",
+    "path": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean",
+    "file_id": "0643a01638c1957ad974",
+    "source_sha256": "0643a01638c1957ad974a5a1f0250e7efdb025ab32dd314c3914c7defdc893f2",
+    "start": 67,
+    "end": 74,
+    "original_start": 67,
+    "original_end": 75,
+    "declaration": "inclIso",
+    "source_url": "https://github.com/SauersML/group-approximation/blob/a593f2e6166dc754348d76e808b86f05c3b21df9/GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean#L67-L74",
+    "archive_url": "https://github.com/PalomarArchive/SauersML--group-approximation--d16b34e6ab02/blob/a593f2e6166dc754348d76e808b86f05c3b21df9/GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean#L67-L74"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "inclIso",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "ea929395ace6b6ddcba733b717c11f5ac44383a0fa3524e3663e169423b1142b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "5464ab9f958646d28c012db9912a1b7098bdf5aac0e4d2f806f5055c27258b27",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean",
+      "sha256": "b8aab2ee29d09b3211af3fd1c3ccd8c9c11244a0914b626c2f6e7d3fe408dd7b",
+      "bytes": 6561
+    },
+    {
+      "path": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/Antipodal.lean",
+      "sha256": "612e971ef581fadfadfdef073324bdbfdf16eba5d4656e624d0537af671e8696",
+      "bytes": 5829
+    },
+    {
+      "path": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/Basic.lean",
+      "sha256": "56eb72d635e3cd77bb46ffc7f1e0dea1f87f49e8603d6177b272fa8f13a0dc91",
+      "bytes": 1394
+    },
+    {
+      "path": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpace.lean",
+      "sha256": "ef9f2f571e5c55b4d0b64806e6a541df14e1668da843da6e34fd88719e369d80",
+      "bytes": 21592
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "bd8b6774a9857315794235f904b8764300db463b99ed38d982fb5ad3696182be",
+      "bytes": 11702,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c6bc54fcad9704fd141c0c84122faae340413ee41fd98b391210f7dd8ceb27fa",
+      "bytes": 3544,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GroupApproximation/ThirdParty/HamSandwich/SphereOddDegree/RealProjectiveSpaceInclusion.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/SauersML/group-approximation",
+    "source_commit": "a593f2e6166dc754348d76e808b86f05c3b21df9"
+  }
+}

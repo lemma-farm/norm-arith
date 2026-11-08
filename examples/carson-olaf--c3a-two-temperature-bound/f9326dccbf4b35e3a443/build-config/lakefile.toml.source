@@ -1,0 +1,28 @@
+"name" = "C3aTwoTemperature"
+"defaultTargets" = ["RequestProject", "C3a", "Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "RequestProject"
+"globs" = ["RequestProject.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "C3a"
+"globs" = ["C3a", "C3a.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

@@ -1,0 +1,63 @@
+{
+  "id": "a174c8d426fb4d640420",
+  "source": {
+    "repository": "rwst/Subspace-Theorems",
+    "commit": "d12aa25a9725e8d28c1bfc018c664b7ceb8d35c5",
+    "project": "rwst--Subspace-Theorems--d12aa25a9725",
+    "path": "ArithmeticHeights/Arakelov.lean",
+    "file_id": "040e847f3c675f58a57a",
+    "source_sha256": "040e847f3c675f58a57af5b3175a493700959b5fcb1f895df882ac6c744f6a07",
+    "start": 359,
+    "end": 363,
+    "original_start": 359,
+    "original_end": 363,
+    "declaration": "NumberField.iSup_pow_mult_le_sum_rpow",
+    "source_url": "https://github.com/rwst/Subspace-Theorems/blob/d12aa25a9725e8d28c1bfc018c664b7ceb8d35c5/ArithmeticHeights/Arakelov.lean#L359-L363",
+    "archive_url": "https://github.com/PalomarArchive/rwst--Subspace-Theorems--9bd9bba330e8/blob/d12aa25a9725e8d28c1bfc018c664b7ceb8d35c5/ArithmeticHeights/Arakelov.lean#L359-L363"
+  },
+  "native_target_name": "_private.ArithmeticHeights.Arakelov.0.NumberField.iSup_pow_mult_le_sum_rpow",
+  "source_declaration_label": "NumberField.iSup_pow_mult_le_sum_rpow",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "b3cdb8fb9532cb2d59fbeb39e25daef431909a0362c9324b6430f3dc344edee6",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "66a1a8c1e7f3c585dc8becfa8fdd7dbc0895ec3a2bcdedfbd906dd8b9cdd5195",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ArithmeticHeights/Arakelov.lean",
+      "sha256": "040e847f3c675f58a57af5b3175a493700959b5fcb1f895df882ac6c744f6a07",
+      "bytes": 44081
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "d85339f049b92a711fe0f315733a69f9e0f64ab76c6a136b69c9f78c4802402a",
+      "bytes": 1331,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ArithmeticHeights/Arakelov.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/rwst/Subspace-Theorems",
+    "source_commit": "d12aa25a9725e8d28c1bfc018c664b7ceb8d35c5"
+  }
+}

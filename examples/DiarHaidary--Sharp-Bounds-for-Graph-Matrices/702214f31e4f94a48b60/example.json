@@ -1,0 +1,113 @@
+{
+  "id": "702214f31e4f94a48b60",
+  "source": {
+    "repository": "DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+    "commit": "01994362f8543743d556e7544d2538e93c62c02b",
+    "project": "DiarHaidary--Sharp-Bounds-for-Graph-Matrices--01994362f854",
+    "path": "GraphMatrices/GhostEmbedding.lean",
+    "file_id": "09032ff9322eb6b5aba0",
+    "source_sha256": "09032ff9322eb6b5aba0c62d3bef3e5d498d40c85c21d7e741a8882ed2546a1d",
+    "start": 183,
+    "end": 186,
+    "original_start": 172,
+    "original_end": 186,
+    "declaration": "boundedRealCreator_norm_sq_le",
+    "source_url": "https://github.com/DiarHaidary/Sharp-Bounds-for-Graph-Matrices/blob/01994362f8543743d556e7544d2538e93c62c02b/GraphMatrices/GhostEmbedding.lean#L183-L186",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Sharp-Bounds-for-Graph-Matrices--a05fb4a3632c/blob/01994362f8543743d556e7544d2538e93c62c02b/GraphMatrices/GhostEmbedding.lean#L183-L186"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "boundedRealCreator_norm_sq_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "b287003be4095edeb8a8b02883c2a563212d49479c9ecf9682013035ed0d4ba9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "299485e473c5649e40c8aca278b2e72318bc2fc3b3cb2aa5131a38a72ae25bef",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GraphMatrices/BoundaryAmbient.lean",
+      "sha256": "4948408fbb728058081d4e71ef59c280307e3f4b82647898469cda6da759b751",
+      "bytes": 14719
+    },
+    {
+      "path": "GraphMatrices/BoundaryCreation.lean",
+      "sha256": "4168266b84dc91785c617a4679d3a4b4bc6b6f2698c20694d311e5e2105dac1d",
+      "bytes": 15902
+    },
+    {
+      "path": "GraphMatrices/BoundaryCreationNorm.lean",
+      "sha256": "aa3ad24535ae0ecc9d852bf2d011636d5226600ee80a80be1cdd706fbca60c49",
+      "bytes": 10901
+    },
+    {
+      "path": "GraphMatrices/FloatingComponents.lean",
+      "sha256": "40cefc7f757a43684aa87999b1f9b640de2382aa40e298de5118d55b41d8c506",
+      "bytes": 27646
+    },
+    {
+      "path": "GraphMatrices/GhostEmbedding.lean",
+      "sha256": "b89cddf637d3b793ae419024164c437b7cc554f3f710b6555de17f0b3bb0b9dc",
+      "bytes": 9026
+    },
+    {
+      "path": "GraphMatrices/OccupationCreation.lean",
+      "sha256": "54d12b9a222525e89e4c80c82e6d3aa9a186d9629b89ee0c6a0f4d1ad93186e4",
+      "bytes": 28532
+    },
+    {
+      "path": "GraphMatrices/SchurBound.lean",
+      "sha256": "0010b26ab5fe1cb9f9cdf558b061fd20d1c444639716ddaecae62bc363c46a3b",
+      "bytes": 3090
+    },
+    {
+      "path": "GraphMatrices/Separators.lean",
+      "sha256": "fe3c3ee5e19b201c99e2028a35c131e0673675d16d8ecc20b514324e17738b03",
+      "bytes": 21192
+    },
+    {
+      "path": "GraphMatrices/SpectralNorm.lean",
+      "sha256": "d2b800ff6f8e209b09bc59d5f03419311358765db14b686721bea126967bd43d",
+      "bytes": 8085
+    },
+    {
+      "path": "GraphMatrices/Basic.lean",
+      "sha256": "164de046b8f6c92c734da05afd3191df30c2ed673a2e607b9924e8260733cdc6",
+      "bytes": 468
+    },
+    {
+      "path": "GraphMatrices/CrossedEdges.lean",
+      "sha256": "b1186acc40deae996f1c34a5de2078d74ab68b6513c9d9d457846009eddf9fe7",
+      "bytes": 15494
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "7bcb4b9502b5b4028f678116b7721f9e5b1c090b9695057afa60ed1d3bd28541",
+      "bytes": 386,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "1a25869fceadd57749c2ee8946ab591af665d17c10ead3465e7ef19a34fa5bdd",
+      "bytes": 3539,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GraphMatrices/GhostEmbedding.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+    "source_commit": "01994362f8543743d556e7544d2538e93c62c02b"
+  }
+}

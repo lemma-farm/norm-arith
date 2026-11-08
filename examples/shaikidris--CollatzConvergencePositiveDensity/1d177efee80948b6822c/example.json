@@ -1,0 +1,113 @@
+{
+  "id": "1d177efee80948b6822c",
+  "source": {
+    "repository": "shaikidris/CollatzConvergencePositiveDensity",
+    "commit": "f0fda887ee60dc8ac4ef0d864935148b03734726",
+    "project": "shaikidris--CollatzConvergencePositiveDensity--f0fda887ee60",
+    "path": "WordCertDensity/Analytic/FiberAverage.lean",
+    "file_id": "0a771e934f2dcf2b0e17",
+    "source_sha256": "0a771e934f2dcf2b0e17cd55d02de1d033b45cb6e2518579f21c46de9cf59a66",
+    "start": 145,
+    "end": 152,
+    "original_start": 144,
+    "original_end": 152,
+    "declaration": "oscillation_add_le",
+    "source_url": "https://github.com/shaikidris/CollatzConvergencePositiveDensity/blob/f0fda887ee60dc8ac4ef0d864935148b03734726/WordCertDensity/Analytic/FiberAverage.lean#L145-L152",
+    "archive_url": "https://github.com/PalomarArchive/shaikidris--CollatzConvergencePositiveDensity--b2ee23919c0b/blob/f0fda887ee60dc8ac4ef0d864935148b03734726/WordCertDensity/Analytic/FiberAverage.lean#L145-L152"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "oscillation_add_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "9ebe4d79054a4fa56a4dc2d81f84fffd629370aea99d4f8437839ec018589384",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "05a1bb2f75e657c241b198b8bc9b2be65465bf2633e29944ee3b3c69820add1c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "WordCertDensity/Analytic/FiberAverage.lean",
+      "sha256": "c71fa1fefdf78b97fa487aedd8bfb00f30ce4b08c0cc5f0cd6a8eaa7131f7bd5",
+      "bytes": 7695
+    },
+    {
+      "path": "WordCertDensity/Dynamics/Accelerated.lean",
+      "sha256": "bb3bce863b43ae71895026d17637b7b597a8195d04df860eefdc178f486eeb26",
+      "bytes": 4756
+    },
+    {
+      "path": "WordCertDensity/Reference/Law.lean",
+      "sha256": "078c887eb8ae487e0d2913382e52cb64fd04a4f30c8c3c0e3f8d22d8ede1caf3",
+      "bytes": 6636
+    },
+    {
+      "path": "WordCertDensity/Reference/Projectivity.lean",
+      "sha256": "fcda3c50ff6c67d6d1b404e79a880cc6f58f27eff1f3cd40d354359680145a21",
+      "bytes": 9628
+    },
+    {
+      "path": "WordCertDensity/Reference/Residues.lean",
+      "sha256": "84350771ea0f2aa9044c592a0b51c6a32609bb81fc37eecfe7589a1dcfba546b",
+      "bytes": 8579
+    },
+    {
+      "path": "WordCertDensity/Reference/Words.lean",
+      "sha256": "4dc1d3b433a99ae98abd7f7555aabcf8cd66b44c1aab349484e25bdd603d61a6",
+      "bytes": 8579
+    },
+    {
+      "path": "WordCertDensity/Words/Algebra.lean",
+      "sha256": "c0ecc3d41e77234f504435510e8fe11685982cafb768e21e3c8c355d492f0f7a",
+      "bytes": 4630
+    },
+    {
+      "path": "WordCertDensity/Words/Forward.lean",
+      "sha256": "f098d91fbccbf81b1249b2eb4010e9a68d57dc4f9952668b32ce0a3cc988e5aa",
+      "bytes": 10563
+    },
+    {
+      "path": "WordCertDensity/Words/Physical.lean",
+      "sha256": "770e5f86872393a532923c47bcf43945cd95bd4278dfbfed9e64bbdd256fcbff",
+      "bytes": 6299
+    },
+    {
+      "path": "WordCertDensity/Dynamics/Ordinary.lean",
+      "sha256": "bba1b3c4760c4b46cd01546f82db81cfb8a8aa83bf0272f1a5241a3f43854df1",
+      "bytes": 6734
+    },
+    {
+      "path": "WordCertDensity/Reference/Geometric.lean",
+      "sha256": "06848203589bc5b3b1f50ad21b94aef62ffdb153cd94e9c18ba41791fe3af727",
+      "bytes": 3034
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5fdeacc0193f2d55c1fdc8f3f62222896dc54eea5b5b9bb153f699156f902b90",
+      "bytes": 460,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "3267df584e07606f966b3e1b05efce26abbcaf5c117c8beeb33796306a9dfb27",
+      "bytes": 3541,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "WordCertDensity/Analytic/FiberAverage.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/shaikidris/CollatzConvergencePositiveDensity",
+    "source_commit": "f0fda887ee60dc8ac4ef0d864935148b03734726"
+  }
+}

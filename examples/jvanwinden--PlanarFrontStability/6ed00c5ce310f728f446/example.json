@@ -1,0 +1,68 @@
+{
+  "id": "6ed00c5ce310f728f446",
+  "source": {
+    "repository": "jvanwinden/PlanarFrontStability",
+    "commit": "4811e1e1286ee9bac5700dcbfa00c782c636154d",
+    "project": "jvanwinden--PlanarFrontStability--4811e1e1286e",
+    "path": "Planarwave/Analysis/SemigroupOperations.lean",
+    "file_id": "053f97b32811d59c65da",
+    "source_sha256": "053f97b32811d59c65da1815a38ef5ecc050940b4dd8a58b93dfa406b7157bbc",
+    "start": 57,
+    "end": 68,
+    "original_start": 57,
+    "original_end": 68,
+    "declaration": "C0Semigroup.norm_conjugate_le",
+    "source_url": "https://github.com/jvanwinden/PlanarFrontStability/blob/4811e1e1286ee9bac5700dcbfa00c782c636154d/Planarwave/Analysis/SemigroupOperations.lean#L57-L68",
+    "archive_url": "https://github.com/PalomarArchive/jvanwinden--PlanarFrontStability--6e45ea577e6b/blob/4811e1e1286ee9bac5700dcbfa00c782c636154d/Planarwave/Analysis/SemigroupOperations.lean#L57-L68"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "C0Semigroup.norm_conjugate_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "f800022f67e0efa2011026a80e91248c2fe9c3ee62bd22580c4bf65413ee1697",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "bef224ec56c379fbf2314b68431a7d07099a37b704990fcf96cc6b469032b81f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Planarwave/Analysis/Semigroup.lean",
+      "sha256": "838bedf6f4c0cb8b638c42953a82f84ebbb28ed96ed1b293e46d9b614b853373",
+      "bytes": 10973
+    },
+    {
+      "path": "Planarwave/Analysis/SemigroupOperations.lean",
+      "sha256": "5a82a7996cd6c48e545b30af004831c533f97b0d75f167b7a03e763f63cdec92",
+      "bytes": 6243
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "530bee12841b99d79ff4a2cae46e760212969c6963cf87dad73c137aa7366299",
+      "bytes": 294,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "cf82d307051041db095bad2b65de106e21c485dbbcfd5b7c1007d4ade83cb471",
+      "bytes": 3552,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Planarwave/Analysis/SemigroupOperations.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jvanwinden/PlanarFrontStability",
+    "source_commit": "4811e1e1286ee9bac5700dcbfa00c782c636154d"
+  }
+}

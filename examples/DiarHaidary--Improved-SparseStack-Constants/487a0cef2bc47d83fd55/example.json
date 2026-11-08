@@ -1,0 +1,63 @@
+{
+  "id": "487a0cef2bc47d83fd55",
+  "source": {
+    "repository": "DiarHaidary/Improved-SparseStack-Constants",
+    "commit": "782e60fd7cd8382ac45fbbe13c706b949387acb8",
+    "project": "DiarHaidary--Improved-SparseStack-Constants--782e60fd7cd8",
+    "path": "SparseStackV3/BlockCS.lean",
+    "file_id": "07813791765162d4b689",
+    "source_sha256": "07813791765162d4b6896f508252a3e9b4069e746fa97939515855e9b0a93735",
+    "start": 98,
+    "end": 116,
+    "original_start": 92,
+    "original_end": 116,
+    "declaration": "block_cauchy_schwarz",
+    "source_url": "https://github.com/DiarHaidary/Improved-SparseStack-Constants/blob/782e60fd7cd8382ac45fbbe13c706b949387acb8/SparseStackV3/BlockCS.lean#L98-L116",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Improved-SparseStack-Constants--bcb812a2721d/blob/782e60fd7cd8382ac45fbbe13c706b949387acb8/SparseStackV3/BlockCS.lean#L98-L116"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "block_cauchy_schwarz",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "8b2201d9496eb8d71ebeb51185a13429e19dba37c9c6e7e311ebc2d267771c71",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2af1cb12e258c79e5c6093a6b761cb3aed50fbbd0a5ade329775d8d4590a91b9",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SparseStackV3/BlockCS.lean",
+      "sha256": "07813791765162d4b6896f508252a3e9b4069e746fa97939515855e9b0a93735",
+      "bytes": 5937
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "0232db39716e9e17bdb53e85db417fc891435b317db68b2d1f5bd57ddb29ec34",
+      "bytes": 463,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "2271dc42034e6f38fbd4bb792a6a3bb4e0d96ccece5c86a4b294b086fe8e57ce",
+      "bytes": 3588,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SparseStackV3/BlockCS.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Improved-SparseStack-Constants",
+    "source_commit": "782e60fd7cd8382ac45fbbe13c706b949387acb8"
+  }
+}

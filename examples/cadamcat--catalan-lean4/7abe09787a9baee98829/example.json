@@ -1,0 +1,136 @@
+{
+  "id": "7abe09787a9baee98829",
+  "source": {
+    "repository": "cadamcat/catalan-lean4",
+    "commit": "597469e8eba93909efc94892e6f7df5ea4951fe3",
+    "project": "cadamcat--catalan-lean4--597469e8eba9",
+    "path": "Catalan/Runge/TailBound.lean",
+    "file_id": "003973f175d53eedcbdc",
+    "source_sha256": "003973f175d53eedcbdc6e3bbf6d65150f68b5b52dffab88973c0e2c633aa449",
+    "start": 76,
+    "end": 141,
+    "original_start": 66,
+    "original_end": 143,
+    "declaration": "norm_series_tail_le",
+    "source_url": "https://github.com/cadamcat/catalan-lean4/blob/597469e8eba93909efc94892e6f7df5ea4951fe3/Catalan/Runge/TailBound.lean#L76-L141",
+    "archive_url": "https://github.com/PalomarArchive/cadamcat--catalan-lean4--fdc727faf3c1/blob/597469e8eba93909efc94892e6f7df5ea4951fe3/Catalan/Runge/TailBound.lean#L76-L141"
+  },
+  "native_target_name": "Catalan.Runge.norm_series_tail_le",
+  "source_declaration_label": "norm_series_tail_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a42139168a08dcadd3887381b870294548002a5a4ea390577cecfd99658610c9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "733b645b89e465ccbbf8f09a725d0af797623044ff1b5b6aeb03ebe91c248097",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Catalan/Cassels/CoefficientReconstruction.lean",
+      "sha256": "f1f525f95b7d23e2b563dda9b7e02c4aecdfaaccd319843bc4209455539afd0f",
+      "bytes": 1471
+    },
+    {
+      "path": "Catalan/Cassels/Defs.lean",
+      "sha256": "c579fd901a966fb6ea9e0f07373918b40e90f8a38f013cb7eeae7e5664de4a1a",
+      "bytes": 1679
+    },
+    {
+      "path": "Catalan/Cassels/Denominator.lean",
+      "sha256": "bd4e28ae8111d71ae858f64fcc4304efdddea7dc8099c6952cd0294973faf9ee",
+      "bytes": 3358
+    },
+    {
+      "path": "Catalan/Cassels/DenominatorDefs.lean",
+      "sha256": "0241f60407f03df886f5c610e14b874e36c5afb9fcf2d2f705b3273946e427b1",
+      "bytes": 715
+    },
+    {
+      "path": "Catalan/Cassels/FactorialCore.lean",
+      "sha256": "0037138a2e7cb9f7e349da65fcd776a8399376c92b0d06b3797a0eb7d093b42c",
+      "bytes": 2182
+    },
+    {
+      "path": "Catalan/Cassels/FactorialTransfer.lean",
+      "sha256": "1b282bd1242a59929c593b6c0da8c5b740ca78020457880d0a48d94c3e9e18fd",
+      "bytes": 1557
+    },
+    {
+      "path": "Catalan/Cyclotomic/Basic.lean",
+      "sha256": "85cbf16057ce1abe84be96c8c9d09452d75bd5da29400a5ca9704397f964a625",
+      "bytes": 2595
+    },
+    {
+      "path": "Catalan/Cyclotomic/Elements.lean",
+      "sha256": "86c87b2ad15b37481b3ac1da5e28318c6435be85e7566df59cff4c55317d33a5",
+      "bytes": 2270
+    },
+    {
+      "path": "Catalan/Cyclotomic/GroupRing.lean",
+      "sha256": "b4b73de2d219c17ce12e5da48f890c1c757bc489e9d94290ec009e9f91df9f9b",
+      "bytes": 10019
+    },
+    {
+      "path": "Catalan/Cyclotomic/UnitPowers.lean",
+      "sha256": "916029043aa5987c49fbb723dbbc29ee00b1296c017e05e80e77938b979fdbd9",
+      "bytes": 2228
+    },
+    {
+      "path": "Catalan/Mihailescu/Ideal.lean",
+      "sha256": "f18acda65f2bef82a203f07036e091c9c7cc378f86b0b968d8e265e01f4a2ddd",
+      "bytes": 4257
+    },
+    {
+      "path": "Catalan/Runge/BinomialSeries.lean",
+      "sha256": "b2ec661790371527f88a52ce1626d4fb9898ad7fa45540cdf5c598cd427d2312",
+      "bytes": 1659
+    },
+    {
+      "path": "Catalan/Runge/Definitions.lean",
+      "sha256": "1061c0edc8993c799aeddb3fc2e0f3fc267ca99d926c3974c23b9a496a82b7eb",
+      "bytes": 1373
+    },
+    {
+      "path": "Catalan/Runge/ProductCoefficients.lean",
+      "sha256": "e296ec4aa43b80afc1cfe0f19a4bd3e49cba71d9eae44f8c6d0f99ef8de10ba4",
+      "bytes": 2107
+    },
+    {
+      "path": "Catalan/Runge/TailBound.lean",
+      "sha256": "003973f175d53eedcbdc6e3bbf6d65150f68b5b52dffab88973c0e2c633aa449",
+      "bytes": 5595
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "680f362222bd0d248bfde9a9993aef2d0644226077c24ab3bb3fe47b47e1392a",
+      "bytes": 939,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Catalan/Runge/TailBound.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7abe09787a9baee98829": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/cadamcat/catalan-lean4",
+    "source_commit": "597469e8eba93909efc94892e6f7df5ea4951fe3"
+  }
+}

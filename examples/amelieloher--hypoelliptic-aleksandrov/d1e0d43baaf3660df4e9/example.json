@@ -1,0 +1,228 @@
+{
+  "id": "d1e0d43baaf3660df4e9",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/Measure/DensityNearOneMeasure.lean",
+    "file_id": "0a341fa98c67fb430631",
+    "source_sha256": "0a341fa98c67fb4306319e6251419c31002f9696d8a4d085da2072f4f2c80325",
+    "start": 71,
+    "end": 96,
+    "original_start": 71,
+    "original_end": 96,
+    "declaration": "parabolicELpNormOn_le_of_norm_le_indicator",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Measure/DensityNearOneMeasure.lean#L71-L96",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Measure/DensityNearOneMeasure.lean#L71-L96"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "parabolicELpNormOn_le_of_norm_le_indicator",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "cc7f7712a1a5227edc025b7e2fc55f8baa6036d3bc7d6e7e7424259ae2635080",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "749d0e6e334290a1fcfdfa9dc2eaf0cc6400746416ec77887a60f5eff20dc1ce",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/Ambient/Basic.lean",
+      "sha256": "253abb3250822ba9e62d2faffa1391c4c3bcd5170e19a175ac17d40c6c03eb5e",
+      "bytes": 468
+    },
+    {
+      "path": "HypoellipticAleksandrov/Ambient/MatrixContraction.lean",
+      "sha256": "4f07398e51014755e78ea507b2b8809b59215bee56bb01b7672c3fc9a9f4cca4",
+      "bytes": 3062
+    },
+    {
+      "path": "HypoellipticAleksandrov/Coefficients/Ellipticity.lean",
+      "sha256": "a52fdb1582b96c5bbe22ae83704c12cf3f872446349e5091765520903c60b06f",
+      "bytes": 7728
+    },
+    {
+      "path": "HypoellipticAleksandrov/LinearAlgebra/DeterminantTrace.lean",
+      "sha256": "f5f3ac4d456006dee67096d2e94e6c89886dc7fbb079a82d7380ce4cd218383f",
+      "bytes": 3871
+    },
+    {
+      "path": "HypoellipticAleksandrov/Measure/DensityNearOneMeasure.lean",
+      "sha256": "1e1f2b732fc8f157529a7126c19a1bb2dfbb6d31ce2d84e934e8c23061e422d1",
+      "bytes": 14847
+    },
+    {
+      "path": "HypoellipticAleksandrov/Measure/TimeVelocity.lean",
+      "sha256": "dc8a6651a9ac08fd22c4e33dfc5d312089a622cd638f7f8850a9ccc22aab5825",
+      "bytes": 5283
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/ABP.lean",
+      "sha256": "4bb60a5710e909f57df4a2c902d34f163576a8b4938758950f13e2b2e22efb8c",
+      "bytes": 25488
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/AreaFormula.lean",
+      "sha256": "23f2882ac6df9919958819a9d323fb51cbd20b984d091882c0bbc990ccfaedba",
+      "bytes": 3319
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/ContactCoverage.lean",
+      "sha256": "ff7360009e1c2554f1eac8417fc7a5a23b86902545198ebfcad15bedfc2b6d79",
+      "bytes": 18960
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/ContactMap.lean",
+      "sha256": "493431161628b98101624d83fc1b2781ff1b8091cce7fa609cc1982a2d02a4b8",
+      "bytes": 7575
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/DensityNearOneGeometry.lean",
+      "sha256": "ac5f81586c0c90635961ba33317b5f6fba2b7458f3e0b635100e0e44e76cbe8f",
+      "bytes": 9119
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Derivatives.lean",
+      "sha256": "28d0fed1d021ab95a6e135f84982e57e48c1f1b94db0c59b706175fb1d5fd9f8",
+      "bytes": 25953
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/EllipticityClosure.lean",
+      "sha256": "9a5ea8e5bd4e2569c2dd6b6a7f0b171879a74dc5e4ee946bd2df4a6a728a24a3",
+      "bytes": 3267
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/ExponentialConjugation.lean",
+      "sha256": "3dae1631dc8310819f5c673dc1c739f90a0de52859d8fffa0f3c811de910c686",
+      "bytes": 13133
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Geometry.lean",
+      "sha256": "82222578e5878ecb286ae28ea4c91efd7c98ecb95c82dbfed775809df96dfb0a",
+      "bytes": 7456
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/HarnackABP.lean",
+      "sha256": "84aa3573fb5018b1d227e9fe9027e7bae985182ed33e3cad8014e35572d74deb",
+      "bytes": 17483
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/HarnackGeometry.lean",
+      "sha256": "37bf7ff133702a067102261d2094bf2dfd1ee29c29b11fd07ebb6f1207a31c71",
+      "bytes": 18034
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Jacobian.lean",
+      "sha256": "8daf8cf89aa8b039066618bf678e6d9374e2dfe81f7ed0b6d1f61bda5db31fd6",
+      "bytes": 21282
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/LocalClassical.lean",
+      "sha256": "8e10977c601f0aa41af0c09444822fd8350e57400939f60ffc4fd4a5100ffbe5",
+      "bytes": 15557
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/LocalGluing.lean",
+      "sha256": "1cc10f62f23b0b06160360065a19f0f5e6d11a3df921c12703dfcb03bc536c61",
+      "bytes": 8538
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Operator.lean",
+      "sha256": "237352a16e4f3875c128f333c32f2aacb4cbaf5e3cc39765287ca9530e742d9f",
+      "bytes": 2230
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Scaling.lean",
+      "sha256": "1c26367f9f596a0dd66c11a58ed299e77360fb68067356e2b0c6b1b6b87f3828",
+      "bytes": 16103
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/ScalingMeasure.lean",
+      "sha256": "a79369130824f69dc675a908411bdc880ecf45202e54a8e97d6eeb5371e88ea6",
+      "bytes": 10480
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basic.lean",
+      "sha256": "0768ef11188e4c4af39f4d6af323f7edbf4acb1ad44ef127da007fe762af8df0",
+      "bytes": 587
+    },
+    {
+      "path": "PDEFoundation/Ambient/EuclideanNorm.lean",
+      "sha256": "9d490533d8ea035d5f0588041a71c6a7e54d72a2119fceca5f9900983d3878f0",
+      "bytes": 12541
+    },
+    {
+      "path": "PDEFoundation/Geometry/Affine.lean",
+      "sha256": "e07e49a7a1fac1bcc9ab99f48bea2cc86fab099edd295857b2ca90319be23871",
+      "bytes": 2285
+    },
+    {
+      "path": "PDEFoundation/Geometry/ConvexDomain.lean",
+      "sha256": "f5b9f63e9deb6234d9d528e2519f2c6a0208d209957ee4db819a8759ee48bf6a",
+      "bytes": 6271
+    },
+    {
+      "path": "PDEFoundation/Geometry/Domain.lean",
+      "sha256": "45bd8b4b61c4883d8183273a7f6d4f950670136f4f85fe5fd399a331fa2a8457",
+      "bytes": 4309
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall.lean",
+      "sha256": "e0d5b89d0af6cd95bfb6c07bc5c8e45f5ae76be929dbaaea9f1b87c847093fe5",
+      "bytes": 245
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Basic.lean",
+      "sha256": "6340ceea9bb95841982e5f58ee6fab812fbb778764ffaf24143cb8b8365a414d",
+      "bytes": 10181
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Topology.lean",
+      "sha256": "adaf9da59165b82aab16198ad3b629e98389170ed5490b5f5f0e70130479d54e",
+      "bytes": 4282
+    },
+    {
+      "path": "PDEFoundation/Measure/AffineVolume.lean",
+      "sha256": "667d875195f7a0931d4c66380c75da92e2af9458b87ea4608a3b684de6018bdb",
+      "bytes": 6189
+    },
+    {
+      "path": "PDEFoundation/Measure/BallVolume.lean",
+      "sha256": "4c44824279e9268e30db17dcebf68635a9e2f131cbd3610b8506ece1d9726f5b",
+      "bytes": 2728
+    },
+    {
+      "path": "PDEFoundation/Measure/RestrictedVolume.lean",
+      "sha256": "c5f88535db8b4392931f0bf5ff813da660b07f9dc3a0ee604521d30253912876",
+      "bytes": 2561
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/Measure/DensityNearOneMeasure.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

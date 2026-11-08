@@ -1,0 +1,76 @@
+{
+  "id": "38c03457b1cfdf97dba7",
+  "source": {
+    "repository": "scottnarmstrong/DOZZ",
+    "commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330",
+    "project": "scottnarmstrong--DOZZ--5d770d1a6d69",
+    "path": "DOZZ/GFFStructure/KolmogorovCover.lean",
+    "file_id": "0a6a5ae62b001ba76bb6",
+    "source_sha256": "0a6a5ae62b001ba76bb69dd61ca593329aa2971528e6a80602234b58dbbea2ef",
+    "start": 106,
+    "end": 120,
+    "original_start": 106,
+    "original_end": 120,
+    "declaration": "lintegral_sup_rpow_edist_le_card_mul_rpow",
+    "source_url": "https://github.com/scottnarmstrong/DOZZ/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/KolmogorovCover.lean#L106-L120",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--DOZZ--ab6295909671/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/KolmogorovCover.lean#L106-L120"
+  },
+  "native_target_name": "DOZZ.Proofs.lintegral_sup_rpow_edist_le_card_mul_rpow",
+  "source_declaration_label": "lintegral_sup_rpow_edist_le_card_mul_rpow",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "5ad2ebb7001ff38a68a17d1eba542e20229ec84ca4ec771df578187dd4b51849",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "6d15c01631adc7354cdcdff17add12d65062af92114c29f1f5c810f3dc62f1a2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DOZZ/GFFStructure/CoveringBounds.lean",
+      "sha256": "00b88ae6b6555fb84bffadc6b7223c3165d5b33b23de936519e5f78c4c0b090e",
+      "bytes": 28121
+    },
+    {
+      "path": "DOZZ/GFFStructure/KolmogorovCover.lean",
+      "sha256": "0a6a5ae62b001ba76bb69dd61ca593329aa2971528e6a80602234b58dbbea2ef",
+      "bytes": 29156
+    },
+    {
+      "path": "DOZZ/GFFStructure/MetricChaining.lean",
+      "sha256": "016527fae6201c07c896abfb4f3a5b9790fdd924f0d35e67e6b83a65cc456dfe",
+      "bytes": 16914
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a28360814cab4e9007c6e8be88d96ab6867338efb860d4ff191a3e51c687fdc7",
+      "bytes": 2093,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DOZZ/GFFStructure/KolmogorovCover.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/5a0e52295ae59981744c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/DOZZ",
+    "source_commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330"
+  }
+}

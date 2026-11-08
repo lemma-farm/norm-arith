@@ -1,0 +1,358 @@
+{
+  "id": "f28e0fa21929f02187e8",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffBadAnnulus.lean",
+    "file_id": "09718627d2647ed45f20",
+    "source_sha256": "09718627d2647ed45f205064beb99444fe24f21ccba2837dea6b9b49d6f460a2",
+    "start": 481,
+    "end": 702,
+    "original_start": 475,
+    "original_end": 704,
+    "declaration": "gammaDiffBadRightStepSupAnnulus_le",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Probability/ModelKolmogorovGammaDiffBadAnnulus.lean#L481-L702",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Probability/ModelKolmogorovGammaDiffBadAnnulus.lean#L481-L702"
+  },
+  "native_target_name": "RegularityStructures.gammaDiffBadRightStepSupAnnulus_le",
+  "source_declaration_label": "gammaDiffBadRightStepSupAnnulus_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "da2ef1a52d8334d0eab586f94995d45f2ffc4bd935fc6baa5c007b6300e68ec1",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1292958df5080b59c47683e9b8cad0c44ab63e2152b4b6c0be7a39408742d02a",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RegularityStructures/Abstract/Germ.lean",
+      "sha256": "411c97f2995acbfaa2d0952909abf081f85ee8f0663b41aca0fa00034d0d808f",
+      "bytes": 1877
+    },
+    {
+      "path": "RegularityStructures/Abstract/Model.lean",
+      "sha256": "3610daa533b92f9a39fe137f7abb8df3834e80860005687105ed8504546b3d07",
+      "bytes": 10479
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyModelBound.lean",
+      "sha256": "12044e9644ecc98c47de1a95a6fc95659f0cd5f8203984207cf6ea087bd5b517",
+      "bytes": 4460
+    },
+    {
+      "path": "RegularityStructures/Abstract/RegularityStructure.lean",
+      "sha256": "dbd69b73c8f05200b3e8ccaa29853a5b9d3f0b9c30db7103ceb5c0ab54842a05",
+      "bytes": 9655
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Gaussian.lean",
+      "sha256": "1951599b8d6c484c2cbe9d27a8d4dcad0acc90497964f43e4b4d46647defc86c",
+      "bytes": 3379
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Moments.lean",
+      "sha256": "3d17641d69ee8d106fd3e86d6c4f7a1362859d023c10a16e2f6a014c485740cc",
+      "bytes": 7046
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Parabolic.lean",
+      "sha256": "50871ac19288403df075a2d289ee3b1ffc4818a9f40c78fff9c79f86c937b9c7",
+      "bytes": 5497
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/ParabolicSemigroup.lean",
+      "sha256": "304d788debaefc7991fd3f45f5f610a5c4b1974c760dc9744a5d84c0577e5d87",
+      "bytes": 5492
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Quartic.lean",
+      "sha256": "0ec84cb926e5d172848e3c902f74ecbb849c2f0a73c226996d7b87d3c21c27a0",
+      "bytes": 3400
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Schwartz.lean",
+      "sha256": "2d5914c795e6f1f55e3e97a29c65b66ccd9241718310a6ac7b9089e4724b7089",
+      "bytes": 7525
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Symbol.lean",
+      "sha256": "080f188aa955ec977fe769f4f87c242e0d2f015df0c6e920f158374e7a2a2862",
+      "bytes": 9061
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/SymbolScale.lean",
+      "sha256": "c4ba52ac2c004d3dd4cbeadf554be0f592a2d45657f08944392939019636929c",
+      "bytes": 6500
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "3df36918fe8656f84a375185af90286b17494c9036a154ab48d425524442d490",
+      "bytes": 3478
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Basic.lean",
+      "sha256": "3e9b5eed46d3cee088915fb02ad01727fa7487e5914a581b377a6e4f7ddd683d",
+      "bytes": 5630
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Operator.lean",
+      "sha256": "a97da29d8958bfcc22c40df99d08cbb82768584687e79a1fd34d208a7265bc92",
+      "bytes": 2134
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing.lean",
+      "sha256": "70f17b5a91ed6259687821fe01b64a06450700a792ea4d515e0d57479f394add",
+      "bytes": 765
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Basic.lean",
+      "sha256": "8debf11006773eee87d1d140310dc14dbbcfd5358c2b2c663e127353a07185f9",
+      "bytes": 3592
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Main.lean",
+      "sha256": "69aa577e008de9572063112d4e5d471cf6c4dfe017cf6840ccf581a34e9bf8c4",
+      "bytes": 2534
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Tendsto.lean",
+      "sha256": "b05a8981811f951997c7c4cfaf6b4113934f431d012ab621fa6ef0af395dc3ef",
+      "bytes": 1587
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovApproximation.lean",
+      "sha256": "70e4575b3f0d19d75b25cd89712e9ab1d24c1adf77185ded6061c0c361e2f5d0",
+      "bytes": 2741
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovDyadic.lean",
+      "sha256": "bcab2b7de07535f11a42f4471a3d3cba3c858ecf482db8afc90173fc6e69ab94",
+      "bytes": 6766
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovFinite.lean",
+      "sha256": "439ebb69229db02630e2d3eae0eb902d39e50b28ce0787860dc6d1fcc3e9f134",
+      "bytes": 2945
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovGrid.lean",
+      "sha256": "252ab338f4577de59c74855854a8107c52d546c1d7b9a5eac398c98d618bc3db",
+      "bytes": 4162
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovMoment.lean",
+      "sha256": "f9f9eda94ae02642189350bd78acc3ec2fd22c2de904bafdd14b3bec387e56b7",
+      "bytes": 3166
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovMomentClosure.lean",
+      "sha256": "509fa194bef0e8e139e62a8924d97ae6bf285fc8e14c78eec0e6b3b3fb1748c0",
+      "bytes": 6986
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovScale.lean",
+      "sha256": "54a6746b09120bfde5fb8558bd780514dc1dc28f13db31b91747f1823be86702",
+      "bytes": 3212
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovSupremum.lean",
+      "sha256": "160ed77156ec489695f93687954635292705d49da3767473cb8d6fc939b416ab",
+      "bytes": 5279
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovContinuousRandomModel.lean",
+      "sha256": "f2878f7b9bdd88525848221943161734336fba15828a0022dd5338db8b62a5e9",
+      "bytes": 9671
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaAll.lean",
+      "sha256": "801d5bff0a2368dfa59aaa05ef439d261e63da05858bccd2ea3ca42571807ce9",
+      "bytes": 856
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaAnnulus.lean",
+      "sha256": "65f5b2b26d3aa236dca461749d22a77e5831641d4509de65b2a392175ce7c0b4",
+      "bytes": 9959
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffAlgebra.lean",
+      "sha256": "48cd0e6d25d003bdc00f3c0bb9514f537924533094523ee498cfa543e8a504f9",
+      "bytes": 4105
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffBadAnnulus.lean",
+      "sha256": "09718627d2647ed45f205064beb99444fe24f21ccba2837dea6b9b49d6f460a2",
+      "bytes": 33661
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffGoodMoment.lean",
+      "sha256": "de6a5577cbee3fd7fbca6be34f4bc23864211eb2385752d2c4bf3d11cf10ec47",
+      "bytes": 34103
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffRelativeSource.lean",
+      "sha256": "cabf52d0565bb0161017cbddefbc07c52d6088636f607ebc3373087610d7a680",
+      "bytes": 11759
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffSource.lean",
+      "sha256": "28ae6918a96890a930972c1bfc6909fb5d9743a83a5fdc9b7d89d5a21a236448",
+      "bytes": 2255
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaDiffSplit.lean",
+      "sha256": "6afef3c93ba35e0cebe90ffb4f62a6d6d19a73a11856b9c04a48a0459014a4ea",
+      "bytes": 8047
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaMeasurability.lean",
+      "sha256": "52ae3e363c08f92db822c4df9169ed023859767a3e34c8cd05c3bc8622e3fc0e",
+      "bytes": 2200
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaProductNet.lean",
+      "sha256": "292deda1b29ddeac1a6ee6f5a51eeff7156fa0b5824cd196f05209e065c6fc4b",
+      "bytes": 20340
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaSplit.lean",
+      "sha256": "4778b7203122d396f370eca3f62f71bbd91b715b5e88afec0c22508b1bee37c6",
+      "bytes": 6976
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGammaSplitSource.lean",
+      "sha256": "1150a19be9f609c8457547eae4d65276ba0662d960a4ed74d6f838e48bce58ae",
+      "bytes": 21294
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGlobalGammaChen.lean",
+      "sha256": "ce5db0fb7b02fe651599cb49b26e6d376fab59ac7105c5e55eabb232db9a4091",
+      "bytes": 5459
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGlobalGammaIncrements.lean",
+      "sha256": "edacba5b3254dc99ace7b6516972e0116b1d3f95d04dd0b0262e504a30673fd8",
+      "bytes": 4367
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGlobalGammaRightIncrement.lean",
+      "sha256": "526487ba35e7cbcd3fce82523e3bbebe236e2bf25e18c87a4a8627c3fef5a68b",
+      "bytes": 4111
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGlobalGammaRightMoments.lean",
+      "sha256": "a486cd9b5b98451469b1df32996e2d23488fbfd0b14b70d18054887a68cfbf8a",
+      "bytes": 5563
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovGlobalSourceMoments.lean",
+      "sha256": "71ea7c8df1047c5258e3990b986cd25f6581085013ab55b52530d71b23488ce4",
+      "bytes": 6222
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSCompactNet.lean",
+      "sha256": "54c8564bbdfef2af0616443aa40599f071f00e3af33260a82af114631f28470b",
+      "bytes": 5801
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSCompactParent.lean",
+      "sha256": "8f1765068eec979382bb71919288c3505dd6e0aee7c84ddadcbd7a72fd219ca6",
+      "bytes": 4046
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSCompactTopology.lean",
+      "sha256": "f632b45dbe7796d69ad4a42fd680f08d53dfb2004607be40cce41fa64863a6dc",
+      "bytes": 2715
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSDiagonal.lean",
+      "sha256": "5022342a3955a171525fdd7aab26db08038a96d3b545d8df4716d1d7b0cc2725",
+      "bytes": 2250
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSParabolicGrid.lean",
+      "sha256": "45d8c7a89c7737038f0970b4fff636d91e403766948de8f66a2d968bf0e4754f",
+      "bytes": 1867
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovNorm.lean",
+      "sha256": "a5c01529f64ea7a428f03e24f38749fef93eb1ec058ff5ff0b8b528591d84e89",
+      "bytes": 2082
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovSourceScaling.lean",
+      "sha256": "734f433c37f76f68e045f9713ec032e39a2a1114733d47cf132d6f7a0395230b",
+      "bytes": 1893
+    },
+    {
+      "path": "RegularityStructures/Statements/Defs/IsContinuousRandomModelOn.lean",
+      "sha256": "318aee08c72bb3bc04959cead0fb10096be5ac65837342a359b9a1fef9d0a3e5",
+      "bytes": 1942
+    },
+    {
+      "path": "RegularityStructures/Statements/Defs/IsContinuousRandomModelWithFieldsOn.lean",
+      "sha256": "bf32b93b239757363318be72cde6edd2091780bb14614b58e2431d0f1c2c9db0",
+      "bytes": 1668
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovBorelCantelli.lean",
+      "sha256": "14851b5bdc2dc9011ed3f4a58a27426a50e32bdb24100213d51479a9253f4b4f",
+      "bytes": 1667
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovCore.lean",
+      "sha256": "c55e7c83ac0dab46f290c59e9001845797a098f1b4d102aeccdb74419f8f8809",
+      "bytes": 1287
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovSupMoment.lean",
+      "sha256": "2e0a14ed2e0cc58996ecc156e821eac6650d3776c9da1d8320250f8cf2b07bc2",
+      "bytes": 1547
+    },
+    {
+      "path": "RegularityStructures/Probability/KolmogorovChentsovTelescope.lean",
+      "sha256": "024af8a31e1eba7d9151f7c95ef409d0ab64fbbbe97f60fe578290703f6d121e",
+      "bytes": 1537
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovHSFiniteMoment.lean",
+      "sha256": "cf5b0e69baab368bbec8742fd996b43744cfa5511933966a2d59bb4d4b03e684",
+      "bytes": 2111
+    },
+    {
+      "path": "RegularityStructures/Probability/ModelKolmogorovMomentOrder.lean",
+      "sha256": "04166b64485279b4b1edd9d6dd057309e8fb920719ec36e7dc5c00afdcefb4e6",
+      "bytes": 2709
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RegularityStructures/Probability/ModelKolmogorovGammaDiffBadAnnulus.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

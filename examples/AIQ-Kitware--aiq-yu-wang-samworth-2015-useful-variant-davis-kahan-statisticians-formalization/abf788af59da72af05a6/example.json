@@ -1,0 +1,166 @@
+{
+  "id": "abf788af59da72af05a6",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "commit": "234e61473e5378fd89585d8929cfba560b046323",
+    "project": "AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization--234e61473e53",
+    "path": "DavisKahan/SpectralTheory/GraphSubspace.lean",
+    "file_id": "07287847b49176437072",
+    "source_sha256": "07287847b491764370720b269901c5dcbf71396307308e6febcfab7781a23120",
+    "start": 493,
+    "end": 569,
+    "original_start": 295,
+    "original_end": 572,
+    "declaration": "norm_projection_sub_projection_graphSubspace",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization/blob/234e61473e5378fd89585d8929cfba560b046323/DavisKahan/SpectralTheory/GraphSubspace.lean#L493-L569",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formal--b7b289f4bf00/blob/234e61473e5378fd89585d8929cfba560b046323/DavisKahan/SpectralTheory/GraphSubspace.lean#L493-L569"
+  },
+  "native_target_name": "TauCeti.DavisKahanExt.norm_projection_sub_projection_graphSubspace",
+  "source_declaration_label": "norm_projection_sub_projection_graphSubspace",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b238234e8f04818c3d0822f226e982c36a3d6692bc6f2f2eebe62badf42d5f4f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "cc28c4aba3f0505bb2b8113013c4645e094ea19b719c6df80eb793d0def79366",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DavisKahan/BoundedOperator/Compat.lean",
+      "sha256": "d74878916db6b71cffe4edf806fd52af2043f69dd5478932de06e5ba629111fe",
+      "bytes": 7832
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/OperatorAngleComplex.lean",
+      "sha256": "6891953ba01067dbbf9fe9dd7a443cd0401f9f2e69e57796360d8c0f05cd5882",
+      "bytes": 52989
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/OperatorAngleReal.lean",
+      "sha256": "8a271a0f10813d0ac1d054bf6ee886d6632e06db0969dc6d7d1e58774a446838",
+      "bytes": 8710
+    },
+    {
+      "path": "DavisKahan/Geometry/Angle/PaperOperatorAngle.lean",
+      "sha256": "7e994a13add7b8ece2b0b23c65c9047bc574065f8756b3160d9687ce64d5d889",
+      "bytes": 14625
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/Complexification/Subspace.lean",
+      "sha256": "40cb8ef110aa63b8684a4e9b8b32c4d5342edcba4d03c9a034a66eb5b66a7dd7",
+      "bytes": 14108
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/GraphSubspace.lean",
+      "sha256": "5a846e1c3f280225e086cb2d7ce63140df37d4d6e8d9b436f66bdaab13be049c",
+      "bytes": 40596
+    },
+    {
+      "path": "DavisKahan/SpectralTheory/OperatorAngle.lean",
+      "sha256": "45ec297e3a473264339f159ec7e4b8f08a143eacf46e3867bbad47a2165bac7d",
+      "bytes": 1795
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/Projector.lean",
+      "sha256": "d46c5ca48cec2ab277eed7d7aa45417eb38661cd1712b774516ca8d8ef2428ff",
+      "bytes": 4324
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/SinTheta.lean",
+      "sha256": "3eb2d6e0d85e3a5d627914cf4603787a3535818592173d6b2278919d556ca1f9",
+      "bytes": 11172
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/CoerciveUnit.lean",
+      "sha256": "0a781004c2fdb2658b61721956bb92a5766dcc89b81a7b3d7e8802864b1b1d17",
+      "bytes": 20914
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/Basic.lean",
+      "sha256": "b02e0bf5c3c1223271dd881d173a6ae9f22c71eabd85df18c4cd78630b6aa516",
+      "bytes": 30393
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/FunctionalCalculus.lean",
+      "sha256": "e7a10c5be850c8ac52376fac0fd32a7c67091ce0b9f5fd39f178d35a10c0edc4",
+      "bytes": 27437
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/OperatorModulus.lean",
+      "sha256": "d4394d1ea436a8ae9c460bd6b395e0eaa2eb2f2879236ee21bd8df9acf8d34b5",
+      "bytes": 12681
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Blocks.lean",
+      "sha256": "b727ee686c4b86017226999b5254c02641a88107ee012c948b13a1cf33749adb",
+      "bytes": 10882
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Gap.lean",
+      "sha256": "82334842f94fe21f67559faa2f2089c1baa3be65416831d8e1eeeac7a85e09b6",
+      "bytes": 27151
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/QuadraticFormBounds.lean",
+      "sha256": "7c6687faa82929f81004d1e25d900d01257d25d2ae07df0855cf36b8f30ad286",
+      "bytes": 4728
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducedExtension.lean",
+      "sha256": "214e517b63cee53ee28ed9f91dd7d57f07f610eb0ca8183fbb3b9a593a66aef6",
+      "bytes": 6597
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducingSubspace.lean",
+      "sha256": "991c9e8d716aa17d1f9cdb28fdfa076d9b917c3b0d1eaacd78644a6653359c40",
+      "bytes": 6649
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/SpectralOrder/Real.lean",
+      "sha256": "57125682a72bab07aaf00eaff875abdb110a233db5c4a83c91c6fba7aace98ee",
+      "bytes": 13058
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Bound.lean",
+      "sha256": "31c09f5dba35c1f7415a290f0e5127e75ece629bb14900d6f9b786aa82976692",
+      "bytes": 26372
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Operator.lean",
+      "sha256": "bdcb11ee456d503f559e13c42b1ddb7352d0dae3bac8d03cbe2c96e56a60dc37",
+      "bytes": 3284
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e06a439f703971b650535afab26ce9a1574955e1560628763b978cb10a33f6ac",
+      "bytes": 1146,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "DavisKahan/SpectralTheory/GraphSubspace.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/abf788af59da72af05a6": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "source_commit": "234e61473e5378fd89585d8929cfba560b046323"
+  }
+}

@@ -1,0 +1,28 @@
+"name" = "AVAnomalousDiffusion"
+"defaultTargets" = ["AVenhance", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Homogenization"
+"globs" = ["Homogenization.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AVenhance"
+"globs" = ["AVenhance.*"]
+"leanOptions" = {"linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

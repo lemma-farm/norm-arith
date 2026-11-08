@@ -1,0 +1,126 @@
+{
+  "id": "61a5740d7543b4df49b3",
+  "source": {
+    "repository": "jjtripodo-lgtm/erdos-670-verification",
+    "commit": "5510ffd94156d48dbe393ac619586b935212da79",
+    "project": "jjtripodo-lgtm--erdos-670-verification--5510ffd94156",
+    "path": "palomar/Erdos488/Geometry/SeparatedDistances/FixedDimension/WeightedSchur.lean",
+    "file_id": "0d6cf738b246870ad132",
+    "source_sha256": "0d6cf738b246870ad132afd7b65031df9a11fbae820134a422bb3f2600d4b6fe",
+    "start": 36,
+    "end": 70,
+    "original_start": 36,
+    "original_end": 70,
+    "declaration": "weighted_schur_two",
+    "source_url": "https://github.com/jjtripodo-lgtm/erdos-670-verification/blob/5510ffd94156d48dbe393ac619586b935212da79/palomar/Erdos488/Geometry/SeparatedDistances/FixedDimension/WeightedSchur.lean#L36-L70",
+    "archive_url": "https://github.com/PalomarArchive/jjtripodo-lgtm--erdos-670-verification--bff106c8148f/blob/5510ffd94156d48dbe393ac619586b935212da79/palomar/Erdos488/Geometry/SeparatedDistances/FixedDimension/WeightedSchur.lean#L36-L70"
+  },
+  "native_target_name": "Erdos488.Geometry.SeparatedDistances.FixedDimension.weighted_schur_two",
+  "source_declaration_label": "weighted_schur_two",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "5ef147c7a4e438096b5e6376b1941ba2090ce187d2b2d135b0ba6d83f83bf372",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0d152f53a0a72e9633375c5a17376235cce93ecd2895a4d97bdc76d4ea50dee4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/ColexBase.lean",
+      "sha256": "5dfe82e61eecf5e6f616bb481224c60a0d071a69581b80720ccedb20e63716f2",
+      "bytes": 1289
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/ColexPositivity.lean",
+      "sha256": "dfc448e01897bdbb5bc93d9e0c8c642122bc77dc3531ab6ad8853a605d6b6f8a",
+      "bytes": 50575
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/Defs.lean",
+      "sha256": "e4fcf84dc6616f1a0793a60316adb6e36b4605d1be0258300c28dc51f5733fa8",
+      "bytes": 2590
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/EuclideanRealization.lean",
+      "sha256": "10780e7c3000ec5cc7ce6ecb9520b1565083e7a04d8ddacb620bdf9823f6d047",
+      "bytes": 7433
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/ColexReserve.lean",
+      "sha256": "3141287be83634fb67ae577c1b9ce6f222b8f1f01152728eccd2b5a2946c810c",
+      "bytes": 10798
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/ColexReserveDirectCS.lean",
+      "sha256": "96cb72d2e23c9ad1e653fe10b8f5038593d5d44e41fe6d9eec51330187a0cc8a",
+      "bytes": 6766
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/Flattening.lean",
+      "sha256": "db142a44ad86677497817199a70d2bbf2c7bb6a90232f8c7c57cc2f3ff5af3a0",
+      "bytes": 1863
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/IncidenceBridge.lean",
+      "sha256": "442e3c8736ff3ca302519a00cfee8bb9f8836e911ecc9fd74fa5124302ae2d4a",
+      "bytes": 11774
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/PotentialSolve.lean",
+      "sha256": "77a6f40e95bc9122a11ced206ef25d28f884d9940181d1024758970076392ac7",
+      "bytes": 5961
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/FixedDimension/WeightedSchur.lean",
+      "sha256": "0d6cf738b246870ad132afd7b65031df9a11fbae820134a422bb3f2600d4b6fe",
+      "bytes": 2834
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/GramRealization.lean",
+      "sha256": "7a18d91959148ed441fb6cd0641a59cd5b8056935bb9adc9359fcf671f5cabfd",
+      "bytes": 6046
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/Labels.lean",
+      "sha256": "b1a62c9759ca1ac4a72046ea883d423c7d5123de8cf9ee57633082a99043dbed",
+      "bytes": 12619
+    },
+    {
+      "path": "Erdos488/Geometry/SeparatedDistances/PrefixSums.lean",
+      "sha256": "2eb6d47fdba5bcd0181dcb70b66fae5e2ba65cb945b6cc5fb61b5039b6315bbb",
+      "bytes": 3455
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "c1195e9bd1ee58137670277264f13368f92509f8f52cef2c0875ef55a074e14b",
+      "bytes": 444,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Erdos488/Geometry/SeparatedDistances/FixedDimension/WeightedSchur.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/61a5740d7543b4df49b3": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jjtripodo-lgtm/erdos-670-verification",
+    "source_commit": "5510ffd94156d48dbe393ac619586b935212da79"
+  }
+}

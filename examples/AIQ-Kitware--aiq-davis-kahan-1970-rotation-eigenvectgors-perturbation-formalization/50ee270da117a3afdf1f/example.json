@@ -1,0 +1,63 @@
+{
+  "id": "50ee270da117a3afdf1f",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39",
+    "project": "AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--38e37da6e147",
+    "path": "ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean",
+    "file_id": "013f3ba2ec2d06d3c691",
+    "source_sha256": "013f3ba2ec2d06d3c69131870d6c1fc62131147798fb56e3e25d3d758dbcd00c",
+    "start": 433,
+    "end": 440,
+    "original_start": 433,
+    "original_end": 440,
+    "declaration": "OperatorIdealFamily.Elem.NormedAddCommGroup.add_le",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean#L433-L440",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--335602c8e20f/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean#L433-L440"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "OperatorIdealFamily.Elem.NormedAddCommGroup.add_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "a383a27ae9bd341ea399edb71b1a60bd08fda81e1a4428c5a2b6abf1f9a103df",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3428f41b7cd11b5709d4532f39ff3d68e04cefa7934519964d3978c5b8359a72",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean",
+      "sha256": "013f3ba2ec2d06d3c69131870d6c1fc62131147798fb56e3e25d3d758dbcd00c",
+      "bytes": 30790
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "cf0a6741105bf06b651310c447a04fdfcde23b23d5b07b719fd3555c3ad95c74",
+      "bytes": 763,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ForTauCeti/Analysis/OperatorIdeal/Family/Basic.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "source_commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39"
+  }
+}

@@ -1,0 +1,23 @@
+"name" = "ThreeOmittedValues"
+"defaultTargets" = ["Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Theorem12Proof"
+"globs" = ["Theorem12Proof.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

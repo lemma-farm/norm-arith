@@ -1,0 +1,296 @@
+{
+  "id": "8dc26e31829e298e1c5e",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/DirichletForm/ResponseTraceLimit.lean",
+    "file_id": "02240681a1f7d1d5cb2e",
+    "source_sha256": "02240681a1f7d1d5cb2e216ad07b4b9e54e80aa8a5db13825b0ae87653bca5dc",
+    "start": 38,
+    "end": 47,
+    "original_start": 20,
+    "original_end": 47,
+    "declaration": "form_bound_of_response_limits",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/DirichletForm/ResponseTraceLimit.lean#L38-L47",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/DirichletForm/ResponseTraceLimit.lean#L38-L47"
+  },
+  "native_target_name": "SubdiffusiveProcess.form_bound_of_response_limits",
+  "source_declaration_label": "form_bound_of_response_limits",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b4f443c031c08104fa4b50893e103c0f910c4498a4517b10ad44ef3e46b489aa",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4e01455b7c0c2f48b3e7c2a967c2c4dc53db9d79397e5ae9804f6b4412e38c63",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/Compactness/DenseResponseTests.lean",
+      "sha256": "0b6a4d478b7bda41e29d60ee2d6934e18b769dccc044e94cdc0a787c8f01b564",
+      "bytes": 7308
+    },
+    {
+      "path": "SubdiffusiveProcess/Compactness/OperatorCauchy.lean",
+      "sha256": "f0695e29437f35bdf6572d352b8a6142dfed2ccc8c2bc16bc58921e51ad52658",
+      "bytes": 8798
+    },
+    {
+      "path": "SubdiffusiveProcess/Compactness/OperatorConvergence.lean",
+      "sha256": "0910fb2c5789a1811d1523e83acc56e41e7c6d95b7538f46760ab156c55481a2",
+      "bytes": 9533
+    },
+    {
+      "path": "SubdiffusiveProcess/Compactness/OperatorLimits.lean",
+      "sha256": "406c5966c6eb32ac6f0b17d845f6387c5957a84a4141d36789a56d377d596d12",
+      "bytes": 4371
+    },
+    {
+      "path": "SubdiffusiveProcess/Compactness/RecoverySequence.lean",
+      "sha256": "cb49e9c1f031edabfe6314c6648c67e39c3f48179534869329631321adf5b702",
+      "bytes": 2713
+    },
+    {
+      "path": "SubdiffusiveProcess/Compactness/SequentialCompactness.lean",
+      "sha256": "efddfe614f9d395967c61854629c7948cbafb03367830430cf41c13c9824df1c",
+      "bytes": 3591
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/All.lean",
+      "sha256": "125e1b148b452b8414d9dc5453207359e3f7d8354e6aafbf5344199b57e2dac6",
+      "bytes": 1156
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Basic.lean",
+      "sha256": "b8db24c87ae8c330966a5c0271ffb03aa774c4eeca14e66606af9c244072da3d",
+      "bytes": 18208
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/ContinuousTraceResponse.lean",
+      "sha256": "a8aec8caeed76c84ade923699537e6fdfdb9db4a237ec5836ffbd89fab627188",
+      "bytes": 2834
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Energy.lean",
+      "sha256": "82e6cf47456ed03431cf0b35f30fc136a6ae06dedf4dabc3e37d2dbe621aea4e",
+      "bytes": 13836
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/EnergyMeasure.lean",
+      "sha256": "2126bdbd73f9d0ef38c9c349e5f71030231e1770a53b0716db5c5c853f759c57",
+      "bytes": 17643
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/EnergyMeasureLowerSemicontinuity.lean",
+      "sha256": "f86e883f94eb0db0262279141916ae9514a0f02928d8f3efa11144320792878c",
+      "bytes": 9139
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/FOTProduct.lean",
+      "sha256": "74ac9296acc3ea70ce39a4f236eaa2f2a1eecebbbc2c18cdd00afc085d3c54e3",
+      "bytes": 55197
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Gradient.lean",
+      "sha256": "54798f54b703137a145efcd626f68d45da4901cd6f5933fa2a0759950bc16d9c",
+      "bytes": 7236
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/ImageDensity.lean",
+      "sha256": "b1d45b8be3948e6bdf2b677e1d817f9de5a5a47b2b26a2c79135dca59df15541",
+      "bytes": 4048
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Killed.lean",
+      "sha256": "cf8643894be3075aa386bfad200bdece5785998b8129485af6c86cff8d8a75d0",
+      "bytes": 6147
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/MeasureComparison.lean",
+      "sha256": "184cd14779b099a785c619cadce75c62e238b7bceb6e268d61771ff92da37eac",
+      "bytes": 7456
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/MeasureOrder.lean",
+      "sha256": "749cc268c7330011bae9e4b813d3d74894174a65e0aefd9b4089ac3355379ed3",
+      "bytes": 25736
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Regular.lean",
+      "sha256": "f30ed03947a9000da38c0d5140db65b56aefef8f8114cba7fcbf16d7b273799e",
+      "bytes": 9800
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Resolvent.lean",
+      "sha256": "f45908d568047d7ed368dbd4a4d2be5c80f27021020868f0566042acf78ab77b",
+      "bytes": 8598
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/ResponseTraceLimit.lean",
+      "sha256": "87e177217fa0e99bd05de467c88bf19bea6f218bca854dac3f5a44ff0573d786",
+      "bytes": 5168
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/SinCos.lean",
+      "sha256": "93c47fb732aa4036f23bd187cf452d9843b151dbfd9c7172c9764a444cb2e4cd",
+      "bytes": 4353
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Truncation.lean",
+      "sha256": "232d2917fbd1798ff80608b03b41003847560faf667475f7647469886376c86b",
+      "bytes": 5146
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Weighted.lean",
+      "sha256": "15729c550fec05af006b2b1d3b4dbb14ddea81fd5bd9f6787e08eebebf770e6c",
+      "bytes": 4682
+    },
+    {
+      "path": "SubdiffusiveProcess/DirichletForm/Witness.lean",
+      "sha256": "258df8be081922ef9c74d9d8d0126be709a3969dd91318902dac0b8180fb38b6",
+      "bytes": 12237
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ContinuousTraceLimit.lean",
+      "sha256": "f3440dac1c420b44f348cec54b6015a46c6895ccd5598af1a17edaf983e8fac1",
+      "bytes": 2160
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/FiniteResponses.lean",
+      "sha256": "b87af871f7e6e48ebdf2626297c7a81797cbc8d2a90152bb926df07b04d3f3e8",
+      "bytes": 4182
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/GradientRange.lean",
+      "sha256": "04e34d389272620658d4ad435ac10f6bf597dc2b7ba3584b92c4364d99978238",
+      "bytes": 6082
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/KilledGraph.lean",
+      "sha256": "058f8a54ebffb864319f7998b5140bd72d3249da61acf7a3512fdb5091de49a5",
+      "bytes": 6106
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/MeanZero.lean",
+      "sha256": "aae5d0cae13cbdbadc7ec9f554b42d24bd7497fae1a1608164162c1d18dda0c4",
+      "bytes": 3333
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseInjectivity.lean",
+      "sha256": "8c7f7d106e6d60ca60ff47661fc8b09c9d38804548d677993fe135816af59b69",
+      "bytes": 4739
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseLimits.lean",
+      "sha256": "d22cef7ad5de11a1c0b54a82674a013b69ae4270cd83281de68ccf3815402563",
+      "bytes": 4216
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponsePositivity.lean",
+      "sha256": "56be7284f75ba6c84d2723c36d6f4ed5f1b735f6e213933d4eac45a7bdcd4518",
+      "bytes": 10856
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseRecovery.lean",
+      "sha256": "4dc1fb63930ab916c01d120b1ddf64e46de0492c5e6fcf7c6d56087c352d7c57",
+      "bytes": 3308
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseSpace.lean",
+      "sha256": "b5d58e7091972888ed71a5ea06ff1aa2bef61a45b83c61aaa8ae8422dd2c7c17",
+      "bytes": 6714
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeakGradient.lean",
+      "sha256": "3cffb28b5be3d0a7d7d7aa6c7d84783aa623876b2194ab1bb4f945d508fd4dc2",
+      "bytes": 6243
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeightedGradient.lean",
+      "sha256": "0b28d197a357f38ecc195555c9d66025c0c3f10f9e7cadffa8bf3bab5fe4f120",
+      "bytes": 4401
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/DualEnergy.lean",
+      "sha256": "8e74be2752c2334f04b1aba9f2316e03ac50d08bcea41941dbce8fd57acf5c41",
+      "bytes": 6962
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/DualEnergyApproximation.lean",
+      "sha256": "c470e667ee303c79bd6fcde68e008ea152849daa16140dd4db3f502ce763fe03",
+      "bytes": 4768
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/DualEnergyRegularization.lean",
+      "sha256": "df02f59b5895c8514090516dd03b309e2c486a251d8ee6b13e6d447cb34bb488",
+      "bytes": 3993
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/PositiveShift.lean",
+      "sha256": "a10d3cf9978fbaa14833b1066ad7201618c15b5f5e92b85eacb09552c35e4e6a",
+      "bytes": 3947
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/QuadraticMinimizers.lean",
+      "sha256": "56a0aad905703014609fd90e631fd251ca575b9d13f0c7c794bc968d81a1ebaa",
+      "bytes": 6978
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/SourceObjectives.lean",
+      "sha256": "e8831962fa3d6df088eba95e1a11a6205c84db1d3c817b9425fa830290ce4c7f",
+      "bytes": 1242
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/Transport.lean",
+      "sha256": "78c9d5231d1a397dfc59370d4fa51e81913b87ae4168b7bedd8e3b9d89673575",
+      "bytes": 1362
+    },
+    {
+      "path": "SubdiffusiveProcess/Variational/WeightedL2.lean",
+      "sha256": "520ac72d07f57980abf9e1462390999377290e8bdf8c7c4b7f3a2fe71c76add7",
+      "bytes": 4184
+    },
+    {
+      "path": "SubdiffusiveProcess/VariationalResponses/KilledInverse.lean",
+      "sha256": "d31eae2afc2c3206451d3048abcf1cbdf1c994a62171575d0b8c1f7f07c8bca6",
+      "bytes": 2622
+    },
+    {
+      "path": "SubdiffusiveProcess/VariationalResponses/LimitForm.lean",
+      "sha256": "e36d9b6f0d79b9ca742bda39c2f91911a3af8734d52179bd336b811b9711fbfc",
+      "bytes": 3020
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "8a07d04d03dc52607367b2b96356c1f16fab8feb8ad502992b1af2344eeef431",
+      "bytes": 925,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/DirichletForm/ResponseTraceLimit.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/8dc26e31829e298e1c5e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

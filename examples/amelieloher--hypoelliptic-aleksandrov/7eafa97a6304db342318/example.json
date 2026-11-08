@@ -1,0 +1,121 @@
+{
+  "id": "7eafa97a6304db342318",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/Parabolic/HarnackUnitCylinder/ChainGeometry.lean",
+    "file_id": "0a698878e8d7639e7b00",
+    "source_sha256": "0a698878e8d7639e7b004e83330879812e2414d00abf00054149471054688c21",
+    "start": 120,
+    "end": 131,
+    "original_start": 120,
+    "original_end": 131,
+    "declaration": "unitCylinder_harnack_link_geometry",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Parabolic/HarnackUnitCylinder/ChainGeometry.lean#L120-L131",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/Parabolic/HarnackUnitCylinder/ChainGeometry.lean#L120-L131"
+  },
+  "native_target_name": "HypoellipticAleksandrov.Parabolic.unitCylinder_harnack_link_geometry",
+  "source_declaration_label": "unitCylinder_harnack_link_geometry",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "6b9a7350b1571dd445f972057aef6eb9f0c28fefdac35dc59bc01fcf39954cb2",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c3889efa70cb80939e544fdf4c30044878148c1ee579c898d564b7d0dd77b00d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/Ambient/Basic.lean",
+      "sha256": "253abb3250822ba9e62d2faffa1391c4c3bcd5170e19a175ac17d40c6c03eb5e",
+      "bytes": 468
+    },
+    {
+      "path": "HypoellipticAleksandrov/Measure/TimeVelocity.lean",
+      "sha256": "634ea8986251d2cc081a36096062f5b54e7712b92d4eb2145a7770c4b8e9e296",
+      "bytes": 5265
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Geometry.lean",
+      "sha256": "82222578e5878ecb286ae28ea4c91efd7c98ecb95c82dbfed775809df96dfb0a",
+      "bytes": 7456
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/HarnackChainGeometry.lean",
+      "sha256": "d80e84168b3b771bcbdb633e8bfcbd26d542e9b5d400a112ef91b5773e937f96",
+      "bytes": 12609
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/HarnackGeometry.lean",
+      "sha256": "9c43a0cd212564a20cc4d8da7cff6eeab09fb71fa070a3c0779f9c33ac496506",
+      "bytes": 18142
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/HarnackUnitCylinder/ChainGeometry.lean",
+      "sha256": "0a698878e8d7639e7b004e83330879812e2414d00abf00054149471054688c21",
+      "bytes": 6316
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basic.lean",
+      "sha256": "66965d54cd828ad35dfbd65d5f271cdc38e1b0120c223d18acbbd7333f57151c",
+      "bytes": 582
+    },
+    {
+      "path": "PDEFoundation/Ambient/EuclideanNorm.lean",
+      "sha256": "2807e0d2492c9580bf95f9717c9454c7ef655740d8fe6baa2b20d6225797012a",
+      "bytes": 12595
+    },
+    {
+      "path": "PDEFoundation/Geometry/Affine.lean",
+      "sha256": "e07e49a7a1fac1bcc9ab99f48bea2cc86fab099edd295857b2ca90319be23871",
+      "bytes": 2285
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall.lean",
+      "sha256": "e0d5b89d0af6cd95bfb6c07bc5c8e45f5ae76be929dbaaea9f1b87c847093fe5",
+      "bytes": 245
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Basic.lean",
+      "sha256": "2958b1c6e28908c350205577c5832ba79450ad800945a31d7b8150a6bccab26e",
+      "bytes": 10285
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Topology.lean",
+      "sha256": "adaf9da59165b82aab16198ad3b629e98389170ed5490b5f5f0e70130479d54e",
+      "bytes": 4282
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "50f4e327de602c10798b31187ac25a1b404a9a3f95b0fad7c9304cf1c1ad1833",
+      "bytes": 2326,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/Parabolic/HarnackUnitCylinder/ChainGeometry.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/7eafa97a6304db342318": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

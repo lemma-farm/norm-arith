@@ -1,0 +1,68 @@
+{
+  "id": "4b6a970711a121b3dcc1",
+  "source": {
+    "repository": "geogleswift-glitch/fixed-force-anomalous-dissipation-lean",
+    "commit": "52985f1bb56a05c107523d2265445d0cd38f5619",
+    "project": "geogleswift-glitch--fixed-force-anomalous-dissipation-lean--52985f1bb56a",
+    "path": "RequestProject/PolarRep.lean",
+    "file_id": "0e34b641c77fff2b8452",
+    "source_sha256": "0e34b641c77fff2b84526b1cc54ca72607ba65aebf3b23706a57a203bde64a7e",
+    "start": 280,
+    "end": 356,
+    "original_start": 251,
+    "original_end": 357,
+    "declaration": "polar_holder",
+    "source_url": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean/blob/52985f1bb56a05c107523d2265445d0cd38f5619/RequestProject/PolarRep.lean#L280-L356",
+    "archive_url": "https://github.com/PalomarArchive/geogleswift-glitch--fixed-force-anomalous-dissipation-lean--81f1bef4781c/blob/52985f1bb56a05c107523d2265445d0cd38f5619/RequestProject/PolarRep.lean#L280-L356"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "polar_holder",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "6332d853218fe062b34e91cd0bec0455e927af62abceb37273f11ede2a0039c7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4440ddda41676fa5da5f8aff72888fcf9e9b3305e8bdfd1d6c2c67a84eac3264",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/PolarRep.lean",
+      "sha256": "a7fb765ac3b93d91a86f434fe713d2601815c31f14ffeebf3302904e9a040f0d",
+      "bytes": 17978
+    },
+    {
+      "path": "RequestProject/Basic.lean",
+      "sha256": "a9b8e67151f6358c094dc94d077529a30471dd3241470173e43dfa13a0a4cb40",
+      "bytes": 8729
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "d145072638b03610202e304daaa7fe06906ff9d7f8eeb8e83fd37bc10b4a7da2",
+      "bytes": 374,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "56e1ca3207a1a9a09d5380474aa06b8ea5147c7230e8543e951ed59b26b4e352",
+      "bytes": 3577,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RequestProject/PolarRep.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean",
+    "source_commit": "52985f1bb56a05c107523d2265445d0cd38f5619"
+  }
+}

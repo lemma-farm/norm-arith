@@ -1,0 +1,33 @@
+"name" = "unitDistance"
+"version" = "0.1.0"
+"defaultTargets" = ["SolutionZeta241", "ChallengeZeta241"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "UnitDistance"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeZeta241"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SolutionZeta241"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AuditSupport"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeZeta"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SolutionZeta"
+"srcDir" = "."

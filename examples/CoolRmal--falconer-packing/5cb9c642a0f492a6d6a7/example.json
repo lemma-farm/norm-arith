@@ -1,0 +1,93 @@
+{
+  "id": "5cb9c642a0f492a6d6a7",
+  "source": {
+    "repository": "CoolRmal/falconer-packing",
+    "commit": "70140ccedfb6de71342299523a21b1550df69ab9",
+    "project": "CoolRmal--falconer-packing--70140ccedfb6",
+    "path": "FalconerPacking/SelectedTubeGeometry.lean",
+    "file_id": "0131b72b7151bd2c522d",
+    "source_sha256": "0131b72b7151bd2c522dfdf6222374d35b038289f7b3a5bfabe629565e306b36",
+    "start": 55,
+    "end": 70,
+    "original_start": 54,
+    "original_end": 70,
+    "declaration": "frameRectangle_sub_bounds",
+    "source_url": "https://github.com/CoolRmal/falconer-packing/blob/70140ccedfb6de71342299523a21b1550df69ab9/FalconerPacking/SelectedTubeGeometry.lean#L55-L70",
+    "archive_url": "https://github.com/PalomarArchive/CoolRmal--falconer-packing--054762f09ea9/blob/70140ccedfb6de71342299523a21b1550df69ab9/FalconerPacking/SelectedTubeGeometry.lean#L55-L70"
+  },
+  "native_target_name": "FalconerPacking.frameRectangle_sub_bounds",
+  "source_declaration_label": "frameRectangle_sub_bounds",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "3615b0406a7a724d52ba99af4a32e84c7e54d55be189630e42e30d30c0ee2097",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "49f23c8ddb586f815adba81ba378b924f4131ed74e60b978a0688765f12f2d7c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FalconerPacking/BallOverlap.lean",
+      "sha256": "14d58e546a475aab051dd152e89ecc2cedeabb6ea718ecc7bb4a479fe466af25",
+      "bytes": 3897
+    },
+    {
+      "path": "FalconerPacking/SelectedTubeGeometry.lean",
+      "sha256": "3bb88be779add0b0783e52c4f3e28b22a4a0c2ce2ff07721bcca5916676be3b9",
+      "bytes": 9016
+    },
+    {
+      "path": "FalconerPacking/SelectedTubeWeights.lean",
+      "sha256": "2234482417b1a605ac92b9b6f0e10f847819d6e1d8a212284fab9f2e7abdf0cb",
+      "bytes": 5400
+    },
+    {
+      "path": "FalconerPacking/AnisotropicSchwartzKernel.lean",
+      "sha256": "181c9d90d7821c8df88cf7970dff790be64b6b18f6b3fa25cdd28877628eff8d",
+      "bytes": 12408
+    },
+    {
+      "path": "FalconerPacking/OrientedReproducingKernel.lean",
+      "sha256": "58e0c7eebfaae8f738ea97f9e7897d00d47ee8a62fdb5098e88563c518f45595",
+      "bytes": 10725
+    },
+    {
+      "path": "FalconerPacking/SchwartzReproducingKernel.lean",
+      "sha256": "3d88d67854e8e6377f147ed986cda0983e2b6f0fe5d682b8ef94a57e66d1e41d",
+      "bytes": 4184
+    },
+    {
+      "path": "FalconerPacking/WeightedConvolutionEmbedding.lean",
+      "sha256": "29bd535202ee3e1a7ebdd4b5edbcf72df3e8ee5452bc27add29360e0c0ff1a9e",
+      "bytes": 9935
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f6380fe7726d940ee22ed0bd8eedbb97b7754c56ede117e0d244f1c8fb0dbb9b",
+      "bytes": 475,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "FalconerPacking/SelectedTubeGeometry.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/CoolRmal/falconer-packing",
+    "source_commit": "70140ccedfb6de71342299523a21b1550df69ab9"
+  }
+}

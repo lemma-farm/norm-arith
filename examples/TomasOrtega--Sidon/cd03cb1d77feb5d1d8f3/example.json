@@ -1,0 +1,908 @@
+{
+  "id": "cd03cb1d77feb5d1d8f3",
+  "source": {
+    "repository": "TomasOrtega/Sidon",
+    "commit": "735de6d7c67b81a28b1e07e3f2661dbc17bb89d6",
+    "project": "TomasOrtega--Sidon--735de6d7c67b",
+    "path": "Sidon/NumberTheory/RiemannGaussian/ZetaVinogradovSummedBound.lean",
+    "file_id": "0675fc0825d6acb1701f",
+    "source_sha256": "0675fc0825d6acb1701f5506f331b3e52da52fb0a1902e8f6b26ee7cb4f27b03",
+    "start": 70,
+    "end": 80,
+    "original_start": 40,
+    "original_end": 80,
+    "declaration": "norm_le_prefix_add_six",
+    "source_url": "https://github.com/TomasOrtega/Sidon/blob/735de6d7c67b81a28b1e07e3f2661dbc17bb89d6/Sidon/NumberTheory/RiemannGaussian/ZetaVinogradovSummedBound.lean#L70-L80",
+    "archive_url": "https://github.com/PalomarArchive/TomasOrtega--Sidon--9a23311e73c2/blob/735de6d7c67b81a28b1e07e3f2661dbc17bb89d6/Sidon/NumberTheory/RiemannGaussian/ZetaVinogradovSummedBound.lean#L70-L80"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_le_prefix_add_six",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "8243ecc47f6f05bd3485fce1d2c783ec87da605cd479775217795a6d1b85482e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "acd6a40a8e556f009fde048a8bcabbdbcb23faa88717027ef097b63a9a028c28",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/AnalyticDerivativeCutoff.lean",
+      "sha256": "f863fffc41ea1776c31ef972153f720e42fa95d8d64a7c028671ca6d57761f8a",
+      "bytes": 4129
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DerivativeOrderComparison.lean",
+      "sha256": "cbcc966abb9ed52482b247396d3bf878dc76674a04af9f91cbd2c24458e86dd1",
+      "bytes": 3629
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DerivativePowerEnvelope.lean",
+      "sha256": "acdf1b7b4216714e8249c2f7decdadd93219ce58dd96399ef804c1cb119dde46",
+      "bytes": 3967
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DerivativePowerExponents.lean",
+      "sha256": "cfb9c780c1d854f53e1258f1d804820eff9f8e10e6d7b834999f30cd04af5f0a",
+      "bytes": 2451
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DerivativePowerStep.lean",
+      "sha256": "bc9074697aef6b873ef4f1bb6fe13b9b331b79822436c38a2267a6eef9adde25",
+      "bytes": 7685
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletBlockPowerProfile.lean",
+      "sha256": "8e11c15a4c7c402d30e250a176fa873918defbb61d9bd179b2626d64d07e7ae1",
+      "bytes": 3518
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletCriticalRange.lean",
+      "sha256": "02e339df47b63cd3cf40d5b0023fc906bd477f798812a9397207a8cf3988770a",
+      "bytes": 1774
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletDyadicBlocks.lean",
+      "sha256": "9ebb2eff97d0192f1bfb235aab370f3d950b28a2e56facaed00c3e22cf11a1fb",
+      "bytes": 5226
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletFullRange.lean",
+      "sha256": "854eaf6f23bdcd16145c93681825b8f58363b3c2f7acd00e1df0834fd558a5ad",
+      "bytes": 3281
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletHigherDerivativeBound.lean",
+      "sha256": "98bcf3cd52d31352fcb7fc32a904fbd2b5a7b9fdb5567c750fcc2ed4b394e28e",
+      "bytes": 3569
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletPowerCoefficients.lean",
+      "sha256": "7428d940410e879aafe4c91d6b9de615ce56fa8ede9cd1773faae30b63da3418",
+      "bytes": 4133
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletPowerParameters.lean",
+      "sha256": "3f16159573686512285cb10012979adb0db352b83666158f8ae793c1a2fe8862",
+      "bytes": 2890
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletSecondDerivativeBound.lean",
+      "sha256": "aad1c5bd5d8e22b86285dda3f4ac0f9de39ee89664667185af358de71f817400",
+      "bytes": 3622
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DirichletTransitionWindows.lean",
+      "sha256": "fbd185654f86863090b53f95928c6303cbe17b8f653c3bb37265f4fb3c6ba2b9",
+      "bytes": 3770
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/EtaOddPowerQuadrature.lean",
+      "sha256": "e2e39e421a8aea054b73e95e6d276c7814535174590e171925d65477caaabc98",
+      "bytes": 8114
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/EtaUniformTailBound.lean",
+      "sha256": "7ade23fee967516f34d07539aabe388b0f25be3e438e93388cda810e21338eeb",
+      "bytes": 9662
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/EtaZetaPoleBounds.lean",
+      "sha256": "373422fa62e7ded9dddaa5580cd5a92ead1e5e3d71f86ed37645c7becf8bba8d",
+      "bytes": 4201
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/GaussianZetaBridge.lean",
+      "sha256": "dff6e25741ef969d9fc8e8458a65848a7cd2317f22bb58dd8dc869bcee6a2a5c",
+      "bytes": 9848
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/GaussianZetaGeometry.lean",
+      "sha256": "634b8d47296cf47daaba6e1eab000c022510a1d5b392a345d69671544f14f0cc",
+      "bytes": 1851
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/OscillatoryPowerPrimitive.lean",
+      "sha256": "17c4b285641c20179d225c106c0126fdaaa4c8973ac023f73ad4ce0a0b1671db",
+      "bytes": 14560
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPositiveCriticalStripEta.lean",
+      "sha256": "29b30dffb9f70aefe9fed06a2c28ce8e39814ff00895b74fcf003f8a88fae239",
+      "bytes": 4877
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPositiveCriticalStripEtaFiniteApproximation.lean",
+      "sha256": "4f906d426507fd19fe143ee3ddaa49540d4d04d129a6f0551a38b5085618bb81",
+      "bytes": 1081
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPositiveCriticalStripEtaFiniteLaplacePartition.lean",
+      "sha256": "6013e5546c0c6c8013fcd727709d7e5547a4006825496319dc0fe434ee006340",
+      "bytes": 4490
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPositiveCriticalStripEtaHorizontalDefectGapFinite.lean",
+      "sha256": "d79cb3d723f165619f927ae1b02fa038da0d07a07c17fddd1f9abec5f2a8b654",
+      "bytes": 7545
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPositiveCriticalStripEtaInfiniteLaplaceMeasure.lean",
+      "sha256": "b5fefd32e67e652b9b94b70f864e0a6424fc84b258fc096b8befe05f7d823cfe",
+      "bytes": 11421
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiSpectralStaticContourCriticalZetaUpper.lean",
+      "sha256": "ca612eee382d467d20248844f9e9eca4201012c432ce2353e99f036503d3bf87",
+      "bytes": 17826
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/UniformDerivativePowerBound.lean",
+      "sha256": "84fb684240443cc3b844d6c8052983c765559b94a1b03c37985026060cdc2c27",
+      "bytes": 8854
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/UniformDirichletPowerBound.lean",
+      "sha256": "4f8497b5c65c98001ce347a999b2567fe80d525aa6506c912b81febacf4648ab",
+      "bytes": 3051
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCubicBudget.lean",
+      "sha256": "54d2498bc232824326a101970344805820771a5475803fd36c87f8407a1125c0",
+      "bytes": 6529
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCubicDecay.lean",
+      "sha256": "9c154498f8549fdf60f94f9e5e39382bb7b29e55a58a0c0c574f0bbc79496f87",
+      "bytes": 10510
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCubicSaving.lean",
+      "sha256": "77d3f02559e121682a7eaf0b08137577722c34836be458afe560911637efd37e",
+      "bytes": 6244
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCubicSummation.lean",
+      "sha256": "2df5aa81ec8165042ae4a6461d9590b3fc998ea87f0b42c1c7dfcb0e4d094f33",
+      "bytes": 3801
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDampedSaving.lean",
+      "sha256": "1d648e4e43ceb310f5be2e7900f08ac800189894ab0475f30efe23232a06e990",
+      "bytes": 3031
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDirichletSaving.lean",
+      "sha256": "b9feba55fe62fc85780b34f8c755b0c529423ae4034bb3eee70e2517315a8bfc",
+      "bytes": 4340
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDyadic.lean",
+      "sha256": "0cbd10836b3ca7624322021cc3cfb549e5a8f07d8dbf25acd53d6f2584f3eb88",
+      "bytes": 5787
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovExplicitKorobov.lean",
+      "sha256": "3aede27b66ad3e3387cdbd7168f31b0cf5331deb4a5a5109c3da44c5917e6e6a",
+      "bytes": 1630
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianBounds.lean",
+      "sha256": "af4efbee9226d6cf0cfe3020a033e5b92cf41ff616bb33c08e3ea9713a0c3160",
+      "bytes": 5110
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianCentering.lean",
+      "sha256": "3cab90c0528d5b75dc344475a06bae57a7f11170c37ac97dc5d6d1c457273e8e",
+      "bytes": 6324
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianCost.lean",
+      "sha256": "904a1af02c0b459dec82b6fe7207a9e8fbf7f401846a0656d1c08ab218152ca2",
+      "bytes": 6505
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianKernel.lean",
+      "sha256": "8a362e7e79e588a05e51cdb4d85271b348c9f6de435eb313f3d4dd249c0c6c9e",
+      "bytes": 12786
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianResonance.lean",
+      "sha256": "a3a35534db6dea91c49fdee90bb3988a40fbef65a3acd3e69d39d4214342e4b3",
+      "bytes": 4539
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovGaussianSpacing.lean",
+      "sha256": "0e684ad6aed07ef91edc4d581d74af29e0dc93c7692aa956a75fdec4c2183fe3",
+      "bytes": 8293
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovIntervalResonance.lean",
+      "sha256": "1fbbb924fb937b3077aa584ddb665cc6945632e4d44e3d35c51b0a0d629ba090",
+      "bytes": 4511
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovBilinearPhase.lean",
+      "sha256": "8ae154f893a2da6dae067ba1ac0d7b7c223411a81303844ca1e7868b221f09c8",
+      "bytes": 4219
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovBlock.lean",
+      "sha256": "304c6350fb7e62e64a245729e339d78e6db275787128af542b33733dc7d2428f",
+      "bytes": 3398
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovDamping.lean",
+      "sha256": "e3301e31f8142a03a580b33e8ed9465526df6f227a62f6683e0509b4925a1df0",
+      "bytes": 1908
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovLogPhase.lean",
+      "sha256": "9093f7ba541596f40dbcfa80a46ba381d6b9f393066f261874164d58c6c84e6a",
+      "bytes": 4026
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovMoment.lean",
+      "sha256": "4f5d091852cc8ab21aa10727d48b587e2f8fdf944817141928e575efc3e75f7f",
+      "bytes": 14503
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovKorobovPowerSaving.lean",
+      "sha256": "adeafb87f00ea0c1a784e2e26caefa9237478346bd485d5dca99b1f295118e56",
+      "bytes": 1855
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovLongBlocks.lean",
+      "sha256": "037454c4a9eacbe009ce01297c309fc8a90ec1895e4d564e88fa9c197ae30ab2",
+      "bytes": 4366
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowDirichlet.lean",
+      "sha256": "6860fe1c6f8771f9bef0bc4c4bd6e7089ab180725d8a2b1c58773212be698b8b",
+      "bytes": 7472
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowGaussian.lean",
+      "sha256": "d17a7f286850088cdd036d0007d153e44de0de682034e2507d470c04ed7ffe07",
+      "bytes": 5171
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowResonance.lean",
+      "sha256": "2048fecddf2db467100c9341ada108dd37fa9b7c734fb2e03382c9b8d9bf2974",
+      "bytes": 9489
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNearOneBudget.lean",
+      "sha256": "dcb46a6aa85341691a5c0fec989a150f7866209ac3fd0b8e87e20b3e88639b5f",
+      "bytes": 6494
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPhaseRectangle.lean",
+      "sha256": "366fc0b1fbb2a3a9e616b5c85cef2232ec50cf4f3c21776841ae61a5d6152d80",
+      "bytes": 4816
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovRectanglePowerSaving.lean",
+      "sha256": "7db728883a2de5f3887f9e2e95d5a9ebbd816f797116b882daa820cffdabb61d",
+      "bytes": 2713
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovRectangleResonance.lean",
+      "sha256": "83c579ba711fe34a02856eb912f5fa723761d05b2cc9668bec9eeb209583b925",
+      "bytes": 10466
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovRelativeResonance.lean",
+      "sha256": "69aa7dc31587c3703796f4d6666ffd613e4a55c0027de7747d06b36d8a6fd7aa",
+      "bytes": 5647
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResonancePower.lean",
+      "sha256": "c56571e2205b3a00ba0d821c1cd5c8c6bef86b6e592a427ece016efcbc9d84e9",
+      "bytes": 1867
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResonanceScaling.lean",
+      "sha256": "8554d3f31153e4449d8c87da3ff93cdbc8646a3e8e481e2f77737003bd166156",
+      "bytes": 3482
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResonanceWindow.lean",
+      "sha256": "bce6716295c376b64e9b46936a5210a2dc822ae1a97f0ee8d033ee391e84eddf",
+      "bytes": 4703
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovScaleSelection.lean",
+      "sha256": "38d0312504203b77e24d612aaaa3e5580869167a8cf7a2eb7b2c47a91b5b31f6",
+      "bytes": 6092
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovSharperBudget.lean",
+      "sha256": "57f0ff6c67a7ad01f5df8c7f29aec86013a8661c969765fa37797055592982c5",
+      "bytes": 6526
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShortDirichlet.lean",
+      "sha256": "8b0c05b4e425e39438b70fddb628607f626ce4fa264756f40f1c0f4b7c7fcf4e",
+      "bytes": 7148
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShortDyadic.lean",
+      "sha256": "4b2d47685dcc6ebdbd37eb8a4813767c8844f790d9d9eb6fc83bedd9eebe0e50",
+      "bytes": 4061
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShortResonance.lean",
+      "sha256": "022e6edcc38ffd65370f1f3e35138caab6884418e3f471860944fc04aeb6bc79",
+      "bytes": 11935
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovVariableGaussian.lean",
+      "sha256": "20e30aba0c9d0446f88edc894a9dbe91f5b1a931b8eafb7f955944ebbb931f99",
+      "bytes": 4868
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaDyadicPowerBound.lean",
+      "sha256": "3e87680b194da232492f21a798101fe6df2bd380cbb1c1a1efd2363a9cf6c840",
+      "bytes": 6147
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaDyadicTruncation.lean",
+      "sha256": "c07226e8090d69767c4441c8c7657f75979944749992f20a51abe76d3feadc6d",
+      "bytes": 4558
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerBernoulli.lean",
+      "sha256": "06eb93512c9f925496f4b1d567d6d2ad96b2a2fe8fdf204b64a2c5d493a70086",
+      "bytes": 8901
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerCell.lean",
+      "sha256": "b889ff6e6a2e86247434cb34f53e76507952ebfa186f2105150f3fae68941d13",
+      "bytes": 5179
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerContinuation.lean",
+      "sha256": "dfe1af1232f44cadd30763e10f82468db4c214b4f2c248729e62d67476fb6bb9",
+      "bytes": 5711
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerFourier.lean",
+      "sha256": "5fa1c4fc34e2d56dc8a10391d60918a966a82049eb19dcadfd555a95c30df153",
+      "bytes": 5459
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerLineBound.lean",
+      "sha256": "8e05cfd1880b141cbb199a2f8533d53059d4fbb6af9c8c8704b99a52f7b90611",
+      "bytes": 5613
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerOscillation.lean",
+      "sha256": "748a96364527c26086c51085cc0e66f204fe68c67e9cdf877333bf364ac90bdc",
+      "bytes": 6732
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerTruncation.lean",
+      "sha256": "ec98400314d2f1385c0e6c748f2675277e89f067c595dc6638ba0c0949f8c573",
+      "bytes": 4050
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaEulerUniformRemainder.lean",
+      "sha256": "fadb77d751549c1955b09c07e1048403de9ad8df2f4878e7382c7bf9ce738eea",
+      "bytes": 5605
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaFiniteDifferencing.lean",
+      "sha256": "7fd8fe4cc0f2e723b5bb18cae310e89b7cbc303e4c44ccc4e055ec56e7737c1a",
+      "bytes": 1699
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaNearOneLineBudget.lean",
+      "sha256": "533b71df45f1587d5dda40f1bf4064df24e30819d12d04b936a87216bdc8be5f",
+      "bytes": 4150
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaPrimeGram.lean",
+      "sha256": "8d6e3d6ce4319916c6e4052cfa51b37b149f64b7cbecd4a612632c7c4137d234",
+      "bytes": 7873
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaPrimeMomentEnvelope.lean",
+      "sha256": "10b73f21fa05fb91a10b0b6e63e273b5dd8565af8a89f14f8518b1b7bf16120e",
+      "bytes": 982
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ZetaVinogradovSummedBound.lean",
+      "sha256": "be887247ffa10c06187788bc3c744586f66a1a3546e08170a827c1b45734fd28",
+      "bytes": 8226
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DerivativeRecursionBudget.lean",
+      "sha256": "d18aab42201970a011553726b67206fe04096af63f68ca5fb1c9d9392dfa16ae",
+      "bytes": 3107
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/DiscreteSecondDerivativeTest.lean",
+      "sha256": "6997c4be320b01f9ea64e7ea3c74273fbce533cbdce785b749400859bc9db35c",
+      "bytes": 4475
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/EtaAdjacentRatio.lean",
+      "sha256": "ac32fbde4c61177a10b7d5b057dd546eab5e125808d57587817d5d83944b57b4",
+      "bytes": 12326
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/EtaCubicBoundaryTest.lean",
+      "sha256": "307445e9defb3085a83486a5cbd23c8ec9b35917045f1c2af15fff48a8a65cc5",
+      "bytes": 6851
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteAbelVariation.lean",
+      "sha256": "01c45ce8414881a3a9e5aa361f8b3f378ad882de43f0b5b1a2a247826fad2b2e",
+      "bytes": 3094
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteDiscreteSobolev.lean",
+      "sha256": "815f1256c114d0c82326130d59d9af156051351a88136cd35d862699d76c7722",
+      "bytes": 7568
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteKuzminLandau.lean",
+      "sha256": "f316cb48eeed4ddd8b8c0749d297499977aa76d0b26c7931467423b18e8a632a",
+      "bytes": 6357
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteKuzminLandauPeriodic.lean",
+      "sha256": "607609da477bc05a73931f4e9ab65e2da6a6b483bf654f1cb245416ab8c0786c",
+      "bytes": 4433
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteLagPowerBounds.lean",
+      "sha256": "cc33840ef4a484031f2c042a08d4b5a1764563a2a4c5d90093b2cc4f21ededd2",
+      "bytes": 4635
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteResonancePartition.lean",
+      "sha256": "00304da5fec5a475151c582a9301334231c922f615f6151c2c909651c766c971",
+      "bytes": 4858
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteShiftCorrelation.lean",
+      "sha256": "3492dd091f153f7c90fd067c40dfda6a60747c12892604b60018c79814006f37",
+      "bytes": 6930
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteVanDerCorput.lean",
+      "sha256": "c903c6c431c0410001baa0a2f0f33a2458cd0af6a18065e8583eed0fbcfdf9f8",
+      "bytes": 4247
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/FiniteVanDerCorputPhase.lean",
+      "sha256": "c8f3227669542ab36fa6d6d8a141f1155e67153cad342b8b7dafdee786b6722d",
+      "bytes": 5427
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/HigherDerivativeTest.lean",
+      "sha256": "78ae57555c4f3ed208345c2c9150bfcfb26854d414cdd506f3880e8736fcb01b",
+      "bytes": 5305
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/HigherLogarithmicDerivativeBound.lean",
+      "sha256": "33994cf9d584cbc6c827649a99cde41e48bec47518e62b918b7a67aa90f1a136",
+      "bytes": 2163
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/LogarithmicDerivativeFamily.lean",
+      "sha256": "09385f999cb32dcd3dfc8b11bfce214f2890f3f748844f5cc5fd59428a5103c6",
+      "bytes": 3039
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/LogarithmicSecondDerivativeTest.lean",
+      "sha256": "d145da63952aca86c418c37d7042e12438371cd1e23cfdabd06ffbfd83f07490",
+      "bytes": 2326
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/LogarithmicShiftPhase.lean",
+      "sha256": "954325a0b18f309d232db024dc95537271fd44798b1cba6c20c06f11e7497812",
+      "bytes": 815
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/MonotonePhaseBlocks.lean",
+      "sha256": "e55b8b9e6b64d887493707285168e1bce3b9c8559e9e6554f450d51f04554dd0",
+      "bytes": 4440
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/NatPhaseDifferencing.lean",
+      "sha256": "e570c2dc10149b3707922efa5930b500bda86a74297c62ae23260e1729e25811",
+      "bytes": 2599
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/PhaseConjugation.lean",
+      "sha256": "c487b92a50c0cdc69cd5cba2c863f9b5214e836110e9b1dcfc9aac21d12d468e",
+      "bytes": 1575
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/PhaseIncrementInverse.lean",
+      "sha256": "1f9db690149616ccd8235bbdab6ba8aa42eab55043741d1385e2319f893480b1",
+      "bytes": 5141
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/RiemannXiSuzukiPointwiseChebyshevEnvelope.lean",
+      "sha256": "643d2b476e7b478fbbad6936818853924b6c06199449ba7e4fb8e6d2dd270157",
+      "bytes": 5470
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/SecondDerivativeIncrements.lean",
+      "sha256": "623986f77e22bdbac2202e706cec96fc0099912fc16095d6f822a0e16a3af24f",
+      "bytes": 3568
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/SecondDerivativeTest.lean",
+      "sha256": "b0fa4f08c4d176795f9966e672afa9907b63e921a8ea404cab4edd555b653c0a",
+      "bytes": 2916
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/ShiftedDerivativeFamily.lean",
+      "sha256": "e9ae6587434f8676147e36c3d00a2e7f168ab6221e72e60548d19b1fb94e39e6",
+      "bytes": 2671
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/SuzukiProperPrimePowerWork.lean",
+      "sha256": "f9964c99ce9315f2fc12b28d53cd8a12cfcf9599b5b65191ee3d7ed290792890",
+      "bytes": 3905
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovAffineMoment.lean",
+      "sha256": "c36d424fdb3133aad1fbd311ff88337c0ffdaca4bfdcdce9c5c40e4b9d62871c",
+      "bytes": 3590
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovAnisotropicCongruence.lean",
+      "sha256": "a2bbbea69082e2b088005406a4a038c60516a5b07f64cab6ee6297f6e5d90f42",
+      "bytes": 4429
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovBinomialRows.lean",
+      "sha256": "05b5938681a4b027ddcbac359d7853cf0f600f652844ee5494500f04c9258b05",
+      "bytes": 6369
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCoarseCongruence.lean",
+      "sha256": "22aec5b3fcf12eb213b33bfa50f9651744b0dd39586f4f80c243fb7149761e46",
+      "bytes": 14576
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovColourProducts.lean",
+      "sha256": "f0bc92a3dd97ffd6bf9230214f730edfb4ea905f004762c4d7893a4b6123458e",
+      "bytes": 3786
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovConditionedCompletion.lean",
+      "sha256": "98811b1085d26ba8a4c2f134dc31d7c6a85c8d6b3906a8e178304ade5960b038",
+      "bytes": 707
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovConditionedMoment.lean",
+      "sha256": "783148b78082943f660f676536c668ed63c59b1247e64256063fd5653880dca1",
+      "bytes": 1369
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCongruenceEnergy.lean",
+      "sha256": "fd81d05d0ea478d6cc2887a46fd1d84d75bf05a66af1b38225ed3f811afe9a0b",
+      "bytes": 1466
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCriticalKorobov.lean",
+      "sha256": "1c146ded25f3b7f8cfd42aa0f5799320f76d1741faceec0f5b8389dd29ba8111",
+      "bytes": 7927
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovCrossMoment.lean",
+      "sha256": "05f40f115b8b539d56eea2023a6f3f0109b4f9663c3a3726439897404e50b6e9",
+      "bytes": 3935
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDegreeWindow.lean",
+      "sha256": "38a01ead04ee1af78d01b74030d79cb53c582e1693a124f4e58798cc52c5f86c",
+      "bytes": 7887
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDiagonalCost.lean",
+      "sha256": "80b07a768b3de1f0e3df652f38d02924f7e33b44a06f44bf3fbdcc0f0acb0504",
+      "bytes": 7823
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDiagonalExponent.lean",
+      "sha256": "03bbd5cea89afaa2de75ef26c1978acfc00b6082d222f83538a8bb1d07022c4b",
+      "bytes": 10471
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDiagonalIteration.lean",
+      "sha256": "8a218efc0a70e3c1e906892b4d187840ee80e28993c0c2bbdc9b60fdc2d933f7",
+      "bytes": 6202
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDiagonalMoment.lean",
+      "sha256": "6177204dcbf99ef05813f1c8929b3b6a683019ddaf71663e8b3c09b273f19cc0",
+      "bytes": 4459
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDiagonalThreshold.lean",
+      "sha256": "2d9e003cf33ffda172da26976376832cebd758f264c3e221271f11f11720c626",
+      "bytes": 6741
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovDifferenceEnergy.lean",
+      "sha256": "4476fac2edbf01ef43010a76efe21dc027774d8bd802a91f50e905a493894335",
+      "bytes": 8510
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovEndpointDeletion.lean",
+      "sha256": "e85e6aadfe70e3acf5e29db227a1620acaa8082b78a7041df41da9ccec3f7e48",
+      "bytes": 10793
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovExponentialDefect.lean",
+      "sha256": "eb57f357fd88fba4328773f92b38ef34b25bdcf414aecab6c2dd4d1b287aa400",
+      "bytes": 9942
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovFirstExponent.lean",
+      "sha256": "6bbcc79b0809491f85159ece74a48ce207beab8c0f0111511b95cc8d27242a4b",
+      "bytes": 1536
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovInitialExceptional.lean",
+      "sha256": "4f7d906f27fbeff464b8bfc1dd69d4fea92b0d5df0e003ad867b615cae516fa3",
+      "bytes": 1434
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovInterpolation.lean",
+      "sha256": "d190d6ef223c423d71d09d963bcd49378755ee9df3a63f3f9b5a54e8d0444dcf",
+      "bytes": 2661
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovLowDegreeTail.lean",
+      "sha256": "d6587a3049e0784753ed59110ab262a6d64848a94b73f93b9abc1ed9e579861e",
+      "bytes": 14383
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMeanValue.lean",
+      "sha256": "cddef95f89c94c462f6cab20ad52ebe5d78930b06d9e65f5c1410a71753dafc2",
+      "bytes": 5037
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMixedDifferencing.lean",
+      "sha256": "f3fb0ea8dfa1a1d1d0ef7592555c1325d56bf1484f7db69ccd6c6dc7a945117f",
+      "bytes": 2100
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMixedExceptional.lean",
+      "sha256": "3f45c744fb69d363786df9619def0329d1695bf6a6260d7b95acc15adf9dd992",
+      "bytes": 15844
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMixedMoments.lean",
+      "sha256": "94e8894c2b3550d69f1ca15a005af5b6d6913f7cdecacf5390661c216f4da2ce",
+      "bytes": 3904
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMixedRepeated.lean",
+      "sha256": "c96ba8045d461e5a4ba9445a3734bda41a4bed244ffe4b6b248d198296b739bd",
+      "bytes": 8605
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMomentPartition.lean",
+      "sha256": "540bc6c4cf56b6c2c29a00451b7ac1768226082b63089bf1647ac800dd6afb95",
+      "bytes": 2537
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovMomentReduction.lean",
+      "sha256": "78b65532d54c243de91c2b9dae68439d7126daf07643fed477c8accc236157bb",
+      "bytes": 10260
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowCost.lean",
+      "sha256": "7d2c17f0d69d086689f435b9ee2c5bb8c9386a35dee181c791ea05235d293b16",
+      "bytes": 7960
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowIteration.lean",
+      "sha256": "0423297f8135be57fc90eae8b42e13fdfd07de34a5d4890519685c2c9b6e8f38",
+      "bytes": 2704
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNarrowThreshold.lean",
+      "sha256": "0f7c0d1d825f87dc4d7b674fb405e72118a88b13d205bbe1881e75709aa3a1f7",
+      "bytes": 5748
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovNonsingularDescent.lean",
+      "sha256": "f033e26510efe0c87f0068fc43ba2742b776eb61f148a9fd695d09a53b5c8030",
+      "bytes": 3027
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPartitionEnergy.lean",
+      "sha256": "4ef1e9e2808eb48477f4e04948796a5969c09e4e8c8b004c747677ca876dac16",
+      "bytes": 6566
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialConditionedDescent.lean",
+      "sha256": "da6bd973f2c5fc944a2610014637bfc17429188aa710f8c899a89390579f6862",
+      "bytes": 2670
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialConditioning.lean",
+      "sha256": "8edb4fa1d7df5f151d1bfbf32613d277f2a95794fb525b8f96904fe53cacf41a",
+      "bytes": 7804
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialDifferencing.lean",
+      "sha256": "28336b70b791836c957d40309a598766df5d2d626b569843fd563cb01b992743",
+      "bytes": 1705
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialExceptional.lean",
+      "sha256": "4f2a3be31b6151e61496fd83dd7e4fa6a45c3a2e1301dee8f2ffc78dbfaa927d",
+      "bytes": 2479
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialNonsingular.lean",
+      "sha256": "910a42fb4d60e924f3b063e7414a14b088669415debbea527421e4300b4c12cd",
+      "bytes": 14905
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialPrimeTransfer.lean",
+      "sha256": "2f84ce18cb663d054d18e4a381d1b49bcee0b46f90e5ebcd09da745e2efee987",
+      "bytes": 8236
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialRigidity.lean",
+      "sha256": "64f8a4d42a2c4bb1247f4e9339967fe9bf24bc534b60cb9a1ab65a928df40ea7",
+      "bytes": 7646
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPolynomialSystems.lean",
+      "sha256": "873339348b34f2ad768bd1fb8edb26284ac325dad69ef9880838e8b121e0080a",
+      "bytes": 6041
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPowerSumRigidity.lean",
+      "sha256": "bf80faa066ab653d575e22b2a2f790630bd626755ce0dc7f86ce3cf78a9cb56c",
+      "bytes": 7498
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPrimePacket.lean",
+      "sha256": "2968a78d658eaf2bdef7780f813d9b7b04ef9935be279f633ac1e8de0f2aac6f",
+      "bytes": 4063
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovPrimePowerRigidity.lean",
+      "sha256": "983a7976e5bb052e5b3b977ec5981dcba66c4f87d2a90b79c64e923d8fd85424",
+      "bytes": 13505
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovProductEnergy.lean",
+      "sha256": "13d68fd91bd550d0a231a0db05bb194c95174ad928c6ccff891718703cceb4b4",
+      "bytes": 1866
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovRepeatedSolutions.lean",
+      "sha256": "c94611829a24fbd1d1d352f8dc28228af2d3a5b9689ebda18e8f1d55c645b5e0",
+      "bytes": 3880
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResidueEndpoint.lean",
+      "sha256": "f9151f3816ae0a0a10a559e9b035c895032a66abb4db00ac7bb73cdbde05decf",
+      "bytes": 5971
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResidueEnergy.lean",
+      "sha256": "b1823b35f402f11bc3217543ec377ab67a259454fdfb96d7178238144954ccb1",
+      "bytes": 3999
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovResidueMoment.lean",
+      "sha256": "987f953526c3449d5d8c0f24ee5066cf83cce8572d8f03649b71db4b78799efb",
+      "bytes": 2671
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovRowTransport.lean",
+      "sha256": "d627acf830a4f06f89105f16f77fa5e0eb1434c53e8510833d4a55a70a8c546c",
+      "bytes": 7387
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShiftedMoment.lean",
+      "sha256": "b16080f0dfd43b51737cde31647d1cbef95ac0cae78e738ce90ebd0d0cc113fe",
+      "bytes": 6859
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShortMoment.lean",
+      "sha256": "b6c0f9c0feebb788bc1e9e4a3e3af7fb3e84542a2f864298d607678c179ed2b8",
+      "bytes": 5797
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovShortPacket.lean",
+      "sha256": "08e61bc3f28d372c0f735751cdd9736cdd260220695823c10207dd6dbeb2d51e",
+      "bytes": 4282
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovSignedCongruence.lean",
+      "sha256": "89b0441a8547c8a0a1f7f173112e6ef9c1e2d441456557d168814a96f94e8163",
+      "bytes": 12639
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovSignedRigidity.lean",
+      "sha256": "df98adb9924071f8b650a8ba51e5d936899f7c008d4be15f677814f1e5290d0e",
+      "bytes": 5497
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovTwoBlockPacket.lean",
+      "sha256": "8df306aed0d2a8a998c3c339a697d1972b44d19fd7ebc5ecefc0920cc4964c2c",
+      "bytes": 6166
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovTypeMaximum.lean",
+      "sha256": "2a14ad05263475118ec033b3d36de75198ae2db31d1158b27571368268fa3850",
+      "bytes": 4450
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovUnrestrictedConditioning.lean",
+      "sha256": "74cf85d62e8a3e88eb1428203cea8e2d9242e6449c5233541970564b129247a4",
+      "bytes": 3474
+    },
+    {
+      "path": "Sidon/NumberTheory/RiemannGaussian/VinogradovWeightedLifting.lean",
+      "sha256": "5bfbc48d00229f64522016aeebd367c597a2162a945b15e469902422e4cc08cb",
+      "bytes": 4672
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "814dfb77f948dc86f8e4a3b94948b1f0a9dca33cf55a0a3f6d4f801a49cf692d",
+      "bytes": 417,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Sidon/NumberTheory/RiemannGaussian/ZetaVinogradovSummedBound.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/TomasOrtega/Sidon",
+    "source_commit": "735de6d7c67b81a28b1e07e3f2661dbc17bb89d6"
+  }
+}

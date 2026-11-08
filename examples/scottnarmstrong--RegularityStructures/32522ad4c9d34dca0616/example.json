@@ -1,0 +1,63 @@
+{
+  "id": "32522ad4c9d34dca0616",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "Phi43/RegularisedNoise/SmoothVersion/LatticeSummability.lean",
+    "file_id": "0aac2bd9ec4d3d2d4f27",
+    "source_sha256": "0aac2bd9ec4d3d2d4f275bdd79494fb0ff4b5a592597eca9a6e9d344047208be",
+    "start": 47,
+    "end": 61,
+    "original_start": 42,
+    "original_end": 61,
+    "declaration": "smoothVersionLatticePoint_norm_sq_le",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/RegularisedNoise/SmoothVersion/LatticeSummability.lean#L47-L61",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/RegularisedNoise/SmoothVersion/LatticeSummability.lean#L47-L61"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "smoothVersionLatticePoint_norm_sq_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "006eaeabcee25a1688ebe5b943fd5590ec2b1d7b7b6ec683713c94481bd5bd83",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f65da3d9745588b16bb8f9639e3f3ecc70aa4e668a579afbdf6484db1b369d2c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Phi43/RegularisedNoise/SmoothVersion/LatticeSummability.lean",
+      "sha256": "0aac2bd9ec4d3d2d4f275bdd79494fb0ff4b5a592597eca9a6e9d344047208be",
+      "bytes": 3937
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "20720495ad864c165d32838ea360dd8cd3bca5a04d6c3525ed8718c09375b692",
+      "bytes": 3841,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c23510dbf16297f927a8cb0b42d0816730c679720d11b5f8cd95e3da16240a90",
+      "bytes": 3555,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Phi43/RegularisedNoise/SmoothVersion/LatticeSummability.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

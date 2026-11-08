@@ -1,0 +1,63 @@
+{
+  "id": "9ef95a71fc406e3c50a7",
+  "source": {
+    "repository": "cenozoic-works/rhone-theory",
+    "commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a",
+    "project": "cenozoic-works--rhone-theory--40430cc1c60b",
+    "path": "Rhone/Analysis/LaplaceNullFunction.lean",
+    "file_id": "050b8c6ef8a8fa7ce33b",
+    "source_sha256": "050b8c6ef8a8fa7ce33b3e1a4b75938abf4b5ebcbdb1333b66ae6eca8d2a68c7",
+    "start": 357,
+    "end": 378,
+    "original_start": 342,
+    "original_end": 378,
+    "declaration": "integral_laplace_levy_kernel",
+    "source_url": "https://github.com/cenozoic-works/rhone-theory/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Analysis/LaplaceNullFunction.lean#L357-L378",
+    "archive_url": "https://github.com/PalomarArchive/cenozoic-works--rhone-theory--fb903f3fec24/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Analysis/LaplaceNullFunction.lean#L357-L378"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "integral_laplace_levy_kernel",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "7c481562224baa1351c9faf97ae89476fc47e3b60e89902330bb5a10833e014f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0f9a1c69882a42593adf65dc20eb90f6a22c3de5b8f7885430d799cf78d413b9",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Rhone/Analysis/LaplaceNullFunction.lean",
+      "sha256": "f86ef2f44e10af980ec582d9bfb0a652bbebde5046d2912f5060c0acbf8919d2",
+      "bytes": 29143
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "c48d1a7aa2a1d6b8062da33bc63c491d98604521e4f9ea479d70966fc0a9d21e",
+      "bytes": 12224,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Rhone/Analysis/LaplaceNullFunction.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/cenozoic-works/rhone-theory",
+    "source_commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a"
+  }
+}

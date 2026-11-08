@@ -1,0 +1,23 @@
+"name" = "falconer_theta_gauge"
+"version" = "0.1.0"
+"defaultTargets" = ["FalconerThetaGauge"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "FalconerThetaGauge"
+"globs" = ["FalconerThetaGauge", "FalconerThetaGauge.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

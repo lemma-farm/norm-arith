@@ -1,0 +1,143 @@
+{
+  "id": "932f088c3efdf1ff8585",
+  "source": {
+    "repository": "DiarHaidary/Improved-SparseStack-Constants",
+    "commit": "782e60fd7cd8382ac45fbbe13c706b949387acb8",
+    "project": "DiarHaidary--Improved-SparseStack-Constants--782e60fd7cd8",
+    "path": "SparseStackV3/Op/PairLeg.lean",
+    "file_id": "006bac74190b3a7cd3fd",
+    "source_sha256": "006bac74190b3a7cd3fd50c30f9549009b6ceaa475e0950b9faca96fcfce686c",
+    "start": 239,
+    "end": 247,
+    "original_start": 239,
+    "original_end": 247,
+    "declaration": "PairLeg.level_projection_contracts",
+    "source_url": "https://github.com/DiarHaidary/Improved-SparseStack-Constants/blob/782e60fd7cd8382ac45fbbe13c706b949387acb8/SparseStackV3/Op/PairLeg.lean#L239-L247",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Improved-SparseStack-Constants--bcb812a2721d/blob/782e60fd7cd8382ac45fbbe13c706b949387acb8/SparseStackV3/Op/PairLeg.lean#L239-L247"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "PairLeg.level_projection_contracts",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "06d7858314d4efa7c59420c9c270198eae95b47b9baf42798ac124b89ebb8eba",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e0c5610bf351724ee0564e4f100b7b26258c6d327929d05a50e68f46e4a2c509",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SparseStackV3/Base/FiniteProbability.lean",
+      "sha256": "91070e1f07fd2cdf9afec307efcfe5bb7028125aef7e26f69e623092be396e53",
+      "bytes": 13275
+    },
+    {
+      "path": "SparseStackV3/Base/MatrixTail.lean",
+      "sha256": "46e3bf7d192d634f73be3134b443e0ff393175d8ca43badbfbec40bbf9c035d5",
+      "bytes": 16089
+    },
+    {
+      "path": "SparseStackV3/Base/ParsevalFrame.lean",
+      "sha256": "95ff81209adc72db5f32de87599bfc20783086b76a4421727a0735204ba2734e",
+      "bytes": 8877
+    },
+    {
+      "path": "SparseStackV3/Base/SparseStackDistribution.lean",
+      "sha256": "5c1cfcd34d1dba8f6242d517015847f3e56a421a0eca002f28cbf192e26a6581",
+      "bytes": 4424
+    },
+    {
+      "path": "SparseStackV3/Base/SparseStackModel.lean",
+      "sha256": "5ea3366f3f5b20a609f66a6f4fd368747c71dc8305ba47425522160b7e390ad2",
+      "bytes": 12755
+    },
+    {
+      "path": "SparseStackV3/LocalSpace.lean",
+      "sha256": "f4aaf6b2f7b08415aa4496c739cc5fcd747a0ff2dece3a18e9ed874cb21db2c0",
+      "bytes": 25174
+    },
+    {
+      "path": "SparseStackV3/Occupation.lean",
+      "sha256": "9cfafc29c99be4f51cd62dd2f2a0d6cb3eb738b359e15b0d58c16eab67f1c5a5",
+      "bytes": 12035
+    },
+    {
+      "path": "SparseStackV3/Op/Band.lean",
+      "sha256": "53e2992a1c505b18f0e0cc46edc0253412ba048e4c53b070508878d63a44d107",
+      "bytes": 37917
+    },
+    {
+      "path": "SparseStackV3/Op/GramExpansion.lean",
+      "sha256": "af9ad3c27105e358dc2459b548c3341e88d94b2197f5162e11e461dd639132a2",
+      "bytes": 7970
+    },
+    {
+      "path": "SparseStackV3/Op/Kernel.lean",
+      "sha256": "05ad0697765e7305900633793ccec2ee89f0c4466ba01f2cf5cc9abc9f5562c8",
+      "bytes": 22079
+    },
+    {
+      "path": "SparseStackV3/Op/LocalTransfer.lean",
+      "sha256": "9dbb4163fcb7e106ef5244d6a9abe1c246a54d0c1c2c1aa7e55f5007cb78baf3",
+      "bytes": 16845
+    },
+    {
+      "path": "SparseStackV3/Op/LocalVectors.lean",
+      "sha256": "a2ff70029c2088a6e90a1cfa79ef01bae5eaf528a25f80ee3bb03193d97e5ecb",
+      "bytes": 6639
+    },
+    {
+      "path": "SparseStackV3/Op/Norm.lean",
+      "sha256": "2d7b2ab1ae4143d2ad5745d28cdc67e86487ddf8a660cc5ab4ba6730948a6b2a",
+      "bytes": 9808
+    },
+    {
+      "path": "SparseStackV3/Op/PairLeg.lean",
+      "sha256": "d5ef69685c3f0bfaf67c9315171fb106a0a70d0ed797776d0e3a921f66eb61bd",
+      "bytes": 10996
+    },
+    {
+      "path": "SparseStackV3/Op/Projection.lean",
+      "sha256": "df308b0ef5332241e584c4fd035337ab5a32f247168bd76176bbe6fffba697d1",
+      "bytes": 18567
+    },
+    {
+      "path": "SparseStackV3/Op/SiteLeg.lean",
+      "sha256": "ed75aab46edb34083018bdcb1af7f1f7351bad0d8d9a9c1bcf62d17433c8c510",
+      "bytes": 7579
+    },
+    {
+      "path": "SparseStackV3/Op/Space.lean",
+      "sha256": "c0bb20abe6278fe5e767e43c5446bb283358b6678563db815a19d6d43af1df2d",
+      "bytes": 11953
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "0232db39716e9e17bdb53e85db417fc891435b317db68b2d1f5bd57ddb29ec34",
+      "bytes": 463,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "2271dc42034e6f38fbd4bb792a6a3bb4e0d96ccece5c86a4b294b086fe8e57ce",
+      "bytes": 3588,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SparseStackV3/Op/PairLeg.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Improved-SparseStack-Constants",
+    "source_commit": "782e60fd7cd8382ac45fbbe13c706b949387acb8"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "500d6208279e18ac5dc5",
+  "source": {
+    "repository": "methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+    "commit": "16f43c7731a2d973e989c5e9006b62088dd3068d",
+    "project": "methuku-git-hub--Nearly-linear-directed-cycles-in-vertex-transitive-digraphs--16f43c7731a2",
+    "path": "directed-cycles-lean/DirectedCycles/LieExponentialDifferenceBound.lean",
+    "file_id": "09727ed9e7d65dad219d",
+    "source_sha256": "09727ed9e7d65dad219dc8ab5215bf33f6f269e54294c116e85c0ef4cbc772f1",
+    "start": 22,
+    "end": 26,
+    "original_start": 22,
+    "original_end": 26,
+    "declaration": "DirectedCycles.lie_exponential_difference_bound",
+    "source_url": "https://github.com/methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs/blob/16f43c7731a2d973e989c5e9006b62088dd3068d/directed-cycles-lean/DirectedCycles/LieExponentialDifferenceBound.lean#L22-L26",
+    "archive_url": "https://github.com/PalomarArchive/methuku-git-hub--Nearly-linear-directed-cycles-in-vertex-transitive-digraphs--46027483f00e/blob/16f43c7731a2d973e989c5e9006b62088dd3068d/directed-cycles-lean/DirectedCycles/LieExponentialDifferenceBound.lean#L22-L26"
+  },
+  "native_target_name": "DirectedCycles.lie_exponential_difference_bound",
+  "source_declaration_label": "DirectedCycles.lie_exponential_difference_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "ef759ab81024e20c2f5943ab592525c4f9e426c32e3ede72a0b4ed3150b7ad6e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "7b96e115685c86a5c36bac284f71f94b76ab695c789f07267583687f58d52c34",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DirectedCycles/AdditionDerivativeNormBound.lean",
+      "sha256": "58567570e9b3b1f5433f7076581c9d72cb38346b7898688154880250b7afb45c",
+      "bytes": 1782
+    },
+    {
+      "path": "DirectedCycles/AutonomousCurveSmoothness.lean",
+      "sha256": "a31f4b6ada19ddc3a666f48cbdd288b4659f9f8645c924e5c7a96ac85ef96f66",
+      "bytes": 1204
+    },
+    {
+      "path": "DirectedCycles/AutonomousCurveUniqueness.lean",
+      "sha256": "9160850c1de3174ab209627c6513d5fd880dc7e7f17616182b20c69a9e40d4ae",
+      "bytes": 1177
+    },
+    {
+      "path": "DirectedCycles/CompactNSSCurve.lean",
+      "sha256": "2617d66d68c0256ca59cac4fbe7643d75df75e375b3a61d0a26f7f1b870456e9",
+      "bytes": 2756
+    },
+    {
+      "path": "DirectedCycles/CompactPowerTrapping.lean",
+      "sha256": "bb4380b926e454b329fce70d55c5e5078771b678aa40ba5145368a0888891794",
+      "bytes": 1797
+    },
+    {
+      "path": "DirectedCycles/ContDiffQuadraticRemainder.lean",
+      "sha256": "a8fd4a8ced51d382c1bd653fff8e954be3529e9e46f907a0ad189ca91040be43",
+      "bytes": 2167
+    },
+    {
+      "path": "DirectedCycles/DifferentiableDoubling.lean",
+      "sha256": "8a82eacada3ca154e89bf3990ca1b0cb18ba7af2ae2dea5b7bf8d1093ee2351e",
+      "bytes": 3556
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveAdditivity.lean",
+      "sha256": "c4d8eb366534939d634695338cb20665578f6b9150c07111ae4882fdfa3a2f45",
+      "bytes": 3900
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveDifferentiable.lean",
+      "sha256": "b7fa94d1d188a3ef00b5b3ca78e02c817de03dc2441951805474fc5946fca764",
+      "bytes": 1181
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveLimit.lean",
+      "sha256": "c54ed446028744eb257c70ad9ec82f2fd3a03c5429c4f2cbaf4ebb3ac70311db",
+      "bytes": 4612
+    },
+    {
+      "path": "DirectedCycles/DyadicLinearApproximation.lean",
+      "sha256": "69aaff3ce55106aec05dd18efc2a88ad6d5012308c52902f6c0263ed63365f3f",
+      "bytes": 3502
+    },
+    {
+      "path": "DirectedCycles/GroupCurveCoordinateLaw.lean",
+      "sha256": "2dceeec3c492f690d61597973df5c0a1bd7c9199cf5e5662af28438642e5d249",
+      "bytes": 1332
+    },
+    {
+      "path": "DirectedCycles/LieCoordinateCurveRealization.lean",
+      "sha256": "1c1aa408bb2be3570a16d48c523b0b6863cdc25f4bf9d26942c4739f9212ba6a",
+      "bytes": 5633
+    },
+    {
+      "path": "DirectedCycles/LieExponentialContinuity.lean",
+      "sha256": "4b0cd86b06e238dc18937da4dac2384be2fa8bae6251fdfd8121122475880350",
+      "bytes": 4451
+    },
+    {
+      "path": "DirectedCycles/LieExponentialCurve.lean",
+      "sha256": "39f8678d4af218c3e8f75d856c0dfc77307de0a706afdf424ca5f3a4cfdfa730",
+      "bytes": 4391
+    },
+    {
+      "path": "DirectedCycles/LieExponentialDifferenceBound.lean",
+      "sha256": "09727ed9e7d65dad219dc8ab5215bf33f6f269e54294c116e85c0ef4cbc772f1",
+      "bytes": 2044
+    },
+    {
+      "path": "DirectedCycles/LieExponentialProductCoordinates.lean",
+      "sha256": "fd00edca7a6517aa089db771155ef165580de289f39f06cfa4ad3e7ac94e2d9f",
+      "bytes": 4412
+    },
+    {
+      "path": "DirectedCycles/LieExponentialStrictDerivative.lean",
+      "sha256": "4148decbbdc07e6401aa146a78b5129ab874d8f2a1d7608a99ac395eb02e13ba",
+      "bytes": 4045
+    },
+    {
+      "path": "DirectedCycles/LieExponentialSymmetry.lean",
+      "sha256": "c47cf29be420c478c8a0b15cf663b623074a729a0102468f86f3aa002cada926",
+      "bytes": 1025
+    },
+    {
+      "path": "DirectedCycles/LieIdentityCoordinateMultiplication.lean",
+      "sha256": "c7114bd5bb053ab4f0ec0423b3751d7c1d61d7d21d77da04a459649beb3bce82",
+      "bytes": 5290
+    },
+    {
+      "path": "DirectedCycles/LieOneParameterExistence.lean",
+      "sha256": "5612edc5402f7ec6a79c096cc967b793f2790c6136dd46d532d11c00c43ac90b",
+      "bytes": 4921
+    },
+    {
+      "path": "DirectedCycles/LieOneParameterSmooth.lean",
+      "sha256": "9f5c9b80cceced31ea7860673341ed34ead9e904a351bd59f0302d419864bce5",
+      "bytes": 6900
+    },
+    {
+      "path": "DirectedCycles/LieOneParameterUniqueness.lean",
+      "sha256": "ee439247bbc51710b3d0c9208cda1345523642fa62dd80c8868cecba0f050ed3",
+      "bytes": 2693
+    },
+    {
+      "path": "DirectedCycles/LieUniformExponentialCurves.lean",
+      "sha256": "b4525a05fc9925e12e7c5ea6d27c70fb63d781b9bb1e9ec00390223ac8ce0a62",
+      "bytes": 6042
+    },
+    {
+      "path": "DirectedCycles/LocalAdditiveCurveLinear.lean",
+      "sha256": "6d22628058a52bf2dd9f5e8c851b726ef6a17b027efa8e02189188b4673c9ba8",
+      "bytes": 2041
+    },
+    {
+      "path": "DirectedCycles/LocalCoordinateChangeMultiplication.lean",
+      "sha256": "ded1c72c2fefea0b151b1da8cd19197d8efa4974bb4948e26d952cd673d08c8c",
+      "bytes": 3057
+    },
+    {
+      "path": "DirectedCycles/LocalCurveDerivativeEquation.lean",
+      "sha256": "f883a88a7af30174cd276f58de7709f6f542c96e6fec729fb888d19bb2616927",
+      "bytes": 2320
+    },
+    {
+      "path": "DirectedCycles/LocalCurveExtension.lean",
+      "sha256": "5b248e8fcecaaa1f49f35c1c6a68b3337a34df14429ab4e3f4b5cc9d6c7df482",
+      "bytes": 4369
+    },
+    {
+      "path": "DirectedCycles/LocalIntegralCurveMultiplication.lean",
+      "sha256": "a4ab87480d5629d87cb58a92734d6c2642f9195eec1911da6d7451f3346eab7e",
+      "bytes": 4316
+    },
+    {
+      "path": "DirectedCycles/LocalInvariantOperatorField.lean",
+      "sha256": "9b0abf27669742f9621ccf2f9b2c3e5a6bb5208313a1ff471a3095b7ebde9364",
+      "bytes": 2782
+    },
+    {
+      "path": "DirectedCycles/LocalLieCurveExponential.lean",
+      "sha256": "6ef16d924d786c52206ca819637a24df01739337df19e8957adfed9c9a707c5f",
+      "bytes": 1565
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicationDerivative.lean",
+      "sha256": "2eedd6dd9a94da72b603eb09e4be387a03b60c9edb68b12532ee1c6ef0075c7e",
+      "bytes": 3031
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicationInvariantField.lean",
+      "sha256": "be78d67d8d883461aa75ba95641e31af0e96b3b28664702176635e39dd7b71ff",
+      "bytes": 2765
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicativeCurveDerivative.lean",
+      "sha256": "2c581230114a1d285ad0dbf2359690d067df13fb7daa4fe86503923346f5181b",
+      "bytes": 4667
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicativeCurveSmooth.lean",
+      "sha256": "275634910184eced7885078977b3ff71395ed01d2c986b39361eb810c00f7dd7",
+      "bytes": 1698
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicativeCurveUniqueness.lean",
+      "sha256": "9bb521a39f97520bb62bbce340298d94cfc310b116b58d67744ef44bf0106eb4",
+      "bytes": 1619
+    },
+    {
+      "path": "DirectedCycles/OneParameterGermUniqueness.lean",
+      "sha256": "b91bb26eab8626d29bc24507793628855917a4f3d0dbf05a06f9bd4d3b83d54c",
+      "bytes": 1889
+    },
+    {
+      "path": "DirectedCycles/OneParameterLocalTriviality.lean",
+      "sha256": "015e42b6ce89c285fdb516ab2aebff39f21d678c2026213182840311b595517e",
+      "bytes": 1568
+    },
+    {
+      "path": "DirectedCycles/OperatorFieldDifference.lean",
+      "sha256": "bc197475700a6b223906a16bce8caecf45503c5630f94de1f43564335ddaf288",
+      "bytes": 1236
+    },
+    {
+      "path": "DirectedCycles/ParameterIntegralCurveBounds.lean",
+      "sha256": "3dd97955ead0041e6f99fc1a1b4317c358153f8885935112821403d7d0673726",
+      "bytes": 1876
+    },
+    {
+      "path": "DirectedCycles/ParameterIntegralCurveLipschitz.lean",
+      "sha256": "fe8b3fd7aaa1ab90f837174fbf03c93408dbdf83b6a4964b0672ed970718da97",
+      "bytes": 4364
+    },
+    {
+      "path": "DirectedCycles/ParameterIntegralEndpointDerivative.lean",
+      "sha256": "6815c00369a2d7dc0c1cb1467478093bd537c77c15abe45caa23ffe0929daf23",
+      "bytes": 5792
+    },
+    {
+      "path": "DirectedCycles/QuadraticCurveDerivative.lean",
+      "sha256": "344925dc582520503c6f814b91954a5c30007235f349dc7711b8d6e10cd873a6",
+      "bytes": 2431
+    },
+    {
+      "path": "DirectedCycles/SmoothLocalIntegralCurve.lean",
+      "sha256": "dc0bd24ad8c2618e2f0ed9a09d47c4e472cad6022de107941e334d7bbbf088c4",
+      "bytes": 2329
+    },
+    {
+      "path": "DirectedCycles/SmoothLocalOneParameterExistence.lean",
+      "sha256": "dcc28bcd79066d52f29ff887caa78453ce1102bc8057ab7293e22056a1f6a3fa",
+      "bytes": 2104
+    },
+    {
+      "path": "DirectedCycles/SmoothParameterIntegralCurves.lean",
+      "sha256": "5b5df042ac6a99cce4db1a927b1d36fc543fd972c1b6a05ad09264be8f1e02e8",
+      "bytes": 5606
+    },
+    {
+      "path": "DirectedCycles/UniformIntegralCurveMultiplication.lean",
+      "sha256": "5e41e2f7e155184ecb302df3237d3216afd560dc45f275178b5e783db7a2dbe6",
+      "bytes": 5328
+    },
+    {
+      "path": "DirectedCycles/UniformLocalEndpointDerivative.lean",
+      "sha256": "fbede39e5d0f08171b45e9c580f05e0fbd1e8bc05c7dae566bc4b7cc4aa4b0eb",
+      "bytes": 4272
+    },
+    {
+      "path": "DirectedCycles/UniformLocalOneParameterExistence.lean",
+      "sha256": "a0f6b21b0b27947eaf48e0ec458a8cadc5358762bbbc2d899fe6c8d5af44daf0",
+      "bytes": 2964
+    },
+    {
+      "path": "DirectedCycles/UniformOperatorFieldLipschitz.lean",
+      "sha256": "f715acf22bf7c0e242203e634eb427c03a2bd022901c84fd4a373caf2528156c",
+      "bytes": 1137
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a409cff48808163ef29ec67eb7422f3bcd9922b62ea56959d78086f74fbd556b",
+      "bytes": 384,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "DirectedCycles/LieExponentialDifferenceBound.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/500d6208279e18ac5dc5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+    "source_commit": "16f43c7731a2d973e989c5e9006b62088dd3068d"
+  }
+}

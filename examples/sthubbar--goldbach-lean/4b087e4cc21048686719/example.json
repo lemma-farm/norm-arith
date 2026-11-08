@@ -1,0 +1,166 @@
+{
+  "id": "4b087e4cc21048686719",
+  "source": {
+    "repository": "sthubbar/goldbach-lean",
+    "commit": "4d87394fed5e86a866ec2335621dc1b57f2e0c9d",
+    "project": "sthubbar--goldbach-lean--4d87394fed5e",
+    "path": "entries/bombierivinogradov1965/LeanLab/HeathBrown1985/MainTerm.lean",
+    "file_id": "003d9cd6a9267481c6a4",
+    "source_sha256": "003d9cd6a9267481c6a48add59b3b36084ef51e6a51d30db48ef7e761c4d84ac",
+    "start": 304,
+    "end": 336,
+    "original_start": 280,
+    "original_end": 338,
+    "declaration": "mainTerm_small",
+    "source_url": "https://github.com/sthubbar/goldbach-lean/blob/4d87394fed5e86a866ec2335621dc1b57f2e0c9d/entries/bombierivinogradov1965/LeanLab/HeathBrown1985/MainTerm.lean#L304-L336",
+    "archive_url": "https://github.com/PalomarArchive/sthubbar--goldbach-lean--98d36766e5ae/blob/4d87394fed5e86a866ec2335621dc1b57f2e0c9d/entries/bombierivinogradov1965/LeanLab/HeathBrown1985/MainTerm.lean#L304-L336"
+  },
+  "native_target_name": "LeanLab.HeathBrown1985.mainTerm_small",
+  "source_declaration_label": "mainTerm_small",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "936cd417ba3e4002c495a16befb5f6bf02066e1d6c44ac77653f62e47573c4bf",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b283898d751f4c14671aee54cc9dcd3dd02a783da92d6b938f7567e3ea57e3b6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanLab/ChenExplicit/Reductions.lean",
+      "sha256": "47d844c467ef167476169d46cf755fb70b1da9cd34d05f545095e8b405e1a990",
+      "bytes": 5140
+    },
+    {
+      "path": "LeanLab/ChenExplicit/Statements.lean",
+      "sha256": "2fba531f298dca3941444e6eb5f18a771a4034ae51b0d3ef4e30e955aaf86900",
+      "bytes": 3021
+    },
+    {
+      "path": "LeanLab/Common/Goldbach.lean",
+      "sha256": "af4025435524db05c1e123e4c4c54c33ce7121cd9da175e69a42ce795347c9f0",
+      "bytes": 4270
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Bound24.lean",
+      "sha256": "f150cbc1cb3875cb6f9bbaa2e5d931e8e79be72b9ed674cf57a31aa4ba7e6a0a",
+      "bytes": 11422
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Bound25.lean",
+      "sha256": "cd73ef8118f70eaccf5f9f76054ca25808ed7ff9cc6a414cd9dcf873e4adf475",
+      "bytes": 6396
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/DivMoments.lean",
+      "sha256": "106457c778e7a28bb5640b331fc68f466c524d90c46a754732e4e88840f6af34",
+      "bytes": 12350
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Elementary.lean",
+      "sha256": "3a1bc1af98b82e6269aab85265568030c7c9268c1924a034a77d7137da87cdd6",
+      "bytes": 10887
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Lemma1.lean",
+      "sha256": "842f1cd5c776ad402f73efe313ce30f87ac8b271a2020e3bada97a374151ad22",
+      "bytes": 32047
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Lemma2.lean",
+      "sha256": "9f013f0b5b0e298dae9f5573e039f18f9df3818470f3a9e339a8da9ae15c919e",
+      "bytes": 52027
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/MainTerm.lean",
+      "sha256": "6ab525ed3442a8f299cb946ef911e48012e81288d97f0b3887e19d448e01912d",
+      "bytes": 19220
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/MainTermLocal.lean",
+      "sha256": "b700e987e69cfa2752c279fddd412269c9508d8462283fe41a01e116d5894055",
+      "bytes": 12317
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/PrimePowers.lean",
+      "sha256": "a3eeb4b44bc6d554c6a10247645bd614191722a3f77154d5bff00d1eeaed7463",
+      "bytes": 11034
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Section3.lean",
+      "sha256": "7faa6b14e023dee013e72435e55d6bd7353f19874f89be5c91a2311f6b9af82c",
+      "bytes": 5622
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Sigma1.lean",
+      "sha256": "8e15464340a159d915605d63323f656d5c47bdc09d4d85ca36a28d47ee4403c1",
+      "bytes": 23485
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Sigma1Abel.lean",
+      "sha256": "3ec6766859f51e0728b1359e2f1841d842d6b015767940283268c21262d87c6d",
+      "bytes": 8436
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Sigma2.lean",
+      "sha256": "a045a67090dbf420ccd19fef77df2ae42bdceca2c474f432b23d09ceadb53247",
+      "bytes": 10934
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/SingularSeries.lean",
+      "sha256": "40ff2b5143dda2b189c1729d0110328e545c171eb1ede7efc6bc521aa8eac2fb",
+      "bytes": 30914
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Statements.lean",
+      "sha256": "7e0f41b328bf7e0691681bb8d6cd5b4763baae14e7ae748fd1f2d1e851403281",
+      "bytes": 6424
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Theorem1Chain.lean",
+      "sha256": "590c04a03bb30c2ecadebd88b8286fb1b477c91d96b9bc7191309b600f78de4d",
+      "bytes": 16353
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Theorem2.lean",
+      "sha256": "7f71f134416c5e7874443b3ac9a140eb4bd9dc81e82a4b6def42ffe4cbc3dc6a",
+      "bytes": 16476
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Vaughan.lean",
+      "sha256": "6ee2f62a4a6b9814a074dceeb33ed5d8b5dc48fdbe0fc469c435a68cb0c51f31",
+      "bytes": 10125
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "3e2644b33a8e685fd05b6630192f4d0cba968af79a3184260d4e4b72d7127098",
+      "bytes": 578,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "LeanLab/HeathBrown1985/MainTerm.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4b087e4cc21048686719": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/sthubbar/goldbach-lean",
+    "source_commit": "4d87394fed5e86a866ec2335621dc1b57f2e0c9d"
+  }
+}

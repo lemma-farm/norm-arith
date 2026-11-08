@@ -1,0 +1,231 @@
+{
+  "id": "71b2a108c634e5574a7f",
+  "source": {
+    "repository": "scottnarmstrong/MarkovProcess",
+    "commit": "dbade0d12c4f84179441a9df7d7147df7a8bcaa0",
+    "project": "scottnarmstrong--MarkovProcess--dbade0d12c4f",
+    "path": "MarkovProcess/Kernel/OnePointExtension.lean",
+    "file_id": "08fec7a8881dbcdaa621",
+    "source_sha256": "08fec7a8881dbcdaa6218365c2d95a3f9eca021dc8acf85fad58725b76679c8d",
+    "start": 261,
+    "end": 297,
+    "original_start": 261,
+    "original_end": 297,
+    "declaration": "norm_onePointSemigroupAction_le",
+    "source_url": "https://github.com/scottnarmstrong/MarkovProcess/blob/dbade0d12c4f84179441a9df7d7147df7a8bcaa0/MarkovProcess/Kernel/OnePointExtension.lean#L261-L297",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--MarkovProcess--0dc1ad4f4c93/blob/dbade0d12c4f84179441a9df7d7147df7a8bcaa0/MarkovProcess/Kernel/OnePointExtension.lean#L261-L297"
+  },
+  "native_target_name": "_private.MarkovProcess.Kernel.OnePointExtension.0.MarkovProcess.PositiveC0ContractiveResolvent.norm_onePointSemigroupAction_le",
+  "source_declaration_label": "norm_onePointSemigroupAction_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "ac60f7613b280fa51de2e196a6c2dcab1e02bdf32242a9027c29f1b283c43514",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "29236349d60bf5bc21e42fcc1f358c629e889bd29680a1b303345e1818303839",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MarkovProcess/Feller/Semigroup.lean",
+      "sha256": "735f7251f63c3a868cdd8b6451efda4d088371489213eeab47af22c26f599953",
+      "bytes": 3798
+    },
+    {
+      "path": "MarkovProcess/Kernel/Basic.lean",
+      "sha256": "6c46830978de5c7a4f08995eedf8ea8f3ea8de6f7b7e1dd02001583d20443d52",
+      "bytes": 2325
+    },
+    {
+      "path": "MarkovProcess/Kernel/C0.lean",
+      "sha256": "705f151980ab46bacc6832281511b69e8b21903951b924d7726da3b904612680",
+      "bytes": 5141
+    },
+    {
+      "path": "MarkovProcess/Kernel/C0SemigroupJoint.lean",
+      "sha256": "d511480cbabc0c581c8208818bbe268968c0dd88d58e7427eb908a184084aacd",
+      "bytes": 1773
+    },
+    {
+      "path": "MarkovProcess/Kernel/Integral.lean",
+      "sha256": "fe98cce461d5cebf1535dd67afc24dbe22a4abf93e169a8e847e7685fdb3fd3e",
+      "bytes": 2434
+    },
+    {
+      "path": "MarkovProcess/Kernel/KernelSemigroup.lean",
+      "sha256": "56eba6f45ec36a520b2f90dd6967f1e38379dc5a2beb45d9f55e4d418ad2708e",
+      "bytes": 4467
+    },
+    {
+      "path": "MarkovProcess/Kernel/MeasurableRadonFamily.lean",
+      "sha256": "a6df28c2ab267e8ddda0b3079e395e56b9ce1d4d8c1cedc5dfa78f0a8a48ab76",
+      "bytes": 7566
+    },
+    {
+      "path": "MarkovProcess/Kernel/OnePointExtension.lean",
+      "sha256": "7bf1d19414ab1263a889e19dbbf12cc159b2a264f1fbe293c0512972a123f158",
+      "bytes": 27832
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0OperatorKernel.lean",
+      "sha256": "1ad321b7ba08d983405f4051e9dee87ca18fcb30dc5cf6447cde31c39a6c81f6",
+      "bytes": 7464
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0OperatorMass.lean",
+      "sha256": "1098b42822d3d45354fbe6e5e6ec5acd80e2907d626fffea9630c40b3a072715",
+      "bytes": 3252
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0OperatorMeasure.lean",
+      "sha256": "1b6035f2ee3802f397f7fa50634add220bb81ba373c74e0cf7b107a65a271588",
+      "bytes": 4217
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0Resolvent.lean",
+      "sha256": "3abb139e051a1f335704b0df4d79324cc37e7e9dc533648a2231d567f513d5a5",
+      "bytes": 5089
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0SemigroupFeller.lean",
+      "sha256": "b83407aeca06abf2ea44780cb27e9a132760a3992f6f479f3fceb306194b7e78",
+      "bytes": 3852
+    },
+    {
+      "path": "MarkovProcess/Kernel/PositiveC0SemigroupKernel.lean",
+      "sha256": "9ad500f328f948ad34e00c81b723a54b776abb476aad87c3b3a050c4d5543143",
+      "bytes": 5670
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Basic.lean",
+      "sha256": "d17921ebe2219f430969d4bacf187054e62067732ac93c9f6d7a8fa0019fd9b3",
+      "bytes": 3189
+    },
+    {
+      "path": "MarkovProcess/Semigroup/ContractiveResolvent.lean",
+      "sha256": "7c9a4a2404d7dd441f862329b4c63874e251ab075bcb326961df9cde79c672d7",
+      "bytes": 6663
+    },
+    {
+      "path": "MarkovProcess/Semigroup/DenseCoreConvergence.lean",
+      "sha256": "b13579047f05a0628478e2cdf9172d58c1d71121a6a5bcb751e17d278fa5a315",
+      "bytes": 4088
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Duhamel.lean",
+      "sha256": "3a7fa728c1b4d360831dc36062413d05ad119fe847aff319dcee9613ddd40b36",
+      "bytes": 6101
+    },
+    {
+      "path": "MarkovProcess/Semigroup/ExponentialBounds.lean",
+      "sha256": "b49552f3bd4643df934a691a10fd5b3b61c6de0c1920dbf731e3e999385a3234",
+      "bytes": 5072
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Generation.lean",
+      "sha256": "3b357102b88463bd6859f87cbc5a31341f4f9b0696640f25bade44cf3bb8ee67",
+      "bytes": 4314
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Generator.lean",
+      "sha256": "efea24767eb9b4f8df56b3511463977936cc407bd3c3176a7c57323a4fae9de5",
+      "bytes": 23996
+    },
+    {
+      "path": "MarkovProcess/Semigroup/GeneratorClosed.lean",
+      "sha256": "f62de114eed8ed388d43ac507c2c50695c661c87f9c1687ff6cfe239c8e30026",
+      "bytes": 5090
+    },
+    {
+      "path": "MarkovProcess/Semigroup/GeneratorInjectivity.lean",
+      "sha256": "1cd08102bf3a9fccd144fcaeeb964d182086e8270f8f1be4ae918379317bd437",
+      "bytes": 5540
+    },
+    {
+      "path": "MarkovProcess/Semigroup/GeneratorResolvent.lean",
+      "sha256": "16933302cc9f430b926652687c7a250905af64fac855d9d195ea12dc6f5bd429",
+      "bytes": 9529
+    },
+    {
+      "path": "MarkovProcess/Semigroup/GeneratorUniqueness.lean",
+      "sha256": "3db1e168847a3a7b29803adfeeb163379d3e9d9795145db8754da05e98ace07d",
+      "bytes": 6950
+    },
+    {
+      "path": "MarkovProcess/Semigroup/InvariantSet.lean",
+      "sha256": "818679d154d21bca1c5721fd7716b3dc7406d26abaddc400aa46be9910c1e7e7",
+      "bytes": 6104
+    },
+    {
+      "path": "MarkovProcess/Semigroup/OrbitContinuity.lean",
+      "sha256": "721ce1d2d13a244bac931b8fc458ba0396c3854d5bb80e59c5623e8e905f8d48",
+      "bytes": 4261
+    },
+    {
+      "path": "MarkovProcess/Semigroup/PoissonInvariant.lean",
+      "sha256": "2eba1183b9899e5e61c17495d99c3d63c8948f7ff7d36b23a33f7ed54339e4b8",
+      "bytes": 7964
+    },
+    {
+      "path": "MarkovProcess/Semigroup/PositiveShift.lean",
+      "sha256": "5110991ded07dce580e9138329359726e4deef89ffa685faf38df782f8adfed5",
+      "bytes": 2304
+    },
+    {
+      "path": "MarkovProcess/Semigroup/Resolvent.lean",
+      "sha256": "2e927a5727fb28c6588d78378b0a92d8cde12a0977f93a7fa835d9144061cba2",
+      "bytes": 16055
+    },
+    {
+      "path": "MarkovProcess/Semigroup/ResolventGeneration.lean",
+      "sha256": "b109bf892f2c5c2578326feb99f59db4950e7fed298dc0a4a13a137242c33cf7",
+      "bytes": 4076
+    },
+    {
+      "path": "MarkovProcess/Semigroup/StrongOperatorLimit.lean",
+      "sha256": "6f61d1c1ed6c3c1e1356452ea369f14631899d848b43cb646c9997016a599c79",
+      "bytes": 5506
+    },
+    {
+      "path": "MarkovProcess/Semigroup/YosidaApproximation.lean",
+      "sha256": "40000f21180cad4cf4adfd678b46756c65843ba80752d16c66245c50ff565769",
+      "bytes": 6401
+    },
+    {
+      "path": "MarkovProcess/Semigroup/YosidaStrongLimit.lean",
+      "sha256": "aa33fd1b4620e89d91d0e40afc9c2125750d814c41a533a16e6a61adbc0cb147",
+      "bytes": 7502
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "61661eb93b870857161197eae46a8a3ca762ec85a66fb9f585d0f999cdd36f8f",
+      "bytes": 1082,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "MarkovProcess/Kernel/OnePointExtension.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/71b2a108c634e5574a7f": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/MarkovProcess",
+    "source_commit": "dbade0d12c4f84179441a9df7d7147df7a8bcaa0"
+  }
+}

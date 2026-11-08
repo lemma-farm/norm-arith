@@ -1,0 +1,50 @@
+"name" = "SubspaceTheorems"
+"testDriver" = "test"
+"defaultTargets" = ["ArithmeticHeights", "DiophantineApproximation"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "autoImplicit" = false, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "ArithmeticHeights"
+"globs" = ["ArithmeticHeights.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "DiophantineApproximation"
+"globs" = ["DiophantineApproximation.+"]
+"leanOptions" = {"weak" = {"linter" = {"mathlibStandardSet" = true, "style" = {"longFile" = 1500, "longFileDefValue" = 1500, "header" = true}}}, "warningAsError" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Roadmap"
+"globs" = ["Roadmap.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"globs" = ["Challenge.*"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeFlat"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "axioms"
+"root" = "scripts.Axioms"
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "«module-system»"
+"root" = "scripts.ModuleSystem"
+"srcDir" = "."

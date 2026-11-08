@@ -1,0 +1,946 @@
+{
+  "id": "2f34683c5033d7f387de",
+  "source": {
+    "repository": "amelieloher/hoermander-rothschild-stein",
+    "commit": "d1462014b4ca69cf04b250582ea45021aa07b546",
+    "project": "amelieloher--hoermander-rothschild-stein--d1462014b4ca",
+    "path": "RothschildStein/H3/HolderJetFirstNorm.lean",
+    "file_id": "02b2bb2f368398f809e1",
+    "source_sha256": "02b2bb2f368398f809e19d5d3633a74fec751ef50e285327a3cd3652079a0d76",
+    "start": 42,
+    "end": 49,
+    "original_start": 20,
+    "original_end": 49,
+    "declaration": "first_weakJetNorm_sum_le_holderX",
+    "source_url": "https://github.com/amelieloher/hoermander-rothschild-stein/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H3/HolderJetFirstNorm.lean#L42-L49",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hoermander-rothschild-stein--a3f8df3a01f8/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H3/HolderJetFirstNorm.lean#L42-L49"
+  },
+  "native_target_name": "RothschildStein.H3.first_weakJetNorm_sum_le_holderX",
+  "source_declaration_label": "first_weakJetNorm_sum_le_holderX",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "1e9844da416191f8d327aa0ff70101228025fdf66eb93161948e1023a0dd8a96",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f1738fcf9de755d3804627f5795784fc99fbc0ba2c6c84c8739e7c13b96fa02d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Hormander/Interface/BasisVec.lean",
+      "sha256": "98b85bbb0e3b5f2c2cc04e332e9d6a29b79a1f91a59360876af0adb4cbb6ad7b",
+      "bytes": 698
+    },
+    {
+      "path": "Hormander/Interface/EuclideanDivergence.lean",
+      "sha256": "9addb81aeee11fdc0961425e44719990bcdd30c5e729334fb8456a1fb8ca0864",
+      "bytes": 615
+    },
+    {
+      "path": "Hormander/Interface/LieAlgebraSpansOn.lean",
+      "sha256": "2684ff6d8e1f49702c873515288f7b67f905e882fef6c46374dee72f8afb754d",
+      "bytes": 696
+    },
+    {
+      "path": "Hormander/Interface/LieWord.lean",
+      "sha256": "57c60cd83d6ad33f30de09473f91d53df8e3ac5b1aa309ece1891b4d1b9d1aba",
+      "bytes": 768
+    },
+    {
+      "path": "Hormander/Interface/LieWordEval.lean",
+      "sha256": "1a1a6314093cb2a43de5fe347deef482bda8936cf91714bed0a79525d6e0dd59",
+      "bytes": 707
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup.lean",
+      "sha256": "2f152930501887e4a8aef198dd8e61356e7bdfb2f3cac35d3f1272b9159035ad",
+      "bytes": 1860
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup/IsHomogeneousGauge.lean",
+      "sha256": "8a1fa01d38bc72c1e97691a1ecc6280be8b51514bb0dd46a0e2daf3b01c93953",
+      "bytes": 961
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup/dilate.lean",
+      "sha256": "aa6a41fec29e9f3b955e9d474c31a1f8421f949198d7337a306356e3f24db53e",
+      "bytes": 900
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup/homogeneousDimension.lean",
+      "sha256": "a403910dc2e5141e6975031573f16b8805e498e9a736ad1ef1c62fab1eaba9e3",
+      "bytes": 795
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup/inv.lean",
+      "sha256": "17978914fd4e8ddf74c55c8986cedfae9006c151323cdea0490aaf88d651ca89",
+      "bytes": 847
+    },
+    {
+      "path": "RothschildStein/Definitions/HomogeneousGroup/mul.lean",
+      "sha256": "5019f71470cdfd4c67ca9922b45d310881ae56751e16061e42fdde2effcb00fa",
+      "bytes": 898
+    },
+    {
+      "path": "RothschildStein/Definitions/controlDistance.lean",
+      "sha256": "61142372ec37021d8bed7d15aaf719ae65bdbc85ae6109d389c818121009de36",
+      "bytes": 1146
+    },
+    {
+      "path": "RothschildStein/Definitions/coordinateDilation.lean",
+      "sha256": "b48544e41dd5439a1cff50ebd91a0cd9a0b8507e23b599051ad73b18bb65e700",
+      "bytes": 761
+    },
+    {
+      "path": "RothschildStein/Definitions/driftWeight.lean",
+      "sha256": "601214820f678750ce329b462f8db80218741cccf54e35e50f0805107ffbe820",
+      "bytes": 894
+    },
+    {
+      "path": "RothschildStein/Definitions/fieldDerivative.lean",
+      "sha256": "0794e49e942d46564d2700607363d71357d96c9d507ffedce5eebbff13a12a85",
+      "bytes": 973
+    },
+    {
+      "path": "RothschildStein/Definitions/fieldTranspose.lean",
+      "sha256": "dc0f0f384eacc9d3eb4999a66088645b660ce480a29a6dbfb54273e1a8897221",
+      "bytes": 1019
+    },
+    {
+      "path": "RothschildStein/Definitions/fieldTransposeTest.lean",
+      "sha256": "a947976718a5533f30fb590083f814614c5b2ad8968c28a6439f892ca8e4763b",
+      "bytes": 1330
+    },
+    {
+      "path": "RothschildStein/Definitions/hasIntrinsicDeriv.lean",
+      "sha256": "a8bce21166de7731f0b93d8b0b2a91e458cddb3217965fc154bdc147b7edf5d8",
+      "bytes": 1395
+    },
+    {
+      "path": "RothschildStein/Definitions/hasIntrinsicWordDeriv.lean",
+      "sha256": "49f8ad1a9d3adf7ad88584b44d41273e5152f0d28965ddf66d0305215b4ec327",
+      "bytes": 1261
+    },
+    {
+      "path": "RothschildStein/Definitions/hasWeakWordDeriv.lean",
+      "sha256": "18bd1eff8cd9e4f41ff7218fdb00a4f516c59cf3f2075085b1ed842f3f330b8c",
+      "bytes": 1349
+    },
+    {
+      "path": "RothschildStein/Definitions/holderENorm.lean",
+      "sha256": "826b50209e87ff3730969b99f016044abadf128efe413cf0a394fd1c1b27245d",
+      "bytes": 1108
+    },
+    {
+      "path": "RothschildStein/Definitions/holderSeminorm.lean",
+      "sha256": "95ecbba8246f406e7fb100d730b1a9b00862790ad2f5c9f76c8b334d16ca29ab",
+      "bytes": 1130
+    },
+    {
+      "path": "RothschildStein/Definitions/holderXENorm.lean",
+      "sha256": "91203c51d7520ad9b26c1a25299e64a7be0dc9b2ac600cb621411cc92e4de105",
+      "bytes": 1259
+    },
+    {
+      "path": "RothschildStein/Definitions/intrinsicWordENorm.lean",
+      "sha256": "707ef9de9d48783e552335c7c47df69e19401a66c3a0b16e40d56a1b08d5c9c4",
+      "bytes": 1336
+    },
+    {
+      "path": "RothschildStein/Definitions/isControlledCurve.lean",
+      "sha256": "87f4035ea307b3916303f0751f76d631ec80364ec748e154263b433a4cbe9c40",
+      "bytes": 1267
+    },
+    {
+      "path": "RothschildStein/Definitions/memHolderX.lean",
+      "sha256": "f9b3c42a349c885b29c2d6195d5e91a0cc6f80a0728114c1139525dbb6c0911d",
+      "bytes": 1376
+    },
+    {
+      "path": "RothschildStein/Definitions/memSobolevX.lean",
+      "sha256": "f9a5d245b3c86e57af0170b4feca311993d0c86875ee5c7a15f7493eace3c8f9",
+      "bytes": 1285
+    },
+    {
+      "path": "RothschildStein/Definitions/memSobolevXLoc.lean",
+      "sha256": "78178bfef2190cf6827e8ad5ed440e9c66f0785aa8460f108153366013807021",
+      "bytes": 1205
+    },
+    {
+      "path": "RothschildStein/Definitions/memSobolevXZero.lean",
+      "sha256": "24a1603848e7db2d473142f62a9a8dcfd8f55a8d03cef34f827e71c51c472204",
+      "bytes": 1254
+    },
+    {
+      "path": "RothschildStein/Definitions/polynomialProduct.lean",
+      "sha256": "11110ed47e43ecbd7b35e80126cb11a55718490d38da283cfd6eda77a2c9a8dc",
+      "bytes": 812
+    },
+    {
+      "path": "RothschildStein/Definitions/rsGauge.lean",
+      "sha256": "fb2b8fbe20bc4c36027f17b9c6eded18b453cd53ecb7aa3b7a1aa44a5950766c",
+      "bytes": 614
+    },
+    {
+      "path": "RothschildStein/Definitions/sobolevXENorm.lean",
+      "sha256": "71f6bb3c7d0304d9efeb3583cb4768a3198aed80089877d216d4d3bd3f621b26",
+      "bytes": 1144
+    },
+    {
+      "path": "RothschildStein/Definitions/testMultiplierOn.lean",
+      "sha256": "5b047dd03fd26b47d8fcf4d2ccd78fe9ba303699cdc7caa69dffe9c3c4fa0693",
+      "bytes": 1856
+    },
+    {
+      "path": "RothschildStein/Definitions/weakWordENorm.lean",
+      "sha256": "e6b4a3d7e916d5761c228eb75ef1597ce089da5ac00ea6966b93c58fe8ecc888",
+      "bytes": 1298
+    },
+    {
+      "path": "RothschildStein/Definitions/wordDerivative.lean",
+      "sha256": "7a3d02f3b5b92fca84d25c8099081e1ba7af4cef0312aaea1ecbcd6f72a852f9",
+      "bytes": 1116
+    },
+    {
+      "path": "RothschildStein/Definitions/wordFamily.lean",
+      "sha256": "e1ae512cb4601bb5b7d2f8e6a59aa0d8e57cb90166ba7ef8d25375a583271c95",
+      "bytes": 1122
+    },
+    {
+      "path": "RothschildStein/Definitions/wordTranspose.lean",
+      "sha256": "d74d41a0bd6a5f2b4e34b6e77fb06ec5fb6353a740416733bf4ef3da2e542a49",
+      "bytes": 1116
+    },
+    {
+      "path": "RothschildStein/Definitions/wordTransposeTest.lean",
+      "sha256": "5804e5cbfb9ad743c3e52e18d471b611749c94ff1a8b5645e38addacccf36279",
+      "bytes": 1220
+    },
+    {
+      "path": "RothschildStein/Definitions/wordWeight.lean",
+      "sha256": "a1b9a3b0ec3e2447a0d3c6b0d97aa269303e480e55e0f73a6dd3b69a1267e2fd",
+      "bytes": 924
+    },
+    {
+      "path": "RothschildStein/G1/LocalFlows.lean",
+      "sha256": "18520290e4b9f83c2bf939eb539355f53b4d2136ff4de98a13a5eb04d28ae7ef",
+      "bytes": 5256
+    },
+    {
+      "path": "RothschildStein/G2/Algebra.lean",
+      "sha256": "95aed940afba799b078f3a37cef6cef11cc460be4dd144771c0402ff1c8eba76",
+      "bytes": 5195
+    },
+    {
+      "path": "RothschildStein/G2/AnalyticStructure.lean",
+      "sha256": "30998b20b383d04cc910beb5957a9bc42e2dffb4356df45f55fba4fb95064afb",
+      "bytes": 3443
+    },
+    {
+      "path": "RothschildStein/G2/ConvolutionDefs.lean",
+      "sha256": "caa13896bd8dba1b4ba02d1d1eaf647fe2cbb17d0c3c8231fdc639b5fb55e6d9",
+      "bytes": 3002
+    },
+    {
+      "path": "RothschildStein/G2/ConvolutionMeasurable.lean",
+      "sha256": "655320257eec33632622175c4edca5b1e96ad7029b8369b2d2c371ecca64b1dc",
+      "bytes": 2155
+    },
+    {
+      "path": "RothschildStein/G2/ConvolutionSmooth.lean",
+      "sha256": "cd20432ebfa6dda86e7693959cfd48a0ddf94783565c4d2126f665576a7a62ae",
+      "bytes": 4540
+    },
+    {
+      "path": "RothschildStein/G2/ConvolutionSubstitution.lean",
+      "sha256": "f2831d9ceafced4193d125be11f2d4af86224d361001526f1536a1930edbc5a6",
+      "bytes": 3573
+    },
+    {
+      "path": "RothschildStein/G2/ConvolutionSupport.lean",
+      "sha256": "ea66d82c6d7144f18fc1f125bc77aa421d9e3fa7ed806adbdc19197ca38329ca",
+      "bytes": 2766
+    },
+    {
+      "path": "RothschildStein/G2/DilationMeasure.lean",
+      "sha256": "030e3eea146c236364d9c88eac7aa0ef81192fcc73cbd8718a1f8b0c4dc59ae9",
+      "bytes": 4401
+    },
+    {
+      "path": "RothschildStein/G2/EuclideanComparison.lean",
+      "sha256": "7082dcf112bbeff0df4d754d7117dc26bddde419efea8c6686ec38cae07cc011",
+      "bytes": 5062
+    },
+    {
+      "path": "RothschildStein/G2/Foundation.lean",
+      "sha256": "0b9bba88d8c21c1659d9058d9faf10f4737181df3db2f01bee88ef9101481e39",
+      "bytes": 567
+    },
+    {
+      "path": "RothschildStein/G2/Gauge.lean",
+      "sha256": "59d023422d19f9d3ab03f929603dd0be5d412e5ccecaeafb332aa99af256237c",
+      "bytes": 6694
+    },
+    {
+      "path": "RothschildStein/G2/GaugeBalls.lean",
+      "sha256": "01e36bd9f3ef7b7169f5c6995c77bd69828e652e4d0c4e7cd0cd48c7d9f6083b",
+      "bytes": 4503
+    },
+    {
+      "path": "RothschildStein/G2/InversePolynomial.lean",
+      "sha256": "502aeef733696b65d806aca52d80c883837a2d87c4627fd05f4b6bbd9644473c",
+      "bytes": 2655
+    },
+    {
+      "path": "RothschildStein/G2/MaxGauge.lean",
+      "sha256": "b47b66bb8746332de3ef3e8eed1631772c5c01105afb3ae5e783e2d70cf48741",
+      "bytes": 5388
+    },
+    {
+      "path": "RothschildStein/G2/Measure.lean",
+      "sha256": "789fa017f27be54a5bda7b071ea922ce39e3b6cb7d1767235882c3c89d56261d",
+      "bytes": 3982
+    },
+    {
+      "path": "RothschildStein/G2/MollifierBound.lean",
+      "sha256": "1b16496c72c4ceaec0cc6171a57f6b47cd4f82c5d77daee52cd524c56660da6f",
+      "bytes": 3545
+    },
+    {
+      "path": "RothschildStein/G2/MollifierCompactLp.lean",
+      "sha256": "302f0481a2a4d927684df2120dc0fb03a8dcf285f5efeb95aec722b1621459d1",
+      "bytes": 4523
+    },
+    {
+      "path": "RothschildStein/G2/MollifierContraction.lean",
+      "sha256": "53ffd7d8a5273c5160e68230d5bb9fd4621fc218fdb7412caa8610b60e720c64",
+      "bytes": 1847
+    },
+    {
+      "path": "RothschildStein/G2/MollifierDefs.lean",
+      "sha256": "9dd2fb39d00e5a903fab4244a2b2101bbe6ebc52b5d70f791d7caf3e2ecd0802",
+      "bytes": 1679
+    },
+    {
+      "path": "RothschildStein/G2/MollifierIntegrability.lean",
+      "sha256": "dfa973b86214104a0d2f84747816a288d1ca6679d8326d1ad88f9dd43d0ad7bc",
+      "bytes": 2004
+    },
+    {
+      "path": "RothschildStein/G2/MollifierLinearity.lean",
+      "sha256": "ada1eb1a0570b96fdd6f9c5facd0d6c18fa030db563f6d6c6d7d70b9d604ffaf",
+      "bytes": 1113
+    },
+    {
+      "path": "RothschildStein/G2/MollifierLpConvergence.lean",
+      "sha256": "c2db23cbfbf774bc9c108c38347b4f6d5839169c07b6b76d68e6e82a9583cf2d",
+      "bytes": 2723
+    },
+    {
+      "path": "RothschildStein/G2/MollifierPointwise.lean",
+      "sha256": "212972aa8fe376e1b3ea97630b9bbef9d0c14ba668898ed20c4986f72abd20ac",
+      "bytes": 3019
+    },
+    {
+      "path": "RothschildStein/G2/MollifierScale.lean",
+      "sha256": "07e75748d5376b37b30025483e6daa141f88884d7c4f49dada16b1054ae5e5e8",
+      "bytes": 3634
+    },
+    {
+      "path": "RothschildStein/G2/MollifierSmooth.lean",
+      "sha256": "63c832c288b2975f367747073392381c2f128a59770d3be51c121e6c5ca0ad80",
+      "bytes": 1536
+    },
+    {
+      "path": "RothschildStein/G2/MollifierSubstitution.lean",
+      "sha256": "38651c87128cf5e96faece8fbcac1bde533848750b9552f3442cd5b401eff976",
+      "bytes": 1820
+    },
+    {
+      "path": "RothschildStein/G2/MollifierUniform.lean",
+      "sha256": "8006a7a7b9fef7d2d74576e15577a4f19d0f8e4b9af57029410c8aa85526082a",
+      "bytes": 4487
+    },
+    {
+      "path": "RothschildStein/G2/NonnegativeConvolution.lean",
+      "sha256": "dec2cad5f5ba68f7c60d52222b4179685ceb8508a1ede2a8108bfe5cc186aff5",
+      "bytes": 3248
+    },
+    {
+      "path": "RothschildStein/G2/NormConstruction.lean",
+      "sha256": "1ac1ce373fe34a8d50c05185e0423c75fa4dfe1821fa88ef0b68629440a02167",
+      "bytes": 1402
+    },
+    {
+      "path": "RothschildStein/G2/PolynomialCalculus.lean",
+      "sha256": "c5ef637a7a85d3cab46c4c352e816609660ecc72138037873e66a58c217c6c49",
+      "bytes": 2629
+    },
+    {
+      "path": "RothschildStein/G2/QuasiBounds.lean",
+      "sha256": "ea42e66808ecc572584a6d81b7290cade9b8d4315e4b7e224deaeace046acba7",
+      "bytes": 4631
+    },
+    {
+      "path": "RothschildStein/G2/Quasidistance.lean",
+      "sha256": "f2f746d86d886491e3afef93c5fb3dea9c0e978bfa35944b7264e598eaa6d404",
+      "bytes": 4001
+    },
+    {
+      "path": "RothschildStein/G2/SmoothGauge.lean",
+      "sha256": "095f38ac4ed9c75bb639b3addb9b576564b277a24fd087fccad7740ad8c73f82",
+      "bytes": 3391
+    },
+    {
+      "path": "RothschildStein/G2/SumGauge.lean",
+      "sha256": "9366e989908a574250906b575b3e84f22a50a99be70ebc7e1915e173569f3aef",
+      "bytes": 2808
+    },
+    {
+      "path": "RothschildStein/G2/TopologicalGroup.lean",
+      "sha256": "608fce9c1f98d702a8a3413ffd45a715fb3179e86766a72793a0095da764a317",
+      "bytes": 1249
+    },
+    {
+      "path": "RothschildStein/G2/TriangularMeasure.lean",
+      "sha256": "fe88b08871526c951a68df9ec008786627a5e33b1f8e2facd4b05eedc9e7e10d",
+      "bytes": 6537
+    },
+    {
+      "path": "RothschildStein/G2/TriangularPolynomial.lean",
+      "sha256": "5f27cbe1aa454f3b5106bc4ad555c7451ea97a67269b8f8adb464d769ba152b1",
+      "bytes": 9992
+    },
+    {
+      "path": "RothschildStein/G2/WeightedPolynomial.lean",
+      "sha256": "d15decac9a8989d32a6a82adf897e6043722a0d78a139b492b143f0b19dd57b6",
+      "bytes": 3852
+    },
+    {
+      "path": "RothschildStein/G2/YoungEndpoint.lean",
+      "sha256": "ee7d5f35fc5ee6268930d184f6cc3e059657247be5c0524a163851b92fe0f17a",
+      "bytes": 2304
+    },
+    {
+      "path": "RothschildStein/G2/YoungFinite.lean",
+      "sha256": "10376f606d8844f31805a80208c50cbc5083092098b953b1ed1bcadd1989157e",
+      "bytes": 2451
+    },
+    {
+      "path": "RothschildStein/G2/YoungHolder.lean",
+      "sha256": "d0a29216e8b74ebea31bfe5519dba45b47455b558db7f64c9276101feabcfc4a",
+      "bytes": 2778
+    },
+    {
+      "path": "RothschildStein/G2/YoungLp.lean",
+      "sha256": "7df95da184de0cc0d82b7382a10b0af0ccba7b807e0109ca7dc756addd2e3cf2",
+      "bytes": 1954
+    },
+    {
+      "path": "RothschildStein/G2/YoungNorm.lean",
+      "sha256": "98830497146ca7ba55e93d8bf6e0a7c43f7c7424d5f239bf96fa0ec8310bc927",
+      "bytes": 2383
+    },
+    {
+      "path": "RothschildStein/G2/YoungPower.lean",
+      "sha256": "a55b9bbb800b47089fc7fc24d62135452fe7603f41e73370dabb13913244aa48",
+      "bytes": 2237
+    },
+    {
+      "path": "RothschildStein/H3/FirstHolderNormFormula.lean",
+      "sha256": "ded8d3e292fb4f2e64099cc75b666691a57e7e71f73e7f00608d8eb8ca666fd8",
+      "bytes": 2692
+    },
+    {
+      "path": "RothschildStein/H3/HolderJetDriftData.lean",
+      "sha256": "b6aa9c3b7639feb2113c2929cde72fd9bed3c903661d336f459c3b939784f29c",
+      "bytes": 1666
+    },
+    {
+      "path": "RothschildStein/H3/HolderJetFirstNorm.lean",
+      "sha256": "5b071cdb0da68780921e8404352da8db74eec52963925677220b2d8ce8b8303e",
+      "bytes": 2332
+    },
+    {
+      "path": "RothschildStein/H3/LocalHolderSupNorm.lean",
+      "sha256": "ad8f269503c53e48334f3da9e5c9894ec906a52fb1b18c147606ed2eaefefb1f",
+      "bytes": 2080
+    },
+    {
+      "path": "RothschildStein/H3/WeakDriftOperatorData.lean",
+      "sha256": "f4475f53c8d48ae69bbdd0f98371600aebbee3e3ddc2df546a76634c0ce0dcb2",
+      "bytes": 1453
+    },
+    {
+      "path": "RothschildStein/S/AdditiveGroup.lean",
+      "sha256": "096459c74892e1acc33eb20fab3f6a46675660ea13a525f6dd2a91790ea12541",
+      "bytes": 2790
+    },
+    {
+      "path": "RothschildStein/S/BaseKernelAllDimensions.lean",
+      "sha256": "47b7fece1690aebeeda7bddbbfe593155dac27e48c8d0f88cf58dd39482ddef4",
+      "bytes": 1774
+    },
+    {
+      "path": "RothschildStein/S/ClassicalWords.lean",
+      "sha256": "a49466359b2ab2cc4106b720de4eb64a403fc8982af33ef8378b49ad6f2e870f",
+      "bytes": 5828
+    },
+    {
+      "path": "RothschildStein/S/CommutatorPairProperties.lean",
+      "sha256": "406c34f9c6a78ab7f4249637820a254b8d5df664984a30a3691c3f44de097d22",
+      "bytes": 1245
+    },
+    {
+      "path": "RothschildStein/S/CommutatorPairs.lean",
+      "sha256": "da1cd55f5067a78ff22c4292022b023fe3e645245d9a2c2a102591074c349784",
+      "bytes": 1900
+    },
+    {
+      "path": "RothschildStein/S/CommutatorRepresentationGerms.lean",
+      "sha256": "7a6be6eb909bf1479d2f16aef76965a68267d7453f40d47682fd9afa090f472a",
+      "bytes": 5084
+    },
+    {
+      "path": "RothschildStein/S/CompactDerivativeIntegrable.lean",
+      "sha256": "3590e7d4101e381dcc384c13eacf2c0eb373f4a6c9f2367433789cce49415024",
+      "bytes": 1116
+    },
+    {
+      "path": "RothschildStein/S/CompactDerivativeMean.lean",
+      "sha256": "e20835db525a02efcc125f8b8f203733944cf718d2b8a54304c5012c5b62823f",
+      "bytes": 2073
+    },
+    {
+      "path": "RothschildStein/S/CompactKernelDerivative.lean",
+      "sha256": "e3fb8d1912fb5c6e8bb64bfcc23a3a6ea72db1dc3f3fd066a32ffda177e68814",
+      "bytes": 3897
+    },
+    {
+      "path": "RothschildStein/S/CompactKernelDerivativeLocal.lean",
+      "sha256": "ac9e5094d927baee349b68609cb734dd19ebcc619962ca65c6d042d705bb14c1",
+      "bytes": 2696
+    },
+    {
+      "path": "RothschildStein/S/CompactKernelDirectionalTest.lean",
+      "sha256": "a9212fe31e16d87985046edc04a2066144e3657c3c90a64a0a984b9198ddaabe",
+      "bytes": 2035
+    },
+    {
+      "path": "RothschildStein/S/CompactKernelIntegral.lean",
+      "sha256": "58835c88d0248b7a60201fca8f1636a418c275f4c6805a027049091e74725da0",
+      "bytes": 2011
+    },
+    {
+      "path": "RothschildStein/S/CompactKernelLocalData.lean",
+      "sha256": "600bd0ae03e5c31214ac070f4c426c51fcd78e7a2c2c60f33549be4b6f757c28",
+      "bytes": 4201
+    },
+    {
+      "path": "RothschildStein/S/ContinuousTestProducts.lean",
+      "sha256": "40c392115359bb3cfdc2314ce98d99f14ffee9faded368ad555f667136a0b499",
+      "bytes": 1418
+    },
+    {
+      "path": "RothschildStein/S/CoordinateDilationIntegral.lean",
+      "sha256": "e895f235c7586916d0c47f45c8a974c0c7d0d59719fc0a09896916dece819979",
+      "bytes": 1365
+    },
+    {
+      "path": "RothschildStein/S/DistanceGeometry.lean",
+      "sha256": "7dd1923ddf346e87b3b7af9f1645806e00751333ee90db64c53f2571ee2ab569",
+      "bytes": 2631
+    },
+    {
+      "path": "RothschildStein/S/DistanceMetricLaws.lean",
+      "sha256": "5faeb4c6c74244fd426776dfe57ac0fe6372d1feb07b3cdb6f3762768111758f",
+      "bytes": 2217
+    },
+    {
+      "path": "RothschildStein/S/FieldDerivativeListSum.lean",
+      "sha256": "a54360711aa44c7076c0857713d643dea8dee674b18baf12f005a0d42269d846",
+      "bytes": 2130
+    },
+    {
+      "path": "RothschildStein/S/FieldGermExtension.lean",
+      "sha256": "b04566ef9bad6c9504bec52f9b3e215c60bf9b07033abb355c3abaf79344df70",
+      "bytes": 3234
+    },
+    {
+      "path": "RothschildStein/S/FirstFieldUniformApproximation.lean",
+      "sha256": "2173d868524e0291881b397cdaef7515509550629388933fd0fd589023eba326",
+      "bytes": 3145
+    },
+    {
+      "path": "RothschildStein/S/FriedrichsBaseKernel.lean",
+      "sha256": "522e36b9a000da36999dcb6ab2a508499996719f14d061a255b0d12a051f0891",
+      "bytes": 2814
+    },
+    {
+      "path": "RothschildStein/S/FriedrichsInteriorPatch.lean",
+      "sha256": "f09de8900f955928c080e2a6a3e04e4106422ac0a9546401fe7fbaf735da4cb9",
+      "bytes": 2349
+    },
+    {
+      "path": "RothschildStein/S/FriedrichsKernelDefs.lean",
+      "sha256": "9c6a65a140393553c64f2a16e5ea800527711c3d3118c416fbad399cf4e781af",
+      "bytes": 3502
+    },
+    {
+      "path": "RothschildStein/S/HadamardCoefficients.lean",
+      "sha256": "49597cc0cb20fbc9471dc3a827c4784a3ea37beff852fca73fb8ccadab810509",
+      "bytes": 4003
+    },
+    {
+      "path": "RothschildStein/S/HadamardFirstDerivative.lean",
+      "sha256": "313731845fc401281f4d943d22345106e6692333cf5a3fd1ed9831080d742448",
+      "bytes": 1469
+    },
+    {
+      "path": "RothschildStein/S/HolderBounds.lean",
+      "sha256": "3fe272e4ee7a15aea76970bedc5f757a71818459dcdc2fb31c6d11d740381206",
+      "bytes": 3648
+    },
+    {
+      "path": "RothschildStein/S/HolderContinuity.lean",
+      "sha256": "2a9cc26b69d74372ba42300cbdf6fb1d294338ea8f81265901c5685e116f7ade",
+      "bytes": 2136
+    },
+    {
+      "path": "RothschildStein/S/HolderSubsetContinuity.lean",
+      "sha256": "5d85b8a4832deaa9bc5e39d6b445e0be9a1c2a39154d291837522c0e8048ecf0",
+      "bytes": 920
+    },
+    {
+      "path": "RothschildStein/S/HolderUniformConvergence.lean",
+      "sha256": "ce68e0c23be25e10682ec9e4b1bb809c668374c572d55985ba9d67befe7c8f69",
+      "bytes": 1368
+    },
+    {
+      "path": "RothschildStein/S/HolderZeroOrder.lean",
+      "sha256": "713acab42ce1bde08b9198464e34de8b049b4e5544a64102619cda920b1c2f8d",
+      "bytes": 3079
+    },
+    {
+      "path": "RothschildStein/S/IntegrationByParts.lean",
+      "sha256": "4566a52c3b50eb941fcde5f945afd678484d50bc601b3a0b6a06bc6f968c4ced",
+      "bytes": 5812
+    },
+    {
+      "path": "RothschildStein/S/InteriorTubeTranslations.lean",
+      "sha256": "4bdd7b3770362091e7cefa22ffff481afb3052e7f2b767de6236c0dc7258d826",
+      "bytes": 1453
+    },
+    {
+      "path": "RothschildStein/S/IntrinsicCurveExistence.lean",
+      "sha256": "4fae0fba6e05b2facb3d304d408651eb7d585b8c8dd7e33f0d24330dc46efa14",
+      "bytes": 1561
+    },
+    {
+      "path": "RothschildStein/S/IntrinsicNormRepresentatives.lean",
+      "sha256": "c0bab22599d4aba3970fe17a9b880718cf5cfb0d4d9acc71beff1f3a94aa62e1",
+      "bytes": 1671
+    },
+    {
+      "path": "RothschildStein/S/IntrinsicUniqueness.lean",
+      "sha256": "0b32c105652a755e6b6db46f38115ed150d267cd5cd8f5dc0746c09a34967d05",
+      "bytes": 2349
+    },
+    {
+      "path": "RothschildStein/S/KernelCancellationLocal.lean",
+      "sha256": "cb12bc8cea6542fe323e268b817684446a606cc420e69e66a7905decc3101608",
+      "bytes": 2505
+    },
+    {
+      "path": "RothschildStein/S/KernelIncrementLocalEstimate.lean",
+      "sha256": "afe5d41cc2025e8da6fb708f6722f3ac09eb0db94ad46a6df2b69ad2748bd278",
+      "bytes": 2372
+    },
+    {
+      "path": "RothschildStein/S/KernelRescaling.lean",
+      "sha256": "4300657813c5ace492c891fcbf81d8c8a358438082d714b9cceb94ebae84e74f",
+      "bytes": 1598
+    },
+    {
+      "path": "RothschildStein/S/KernelUniformConvergence.lean",
+      "sha256": "61d5266499b3bc5661b99d1e368ecfb4097469b7e7f9ebfd06d52a80de890775",
+      "bytes": 1121
+    },
+    {
+      "path": "RothschildStein/S/KernelUniformConvergenceLocal.lean",
+      "sha256": "b00291cead732df2bf6ee509702854648fa0fb7e6a3d11215dcb8d3f01df42f6",
+      "bytes": 3534
+    },
+    {
+      "path": "RothschildStein/S/KernelZeroExtension.lean",
+      "sha256": "ed0860eca412f9d19ee948d6db285e823d6c471887fbb5be6ad1b164923f0a8f",
+      "bytes": 1702
+    },
+    {
+      "path": "RothschildStein/S/Locality.lean",
+      "sha256": "10fc45b4cf965bad3d8d3d6c07bc6193097cce0d6c135745629983c2781cb725",
+      "bytes": 3407
+    },
+    {
+      "path": "RothschildStein/S/MollifierAllDimensions.lean",
+      "sha256": "0db07b54cfa9b1b4d76a69f7ea5cb4a45186daffd6dda99ad5b84af1ad905c79",
+      "bytes": 2348
+    },
+    {
+      "path": "RothschildStein/S/MollifierCompactAllDimensions.lean",
+      "sha256": "1a7beb1fa72f8e8034fbd1783998fcb311b9f9050b94c2379d2c7316fd024256",
+      "bytes": 1797
+    },
+    {
+      "path": "RothschildStein/S/MollifierConvergence.lean",
+      "sha256": "a6769f741486f3b2bdcab19d56b37437249bd29b565e72b568822f55e3f8946a",
+      "bytes": 2930
+    },
+    {
+      "path": "RothschildStein/S/MollifierKernel.lean",
+      "sha256": "a6a440b46b4f48e4fcb57078c4ba2d26c4897b65a7893238b0e326c649788c5f",
+      "bytes": 2596
+    },
+    {
+      "path": "RothschildStein/S/MollifierLocallyIntegrable.lean",
+      "sha256": "cd4fed11a9f045b3a340b2704d3787e6ec4731184bb52c1e2002183835a14a4b",
+      "bytes": 1681
+    },
+    {
+      "path": "RothschildStein/S/MollifierSubstitution.lean",
+      "sha256": "ca316ede0f4f69a7784744dc9424a31d88d8dee7c8054aa63865bf9cbbb328b6",
+      "bytes": 1980
+    },
+    {
+      "path": "RothschildStein/S/MollifierSupport.lean",
+      "sha256": "3f780160f28d38df0b0f540a39edfd6802e35c637b5d4f176f574c68e31fcee8",
+      "bytes": 2323
+    },
+    {
+      "path": "RothschildStein/S/MollifierTubeLocality.lean",
+      "sha256": "926770112f341ad45f4a77de6f47861ac37220674d295889fd5145c8dc1e8bdf",
+      "bytes": 2637
+    },
+    {
+      "path": "RothschildStein/S/MollifierUniformAllDimensions.lean",
+      "sha256": "1dbb87905fce2a777549593e261d720d4b288ebf0b0b214a00e6466063f9d8a0",
+      "bytes": 1403
+    },
+    {
+      "path": "RothschildStein/S/MollifierUniformBounded.lean",
+      "sha256": "5e1855a1a473c8b40d0cd80c4ca3203449c5f702c0e889883089bb969c59f6a3",
+      "bytes": 3274
+    },
+    {
+      "path": "RothschildStein/S/MollifierUniformLocal.lean",
+      "sha256": "d022b0f5155656e214a12999048879c1f94997166d8bb46300566c4c7feea2b2",
+      "bytes": 3095
+    },
+    {
+      "path": "RothschildStein/S/ParameterSliceJets.lean",
+      "sha256": "1e67a72384b47ea4609d838059e554220dc16abd33d0145702347919cfbc259b",
+      "bytes": 2918
+    },
+    {
+      "path": "RothschildStein/S/ProductParameterDirections.lean",
+      "sha256": "1794ff85083b338710ea17405876792f690cdf4ff88284390c04af0db7672264",
+      "bytes": 1699
+    },
+    {
+      "path": "RothschildStein/S/ProductSectionDerivative.lean",
+      "sha256": "80479940690ba8e9ea5c8ae613618c43f745ba01a964231dfe17a185573bda9b",
+      "bytes": 2163
+    },
+    {
+      "path": "RothschildStein/S/RescaledKernelChainRule.lean",
+      "sha256": "5c146ca514c557d3eac6f8e4fda3078a383f232a2dc53491d8ab25a59ce0d455",
+      "bytes": 2956
+    },
+    {
+      "path": "RothschildStein/S/RescaledKernelDifferentiation.lean",
+      "sha256": "070a438836f1fe5ea65d9c8c0aac7a5185d3da4361469d277dea6515df29f81d",
+      "bytes": 1681
+    },
+    {
+      "path": "RothschildStein/S/RescaledKernelGeometry.lean",
+      "sha256": "96b9f579c6bf67691fa13db1b98486af525aed5d0ac1c580b9bfbf54fd4e443d",
+      "bytes": 2795
+    },
+    {
+      "path": "RothschildStein/S/RescaledKernelTest.lean",
+      "sha256": "7fbc73ef328d5d1314489b1b053ceddc5728bd77591ad5d29d7bad65f916c0f9",
+      "bytes": 1282
+    },
+    {
+      "path": "RothschildStein/S/RescaledTransferIdentity.lean",
+      "sha256": "2686f3388546976af141def9d57b04d3148d3186d1a8b1ef6aaf2379df1a0273",
+      "bytes": 3209
+    },
+    {
+      "path": "RothschildStein/S/SmoothCommutatorPairs.lean",
+      "sha256": "7137c250c29c45c0ce30328df4c8cdb469087acc570d74ae473fd924b25c7629",
+      "bytes": 2903
+    },
+    {
+      "path": "RothschildStein/S/SmoothFriedrichsBase.lean",
+      "sha256": "f8db69abda776e3a771bb3fb7f2335b32044c8756d38cbd57b3d20e4c34f56eb",
+      "bytes": 1135
+    },
+    {
+      "path": "RothschildStein/S/SmoothFriedrichsKernels.lean",
+      "sha256": "297b80a69b09e1b5837e8ffc2f7d021c239955f74181823df459ffb8cdd304b8",
+      "bytes": 4139
+    },
+    {
+      "path": "RothschildStein/S/SmoothIntervalIntegral.lean",
+      "sha256": "b2e72982f1dee41f2f2a818d6af481ef485380a808df8554e728843918541988",
+      "bytes": 2383
+    },
+    {
+      "path": "RothschildStein/S/SmoothKernelMeanDerivative.lean",
+      "sha256": "3138299b5066ecfe199fd41b4424987c673258f5fb838a9f133f7aad290514b8",
+      "bytes": 1690
+    },
+    {
+      "path": "RothschildStein/S/SmoothKernelTransfer.lean",
+      "sha256": "76f782fde2e0324be2a581c852b78e29c3602765324f10d6589d59f5b4f32cd0",
+      "bytes": 3341
+    },
+    {
+      "path": "RothschildStein/S/SmoothKernelTransferFormula.lean",
+      "sha256": "885fe0061a741068f3ce2085b9e8474e78396adf6175485ca352091a1624fea9",
+      "bytes": 2550
+    },
+    {
+      "path": "RothschildStein/S/SmoothKernelTransferMean.lean",
+      "sha256": "2d3a2d0aac851b834b27747e769e555a4b671eb006299ea7fcb0f1802b9d0b92",
+      "bytes": 4440
+    },
+    {
+      "path": "RothschildStein/S/Sobolev.lean",
+      "sha256": "2223cc00f12964b9f078c560077fa6f0a6f7b93f96a3760774c09f8ad863ae75",
+      "bytes": 5296
+    },
+    {
+      "path": "RothschildStein/S/TestOperators.lean",
+      "sha256": "afd2108a534bbbb3c55733e3a180e8072ef0d4391e912b50a6f569672cec0b6d",
+      "bytes": 5065
+    },
+    {
+      "path": "RothschildStein/S/TransferValueExpansion.lean",
+      "sha256": "550bf39b80d74b16964d3419dc4d96942bbe1d41edaf2eb9850c58bd8b2cc0e6",
+      "bytes": 3919
+    },
+    {
+      "path": "RothschildStein/S/Transposes.lean",
+      "sha256": "8bdf835c82d0ec20728f6dd9b38ca06a99b6c0465a19f3138165fc3a5aea9456",
+      "bytes": 6892
+    },
+    {
+      "path": "RothschildStein/S/UniformListSums.lean",
+      "sha256": "b142091950629411ac884c0bbadf0ebb81414af40175b45741eb0a1f395d8c92",
+      "bytes": 1753
+    },
+    {
+      "path": "RothschildStein/S/UniformWordApproximation.lean",
+      "sha256": "0534ef663689832cb8fe9088155c9c3853d768d136d2cefbb3fc86f05466ef48",
+      "bytes": 4070
+    },
+    {
+      "path": "RothschildStein/S/WeakCurveDerivative.lean",
+      "sha256": "36345448eb490ec97ac2113ca23c72734cd8a24f9c205ebd84c6b6202b691e4e",
+      "bytes": 2719
+    },
+    {
+      "path": "RothschildStein/S/WeakDeriv.lean",
+      "sha256": "d20631e3c3f2cc486c81f6098db8445398843781121dbc1d9ce1de43f6656512",
+      "bytes": 9496
+    },
+    {
+      "path": "RothschildStein/S/WeakHolderRepresentatives.lean",
+      "sha256": "84d129e77c13674e8cde706042ac433c3f5a0638588b0eb7df8ca073c82cf1ff",
+      "bytes": 1527
+    },
+    {
+      "path": "RothschildStein/S/WeakHolderSpaces.lean",
+      "sha256": "ba1356474fd6e6f2a0c5ff19e3091f1359405a1528e74378318ed4276809296d",
+      "bytes": 1792
+    },
+    {
+      "path": "RothschildStein/S/WeakIntrinsicWords.lean",
+      "sha256": "dca2b1d1c1571d735b55b1a46159ccec01a298940ea8455fc18c7414298188a6",
+      "bytes": 2669
+    },
+    {
+      "path": "RothschildStein/S/WeakKernelTransferGermPatch.lean",
+      "sha256": "7f827af2cbc53961981039593a702f81b1f3407077f37b46a2210ab4eeaf5ec2",
+      "bytes": 1907
+    },
+    {
+      "path": "RothschildStein/S/WeakKernelTransferGerms.lean",
+      "sha256": "a2f9946cfc50eb0402071060980e825ddeef4d83f058793266931c218a6be911",
+      "bytes": 4178
+    },
+    {
+      "path": "RothschildStein/S/WeakKernelTransferPatch.lean",
+      "sha256": "dc45ff4e4399b97178b296c6de88aea64bdde5bfb278d10b69414fce56c3b115",
+      "bytes": 1142
+    },
+    {
+      "path": "RothschildStein/S/WeakRescaledPairing.lean",
+      "sha256": "c9764984ec026e8005fa9faf52392b9006d0b69fcd2e0cbf5a4468529758bd48",
+      "bytes": 2245
+    },
+    {
+      "path": "RothschildStein/S/WeakToIntrinsic.lean",
+      "sha256": "5e63f2c78065536f77dd19fa89237f9cc1748885ca4be38a59d1b0b32d161d49",
+      "bytes": 1462
+    },
+    {
+      "path": "RothschildStein/S/WeakWordUniformMollifier.lean",
+      "sha256": "c002d3f8f11da51002ca96bb995044b59b2425983b2e7107595ba40aaff2e2b1",
+      "bytes": 4153
+    },
+    {
+      "path": "RothschildStein/S/WordDerivativeGerms.lean",
+      "sha256": "7df726c6288e412d7d00d65f3acea1687ec0bbb9c815ac8b9f2ea407b24bc9be",
+      "bytes": 1141
+    },
+    {
+      "path": "RothschildStein/S/ZeroExtendedCommutatorRepresentation.lean",
+      "sha256": "37564000f24ff2e3b651edc4394a9dde7c4dbee2d16c549d4fc1d60226d75082",
+      "bytes": 3085
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a1d28685d932ab03a360adc0e9c9af36d224bace1928bcecc09597d9195731bf",
+      "bytes": 1882,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RothschildStein/H3/HolderJetFirstNorm.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/2f34683c5033d7f387de": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hoermander-rothschild-stein",
+    "source_commit": "d1462014b4ca69cf04b250582ea45021aa07b546"
+  }
+}

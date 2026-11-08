@@ -1,0 +1,81 @@
+{
+  "id": "6de7d3d599814eadfde8",
+  "source": {
+    "repository": "QuanyuTang/polya-szego-planar-unconditional-palomar",
+    "commit": "5311f47821b5da92e81e75b7da5091d176c8deb9",
+    "project": "QuanyuTang--polya-szego-planar-unconditional-palomar--5311f47821b5",
+    "path": "RequestProject/Core4.lean",
+    "file_id": "06ec90eeb15eef598d32",
+    "source_sha256": "06ec90eeb15eef598d320986a9a0accfb3c1aa5f0e664fd0c0501e13d818b2e8",
+    "start": 742,
+    "end": 754,
+    "original_start": 741,
+    "original_end": 785,
+    "declaration": "limit_weak_identity",
+    "source_url": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/RequestProject/Core4.lean#L742-L754",
+    "archive_url": "https://github.com/PalomarArchive/QuanyuTang--polya-szego-planar-unconditional-palomar--71f7b9b3d630/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/RequestProject/Core4.lean#L742-L754"
+  },
+  "native_target_name": "Buckling.limit_weak_identity",
+  "source_declaration_label": "limit_weak_identity",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "ffd3a0884fa11fab3bbaf31a914699a301333f87bbc555208a0191e54d51836f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "dfef7cb54b53163cadea7f7a7cd4390593c7634a7e6152897115b9ee9c90b92f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Core1.lean",
+      "sha256": "8e8fe4bd778a3db53a08cebd2ba9619c1d9237a6bb4f4227a14de38312bcd20b",
+      "bytes": 311489
+    },
+    {
+      "path": "RequestProject/Core2.lean",
+      "sha256": "9f6af4c466f5abbb5a847ff8ae3bf1ead940935e30b5791a5b76bb8b22579b6f",
+      "bytes": 320966
+    },
+    {
+      "path": "RequestProject/Core3.lean",
+      "sha256": "7cbdf4d29d9699147fbe9a750602e072c916bd5f6e06474de156f03a175a70fb",
+      "bytes": 284867
+    },
+    {
+      "path": "RequestProject/Core4.lean",
+      "sha256": "e0b064bbd65028a6679753b9f9f890e74b60ccc02d76c1a59bfc83e3277129b0",
+      "bytes": 57628
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "5801c84ef8d5b1f324ca9966b1b9a1fde840712bb37be30e0aa74965752ab02c",
+      "bytes": 3292,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RequestProject/Core4.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/6de7d3d599814eadfde8": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar",
+    "source_commit": "5311f47821b5da92e81e75b7da5091d176c8deb9"
+  }
+}

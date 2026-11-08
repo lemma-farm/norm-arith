@@ -1,0 +1,158 @@
+{
+  "id": "5245d82b1a96da2732ee",
+  "source": {
+    "repository": "roos-j/lean-dfr",
+    "commit": "5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4",
+    "project": "roos-j--lean-dfr--5c7595a83657",
+    "path": "DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean",
+    "file_id": "0aeff0248023417f8ba7",
+    "source_sha256": "0aeff0248023417f8ba75013422c00e33187e95e812f9d23fc5e8d1fc0dc24b1",
+    "start": 1669,
+    "end": 1684,
+    "original_start": 1667,
+    "original_end": 1727,
+    "declaration": "smoothingFlatPart_ball_mass",
+    "source_url": "https://github.com/roos-j/lean-dfr/blob/5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4/DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean#L1669-L1684",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-dfr--500ac5d1958e/blob/5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4/DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean#L1669-L1684"
+  },
+  "native_target_name": "Auto.smoothingFlatPart_ball_mass",
+  "source_declaration_label": "smoothingFlatPart_ball_mass",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "bdc4b4bee301087b3a5ae4a9fbfbb07edc88e44321ad05b51b32110c438a7111",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "6806a01af67cbf6f6168f4f5711428cba8c17757eab6538e64a6112f61a91765",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DFR/Auto/BilinearInterpolation.lean",
+      "sha256": "7a00405993a26045bfd117249f265bc36f40345f576c09c31c1cf4969f55108f",
+      "bytes": 18205
+    },
+    {
+      "path": "DFR/Auto/FourierCompatibility.lean",
+      "sha256": "d3df658aecbd8fdabc015888f85b008aeed4b57fe345a8314f1c55fd7c71c21c",
+      "bytes": 2581
+    },
+    {
+      "path": "DFR/Auto/ParabolicAveraging.lean",
+      "sha256": "2dbe9b9bce5622d4211ea07ecad4c4e92b65093c4604a4648937af8453c3ca52",
+      "bytes": 84700
+    },
+    {
+      "path": "DFR/Auto/SchwartzRegularization.lean",
+      "sha256": "1c20e3fac27a920237655da8e3314e3094429e6051f3d3107652df191d2df332",
+      "bytes": 20663
+    },
+    {
+      "path": "DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean",
+      "sha256": "4f37f09a3bd3b16a5a705891ea9c28be6a80c838d76aedfe4730948025a7002a",
+      "bytes": 310630
+    },
+    {
+      "path": "DFR/Auto/SobolevNorms.lean",
+      "sha256": "c2ba88af71541870977d022f52d0877057bd5c26d714e3d389c0634e0bb38b8c",
+      "bytes": 8795
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/CalderonVaillancourt.lean",
+      "sha256": "088b536fb2bd77a64c37ef285428687e40fed0c65d42c13a94f89dcca31d2f06",
+      "bytes": 128495
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/CotlarStein.lean",
+      "sha256": "bc20927a56989392341de55c73829b312bb17a5635b128bbdad818235444a586",
+      "bytes": 23034
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/FractalDimensions.lean",
+      "sha256": "035e2087fb8f897dcdb12c2a3c90ae6182784ab1d987b8d70cae3b32cbec5440",
+      "bytes": 105049
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/HardyLittlewoodMaximal.lean",
+      "sha256": "82d8f2fc49f5c35f6755a1d4373a7439186fad655b3988bfd1bd24f1b1823d76",
+      "bytes": 71043
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/LittlewoodPaley.lean",
+      "sha256": "a36c3a9bb0e306e2a28b5bc7bf5ff8ab76f882f41f011f4d24fd01ad69e31790",
+      "bytes": 77849
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/MarcinkiewiczInterpolation.lean",
+      "sha256": "746d115e38c3ea037546866a1a77ca19711954e0ca580182d58cdc34c3c2c046",
+      "bytes": 156288
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/RadialFourierTransform.lean",
+      "sha256": "2f762786eafe73cfd001e06a0087262a7fad8445d11e5caa12a8399e48992e04",
+      "bytes": 43286
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/Spherical/Auxiliary.lean",
+      "sha256": "d557ef54398765ad2045f44226b0feb3e6fa78b1ed6a0a6cd10ab1090e9c6e2e",
+      "bytes": 399445
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/Spherical/SurfaceMeasureDecay.lean",
+      "sha256": "891838886b3e9160db332488cf0bbc110098c183d4ed2599106d840940ddf5c1",
+      "bytes": 352322
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/LeanSpherical/Auto/SteinInterpolation.lean",
+      "sha256": "9a7757a41ad7254d95fe395e3073e53e7be66d840896f2d251c4496f40110503",
+      "bytes": 354195
+    }
+  ],
+  "build_files": [
+    {
+      "path": "__deps/lean_spherical-fe99b585/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/lean_spherical-fe99b585/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/lakefile.toml",
+      "sha256": "67eac2f07a4c878b2d873b4437bea224c4d55d5eaf69bfc103677252d86999d3",
+      "bytes": 462,
+      "snapshot": "__deps/lean_spherical-fe99b585/lakefile.toml.source"
+    },
+    {
+      "path": "__deps/lean_spherical-fe99b585/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/lean_spherical-fe99b585/lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "02dd7f9a24928cfdc96f6ff851333f6376048a36081e94686869d4c08666fe55",
+      "bytes": 2743,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "443d7d3212691b95eb0ee085935f6f089a121a2470183a4d05f17ebc09423611",
+      "bytes": 720,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DFR/Auto/SmoothingIneq2D/AuxiliaryLemmas.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/grouped-dfr-auxiliary-next-636919159": "$CASE_ROOT"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-dfr",
+    "source_commit": "5c7595a83657b6c02f62ebf4f4ae1c02cb4109e4"
+  }
+}

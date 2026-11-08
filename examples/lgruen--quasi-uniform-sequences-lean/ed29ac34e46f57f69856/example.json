@@ -1,0 +1,271 @@
+{
+  "id": "ed29ac34e46f57f69856",
+  "source": {
+    "repository": "lgruen/quasi-uniform-sequences-lean",
+    "commit": "96081a746079c3440ddf1ad0329cd5ebaeb09ab5",
+    "project": "lgruen--quasi-uniform-sequences-lean--96081a746079",
+    "path": "GeoSeq/Cert.lean",
+    "file_id": "06efd8b7a3028b554bf1",
+    "source_sha256": "06efd8b7a3028b554bf13224c647e7a98c6c4bdd8f386e24796c476eac17396b",
+    "start": 608,
+    "end": 624,
+    "original_start": 608,
+    "original_end": 624,
+    "declaration": "GeoSeq.cert / far-cell branch",
+    "source_url": "https://github.com/lgruen/quasi-uniform-sequences-lean/blob/96081a746079c3440ddf1ad0329cd5ebaeb09ab5/GeoSeq/Cert.lean#L608-L624",
+    "archive_url": "https://github.com/PalomarArchive/lgruen--quasi-uniform-sequences-lean--045c1823ef6d/blob/96081a746079c3440ddf1ad0329cd5ebaeb09ab5/GeoSeq/Cert.lean#L608-L624"
+  },
+  "native_target_name": "GeoSeq.cert",
+  "source_declaration_label": "GeoSeq.cert / far-cell branch",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "bf72b74c1967116841d6e046af66f6f1b8ce03ddb790e66a85e584b9fbf4740e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f5ebcfda24ee12b7d3a017b8c89ab7f2e4f0124b674e4aa7a7d80e15f245f6a6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GeoSeq/Cert.lean",
+      "sha256": "b6e2ed31294906899d497c239583e38e1013b6a22543efbd63dd07cbda34f3b0",
+      "bytes": 39612
+    },
+    {
+      "path": "GeoSeq/Defs.lean",
+      "sha256": "3bb2ff9d63d30539e34f88569dc35969193ad8f7f493727ae01f7a750f805bee",
+      "bytes": 20926
+    },
+    {
+      "path": "GeoSeq/OneDigit.lean",
+      "sha256": "ce9b16b6f61531e9dab4cf799081f498d96ed0bcb65dc966833acb1cfe0be126",
+      "bytes": 9439
+    },
+    {
+      "path": "GeoSeq/SeqNet.lean",
+      "sha256": "7554ae48a23c92740b3cf58d52e74dd5d4a91396a8026d7f67ca550b0069b95e",
+      "bytes": 15505
+    },
+    {
+      "path": "Z3Net/DGSDefs.lean",
+      "sha256": "9293516b743ea4f72516c5a64025d98d5bf40bfc1827a709def0bc47d39f0572",
+      "bytes": 8926
+    },
+    {
+      "path": "Z3Net/DShift.lean",
+      "sha256": "e5d1aeac8eefe31a671a556df00d89ea5967387af753b3d03620144d27b03b97",
+      "bytes": 13670
+    },
+    {
+      "path": "Z3Net/DShiftDefs.lean",
+      "sha256": "6ca97c3c54c104d77bd68d162d1626986300972445d9c804d57e2501393d4f90",
+      "bytes": 3106
+    },
+    {
+      "path": "Z3Net/Defs.lean",
+      "sha256": "9c96ab9e72c8db97b6af07c25ff39b6525c7dcee4d48fbcb5cc79b16dd96f731",
+      "bytes": 16665
+    },
+    {
+      "path": "Z3Net/F4DK2.lean",
+      "sha256": "3af3b2106a6e7936cdad163d2a4fcf3c14bec187a2e111b8bdf0035bb624c06e",
+      "bytes": 23192
+    },
+    {
+      "path": "Z3Net/FBasic.lean",
+      "sha256": "2b0a52fb726c315a2b6924015bd09b1648a667a0e1d4eff56ad26db31f00c405",
+      "bytes": 5241
+    },
+    {
+      "path": "Z3Net/FBox.lean",
+      "sha256": "df844b90a2888bc47f20a256b259e933cd26d03104a5abfbf2f7241bd5bd94c2",
+      "bytes": 28854
+    },
+    {
+      "path": "Z3Net/FDefs.lean",
+      "sha256": "64ec3614c8612856b489d43746bb46286be155831bfc6c8debdb34101a3af889",
+      "bytes": 24251
+    },
+    {
+      "path": "Z3Net/FDom.lean",
+      "sha256": "9be63a39703fc4b368181ef85909ad744d5c7abe062d1a35267ce248dc879e7a",
+      "bytes": 5943
+    },
+    {
+      "path": "Z3Net/FDsep.lean",
+      "sha256": "37af15ba5d1a17d8c9e1157aadcb1a85a5212cf297b550dc88504f3c3b32be28",
+      "bytes": 5518
+    },
+    {
+      "path": "Z3Net/FEbasis.lean",
+      "sha256": "2f02121c2fd3ff06bafce05f00cc530d7e169742a9f345b692cc198199a51e73",
+      "bytes": 13898
+    },
+    {
+      "path": "Z3Net/FFrame.lean",
+      "sha256": "49f474460b158b15cb110bfa99c554d1f19a597d9b77c0cffb9dc98ef95a42fd",
+      "bytes": 5414
+    },
+    {
+      "path": "Z3Net/FGs.lean",
+      "sha256": "31c4eb07ba43026ad450edc4d27505a5b0dc877c08a2f01a4ea613a5c08bd36c",
+      "bytes": 7641
+    },
+    {
+      "path": "Z3Net/FHermite.lean",
+      "sha256": "81b221dd452b0c7aa90cb6fbe246899f6a1b2da70b44331c0f2800a35d35218c",
+      "bytes": 15742
+    },
+    {
+      "path": "Z3Net/FMain.lean",
+      "sha256": "c75cff80c474ee7ba126af52ea307e7f2d62a3b1807766dc7a814be120db74dc",
+      "bytes": 27570
+    },
+    {
+      "path": "Z3Net/FNie.lean",
+      "sha256": "75a80af59e1334204ec768ac25ff1b7081b25ba17eab091ee9d25bf74808183a",
+      "bytes": 6132
+    },
+    {
+      "path": "Z3Net/FPropF.lean",
+      "sha256": "cffe519afd47202b10d1c153ab56fb55781ed3ad1a2ce1c4e59f7b026c413d12",
+      "bytes": 10449
+    },
+    {
+      "path": "Z3Net/FRemK.lean",
+      "sha256": "5f4545415c42c8109ff9ea828546f103ed344e53e6187783533db1c695aae41d",
+      "bytes": 22454
+    },
+    {
+      "path": "Z3Net/FRs.lean",
+      "sha256": "54abeec2482fafb1b857e60c6cd9f97cc4de7acae38be46431e1db40e93fb975",
+      "bytes": 7746
+    },
+    {
+      "path": "Z3Net/FSep.lean",
+      "sha256": "14486cb348c0eba53610d89fe58731294c6e63881590fe3bf2290b27055e31b1",
+      "bytes": 31874
+    },
+    {
+      "path": "Z3Net/FTs.lean",
+      "sha256": "eec7c319234b72f0f93a904c313efb33eb0f8630bdc1e51866d96f815801288d",
+      "bytes": 9450
+    },
+    {
+      "path": "Z3Net/FTsk.lean",
+      "sha256": "a84408c2417853ad2a3d081139b449b2bd971ec5df9f21306eef5d5185cbde31",
+      "bytes": 7676
+    },
+    {
+      "path": "Z3Net/FTsplit.lean",
+      "sha256": "b0996ba750dfa4877ed7fe4213b8749be1909778e46cb57c22eea384e7ced40c",
+      "bytes": 15259
+    },
+    {
+      "path": "Z3Net/NetBasic.lean",
+      "sha256": "2a089d4a2c47c373f5d0479bbac48633dff6a773adaa6a1a9efa018615bfd1ee",
+      "bytes": 10458
+    },
+    {
+      "path": "Z3Net/SUBoxMinor.lean",
+      "sha256": "31e7d7e82785e156e33b8a2935776bc6aa499fec27557c14b2c5a57f7577c7fa",
+      "bytes": 11678
+    },
+    {
+      "path": "Z3Net/SUDefs.lean",
+      "sha256": "f54c4674313fc9b2e051bc4dd93c53f7e29d2fff811328c3c6f94bebf6ddaa6e",
+      "bytes": 15710
+    },
+    {
+      "path": "Z3Net/SUFrame.lean",
+      "sha256": "52d057e331164d42cf0c50c4f9f9a599bf8bbba84276a1d6d12f3f1b23cb5389",
+      "bytes": 19428
+    },
+    {
+      "path": "Z3Net/SUGeom.lean",
+      "sha256": "00d7f24cadb2b26f7a882f2e5a551a12c0d476f4d325135075876a0a0aefc67e",
+      "bytes": 11010
+    },
+    {
+      "path": "Z3Net/SUGraph.lean",
+      "sha256": "74bd970152d6c39fb43e73617345e494f8b1bcccce9b5e58c04ea29e959dc71c",
+      "bytes": 3151
+    },
+    {
+      "path": "Z3Net/SUNet.lean",
+      "sha256": "cdfa0867f9a356d542b8f49474a66dd6a0047d96f3ea9ff8e74297f7af4fe9ca",
+      "bytes": 16394
+    },
+    {
+      "path": "Z3Net/SUPoly.lean",
+      "sha256": "7adcdb7f495da5fa21fbf3ef5e12d53b6ab2c26becb4cfcc340da7b9a8033bf4",
+      "bytes": 13985
+    },
+    {
+      "path": "Z3Net/SURows.lean",
+      "sha256": "1f3f748ae5091721fb251c0c5e135a99774d44fa42e073d4aeef5ea535c6ec31",
+      "bytes": 19289
+    },
+    {
+      "path": "Z3Net/SUSep.lean",
+      "sha256": "c2f42bd8e2a0e0b00e29d99153e4a6738f0532cd2749d912003cfa28191ef300",
+      "bytes": 22587
+    },
+    {
+      "path": "Z3Net/SUThm1.lean",
+      "sha256": "99a2414d2cd3b958e83f24650f0ef2741cbba1509e01f2727630df41323fe5d2",
+      "bytes": 3651
+    },
+    {
+      "path": "Z3Net/ThmADefs.lean",
+      "sha256": "0f8def7a204422b5c07af5acc483ca318125df3fc87267519e4ebc897747655a",
+      "bytes": 8581
+    },
+    {
+      "path": "Z3Net/TwoGeom.lean",
+      "sha256": "ce84eb012b39ec699965c1376492592fbbf77fbf51749a604d11ad43f0443ead",
+      "bytes": 17895
+    },
+    {
+      "path": "Z3Net/TwoPoly.lean",
+      "sha256": "7b578433a0c798138aa54dd0a50585275527ed3b1d18baac7df79d9f48cbe0c1",
+      "bytes": 19496
+    },
+    {
+      "path": "Z3Net/TwoRows.lean",
+      "sha256": "b5610d7bf8116d881bc9494dddbc7c3463d77290367306378d54c820d0ae5164",
+      "bytes": 21702
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "c82ac2d65b055c4ffccfd59de05a1a1a3385ce0a24bf17f5c03c8d5430368ce1",
+      "bytes": 13079,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "GeoSeq/Cert.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/ed29ac34e46f57f69856": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/lgruen/quasi-uniform-sequences-lean",
+    "source_commit": "96081a746079c3440ddf1ad0329cd5ebaeb09ab5"
+  }
+}

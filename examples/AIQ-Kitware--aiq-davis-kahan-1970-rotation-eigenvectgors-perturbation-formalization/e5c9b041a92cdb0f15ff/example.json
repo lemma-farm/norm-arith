@@ -1,0 +1,323 @@
+{
+  "id": "e5c9b041a92cdb0f15ff",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39",
+    "project": "AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--38e37da6e147",
+    "path": "DavisKahan/FiniteDimensional/TanTheta/RitzResidual.lean",
+    "file_id": "077cad8d915d30958618",
+    "source_sha256": "077cad8d915d309586186d6f3d474715734309e28791ad678566c4dc44cf173c",
+    "start": 461,
+    "end": 547,
+    "original_start": 407,
+    "original_end": 548,
+    "declaration": "tanThetaResidualWitness_scalar",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/DavisKahan/FiniteDimensional/TanTheta/RitzResidual.lean#L461-L547",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--335602c8e20f/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/DavisKahan/FiniteDimensional/TanTheta/RitzResidual.lean#L461-L547"
+  },
+  "native_target_name": "TauCeti.DavisKahan.FiniteDimensional.tanThetaResidualWitness_scalar",
+  "source_declaration_label": "tanThetaResidualWitness_scalar",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "99688ef3ea50cb1af5651c40b669144fcbe178f8cfd69c0a408951b0779c0717",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b08a3964ac29ad279678c199a0d698d6c9d0ce55321e7734f04edb0bb3e37987",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DavisKahan/FiniteDimensional/TanTheta/RitzResidual.lean",
+      "sha256": "9affa2562b7c4d4613c2ed3aaf4c0d98f673f1fd6f42bbb1ef5d6301d2cbf3c4",
+      "bytes": 33551
+    },
+    {
+      "path": "ForTauCeti/Analysis/CStarAlgebra/ContinuousFunctionalCalculusTransport.lean",
+      "sha256": "f885ee7539034377ba2b7b66fb02b82995e0300bcb204a820b9c867b735d7240",
+      "bytes": 8085
+    },
+    {
+      "path": "ForTauCeti/Analysis/Convex/Majorization.lean",
+      "sha256": "919a78fddc904facce67b68e43d87118ab40e2569ce23f34b8885b82bcef6578",
+      "bytes": 34865
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/AlignedBasis.lean",
+      "sha256": "534b7b8f338786014130daa1cb8c47a1e96f534e8fc33e77684ed4a7d667e5c6",
+      "bytes": 12452
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/AngleGeometry.lean",
+      "sha256": "3021cfb6a62674dfaf75d8d61fbe07b046ee295acb37da025f5ba693640eb12c",
+      "bytes": 41325
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BasisSpan.lean",
+      "sha256": "d2f349503be063e59bf296c63cddf18ec3ae242ae4dcee9b4a337953f6028944",
+      "bytes": 7240
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/Projector.lean",
+      "sha256": "e735bc9659e86e785c30a107785905248e67ae5184e8bb77d407b3a9b70c5be3",
+      "bytes": 4275
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/BoundedOperator/SinTheta.lean",
+      "sha256": "7f2dd7c4d8b4416f386995403c3b947a1e180d9e5fafbb5c520216eeddc2085d",
+      "bytes": 11132
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/Basic.lean",
+      "sha256": "7fed9cf80045ddd857dd48e80d729f452c69c3b6e8c051ae9432ef112b5f6b05",
+      "bytes": 30326
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/FunctionalCalculus.lean",
+      "sha256": "fc8ec748ac5186e6444a13f842aa44bfb2411270195a0f282343ad4ffb78b565",
+      "bytes": 27007
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Complexification/Spectrum.lean",
+      "sha256": "925d20d22f0eac60bdf34dc41b763a7082a70b1e74b233860845e23b256826fd",
+      "bytes": 6218
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/CourantFischer.lean",
+      "sha256": "65bdbb3f2aa992c46ae3f91286be43a43b8581be6e34d0e56fa1abe3c5ffff28",
+      "bytes": 31587
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/DiagonalOperator.lean",
+      "sha256": "e329e11eea0f29b88d68eeb6400ca7c499268a870a9385d051a11d74951c14e1",
+      "bytes": 8278
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/FrameFactorization.lean",
+      "sha256": "54fce0fb2a0dfec2f6caaf6e6eb99d4b79440eac1b6a9119d2d9bb2331b7cfb9",
+      "bytes": 14527
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/KyFan.lean",
+      "sha256": "ee5a6a27e38b4321be4c1f6369cbe4d62d579ab560f76c498ab297dee7aa42a9",
+      "bytes": 41289
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/OperatorRealAlgebra.lean",
+      "sha256": "9bf5f72f0fb57824f2d50a371370ccfe3acf5fd637609213010f2521b579d5c3",
+      "bytes": 4929
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Polar/Decomposition.lean",
+      "sha256": "57cb32312b62289be811160c01e6d6daf8065550458c5918faee0da185002c91",
+      "bytes": 23644
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/PositiveSqrt.lean",
+      "sha256": "97495054572392286f222ab0146c3af13cd2373d438829491251ba4b1822ea0e",
+      "bytes": 9003
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/PrincipalAngles.lean",
+      "sha256": "e77020e2adc0286f710ef69fef5169bb1019cb513acd7eef52d037febce48a4c",
+      "bytes": 38146
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Blocks.lean",
+      "sha256": "0e56c2ca69aca7284bd0b9be23dee2f64a4f828afdda6372ce24d8de06b262d3",
+      "bytes": 13198
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Gap.lean",
+      "sha256": "7155ce590d299d3d449498e4252371273b5c1382f5de5bd8eaa6ec92d09e4cdb",
+      "bytes": 27765
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/Geometry.lean",
+      "sha256": "4115633067648bc03000344029559151bdd6c836d73505e70061aac4b277dbd2",
+      "bytes": 11760
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Projection/ScalarTransport.lean",
+      "sha256": "218808294a3610d3f5846e639c7b714793a8c82627c88e66dffafc7ab0c736a5",
+      "bytes": 4114
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/RealContinuousFunctionalCalculus.lean",
+      "sha256": "77661ce72004d6bae9d4aeec25b7d4f091111e71288b849661dff137c8bd94ff",
+      "bytes": 19821
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/RectangularSingularValues.lean",
+      "sha256": "7af5210f47a8e8e1bd137afa401c1c1eaf35a68060bb9b1d81285caf36e52d26",
+      "bytes": 35027
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducingSubspace.lean",
+      "sha256": "207dd51a70e76ceb957dfeb3a3c3e8ddddd59c24a106489b565dfa1087951717",
+      "bytes": 7743
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Residual/AngleEmbedding.lean",
+      "sha256": "ea7a8a674795e9ff012421d618c55c91b402d369d33ea8622cb5a238132c8843",
+      "bytes": 21435
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Residual/Ritz.lean",
+      "sha256": "ca58225044bca82a85300e4673e6170af6eba9d43cbcdc1e87c72ddd32a69cf1",
+      "bytes": 12031
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Residual/TrialMap.lean",
+      "sha256": "87299e266691719aa29eb6bab8fe63728364ffc368efafa81509bb31b9950b0a",
+      "bytes": 3931
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/SchurHorn.lean",
+      "sha256": "9708dff1808fe9f0a1609c43c0aad1d40e201050ffd3707bc58c61c1bcc1bcfd",
+      "bytes": 10350
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/SelfAdjointFunctionalCalculus.lean",
+      "sha256": "9657a49573d6a4b51eb1bb4a3774d8348c2acfeab7f16c276bdabd5101ed9920",
+      "bytes": 26507
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Singular/Subspace.lean",
+      "sha256": "ba9d7e3c1d9a15d9889489e92a55bddf9a6e1596b60493985393dc0edffdf801",
+      "bytes": 27067
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Singular/System.lean",
+      "sha256": "e5c6b370fd2663278b6acdb4985a2fdb8d804076233cc07da384f94cb1e98333",
+      "bytes": 10544
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Spectral/Subspace.lean",
+      "sha256": "118f86e72137a80a9f3a1b78a4e0ff1bc22844cf9b306855d6048f23c6791586",
+      "bytes": 18928
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/SpectralOrder.lean",
+      "sha256": "0f4bd6e452a7483434fd9c01ea164f1495a13b6c1c4271ec43d8c276bff25a97",
+      "bytes": 9104
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm.lean",
+      "sha256": "eec59b6ab98e962649048256fa16b06ef15a05a8d97c59c9e6464a8459c216d3",
+      "bytes": 819
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm/Basic.lean",
+      "sha256": "b52f2bdac2a3bb3e87eed3cc4094a70024ba080de052a275c7407baca484076b",
+      "bytes": 22051
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm/BlockSum.lean",
+      "sha256": "31b58d36f3ac59d6f57014e97cbd99515a5f3d5a014eff6ba5e27e36acb9eea5",
+      "bytes": 30025
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm/Gauge.lean",
+      "sha256": "727bb833cfac998738969293a5e33683e8dac608092c6c2c13385f4b6f12c05a",
+      "bytes": 7830
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm/Instances.lean",
+      "sha256": "b44205b501c3c93925e9423fc1fea9d2beea95117f58790213684cc6948c29b2",
+      "bytes": 16980
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/UnitarilyInvariantSeminorm/Majorization.lean",
+      "sha256": "f113a40ef6c0b505e12b1b5ae5c2c84de7917a69aa289ddc742f93138779b0f6",
+      "bytes": 24816
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ZeroExtension.lean",
+      "sha256": "38b9e044960bd60b7c17cc803688914fd601ce4000719a54159621aa32d0780f",
+      "bytes": 5152
+    },
+    {
+      "path": "ForTauCeti/Analysis/RCLike/ScalarTransport.lean",
+      "sha256": "d71a2e6a37a7373d9025ebfdf2c4239715f40d0fd4ba381f791e9edb744d8f79",
+      "bytes": 25546
+    },
+    {
+      "path": "ForTauCeti/Analysis/RCLike/ScalarTransportFunctionalCalculus.lean",
+      "sha256": "a2b430784227ec33cd99fad94644280b9a2496acf61d23ba0197d4d829756613",
+      "bytes": 11829
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Basic.lean",
+      "sha256": "b1282df2b30466c8b5ea5844e8dd80b261e6fc0495b6ff84889e9418c88cf7d1",
+      "bytes": 3184
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Gram/Matrix.lean",
+      "sha256": "768d9db79ec55f6d2b0fa3305ca44870565c3e9cf93051fdc6d25c02b4a49a27",
+      "bytes": 37141
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/PartialIsometry.lean",
+      "sha256": "395466b8a994278d4d0745fff2517d8dc4d89060990d63072efe595f16409421",
+      "bytes": 7929
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/QuadraticFormBounds.lean",
+      "sha256": "84f05704f4a138a23f1ba144ab6dfdf5200e056182c04abda2441a0c3f47b845",
+      "bytes": 4841
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/ReducedExtension.lean",
+      "sha256": "97b16bc14123f3bc05ed809c71f2193340ff0f176d1fe80b8598be368fa1f624",
+      "bytes": 6641
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Spectrum.lean",
+      "sha256": "2a820ae541c7dfa17562077f4d711fcc9f7385d19544b7e27aaafeeed981a976",
+      "bytes": 3234
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Bound.lean",
+      "sha256": "c4a0264534fc0c1b89930bc2803349726558d8b470301d4f154fca35b8c2f96f",
+      "bytes": 27374
+    },
+    {
+      "path": "ForTauCeti/Analysis/InnerProductSpace/Sylvester/Operator.lean",
+      "sha256": "6a8517927dec0cb8afc29fafda2d4ca66e77751c9930518ab1269868fd2cca55",
+      "bytes": 5050
+    },
+    {
+      "path": "ForTauCeti/Analysis/Normed/Operator/LinearIsometry.lean",
+      "sha256": "27789a38817e97b9a078ea539d5017ea1b47bda9e64ee1614d3a5cf12798fb9b",
+      "bytes": 2127
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "7729ae7de3da173116c4820fa356f0933a954c47485ce4af474f329481292b3b",
+      "bytes": 1177,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DavisKahan/FiniteDimensional/TanTheta/RitzResidual.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "source_commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39"
+  }
+}

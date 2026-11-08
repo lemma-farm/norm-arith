@@ -1,0 +1,63 @@
+{
+  "id": "4ed7184e0ec23854d68c",
+  "source": {
+    "repository": "MrGodfrey/LeanForCriteriaForLinearStochastic",
+    "commit": "c088eb9943197e88c4b046223239d4c4f0180513",
+    "project": "MrGodfrey--LeanForCriteriaForLinearStochastic--c088eb994319",
+    "path": "formalization/LinearStochastic/PositiveCone.lean",
+    "file_id": "094fce301a68318ee795",
+    "source_sha256": "094fce301a68318ee7957ee1f657000a9cccf6e0cfc79fefb6a4292dbb8c026e",
+    "start": 35,
+    "end": 43,
+    "original_start": 20,
+    "original_end": 43,
+    "declaration": "uniformPositive_of_norm_sub_lt",
+    "source_url": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/LinearStochastic/PositiveCone.lean#L35-L43",
+    "archive_url": "https://github.com/PalomarArchive/MrGodfrey--LeanForCriteriaForLinearStochastic--aa37281509fc/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/LinearStochastic/PositiveCone.lean#L35-L43"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "uniformPositive_of_norm_sub_lt",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "1b912ff1a117207aff6a804f88981a9f8fd9aaf0448517ade466e91dc09f8bb7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c69335e1d857f805230375e025915b4f4f56c590aca7b3241141bd18bb0b0d52",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LinearStochastic/PositiveCone.lean",
+      "sha256": "2f4be1298eab9197499be7af68a769e40994483cdcaa4e157c06367cc08c0f1b",
+      "bytes": 3697
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "7bec20b0ef34f9398df0968a29156af282876963e8af74d08bf2a2556bfcd5bc",
+      "bytes": 586,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LinearStochastic/PositiveCone.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic",
+    "source_commit": "c088eb9943197e88c4b046223239d4c4f0180513"
+  }
+}

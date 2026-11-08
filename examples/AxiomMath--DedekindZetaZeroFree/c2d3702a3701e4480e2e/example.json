@@ -1,0 +1,88 @@
+{
+  "id": "c2d3702a3701e4480e2e",
+  "source": {
+    "repository": "AxiomMath/DedekindZetaZeroFree",
+    "commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d",
+    "project": "AxiomMath--DedekindZetaZeroFree--09afbb4ce657",
+    "path": "DedekindZetaZeroFree/LargeSieve/Bilinear/DyadicUnitBlockBounds.lean",
+    "file_id": "0330f6e40b58ebd2668d",
+    "source_sha256": "0330f6e40b58ebd2668db8c93504cb379b58631ae58013d9fe31f476c148db7e",
+    "start": 154,
+    "end": 193,
+    "original_start": 137,
+    "original_end": 193,
+    "declaration": "unit_block_extension",
+    "source_url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/LargeSieve/Bilinear/DyadicUnitBlockBounds.lean#L154-L193",
+    "archive_url": "https://github.com/PalomarArchive/AxiomMath--DedekindZetaZeroFree--42e46c822b86/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/DedekindZetaZeroFree/LargeSieve/Bilinear/DyadicUnitBlockBounds.lean#L154-L193"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "unit_block_extension",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "53355f816aceeeed2f4a99147e27578001ee39e8d87ba1b89726a85252859f3d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "88b70069f9b139105e6b9ad4bf88e330621775a3268b471c844ad30848b9e8c1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DedekindZetaZeroFree/Arithmetic/Ideals/BoundedNormFinsets.lean",
+      "sha256": "006edded0d09bca7c523d6a5899ad5679300be3b44c38e5cc57aa7cab396dcce",
+      "bytes": 2567
+    },
+    {
+      "path": "DedekindZetaZeroFree/Arithmetic/Ideals/DyadicNormBlocks.lean",
+      "sha256": "f5514dd8e7dde3660536ae89b06c52c3f167cafacc68bf874497ff6ccb431b27",
+      "bytes": 699
+    },
+    {
+      "path": "DedekindZetaZeroFree/Arithmetic/RayClasses/Character.lean",
+      "sha256": "a1860a1d8cbdddde716ee35ac79fab559d18bd36113275ffdd7ada09d36884b8",
+      "bytes": 2588
+    },
+    {
+      "path": "DedekindZetaZeroFree/LFunctions/Hecke/QuadraticFamilies/CharacterValues.lean",
+      "sha256": "e10d64d23f990d4a39c650612d08a0ee53817408e807b966de91aa76de7e8116",
+      "bytes": 2768
+    },
+    {
+      "path": "DedekindZetaZeroFree/LargeSieve/Bilinear/DyadicUnitBlockBounds.lean",
+      "sha256": "90b21ba941d810fbf100959b3d29b7f7377f2969d721d4bd73bd6e7f2f694cdd",
+      "bytes": 9697
+    },
+    {
+      "path": "DedekindZetaZeroFree/LargeSieve/CharacterBounds/AdmissibleIdealRanges.lean",
+      "sha256": "0f67c9c9f0ac2572e79ed462b95013a9b4830e60856e0d280d6aad219bc54e5f",
+      "bytes": 1348
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "313de10493dae47d457da6bb9195fca5b121160d0b251a4e055797bf65246022",
+      "bytes": 561,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DedekindZetaZeroFree/LargeSieve/Bilinear/DyadicUnitBlockBounds.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AxiomMath/DedekindZetaZeroFree",
+    "source_commit": "09afbb4ce6570c1615d58509dc197fc9f0956b7d"
+  }
+}

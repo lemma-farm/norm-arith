@@ -1,0 +1,356 @@
+{
+  "id": "e4bc01820274dc0cb0e0",
+  "source": {
+    "repository": "yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos",
+    "commit": "84dbe881384ad2f0358857b025ef6fd824ebc9a1",
+    "project": "yuhaolei-ctrl--Sharp-W2-to-W2-Propagation-of-Chaos--84dbe881384a",
+    "path": "SharpWasserstein/Sharp/Hierarchy/SplitKernel.lean",
+    "file_id": "020fc93a0e71e0a14257",
+    "source_sha256": "020fc93a0e71e0a14257797feaf02c7eda666300fe51c6387af0cf51db604aed",
+    "start": 66,
+    "end": 85,
+    "original_start": 64,
+    "original_end": 85,
+    "declaration": "norm_toLp_fderiv_le",
+    "source_url": "https://github.com/yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos/blob/84dbe881384ad2f0358857b025ef6fd824ebc9a1/SharpWasserstein/Sharp/Hierarchy/SplitKernel.lean#L66-L85",
+    "archive_url": "https://github.com/PalomarArchive/yuhaolei-ctrl--Sharp-W2-to-W2-Propagation-of-Chaos--916e37ae9fb6/blob/84dbe881384ad2f0358857b025ef6fd824ebc9a1/SharpWasserstein/Sharp/Hierarchy/SplitKernel.lean#L66-L85"
+  },
+  "native_target_name": "SharpWasserstein.Sharp.Hierarchy.norm_toLp_fderiv_le",
+  "source_declaration_label": "norm_toLp_fderiv_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "0651a98c6435c86d50dc1434391a5cfb86f31cfaa307143f768d8a6795ac3f05",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "fa82a97485f0fe4dab4ee797222739b7eebfef668b9aff7e4be9232d8aa9056d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "BrownianMotion/Auxiliary/Algebra.lean",
+      "sha256": "9aab6c40d1421335bf7eaafef6ec95b44f6910157053bbb213a0a9869993c728",
+      "bytes": 1708
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/DenseCountable.lean",
+      "sha256": "3c71ad3600275661a6eebad52c45f4d837effc1a25f64c712ff0c4f8d14bfc96",
+      "bytes": 905
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/ENNReal.lean",
+      "sha256": "45e32bb046b5e29dc428795644c1e24bdfb22f46d1b7a53d71a0db823caebd10",
+      "bytes": 1742
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/FiniteInf.lean",
+      "sha256": "5731080f16cb712effaffa72739ff36d4a4835f9385e5bbb8e06d88c6617425d",
+      "bytes": 2324
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/HasLaw.lean",
+      "sha256": "0b9283df5391c5e0bcf7b8117754501e80005281d134b74b42be12a9e5aa16b4",
+      "bytes": 997
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/MeanInequalities.lean",
+      "sha256": "396701f3112dea060898d6e5c3e979786f0f541618e22f290118251b00b2106e",
+      "bytes": 2358
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/MeasureTheory.lean",
+      "sha256": "56a653e569499cacefd8f5abbe43812316c25d867e5a9622224b5c34e79b6f22",
+      "bytes": 13647
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/Metric.lean",
+      "sha256": "13f5040961175788f8631ba4551a00ef4671a0c172ba85f145c57b025f7b7d9e",
+      "bytes": 2091
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/Nat.lean",
+      "sha256": "637f1fa12fb1cd584ce886f06b9a5167b5a7e96415740112e0ed60157916be10",
+      "bytes": 310
+    },
+    {
+      "path": "BrownianMotion/Auxiliary/Topology.lean",
+      "sha256": "31767e1857dd6bc7eb31bf3591291788ad26238b3b022d1014e889749668ffaa",
+      "bytes": 5722
+    },
+    {
+      "path": "BrownianMotion/Continuity/Chaining.lean",
+      "sha256": "0f492fcdf9fc4462c15bb211233d6b21079e1b43e1ec582d2201647836d4bd12",
+      "bytes": 13425
+    },
+    {
+      "path": "BrownianMotion/Continuity/CoveringNumber.lean",
+      "sha256": "b616e3a7d858ba9ebf63ea8844c3a49166410d5eb4d4b3b8e03d13ddd61344fc",
+      "bytes": 16392
+    },
+    {
+      "path": "BrownianMotion/Continuity/HasBoundedInternalCoveringNumber.lean",
+      "sha256": "9deedf6101327a75744fcfbfb9e4463de167a4c9867d976cac1ade49d3da33e5",
+      "bytes": 6341
+    },
+    {
+      "path": "BrownianMotion/Continuity/IsKolmogorovProcess.lean",
+      "sha256": "24aab45919cac01139a5690a62f82faac6a9f0ddab7873ceab7c47e33d50ac0a",
+      "bytes": 53842
+    },
+    {
+      "path": "BrownianMotion/Continuity/KolmogorovChentsov.lean",
+      "sha256": "0c9ebf73cc2ced77b33566f392c48fe68de0a67e400b6111ae89a88fa2ea585d",
+      "bytes": 63118
+    },
+    {
+      "path": "BrownianMotion/Continuity/KolmogorovChentsovInequality.lean",
+      "sha256": "fdcde38fa6a11eecc223f26e2d1c3e567184a489e54c0aef0078d3fbe3311a88",
+      "bytes": 18618
+    },
+    {
+      "path": "BrownianMotion/Continuity/LimitModification.lean",
+      "sha256": "971828f61f311578c0a88233e82504ea7838cdc818bb50a00f26678c0c97868e",
+      "bytes": 18961
+    },
+    {
+      "path": "BrownianMotion/Gaussian/BrownianMotion.lean",
+      "sha256": "62e5695c742c58857264fe80bd228ba02cc0a31ae30431ee4b7250205cdeaada",
+      "bytes": 27254
+    },
+    {
+      "path": "BrownianMotion/Gaussian/Moment.lean",
+      "sha256": "2525d6421fd74514092fc6cdd02754e34d575d3ceb13f33e4da7a0bb5b134ffc",
+      "bytes": 6789
+    },
+    {
+      "path": "BrownianMotion/Gaussian/ProjectiveLimit.lean",
+      "sha256": "1815e4c39f65e731c442ce15464fbc7f04b17c10155b5aa808998a0089c7a0b7",
+      "bytes": 3653
+    },
+    {
+      "path": "BrownianMotion/Gaussian/StochasticProcesses.lean",
+      "sha256": "c5fc98b72eb3044fe49add5b47ce10ec8a9aeb1e47aa11aa32a91a2e0c393f81",
+      "bytes": 2399
+    },
+    {
+      "path": "KolmogorovExtension4/CompactSystem.lean",
+      "sha256": "1aa1cf8fb451839b7cfb9dbcfa0e1b533a303ded6fb2966a2131ec24fcfd7924",
+      "bytes": 12994
+    },
+    {
+      "path": "KolmogorovExtension4/KolmogorovExtension.lean",
+      "sha256": "d19aab53071726813447e8bb0a9fc727a0826566ce48419345d48121259d80b4",
+      "bytes": 8752
+    },
+    {
+      "path": "KolmogorovExtension4/RegularContent.lean",
+      "sha256": "9c0af69ed64d1b03fea6acf218da197938dcb61eea5cd4cee854ba2e476a953e",
+      "bytes": 4065
+    },
+    {
+      "path": "SharpWasserstein/BoundedFlow.lean",
+      "sha256": "261e2c5f966dff064e143b86150d7b5679d608019c9656c9cee2b2108f05b3e1",
+      "bytes": 5441
+    },
+    {
+      "path": "SharpWasserstein/BrownianNoise.lean",
+      "sha256": "ff1b857d250ab85c46d40a2f8e4a6833377be67a227803d70a99f50ef6a7b12f",
+      "bytes": 4174
+    },
+    {
+      "path": "SharpWasserstein/BrownianParticle.lean",
+      "sha256": "8b5504db4ee31d2bdbfbd9fcab52faccb39a35369c0a7080e66a92f65db5bdee",
+      "bytes": 3892
+    },
+    {
+      "path": "SharpWasserstein/Compat.lean",
+      "sha256": "6b52df4abd4c63bc69822d060ea5ec352af525440972c5d8f3511c6409e9c851",
+      "bytes": 818
+    },
+    {
+      "path": "SharpWasserstein/ConfigurationBrownian.lean",
+      "sha256": "a6feef4d6c6f96a1c4565cd9c89c63b62c8fec81cbee15fe702a6f5da58ad053",
+      "bytes": 6908
+    },
+    {
+      "path": "SharpWasserstein/ConfigurationEuclidean.lean",
+      "sha256": "62cb95b6439285284be3a0a7303f5ae26f4531d3c2eab2feac62b2033c03eb98",
+      "bytes": 20367
+    },
+    {
+      "path": "SharpWasserstein/DenseVariational.lean",
+      "sha256": "5bbeaed6de4fee2f139ec6f182b38f8664ae2d21d048afbbd04dee67f6819552",
+      "bytes": 5339
+    },
+    {
+      "path": "SharpWasserstein/DriftApproximation.lean",
+      "sha256": "677c39ef2c8d15ee4479aa3f3de4d4f3dbe6338e102135294e9b8f92e63eb0da",
+      "bytes": 7544
+    },
+    {
+      "path": "SharpWasserstein/DriftBounds.lean",
+      "sha256": "9d5357537ca01295b391bd5db2620d34b05befc3e47ba36b4e2f939d868343f8",
+      "bytes": 6700
+    },
+    {
+      "path": "SharpWasserstein/DriftFlowConvergence.lean",
+      "sha256": "2ccd3111efb8bcdf7cd70e7f355608e6e4b6607aff6c1aa7163f0a7000f0cb67",
+      "bytes": 6748
+    },
+    {
+      "path": "SharpWasserstein/Dynamics.lean",
+      "sha256": "f2f2ed9971da3d471206278d2dda3968e3170839a7dc6ae97a749f5855af823b",
+      "bytes": 5912
+    },
+    {
+      "path": "SharpWasserstein/EuclideanDrift.lean",
+      "sha256": "fb0d476a5f1c5e5e96d0bad547d3c981f6e1c94fbef6d9f20beeafa1c49c67b0",
+      "bytes": 5476
+    },
+    {
+      "path": "SharpWasserstein/EuclideanFlow.lean",
+      "sha256": "2b3a19e4f4af1243d749b496b08c65b16c125c34967f35faafd6aa3946819299",
+      "bytes": 4374
+    },
+    {
+      "path": "SharpWasserstein/EulerConvergence.lean",
+      "sha256": "39873b84d115dcaf5b0f12dfa08197ea1ba971a08560f1686b09df8a48f499f5",
+      "bytes": 11847
+    },
+    {
+      "path": "SharpWasserstein/EulerLaw.lean",
+      "sha256": "ab06bd59322211543421d3ad293e533e7c2bf4913e4fe1334a20b0588ceb7675",
+      "bytes": 6541
+    },
+    {
+      "path": "SharpWasserstein/FiniteTrajectory.lean",
+      "sha256": "96af3297b11af240855f99589a4231e15b54b71127f6f56328198ddf0d6969ea",
+      "bytes": 7377
+    },
+    {
+      "path": "SharpWasserstein/FlowCausality.lean",
+      "sha256": "462959d562318a450d1d8b6d01401af83920d55f0727a21d6729032c19903a35",
+      "bytes": 2853
+    },
+    {
+      "path": "SharpWasserstein/FlowDependence.lean",
+      "sha256": "a363f30ec0eb1fdfee99fc8ec19bf208e33ddca794eb04f4078812b3b66833c9",
+      "bytes": 2938
+    },
+    {
+      "path": "SharpWasserstein/FlowMoments.lean",
+      "sha256": "23fd878cabfa0c4610f8fbf5597a311ad771921d3e238e8cf23df9fcc30571fe",
+      "bytes": 4561
+    },
+    {
+      "path": "SharpWasserstein/NarrowFlow.lean",
+      "sha256": "2287324124279d9bfd36cfdf1fafee641604fd78782107e633ad9b5ffc7b7b2b",
+      "bytes": 3412
+    },
+    {
+      "path": "SharpWasserstein/ParticleFlow.lean",
+      "sha256": "45c00c3d0dec59d52e7c1df9dff0c61dfb4f6237583ef2f2d7f00c4e2aa9ac69",
+      "bytes": 6425
+    },
+    {
+      "path": "SharpWasserstein/ParticleFlowPermutation.lean",
+      "sha256": "e7b3de505a4f997632d5034f9fe182f5322919215da27ea3b2d522d0a51f8756",
+      "bytes": 5314
+    },
+    {
+      "path": "SharpWasserstein/PeriodicKernelBounds.lean",
+      "sha256": "4ede88ac924c6a5c7e1e1ab9ce7673a3eba39bff15302a9095fbf525c479d285",
+      "bytes": 4230
+    },
+    {
+      "path": "SharpWasserstein/PeriodicParticleApproximation.lean",
+      "sha256": "098968842799ab3c818ff6f3687b28c866e620d0a54735c181412f3507405d27",
+      "bytes": 7290
+    },
+    {
+      "path": "SharpWasserstein/RandomMapTransport.lean",
+      "sha256": "5ae131eab3d0cd1a8403816836d66d2e0eda30160322f5a72871498c4bd830c0",
+      "bytes": 6501
+    },
+    {
+      "path": "SharpWasserstein/Sharp/Hierarchy/SplitKernel.lean",
+      "sha256": "5bd6cb41eb897ac0ffaa172e0326876f5b3a403f8c29eedaa8d6057966a09fdc",
+      "bytes": 11602
+    },
+    {
+      "path": "SharpWasserstein/Sharp/SmoothCoefficients.lean",
+      "sha256": "e8867b82eae07a33696e253e307c66dc1671ab0f5c2c3c8cf8874a1f3341122f",
+      "bytes": 8593
+    },
+    {
+      "path": "SharpWasserstein/SinePeriodization.lean",
+      "sha256": "8781a8f268797c13328e44515966e6401f2d91a7217c84d998226d0917284d2e",
+      "bytes": 8992
+    },
+    {
+      "path": "SharpWasserstein/Statement.lean",
+      "sha256": "ea6bfbb38e165b2b20adde347cf712da841d7f5cfa2b946e58056ef4710ca867",
+      "bytes": 8288
+    },
+    {
+      "path": "SharpWasserstein/SynchronousStability.lean",
+      "sha256": "80139234b90808be5b75832525a0c9ac5c6ee49ccb823195bc34753e870b28da",
+      "bytes": 4927
+    },
+    {
+      "path": "SharpWasserstein/TangentEnergy.lean",
+      "sha256": "9804f72a8796a672e20e7423a8e9acb93950ad56ff0fae8a15d079d368e5b5d9",
+      "bytes": 9316
+    },
+    {
+      "path": "SharpWasserstein/Transport.lean",
+      "sha256": "73d4434241fcfc9a8cf1a20afe8d01a203bb80501500bf2df9499a8379dcf37a",
+      "bytes": 8789
+    },
+    {
+      "path": "SharpWasserstein/TransportConvergence.lean",
+      "sha256": "fcfccb6ca6c55a9a0883d43e31acc9129afab40e2da0e0a90dc8581a72720f3a",
+      "bytes": 3788
+    },
+    {
+      "path": "SharpWasserstein/TransportMoments.lean",
+      "sha256": "6b6bdb7798b186d99924afa34174b095bebb3c3a814c69b71f8f38be687b5bd6",
+      "bytes": 3387
+    },
+    {
+      "path": "SharpWasserstein/WeightedTangent.lean",
+      "sha256": "8855c45bc44f801c7496c15b56670fb39403fbc523a899751ac8d3d2a077ad03",
+      "bytes": 16517
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "7ed32218210d564efbd6ef49c4470e1bb0cae57f52c46b4c06abaebd883e2350",
+      "bytes": 651,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SharpWasserstein/Sharp/Hierarchy/SplitKernel.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/e4bc01820274dc0cb0e0": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos",
+    "source_commit": "84dbe881384ad2f0358857b025ef6fd824ebc9a1"
+  }
+}

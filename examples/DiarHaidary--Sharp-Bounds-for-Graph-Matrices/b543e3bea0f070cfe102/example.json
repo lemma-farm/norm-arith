@@ -1,0 +1,81 @@
+{
+  "id": "b543e3bea0f070cfe102",
+  "source": {
+    "repository": "DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+    "commit": "01994362f8543743d556e7544d2538e93c62c02b",
+    "project": "DiarHaidary--Sharp-Bounds-for-Graph-Matrices--01994362f854",
+    "path": "GraphMatrices/SchurBound.lean",
+    "file_id": "0010b26ab5fe1cb9f9cd",
+    "source_sha256": "0010b26ab5fe1cb9f9cdf558b061fd20d1c444639716ddaecae62bc363c46a3b",
+    "start": 10,
+    "end": 19,
+    "original_start": 10,
+    "original_end": 71,
+    "declaration": "weighted_sum_sq_le",
+    "source_url": "https://github.com/DiarHaidary/Sharp-Bounds-for-Graph-Matrices/blob/01994362f8543743d556e7544d2538e93c62c02b/GraphMatrices/SchurBound.lean#L10-L19",
+    "archive_url": "https://github.com/PalomarArchive/DiarHaidary--Sharp-Bounds-for-Graph-Matrices--a05fb4a3632c/blob/01994362f8543743d556e7544d2538e93c62c02b/GraphMatrices/SchurBound.lean#L10-L19"
+  },
+  "native_target_name": "_private.GraphMatrices.SchurBound.0.GraphMatrices.weighted_sum_sq_le",
+  "source_declaration_label": "weighted_sum_sq_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a2f7293eb8a508f4a27a33530ec4ef14b1773ac19cd1515615e3f28ec8946c35",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "fcfab5ade7956292d7d7b4138c2b4891b6a9865a961258192f20d3e071b23938",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GraphMatrices/Basic.lean",
+      "sha256": "164de046b8f6c92c734da05afd3191df30c2ed673a2e607b9924e8260733cdc6",
+      "bytes": 468
+    },
+    {
+      "path": "GraphMatrices/CrossedEdges.lean",
+      "sha256": "942a9eda00c214444dbd48a8e7ffdc47784444d6c5f65e63ae16c5a87caec25b",
+      "bytes": 15118
+    },
+    {
+      "path": "GraphMatrices/SchurBound.lean",
+      "sha256": "4b6fd7e78a085b5f6fe2da229c1690002d05938c0c4254cdfeb28c3b2a577252",
+      "bytes": 2994
+    },
+    {
+      "path": "GraphMatrices/SpectralNorm.lean",
+      "sha256": "276e86c0ce9328ab6b4125d0d6aa520b87c4b0a50d496e409760891dd49cb03e",
+      "bytes": 7833
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "5ae2653c7bf81c3875270a2887203987067cfc791b7c85cd89d52d49c33b1fee",
+      "bytes": 401,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "GraphMatrices/SchurBound.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b543e3bea0f070cfe102": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+    "source_commit": "01994362f8543743d556e7544d2538e93c62c02b"
+  }
+}

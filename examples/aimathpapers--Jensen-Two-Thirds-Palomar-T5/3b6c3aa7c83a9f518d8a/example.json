@@ -1,0 +1,81 @@
+{
+  "id": "3b6c3aa7c83a9f518d8a",
+  "source": {
+    "repository": "aimathpapers/Jensen-Two-Thirds-Palomar-T5",
+    "commit": "6c4ac2b98f4479c37b3479d9daafa1d679479614",
+    "project": "aimathpapers--Jensen-Two-Thirds-Palomar-T5--6c4ac2b98f44",
+    "path": "Zeta23/Taper/Strip.lean",
+    "file_id": "03bd8e55856a7a5e58a0",
+    "source_sha256": "03bd8e55856a7a5e58a02ecf477db74d231e599e46858bc9cf8397462de2d04c",
+    "start": 87,
+    "end": 94,
+    "original_start": 85,
+    "original_end": 94,
+    "declaration": "norm_phiHat_le",
+    "source_url": "https://github.com/aimathpapers/Jensen-Two-Thirds-Palomar-T5/blob/6c4ac2b98f4479c37b3479d9daafa1d679479614/Zeta23/Taper/Strip.lean#L87-L94",
+    "archive_url": "https://github.com/PalomarArchive/aimathpapers--Jensen-Two-Thirds-Palomar-T5--6f1e2bde79cf/blob/6c4ac2b98f4479c37b3479d9daafa1d679479614/Zeta23/Taper/Strip.lean#L87-L94"
+  },
+  "native_target_name": "Zeta23.Taper.norm_phiHat_le",
+  "source_declaration_label": "norm_phiHat_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a59e8174d34937c74998cebe57e84ba08a59f890f4d834ad3b7f543f7b9c7b50",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b5d2f240e7d31027446c73eab6826768fd809c242ceb580808e46ab2845fc920",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Zeta23/Defs.lean",
+      "sha256": "216b34de76394522aea610c57d342f3dfe8aa1c3d9d6b2ec11509de92f1c6bb0",
+      "bytes": 16255
+    },
+    {
+      "path": "Zeta23/Poisson/PaperFT.lean",
+      "sha256": "a95d70cc4b994afd4d78bcbf71948a133e7212c2e0f18e775ffa1bc55dc38e93",
+      "bytes": 7785
+    },
+    {
+      "path": "Zeta23/Taper/Basic.lean",
+      "sha256": "4866d1950ca20bc632c00655e2611ef690fce0fb10efafb35614d77d7cbc972c",
+      "bytes": 7744
+    },
+    {
+      "path": "Zeta23/Taper/Strip.lean",
+      "sha256": "03bd8e55856a7a5e58a02ecf477db74d231e599e46858bc9cf8397462de2d04c",
+      "bytes": 5138
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "827e7374cc8cd8389efd285bb683e1edaad6462f3bf50aa7ffd8a205caf7109d",
+      "bytes": 523,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "Zeta23/Taper/Strip.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/3b6c3aa7c83a9f518d8a": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/aimathpapers/Jensen-Two-Thirds-Palomar-T5",
+    "source_commit": "6c4ac2b98f4479c37b3479d9daafa1d679479614"
+  }
+}

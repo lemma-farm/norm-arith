@@ -1,0 +1,68 @@
+{
+  "id": "7b2b8560a18a95465b2e",
+  "source": {
+    "repository": "balancedscorpion/shifted-square-root-fourier-classification",
+    "commit": "8aa99c16d2733debd1fac67353b0206802ee52bb",
+    "project": "balancedscorpion--shifted-square-root-fourier-classification--8aa99c16d273",
+    "path": "MeyerProblem/Atomic/ShiftedRoots.lean",
+    "file_id": "0bc04e3cc26fe6031949",
+    "source_sha256": "0bc04e3cc26fe603194915694357a285e96cf804b48ebebcfb27dbbbc1b048f2",
+    "start": 219,
+    "end": 229,
+    "original_start": 218,
+    "original_end": 229,
+    "declaration": "shiftedRadius_succ_gap_lower",
+    "source_url": "https://github.com/balancedscorpion/shifted-square-root-fourier-classification/blob/8aa99c16d2733debd1fac67353b0206802ee52bb/MeyerProblem/Atomic/ShiftedRoots.lean#L219-L229",
+    "archive_url": "https://github.com/PalomarArchive/balancedscorpion--shifted-square-root-fourier-classification--c4bf952764da/blob/8aa99c16d2733debd1fac67353b0206802ee52bb/MeyerProblem/Atomic/ShiftedRoots.lean#L219-L229"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "shiftedRadius_succ_gap_lower",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "80ab2a04d4d7ca43cea0d5faf98e05a51cae8c9ef0023281c65a2d05c47cce72",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3ea94276b9fc8851ad33aaa2d50caa9ccfea76cd97fda6bee1f347f6f503f3ae",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MeyerProblem/Atomic/ShiftedRoots.lean",
+      "sha256": "646dac5dab8374d7477e40bc0b6278d17fc7f9d828681b99b25dd80d3aaebf75",
+      "bytes": 24957
+    },
+    {
+      "path": "MeyerProblem/Basic.lean",
+      "sha256": "eec92cbc85fa7ec02af4645915b6a867fa4f99f9de7260883cb71cc3a11838f8",
+      "bytes": 369
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "8d425bbbd5298c8eeca3e66266359fc160678d28043ad558c16d64034f17e27a",
+      "bytes": 605,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "MeyerProblem/Atomic/ShiftedRoots.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/balancedscorpion/shifted-square-root-fourier-classification",
+    "source_commit": "8aa99c16d2733debd1fac67353b0206802ee52bb"
+  }
+}

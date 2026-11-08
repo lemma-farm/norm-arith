@@ -1,0 +1,67 @@
+import V7.Proofs.Stage5AboveTwoLowerS5A2Envelope.PrimalOptimality
+import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+
+namespace V7.Stage5AboveTwoLowerS5A2Envelope
+
+open Stage5AboveTwoLower
+
+                                                          
+                                                    
+                                     
+                                                        
+                                                                      
+                     
+                                                            
+                                            
+                                          
+                                          
+               
+
+                                                                          
+                                        
+                                                    
+                                                      
+                          
+                             
+                                               
+                                                
+                                                
+                                      
+                                                     
+                                      
+                                         
+                                                           
+            
+
+                                                                            
+                                                    
+                                           
+                                               
+                                                                
+                          
+                             
+                                               
+                                               
+                                                            
+                                                     
+                                            
+                                                       
+                                                        
+                                                                
+                                                              
+                                                                 
+                                                                 
+             
+                                                                
+                                    
+                                          
+                                  
+                                                         
+                                                       
+                                                       
+                                                     
+                                        
+                                        
+           
+
+end V7.Stage5AboveTwoLowerS5A2Envelope

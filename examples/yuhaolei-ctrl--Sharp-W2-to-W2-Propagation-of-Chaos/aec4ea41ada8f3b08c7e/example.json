@@ -1,0 +1,106 @@
+{
+  "id": "aec4ea41ada8f3b08c7e",
+  "source": {
+    "repository": "yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos",
+    "commit": "84dbe881384ad2f0358857b025ef6fd824ebc9a1",
+    "project": "yuhaolei-ctrl--Sharp-W2-to-W2-Propagation-of-Chaos--84dbe881384a",
+    "path": "SharpWasserstein/SwitchSourceDerivativePathwise.lean",
+    "file_id": "04dd405f6cd43201be41",
+    "source_sha256": "04dd405f6cd43201be41670a5453a6b66550b5bd5578f860b6249aeb8603ccc0",
+    "start": 82,
+    "end": 91,
+    "original_start": 79,
+    "original_end": 91,
+    "declaration": "trajectory_difference_norm_le",
+    "source_url": "https://github.com/yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos/blob/84dbe881384ad2f0358857b025ef6fd824ebc9a1/SharpWasserstein/SwitchSourceDerivativePathwise.lean#L82-L91",
+    "archive_url": "https://github.com/PalomarArchive/yuhaolei-ctrl--Sharp-W2-to-W2-Propagation-of-Chaos--916e37ae9fb6/blob/84dbe881384ad2f0358857b025ef6fd824ebc9a1/SharpWasserstein/SwitchSourceDerivativePathwise.lean#L82-L91"
+  },
+  "native_target_name": "SharpWasserstein.SwitchSourceDerivative.trajectory_difference_norm_le",
+  "source_declaration_label": "trajectory_difference_norm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "8eff365bd7d911f40760e9cc304f17466a97e4cd357ade6123864c86cf660a1c",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b5e06051950dac850c10f7823fedf0b7c060ffb6d573706e0d188442b5651749",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SharpWasserstein/BoundedFlow.lean",
+      "sha256": "02a60cbdf204e788d83b668e74f87bad8e9f648d3522c175e10049580172f892",
+      "bytes": 5225
+    },
+    {
+      "path": "SharpWasserstein/Compat.lean",
+      "sha256": "6b52df4abd4c63bc69822d060ea5ec352af525440972c5d8f3511c6409e9c851",
+      "bytes": 818
+    },
+    {
+      "path": "SharpWasserstein/DriftBounds.lean",
+      "sha256": "dfd205fe68ff6695b8ba08e619c856bfef50ceb170881c05b76203211c4c796e",
+      "bytes": 6294
+    },
+    {
+      "path": "SharpWasserstein/Dynamics.lean",
+      "sha256": "180afeaee842e433b04bf4453f959c47e38f028c0a688a06b03a20c4c795b8cd",
+      "bytes": 5593
+    },
+    {
+      "path": "SharpWasserstein/FiniteTrajectory.lean",
+      "sha256": "75b0f0d03fe17eeaf0e58c8e3423c23c6e91c0d3b8a46a61cb0acba4c1d9e8cb",
+      "bytes": 7048
+    },
+    {
+      "path": "SharpWasserstein/FlowDependence.lean",
+      "sha256": "a774667b73496976b062e37a945d62c277499c1d6bb0a819c4e693ddf7ed5b65",
+      "bytes": 2744
+    },
+    {
+      "path": "SharpWasserstein/SwitchSourceDerivativePathwise.lean",
+      "sha256": "448273361e8e0e33193cad3331759433ed6d18a156e49ce1e7e6142dc4ef56e3",
+      "bytes": 5410
+    },
+    {
+      "path": "SharpWasserstein/SynchronousStability.lean",
+      "sha256": "85c3128c083726e139f3e73be8d82a330cafb639fbf0e66fe2099b7a3200a529",
+      "bytes": 4717
+    },
+    {
+      "path": "SharpWasserstein/Transport.lean",
+      "sha256": "e55bac771791310268dae7867f39a940a2f7c2e758321d1fc720f519100da289",
+      "bytes": 8507
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "7ed32218210d564efbd6ef49c4470e1bb0cae57f52c46b4c06abaebd883e2350",
+      "bytes": 651,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SharpWasserstein/SwitchSourceDerivativePathwise.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/aec4ea41ada8f3b08c7e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/yuhaolei-ctrl/Sharp-W2-to-W2-Propagation-of-Chaos",
+    "source_commit": "84dbe881384ad2f0358857b025ef6fd824ebc9a1"
+  }
+}

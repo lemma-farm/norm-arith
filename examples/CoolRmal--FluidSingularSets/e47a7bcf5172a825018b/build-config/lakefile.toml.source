@@ -1,0 +1,29 @@
+"name" = "FluidSingularSets"
+"version" = "0.1.0"
+"defaultTargets" = ["FluidSingularSets", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["require"]]
+"name" = "CKN"
+"path" = "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/e47a7bcf5172a825018b/__deps/CKN-b5e25360"
+
+[["lean_lib"]]
+"name" = "FluidSingularSets"
+"leanOptions" = {"warningAsError" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

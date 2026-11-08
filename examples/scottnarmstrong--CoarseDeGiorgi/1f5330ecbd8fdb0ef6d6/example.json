@@ -1,0 +1,289 @@
+{
+  "id": "1f5330ecbd8fdb0ef6d6",
+  "source": {
+    "repository": "scottnarmstrong/CoarseDeGiorgi",
+    "commit": "200c40c9c55a5e19188739d27466ddffcb2660c4",
+    "project": "scottnarmstrong--CoarseDeGiorgi--200c40c9c55a",
+    "path": "CoarseDeGiorgi/Foundations/Slicing/SurfaceEstimate.lean",
+    "file_id": "0a32f75333e5e4cd152d",
+    "source_sha256": "0a32f75333e5e4cd152df3e1fb0b962a626c8ef06750fe7e4b948e0a33c7121b",
+    "start": 59,
+    "end": 90,
+    "original_start": 44,
+    "original_end": 90,
+    "declaration": "surface_kernel_integral_le",
+    "source_url": "https://github.com/scottnarmstrong/CoarseDeGiorgi/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/Foundations/Slicing/SurfaceEstimate.lean#L59-L90",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CoarseDeGiorgi--c1c596d07d50/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/Foundations/Slicing/SurfaceEstimate.lean#L59-L90"
+  },
+  "native_target_name": "CoarseDeGiorgi.Foundations.Slicing.surface_kernel_integral_le",
+  "source_declaration_label": "surface_kernel_integral_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "6724b0c69ff3ecac0be22978d666bd973b629a75ef27ee013f0e9c59eb1d7998",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "19cfd3762fff7f7cd7c882d7e761f9479472ac5af412b29117742ed2b3054aca",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CoarseDeGiorgi/Foundations/Euclid/Basic.lean",
+      "sha256": "fcdb54d8cbf4b2b37883d906a753c91fce994416077e400e1931b3f5610f0da4",
+      "bytes": 3750
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Euclid/Gagliardo.lean",
+      "sha256": "b5a0780778d30784495843ef898791fd751ceee80cf5b53cb088c30009d36597",
+      "bytes": 617
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Euclid/Kernel.lean",
+      "sha256": "c3c96ea28794c45b61e17355e51c8100200fcc6a85b4d414fa91316ea5ab1bc8",
+      "bytes": 645
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/ChartLipschitz.lean",
+      "sha256": "3b21686c14f9f3beae5ea50deac629a43dee47179a864c4b4679b6c556eb742c",
+      "bytes": 1109
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/CutoffPointwise.lean",
+      "sha256": "b747c1dd242acb9af990622bd8c7b58e3f1cf9bcc9f48c8a06fa1ba790a0bdd3",
+      "bytes": 5904
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/Defs.lean",
+      "sha256": "59e7c5bd4e1041ea75ef31fe18205b12524c792c39e766ea067d6fa6a8a4636d",
+      "bytes": 6554
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/FaceHausdorff.lean",
+      "sha256": "a152b059e42ef5b9c5c6ab9a19d9ac0403149a11ce8b58f8f706be6215aa1abb",
+      "bytes": 3116
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/FlatCoordinates.lean",
+      "sha256": "de683dfa54920e82e30980f5fc6ef5adbbf97bd20e14ac14e0051459799e3b06",
+      "bytes": 796
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/SurfaceBasics.lean",
+      "sha256": "0a38930d090b6d2dc0c25a52c9a45f040cfd69ea6916e2c6127723aa3b015258",
+      "bytes": 2221
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/TranslationComparison.lean",
+      "sha256": "d7b4422fcadd6d79f7324fbf4da4d41a9f38f9f66e439d80f6f2681572820059",
+      "bytes": 1257
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/FracGeometry/TranslationEnergy.lean",
+      "sha256": "d682298f98fc93ff5df1a53bfc63389766364e3a60516ac146a804a97cd05181",
+      "bytes": 1357
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Slicing/AnnularTail.lean",
+      "sha256": "1e2178cad156a02745d73d8062b65f1b38ab238dbb11413d298b4ee983abbca5",
+      "bytes": 5808
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Slicing/MidpointAveraging.lean",
+      "sha256": "19b1c9bee579c84c56aaee7897c289ab72e40c75cf610750fc729ccd167b8e12",
+      "bytes": 6469
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Slicing/SurfaceEstimate.lean",
+      "sha256": "0a32f75333e5e4cd152df3e1fb0b962a626c8ef06750fe7e4b948e0a33c7121b",
+      "bytes": 4404
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Slicing/SurfaceGrowth.lean",
+      "sha256": "d4fda895baccf4e5db5b3d815778de43c25f555a712f4f7a540827fcb36404d9",
+      "bytes": 4422
+    },
+    {
+      "path": "CoarseDeGiorgi/Foundations/Slicing/Tonelli.lean",
+      "sha256": "09c10e85f36ae0ae2a3ff46c180bdec33c874822e8821f7c252885ed00c0106b",
+      "bytes": 6750
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/CubeFaceMeasure.lean",
+      "sha256": "a6a31f50e88877a526399add3440be986b0bc404819d5fe313ce6850c9ba791b",
+      "bytes": 495
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/CubeSurface.lean",
+      "sha256": "072ff7da145158c9dc1fa95b74123294c4e362d09efcfc33adc6f44895e1074c",
+      "bytes": 310
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/EuclidDist.lean",
+      "sha256": "1c310a649b9bb2ede4bf819504e4b276083bdb1fa393516045aeb4c57d3d8570",
+      "bytes": 368
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/FaceCoordinateMeasures.lean",
+      "sha256": "bb099d1f0b33192abea60779cb62628790129458ed1e2f5ccafbd33107c78d42",
+      "bytes": 516
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/FracKernel.lean",
+      "sha256": "4d35a92815ea22f30520fe0b7075b6dffa8d4ee1d7b5d95b26efa3e6f8bae848",
+      "bytes": 439
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/FracKernelWithDimension.lean",
+      "sha256": "abdb8695e00bb8ce5ab169706b75b430a1898fee0a6b6aa65d0875fd7487ce7d",
+      "bytes": 554
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/FracNorm.lean",
+      "sha256": "94e54e2a3fc2bf7bb982cd552c7c82ac0a846335bdc9169581ce3cb725194f79",
+      "bytes": 566
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/FracSeminorm.lean",
+      "sha256": "2ca662b1e26b99a76dc34515daedc89b31fa31313a57b1c82cbf5916e12d43f5",
+      "bytes": 543
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/SurfaceFracNorm.lean",
+      "sha256": "82350214d5a339dcd44cb77d4a48c0196fcbed0718a14881810df0f0ecf8ac3f",
+      "bytes": 628
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/SurfaceFracSeminorm.lean",
+      "sha256": "452b821e41ddd1e36d7d1483c774ad384cfd8ab30850e52741046576ff340a26",
+      "bytes": 632
+    },
+    {
+      "path": "CoarseDeGiorgi/Statements/SurfaceMeasure.lean",
+      "sha256": "00ae1282668587eae77bdb93f339401611d54209e442b826bd99e4456a2c3782",
+      "bytes": 437
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/Basic.lean",
+      "sha256": "96f2c39f8ec57451f8572b9da28cdf33f5fc853429cbf39197f3fa0eda29bbf7",
+      "bytes": 8615
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/BlockMatrix.lean",
+      "sha256": "9d300037ce988f2e2b08744fdf1a11479a9b370aab570e446e123a92d136396c",
+      "bytes": 22627
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/CoefficientField.lean",
+      "sha256": "f4f50aa72988bd71f735c868f93ad03a55fe2b4f06b23c10e5bce71a2c4156b8",
+      "bytes": 41101
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Ambient/HilbertFinite.lean",
+      "sha256": "4569d4d3865db2e35c71d852f48423219a54e25bd66adf2d79e0449c74ef5f5f",
+      "bytes": 15312
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Geometry/BoundaryLayer.lean",
+      "sha256": "668b1cccdaf0d2d348da3aa6dcc94027579935bdc959898f835509972122c630",
+      "bytes": 9555
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Geometry/CubeMeasure.lean",
+      "sha256": "96cfb28c27376a9c8f32ee56594a21d9fb5e048fc4a660484efde86b721dc3ae",
+      "bytes": 13627
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Geometry/Domain.lean",
+      "sha256": "e63befcc3f935a58c25cd1ddcd8bd9315b204cfb3d5e0ef16f1d66bfa052e3fc",
+      "bytes": 973
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Geometry/TriadicCube.lean",
+      "sha256": "0bbe95b3a6ab899d60815873395e2b3969b2eb7fb07a8725d84dc6bd52ea9fa3",
+      "bytes": 8180
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Geometry/TriadicPartition.lean",
+      "sha256": "be7a0b6506706d4d976cf62c4f0b1c98746d4c3f6240dc0e2b7483a9123ee58c",
+      "bytes": 33157
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Multiscale/CubeAverage.lean",
+      "sha256": "3cd1b37b653aa7f10c01548ec582bcd4aa4ac81489610a3f4a7d578f32111c7e",
+      "bytes": 1257
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Multiscale/NormalizedNorms.lean",
+      "sha256": "e0319c1fff9d18ca93489d12766f876b0b7b76c1a7a4e8062df4d53069a11cdf",
+      "bytes": 16607
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Multiscale/Projection.lean",
+      "sha256": "f78457b2861bc0230e261fc8c81196d1333286e4e167d5dc096746decab864b3",
+      "bytes": 8747
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Sobolev/Fractional/Definitions.lean",
+      "sha256": "fd4859c5bcefcf215c917e3fab09971d27febd8978d1985dff3b3802ad39c686",
+      "bytes": 9262
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Sobolev/L2Ambient.lean",
+      "sha256": "24a795f689a24272d8752be36c2e669ae5668567bce910607e1a1ca00d874837",
+      "bytes": 31157
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Sobolev/WeakDerivatives.lean",
+      "sha256": "6ff097ba19dc50027d509be28be4ec1d3749144792918666755bd9dbad6e1003",
+      "bytes": 6311
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "334d12a2f33902576b4395b8c40f4539c7c1f00318647144ca6d78048adc6697",
+      "bytes": 2756,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f3ac23dcaa7e48613ab2037aea8f7062242aea018727332e72ad31f4fe13013e",
+      "bytes": 838,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lakefile.toml",
+      "sha256": "f25aa474fc75be0ba8efddf24d01e81f69c6ecd1289752da54ac5c063b2aa13f",
+      "bytes": 781,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lakefile.toml.source"
+    }
+  ],
+  "build_target": "CoarseDeGiorgi/Foundations/Slicing/SurfaceEstimate.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/1f5330ecbd8fdb0ef6d6": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CoarseDeGiorgi",
+    "source_commit": "200c40c9c55a5e19188739d27466ddffcb2660c4"
+  }
+}

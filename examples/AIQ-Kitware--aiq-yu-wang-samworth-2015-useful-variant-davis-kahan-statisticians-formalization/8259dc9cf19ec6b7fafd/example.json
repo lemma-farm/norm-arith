@@ -1,0 +1,63 @@
+{
+  "id": "8259dc9cf19ec6b7fafd",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "commit": "234e61473e5378fd89585d8929cfba560b046323",
+    "project": "AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization--234e61473e53",
+    "path": "ForTauCeti/Probability/Moments/CenteredScatter.lean",
+    "file_id": "111934902dc58364500c",
+    "source_sha256": "111934902dc58364500c17dd04b227c4173ea339825ae870192c32cdbe60744c",
+    "start": 224,
+    "end": 249,
+    "original_start": 224,
+    "original_end": 249,
+    "declaration": "centeredScatter_le_append",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization/blob/234e61473e5378fd89585d8929cfba560b046323/ForTauCeti/Probability/Moments/CenteredScatter.lean#L224-L249",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formal--b7b289f4bf00/blob/234e61473e5378fd89585d8929cfba560b046323/ForTauCeti/Probability/Moments/CenteredScatter.lean#L224-L249"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "centeredScatter_le_append",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "fa0e81b72a55e20c63e03f308771df209f265168440ad093e70d27e63433a1d3",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9ab238299b6c09f39defbd41f7e639ca1d28d060e4935b7131629a5553af678f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ForTauCeti/Probability/Moments/CenteredScatter.lean",
+      "sha256": "869796c9094ba9bc4cfb617eda70e8fd54973d50d315de4ed8d2ed5fa79ea397",
+      "bytes": 12500
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "e84c70f54fac9828faaa88dfa880aac5014d6af1ff46e9614d467c0e5786c8c2",
+      "bytes": 1056,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ForTauCeti/Probability/Moments/CenteredScatter.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+    "source_commit": "234e61473e5378fd89585d8929cfba560b046323"
+  }
+}

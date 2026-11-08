@@ -1,0 +1,126 @@
+{
+  "id": "b69fef6bf3ec3c959f27",
+  "source": {
+    "repository": "plasma-ai/erdos-408",
+    "commit": "4ea44bf911f8668aec10ec25c4b309e8ed476666",
+    "project": "plasma-ai--erdos-408--4ea44bf911f8",
+    "path": "Erdos408/OneSided/Moment/RootReplacement/Tube.lean",
+    "file_id": "0cb1ef338541ecc50c81",
+    "source_sha256": "0cb1ef338541ecc50c81a06b93ad488fa3b2781f0d30b8468d3b39ac35c04eb0",
+    "start": 254,
+    "end": 272,
+    "original_start": 224,
+    "original_end": 272,
+    "declaration": "tube_of_live",
+    "source_url": "https://github.com/plasma-ai/erdos-408/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/Erdos408/OneSided/Moment/RootReplacement/Tube.lean#L254-L272",
+    "archive_url": "https://github.com/PalomarArchive/plasma-ai--erdos-408--545e2755076e/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/Erdos408/OneSided/Moment/RootReplacement/Tube.lean#L254-L272"
+  },
+  "native_target_name": "Erdos408.OneSided.tube_of_live",
+  "source_declaration_label": "tube_of_live",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "60ded38627b0dff4f006772fc98b60aa82d4f578e43026cba56abbb5698b314b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "df2bbbe9cc357227fc91bb2080fcc6e37bdf3e68b941e45b6b5b9efa1955d320",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Erdos408/Hypotheses.lean",
+      "sha256": "766d5a17d25619057dae84d735407f9f353e2278e0eb5b8b8d934ff9227dbc84",
+      "bytes": 23159
+    },
+    {
+      "path": "Erdos408/OneSided/Lift.lean",
+      "sha256": "a043923a7ef609be4d77b1c1a4a45cd5f2e05ea7e94d8abf86919012623104d3",
+      "bytes": 10818
+    },
+    {
+      "path": "Erdos408/OneSided/Model.lean",
+      "sha256": "ff48d05aadaecdd7403e1a651833b84c7c14358608bf01bbc83de85949e711db",
+      "bytes": 18777
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/Lines.lean",
+      "sha256": "c1557fd835c0d8d7ced251229277aa97481d4570b8f1a12a01062e107f36a0e5",
+      "bytes": 1594
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/PathExpansion.lean",
+      "sha256": "42d9ce4b8178800093c10d6cb0d8e4e93129aa2865bdafdba3fb11c9c51e65d7",
+      "bytes": 29279
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/PathExpansion/Average.lean",
+      "sha256": "e66c202804dc7f434ccd99627a0c30c8fa850d5ef1471144d8ab58413abbd8fe",
+      "bytes": 1629
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/PathExpansion/Hermitian.lean",
+      "sha256": "a58b170703b96c953876cee359b153de03c02b544451b1d4cd497b23d838505f",
+      "bytes": 8880
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/PathExpansion/Paths.lean",
+      "sha256": "820b61ee071587cef8f9cd0ba5c942c6b480bd6b735d9d370fb38bdd8d092b0a",
+      "bytes": 6283
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/PrimeFactor.lean",
+      "sha256": "4ba657dfa45db842abc82c30b5bfe41ef941942e6033e57b33aa107e8b48eda5",
+      "bytes": 8665
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/RootReplacement/Config.lean",
+      "sha256": "a1562c84356affcc276b409691d3bd6cf5abc0a352596a94cd11fd04ae2103a3",
+      "bytes": 18545
+    },
+    {
+      "path": "Erdos408/OneSided/Moment/RootReplacement/Tube.lean",
+      "sha256": "0cb1ef338541ecc50c81a06b93ad488fa3b2781f0d30b8468d3b39ac35c04eb0",
+      "bytes": 13828
+    },
+    {
+      "path": "Erdos408/OneSided/Setup.lean",
+      "sha256": "bbc5ae3c5d86cf740d73f95302d4e067ae71e4ae8867ad435e8665751a792f71",
+      "bytes": 9218
+    },
+    {
+      "path": "Erdos408/Statement.lean",
+      "sha256": "06de759705784838b5f1675448a79737663c031a51cb185e06bcbda5e2f97830",
+      "bytes": 2873
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a54ccdc015139dfa1d4f1b30484412fcbfd83ad29889515df1e3e6f542b245b2",
+      "bytes": 970,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "Erdos408/OneSided/Moment/RootReplacement/Tube.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b69fef6bf3ec3c959f27": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/plasma-ai/erdos-408",
+    "source_commit": "4ea44bf911f8668aec10ec25c4b309e8ed476666"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "1d567a062ab06540dbb5",
+  "source": {
+    "repository": "roos-j/lean-spherical",
+    "commit": "800b71afca91e42809c21e6e2fd9ae4f82467082",
+    "project": "roos-j--lean-spherical--800b71afca91",
+    "path": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean",
+    "file_id": "08467a2539f19f902319",
+    "source_sha256": "08467a2539f19f902319b7b6db2280cc0d30d3ebeda2ac757aeb63d7a10ed16e",
+    "start": 96,
+    "end": 192,
+    "original_start": 96,
+    "original_end": 192,
+    "declaration": "radial_lintegral_eq_top_of_le_neg_dim",
+    "source_url": "https://github.com/roos-j/lean-spherical/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean#L96-L192",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-spherical--f9129e76398c/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean#L96-L192"
+  },
+  "native_target_name": "Auto.Spherical.PowerWeights.radial_lintegral_eq_top_of_le_neg_dim",
+  "source_declaration_label": "radial_lintegral_eq_top_of_le_neg_dim",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "1e2f4d2195c4f8557ab8ff7b51d32b3d0a62d3e472ae57d76db27228dc9d5fb7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "785c4a57ebda75f3bd5ab979274a03a52b827a19359b1bd035529605e973aacd",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanSpherical/Auto/Spherical/PowerWeights/Basic.lean",
+      "sha256": "7aa2bce12d01a2b61f3db7355d0ccdd13c9cc90decc85ec579ce07e02ab81cf1",
+      "bytes": 290738
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean",
+      "sha256": "3663c960e10de533cf4343705c5c7d501e190207b6fc534fa8532b05445bd3f0",
+      "bytes": 321229
+    },
+    {
+      "path": "LeanSpherical/Auto/Spherical/SurfaceMeasureDecay.lean",
+      "sha256": "f2e61e863345da5826b187b4fc62881d1e53ff8fe87c3613af8e850c5a18face",
+      "bytes": 333967
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "438f74297ef070a1ea1f691fbc932202bd25ec84198f674c8a1035bcecf5c2d4",
+      "bytes": 590,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LeanSpherical/Auto/Spherical/PowerWeights/GlobalToLocal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/owner-open-v6-pilot/1d567a062ab06540dbb5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-spherical",
+    "source_commit": "800b71afca91e42809c21e6e2fd9ae4f82467082"
+  }
+}

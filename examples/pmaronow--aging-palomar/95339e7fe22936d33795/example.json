@@ -1,0 +1,121 @@
+{
+  "id": "95339e7fe22936d33795",
+  "source": {
+    "repository": "pmaronow/aging-palomar",
+    "commit": "d3f09f56462be6f73eb20733cb7963410409fa06",
+    "project": "pmaronow--aging-palomar--d3f09f56462b",
+    "path": "SphericalAging/StationaryQuadraticDecay.lean",
+    "file_id": "0061129bef9588106a83",
+    "source_sha256": "0061129bef9588106a838785eb22fc3314eb3ac4a6b99a5882010cf8ae28c40c",
+    "start": 31,
+    "end": 98,
+    "original_start": 31,
+    "original_end": 133,
+    "declaration": "quadraticResidual_global_bound",
+    "source_url": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/SphericalAging/StationaryQuadraticDecay.lean#L31-L98",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--aging-palomar--4b3b27b78e14/blob/d3f09f56462be6f73eb20733cb7963410409fa06/SphericalAging/StationaryQuadraticDecay.lean#L31-L98"
+  },
+  "native_target_name": "SphericalAging.StationaryQuadraticDecay.quadraticResidual_global_bound",
+  "source_declaration_label": "quadraticResidual_global_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "eeaa9d34ab836339757b2e8c9532a6f24e24f49680272c0158deda509ca6e665",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "cc78cee90c55a5de5eb6a9216571258313f25a782783bc8e368d65d9e66fdc32",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SphericalAging/CriticalEndpoint.lean",
+      "sha256": "7843da72e6b6b6b93746bdb781885e33e548f8a7e7c045d555487334c4b23021",
+      "bytes": 18022
+    },
+    {
+      "path": "SphericalAging/CriticalExponent.lean",
+      "sha256": "d8233c8d40c43949b4770aebfd0e99ec666ba30b635f42ee163d9f7280602a83",
+      "bytes": 10514
+    },
+    {
+      "path": "SphericalAging/IntervalGronwall.lean",
+      "sha256": "0cd3b0448987c3d2232b91e08998ca92956c33e1d8fda12cdb42394d67c21d4e",
+      "bytes": 2358
+    },
+    {
+      "path": "SphericalAging/SpectralLaplace.lean",
+      "sha256": "df452e51f31ef5176fa4fa12d5ac3920fa87daab2bd66654984a20c7f9bb11af",
+      "bytes": 8732
+    },
+    {
+      "path": "SphericalAging/StationaryBetaConvolution.lean",
+      "sha256": "bd06c3602f649cfb6ced4e69bea907d480bd6768062df7ee39061d7838aa8836",
+      "bytes": 13109
+    },
+    {
+      "path": "SphericalAging/StationaryComparison.lean",
+      "sha256": "f966b58b0cf08f806ff2ec8321f03cf9e357709db3805dd56a9c8c4923588316",
+      "bytes": 34763
+    },
+    {
+      "path": "SphericalAging/StationaryNormalization.lean",
+      "sha256": "ef4d524b990ecdde9a602a346faae18d25a631b3831df4c9f59263b9b4b4393d",
+      "bytes": 35468
+    },
+    {
+      "path": "SphericalAging/StationaryPowerAsymptotics.lean",
+      "sha256": "9c8d0bd7de0846d18a60f1bffd185a57a3a3bed49bb6b63266dbc279d693b635",
+      "bytes": 10436
+    },
+    {
+      "path": "SphericalAging/StationaryPowerProfiles.lean",
+      "sha256": "9a0026c7a9614fa432b948b4eebcea163584bed1701af83d9fa8ebec41bfa3f4",
+      "bytes": 11136
+    },
+    {
+      "path": "SphericalAging/StationaryQuadraticDecay.lean",
+      "sha256": "cecc3061b13eb2b9ac2ab99ba9f26a71c20138389c622408892aeadf23b2c9f6",
+      "bytes": 6349
+    },
+    {
+      "path": "SphericalAging/StationaryShiftedResidual.lean",
+      "sha256": "58fbb8019888b08aef396d90ab7e82a91171b710f09f71d89ad51277a3dcff1d",
+      "bytes": 9893
+    },
+    {
+      "path": "SphericalAging/VolterraUniqueness.lean",
+      "sha256": "40c17c7afdb74b427f5e78c26b7d977a9c1403360f3867d4b822f961c7187c45",
+      "bytes": 8376
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e1b64868ecb81b0982e58645ef32834577e2b214dc0dbf09e35dd14e70c0e6fa",
+      "bytes": 852,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "SphericalAging/StationaryQuadraticDecay.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/95339e7fe22936d33795": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/aging-palomar",
+    "source_commit": "d3f09f56462be6f73eb20733cb7963410409fa06"
+  }
+}

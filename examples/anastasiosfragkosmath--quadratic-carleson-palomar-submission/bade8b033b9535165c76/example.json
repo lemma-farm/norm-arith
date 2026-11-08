@@ -1,0 +1,213 @@
+{
+  "id": "bade8b033b9535165c76",
+  "source": {
+    "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "commit": "3d3cf4316acac4c23140059a78fb570b1440394b",
+    "project": "anastasiosfragkosmath--quadratic-carleson-palomar-submission--3d3cf4316aca",
+    "path": "QuadraticCarleson/KrauseLaceyQuadraticAnnularTail.lean",
+    "file_id": "01dab75d5c0472f6092a",
+    "source_sha256": "01dab75d5c0472f6092afe52293b37b14ca05c21baf660a84d2450843b1220d6",
+    "start": 319,
+    "end": 338,
+    "original_start": 308,
+    "original_end": 338,
+    "declaration": "finitePieceTailMax_sq_lintegral_le_ae",
+    "source_url": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/KrauseLaceyQuadraticAnnularTail.lean#L319-L338",
+    "archive_url": "https://github.com/PalomarArchive/anastasiosfragkosmath--quadratic-carleson-palomar-submission--d28b1bb96b8f/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/KrauseLaceyQuadraticAnnularTail.lean#L319-L338"
+  },
+  "native_target_name": "QuadraticCarleson.KrauseLaceyQuadraticAnnularTail.finitePieceTailMax_sq_lintegral_le_ae",
+  "source_declaration_label": "finitePieceTailMax_sq_lintegral_le_ae",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "8207d7f4ea6b547738e02438eaf1f7b66a2c8fd79427005d8727c5979a66cdda",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "544ad50044d05099281ca4a8423cf50efc3d6c22668e97874a582aa397d821d6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "QuadraticCarleson/Bohr.lean",
+      "sha256": "e685d40a6f3beabe2879ca22d2df031b943a67e59b1161ec836aee2136372a68",
+      "bytes": 1803
+    },
+    {
+      "path": "QuadraticCarleson/Definitions.lean",
+      "sha256": "71d27f6ebd0db87b679f6771c8a14fb1eed4082e366005552cffaea5c0750acc",
+      "bytes": 3145
+    },
+    {
+      "path": "QuadraticCarleson/FiniteSparseMaximal.lean",
+      "sha256": "78cab9c0c1009cb189ae31f444a3890943784c1233de406d6064b7cbf04e4a7b",
+      "bytes": 33613
+    },
+    {
+      "path": "QuadraticCarleson/HardyLittlewoodMaximal.lean",
+      "sha256": "db97b83c04f3a8135971a9ee873ad7361d3a243a5d545a1fdfdab40895dc7040",
+      "bytes": 11890
+    },
+    {
+      "path": "QuadraticCarleson/HilbertL2Fourier.lean",
+      "sha256": "cc4de0efed58d20246d52614c48db46de061d667c4a2c78df854e5ce025d31dc",
+      "bytes": 17369
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyQuadraticAnnularTail.lean",
+      "sha256": "af9b719af291ca33db3cd713385cae56c4d6b034691a7587a56817cacf0af2b5",
+      "bytes": 22491
+    },
+    {
+      "path": "QuadraticCarleson/PVFourier.lean",
+      "sha256": "39ddbd81af9647065a17abed867b5356bfd2e08c1dab102a97afdc863e334392",
+      "bytes": 12458
+    },
+    {
+      "path": "QuadraticCarleson/PVFourierIdentity.lean",
+      "sha256": "d927c79d907de83b4f4cb623c8e1dab1aa3eb6203303ed1dc04a54ac7a527817",
+      "bytes": 1452
+    },
+    {
+      "path": "QuadraticCarleson/PVSymmetricLimit.lean",
+      "sha256": "1e4775d9d97c82dfb18e07bec3a9bb117b43903344914ae71e9306416c811cd5",
+      "bytes": 6528
+    },
+    {
+      "path": "QuadraticCarleson/PositiveDyadicKernel.lean",
+      "sha256": "257224a8f35b0553c84a8821d38ca97c4b5eb3faae6022c75ef78d16d01cab12",
+      "bytes": 22129
+    },
+    {
+      "path": "QuadraticCarleson/PrincipalValueDistribution.lean",
+      "sha256": "a00464f6d87116b1c00b20593193a46f2c691436503c58611e8c3fa506bcc639",
+      "bytes": 14143
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticAveragingTTStar.lean",
+      "sha256": "d555c18a331bc71ca6b01a728afc38c09988f288249e38ac354458a599843eca",
+      "bytes": 9514
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticCenteredMaximal.lean",
+      "sha256": "052cb25d2ae6563f710f2b7200f0b5eff0979eaf7ad21aef1ed81fb1b473a40b",
+      "bytes": 18102
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveraging.lean",
+      "sha256": "710dd3a62aa7250adf20316de3e3dece42d9a8a730f90a172d8723dca616a04f",
+      "bytes": 10655
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingAllHeights.lean",
+      "sha256": "680822fca5fa5142ab24709b2d7d4ae93f37253c037bfa80ced459c40fb188e2",
+      "bytes": 7067
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingAmplitude.lean",
+      "sha256": "df065fa34521e034f15e6c2bb367bee8c66500697462d901f6e61ca7af46b8b9",
+      "bytes": 9582
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingContinuity.lean",
+      "sha256": "b2301079c651876a4245aa9091338fb583777f069524d741b5aa8a236a44d5fb",
+      "bytes": 3935
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingCorrelation.lean",
+      "sha256": "363a15843883a65b4309f3c97659b6fcbc39b4a39ddef382f021a885767358a8",
+      "bytes": 10076
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingCountable.lean",
+      "sha256": "08a012f56d2e6a3e2e245f0f1edfe36bd2eda48edefb63245a8ffcfb4668ef0b",
+      "bytes": 5087
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingDyadic.lean",
+      "sha256": "ab119ee659cf99db93f14e7a336f902c86bc476103a9863a215bbf127509233e",
+      "bytes": 5963
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingFinite.lean",
+      "sha256": "85d622bdf02573e357f82997fcefafdd650fec8f6ab226b77b9a6b4258175023",
+      "bytes": 5979
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingNorm.lean",
+      "sha256": "b20e392e5e2cc11652cfe91bfe7d9a1e651ed7a44ebfd3fe3b1b216af6b2c9a0",
+      "bytes": 4826
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingRational.lean",
+      "sha256": "5f9c8f05579d71b4184dae9f5461a43c036d1388c6b2fe24cce8cc0d83797dd6",
+      "bytes": 6846
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingReal.lean",
+      "sha256": "386d4fc12cb4e394c32f961ac5a499bf47cff21cfc12d0a94170fe57423f21e2",
+      "bytes": 5291
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingSigned.lean",
+      "sha256": "c398cf3c8fd673ade6f2de9f1fec57a2b47c600e571cb10b6da2c55be804bebc",
+      "bytes": 15787
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2AdjointTransfer.lean",
+      "sha256": "b80d842e5345747c2865aabbb42153e507135ead7654a6272243d40c3297d28a",
+      "bytes": 8839
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Decay.lean",
+      "sha256": "3f1995648a07b3ad95eaf2ecf9386fa93a5a865c7c9f3558aff472d5aa1f4124",
+      "bytes": 19304
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Extension.lean",
+      "sha256": "4422915cf072faf19ca770004ac166d23e9b1a728557f15dd0c1e848ed7ea3b6",
+      "bytes": 4227
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Operator.lean",
+      "sha256": "6b96d0d5a83d5d4a730010d89ae4064eedb651c1c4b8b2ae92391de959f74678",
+      "bytes": 15906
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticTTStar.lean",
+      "sha256": "08f07fb37069f84b7891257e2cea3fb5b00e2992cd14065dfe649f8400b2bdb2",
+      "bytes": 33022
+    },
+    {
+      "path": "QuadraticCarleson/OddSchwartzAntiderivative.lean",
+      "sha256": "6307fd98cdbc91c6eaa47c4564749421b69c0cd7964d47c92f355acbddd0306e",
+      "bytes": 7882
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9163f0c71a84cc9c60f57f513b368af83bbe6b1fee27d751b9641248e6e16a00",
+      "bytes": 683,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "QuadraticCarleson/KrauseLaceyQuadraticAnnularTail.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "source_commit": "3d3cf4316acac4c23140059a78fb570b1440394b"
+  }
+}

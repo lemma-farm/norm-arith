@@ -1,0 +1,21 @@
+"name" = "planarMidpoint"
+"version" = "0.1.0"
+"defaultTargets" = ["PlanarMidpoint", "PlanarMidpointChallenge", "PlanarMidpointSolution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "PlanarMidpoint"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PlanarMidpointChallenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PlanarMidpointSolution"
+"srcDir" = "."

@@ -1,0 +1,81 @@
+{
+  "id": "52f25c92bceff3f9cada",
+  "source": {
+    "repository": "scottnarmstrong/AVAnomalousDiffusion",
+    "commit": "c5b0e710c14cf41eca33dc2ae5d7aeceff829f99",
+    "project": "scottnarmstrong--AVAnomalousDiffusion--c5b0e710c14c",
+    "path": "AVenhance/Infra/Construction/Section2FlowHigherDerivative.lean",
+    "file_id": "0b4e99d7e08dc94d581f",
+    "source_sha256": "0b4e99d7e08dc94d581fcc8f438221e1372e7d75d9ba92586d953edc92bb276e",
+    "start": 94,
+    "end": 114,
+    "original_start": 87,
+    "original_end": 114,
+    "declaration": "Section2FlowHigherDerivative.orderedPartial_pointwise_of_snorm",
+    "source_url": "https://github.com/scottnarmstrong/AVAnomalousDiffusion/blob/c5b0e710c14cf41eca33dc2ae5d7aeceff829f99/AVenhance/Infra/Construction/Section2FlowHigherDerivative.lean#L94-L114",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--AVAnomalousDiffusion--6a23398d8017/blob/c5b0e710c14cf41eca33dc2ae5d7aeceff829f99/AVenhance/Infra/Construction/Section2FlowHigherDerivative.lean#L94-L114"
+  },
+  "native_target_name": "AVenhance.Infra.Construction.Section2FlowHigherDerivative.orderedPartial_pointwise_of_snorm",
+  "source_declaration_label": "Section2FlowHigherDerivative.orderedPartial_pointwise_of_snorm",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "47921b160200a9d82b9b46eee24eacc8af360e1965fa253146a7b644fb09950a",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d8ce4f1108398c253c02715af4b7396d69d390cf1d20a6b356f7a8dc81873a81",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "AVenhance/Infra/Construction/Section2FlowHigherDerivative.lean",
+      "sha256": "d390b1787fed819323800c0d03f716c8bf7364a732794fb71ecba959046f0de7",
+      "bytes": 18066
+    },
+    {
+      "path": "AVenhance/Infra/FaaDiBruno/Composition.lean",
+      "sha256": "c822a936819e369fdc26a7d34ce68055fdbd15625580013b6eaa458d8c5e2125",
+      "bytes": 29209
+    },
+    {
+      "path": "AVenhance/Infra/FaaDiBruno/Seminorm.lean",
+      "sha256": "443312498227c4b0f1e408b8d2aa81203d829b0548e615d3fc5a593cc28092de",
+      "bytes": 12696
+    },
+    {
+      "path": "Homogenization/Ambient/Basic.lean",
+      "sha256": "9abc27676e9b76dcc6230a91ad0ee4ffe99c5a3beb3a628d4eaa9655599eb46c",
+      "bytes": 8648
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "d0f90f6c2a23d4b44cad24a660f70e3f4a1ef1c4ffb39923c20791c729364298",
+      "bytes": 723,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "AVenhance/Infra/Construction/Section2FlowHigherDerivative.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/owner-replication18-worker-0/52f25c92bceff3f9cada": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/AVAnomalousDiffusion",
+    "source_commit": "c5b0e710c14cf41eca33dc2ae5d7aeceff829f99"
+  }
+}

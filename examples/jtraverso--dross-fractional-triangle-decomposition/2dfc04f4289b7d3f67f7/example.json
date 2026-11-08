@@ -1,0 +1,151 @@
+{
+  "id": "2dfc04f4289b7d3f67f7",
+  "source": {
+    "repository": "jtraverso/dross-fractional-triangle-decomposition",
+    "commit": "7720b7b591e606d5a56f1d935d8be650dcbf6c6f",
+    "project": "jtraverso--dross-fractional-triangle-decomposition--7720b7b591e6",
+    "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/DeficientCutExact.lean",
+    "file_id": "0be1559576c024929dfd",
+    "source_sha256": "0be1559576c024929dfde224ef3e2e41f5db3ceb14f3fd038475116905da5510",
+    "start": 82,
+    "end": 118,
+    "original_start": 82,
+    "original_end": 118,
+    "declaration": "deficient_finish_exact / ineq3",
+    "source_url": "https://github.com/jtraverso/dross-fractional-triangle-decomposition/blob/7720b7b591e606d5a56f1d935d8be650dcbf6c6f/LeanPool/DrossFractionalTriangleDecomposition/Internal/DeficientCutExact.lean#L82-L118",
+    "archive_url": "https://github.com/PalomarArchive/jtraverso--dross-fractional-triangle-decomposition--f57504b1525c/blob/7720b7b591e606d5a56f1d935d8be650dcbf6c6f/LeanPool/DrossFractionalTriangleDecomposition/Internal/DeficientCutExact.lean#L82-L118"
+  },
+  "native_target_name": "LeanPool.DrossFractionalTriangleDecomposition.deficient_finish_exact",
+  "source_declaration_label": "deficient_finish_exact / ineq3",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "579da1fe42357f19515935775460dcdfbedbabf3d2a8b58b7a3fbb19a560170d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c1f48c3ce5ee4748a3a39484880df4893dab1718c2ea4f6d95305b42684239fa",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Basic.lean",
+      "sha256": "3aaaac7fef2494ddbf5e86b3c299f7afe2205fc139e75c5e71259099f2cbc879",
+      "bytes": 2156
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/Cancellation.lean",
+      "sha256": "6aa30d3dd261d8b117d4c6abf0a7c86ca4be00cce3a678d22ce06736930ac294",
+      "bytes": 3890
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/CancellationConfigs.lean",
+      "sha256": "2b34e67b272dd19b2c9b37f388143513ea0ba64715c963995428919fc8ef6098",
+      "bytes": 7060
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/Coverage.lean",
+      "sha256": "7ce474ebcaeb03a9d1d3148b795d8f8af3c2aeb6534d3960d8cdda1c78dca866",
+      "bytes": 5631
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/CutBridges.lean",
+      "sha256": "07c253b3283c36e95bc68e070469d62d273be2bc61bbf4e294f973d10c499dee",
+      "bytes": 6289
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/CutCapacity.lean",
+      "sha256": "3f26eb130ae062b2259766c3ca8744d2ae30d4263aa126707f4e98b78a7cea11",
+      "bytes": 6584
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/CutDensity.lean",
+      "sha256": "0c2d8f4998ab9440db1d05aed7edd14e70a4d48099d7bdff5d02d4f79eba786d",
+      "bytes": 9235
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/CutPartnerCount.lean",
+      "sha256": "1cd18279331fa9d0f533674638323fce587962fd3966cd7a2936ec573664d2bc",
+      "bytes": 3875
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/DeficientCutExact.lean",
+      "sha256": "0be1559576c024929dfde224ef3e2e41f5db3ceb14f3fd038475116905da5510",
+      "bytes": 8672
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/DoubleCount.lean",
+      "sha256": "45f3fc26a6e99a78f8101c494d7a5ec8af36416713c6dff392bab9a598f09861",
+      "bytes": 9284
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/DrossNetwork.lean",
+      "sha256": "6e1900490789bd5abeadc859a35f114e2fbad8152e9c2b987bbdb8f0894e1e7f",
+      "bytes": 9162
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/ExactScalar.lean",
+      "sha256": "1f5e8e74dee7881fe1ddaed45d80abedb559642720b17828c638aea2807b6768",
+      "bytes": 2414
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/FlowSaturation.lean",
+      "sha256": "7278ccef574750cd1cd58e7ce3e64ff9229c690141194db91dea9f47e83d0d88",
+      "bytes": 8931
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/K4Counting.lean",
+      "sha256": "996dd6b8c1f2469e70f7a514343276057e0e439fa14441e4be4d41cc9e473326",
+      "bytes": 7215
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/K4PartnerCount.lean",
+      "sha256": "9f5faa48260da8bfdc0f6a4ca95de6c15469a19ec1727b3803af1f562524a580",
+      "bytes": 7666
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/TransferBound.lean",
+      "sha256": "2f7d3bd68ca32c57395cc3582aa5cfe5cbd34070570c135f2e5d3583b57ebd88",
+      "bytes": 4874
+    },
+    {
+      "path": "LeanPool/DrossFractionalTriangleDecomposition/Internal/TriangleWeight.lean",
+      "sha256": "108c9d5cac074680ff60123adc952ab70bdb14d56675f64562834086046bd7bb",
+      "bytes": 1157
+    },
+    {
+      "path": "LeanPool/MaxFlowMinCut.lean",
+      "sha256": "44d362c5d6a9ef870d669d4250b0733a65b745ed9a3159cdb4efc5cbf4f0a639",
+      "bytes": 30659
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "8ecc99497cd22e43c98dd52a39d0bb24b1fb750895a17afd67727debb3938682",
+      "bytes": 586,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LeanPool/DrossFractionalTriangleDecomposition/Internal/DeficientCutExact.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/2dfc04f4289b7d3f67f7": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jtraverso/dross-fractional-triangle-decomposition",
+    "source_commit": "7720b7b591e606d5a56f1d935d8be650dcbf6c6f"
+  }
+}

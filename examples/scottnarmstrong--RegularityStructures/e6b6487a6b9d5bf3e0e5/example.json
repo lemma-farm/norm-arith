@@ -1,0 +1,88 @@
+{
+  "id": "e6b6487a6b9d5bf3e0e5",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "Phi43/RegularisedNoise/SmoothVersion/WhiteNoise.lean",
+    "file_id": "08dfaa2862679be95e5f",
+    "source_sha256": "08dfaa2862679be95e5f13702412e862874fc6bd9d41a0a242cf985249ec5773",
+    "start": 38,
+    "end": 75,
+    "original_start": 32,
+    "original_end": 76,
+    "declaration": "whiteNoise_integral_sub_sq_eq",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/RegularisedNoise/SmoothVersion/WhiteNoise.lean#L38-L75",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/RegularisedNoise/SmoothVersion/WhiteNoise.lean#L38-L75"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "whiteNoise_integral_sub_sq_eq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "5a3ebe1892f88a72430c89939b6ccde9340145011bee678cd036d6dd3f5fc5c5",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2d809ca90753840122980bc5e0fc4b662f9654f77bbae7a9351ca64a0dc6e49b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Phi43/RegularisedNoise/SmoothVersion/WhiteNoise.lean",
+      "sha256": "08dfaa2862679be95e5f13702412e862874fc6bd9d41a0a242cf985249ec5773",
+      "bytes": 3185
+    },
+    {
+      "path": "RegularityStructures/Probability/GaussianVector.lean",
+      "sha256": "42ba7455a116e382453c64f0a1818dd90ff433667e537833b0844425c29fc2b9",
+      "bytes": 6519
+    },
+    {
+      "path": "RegularityStructures/Probability/SpaceTimeMeasure.lean",
+      "sha256": "e9c86082256d5486da433461333dd76fc01fdfecf63f613de16b3e5ebe3a05a7",
+      "bytes": 2727
+    },
+    {
+      "path": "RegularityStructures/Probability/WhiteNoise.lean",
+      "sha256": "86c3b3c4eff7ae5d79cd9156695434723dd0fda7a180be565229e58767ed42d4",
+      "bytes": 2061
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "b4b07fb86488f9050ce02a654854dd58f0e5888d3e68f6d5063e48c4d3948459",
+      "bytes": 1743
+    },
+    {
+      "path": "RegularityStructures/Probability/GaussianMoments.lean",
+      "sha256": "93262abc7c6d6f3c5cc5618d460589ea1e13784a7e9ead8d5331599d6dd02c61",
+      "bytes": 7170
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "20720495ad864c165d32838ea360dd8cd3bca5a04d6c3525ed8718c09375b692",
+      "bytes": 3841,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c23510dbf16297f927a8cb0b42d0816730c679720d11b5f8cd95e3da16240a90",
+      "bytes": 3555,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Phi43/RegularisedNoise/SmoothVersion/WhiteNoise.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

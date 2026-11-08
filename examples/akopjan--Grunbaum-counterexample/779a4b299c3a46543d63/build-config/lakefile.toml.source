@@ -1,0 +1,24 @@
+"name" = "soberon_convex_body"
+"version" = "0.1.0"
+"defaultTargets" = ["SoberonConvexBody", "Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SoberonConvexBody"
+"moreLeanArgs" = ["-Dlinter.deprecated=false", "-Dlinter.unusedVariables=false", "-Dweak.linter.unusedSimpArgs=false", "-Dweak.linter.unusedTactic=false", "-Dweak.linter.unreachableTactic=false", "-Dweak.linter.unnecessarySimpa=false", "-Dweak.linter.unnecessarySeqFocus=false", "-Dweak.linter.seqFocus=false", "-Dweak.linter.style.haveILetI=false"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"

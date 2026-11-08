@@ -1,0 +1,68 @@
+{
+  "id": "5445618dc0bbc1b472dd",
+  "source": {
+    "repository": "scottnarmstrong/Frohlich-Spencer",
+    "commit": "e01623b7347c272eac9480f04743f38b8d0df223",
+    "project": "scottnarmstrong--Frohlich-Spencer--e01623b7347c",
+    "path": "FroehlichSpencer/FS82/Wilson/LoopShift.lean",
+    "file_id": "0560533b523b8df36ce3",
+    "source_sha256": "0560533b523b8df36ce3c72f806e6b4ec0e805dc8ef82a4728a577c2942fc556",
+    "start": 339,
+    "end": 348,
+    "original_start": 313,
+    "original_end": 348,
+    "declaration": "sum_wallBound₀_le",
+    "source_url": "https://github.com/scottnarmstrong/Frohlich-Spencer/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/FS82/Wilson/LoopShift.lean#L339-L348",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Frohlich-Spencer--d2b386690b28/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/FS82/Wilson/LoopShift.lean#L339-L348"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "sum_wallBound₀_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "829dcbf2e717cc0bad174956fb1f97f63931b8e30aaa1fa0dea6ec59b66684e5",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "7a7ca096bb9ae29363fdcc5d95dbc2b07dbba5b5c4dfc7567e57f38c7750f2d6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FroehlichSpencer/FS82/Wilson/LoopShift.lean",
+      "sha256": "0560533b523b8df36ce3c72f806e6b4ec0e805dc8ef82a4728a577c2942fc556",
+      "bytes": 19786
+    },
+    {
+      "path": "FroehlichSpencer/FS82/Wilson/ShiftProfile.lean",
+      "sha256": "6892a8ecd6450e1f1e179ca1dfb4e84cfc1bb7ee372490d9c889f05cd66c8903",
+      "bytes": 19541
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "38c9014efb085b9fcf38bec7caaead97ca1d2fa2b6d56c92a0075bec04fc2054",
+      "bytes": 629,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5b84211248ab6826d352c93c5f35054128deb50649f2600c6a2d77149fe337eb",
+      "bytes": 3550,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "FroehlichSpencer/FS82/Wilson/LoopShift.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Frohlich-Spencer",
+    "source_commit": "e01623b7347c272eac9480f04743f38b8d0df223"
+  }
+}

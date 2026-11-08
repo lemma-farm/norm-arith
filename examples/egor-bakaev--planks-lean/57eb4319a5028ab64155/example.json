@@ -1,0 +1,91 @@
+{
+  "id": "57eb4319a5028ab64155",
+  "source": {
+    "repository": "egor-bakaev/planks-lean",
+    "commit": "b2fab1d9af2fe6ca3ef93a167fea9ba6a83b671a",
+    "project": "egor-bakaev--planks-lean--b2fab1d9af2f",
+    "path": "RequestProject/Overlap/Cells.lean",
+    "file_id": "0a0c8432619dee766e22",
+    "source_sha256": "0a0c8432619dee766e22ad1d86c8de679b90ba22a9ee3025e463a3cc075dc715",
+    "start": 49,
+    "end": 80,
+    "original_start": 49,
+    "original_end": 80,
+    "declaration": "Plank.norm_sub_crossPt_le",
+    "source_url": "https://github.com/egor-bakaev/planks-lean/blob/b2fab1d9af2fe6ca3ef93a167fea9ba6a83b671a/RequestProject/Overlap/Cells.lean#L49-L80",
+    "archive_url": "https://github.com/PalomarArchive/egor-bakaev--planks-lean--19f7a71a0d1b/blob/b2fab1d9af2fe6ca3ef93a167fea9ba6a83b671a/RequestProject/Overlap/Cells.lean#L49-L80"
+  },
+  "native_target_name": "Annulus.Plank.norm_sub_crossPt_le",
+  "source_declaration_label": "Plank.norm_sub_crossPt_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "3703f86ae29349e996b92ec36875b54ebbce85d8186328f214fd276b463ccb2d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "ee33ab9f11271d5407dbc90bd8c8a7285bce16b1aa5a09dd10b4822b1835ae50",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Annulus.lean",
+      "sha256": "fe9f89ebe3e9727f53fd4f8d81e0a1db2e1dbc342409c8ca40faf33401011e55",
+      "bytes": 19245
+    },
+    {
+      "path": "RequestProject/Overlap/Basic.lean",
+      "sha256": "0a7e65cb681972d0800c4b53749798cdab01082e565a8d48fb23eecfa117d736",
+      "bytes": 12614
+    },
+    {
+      "path": "RequestProject/Overlap/Cells.lean",
+      "sha256": "d01471bd71b932cad9d64db3375a152769bc9273ea865f6546d35a5452a49727",
+      "bytes": 9146
+    },
+    {
+      "path": "RequestProject/Overlap/Defs.lean",
+      "sha256": "00fd8b9eda46b23903e6ca6ee80025b20fc63755ecdb95767ac49aad78e88e38",
+      "bytes": 3972
+    },
+    {
+      "path": "RequestProject/Overlap/Geometry.lean",
+      "sha256": "c29494be883fdf1d828d982837060322add4906f2e9d13f5b7cb488aa888b134",
+      "bytes": 9326
+    },
+    {
+      "path": "RequestProject/Overlap/Hull.lean",
+      "sha256": "8be1bf2430f04a25378eed9a4cc3b332b78177a8514edd08815d777031568201",
+      "bytes": 14467
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f74f144d54af3ed913376c8c018840f951232327677734ade8769b208de6f46b",
+      "bytes": 482,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RequestProject/Overlap/Cells.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/57eb4319a5028ab64155": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/egor-bakaev/planks-lean",
+    "source_commit": "b2fab1d9af2fe6ca3ef93a167fea9ba6a83b671a"
+  }
+}

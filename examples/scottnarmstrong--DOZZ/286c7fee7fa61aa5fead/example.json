@@ -1,0 +1,73 @@
+{
+  "id": "286c7fee7fa61aa5fead",
+  "source": {
+    "repository": "scottnarmstrong/DOZZ",
+    "commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330",
+    "project": "scottnarmstrong--DOZZ--5d770d1a6d69",
+    "path": "DOZZ/GFFStructure/KolmogorovCover.lean",
+    "file_id": "0a6a5ae62b001ba76bb6",
+    "source_sha256": "0a6a5ae62b001ba76bb69dd61ca593329aa2971528e6a80602234b58dbbea2ef",
+    "start": 258,
+    "end": 278,
+    "original_start": 247,
+    "original_end": 278,
+    "declaration": "lintegral_sup_rpow_edist_succ",
+    "source_url": "https://github.com/scottnarmstrong/DOZZ/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/KolmogorovCover.lean#L258-L278",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--DOZZ--ab6295909671/blob/5d770d1a6d69fac6dbb63060e8a89861bf3ee330/DOZZ/GFFStructure/KolmogorovCover.lean#L258-L278"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "lintegral_sup_rpow_edist_succ",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "851bc54420e519c4b86078138004bda7627d19b4566e9f97e54bad653610e684",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3593100f4b66d0da7001bb49107547360c83a2cc7ee3d05d82ae7c7f305bc8ba",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DOZZ/GFFStructure/CoveringBounds.lean",
+      "sha256": "00b88ae6b6555fb84bffadc6b7223c3165d5b33b23de936519e5f78c4c0b090e",
+      "bytes": 28121
+    },
+    {
+      "path": "DOZZ/GFFStructure/KolmogorovCover.lean",
+      "sha256": "0a6a5ae62b001ba76bb69dd61ca593329aa2971528e6a80602234b58dbbea2ef",
+      "bytes": 29156
+    },
+    {
+      "path": "DOZZ/GFFStructure/MetricChaining.lean",
+      "sha256": "016527fae6201c07c896abfb4f3a5b9790fdd924f0d35e67e6b83a65cc456dfe",
+      "bytes": 16914
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "418115cd3595d6e59563d3680145be9107cb61d3e41930a84773fa50ef5e7654",
+      "bytes": 2287,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "dcfbeb095a7014258ab292d4038fde3202955d48fd5db4812904fe051e3e4454",
+      "bytes": 3567,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "DOZZ/GFFStructure/KolmogorovCover.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/DOZZ",
+    "source_commit": "5d770d1a6d69fac6dbb63060e8a89861bf3ee330"
+  }
+}

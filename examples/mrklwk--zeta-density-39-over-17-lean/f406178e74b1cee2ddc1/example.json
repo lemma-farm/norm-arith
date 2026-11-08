@@ -1,0 +1,63 @@
+{
+  "id": "f406178e74b1cee2ddc1",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d",
+    "project": "mrklwk--zeta-density-39-over-17-lean--c55fc0088bd4",
+    "path": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean",
+    "file_id": "04fb765db6757c1e2976",
+    "source_sha256": "04fb765db6757c1e2976297e1f82da451033bffc0353246324fdb1e88d00a3e9",
+    "start": 331,
+    "end": 349,
+    "original_start": 331,
+    "original_end": 349,
+    "declaration": "complex_row_extraction",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean#L331-L349",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean#L331-L349"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "complex_row_extraction",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "2869ee4f5b2da71670732288b6b139d476cbc49f07915a798e03583b012ab485",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0265a004a49426f34674eff20fceecad12c3f54e6342da2c497a62353f11f20c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean",
+      "sha256": "04fb765db6757c1e2976297e1f82da451033bffc0353246324fdb1e88d00a3e9",
+      "bytes": 31427
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "29726a29822ee403794fab422596d335dd8151f941609ed2fe4e0a7453fff58a",
+      "bytes": 258404,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c24c0923e2ec35d4ed2b28819db27b6eb33caa7ee9149d227ef0f1937501a710",
+      "bytes": 3577,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d"
+  }
+}

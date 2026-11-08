@@ -1,0 +1,323 @@
+{
+  "id": "6d26ab507b311e0a3b47",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/BarrierSignMatrix.lean",
+    "file_id": "0695dd5ee22a834caa22",
+    "source_sha256": "0695dd5ee22a834caa22c9dca7f86f2f93dc439e956a1603c3231e44609727e6",
+    "start": 51,
+    "end": 58,
+    "original_start": 50,
+    "original_end": 58,
+    "declaration": "loewner_quadratic_lower",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Holder/BarrierSignMatrix.lean#L51-L58",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Holder/BarrierSignMatrix.lean#L51-L58"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "loewner_quadratic_lower",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "66ca49395fc5b4cb3018c1ee1176ad75e558562cc18206970cb95a6ed9a9cd19",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1157a5b5a5f37f77e9725ff8b970cfaae8f0c2be5018380a72821eee9e5d444b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/Ambient/Basic.lean",
+      "sha256": "253abb3250822ba9e62d2faffa1391c4c3bcd5170e19a175ac17d40c6c03eb5e",
+      "bytes": 468
+    },
+    {
+      "path": "HypoellipticAleksandrov/Ambient/MatrixContraction.lean",
+      "sha256": "4f07398e51014755e78ea507b2b8809b59215bee56bb01b7672c3fc9a9f4cca4",
+      "bytes": 3062
+    },
+    {
+      "path": "HypoellipticAleksandrov/Coefficients/Ellipticity.lean",
+      "sha256": "a52fdb1582b96c5bbe22ae83704c12cf3f872446349e5091765520903c60b06f",
+      "bytes": 7728
+    },
+    {
+      "path": "HypoellipticAleksandrov/Geometry/KineticPoint.lean",
+      "sha256": "4fa02f3a1c6db41f5cea5931856a55645f0ff9b3e6fb7541e344f2b0b92484d7",
+      "bytes": 3888
+    },
+    {
+      "path": "HypoellipticAleksandrov/Geometry/KineticPointMeasure.lean",
+      "sha256": "c9e1888584a67ae44c04c07ac3d4fac12f5e566240019ac994498b327d4ec8a9",
+      "bytes": 2400
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Evolution/ComparisonCalculus.lean",
+      "sha256": "9c1fb49d4b098dec24437bcf8c75b341f2371ba51317bb2f5e4a8ff6bf42f506",
+      "bytes": 18538
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Evolution/ComparisonLinear.lean",
+      "sha256": "4b72610db8aa61e59f9abcabaa8219e635ca08c82b3f19731be36f39f7a97d07",
+      "bytes": 8366
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Geometry.lean",
+      "sha256": "7fb67d7c5a7acc0f9e9aa45b1e684ca55ab2c087cfc520a2060b6f59d4378294",
+      "bytes": 5813
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/Admissibility.lean",
+      "sha256": "401f40836a4dd8c8682236eed9bbfc32831fa6d68eb82e622f174feab019927e",
+      "bytes": 4387
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/AdmissibilityAffine.lean",
+      "sha256": "1f8b0021fbac37af0363cd08d4477959fcb5c597dda0fc3b3ede3835c1f880ea",
+      "bytes": 3951
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/AdmissibilityCalculus.lean",
+      "sha256": "3da287a803d9fc246ea49623d878a495a48625ad20b628fa9388b295afbf6e03",
+      "bytes": 4177
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/AdmissibilityMinimum.lean",
+      "sha256": "38a89be5a38312a30e29d7e24687f45d90e67dc0e99dabe831291b78522f89a9",
+      "bytes": 2071
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/AffineGeometry.lean",
+      "sha256": "119b7fe89aab3fca718a9e0fb48f16e6c6f459c05321f3992fe8d7ed8c15f4e4",
+      "bytes": 5199
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/AffineGeometryTopology.lean",
+      "sha256": "d9035e8a97841f24ec8d83750f363f3d1318c2111dfba1c972ee801d89003880",
+      "bytes": 3287
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/BarrierSignMatrix.lean",
+      "sha256": "fef2aa6a2a7fc00f47ade9c0acac5d7002f42a41fd76ef3fdc52869ec9050ec2",
+      "bytes": 3273
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/Cap.lean",
+      "sha256": "e2fbb0d0e72c545ea7c84d5dd536eba5fffa017daaa388c7c0d3dd87c227d9df",
+      "bytes": 3250
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/Covariance.lean",
+      "sha256": "94624c03f195df35301884a3b32793fa51da16c279fd2ffaded6746e0d37c008",
+      "bytes": 3165
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/CovarianceBounds.lean",
+      "sha256": "43d6a2a14e1ce734c25882c2114c0e3f428c97d6ebaac1fd6111875e8d872c82",
+      "bytes": 3395
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/CovarianceBoundsFinal.lean",
+      "sha256": "ead9b63530eebe013d2d8c5e2314e0ed4b7ce1178bc6109599862e6782d6e3ce",
+      "bytes": 3933
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/CovarianceBoundsScalar.lean",
+      "sha256": "689dc934d2330fb9d5a6daeb3a3b479e500f7b6b53cf4311bf47cecc7e6a3592",
+      "bytes": 3757
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/CovarianceBoundsTrace.lean",
+      "sha256": "a6de91da0ddf9cc7120a2d9fdbcef05b0dbd4bd008b8eca2ee8d224ca9ae8e5e",
+      "bytes": 2050
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/CovariancePhysical.lean",
+      "sha256": "6221c5b1d87fc5350c7e4be84997b2d2240895098cb81cc7eb5220df37cdd89e",
+      "bytes": 4812
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/NearFullCutoff.lean",
+      "sha256": "1e316e91a2a4aa0b7eb4e9a77780afdbfa44c2fcc59a94b1128346c747c04dc5",
+      "bytes": 2547
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/OscillationBasics.lean",
+      "sha256": "92966d3f8dad9ae75a8bb2e91174be9fa20a0dff824cadca8e005df2b37f57b8",
+      "bytes": 7112
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Holder/Setting.lean",
+      "sha256": "09e1932a9a08bf089e36f22e1245f0f2f47708bc468148d898e123b8f6e89dff",
+      "bytes": 3267
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ABPAbstractHolder.lean",
+      "sha256": "b5a6d2922e710eb1c9bbe37610a1c3f46f30c6b617d9b39a8ca04cd4de8aad65",
+      "bytes": 2459
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/BorelContract.lean",
+      "sha256": "e838ee6c7247ff66f711c3b8091ee682e4f7dca86ace4ffa6719def88299f195",
+      "bytes": 3312
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/BorelDominated.lean",
+      "sha256": "687cfef77f63da5672a59c3ac459b21cc4feab10f274fad3e17f5715bbd936f4",
+      "bytes": 2167
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/BorelExhaustionNorm.lean",
+      "sha256": "ca7a5884ce7af559b431883a448e8238edc618027c7e34e7c6f37ef2cdba8a5c",
+      "bytes": 3050
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/BorelNormLimit.lean",
+      "sha256": "e3cc4b123e808ec5e8af21d9febcb21525be9a938ea617965647516be77e35fc",
+      "bytes": 3559
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/BorelSource.lean",
+      "sha256": "220fde30bb3362a64b85df63197fe205738df75b89f506c84bbbd943a73e28dd",
+      "bytes": 2458
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ComparisonConstant.lean",
+      "sha256": "2b43d171f4519fc3c7c44a27683e9f74b22449b44a682a181898bb71a9c2dc90",
+      "bytes": 3377
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ComparisonGeometry.lean",
+      "sha256": "ac80a9f948a4b71d9547526a6297e5272acb9e347f714259d60e54b999ed7b03",
+      "bytes": 3078
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ComparisonLinear.lean",
+      "sha256": "5a11dd356389ce5f66c00c56cb9b634889c0cea4aa8b7089de70ef488b94c9ed",
+      "bytes": 7008
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/GeometryAPI.lean",
+      "sha256": "19324c52f914ecb4f012e12f729c69acad53a3ab8a0ecf2eeaf970841f02a5ec",
+      "bytes": 9817
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/InnerCylinderGeometry.lean",
+      "sha256": "388a7a09c41143a7d778884a95750ef79322573a16170fced9bf9bf0e2ad95fe",
+      "bytes": 10612
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/InnerCylinderReflection.lean",
+      "sha256": "ffe7482ff0415320599fb095a1f33a175dd218eda96c3131a8fe8379ae75d6db",
+      "bytes": 5633
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ReflectionAPI.lean",
+      "sha256": "e9cf3479aab84d030802e5a692466dfb86034077eb35bd8ca2dc9c144f34a663",
+      "bytes": 7459
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Maximum/ReflectionCalculus.lean",
+      "sha256": "0c64da4004de596b3916dffda891e793e59db9864a46f533bf71f2bf27944150",
+      "bytes": 4481
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Operator.lean",
+      "sha256": "d9acb5f86d84b5fc0e6c992b01be8f0a434fe3cea5de774f17b5f034937ac4b8",
+      "bytes": 6857
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Derivatives.lean",
+      "sha256": "28d0fed1d021ab95a6e135f84982e57e48c1f1b94db0c59b706175fb1d5fd9f8",
+      "bytes": 25953
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Geometry.lean",
+      "sha256": "82222578e5878ecb286ae28ea4c91efd7c98ecb95c82dbfed775809df96dfb0a",
+      "bytes": 7456
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/KineticClassical.lean",
+      "sha256": "081d0e4f7aa2f6b505790edc2f55b590af29d4dc9c6eb510e9781d486cc9d5b8",
+      "bytes": 11245
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/MinimumPrinciple.lean",
+      "sha256": "48b05d7c179dabfb18854a64e57b18ef494694d2c410df0e696088220db89cfd",
+      "bytes": 11161
+    },
+    {
+      "path": "HypoellipticAleksandrov/Parabolic/Operator.lean",
+      "sha256": "237352a16e4f3875c128f333c32f2aacb4cbaf5e3cc39765287ca9530e742d9f",
+      "bytes": 2230
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basic.lean",
+      "sha256": "0768ef11188e4c4af39f4d6af323f7edbf4acb1ad44ef127da007fe762af8df0",
+      "bytes": 587
+    },
+    {
+      "path": "PDEFoundation/Ambient/Basis.lean",
+      "sha256": "cafef0c077eededd1dabf3c32eeb20334d19d3d5a1cffb10ed4d370328bf7cfb",
+      "bytes": 1508
+    },
+    {
+      "path": "PDEFoundation/Ambient/EuclideanNorm.lean",
+      "sha256": "78c75d09d81eb97fdf10b1f3a0441e4d4bc2b42345249b9cea1b49d39d9a1d31",
+      "bytes": 12537
+    },
+    {
+      "path": "PDEFoundation/Geometry/Affine.lean",
+      "sha256": "e07e49a7a1fac1bcc9ab99f48bea2cc86fab099edd295857b2ca90319be23871",
+      "bytes": 2285
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall.lean",
+      "sha256": "e0d5b89d0af6cd95bfb6c07bc5c8e45f5ae76be929dbaaea9f1b87c847093fe5",
+      "bytes": 245
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Basic.lean",
+      "sha256": "6340ceea9bb95841982e5f58ee6fab812fbb778764ffaf24143cb8b8365a414d",
+      "bytes": 10181
+    },
+    {
+      "path": "PDEFoundation/Geometry/EuclideanBall/Topology.lean",
+      "sha256": "adaf9da59165b82aab16198ad3b629e98389170ed5490b5f5f0e70130479d54e",
+      "bytes": 4282
+    },
+    {
+      "path": "PDEFoundation/Sobolev/ClassicalGradient.lean",
+      "sha256": "8b7f1a86e6b75cfa1b0493bdc26a31b04398bb27fd8e86db23fd1f7cd35267fc",
+      "bytes": 2652
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Holder/BarrierSignMatrix.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

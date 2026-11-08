@@ -1,0 +1,30 @@
+"name" = "jordan_curve"
+"testDriver" = "workspace_test"
+"defaultTargets" = ["Challenge", "Solution", "Submission"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Submission"
+"roots" = ["Submission"]
+"srcDir" = "."
+
+[["lean_exe"]]
+"name" = "workspace_test"
+"root" = "WorkspaceTest"
+"srcDir" = "."

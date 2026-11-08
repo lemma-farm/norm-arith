@@ -1,0 +1,251 @@
+{
+  "id": "ae03a210926d5b328ff9",
+  "source": {
+    "repository": "yuningyang19/parameter_free_gradient_p",
+    "commit": "f71215fa936fe01aff8a765c62b399e131df963b",
+    "project": "yuningyang19--parameter_free_gradient_p--f71215fa936f",
+    "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelHessianStructure.lean",
+    "file_id": "05bd9e131e19ed5a985b",
+    "source_sha256": "05bd9e131e19ed5a985b46ca07395212c69345b98c799cb8d6c700de8c4af7ca",
+    "start": 82,
+    "end": 159,
+    "original_start": 79,
+    "original_end": 159,
+    "declaration": "psd_pairing_cauchy_schwarz",
+    "source_url": "https://github.com/yuningyang19/parameter_free_gradient_p/blob/f71215fa936fe01aff8a765c62b399e131df963b/V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelHessianStructure.lean#L82-L159",
+    "archive_url": "https://github.com/PalomarArchive/yuningyang19--parameter_free_gradient_p--0d8079a04516/blob/f71215fa936fe01aff8a765c62b399e131df963b/V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelHessianStructure.lean#L82-L159"
+  },
+  "native_target_name": "V7.Stage5AboveTwoLowerS5A2Envelope.psd_pairing_cauchy_schwarz",
+  "source_declaration_label": "psd_pairing_cauchy_schwarz",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "50b78db26c7102896398ae35f5126e354d528b812572ddea53f0f9a19d29ea6e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d03b32a2ac8945983c6391297f51bb50dc28e1753c022833d6b480b8c154f614",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "O3/Anchor.lean",
+      "sha256": "b06c7d9b24805789e4864993e0a0e844a4fd8886dc7500a0ed231f33c24ef3bb",
+      "bytes": 14141
+    },
+    {
+      "path": "O3/Foundation.lean",
+      "sha256": "ab8b4f67127fefcdd229dbc3bf027c789dba5dc810eb4f38fc1dadf7735ee593",
+      "bytes": 5486
+    },
+    {
+      "path": "O3/Geometry.lean",
+      "sha256": "df6087f92e3158bbc42bd5c72f0081519986215a89effb11f01c6f5b1a03e397",
+      "bytes": 5901
+    },
+    {
+      "path": "O3/GeometryExperimental.lean",
+      "sha256": "8cbdfaf4a0c51b2447b654cf9b209a7b85a8bfc77d8ce6c95451479725c5fdad",
+      "bytes": 10974
+    },
+    {
+      "path": "O3/Oracle.lean",
+      "sha256": "ae834199b1b8519b7291f489420f42c83cd652183dfcc17b12e341f5c67119ca",
+      "bytes": 8055
+    },
+    {
+      "path": "O3/Stage2RouteA.lean",
+      "sha256": "45e79bb9042adbb82c964010140b754fdb25f4c39fe9046b12dfc81a2a3a9608",
+      "bytes": 21168
+    },
+    {
+      "path": "O3/Stage2RouteB.lean",
+      "sha256": "acae8781b8f36e418faaf8053fffeb66befe853695fa35ea1a6a9fc7ffbf96e5",
+      "bytes": 22011
+    },
+    {
+      "path": "O3/Stage2RouteC.lean",
+      "sha256": "e548cbd018ec2645147e7ee267aafb0a179ae4a02bb77919555de71370a08ac4",
+      "bytes": 5727
+    },
+    {
+      "path": "O3/Stage2RouteD.lean",
+      "sha256": "9bd7e0ae2d2c825ab5c00cf979c8be7a4193d5c337c7ba70da5c5a5ad16e622c",
+      "bytes": 8529
+    },
+    {
+      "path": "O3/Stage3AnchorNorming.lean",
+      "sha256": "b2d92c144a98d6fbf0dcb0ac8f38d7e083aec9f6db017ed2d9b747b8e1052ca6",
+      "bytes": 4363
+    },
+    {
+      "path": "O3/Stage3Descent.lean",
+      "sha256": "42efd14215ac6dcdc20215592039f825074d71ece390c7b46b61153d529a365a",
+      "bytes": 6171
+    },
+    {
+      "path": "V7/AboveTwoStatements.lean",
+      "sha256": "512044cf7b1014026911c9589f2b3ddc175f9d59f8f8fa33ef96ec2ce8f3d37e",
+      "bytes": 11573
+    },
+    {
+      "path": "V7/BelowTwoStatements.lean",
+      "sha256": "eb7ee1f9d094d9607ae285627f900dbfc68d8e1a5fb02ddbad7a3287fa4c771c",
+      "bytes": 14229
+    },
+    {
+      "path": "V7/Foundation.lean",
+      "sha256": "d837918bb6b207523efedb48fa19264d86881375597786040f780998114238be",
+      "bytes": 2479
+    },
+    {
+      "path": "V7/Guards.lean",
+      "sha256": "183936d58f6933a92691a411fe843d885d8bd750babd7c5ceae70b626b71d97d",
+      "bytes": 2057
+    },
+    {
+      "path": "V7/LowerBoundStatements.lean",
+      "sha256": "f52ef1e71662d0be75a36253d5602543706fe241f7cde65d4d6e15cf288a8c44",
+      "bytes": 12209
+    },
+    {
+      "path": "V7/PositiveModel.lean",
+      "sha256": "3210de68c60e71e2a440af9f55bb7361f0bfb5a4479054cf331e24c916cb1602",
+      "bytes": 1689
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLower/KernelElementary.lean",
+      "sha256": "c4d884b6b61fb31d60292324a2ddb70c3c31b69fdc98e0610e0e163cdd3fd17b",
+      "bytes": 1202
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLower/LocalityBridge.lean",
+      "sha256": "58dd1b71c91dd18f5eec70103143e9e20527b8b6be01afb00c2e792faed092d0",
+      "bytes": 3232
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLower/Parameters.lean",
+      "sha256": "5a92e2196162d1a34e5b64c5c6dfb618db004eb2f8fbd8055060243e633fbc61",
+      "bytes": 4230
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerResume/InfimalAttainment.lean",
+      "sha256": "4e6000d9d10b4016bbccc0f0ea0c9c8c9ec8546aece9db036b198831ae53f946",
+      "bytes": 15267
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/ConditionalSmoothness.lean",
+      "sha256": "a0d90d7d77717703f179ba7cbfbde177779a7141598b5cad2a7de8d715b03443",
+      "bytes": 7165
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/EnvelopeSupport.lean",
+      "sha256": "d898478719cf918eb0ccbeb00c52853fb2d19c1d14846737ab9f0814bffe6cb2",
+      "bytes": 2443
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelConvexity.lean",
+      "sha256": "a65c873f2b9ebd133d8ebbd0214e6410b02899b4f6f01dc0260af92039336cc9",
+      "bytes": 2903
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelHessianStructure.lean",
+      "sha256": "800fe93212c31db448807dc7a69b75937cbbc543412fbf1df8513ca1f8be58a6",
+      "bytes": 7124
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/PrimalOptimality.lean",
+      "sha256": "fd9ea9288175307159fdffb5de3f52ac57032cbec2f7adf411b5b005041d7fab",
+      "bytes": 3821
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5AFinalRepair/OriginFrechet.lean",
+      "sha256": "ac7ce9b3385a7a407aac9df40f8999f604c74fe959c29521d63406ecfccb80ed",
+      "bytes": 9214
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5AGlobalC2/Calculus.lean",
+      "sha256": "0f486e3cd9bf95a117f09e4fc4faf8582390c5f5877669db740d6a1365a91a24",
+      "bytes": 2288
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5AGlobalC2/Continuity.lean",
+      "sha256": "05ce08e3b5c9ced673a82d29f01d0ce75ceda9d0543552126717d15356835c62",
+      "bytes": 5585
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5AGlobalC2/Core.lean",
+      "sha256": "fe2affcf4c3f53cb350ef3da7a09afdc4f46f744c9639029a47af53d7631c5b7",
+      "bytes": 4154
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5AHessianContinuity/HessianContinuity.lean",
+      "sha256": "724762dba3469227d01bd0da9c38454c9a7d82e1bda33944c9f75a0653bc5a42",
+      "bytes": 12637
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5ARepair/InfimalLocality.lean",
+      "sha256": "b9a31da2062efe9ec402d5fcb0ca031b7d2bf99c867cee463b5286844a044a76",
+      "bytes": 5801
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5ARepair/KernelAmbientHessian.lean",
+      "sha256": "c476748c29b06285353adfe90ab2423a2d96318cd79f3ee4ac2e598c2be956d6",
+      "bytes": 3148
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5ARepair/KernelAmbientNonzero.lean",
+      "sha256": "ac67d0032d3c5d51bd58f9c8868d1f9331eb22ced549d979b7faa48f07618015",
+      "bytes": 3002
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5ARepair/KernelLineCalculus.lean",
+      "sha256": "8c690e272f78ad8f20080198af45c104baefa8bf15f88c6946020b964a357dc2",
+      "bytes": 6653
+    },
+    {
+      "path": "V7/Proofs/Stage5AboveTwoLowerS5ARepair/Parameters.lean",
+      "sha256": "7ab2f6a6724ea355439f306f24a0bcfce17bb87c918e16c261e588c396320d9a",
+      "bytes": 2935
+    },
+    {
+      "path": "V7/StrictModel.lean",
+      "sha256": "3b9f75a1d2fb2b825450dc38f6ba6c9c9d388c75cf3aec16119776996e76d894",
+      "bytes": 5575
+    },
+    {
+      "path": "V7/TrialInterfaces.lean",
+      "sha256": "3f15aba85176f7543e32ce6106e99d055f53f16d1a053372e43b073bc1a950ef",
+      "bytes": 5667
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "559c2eab874ab0f00386b6298c0a3afbf46b64854f8fc7fa0dad7e73bccd5a9d",
+      "bytes": 546,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "V7/Proofs/Stage5AboveTwoLowerS5A2Envelope/KernelHessianStructure.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/ae03a210926d5b328ff9": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/yuningyang19/parameter_free_gradient_p",
+    "source_commit": "f71215fa936fe01aff8a765c62b399e131df963b"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "779a4b299c3a46543d63",
+  "source": {
+    "repository": "akopjan/Grunbaum-counterexample",
+    "commit": "438da254d505b77d58461e35029b2bc6ebcf148e",
+    "project": "akopjan--Grunbaum-counterexample--438da254d505",
+    "path": "SoberonConvexBody/BallLocal.lean",
+    "file_id": "08d6807afee20517d241",
+    "source_sha256": "08d6807afee20517d24121a05a9a7c5f63408e2dade7e264b622c52b5be92898",
+    "start": 108,
+    "end": 121,
+    "original_start": 87,
+    "original_end": 121,
+    "declaration": "coefficient_estimates (hmain)",
+    "source_url": "https://github.com/akopjan/Grunbaum-counterexample/blob/438da254d505b77d58461e35029b2bc6ebcf148e/SoberonConvexBody/BallLocal.lean#L108-L121",
+    "archive_url": "https://github.com/PalomarArchive/akopjan--Grunbaum-counterexample--7f799d003199/blob/438da254d505b77d58461e35029b2bc6ebcf148e/SoberonConvexBody/BallLocal.lean#L108-L121"
+  },
+  "native_target_name": "SoberonConvexBody.BallLocal.coefficient_estimates",
+  "source_declaration_label": "coefficient_estimates (hmain)",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "c939cb1881bf1bb8f76d6c4db7d6a04290ec1828be449a4e00b4a4f57c44a652",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e4094ac7a1643cdd99e212eb7ed54956670fb4fc43092fc83c4f53d641c67082",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SoberonConvexBody/AffineBall.lean",
+      "sha256": "d0b302a996b33760919d2c3b0dc7614a7126c00c96a41e32d826bfc3156ea7d4",
+      "bytes": 9160
+    },
+    {
+      "path": "SoberonConvexBody/BallLocal.lean",
+      "sha256": "c99281c2fa3e470af4f53eb82534f8a48cc83d36776092e018605e13d0c80c0f",
+      "bytes": 9157
+    },
+    {
+      "path": "SoberonConvexBody/Cells.lean",
+      "sha256": "cffe583193ea7ae90754d579e3a40f83037fdf36b76d2207a0df03554df2c7ff",
+      "bytes": 5765
+    },
+    {
+      "path": "SoberonConvexBody/EllipsoidExpansion.lean",
+      "sha256": "c81fbb31fbd1bb3d106c0d6c7472440372ba6b354b47c6a9e0398fdfdebe8250",
+      "bytes": 10197
+    },
+    {
+      "path": "SoberonConvexBody/EllipsoidScalar.lean",
+      "sha256": "9e3e13f6f8dd0a3e8213444c6c0af7e72e58b5883491bb2c4845bedd26cd794d",
+      "bytes": 6238
+    },
+    {
+      "path": "SoberonConvexBody/FrameBasics.lean",
+      "sha256": "d2dcace90ef5187fe1d4feb6df5a8ced2e95bc5be5023a3aa1e6dcc2fd53ffea",
+      "bytes": 1695
+    },
+    {
+      "path": "SoberonConvexBody/FrameGeometry.lean",
+      "sha256": "8572d79cdf622c4c2e1e25c65069da225ef0376436d75bf9f5fce8aee73c24ab",
+      "bytes": 6500
+    },
+    {
+      "path": "SoberonConvexBody/GeometryCore.lean",
+      "sha256": "c658126bb08f3e821580da468fbe9d718832bf596f9b3f9b7e260300c8480097",
+      "bytes": 29868
+    },
+    {
+      "path": "SoberonConvexBody/NearIdentity.lean",
+      "sha256": "5ae282d2f642e0adbe89408a6182821bf04bb02f6a5baab2c7c6c4bcb45bcbfb",
+      "bytes": 6807
+    },
+    {
+      "path": "SoberonConvexBody/PolarGeneral.lean",
+      "sha256": "4601d188d109cf751544e255d61b8a7680337daaceb4ebd6f8fd78fe8a37d41f",
+      "bytes": 4145
+    },
+    {
+      "path": "SoberonConvexBody/ShellBounds.lean",
+      "sha256": "931642c3df97f8bc0ee843c5e898d345154d3654faf0f27f4a83312c611c6a34",
+      "bytes": 10135
+    },
+    {
+      "path": "SoberonConvexBody/ShellStability.lean",
+      "sha256": "251d8ea6a67158aa508058761171b939dca477ced528b68ad5ffa4170609efef",
+      "bytes": 13801
+    },
+    {
+      "path": "SoberonConvexBody/SphereBounds.lean",
+      "sha256": "237240283a489e903dd0a6772b330698dbf53f22b896e3f3422b1e045d54e9de",
+      "bytes": 6405
+    },
+    {
+      "path": "SoberonConvexBody/SphereMeasure.lean",
+      "sha256": "2421c063c00991a944c8795d2d4b25849e42c28640ac81b292c8255848686090",
+      "bytes": 10237
+    },
+    {
+      "path": "SoberonConvexBody/SphereParity.lean",
+      "sha256": "02d608e387e56b72cff4ad952adac39b629066ef769e5e7d663abd9de955d38a",
+      "bytes": 23051
+    },
+    {
+      "path": "SoberonConvexBody/SphereQuadratic.lean",
+      "sha256": "9613efc73c5d21b1cdb19f4e6391e7f6d17b0875feba9af855ae935229b23a82",
+      "bytes": 11506
+    },
+    {
+      "path": "SoberonConvexBody/TensorDefs.lean",
+      "sha256": "eacb0caa682cebac380abaf93595db4e326f3c75681f8acd594647ccda24272e",
+      "bytes": 4478
+    },
+    {
+      "path": "SoberonConvexBody/TensorLocal.lean",
+      "sha256": "fad8bd801e5a604f19d6d0ee7288950920793e2bd79fe5ab8ac658d565801ed1",
+      "bytes": 8139
+    },
+    {
+      "path": "SoberonConvexBody/TensorMultilinear.lean",
+      "sha256": "6b80dfc4bfaf2c3181bb7ce79966d8d5320dc9c5134b1ffc4121edabeaf5d04f",
+      "bytes": 2941
+    },
+    {
+      "path": "SoberonConvexBody/TensorParity.lean",
+      "sha256": "d2f899b47ad0034b416daf138f5897574368f6e67ea2a9736b9b13c2e3800a76",
+      "bytes": 4259
+    },
+    {
+      "path": "SoberonConvexBody/TensorZeroAlgebra.lean",
+      "sha256": "005432643148cedf7613d4fe5d9111195ec97254ba57b0678a3358fd3aa8a0ed",
+      "bytes": 9305
+    },
+    {
+      "path": "SoberonConvexBody/TensorZeroClassification.lean",
+      "sha256": "c64d125c13709cc37c7520342c2ac8f786ad6af671d8d5a6bb749997bacfc473",
+      "bytes": 26648
+    },
+    {
+      "path": "SoberonConvexBody/Tensors.lean",
+      "sha256": "4d5efed343230e9c00c024a53c533b8245e5ae1597f3bcd10ab872dac5ab752b",
+      "bytes": 5294
+    },
+    {
+      "path": "SoberonConvexBody/Walsh4.lean",
+      "sha256": "1fcb07bacdfd079c1b5b96fe59fb245411c587b4455c428f293e78441dc2dde6",
+      "bytes": 5097
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "d7a22ab4ef5b206a7b89592c8ecb52483d5ab273523c6b2b0163bf42c260a549",
+      "bytes": 812,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "SoberonConvexBody/BallLocal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/779a4b299c3a46543d63": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/akopjan/Grunbaum-counterexample",
+    "source_commit": "438da254d505b77d58461e35029b2bc6ebcf148e"
+  }
+}

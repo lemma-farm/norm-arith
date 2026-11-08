@@ -1,0 +1,196 @@
+{
+  "id": "026d136d770613a39350",
+  "source": {
+    "repository": "amelieloher/hoermander-rothschild-stein",
+    "commit": "d1462014b4ca69cf04b250582ea45021aa07b546",
+    "project": "amelieloher--hoermander-rothschild-stein--d1462014b4ca",
+    "path": "RothschildStein/H2/CutoffHolderBounds.lean",
+    "file_id": "00007a3a95c103bb37ee",
+    "source_sha256": "00007a3a95c103bb37eee8740947f90dbea58e1601351ce164f019e431142052",
+    "start": 24,
+    "end": 36,
+    "original_start": 21,
+    "original_end": 36,
+    "declaration": "KernelCutoff.holderSemi_ball_le",
+    "source_url": "https://github.com/amelieloher/hoermander-rothschild-stein/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H2/CutoffHolderBounds.lean#L24-L36",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hoermander-rothschild-stein--a3f8df3a01f8/blob/d1462014b4ca69cf04b250582ea45021aa07b546/RothschildStein/H2/CutoffHolderBounds.lean#L24-L36"
+  },
+  "native_target_name": "RothschildStein.H2.KernelCutoff.holderSemi_ball_le",
+  "source_declaration_label": "KernelCutoff.holderSemi_ball_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "5b353fca337e6447dda6ef7cd9428443076a1282d6f69837d362cc88b920b179",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "04eb938079128efb3ac76c6f9d98df23a8981f687544f5fd48616273b85c1f6b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RothschildStein/H2/AbsoluteConvergence.lean",
+      "sha256": "5b35899cf912f17023ee9e4c2e2014bbdc7a6df1239d7a2e922f024b4fda00fe",
+      "bytes": 4408
+    },
+    {
+      "path": "RothschildStein/H2/AnnularIntegrals.lean",
+      "sha256": "407cfcd7799393f7bddad15ad9498a0721b0aa0a4eebadcda1b5763e755a2bd1",
+      "bytes": 3940
+    },
+    {
+      "path": "RothschildStein/H2/BallMeasures.lean",
+      "sha256": "531363df23b774484cf4e05a8051a8939dbb67d2f819d33a4afb39efdf4d790b",
+      "bytes": 2748
+    },
+    {
+      "path": "RothschildStein/H2/CutoffHolderBounds.lean",
+      "sha256": "00007a3a95c103bb37eee8740947f90dbea58e1601351ce164f019e431142052",
+      "bytes": 2598
+    },
+    {
+      "path": "RothschildStein/H2/FractionalConvergence.lean",
+      "sha256": "8605045d05524c122707e9cece53f8515919a86ca69b566c4382518afb3c2974",
+      "bytes": 4012
+    },
+    {
+      "path": "RothschildStein/H2/FractionalHolder.lean",
+      "sha256": "e3632f0fea6c49126e520cbb9624528a67a2da614ca03f25668ad990a183b89d",
+      "bytes": 6392
+    },
+    {
+      "path": "RothschildStein/H2/FractionalHolderFar.lean",
+      "sha256": "2a4c1e341f4a7c2c5c7e7ef8fcc88babd30323b6e7d49b0601c1bb768e49deb7",
+      "bytes": 4179
+    },
+    {
+      "path": "RothschildStein/H2/FractionalHolderNorm.lean",
+      "sha256": "d36973c77ae3c296e944549ec8e6d2bf6723d0eff5f64d12cba82dd963c8c485",
+      "bytes": 3239
+    },
+    {
+      "path": "RothschildStein/H2/FractionalHolderSplit.lean",
+      "sha256": "c648805cace14a548d98cf4bb695e402c6179ddfc4524a3fe3b1ddef5bec6371",
+      "bytes": 4134
+    },
+    {
+      "path": "RothschildStein/H2/FractionalNear.lean",
+      "sha256": "e77918397d611774da6749ade8986df953fc2dea33cefe44b8e5ea9901f6f33b",
+      "bytes": 2795
+    },
+    {
+      "path": "RothschildStein/H2/HolderEstimates.lean",
+      "sha256": "4457f27098943ae5b6dd791d5f22cf39326069c4cc95dec00e217e8c24e9a8c7",
+      "bytes": 7516
+    },
+    {
+      "path": "RothschildStein/H2/HolderOperations.lean",
+      "sha256": "fe49ae8e013941fe1a577be0547065cdc57275eafd5f940b50e16057d43cc040",
+      "bytes": 3005
+    },
+    {
+      "path": "RothschildStein/H2/HolderSpaces.lean",
+      "sha256": "f650f58e79cfcefe4166d07fd65a70a07cbd742e2523d7d11492779ec38250c2",
+      "bytes": 3703
+    },
+    {
+      "path": "RothschildStein/H2/IntegralBounds.lean",
+      "sha256": "7309130c3f57fd517ee25005ff4c9d22b09ad0a45e8f275028f0e0d62fde413b",
+      "bytes": 1106
+    },
+    {
+      "path": "RothschildStein/H2/IntegralDefs.lean",
+      "sha256": "f52a414fcbd272f096decd5e73c3b37e6a0fdee3b44e3d3cf2cab3ed44336289",
+      "bytes": 2498
+    },
+    {
+      "path": "RothschildStein/H2/KernelClass.lean",
+      "sha256": "afd8bcac305b31378fe2919a4c0381c5c983bdad5e1d24de6d70dc2fdea11c75",
+      "bytes": 4202
+    },
+    {
+      "path": "RothschildStein/H2/KernelIntegrability.lean",
+      "sha256": "7c59659f3cd112535c346d6e03bf2d9e08926ec5baac87b9f2780c30186d5bee",
+      "bytes": 5032
+    },
+    {
+      "path": "RothschildStein/H2/KernelLocalization.lean",
+      "sha256": "f52f1def8372548dfe1b84ddd2e4c549e794c80c6d80e5c5c28fcdeb7a214d29",
+      "bytes": 1956
+    },
+    {
+      "path": "RothschildStein/H2/KernelWeights.lean",
+      "sha256": "fd1f09ab8dd2f4aee3415f12330402dd1d9dd1d952a154103cbfb380838f3a93",
+      "bytes": 2849
+    },
+    {
+      "path": "RothschildStein/H2/LocDoubling.lean",
+      "sha256": "c89981f1040cdde43fdf2718c4be51f4a6902a13d284c8160c3d690edfd5a1fb",
+      "bytes": 2972
+    },
+    {
+      "path": "RothschildStein/H2/LocalizationBounds.lean",
+      "sha256": "1c96b573a2f5c2cfc67b85e098b1665a61963e37de3d16a4a029a54db66dcb48",
+      "bytes": 2777
+    },
+    {
+      "path": "RothschildStein/H2/LocalizedKernelDefs.lean",
+      "sha256": "a1e2f2ef42c107a3d522e23bcec640a249f93db1710b9923a907a25b9aaa36f0",
+      "bytes": 3330
+    },
+    {
+      "path": "RothschildStein/H2/LocalizedKernels.lean",
+      "sha256": "7035a914685334a1b00862dfdbc4f66c60e1b0aa9452017ffb85abcd43f9264f",
+      "bytes": 6827
+    },
+    {
+      "path": "RothschildStein/H2/Patches.lean",
+      "sha256": "fd17523c0ca4deb8fcf7b53e104378e999b2ff6a6cbfedd216ca7b6c438c6631",
+      "bytes": 1749
+    },
+    {
+      "path": "RothschildStein/H2/VolumeComparison.lean",
+      "sha256": "7ca519ff2609c63ddf1a647f85915c7628d54cd437a240c2ae0ca2addf650741",
+      "bytes": 1742
+    },
+    {
+      "path": "RothschildStein/H2/VolumeGrowth.lean",
+      "sha256": "e1fe5b672f3c4e892b61ff934e813b9293c2e2c42a1f5a33d32838513036a0ae",
+      "bytes": 3975
+    },
+    {
+      "path": "RothschildStein/H2/VolumeIntegrals.lean",
+      "sha256": "5365edf2a19ae83bc0195ae6f4e8c5e18d54dc2710e76f84b5423002a1117048",
+      "bytes": 6206
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a1d28685d932ab03a360adc0e9c9af36d224bace1928bcecc09597d9195731bf",
+      "bytes": 1882,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RothschildStein/H2/CutoffHolderBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/026d136d770613a39350": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hoermander-rothschild-stein",
+    "source_commit": "d1462014b4ca69cf04b250582ea45021aa07b546"
+  }
+}

@@ -1,0 +1,23 @@
+"name" = "GoldbachLeanHalupczok2012"
+"version" = "0.1.0"
+"defaultTargets" = ["ChallengeHalupczok2012", "SolutionHalupczok2012"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "LeanLab"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeHalupczok2012"
+"roots" = ["ChallengeHalupczok2012"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SolutionHalupczok2012"
+"roots" = ["SolutionHalupczok2012"]
+"srcDir" = "."

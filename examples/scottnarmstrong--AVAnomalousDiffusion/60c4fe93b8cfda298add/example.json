@@ -1,0 +1,886 @@
+{
+  "id": "60c4fe93b8cfda298add",
+  "source": {
+    "repository": "scottnarmstrong/AVAnomalousDiffusion",
+    "commit": "c5b0e710c14cf41eca33dc2ae5d7aeceff829f99",
+    "project": "scottnarmstrong--AVAnomalousDiffusion--c5b0e710c14c",
+    "path": "AVenhance/Infra/Classical/GalerkinResidual.lean",
+    "file_id": "04448ad26f145f362fe3",
+    "source_sha256": "04448ad26f145f362fe3f9db0c649c986af413e1876024342531299aef54b91e",
+    "start": 161,
+    "end": 197,
+    "original_start": 134,
+    "original_end": 239,
+    "declaration": "classicalSmoothSource_gradient_energy_le_of_projection_bounds",
+    "source_url": "https://github.com/scottnarmstrong/AVAnomalousDiffusion/blob/c5b0e710c14cf41eca33dc2ae5d7aeceff829f99/AVenhance/Infra/Classical/GalerkinResidual.lean#L161-L197",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--AVAnomalousDiffusion--6a23398d8017/blob/c5b0e710c14cf41eca33dc2ae5d7aeceff829f99/AVenhance/Infra/Classical/GalerkinResidual.lean#L161-L197"
+  },
+  "native_target_name": "AVenhance.Infra.Classical.classicalSmoothSource_gradient_energy_le_of_projection_bounds",
+  "source_declaration_label": "classicalSmoothSource_gradient_energy_le_of_projection_bounds",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "6715540ecbc57887567cdcae2312903b9adb64cbd6dbed5e6eaff8f8a1d56f75",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "51173c44c4c52ce2e6330a5e13f494ab68c8170f217bbbdff8e5bf4258987285",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "AVenhance/Infra/Classical/Commutator.lean",
+      "sha256": "c772f0a47a724d394cfa7b0f97fbd5b7135a5e130d602984915d99663c73c67b",
+      "bytes": 34730
+    },
+    {
+      "path": "AVenhance/Infra/Classical/DerivativeBounds.lean",
+      "sha256": "508d230c156fa90c7165638f86ce8eb413038e9fb2301f471fffa6c2fb1ffd64",
+      "bytes": 456
+    },
+    {
+      "path": "AVenhance/Infra/Classical/Drift.lean",
+      "sha256": "c18aa9e14f7ec92e8f66f7e154ba7f2be2855891031051029750d5b24c1c95a0",
+      "bytes": 4115
+    },
+    {
+      "path": "AVenhance/Infra/Classical/FamilyEnergy.lean",
+      "sha256": "cc7af40147d30fbb9235b3d04b6db72bdc4ded0737fabcd6e675f5379e950a21",
+      "bytes": 18278
+    },
+    {
+      "path": "AVenhance/Infra/Classical/ForcedGalerkin.lean",
+      "sha256": "2b3063a2da78a5a0c1d501462fab0f26718f848100cd15defa4ff0b1ab9be8f2",
+      "bytes": 21687
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinBounds.lean",
+      "sha256": "f942088e35614e7a53dbf6a72ce7068d053820e8cd8d2dd9080d30d67e759187",
+      "bytes": 14709
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinConvergence.lean",
+      "sha256": "dbfbff8969148254940c964dd92f05c159d6e5cce5862f5506c608e97fa60fb8",
+      "bytes": 1617
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinDerivative.lean",
+      "sha256": "1102125d626f5dba6f0f850aa3c8dcc7fd50dd8c68eae82f51b2400841e55bd8",
+      "bytes": 28543
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinEvolution.lean",
+      "sha256": "6382df31ca54a4b567b400be535eda41022c5bd0b7bc7009158e6f37f6b92c3a",
+      "bytes": 7184
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinExistence.lean",
+      "sha256": "e48e595966a75214eb9385a28724960801af70f6d5527c67d958a240c0df4cca",
+      "bytes": 32765
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinForcing.lean",
+      "sha256": "e2fd5410adca20f1d964f4320c11fe62e44eb73993364c77c69560426caec458",
+      "bytes": 6786
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinGenerator.lean",
+      "sha256": "332fea49d5f818478cb6c77a9d2ef96b93d1126e7e64bc094d9fcdfc2225569b",
+      "bytes": 43216
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinModeCalculus.lean",
+      "sha256": "7ef1a3382d942782b20e159dba1e36dc4f297a5e22ad2caf56f7ff8bf81d809e",
+      "bytes": 33180
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinProblem.lean",
+      "sha256": "d0069304556f25210113db1e5d33d9aaa028535cc62cfea63b4b5d7f389d9e52",
+      "bytes": 5307
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinResidual.lean",
+      "sha256": "ac26d93b807d434acc566cf3e47749f0fd12ed19b998ec936ee38283636c3d0d",
+      "bytes": 23942
+    },
+    {
+      "path": "AVenhance/Infra/Classical/GalerkinResidualTail.lean",
+      "sha256": "96591557063292212014ddd94c848433c09b0684c541fc77a1bceb44f9d7ec8e",
+      "bytes": 16281
+    },
+    {
+      "path": "AVenhance/Infra/Classical/PeriodicCalculus.lean",
+      "sha256": "817527e410ef1efbb30763ce796e7acf5c9158ce6567515e13b770099ce04ac4",
+      "bytes": 19047
+    },
+    {
+      "path": "AVenhance/Infra/Classical/TimeEnergy.lean",
+      "sha256": "d96e3a5c7a37263049ba884c61575da73cff0c1c7ae6cf92aa79ae2b3ca6d556",
+      "bytes": 17142
+    },
+    {
+      "path": "AVenhance/Infra/Construction/NextStreamFinite.lean",
+      "sha256": "842e22830ada6deb5344aacfcde705f373ce06a8edd9528792b36fdaa4971f1c",
+      "bytes": 2358
+    },
+    {
+      "path": "AVenhance/Infra/Construction/StreamAdmissible.lean",
+      "sha256": "0e7eab3953aeca4ce31467cb70cb553463c425754cde83f615a8ec3c885a298f",
+      "bytes": 3316
+    },
+    {
+      "path": "AVenhance/Infra/Cutoff/TimeScaleFacts.lean",
+      "sha256": "f354708fc8454591db12c2a8b9d32b4313bb6cdf44c4bc2a87c063ebbe42049f",
+      "bytes": 5685
+    },
+    {
+      "path": "AVenhance/Infra/Flow/Continuity.lean",
+      "sha256": "85bb8904b8cf9073e5ac996edf5b48057927812e0b0b6e6ac76a301aca155a6a",
+      "bytes": 6200
+    },
+    {
+      "path": "AVenhance/Infra/Flow/CurveUniqueness.lean",
+      "sha256": "0b21e19f1dda41db7d0ec4de2e28f2bebca41138f93c9a5e67b404df0d2421e1",
+      "bytes": 1673
+    },
+    {
+      "path": "AVenhance/Infra/Flow/Estimates.lean",
+      "sha256": "7a77f0fd79fa6aee51a9cc9d6f8b56c4ad4f2f7dca4d2615d32f496f80845e77",
+      "bytes": 4608
+    },
+    {
+      "path": "AVenhance/Infra/Flow/FlowOn.lean",
+      "sha256": "dcd9e986ee088d5f4a94e6d60ac8986325a265a34e3ba9a307a2424b4c3c8279",
+      "bytes": 612
+    },
+    {
+      "path": "AVenhance/Infra/Flow/GlobalExistence.lean",
+      "sha256": "cdef6018e320869b9d8dd416882db4be7f6cc15974224f2b6e361277fcb93858",
+      "bytes": 20902
+    },
+    {
+      "path": "AVenhance/Infra/Flow/Laws.lean",
+      "sha256": "8c639c856d61e2ce7f6f516b45c8e3efc41dfd35b9a7f8678add9959b6082bd8",
+      "bytes": 3527
+    },
+    {
+      "path": "AVenhance/Infra/Flow/PeriodicSmooth.lean",
+      "sha256": "9d64fd2618d11b626165dc7c7c5d7a9f083caf577956ba8e3694ce8575ad501c",
+      "bytes": 4974
+    },
+    {
+      "path": "AVenhance/Infra/Flow/SmoothField.lean",
+      "sha256": "4ae87d446128166e196bbeadb93eb03e68c75e657dcafa473c4a7d1970b1c463",
+      "bytes": 3022
+    },
+    {
+      "path": "AVenhance/Infra/Heat/Energy.lean",
+      "sha256": "7f954d9d152be58d8d9a4d032e100a10d938bd002ff6554565a90f6fb7ab8dde",
+      "bytes": 14637
+    },
+    {
+      "path": "AVenhance/Infra/Heat/Semigroup.lean",
+      "sha256": "9add4190dcd5309ce379fb752fec83b502ffc1f09887f625f2896f900d2f8d26",
+      "bytes": 4405
+    },
+    {
+      "path": "AVenhance/Infra/Ingredients/EpsilonConsequences.lean",
+      "sha256": "5307e819b31034edc48efd3d30a8322768facc0cd9b8652c2e320331068dd669",
+      "bytes": 17891
+    },
+    {
+      "path": "AVenhance/Infra/Ingredients/LIdxConsequences.lean",
+      "sha256": "576f4b7c2f30e3e21e08841c36201b466b7be51180d80dee80ad380b5758e252",
+      "bytes": 4094
+    },
+    {
+      "path": "AVenhance/Infra/Ingredients/Parameters.lean",
+      "sha256": "7a09f4ac0342feb5417f1d916d9fc1a339ddd133d0b101ecca27f67b3ea62b90",
+      "bytes": 8529
+    },
+    {
+      "path": "AVenhance/Infra/Ingredients/TimeScaleBounds.lean",
+      "sha256": "10e6f347193af352423ffd1e6a656fffbc997b004ace21df00e490e8ce1dc6b5",
+      "bytes": 10007
+    },
+    {
+      "path": "AVenhance/Infra/Ingredients/TimeScales.lean",
+      "sha256": "fd3577de0b75339c0cb251bbb80a710e19e32ce986dd0d9869f79bdc2de7aeb4",
+      "bytes": 2460
+    },
+    {
+      "path": "AVenhance/Infra/ODE/Linear.lean",
+      "sha256": "c988a5b94cc24219d79258ebc592ce65a5f4cb02c359ca668f9828a357eb79af",
+      "bytes": 552
+    },
+    {
+      "path": "AVenhance/Infra/ODE/Linear/Basic.lean",
+      "sha256": "01230b3cdfe01659aec4b08343c080458c5fdb97ad2a9d5998a3b9bb981b28d2",
+      "bytes": 6993
+    },
+    {
+      "path": "AVenhance/Infra/ODE/Linear/Energy.lean",
+      "sha256": "3b705be65bbdd6d1a18224df26f063b5159809d5b2ffcdb524152848c433a30e",
+      "bytes": 4141
+    },
+    {
+      "path": "AVenhance/Infra/ODE/Linear/Existence.lean",
+      "sha256": "fa1e835d19e227d52b0f7b2feb9cfa00d6480f203fc4fb0f07e7964cafdf382e",
+      "bytes": 16079
+    },
+    {
+      "path": "AVenhance/Infra/ODE/Linear/Gronwall.lean",
+      "sha256": "ebc943521f7939929b6281fbd9741a90b53773c89688dccde26210464a12dae8",
+      "bytes": 10903
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/Basis.lean",
+      "sha256": "30f86ab2c5be1faea4bd6f9b26df234ae144371417c26960b75f27679a08698e",
+      "bytes": 5532
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/Compactness.lean",
+      "sha256": "ebbd7e00a39a4383346242eebe23aa7f0a3c5c9ac5e969bf2a87c127b420aea7",
+      "bytes": 8392
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/ConcreteData.lean",
+      "sha256": "5e0669ddaf39420404df329e064ab42c29072361bad7264ac1f8268b07074a38",
+      "bytes": 51032
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/CutoffNesting.lean",
+      "sha256": "c6d3d0004523253d02d4077120e6e1f5a686df61d203e02a0bf1689ffec21fcf",
+      "bytes": 6424
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/Density.lean",
+      "sha256": "dbd775205e365b0860711b1b0e4a11a9d21d51c34b7e0cb1601897ff61d487f0",
+      "bytes": 5770
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/Energy.lean",
+      "sha256": "6abd729ec892cb975b673d379edbefaeb5c0195afc0fcdc14e6d2fc84b105cf8",
+      "bytes": 11776
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/FourierLimit.lean",
+      "sha256": "c9c120e38195aec9d2266b2c054866ae0440bd3cd2e8798180dcfec98995c35c",
+      "bytes": 6964
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/FrozenDrift.lean",
+      "sha256": "1acc9867937d4c59eb1cc8a173a54ff2ea262cdb251567a130001ab1bfe44ac5",
+      "bytes": 12354
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/FrozenInitialData.lean",
+      "sha256": "0655d89a0c0e6ed9aa3fe15caa8a4c4ac40c1294f5f5aeb4bdff61cb128a928e",
+      "bytes": 3399
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/FrozenMatrix.lean",
+      "sha256": "122fec83ba41c800b8c2cd51fd3e80c48fb04202e01b32ceea0786727df86d79",
+      "bytes": 14749
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/GalerkinSequence.lean",
+      "sha256": "eeb673d86ecba5b9f5d71b8ffedb6463b261c494725f4ab773d7b0a781b4f28f",
+      "bytes": 8713
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/GradientSpace.lean",
+      "sha256": "f86e7f21f136b7ca74f524552711d336458cb5714dc13ed4cba5a33d2ecaf626",
+      "bytes": 4894
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/LimitPassage.lean",
+      "sha256": "1db56c973e2b6db164a0f5fbf9327ced16f73d4106e487d1e4f834c56b7dca26",
+      "bytes": 6857
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/MatrixOperator.lean",
+      "sha256": "57e59f54e1ba8f786b13229ed21f617bd762afd8245b4c9c39d30419e54e5692",
+      "bytes": 5312
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/ODE.lean",
+      "sha256": "3aa664e5ee624b4c64e19ba2e58adbbf58a40088e8b0f4182250f48bf2990519",
+      "bytes": 6020
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/PathCompactness.lean",
+      "sha256": "f042921083fb03056365541ed82c21cf56e41268a6e5d805b54980cf4739da6f",
+      "bytes": 25546
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/ProjectionCoefficients.lean",
+      "sha256": "e6d70175d1d59794f6f54fb846da653b87f4096e1478401ba2e4aada0b11cff5",
+      "bytes": 28101
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/RealModes.lean",
+      "sha256": "298d1adebb464682981b40e0849c38164f5052e8a615574437cbe685cb42511d",
+      "bytes": 449
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/RealModes/Frequency.lean",
+      "sha256": "25582a8fc2ef046d08d83c7c5f794a7cf6728bbae690d1bba7ccd88c930df1a0",
+      "bytes": 6200
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/RealModes/Modes.lean",
+      "sha256": "deb82aa9c9312539f1b1055b9c39ed832814c98f685704e6f889db8729b8911e",
+      "bytes": 35750
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/RealModes/Projection.lean",
+      "sha256": "423f0b56db185c38af254c12eaf8b25a811b5ee178ddeb7dba823a7879a0a436",
+      "bytes": 16244
+    },
+    {
+      "path": "AVenhance/Infra/Parabolic/FourierGalerkin/ScalarSpace.lean",
+      "sha256": "47d67d24dbb51e70e7acef9254224fe2a6f02135e5368c3798bd404a7867ba1f",
+      "bytes": 8199
+    },
+    {
+      "path": "AVenhance/Infra/Torus.lean",
+      "sha256": "9d092803c50b6d2d1478d19471d3ee8a04935564d0710e670f4744490bcf207c",
+      "bytes": 426
+    },
+    {
+      "path": "AVenhance/Infra/Torus/Basic.lean",
+      "sha256": "68aff36c9b055d594f8e4645d40cd8f985320c65e173dafbed47d812a7112151",
+      "bytes": 9833
+    },
+    {
+      "path": "AVenhance/Infra/Torus/Calculus.lean",
+      "sha256": "33afc871b1cc3f9b346ec4eaa87643920e8f64058e1b52949405e8896f8b673a",
+      "bytes": 6606
+    },
+    {
+      "path": "AVenhance/Infra/Torus/Fourier.lean",
+      "sha256": "8d7f5fb087d55f08ee15df74a77a9951fef452f7bd1aa5fd8cf7abcf0ab35889",
+      "bytes": 2231
+    },
+    {
+      "path": "AVenhance/Infra/Torus/FourierCalculus.lean",
+      "sha256": "114bfe1c62ca8a65966a02731170173f2df496f812758d3ade43edee724df817",
+      "bytes": 20878
+    },
+    {
+      "path": "AVenhance/Infra/Torus/FrozenBridge.lean",
+      "sha256": "04978f87fd5ef1b6669fc3f050c4fdea4c32835b5f48dc544392a9d746598ba6",
+      "bytes": 7141
+    },
+    {
+      "path": "AVenhance/Infra/Torus/Slicing.lean",
+      "sha256": "142a83464d19faed789ed234e1b6301465f23833961d88f0f862f41f1ca15707",
+      "bytes": 4664
+    },
+    {
+      "path": "AVenhance/Proofs/Flow/ExistsUniqueFlow.lean",
+      "sha256": "1cc7cb432e9585984750fddd38b12544cdf817ba3a83b39b29ec022d95f383f4",
+      "bytes": 628
+    },
+    {
+      "path": "AVenhance/Statements/Construction/BarNorm.lean",
+      "sha256": "1e1bb5558617c4e3eacc4331fec776a49dc3f8eb715370ae3f45b3076ea95552",
+      "bytes": 1588
+    },
+    {
+      "path": "AVenhance/Statements/Construction/IsAdmissibleStream.lean",
+      "sha256": "46136f7b31ac431e0503019d7d10c26a374422d71f2579a4fed4e9b28c3ff0ca",
+      "bytes": 1328
+    },
+    {
+      "path": "AVenhance/Statements/Construction/IsStreamSeq.lean",
+      "sha256": "53f061c28689797d651fbea541d3710edcece2f2f7f81dbd643c74235b538077",
+      "bytes": 1258
+    },
+    {
+      "path": "AVenhance/Statements/Construction/NextStream.lean",
+      "sha256": "1f9dd4d14b1478bb1683be1cd405676e35b0584eb01b03badf0ead632b95122f",
+      "bytes": 1315
+    },
+    {
+      "path": "AVenhance/Statements/Construction/NextStreamSummable.lean",
+      "sha256": "8311298c2ef30ebd3564fc723b59717f951287a866fd4fccbeb777e7339097d4",
+      "bytes": 1368
+    },
+    {
+      "path": "AVenhance/Statements/Construction/NextStreamTerm.lean",
+      "sha256": "d8875cbc238321b7ed9ebdf36daa69740a57b5c2337e5df651552dce98d07ccf",
+      "bytes": 1520
+    },
+    {
+      "path": "AVenhance/Statements/Construction/StreamVel.lean",
+      "sha256": "4650e320133bbd7381516927dc38b0ef203b301183a44a139ac09cc0da11f832",
+      "bytes": 1071
+    },
+    {
+      "path": "AVenhance/Statements/Construction/StreamVelContinuous.lean",
+      "sha256": "2cc8ba36c26e55186e9cd05dd0c078e79f9a53f168453244f54fff54bef11b04",
+      "bytes": 1189
+    },
+    {
+      "path": "AVenhance/Statements/Construction/StreamVelLipschitz.lean",
+      "sha256": "f27a44b9407752d31d465293111c14c6dec82d9da1907cf2241afe4ff507fbe2",
+      "bytes": 1280
+    },
+    {
+      "path": "AVenhance/Statements/Flow/ExistsUniqueFlow.lean",
+      "sha256": "a24e157a54b5290126dc1e459371e065607a64ce394a59ec95959214cef36164",
+      "bytes": 788
+    },
+    {
+      "path": "AVenhance/Statements/Flow/IsFlow.lean",
+      "sha256": "6b9e1a83c9bf4100b127fce061ec875af89ba5e0e08cc2509fa7896322b29cc4",
+      "bytes": 780
+    },
+    {
+      "path": "AVenhance/Statements/FlowDefs/Flow.lean",
+      "sha256": "e2550eba4cf5389013103e02ea01961a4227ad8ed2d64dd2768b3e4f7a379964",
+      "bytes": 827
+    },
+    {
+      "path": "AVenhance/Statements/FlowDefs/FlowInv.lean",
+      "sha256": "c22672dd2ced5f8317282f0710216dfcd9235829f433a510c03af085b600ea14",
+      "bytes": 784
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/A.lean",
+      "sha256": "7d24ca4a851a56570934a9736db3ea53056bf5587933ad364a39acbb5a470538",
+      "bytes": 541
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Delta.lean",
+      "sha256": "d08acfb10043192ad9b1aac595118f5947d779a8338a0d97db3f287a9fb70827",
+      "bytes": 586
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Epsilon.lean",
+      "sha256": "a4d31025e9d1ec6ebe6b5bc132bfb19009f9d3007590a10ec0974747e51ec737",
+      "bytes": 669
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Gamma.lean",
+      "sha256": "c502a38feaa1c4de5719dcd5fd289857839704998145888c846fdbdbeda8b022",
+      "bytes": 520
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/HatXiML.lean",
+      "sha256": "484e0dbcc99c10e63c30d411c4c9642a1a9a24270f3631a4333c3ee9936f8d74",
+      "bytes": 639
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/HatZetaML.lean",
+      "sha256": "b0a8e5997a74252af79ef709edf4af521c0c38068aea4b473c813ade6189b12e",
+      "bytes": 658
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/IndIcc.lean",
+      "sha256": "e8d607b9d8ad5bf3f1586064490446d78f9246997980807ae2211ddbad7cc128",
+      "bytes": 584
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Ingredients.lean",
+      "sha256": "ca8144259c4ee1128eaf033a582c6a6e75b679586d4ce263aff170908181685e",
+      "bytes": 4663
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/LIdx.lean",
+      "sha256": "cb40801c20d7f895df615fb60db0e66c0257003edcb6aee238ed30acafd26d24",
+      "bytes": 819
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Nstar.lean",
+      "sha256": "c705ec35046ccc6202291a54dcc6f9f3cbd0e8affbacd3ccb633a1767088e2c6",
+      "bytes": 1014
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Psi.lean",
+      "sha256": "fe952890fd347b2be6747ab5b04c6f3ec8d92f083bebcaadd9e2bd557fd3a094",
+      "bytes": 656
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Psi0.lean",
+      "sha256": "731c511d873827f963aa2d939b1cacdc8db4a9233bcfa799116838eb712d8f83",
+      "bytes": 728
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Q.lean",
+      "sha256": "c5841d80f29abc48ce62736f8254f6d2cd5eeca2c5dcc92486e68466ebaef85e",
+      "bytes": 543
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/ScaledCutoff.lean",
+      "sha256": "da2446a6b8f9e19f4318e469ea799653a5cb0f9b7ec32e8e33e7cb61319cfdd9",
+      "bytes": 618
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/ShiftCutoff.lean",
+      "sha256": "fbc9fda98af5e90ee7e168f00e6cb640029705c204ffa39daf88b7c04fb85fa1",
+      "bytes": 581
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/Tau.lean",
+      "sha256": "e10114bac883b35659e77e72dd304117fad4217d7c9a7e6066b95bfb1ef8b8d4",
+      "bytes": 704
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/TauP.lean",
+      "sha256": "fa4de6fb1bf353c50b9fb3a974d4096264512ddfb0d3fd44a3b89cc992c15cf4",
+      "bytes": 702
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/TauPP.lean",
+      "sha256": "5c55b41a660761477c423cb2a6f0579186284fbebd906539960d0912af4d9850",
+      "bytes": 737
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/XiMK.lean",
+      "sha256": "6edb8c0b9e293027a3696dd8e6d8340399a71911f983eaa3e4f4e7ff2d720936",
+      "bytes": 657
+    },
+    {
+      "path": "AVenhance/Statements/Ingredients/ZetaMK.lean",
+      "sha256": "6415ab16157caa177561d0ae74502087875052f8e133d77075c29a7c480b9313",
+      "bytes": 636
+    },
+    {
+      "path": "AVenhance/Statements/Roots/GradNormSq.lean",
+      "sha256": "6e2f80ec1c3e0c71adf232898d49842a6a70ff0dc133872eb7d09943fc075c90",
+      "bytes": 587
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsDivFree.lean",
+      "sha256": "a1c8c50696af5ed894340199aa7471c76809e99490ceca3b136a131a361fa980",
+      "bytes": 839
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsHolderClass.lean",
+      "sha256": "ebe9560d1b4de9a06c5f99ecf578da86e9abe4a879dba60951d64e85e5f1404f",
+      "bytes": 1011
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsPeriodicH1.lean",
+      "sha256": "314473c27f180de9faff816ff8b73bca98cd8d6194c24560ade0b1a18c8cbf60",
+      "bytes": 547
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsPeriodicH1With.lean",
+      "sha256": "cea2f415f11834280542ab7e1492b7824e91f1a5ed422d5cca0f2d04b04a3a4f",
+      "bytes": 671
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsTestFunction.lean",
+      "sha256": "62c57bb76be9fff0734bdeaa84344252e1f28b64b72c89224ecab7673d78e25b",
+      "bytes": 673
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsWeakSolutionGrad.lean",
+      "sha256": "13336dc9d6f7b7852d002424d5236a906200949cbb6f320030f6199aa22dd5dc",
+      "bytes": 1719
+    },
+    {
+      "path": "AVenhance/Statements/Roots/IsZ2Periodic.lean",
+      "sha256": "b4c321c6d1da851ce66d9880dfe09a3b2c097d9dd9c3893a1bf494550711f75b",
+      "bytes": 639
+    },
+    {
+      "path": "AVenhance/Statements/Roots/L2NormSq.lean",
+      "sha256": "805698dc87c01b8bff305627fca6e223b34fed45bf35f34927ee2bc8b381aa21",
+      "bytes": 521
+    },
+    {
+      "path": "AVenhance/Statements/Roots/LatticeShift.lean",
+      "sha256": "d3fa8a404ab0276490ab195773ddb288ac1480d5174ea78a4663ed66e9bfe8a8",
+      "bytes": 550
+    },
+    {
+      "path": "AVenhance/Statements/Roots/SpaceGrad.lean",
+      "sha256": "70214f7229e43ec9b53a13cea9e5818efb8647cb59ebca58583204f4dd014feb",
+      "bytes": 609
+    },
+    {
+      "path": "AVenhance/Statements/Roots/SpaceTimeGradNormSq.lean",
+      "sha256": "d804d14a19b7636d66d772e89d796fd3a08b8d4bf055c1bcf182ec69eeae372a",
+      "bytes": 630
+    },
+    {
+      "path": "AVenhance/Statements/Roots/TimeCube.lean",
+      "sha256": "2a3860b77f9bdc4921699ddf15960fa31c3b20271f79fe6ec013c77192f7049b",
+      "bytes": 528
+    },
+    {
+      "path": "AVenhance/Statements/Roots/UnitCube.lean",
+      "sha256": "2ea9dac4edb05a79592ce4d6d0f78533d752f3a76a3298d30a5c961d6a588d25",
+      "bytes": 605
+    },
+    {
+      "path": "AVenhance/Statements/Section3/ChiM.lean",
+      "sha256": "d755d3098ec061df72721a232e0971913cc1197bc63d920aff3213a927c9b209",
+      "bytes": 703
+    },
+    {
+      "path": "AVenhance/Statements/Section3/ChiMK.lean",
+      "sha256": "4ecd01ab63b1ddc17e1f2645d74a431ca614a81112fa562f131564f241f82c8f",
+      "bytes": 875
+    },
+    {
+      "path": "AVenhance/Statements/Section3/CorrTime.lean",
+      "sha256": "0b489060bd1c0d341a93cc1836f3d06ca99ac3674f3e0bbc19bb6600ab1457de",
+      "bytes": 821
+    },
+    {
+      "path": "AVenhance/Statements/Section3/Flux.lean",
+      "sha256": "6cc91d02d0d2aac8c596636c79588fcfd794ece79dc6d337f55c5a78e1ea7694",
+      "bytes": 730
+    },
+    {
+      "path": "AVenhance/Statements/Section3/FluxIntegrand.lean",
+      "sha256": "30bf21c842d8f32fab3d3bea85d516a4e2ee8d543e00cdff5af01507c53a5b34",
+      "bytes": 821
+    },
+    {
+      "path": "AVenhance/Statements/Section3/GradMatrix.lean",
+      "sha256": "56f75c86ab5b011882ad0d187c4fb04609ba9ce7ae616dc4688e0f2da1465b21",
+      "bytes": 703
+    },
+    {
+      "path": "AVenhance/Statements/Section3/KappaAt.lean",
+      "sha256": "d7f9220951fcc996d0b7c4e49de3def68f17f9975be15d1ed49f479938bdca3e",
+      "bytes": 803
+    },
+    {
+      "path": "AVenhance/Statements/Section3/Khom.lean",
+      "sha256": "32cc821bf24c2acfcfa7dbbfdf0e84944868fd6b9caa0b7ac223f00bbbb134a2",
+      "bytes": 675
+    },
+    {
+      "path": "AVenhance/Statements/Section3/KhomScalar.lean",
+      "sha256": "bad0002febb22bf9ccf5959e6671730e2e206dd307e59b67359f77204be83ee5",
+      "bytes": 757
+    },
+    {
+      "path": "AVenhance/Statements/Section3/PermissibleSet.lean",
+      "sha256": "72a64437929721529c282b2235ac21df2109ab85e999d9643025609947984fce",
+      "bytes": 780
+    },
+    {
+      "path": "AVenhance/Statements/Section3/PermittedInterval.lean",
+      "sha256": "efb7b0de0163317d311f0ad6e45e383b7cdc63eb431487758912a685690898f0",
+      "bytes": 690
+    },
+    {
+      "path": "AVenhance/Statements/Section3/PsiM.lean",
+      "sha256": "0b2f7ad316fab58a1fdb3c6f809559dc0836fa33c2d8569de0ec4cf8864ee102",
+      "bytes": 731
+    },
+    {
+      "path": "AVenhance/Statements/Section3/SigmaMat.lean",
+      "sha256": "8708d6e8f9146046595b037bfa71dcb63e0af5553342e9fb0aee11069e526995",
+      "bytes": 599
+    },
+    {
+      "path": "AVenhance/Statements/Section3/SpaceAvg.lean",
+      "sha256": "2a04298169d08c429c54bdf8c4621e9d4ca9bd8cf49f99f99d84f741593eb46f",
+      "bytes": 607
+    },
+    {
+      "path": "AVenhance/Statements/Section3/SpaceAvgMat.lean",
+      "sha256": "f959170963ae7c96191e3a8b5714a43d01950bde59a3b7bbb954ae7968039450",
+      "bytes": 660
+    },
+    {
+      "path": "AVenhance/Statements/Section3/SpaceLap.lean",
+      "sha256": "ed9abb5f4a71ad7c84b75f6663e54599e1f619b75a78c6fc842dc547b7228cfd",
+      "bytes": 580
+    },
+    {
+      "path": "AVenhance/Statements/Section3/TimeAvgMat.lean",
+      "sha256": "bde5be8b9ec7412f835032a5c195a841d399cd845942950075fed8e3ce890676",
+      "bytes": 669
+    },
+    {
+      "path": "AVenhance/Statements/Section3/UShear.lean",
+      "sha256": "54c89c0a3b99943c389b9649ad8eeff8b1e670935d1a5849e6f9e54108240a8d",
+      "bytes": 1016
+    },
+    {
+      "path": "AVenhance/Statements/Section3/ZetaProd.lean",
+      "sha256": "f50dad6d0f2589855ce4e74cc4600bf20f6d78b6ee27080c0b8cb3c85e498043",
+      "bytes": 721
+    },
+    {
+      "path": "AVenhance/Statements/Section4/AdvDiffOp.lean",
+      "sha256": "104fd614d8864dd9d52390dc959e82da4bbf695a763d66052b9951feef0edebe",
+      "bytes": 1865
+    },
+    {
+      "path": "AVenhance/Statements/Section4/IsClassicalSol.lean",
+      "sha256": "ababd4ba0f14e30db1ea7a7aad55436df6e68a71d322a7749d45c5bd0f16edb2",
+      "bytes": 2220
+    },
+    {
+      "path": "AVenhance/Statements/Section4/VecDiv.lean",
+      "sha256": "5377395ee9bc3918f9b9eb6ea55121b1b0901131e5cad936320b46015455ab12",
+      "bytes": 1794
+    },
+    {
+      "path": "Homogenization/Ambient/Basic.lean",
+      "sha256": "44f6c7987a179135c58c515d9ea470d76cd4f44dc282c171831949eaf9366a00",
+      "bytes": 8594
+    },
+    {
+      "path": "Homogenization/Ambient/BlockMatrix.lean",
+      "sha256": "16727d39fc5173e9c447b73dd003678cdb5bd7ac5542fa4ce872d195351acf79",
+      "bytes": 22219
+    },
+    {
+      "path": "Homogenization/Ambient/HilbertFinite.lean",
+      "sha256": "cade8740b99702bed318ba334c8bf86286f7264dfe72b5f0f778552f92aefce7",
+      "bytes": 15017
+    },
+    {
+      "path": "Homogenization/Geometry/BoundaryLayer.lean",
+      "sha256": "aa69741d4485753104085340cf3754cd9f7c13c9d8c40cf7da57517fa0c78bee",
+      "bytes": 9480
+    },
+    {
+      "path": "Homogenization/Geometry/ConvexDomain.lean",
+      "sha256": "3a06cd6e8bebd91e20fa20f82f513fa53365a5eeec3097fa81a3b163a1439340",
+      "bytes": 8209
+    },
+    {
+      "path": "Homogenization/Geometry/CubeMeasure.lean",
+      "sha256": "e83be141d614f3f1a99e6dc894c1de14e8086f1b078d4b9397684871f90b15fe",
+      "bytes": 13548
+    },
+    {
+      "path": "Homogenization/Geometry/Domain.lean",
+      "sha256": "267c75d93818ec797000057f4cc4f349a4e46913386e81d46ab2d8014f2bef8b",
+      "bytes": 1118
+    },
+    {
+      "path": "Homogenization/Geometry/OriginCubeBoundaryPush.lean",
+      "sha256": "2c1d2fc1e8e1dfe21e8ecf48752e68a883ea3c538e6da90ed94404bb1db71e0a",
+      "bytes": 6668
+    },
+    {
+      "path": "Homogenization/Geometry/Translation.lean",
+      "sha256": "38b18f01ddfd4e9c73a0478d99a6d67ff27ccd47021a1bc091a8a34d6ad2c11c",
+      "bytes": 5193
+    },
+    {
+      "path": "Homogenization/Geometry/TriadicCube.lean",
+      "sha256": "95c4b05a3be956286ecbe5ab06be5cce798703eea34f2566ab41f86226c5258d",
+      "bytes": 8095
+    },
+    {
+      "path": "Homogenization/Geometry/TriadicCubeTranslation.lean",
+      "sha256": "3ed184c1bec6d343dc845e48a94789d5d731b5c601346cf6b95ba956db4cd790",
+      "bytes": 4251
+    },
+    {
+      "path": "Homogenization/Geometry/TriadicPartition.lean",
+      "sha256": "c917f47953df7d4d152c02ea26757bb624f7a409e8a935f46d048bb122e2e973",
+      "bytes": 31954
+    },
+    {
+      "path": "Homogenization/Multiscale/CubeAverage.lean",
+      "sha256": "37691da5f15b79fb75cae511ce6c885b3b1a5ac30b1584fb28ddd25e8fc1f1f9",
+      "bytes": 1378
+    },
+    {
+      "path": "Homogenization/Multiscale/NormalizedNorms.lean",
+      "sha256": "e6b7acc2d12b2cb4deeb56b12eb43f40943f18cdd9883f3dec19c11685963fc2",
+      "bytes": 16758
+    },
+    {
+      "path": "Homogenization/Multiscale/Projection.lean",
+      "sha256": "63b6ef2bfbeb80aea88aedfd0a044c21aa0529fa7df4f34d8a546094d87d7f6d",
+      "bytes": 8700
+    },
+    {
+      "path": "Homogenization/Sobolev/CubeEmbedding/FaceReflectionLines.lean",
+      "sha256": "88619ca3bb3e242c4a5b8d8185bb31d1bae6eefe39e050b11e20101ff7e2a519",
+      "bytes": 5841
+    },
+    {
+      "path": "Homogenization/Sobolev/CubeEmbedding/PeelFubini.lean",
+      "sha256": "aac621cf100d73964a415aa2aa704359ab5a9db4fbae6065a700786f767773e3",
+      "bytes": 2134
+    },
+    {
+      "path": "Homogenization/Sobolev/Foundations/CubeReflection/Derivatives.lean",
+      "sha256": "0efad81bf6a3f150b3d2fc6fecf52f570ee4112e043933c3acfdd39675b9d02d",
+      "bytes": 20334
+    },
+    {
+      "path": "Homogenization/Sobolev/Foundations/CubeReflection/Homeomorphism.lean",
+      "sha256": "260f606a4fb6adcf5ec4cd752ddd2cf8b14567246672d70a16dd4851feb4777a",
+      "bytes": 16759
+    },
+    {
+      "path": "Homogenization/Sobolev/Foundations/CubeReflection/Reflections.lean",
+      "sha256": "b8ecbfa1a81e4c21541bf872141c2304ed4bdab2eccdccf16c7764a149279e14",
+      "bytes": 16383
+    },
+    {
+      "path": "Homogenization/Sobolev/Foundations/EuclideanL2CZ.lean",
+      "sha256": "722cd780dcd0e33447599543063a7aee40128b48c8c55f9ce2e52bf88bad51cd",
+      "bytes": 38789
+    },
+    {
+      "path": "Homogenization/Sobolev/H1/BasicLemmas.lean",
+      "sha256": "8d54f4fe8cf1f3bacf518145c21a41623df26f8f345fe22e7ef3a1c61cc0e873",
+      "bytes": 13537
+    },
+    {
+      "path": "Homogenization/Sobolev/H1/Definitions.lean",
+      "sha256": "3d8bd74146c6ed032b7013100f7b0c8f1d746485717c82eeb704e618e4e3f072",
+      "bytes": 3102
+    },
+    {
+      "path": "Homogenization/Sobolev/L2Ambient.lean",
+      "sha256": "559bdbfecae614aee9d9d8883637dc5774a6bd266f32d94da1c4f63ee167f8bf",
+      "bytes": 30747
+    },
+    {
+      "path": "Homogenization/Sobolev/WeakDerivatives.lean",
+      "sha256": "8ffd320a578302cffcffe7c2e15db19862451a635ca6163626ebed6aabd77cee",
+      "bytes": 6299
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "d0f90f6c2a23d4b44cad24a660f70e3f4a1ef1c4ffb39923c20791c729364298",
+      "bytes": 723,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "AVenhance/Infra/Classical/GalerkinResidual.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/60c4fe93b8cfda298add": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/AVAnomalousDiffusion",
+    "source_commit": "c5b0e710c14cf41eca33dc2ae5d7aeceff829f99"
+  }
+}

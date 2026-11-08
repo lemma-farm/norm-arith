@@ -1,0 +1,236 @@
+{
+  "id": "76660a21dfa606025f73",
+  "source": {
+    "repository": "shaikidris/kkp-asymptotic-spectral-bound",
+    "commit": "8aa258c7a0b06ae96cfa56018bddd60ee643efd5",
+    "project": "shaikidris--kkp-asymptotic-spectral-bound--8aa258c7a0b0",
+    "path": "SingularTruncation.lean",
+    "file_id": "0c78294c7fc3c1eabe6e",
+    "source_sha256": "0c78294c7fc3c1eabe6e6d8a7a56c1ba4185cd12a50b3dec80dc2befd9a88bba",
+    "start": 65,
+    "end": 82,
+    "original_start": 63,
+    "original_end": 82,
+    "declaration": "rectangular_opNorm_sq_le",
+    "source_url": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/SingularTruncation.lean#L65-L82",
+    "archive_url": "https://github.com/PalomarArchive/shaikidris--kkp-asymptotic-spectral-bound--16a8809ca472/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/SingularTruncation.lean#L65-L82"
+  },
+  "native_target_name": "KKPAsymptotic.rectangular_opNorm_sq_le",
+  "source_declaration_label": "rectangular_opNorm_sq_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "04516ebb063c0b4677896fd119bee33e6fdf2ab3d8ccf8eca4ffc3dd32e3b5d7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "ba9f1fdd783f9291fafd363562237040e708ce0f77836ccce6261821a19c320c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "BN/Basic/Graph.lean",
+      "sha256": "298bbe4032c5de581080494bcdd5593299e3c9a24a0757ddcee7eb002025f1fd",
+      "bytes": 3445
+    },
+    {
+      "path": "BN/Basic/Inner.lean",
+      "sha256": "13b9acaebf8bfab6f387e953239dfc9e0ce82edba671fc7ee62d4e32e94e9257",
+      "bytes": 8729
+    },
+    {
+      "path": "BN/Basic/Spectrum.lean",
+      "sha256": "f9e33677e5d3de621a51327d2311aa6300933614f39a5d969d8a01ef40cf2f33",
+      "bytes": 3724
+    },
+    {
+      "path": "BN/CP/Basic.lean",
+      "sha256": "3593c46298e87dedeb57f44ffcf03a403c669839bf42c9a205d114315780a44b",
+      "bytes": 4553
+    },
+    {
+      "path": "BN/CP/Closed.lean",
+      "sha256": "fd66a402364529c30b79e1bad8c41f7140b502fb149118e624652df564fbd80d",
+      "bytes": 12516
+    },
+    {
+      "path": "BN/Kernel/Bilinear.lean",
+      "sha256": "64e45a0867855221f051ed1642717da3fe70808e0e2bafb875b14480ecd058c6",
+      "bytes": 16631
+    },
+    {
+      "path": "BN/Kernel/Data.lean",
+      "sha256": "458124f9e3fb7b2e768e818868bb7018b3b6f549434ee695fd17c201b3d3627b",
+      "bytes": 7882
+    },
+    {
+      "path": "BN/Kernel/Main.lean",
+      "sha256": "067933687e35dae1272a8d93e387224c0695205d5c3243d8ad0db7967c49b220",
+      "bytes": 3880
+    },
+    {
+      "path": "BN/Kernel/N.lean",
+      "sha256": "c51ff235b0d242c19b4d13cdcc9ac157db3d0cf4cc1df9b97901138b16594a0c",
+      "bytes": 17418
+    },
+    {
+      "path": "BN/Kernel/SM.lean",
+      "sha256": "7585779c06d5924373c7aa59d18b96892e46cac4e1d78a71edcdddb27defc74d",
+      "bytes": 3526
+    },
+    {
+      "path": "BN/Kernel/Signs.lean",
+      "sha256": "4122eea14e11c6d2393589f431702d7521c4aa015e4c2719c5f47a3e1ac79311",
+      "bytes": 7174
+    },
+    {
+      "path": "BN/M/Basic.lean",
+      "sha256": "5863c55e41b757dade72eb83356f6236e6d4a146bdbe3345c594dc91eb8c3fcb",
+      "bytes": 10271
+    },
+    {
+      "path": "BN/M/Config.lean",
+      "sha256": "38827d5d9799f93cbeeb5e765179101aef67e17939db8fd1bf7284e865e02a9e",
+      "bytes": 20670
+    },
+    {
+      "path": "BN/M/Elim.lean",
+      "sha256": "3303e63b2d51f90a3e0615f4dbae0ea935b07a6feea2e3ad60559f27086273a0",
+      "bytes": 98084
+    },
+    {
+      "path": "BN/M/GammaZero.lean",
+      "sha256": "3a61ecdc67164b238070d426b696c12cfca85a323b0debeb23da3299e1768095",
+      "bytes": 20189
+    },
+    {
+      "path": "BN/M/HalfPlane.lean",
+      "sha256": "fd93f02728b4d18755688a2cff265659938be1a5d333a30d6ab17c469f9374f8",
+      "bytes": 50278
+    },
+    {
+      "path": "BN/M/Main.lean",
+      "sha256": "3d6709be8a9613a2e994c61151083549eef8a950b48736e08ae99145f62b79be",
+      "bytes": 1585
+    },
+    {
+      "path": "BN/M/Schur.lean",
+      "sha256": "2a54804198dbe20c3730aab9f6594f46195c8bb2848a04527da43563c728026f",
+      "bytes": 111695
+    },
+    {
+      "path": "BN/MS/Basic.lean",
+      "sha256": "a3dbb3175efd674b3fe4db3e8457e5112eba4f68d831d67b14a386ae765b3015",
+      "bytes": 19878
+    },
+    {
+      "path": "BN/Spectral/Gram.lean",
+      "sha256": "b03543d9925c691f84927c984d98c5e6c7cc99a12d0d817141e2b30dbf1cacfa",
+      "bytes": 25821
+    },
+    {
+      "path": "BN/Spectral/Perron.lean",
+      "sha256": "0681c641242895581e0e34bb1c8438cc30a47d6bef9eee9631c14b24396ab659",
+      "bytes": 7265
+    },
+    {
+      "path": "BN/Spectral/Weighted.lean",
+      "sha256": "44ea699351d835cf2aa336c960ccee089b4a41b78e0c2752ed92caf0585f8b32",
+      "bytes": 24461
+    },
+    {
+      "path": "BN/TN/Basic.lean",
+      "sha256": "276174dda694e297ce4b96111d40b057c1b9f46439cd46c8e35485b92a77a25c",
+      "bytes": 11815
+    },
+    {
+      "path": "BN/TN/Convex.lean",
+      "sha256": "5938df3111e5d29ec4e1d7464b8328a206c1c3e0f055bf5c626e7cfbcbf94f9d",
+      "bytes": 7910
+    },
+    {
+      "path": "BN/TN/Truncated.lean",
+      "sha256": "228855ec5068326fb9b91e41b8c42eb2d14180e55c93bd34280bd60110fac777",
+      "bytes": 67756
+    },
+    {
+      "path": "BipartiteEnergy.lean",
+      "sha256": "b9bfbbbb9f3b274c1fba6f960ee8edf8974b461616fbdc0e22bc5a440ec91720",
+      "bytes": 5070
+    },
+    {
+      "path": "GramEstimates.lean",
+      "sha256": "535acf4bce52e1e4ecd1198983ce81dec236f280e24830a504262bb34e724707",
+      "bytes": 3728
+    },
+    {
+      "path": "GramInput.lean",
+      "sha256": "1ec9ef69d68def4f17d0b6e55c2a4bbf8be08ed1a0598b561ec9d69f1dced4bc",
+      "bytes": 879
+    },
+    {
+      "path": "LowDegreeTransfer.lean",
+      "sha256": "9451940f30798e2d7f71043232d0c852a9320f337890fc14b86f15f7a7113884",
+      "bytes": 4761
+    },
+    {
+      "path": "OrthogonalCompression.lean",
+      "sha256": "174fc1e4a7f983e71ccbeffa4655449c0071b7c5ef398a4bf52f1809bc84a723",
+      "bytes": 4923
+    },
+    {
+      "path": "OrthogonalSplitting.lean",
+      "sha256": "882b117cbb309b3d29bb7a344773f5898381d6bf57a906ad6700133f3546ba03",
+      "bytes": 4647
+    },
+    {
+      "path": "PositiveTwoLift.lean",
+      "sha256": "673b511782a0db246a8654aaca10cd49f435dc18e18d4a424dbe6058f816ce66",
+      "bytes": 2688
+    },
+    {
+      "path": "SingularTruncation.lean",
+      "sha256": "b29052c197d6bed4b08e680d59e82db9644553f6d0becb0321a7d3beed6efbba",
+      "bytes": 11899
+    },
+    {
+      "path": "SpectralLift.lean",
+      "sha256": "ff5da6a48f28dfa1ae93a7c247eaa543017584303d9a01306964fdd698e5d43b",
+      "bytes": 12118
+    },
+    {
+      "path": "SpectralPerturbation.lean",
+      "sha256": "1a0acba3d230adaefdea8227f2c986bd628aada6e33b9327c8971b3e517b7e81",
+      "bytes": 6140
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "669a78855fc35c0702023a63f564e9e4541ada6a0feb5f69884e6f1bdd1c237c",
+      "bytes": 2285,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SingularTruncation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/76660a21dfa606025f73": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound",
+    "source_commit": "8aa258c7a0b06ae96cfa56018bddd60ee643efd5"
+  }
+}

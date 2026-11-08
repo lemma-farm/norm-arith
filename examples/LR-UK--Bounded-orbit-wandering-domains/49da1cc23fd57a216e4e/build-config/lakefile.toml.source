@@ -1,0 +1,33 @@
+"name" = "area_deficit"
+"version" = "1.9.0"
+"defaultTargets" = ["Solution", "Challenge"]
+"buildDir" = ".lake/build"
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "BoundedWanderingDomains"
+"roots" = ["BoundedWanderingDomains.All"]
+"globs" = ["BoundedWanderingDomains.+"]
+
+[["lean_lib"]]
+"name" = "RiemannDynamics"
+"roots" = ["RiemannDynamics.Uniformization.Trichotomy"]
+"globs" = ["RiemannDynamics.+"]
+
+[["lean_lib"]]
+"name" = "RMT4"
+
+[["lean_lib"]]
+"name" = "EremenkoLyubichConstant"
+
+[["lean_lib"]]
+"name" = "Ray"
+
+[["lean_lib"]]
+"name" = "Challenge"
+
+[["lean_lib"]]
+"name" = "Solution"

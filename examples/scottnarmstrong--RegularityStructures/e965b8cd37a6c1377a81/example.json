@@ -1,0 +1,228 @@
+{
+  "id": "e965b8cd37a6c1377a81",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "Phi43/BPHZ/SemigroupTestDouble.lean",
+    "file_id": "002154595326eea4334e",
+    "source_sha256": "002154595326eea4334ea40bf8a9ce1fa35729188d6353778dd5b3fb77e66787",
+    "start": 84,
+    "end": 117,
+    "original_start": 84,
+    "original_end": 117,
+    "declaration": "integrable_integral_prod_mul_le",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/BPHZ/SemigroupTestDouble.lean#L84-L117",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/BPHZ/SemigroupTestDouble.lean#L84-L117"
+  },
+  "native_target_name": "RegularityStructures.integrable_integral_prod_mul_le",
+  "source_declaration_label": "integrable_integral_prod_mul_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "e396406ced34a6d49234810a402772bc43221bcf840cde6233281e4e93edf2bf",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "3a373d9572af1b4f46adf8206f62b50f111334a8113ab64f58b411dd012f8fa6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Phi43/BPHZ/ChaosReductionIntegralWeights.lean",
+      "sha256": "29840e3796b891febca5b83933e2b6625f5c6e054aa29974da9be46b58e563c7",
+      "bytes": 1088
+    },
+    {
+      "path": "Phi43/BPHZ/KernelCalculusBasic.lean",
+      "sha256": "40e48deb7977a839204d861d4b2e6ff51a81778ffec7bd84f2444920883759fa",
+      "bytes": 5039
+    },
+    {
+      "path": "Phi43/BPHZ/SemigroupTestDouble.lean",
+      "sha256": "f8d27852b37db58668869bf2ce9cad1d863b62c27209cd865180da74cc2cab0d",
+      "bytes": 15216
+    },
+    {
+      "path": "Phi43/BPHZ/SemigroupTestProfile.lean",
+      "sha256": "0344536789222bb89b1f0d5c5ec61a06755e2c59feecda672a4303250da0a886",
+      "bytes": 10881
+    },
+    {
+      "path": "Phi43/BPHZ/SingularConvolutionLayer.lean",
+      "sha256": "7256fc743d6b2ab1e75ee2aa8ffccdcbfe1abb340272d88e77af7fbca21a550d",
+      "bytes": 11745
+    },
+    {
+      "path": "Phi43/BPHZ/SingularConvolutionWeights.lean",
+      "sha256": "905f2151c74e1a729cc14eba7812bdbe17d4925cfc3eaa61afa54e2e0c25747c",
+      "bytes": 1445
+    },
+    {
+      "path": "Phi43/BPHZ/TreePsiBallMass.lean",
+      "sha256": "042caf77dd9700f1b9599b577754833872395ba92a02111d3705f2bfa7a78c10",
+      "bytes": 1319
+    },
+    {
+      "path": "Phi43/ClassicalSolution/Periodise.lean",
+      "sha256": "3598ac4f6f65675c9d4fa26ee763f9834f8fcbce6452424a1bb07c85f39c7d77",
+      "bytes": 3152
+    },
+    {
+      "path": "Phi43/ClassicalSolution/PeriodiseRegularity.lean",
+      "sha256": "0bc866e4685fa9ebffc637d65da9300ea02933ec3f03a9dddece4ce6e9b3da25",
+      "bytes": 10346
+    },
+    {
+      "path": "Phi43/Constants.lean",
+      "sha256": "cf6f059eacb1d28427fa4a39e0716616768c55668ea842031d61b8c41ff1c10c",
+      "bytes": 1502
+    },
+    {
+      "path": "Phi43/Constants/Finite.lean",
+      "sha256": "12177df97bcddc9a161c879ac143dd71db6533cfffc3fea492d5d2bf461a8a7a",
+      "bytes": 14504
+    },
+    {
+      "path": "Phi43/Mollifier.lean",
+      "sha256": "fdd3bcdb684ee374a482f5c8b21f88a5a9ef754d3055c01caeffab411fc1de22",
+      "bytes": 2289
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsConvolution.lean",
+      "sha256": "0abae1bb1ac6cbf827ae85c0fe3fecc3c2caa54be357ed5e9f4c0ee807507b21",
+      "bytes": 1896
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsCovariance.lean",
+      "sha256": "93eb821082faf285ac1bf2bada28ed8ecfcc0659b30e1d6e186ffa39cf016534",
+      "bytes": 7679
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsL1.lean",
+      "sha256": "b019f2c4158b53ebd8c456bf0d16340909e8ca18f4ed6950a44fa0c36b36b952",
+      "bytes": 2517
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsMollified.lean",
+      "sha256": "cf9cb4807049380fcdd47f33da02a39e48b1514546a4e6533b1fd1f6c01a5805",
+      "bytes": 14321
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsMollifier.lean",
+      "sha256": "fc53d1a61f8542cf5689fcb3efd6fcc9799494e1b1e2933c683c0527f4a7ebad",
+      "bytes": 10270
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsPeriodiseL1.lean",
+      "sha256": "85e53067c5413a93adb26c5902dd1c94bd609ccdb7b8b1cb22f9d91d326ad04f",
+      "bytes": 6745
+    },
+    {
+      "path": "Phi43/Torus/KernelBoundsSupport.lean",
+      "sha256": "2157724f93d97165c847bbd57fe0eb039d17102677b9b2ca979b450de59e37df",
+      "bytes": 4484
+    },
+    {
+      "path": "RegularityStructures/Probability/SpaceTimeMeasure.lean",
+      "sha256": "9d38cf38a053e3909660056ed589df0541d4be3b134c5bd2d185b19b7f4b544e",
+      "bytes": 2747
+    },
+    {
+      "path": "RegularityStructures/Probability/WhiteNoise.lean",
+      "sha256": "faed891d02b4807cfea6200c9da610ae1d16531cdaa1c7565e3bc734838cf97a",
+      "bytes": 1968
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "e3365f4095d48415155226f8e810fdd6148281b4c878841b3ed40a0789328db8",
+      "bytes": 1786
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernel.lean",
+      "sha256": "754d9d02eee13bdfea0e7cd923fca0dade943026d791fd1502cac80d64e6cbfa",
+      "bytes": 6482
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelFacts.lean",
+      "sha256": "ce68c011e1a430579ad6a55d45cb86a1823ac1896df4cf83d6580a875a7cfdd5",
+      "bytes": 4662
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelIntegrability.lean",
+      "sha256": "2e80393be0949c70e7f14e81eb0c6e52bbf7431cf5c11d04eacd2ea01c935eaf",
+      "bytes": 4775
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelIntegral.lean",
+      "sha256": "4760851f4ace80a37c1e5c34d075879f945d8eed4ba05eb5c9095347466a3c88",
+      "bytes": 9927
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernelRegularity.lean",
+      "sha256": "433bd0c43920f6c2c2553ae3a3f2f3ee3b7349b3583f1722f1132989ce92694b",
+      "bytes": 10999
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsBasic.lean",
+      "sha256": "cf2443715063f6f3cf18cee79f37a847ca0e30d521452c5d2f23a1858840b53e",
+      "bytes": 2717
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGaussian.lean",
+      "sha256": "e61e998574aa1fcb30a5a7d134a530f1a3c5b78eb87560dafe74f747bc222975",
+      "bytes": 18255
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGeometry.lean",
+      "sha256": "10d920028323ef02b102804c551452eba86827a16705ef84e12f06dd698ae285",
+      "bytes": 11529
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsGlobal.lean",
+      "sha256": "37687f07b793ac90fc9d24feb2932feecaa4d2ef548078baa4c5801b14551fb5",
+      "bytes": 5980
+    },
+    {
+      "path": "RegularityStructures/Torus/KernelBoundsLargeTime.lean",
+      "sha256": "cf6ad8478caaa48776244ccadfdfba07152edb29c830d7c4813e4efc6b77cab8",
+      "bytes": 11681
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "3df36918fe8656f84a375185af90286b17494c9036a154ab48d425524442d490",
+      "bytes": 3478
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunction.lean",
+      "sha256": "34bea470cabb919051806391b7b0e578450b3185d9d9a394c58915acc79526a9",
+      "bytes": 8655
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Phi43/BPHZ/SemigroupTestDouble.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

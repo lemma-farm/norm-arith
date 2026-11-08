@@ -1,0 +1,71 @@
+{
+  "id": "7f954292fc595fa1cc0c",
+  "source": {
+    "repository": "roos-j/lean-spherical",
+    "commit": "800b71afca91e42809c21e6e2fd9ae4f82467082",
+    "project": "roos-j--lean-spherical--800b71afca91",
+    "path": "LeanSpherical/Auto/CalderonVaillancourt.lean",
+    "file_id": "088b536fb2bd77a64c37",
+    "source_sha256": "088b536fb2bd77a64c37ef285428687e40fed0c65d42c13a94f89dcca31d2f06",
+    "start": 909,
+    "end": 921,
+    "original_start": 904,
+    "original_end": 921,
+    "declaration": "integral_norm_le_of_support",
+    "source_url": "https://github.com/roos-j/lean-spherical/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/CalderonVaillancourt.lean#L909-L921",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-spherical--f9129e76398c/blob/800b71afca91e42809c21e6e2fd9ae4f82467082/LeanSpherical/Auto/CalderonVaillancourt.lean#L909-L921"
+  },
+  "native_target_name": "Auto.CalderonVaillancourt.integral_norm_le_of_support",
+  "source_declaration_label": "integral_norm_le_of_support",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "326cb0de8df9959167b5f83aff8a58761455682ced42ca1155f2564073fd19c2",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "bfe42a36bbed0fc8613376bf7a34680ddc7ed069e795f91b22976812c0ae7e0d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanSpherical/Auto/CalderonVaillancourt.lean",
+      "sha256": "eadc4aa4b1656d4313d3d3a07b469258374a86a99d88e73cec003d6a0088a274",
+      "bytes": 121516
+    },
+    {
+      "path": "LeanSpherical/Auto/CotlarStein.lean",
+      "sha256": "bc20927a56989392341de55c73829b312bb17a5635b128bbdad818235444a586",
+      "bytes": 23034
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "1d241149f9606ce02f944a0ac40275c6d7929fdcada9529ea712d385ee2178ff",
+      "bytes": 492,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "07885e1526f382d5372cfe897a21b9d82f97e19f213f29487bdb6c21a5a95c9f",
+      "bytes": 3605,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LeanSpherical/Auto/CalderonVaillancourt.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-7dd11aab5ec1809f/7f954292fc595fa1cc0c": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-spherical",
+    "source_commit": "800b71afca91e42809c21e6e2fd9ae4f82467082"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "812a7848a713ed82484a",
+  "source": {
+    "repository": "pmaronow/ccv-palomar",
+    "commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598",
+    "project": "pmaronow--ccv-palomar--f3ef2ef312d4",
+    "path": "NearlyMinimax/PilotFields.lean",
+    "file_id": "0c4e640bc54bf466817f",
+    "source_sha256": "0c4e640bc54bf466817f28b6f3e0e27ecdb7d167fc13c0da3f6d87c6adf2af7b",
+    "start": 199,
+    "end": 218,
+    "original_start": 197,
+    "original_end": 218,
+    "declaration": "bilinear_energy_le",
+    "source_url": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/PilotFields.lean#L199-L218",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--ccv-palomar--47775cd59e5a/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/PilotFields.lean#L199-L218"
+  },
+  "native_target_name": "NearlyMinimax.PilotFields.bilinear_energy_le",
+  "source_declaration_label": "bilinear_energy_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "99a348a8d11101dc9268d8861cba50c60b9b326047e2d89700fcd7ce2a2fce1e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "6798423a0c5e5bdfb6ea4b2de2116544464069f212d807e7372bab796086df97",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "NearlyMinimax/PilotFields.lean",
+      "sha256": "0c4e640bc54bf466817f28b6f3e0e27ecdb7d167fc13c0da3f6d87c6adf2af7b",
+      "bytes": 15528
+    },
+    {
+      "path": "NearlyMinimax/PilotFluctuation.lean",
+      "sha256": "bd17272d0ea6af58d8f28e5736239bf011b1c0ad5907b1505d887df44f701943",
+      "bytes": 7375
+    },
+    {
+      "path": "NearlyMinimax/LocalizationL2.lean",
+      "sha256": "d992634237c7d91da5f1e720b683a53167da4d09c0656bc8f2b8de1464668c54",
+      "bytes": 14501
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "b9e1e4aad096bf66f9afd5cb5d27750a9e3ed0169ad1ee8c5d558ff3f0ca3c91",
+      "bytes": 547,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "NearlyMinimax/PilotFields.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/ccv-palomar",
+    "source_commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598"
+  }
+}

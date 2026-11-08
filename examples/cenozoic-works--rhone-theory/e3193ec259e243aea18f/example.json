@@ -1,0 +1,63 @@
+{
+  "id": "e3193ec259e243aea18f",
+  "source": {
+    "repository": "cenozoic-works/rhone-theory",
+    "commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a",
+    "project": "cenozoic-works--rhone-theory--40430cc1c60b",
+    "path": "Rhone/Algebra/FinitePanelGeometry/StablePolytope.lean",
+    "file_id": "0351803770f5b069928a",
+    "source_sha256": "0351803770f5b069928ac0e69c5dd5b1899d3304e0549199bed35b7d26557a79",
+    "start": 26,
+    "end": 33,
+    "original_start": 26,
+    "original_end": 33,
+    "declaration": "exists_pos_half_norm_lt_apply",
+    "source_url": "https://github.com/cenozoic-works/rhone-theory/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Algebra/FinitePanelGeometry/StablePolytope.lean#L26-L33",
+    "archive_url": "https://github.com/PalomarArchive/cenozoic-works--rhone-theory--fb903f3fec24/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Algebra/FinitePanelGeometry/StablePolytope.lean#L26-L33"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "exists_pos_half_norm_lt_apply",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "c326bd352a55c15f3bd0a1abef448ed12d29cb81393283d2dfa73b4a00edea67",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f8f2510030758a98eb5dead966f174c597d3fe00605059b56fb37490f4319ce4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Rhone/Algebra/FinitePanelGeometry/StablePolytope.lean",
+      "sha256": "02a3c404a952403a3c82bea94e0f9aec25685bd52c292172afeaa81d86c3d59f",
+      "bytes": 8957
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "c48d1a7aa2a1d6b8062da33bc63c491d98604521e4f9ea479d70966fc0a9d21e",
+      "bytes": 12224,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Rhone/Algebra/FinitePanelGeometry/StablePolytope.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/cenozoic-works/rhone-theory",
+    "source_commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a"
+  }
+}

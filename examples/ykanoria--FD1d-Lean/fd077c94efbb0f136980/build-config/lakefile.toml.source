@@ -1,0 +1,24 @@
+"name" = "OptimalDynamicMatching"
+"version" = "1.0.0"
+"defaultTargets" = ["FD1D", "Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "FD1D"
+"roots" = ["FD1D"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

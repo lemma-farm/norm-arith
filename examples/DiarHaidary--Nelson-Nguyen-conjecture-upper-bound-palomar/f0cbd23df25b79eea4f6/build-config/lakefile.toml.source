@@ -1,0 +1,44 @@
+"name" = "NelsonNguyenUpperBoundPalomar"
+"version" = "0.1.0"
+"defaultTargets" = ["SparseFockFormal", "PalomarFullIndependentChallenge", "PalomarFullIndependentSolution", "PalomarExactSChallenge", "PalomarExactSSolution", "PalomarLimitedIndependenceChallenge", "PalomarLimitedIndependenceSolution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "SparseFockFormal"
+"roots" = ["SparseFockFormal"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarFullIndependentChallenge"
+"roots" = ["Palomar.FullIndependentChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarFullIndependentSolution"
+"roots" = ["PalomarSolutions.FullIndependentSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarExactSChallenge"
+"roots" = ["Palomar.ExactSChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarExactSSolution"
+"roots" = ["PalomarSolutions.ExactSSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLimitedIndependenceChallenge"
+"roots" = ["Palomar.LimitedIndependenceChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarLimitedIndependenceSolution"
+"roots" = ["PalomarSolutions.LimitedIndependenceSolution"]
+"srcDir" = "."

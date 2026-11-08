@@ -1,0 +1,141 @@
+{
+  "id": "4da7764ce1be9585f9fb",
+  "source": {
+    "repository": "realazthat/zeta5-lean2",
+    "commit": "2fa4e829816e1d4a4f61249cb758e67195d46806",
+    "project": "realazthat--zeta5-lean2--2fa4e829816e",
+    "path": "InnerRealKernel.lean",
+    "file_id": "0b09150ed1a4f13b87f8",
+    "source_sha256": "0b09150ed1a4f13b87f8ac48987eb0e06968858404ee38dd7ceee20e19d3b8a8",
+    "start": 236,
+    "end": 252,
+    "original_start": 232,
+    "original_end": 253,
+    "declaration": "Zeta5RealKernel.kernel_integrableOn",
+    "source_url": "https://github.com/realazthat/zeta5-lean2/blob/2fa4e829816e1d4a4f61249cb758e67195d46806/InnerRealKernel.lean#L236-L252",
+    "archive_url": "https://github.com/PalomarArchive/realazthat--zeta5-lean2--cb81e5ae7e91/blob/2fa4e829816e1d4a4f61249cb758e67195d46806/InnerRealKernel.lean#L236-L252"
+  },
+  "native_target_name": "Zeta5RealKernel.kernel_integrableOn",
+  "source_declaration_label": "Zeta5RealKernel.kernel_integrableOn",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "7ef54ecaff23d5f354819e2e4402e7af52038214599b8d72e0d60e83d35b8048",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0422af64a9cfb3372895197b185cfd24fa8f72b10f67835f28b251466e422d51",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Allocation.lean",
+      "sha256": "62eab361025c3f4569976b0c0ad27871f8e04625877c1e55f4e538e410b9155b",
+      "bytes": 4391
+    },
+    {
+      "path": "Construction.lean",
+      "sha256": "51728cf9a8ae77cb85c58966c8f665e7674bd27e615ae3f8178be78ef8876250",
+      "bytes": 12492
+    },
+    {
+      "path": "InnerAllocationLimit.lean",
+      "sha256": "c597a2a8377b934954c6cb569b34f565b955e8e307b2cf0332b682635f48f12b",
+      "bytes": 4690
+    },
+    {
+      "path": "InnerAsymptotics.lean",
+      "sha256": "3124b82a55d611906b6337852c4401ae983b8968bef847140e0e02bfc65dc996",
+      "bytes": 21591
+    },
+    {
+      "path": "InnerBaseKernel.lean",
+      "sha256": "dd8c0dd978db0be2114073e2128b9f5c69baf07e4335c2f35caf36e4cf4b094a",
+      "bytes": 5327
+    },
+    {
+      "path": "InnerErrorBound.lean",
+      "sha256": "6a02817d355e562d86a0caa0ab6d515f0b6e1a97ae4a8f200b44959979cd230a",
+      "bytes": 3933
+    },
+    {
+      "path": "InnerGamma.lean",
+      "sha256": "46c2b38b3f0d77cc0be43666aadf4f57f6eddd8ae400a20bcc43d1597a8be16e",
+      "bytes": 4496
+    },
+    {
+      "path": "InnerRealKernel.lean",
+      "sha256": "0b09150ed1a4f13b87f8ac48987eb0e06968858404ee38dd7ceee20e19d3b8a8",
+      "bytes": 10159
+    },
+    {
+      "path": "InnerUniform.lean",
+      "sha256": "0000b89a2d16ec7012e499d9a96a48fb8c7655aa7c88199a19cd44a31974420d",
+      "bytes": 4833
+    },
+    {
+      "path": "InnerValuation.lean",
+      "sha256": "0ac018bc37e323ad13647d40510cf89e3348189bbdb4d0be35ea0e10ffde7799",
+      "bytes": 10832
+    },
+    {
+      "path": "InnerWeights.lean",
+      "sha256": "39e3d316e121a8c783a71551c2bd0008deaf958db9d109adb89f8252cd46f8a4",
+      "bytes": 5899
+    },
+    {
+      "path": "Normalization.lean",
+      "sha256": "fa50fea3f1b2fdbd708f6a0c9efca898a566560eab521c8352d0513aca738e8e",
+      "bytes": 5848
+    },
+    {
+      "path": "PaperParameters.lean",
+      "sha256": "0d8782104d048d1915da1f3cc02ad2983543e01fd7c07e1ed9aeccbe5df9047c",
+      "bytes": 6585
+    },
+    {
+      "path": "ScalarFloorSum.lean",
+      "sha256": "f02f392f01de0c460dcac2d41be883cadd71fe956e9552cc6441e47c2a95934a",
+      "bytes": 4518
+    },
+    {
+      "path": "ScalarUniform.lean",
+      "sha256": "2439151b61d66abbef4ce458d8857b70d2c7267a74af225fc75b94cf5f04fdb2",
+      "bytes": 2956
+    },
+    {
+      "path": "ScalarValuation.lean",
+      "sha256": "6d28a2c953fd71456dad6bc5e31242462c16f6fba1c68cebb5dfacbca6c5a7cc",
+      "bytes": 3436
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "b62cc53885124efb2bef432237d06ac4be5a99593a8adb82cb3cffabfe9a7364",
+      "bytes": 10443,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "InnerRealKernel.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4da7764ce1be9585f9fb": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/realazthat/zeta5-lean2",
+    "source_commit": "2fa4e829816e1d4a4f61249cb758e67195d46806"
+  }
+}

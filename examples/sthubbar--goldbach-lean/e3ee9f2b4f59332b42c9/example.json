@@ -1,0 +1,86 @@
+{
+  "id": "e3ee9f2b4f59332b42c9",
+  "source": {
+    "repository": "sthubbar/goldbach-lean",
+    "commit": "4d87394fed5e86a866ec2335621dc1b57f2e0c9d",
+    "project": "sthubbar--goldbach-lean--4d87394fed5e",
+    "path": "entries/bombierivinogradov1965/LeanLab/HeathBrown1985/Lemma2.lean",
+    "file_id": "03ff9c8184aaaf53fb8e",
+    "source_sha256": "03ff9c8184aaaf53fb8e6e3418d24fcfeff775a9623c426fdb5910776fff63e5",
+    "start": 185,
+    "end": 190,
+    "original_start": 182,
+    "original_end": 190,
+    "declaration": "delta1_le_mul",
+    "source_url": "https://github.com/sthubbar/goldbach-lean/blob/4d87394fed5e86a866ec2335621dc1b57f2e0c9d/entries/bombierivinogradov1965/LeanLab/HeathBrown1985/Lemma2.lean#L185-L190",
+    "archive_url": "https://github.com/PalomarArchive/sthubbar--goldbach-lean--98d36766e5ae/blob/4d87394fed5e86a866ec2335621dc1b57f2e0c9d/entries/bombierivinogradov1965/LeanLab/HeathBrown1985/Lemma2.lean#L185-L190"
+  },
+  "native_target_name": "LeanLab.HeathBrown1985.delta1_le_mul",
+  "source_declaration_label": "delta1_le_mul",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "4294ba686d20871951275e88c41e27ab2bda8331c451d582f73deabe529d5c5e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "24bb7e980ed9de4c00aad4a30db390817298f2fbd4b3445e2179f2f714a888f5",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanLab/ChenExplicit/Statements.lean",
+      "sha256": "a7ba82fd044122fa82a35710dec506e097ce8447a6d48f1ca59bf776a581f57e",
+      "bytes": 3042
+    },
+    {
+      "path": "LeanLab/Common/Goldbach.lean",
+      "sha256": "af4025435524db05c1e123e4c4c54c33ce7121cd9da175e69a42ce795347c9f0",
+      "bytes": 4270
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Elementary.lean",
+      "sha256": "caaf5e7a246a67f8d053ae899beef1cf9591314384d12ebb213f0012a8565766",
+      "bytes": 10874
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Lemma2.lean",
+      "sha256": "c08b2ab3801f33d2c21996cce019651904efcb9840bbe49321b3c74735b83fe1",
+      "bytes": 52335
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Statements.lean",
+      "sha256": "c010bffb279d36bd2cff3f288251dadc26ff2d5cc5126692ef58b7909eca826d",
+      "bytes": 6457
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "3e2644b33a8e685fd05b6630192f4d0cba968af79a3184260d4e4b72d7127098",
+      "bytes": 578,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "LeanLab/HeathBrown1985/Lemma2.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/9d3935edd02043640b72": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/sthubbar/goldbach-lean",
+    "source_commit": "4d87394fed5e86a866ec2335621dc1b57f2e0c9d"
+  }
+}

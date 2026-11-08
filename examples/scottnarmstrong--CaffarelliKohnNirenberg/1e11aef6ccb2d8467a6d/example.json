@@ -1,0 +1,128 @@
+{
+  "id": "1e11aef6ccb2d8467a6d",
+  "source": {
+    "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+    "commit": "58a9ffe548ea64319ac8cba098634340ee6270cb",
+    "project": "scottnarmstrong--CaffarelliKohnNirenberg--58a9ffe548ea",
+    "path": "CKN/Core/HeatPotential/HeatHolderComplex.lean",
+    "file_id": "023af77addfe32e62abd",
+    "source_sha256": "023af77addfe32e62abd3caab2c2effd1787c2c76d83185ba480f7887c70adea",
+    "start": 63,
+    "end": 84,
+    "original_start": 52,
+    "original_end": 84,
+    "declaration": "heat_holder_complex_components_bound",
+    "source_url": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/HeatPotential/HeatHolderComplex.lean#L63-L84",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CaffarelliKohnNirenberg--b8e78fb1bbb0/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/HeatPotential/HeatHolderComplex.lean#L63-L84"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "heat_holder_complex_components_bound",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "0a28b08e16e6e66faeccfd10206bba91df5fc3932fa524bb4c89006aca0e24b3",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1aff8c37355906c905a2980c9f455e2cb98b61f38d874ade0b831a2318527afd",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CKN/Core/HeatPotential/HeatHolderCampanato.lean",
+      "sha256": "29756edd28cf0596691e10de08e539b5872ee04e0861b2f907a01829c5c1301b",
+      "bytes": 3941
+    },
+    {
+      "path": "CKN/Core/HeatPotential/HeatHolderComplex.lean",
+      "sha256": "153e2e15c7881d171aedcf776effcf94c51bd6b933dae984466cad2c6ca2c692",
+      "bytes": 3560
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "b47e85662a71658c09f1f15a9d882fd12a3a5261bfd992c4ce87d976028ae62c",
+      "bytes": 14036
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Campanato.lean",
+      "sha256": "06bb8a4da1b25ef4a1b7717797021f1fdf9fe997b8b41d8208a38931c0ed4fc5",
+      "bytes": 3020
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolder.lean",
+      "sha256": "fde0db821c7b55fedb2fd20a7af9c0da32ba17ba31258b9ac3e78da17b8b9aab",
+      "bytes": 36160
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderConverseScope.lean",
+      "sha256": "8c5aa03787d3f29c28e40c0a662122bf81144946361fc80eb837ae7a0014be34",
+      "bytes": 6529
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderFaithful.lean",
+      "sha256": "bbcbee7f70c089c2aa9d348919533a2e21ae376765a37d8803ed3708bff92ad5",
+      "bytes": 1482
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderFinal.lean",
+      "sha256": "82d6a812aa148060f681fa95c1fda28f94640fa115f09ea97451b3840d18f988",
+      "bytes": 15507
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderFull.lean",
+      "sha256": "c5275afd523e98872c05a908745078ccc465b124549f8bcc9df3a7db1132b754",
+      "bytes": 12202
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Doubling.lean",
+      "sha256": "ce8ddfe61fd919652286e1e1152b30d23637c8ccf575b79fc8ee766813bc1085",
+      "bytes": 10670
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Holder.lean",
+      "sha256": "8441d238794a08f0f3283d6a53b44dd42542a7a92eeea0e8a7bb67005034a11d",
+      "bytes": 1626
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Average.lean",
+      "sha256": "c09b36b362f60165076a068b16c41f036a6a2acd0fcdf9b88e0b7b80d8337bc5",
+      "bytes": 7970
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Slice.lean",
+      "sha256": "68c803026fe3865d3c062b3749bffadf3b84fd233b4e355c8e82a6dc38957ef8",
+      "bytes": 13670
+    },
+    {
+      "path": "CKN/Statements/ParabolicHolderVecOn.lean",
+      "sha256": "aa3850decc6a1ba82e488326e749daf99b36edd15a9b9c50bfb64c0cfd4c2981",
+      "bytes": 557
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5fc7eefe174a521d64337c17bdae8552d863eac8d31edbe50028f895ac3f4a7b",
+      "bytes": 922,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "f1686636e490cb54e7091701515e72fb12b49b93cba254da329fd6add0c7c14e",
+      "bytes": 3549,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CKN/Core/HeatPotential/HeatHolderComplex.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg",
+    "source_commit": "58a9ffe548ea64319ac8cba098634340ee6270cb"
+  }
+}

@@ -1,0 +1,24 @@
+"name" = "CoarseDeGiorgi"
+"defaultTargets" = ["CoarseDeGiorgi"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["require"]]
+"name" = "CoarseGraining"
+"path" = "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/1f5330ecbd8fdb0ef6d6/__deps/CoarseGraining-8bbf3809"
+
+[["lean_lib"]]
+"name" = "CoarseDeGiorgi"
+"globs" = ["CoarseDeGiorgi.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "CoarseDeGiorgiAudit"
+"globs" = ["CoarseDeGiorgiAudit.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false}
+"srcDir" = "."

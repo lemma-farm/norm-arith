@@ -1,0 +1,106 @@
+{
+  "id": "1898d581c6c8ceedbf06",
+  "source": {
+    "repository": "SauersML/group-approximation",
+    "commit": "232c77f169ec66b27fd480d5c19474f519d359b7",
+    "project": "SauersML--group-approximation--232c77f169ec",
+    "path": "GroupApproximation/Analysis/CStarSeminormCompletion.lean",
+    "file_id": "003d40bff2bdb6fb4d2f",
+    "source_sha256": "003d40bff2bdb6fb4d2f2fee7d03bab5e14dfa066204cf8c5cf091515d1cb5c6",
+    "start": 203,
+    "end": 208,
+    "original_start": 203,
+    "original_end": 208,
+    "declaration": "norm_preLift_le",
+    "source_url": "https://github.com/SauersML/group-approximation/blob/232c77f169ec66b27fd480d5c19474f519d359b7/GroupApproximation/Analysis/CStarSeminormCompletion.lean#L203-L208",
+    "archive_url": "https://github.com/PalomarArchive/SauersML--group-approximation--d16b34e6ab02/blob/232c77f169ec66b27fd480d5c19474f519d359b7/GroupApproximation/Analysis/CStarSeminormCompletion.lean#L203-L208"
+  },
+  "native_target_name": "GroupApproximation.CStarTensor.norm_preLift_le",
+  "source_declaration_label": "norm_preLift_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "940d1856dfbbf06c0c2cfb78863fce999d319be1a5265eec99a81d7c153daaba",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "34306925ee2890d60e86a50f57edd834f22de0efa7b09be6c39fa65f7ac3cd86",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GroupApproximation/Analysis/CStarCompletion.lean",
+      "sha256": "d859b1c4c8b7dd1030fe92403f1603c74a83f8fa88d70c6b4bf00802656db034",
+      "bytes": 8753
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarCompletionCoe.lean",
+      "sha256": "40bc7a7c27dc535286eb6c0056b8c7ca38337fa8b47eea04f0d1cd8b3ce0c9ed",
+      "bytes": 4385
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarCompletionHom.lean",
+      "sha256": "8e1154ae3dabc59fa5bf3bf159ec80c796e05220cf40028895872d6287e8c594",
+      "bytes": 7881
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarNormBundled.lean",
+      "sha256": "e6033785dc79f91ebaf1cb145583ca2db3b8cb682fea281bbb9e5aaba588754d",
+      "bytes": 7488
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarQuotientHom.lean",
+      "sha256": "fbea856b8a770ff9618a00f4f763e9455459c88b44e2112c77d494e8782f2b99",
+      "bytes": 5579
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarSeminormCompletion.lean",
+      "sha256": "33a577d370f6a98135e72df7ec35a451a3a7dfefb0da8f440c14e25bf58ee46a",
+      "bytes": 11270
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarSeminormQuotient.lean",
+      "sha256": "c1a263ad7fc5488f57791ab4710e1e8f7b391e8966c1895cf0ec8b8e0dd3d8ca",
+      "bytes": 18952
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarTensorProductAdjointable.lean",
+      "sha256": "f32047518341226189131d14a4cd9110be2e321631c100ebfc66a3a1d8b44f00",
+      "bytes": 12942
+    },
+    {
+      "path": "GroupApproximation/Analysis/CStarTensorProductSeminorm.lean",
+      "sha256": "58f87d04eb3dab736637c5f003b6ce2e33613dfbf6b20b0cf0072d158d963706",
+      "bytes": 9325
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "85c20e269c16f53f0d651ce99ec60b2068a76d7ca7c34128dee1bd63f303dae8",
+      "bytes": 4262,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "GroupApproximation/Analysis/CStarSeminormCompletion.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/1898d581c6c8ceedbf06": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/SauersML/group-approximation",
+    "source_commit": "232c77f169ec66b27fd480d5c19474f519d359b7"
+  }
+}

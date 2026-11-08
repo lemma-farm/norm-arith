@@ -1,0 +1,88 @@
+{
+  "id": "051cf41e70c2436896b4",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptotics.lean",
+    "file_id": "00026860013299787efb",
+    "source_sha256": "00026860013299787efbecf294222fe8826cb46a8acb3765f4181b6cb079e89e",
+    "start": 100,
+    "end": 119,
+    "original_start": 85,
+    "original_end": 119,
+    "declaration": "UIr_remainder_bound",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptotics.lean#L100-L119",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptotics.lean#L100-L119"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "UIr_remainder_bound",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "60dc812e82da85e129b362bdd9233149e6b0b545d51c893b03585d649ae9ae61",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e64300a18510d34828095171f624fab7a5aa7971efa3e7a85fc8ba6640e6e72b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/Integral.lean",
+      "sha256": "d04f4b68b4fe1b1cd60c5bc4386fdbd957690de9a7b09fc0c06c5d608827471b",
+      "bytes": 2950
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/IntegralKernel.lean",
+      "sha256": "b71fe93d1c3b119f48256219499fd48b99d127a65e569cd4046230276d6b9346",
+      "bytes": 5377
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/Series.lean",
+      "sha256": "b629925445ada34a216c1ae8c892f528c4b307048b2007c470d1da8588a2d745",
+      "bytes": 7119
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptotics.lean",
+      "sha256": "334cf29a30919912a6926ffc30fa4d99142b082313ec47813d2062faaba577c4",
+      "bytes": 8922
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptoticsMoments.lean",
+      "sha256": "a3b3af96bc430dbf7f730a4ac8bd41667a1c285a15caf418d20b0b5f595774ed",
+      "bytes": 5572
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptoticsTaylor.lean",
+      "sha256": "b1fc41be4e38bc984f49f964881d166b61da521743f05f97875c344adcc57ed3",
+      "bytes": 4761
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f44e6df967145b4ca605e9d29f7d37b288e981d05205d269b25d7d07af61ed5a",
+      "bytes": 2221,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Counterexample/Kummer/UAsymptotics.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

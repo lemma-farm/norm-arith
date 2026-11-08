@@ -1,0 +1,63 @@
+{
+  "id": "af500dc6471b9cb6b82b",
+  "source": {
+    "repository": "scottnarmstrong/SuperdiffusionCLT",
+    "commit": "b407c97da6af47b63f8067aaf531e2e255bfc78d",
+    "project": "scottnarmstrong--SuperdiffusionCLT--b407c97da6af",
+    "path": "SuperdiffusionCLT/Section5/Thresholds/IterationTelescope.lean",
+    "file_id": "0ccea57e13765e64fdbb",
+    "source_sha256": "0ccea57e13765e64fdbb4aebb668eda148a0060326b3db7cb219f6027c15281e",
+    "start": 80,
+    "end": 92,
+    "original_start": 80,
+    "original_end": 92,
+    "declaration": "telescope_along_steps.hacc",
+    "source_url": "https://github.com/scottnarmstrong/SuperdiffusionCLT/blob/b407c97da6af47b63f8067aaf531e2e255bfc78d/SuperdiffusionCLT/Section5/Thresholds/IterationTelescope.lean#L80-L92",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--SuperdiffusionCLT--db2e44683f08/blob/b407c97da6af47b63f8067aaf531e2e255bfc78d/SuperdiffusionCLT/Section5/Thresholds/IterationTelescope.lean#L80-L92"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "telescope_along_steps.hacc",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "177ff5586c9571ee0681c85780cf046547e4e1926060894365fdd47d641f509c",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "79153e9ff528560f91cbe324980d357fa1f9a99b764e805df61dade92fa058c8",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SuperdiffusionCLT/Section5/Thresholds/IterationTelescope.lean",
+      "sha256": "0ccea57e13765e64fdbb4aebb668eda148a0060326b3db7cb219f6027c15281e",
+      "bytes": 6417
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "085d79c5ca99d391a3b99666d28152c825ff7294e76506c840b3cfae1bb927c2",
+      "bytes": 749,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SuperdiffusionCLT/Section5/Thresholds/IterationTelescope.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/SuperdiffusionCLT",
+    "source_commit": "b407c97da6af47b63f8067aaf531e2e255bfc78d"
+  }
+}

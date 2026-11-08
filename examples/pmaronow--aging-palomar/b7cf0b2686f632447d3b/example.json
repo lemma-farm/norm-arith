@@ -1,0 +1,521 @@
+{
+  "id": "b7cf0b2686f632447d3b",
+  "source": {
+    "repository": "pmaronow/aging-palomar",
+    "commit": "d3f09f56462be6f73eb20733cb7963410409fa06",
+    "project": "pmaronow--aging-palomar--d3f09f56462b",
+    "path": "SphericalAging/EnergyCovarianceContraction.lean",
+    "file_id": "05130856b336a8df7bb0",
+    "source_sha256": "05130856b336a8df7bb0d2a92935e81ff32dd91488b854e576e9aed0d5ebea51",
+    "start": 126,
+    "end": 135,
+    "original_start": 126,
+    "original_end": 135,
+    "declaration": "weighted_trace_replacement_le",
+    "source_url": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/SphericalAging/EnergyCovarianceContraction.lean#L126-L135",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--aging-palomar--4b3b27b78e14/blob/d3f09f56462be6f73eb20733cb7963410409fa06/SphericalAging/EnergyCovarianceContraction.lean#L126-L135"
+  },
+  "native_target_name": "SphericalAging.EnergyCovarianceContraction.weighted_trace_replacement_le",
+  "source_declaration_label": "weighted_trace_replacement_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a944dd1ef4411a7092c6401e9e65098f90232cffb843dc562b170ec9b985b88c",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "cd782132909bea89ca121802b2a3a1c62060b22173af14d056fb4018d18747c3",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SphericalAging/AdaptedContinuous.lean",
+      "sha256": "adad7ebb67fd47f77eda21a2e09406e2e6327ec8b0fa8189c07f45793698aaf8",
+      "bytes": 4752
+    },
+    {
+      "path": "SphericalAging/BoundedItoMultiplier.lean",
+      "sha256": "8977121ab6f8b44ac223909bd20270b5f64d8f9a5b1dadd8a1c6febb5dd91581",
+      "bytes": 12029
+    },
+    {
+      "path": "SphericalAging/EnergyCovarianceContraction.lean",
+      "sha256": "a72e8aec4349c1eb56995c14d0f2afd8814b58394837f5daabf4b118b3ee5cdf",
+      "bytes": 7098
+    },
+    {
+      "path": "SphericalAging/EuclideanNets.lean",
+      "sha256": "68ec370c8b35a09f75f50bfc5c05b188bc662d8d8c47a26197e33b0fdac77038",
+      "bytes": 5325
+    },
+    {
+      "path": "SphericalAging/FilteredQuadraticVariation.lean",
+      "sha256": "f2b2ec58befa828c33ac7affb73c2a979284876211f32bf2507273716c6dbc0f",
+      "bytes": 41080
+    },
+    {
+      "path": "SphericalAging/FiniteCorrelationIto.lean",
+      "sha256": "3a2ef6fa164e8730515b654a4c0bee493b68efe1a971fc734250163d81c1fea5",
+      "bytes": 15883
+    },
+    {
+      "path": "SphericalAging/FiniteModel.lean",
+      "sha256": "3137e60ab199039477df37d6eb6a5be351c80c8ef8e89beda3ed369de44610b8",
+      "bytes": 11520
+    },
+    {
+      "path": "SphericalAging/GaussianIntegrationByParts.lean",
+      "sha256": "2cc783b0d808f6ab834ee267d3ba19f87437101408e975fb2146557616e3ff50",
+      "bytes": 11436
+    },
+    {
+      "path": "SphericalAging/GaussianLandscape.lean",
+      "sha256": "6922ce6a62e8793773de19e6d126b7cb9607b486c3b5198623c3ec32f6307d1d",
+      "bytes": 15021
+    },
+    {
+      "path": "SphericalAging/GaussianLandscapeMoments.lean",
+      "sha256": "91d2f1982eb089505754e1e3328a84132a3dea403a409a18fb3961521a3c279a",
+      "bytes": 13983
+    },
+    {
+      "path": "SphericalAging/HamiltonianDerivativeCovariance.lean",
+      "sha256": "113d41a52a2355e25dbad70f6fb86cbd9f664b0098d14948cceb63c599662bb9",
+      "bytes": 17567
+    },
+    {
+      "path": "SphericalAging/HardSphereDynamics.lean",
+      "sha256": "a208b386bfffa99584c97e0db41efa324b87b14b37273de557b18493cd98970b",
+      "bytes": 17351
+    },
+    {
+      "path": "SphericalAging/HardSphereStochastic.lean",
+      "sha256": "419bbd08e933c092578e2ca9a482dfad6d911a4e39600e21915cd07c3d581e4b",
+      "bytes": 17104
+    },
+    {
+      "path": "SphericalAging/LandscapeDerivatives.lean",
+      "sha256": "7c824e374b5160b41dab72f5c4e5683149960b9475eab7d3e1cd019bfbf3336e",
+      "bytes": 17050
+    },
+    {
+      "path": "SphericalAging/PredictableDriftTime.lean",
+      "sha256": "e3b3bff126e787dbcc9cee4ee491ea3773da3cf395edd15530161ba7928d060f",
+      "bytes": 23508
+    },
+    {
+      "path": "SphericalAging/PredictableItoTime.lean",
+      "sha256": "759b643d33768ee40b7d5f601084103e7d606e35076d52a31170c37d614b2ba3",
+      "bytes": 19788
+    },
+    {
+      "path": "SphericalAging/RadialUniqueness.lean",
+      "sha256": "96080244c51320b5f4a4d8e95684bb55d0791d012f145f9c29a5cd5fd50f6ad6",
+      "bytes": 14645
+    },
+    {
+      "path": "SphericalAging/VectorIto.lean",
+      "sha256": "f732786ab2ccc399b5be72c2a20b9c60049feab54b9d338214a266bfc04a2658",
+      "bytes": 22248
+    },
+    {
+      "path": "SphericalAging/VectorItoFormula.lean",
+      "sha256": "fd61e0f587b3b1571b756b4afe45582ab936cccdc9300f96024a3245a99e3b69",
+      "bytes": 10222
+    },
+    {
+      "path": "SphericalAging/VectorQuadraticVariation.lean",
+      "sha256": "73a933e21b46d233e243abb3279534baaf419600b27a267e2a8ee1ee0ac993a9",
+      "bytes": 41099
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/Algebra.lean",
+      "sha256": "6d8f4e6118f07e78160f257a80a32d45f37c54dabb0f67fb3a2b700db0fbb8f1",
+      "bytes": 1509
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/ContinuousBilinForm.lean",
+      "sha256": "b1ce6098fd52ef3dff26e2103d27905308527043b83d4f65c75fe8302b2915e3",
+      "bytes": 12091
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/DenseCountable.lean",
+      "sha256": "defdd7471ca9c4b8b786559b066313de7e1008d5a39a31ab76ee400313d668fa",
+      "bytes": 1058
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/ENNReal.lean",
+      "sha256": "d082683b5395fc581c6f5be8900b92fd5d4c1c3db9ee5f509840d0fe11336343",
+      "bytes": 1895
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/FiniteInf.lean",
+      "sha256": "a7787b533210e57c3e60c5e4d0b6db2d7b47a6928e157cdb5346d447c0275f83",
+      "bytes": 2438
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/HasLaw.lean",
+      "sha256": "49fa3bbf9db5a4ea7b5402c07b5e42a5acdcc9fbce75bc3e16137266835afdc8",
+      "bytes": 752
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/LinearAlgebra.lean",
+      "sha256": "b4c7b5b22d199f1fae2f685cfa6d192289be13be3e33a975c6262c6112ffb735",
+      "bytes": 3448
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/MeanInequalities.lean",
+      "sha256": "fb5679faa9fce35f080f1e110a5f25456c73f902199f10f4a990bfcf817511e1",
+      "bytes": 2511
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/MeasureTheory.lean",
+      "sha256": "860539b7c5aeb22f07eb4e3f6df86f4764d5e890aa6c0ebd54592a5ff4768cb1",
+      "bytes": 14945
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/Metric.lean",
+      "sha256": "18579ae4647d42068a6451197c574dfdbb079b1e43291d9be4392d024d112ecc",
+      "bytes": 2244
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/NNReal.lean",
+      "sha256": "58a4a8c1543b5282117587d33417474715ec2cdecaaecf905994e875e83f31d7",
+      "bytes": 564
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/Nat.lean",
+      "sha256": "a828a2b2cf4564be09d37c9bbb34131c7adf6873144c74217f38a7531b0b40d1",
+      "bytes": 463
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Auxiliary/Topology.lean",
+      "sha256": "498d022dfa54de0d0491a4083e34961cafe5dfdf593a5eaa302d8239cea4b885",
+      "bytes": 5662
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/Chaining.lean",
+      "sha256": "e48d8c93757a42b61cc434f3e83942679bd1d2f6229df4d79e0e1310a842fc5c",
+      "bytes": 12353
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/CoveringNumber.lean",
+      "sha256": "7756af314a02f20cac95f9db7e6d40fbab44a0280976a531250994dfff7bd4d9",
+      "bytes": 16638
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/HasBoundedInternalCoveringNumber.lean",
+      "sha256": "fe0d50fc7d3f4d2b271795fd5711901fc48dd79900f96397686991d3179176c8",
+      "bytes": 7956
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/IsKolmogorovProcess.lean",
+      "sha256": "cfa959e4b6db9ca5ca9fd795eb4f8a80880ad54947321c76ed5da1f4f5f7edc7",
+      "bytes": 53867
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/KolmogorovChentsov.lean",
+      "sha256": "3997943360f0a3bd353b7c5124526cdebb7ba9e0de4be3407259a61cd9e6285d",
+      "bytes": 63131
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/KolmogorovChentsovInequality.lean",
+      "sha256": "882bdf686b48e34c0418ca372ebcd683f1ea42a176b94cd15103864924370d4f",
+      "bytes": 18693
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Continuity/LimitModification.lean",
+      "sha256": "c29a4aa845790e2dc8927f3d197d9d9ccbab6f75275dd5adf51733b5e1eaa7ad",
+      "bytes": 19105
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/BrownianMotion.lean",
+      "sha256": "6c8357272b27bbf42ebb6074b55cac71a7a6d94867a1f7e252969c1ac94100c2",
+      "bytes": 38324
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/CovMatrix.lean",
+      "sha256": "49b6238016f80a4024e59d06be262d763e95aac517227905316029cfccf3f32f",
+      "bytes": 4764
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/Gaussian.lean",
+      "sha256": "f7c4d58b64a41f63e81a516c25556a2af1e8d655af40550d7a3e77446536e306",
+      "bytes": 1087
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/GaussianProcess.lean",
+      "sha256": "fc76585b1ad751d2448c194c06ce498c01e2f2c52cae3780a7f8247650044717",
+      "bytes": 1907
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/Moment.lean",
+      "sha256": "45835b771704b6dcef157466023d8a08ae1dd99f5ca949019ace9c6841622fc2",
+      "bytes": 6919
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/ProjectiveLimit.lean",
+      "sha256": "8199aa587dfce3aa49f61c7a9e2a6d16a011c711d81b6ad361fd9ed16f2510ce",
+      "bytes": 9830
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/BrownianMotion/Gaussian/StochasticProcesses.lean",
+      "sha256": "8d87882dc2c45d27e99ec36c302b4ed928c6be45c2030c741f1f6663be6f08b7",
+      "bytes": 2552
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/ContinuousAEAdaptedPredictable.lean",
+      "sha256": "333cb06aa278167a2831c1c9a91c41d5d97434607363554cc276b09feb46428a",
+      "bytes": 4919
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/ContinuousAdaptedBrownianIntegral.lean",
+      "sha256": "2ceef37f296653f0246153c048dc48a76b808c270e0811d9f056da3059a6b7f7",
+      "bytes": 8068
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/ContinuousAdaptedPredictable.lean",
+      "sha256": "b9c9bf6c8503c062aa57055d294ef1f37b5496c7f54b45b451b7436b679e463e",
+      "bytes": 9520
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/ContinuousAdaptedSteps.lean",
+      "sha256": "3a71fb6c06382abf37599f065ec3cb9906fd0714b003fb8739f3e78da2c585e8",
+      "bytes": 7182
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredBrownianElementary.lean",
+      "sha256": "d91ff11b14a516e4f8307b9b8ffb7c534a9f0fc07648cfc4a5dca90565749fea",
+      "bytes": 14932
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredBrownianIntegral.lean",
+      "sha256": "abc19591077a8e2e24eecaa7a6ae820721a11dc3ab70b11bcd7989ce0e3ed950",
+      "bytes": 23698
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredContinuousBrownianIntegral.lean",
+      "sha256": "d9a8214b4f1bcae99d3e8a14cfed72f7948c0bcbb026bfb33538d2c943a2961a",
+      "bytes": 8112
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredItoContinuous.lean",
+      "sha256": "27a7c6780fe4a8648a42c8a949e19028f1a44b40663b2cbebe99245205054d85",
+      "bytes": 35677
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredItoL2Continuity.lean",
+      "sha256": "0f5e6749969ea711c2b42c3ee719e6c3e533471cecab8a0b68e3297327acc514",
+      "bytes": 13096
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/FourPapersCommon/FilteredItoProcess.lean",
+      "sha256": "1738a1e731df8d3e5c0d9d96bae2d1fc6d4b03b197924ebd185e4a590ec50a0f",
+      "bytes": 39924
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/KolmogorovExtension4/CompactSystem.lean",
+      "sha256": "25d8a4f9fd8a20ae9b1b1769b1d89fa3d8f3994fec0242678a1bb21a78a6df8d",
+      "bytes": 13059
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/KolmogorovExtension4/KolmogorovExtension.lean",
+      "sha256": "74e9213c15aab7f1d1fcd3d0bdc19fa46b7f5caa3e447140c36a91129d2fb521",
+      "bytes": 8833
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/KolmogorovExtension4/RegularContent.lean",
+      "sha256": "da0fe6917c0e9042ee25b821b92f00a7c18467155ae74449158f8ba2b77c24bf",
+      "bytes": 4218
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/CameronMartin.lean",
+      "sha256": "75ee929a97ea5eb4b692baca1486649dc1554cff9b326fccac4ae12233722532",
+      "bytes": 12269
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/CameronMartinTheorem.lean",
+      "sha256": "a8b6dbe1b0aebbeaf290674ca9def9cf1a8d36aea0bb764d2f614e88f7a684c7",
+      "bytes": 29081
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ContinuousExitTime.lean",
+      "sha256": "e8054eb464817323ab10bfe898768a338d69a98a282586ba1f8cd655a049b252",
+      "bytes": 53241
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ElementaryIto.lean",
+      "sha256": "2eadc19ce8a953aa0cc5ad1fff73f56b83566e9284150a8ed1c7c54283d66e70",
+      "bytes": 22125
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ElementaryMartingaleIntegral.lean",
+      "sha256": "b35140616fc4f8031e0bcf3b31890688ff735c158ea4d9fcb221115fcac0196d",
+      "bytes": 29254
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/FubiniLift.lean",
+      "sha256": "7bb5f61af78a4081549ac89bffb733a05e1be72289f5a213dabb6cd004d16691",
+      "bytes": 42416
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/IteratedIntegral.lean",
+      "sha256": "76bfb05866ebdafdd08bdcf64bf6bae97177641683a72b72318395e709fd0016",
+      "bytes": 66196
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoConstruction.lean",
+      "sha256": "2331c07354a8f2f8198f147d6654ccd6de81a44057800115bbdb9d339a042a19",
+      "bytes": 25160
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoFormula.lean",
+      "sha256": "39fcb41fa65202a7802fc1e53e0512520d82d3e4c75c19fb0c7a3ab0232b51cb",
+      "bytes": 23992
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoFormulaGeneral.lean",
+      "sha256": "892b8043568c166549ecddc0e7e500768e5f8f19176a66bed5b273838428f048",
+      "bytes": 27645
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoFormulaPartition.lean",
+      "sha256": "35c8fc30376b0f98745e4e0eadcb9534bcb974bc64c91f718e2528c9a0b5f1b5",
+      "bytes": 74294
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoMaximal.lean",
+      "sha256": "60477df73844a7f157a8238048f88f5be2b59c5909b0d078c739b445de404e1d",
+      "bytes": 25376
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/ItoProcess.lean",
+      "sha256": "dbd71ead9da82fc8db4cbf68a22bae71829cd26fc95cbf10d61c55fe2f75cf43",
+      "bytes": 39142
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/LocalMartingaleContract.lean",
+      "sha256": "7417a67d3b8251f5b716ff4e7d245f757ebc75f162a377fa79fe0f0274a267d7",
+      "bytes": 35845
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/LocalizingStoppedProcess.lean",
+      "sha256": "f9784776ae403c76c04677b0a3491d29aba6bc4afcef409bba3a7bc2f0b1e564",
+      "bytes": 36925
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/MartingaleLeftSum.lean",
+      "sha256": "48ba096e7f6173d0f94d274c4a524175aec6b3c91442edd3fbbd98f0fed4e904",
+      "bytes": 49099
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/PartitionStoppingTime.lean",
+      "sha256": "a457b420b64974b4bfb0a41b301fda1a63dbbc242ec1640de881f3abb41f8075",
+      "bytes": 36137
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/PredictableDensity.lean",
+      "sha256": "75313150846685bafbf6da005415533004a8e27068327870b49f9ff41140eb3c",
+      "bytes": 19372
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/PredictableProcess.lean",
+      "sha256": "144e7548a7e8ddd73d336abcc0e5bdbedd74058d0fbe3dab8a4692b905c331dc",
+      "bytes": 16959
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariation.lean",
+      "sha256": "5fffdc897f38a566707919dbc4c5e6e9066f3c784f0934f654fd35bbb775ffe6",
+      "bytes": 41440
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariationContract.lean",
+      "sha256": "e9c1587d40ffb9bdc7ceabec4f151c80d017e461a274a0b555c267cb2c1460a7",
+      "bytes": 48091
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariationDensity.lean",
+      "sha256": "01907aecf322d84380f4ef4a28010338c7a4def229a1a611521f7fe8c9fa7ab8",
+      "bytes": 31919
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariationElementary.lean",
+      "sha256": "471050e926bdb940724308d7f14fd6286754a5dafc2a6cf0508aeebbb3644fcf",
+      "bytes": 36710
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariationGrid.lean",
+      "sha256": "c3e383a9511ec7884934822e59f8e3083d47a2748ff514cde031fa8275e5752d",
+      "bytes": 31904
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/QuadraticVariationTightness.lean",
+      "sha256": "fb879a699f828d140101da773d7f98fe706756f7070cb5cc7a320685ab506637",
+      "bytes": 5736
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/Simplex.lean",
+      "sha256": "cabcd629f9a2106647368ffcf538be9e09c2ebebf5d01de86751e686b84b7054",
+      "bytes": 18898
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/Symmetrization.lean",
+      "sha256": "f2120ea24d554f70831d0fce242ec797ee55259c3f1187eea4810c020410fa4a",
+      "bytes": 23296
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/TendstoInMeasureAlgebra.lean",
+      "sha256": "dbeb8ea82d06bb992d2d142ad7b78a7cf0880e567c1adc287f81b1461161694c",
+      "bytes": 7523
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/TightProduct.lean",
+      "sha256": "735cff4534b17fc2bfa044d0ced81490433f1a9b06ab1907759e4ab5e8481fd3",
+      "bytes": 24378
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/UniformPartitionSums.lean",
+      "sha256": "931716454bea607675c2b88a725979f807c38e7da2d7a4ef414e6e98a4127fed",
+      "bytes": 32604
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/WeightedBracketRiemann.lean",
+      "sha256": "8c42ad9b19d2c4c3f702bd641af1f09f92d5be3887781b2cf9f1dbe8b6a8bed3",
+      "bytes": 60291
+    },
+    {
+      "path": "vendor/hard-sphere-foundations/src/StochasticCalculus/WienerIntegral.lean",
+      "sha256": "a54401c29966442315a48df6d095ecbd51c38e3799b0b0a1bf0c9f9fc8e6ff39",
+      "bytes": 57319
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "e1b64868ecb81b0982e58645ef32834577e2b214dc0dbf09e35dd14e70c0e6fa",
+      "bytes": 852,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "SphericalAging/EnergyCovarianceContraction.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b7cf0b2686f632447d3b": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/aging-palomar",
+    "source_commit": "d3f09f56462be6f73eb20733cb7963410409fa06"
+  }
+}

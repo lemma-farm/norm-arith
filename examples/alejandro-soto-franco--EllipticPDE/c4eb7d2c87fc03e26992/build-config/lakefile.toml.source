@@ -1,0 +1,29 @@
+"name" = "EllipticPdes"
+"version" = "0.1.0"
+"keywords" = ["math", "pde", "elliptic"]
+"defaultTargets" = ["EllipticPdes", "AxiomAudit"]
+"lintDriver" = "batteries/runLinter"
+"lintDriverArgs" = ["EllipticPdes"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false, "weak" = {"linter" = {"mathlibStandardSet" = true}}}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "EllipticPdes"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AxiomAudit"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

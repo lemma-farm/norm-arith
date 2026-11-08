@@ -1,0 +1,24 @@
+"name" = "FavardLength"
+"version" = "0.1.0"
+"defaultTargets" = ["FavardLength", "Challenge", "Solution"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "autoImplicit" = false, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "FavardLength"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

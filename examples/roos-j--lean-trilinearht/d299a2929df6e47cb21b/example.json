@@ -1,0 +1,66 @@
+{
+  "id": "d299a2929df6e47cb21b",
+  "source": {
+    "repository": "roos-j/lean-trilinearht",
+    "commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46",
+    "project": "roos-j--lean-trilinearht--0fac9f4ed4aa",
+    "path": "TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean",
+    "file_id": "032e46b5e9bfb09d3318",
+    "source_sha256": "032e46b5e9bfb09d331847e127e6b8dfd5408941bcc6273410420ca5ffcaf547",
+    "start": 474,
+    "end": 491,
+    "original_start": 474,
+    "original_end": 491,
+    "declaration": "realMatrixOperator_norm_le",
+    "source_url": "https://github.com/roos-j/lean-trilinearht/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean#L474-L491",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-trilinearht--96f63735ff5a/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean#L474-L491"
+  },
+  "native_target_name": "Auto.realMatrixOperator_norm_le",
+  "source_declaration_label": "realMatrixOperator_norm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "61aebe7a6e0e21106aae3a1f92b8f95f98447941dbe445109ee813ea375d02f4",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e65e93d17f2b5a5b0ff7d638fa3d63903fc5b19950bcf1b732e70ddff73fdac7",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean",
+      "sha256": "e8ba03b51f5f19fa136963a98c5575c67324f0fb8c38edb9d4810e00acb97a77",
+      "bytes": 126394
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "abe273a8722bb6382a2a3bcbfb76a7e2f91eef552624667cea0ee3223a4e8656",
+      "bytes": 465,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/6743ab8beb6cfd2d5fb2": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-trilinearht",
+    "source_commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46"
+  }
+}

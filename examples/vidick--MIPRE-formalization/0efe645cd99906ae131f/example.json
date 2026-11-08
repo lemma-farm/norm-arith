@@ -1,0 +1,93 @@
+{
+  "id": "0efe645cd99906ae131f",
+  "source": {
+    "repository": "vidick/MIPRE-formalization",
+    "commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6",
+    "project": "vidick--MIPRE-formalization--7798a80300e1",
+    "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean",
+    "file_id": "010cc8a7a291361d0d69",
+    "source_sha256": "010cc8a7a291361d0d69436206b2ccf291a4572117de0a648d45f57c69e297b8",
+    "start": 385,
+    "end": 416,
+    "original_start": 380,
+    "original_end": 416,
+    "declaration": "CommutingRepetition.BorelCalc.Pol.norm_pol_le_sq",
+    "source_url": "https://github.com/vidick/MIPRE-formalization/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean#L385-L416",
+    "archive_url": "https://github.com/PalomarArchive/vidick--MIPRE-formalization--0d44c812c686/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean#L385-L416"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "CommutingRepetition.BorelCalc.Pol.norm_pol_le_sq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "a2f27911d56eb9a6e1c359677fb4ca2fcbc46cd1af7adb697888ef9053f703ff",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1b81e188c866193906e5fde0aaaaaee88535c3d2395da3aa786b3c0aefae8b8d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Resolver/Douglas.lean",
+      "sha256": "d272fd8acfd09342e893477a8501790edab2a564e3eb31167ff0d198e30b4798",
+      "bytes": 14867
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean",
+      "sha256": "6dfc098649d267149264de86fb57082bf5a9d3902aca05a728220e6393ede378",
+      "bytes": 29494
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/MonotoneLimit.lean",
+      "sha256": "6997fa5637b82f06c712d0328c71c141dd748fccb8d352d461dbb3a78423f862",
+      "bytes": 10358
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/SpectralMeasure.lean",
+      "sha256": "91426137a089262c8fe9155c220f697f23ea9dfef70400f517e9d54ddb108d97",
+      "bytes": 14376
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Prelim/Entropy.lean",
+      "sha256": "922227855e42d6ea8065ff8b9a4061b3e2c45f0a560d53c07cf129a8b7f06ab7",
+      "bytes": 23209
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Prelim/FiniteProb.lean",
+      "sha256": "08b2bba240c8a03b7cd238811b810ad4dd24c3c9b07ca00974786c97e850de4b",
+      "bytes": 6863
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Resolver/Resolvent.lean",
+      "sha256": "14d8b75b0a579602c6007271ef0e44c878c2f6f06230497fc507b713c5494a58",
+      "bytes": 14561
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "faa7307263d1595b2ea26330abecf036d9dc011c5f5f27083418db52fcd7d85c",
+      "bytes": 466,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vidick/MIPRE-formalization",
+    "source_commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6"
+  }
+}

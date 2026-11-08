@@ -1,0 +1,121 @@
+{
+  "id": "64fa36e121f35e8dd778",
+  "source": {
+    "repository": "nihargargava/systole_bound",
+    "commit": "a54807b9bf6cbd61194c1fb78da380535ec8a871",
+    "project": "nihargargava--systole_bound--a54807b9bf6c",
+    "path": "CookMagyar/PrimePowerStationaryPhase.lean",
+    "file_id": "0a68efbd09d86ab17797",
+    "source_sha256": "0a68efbd09d86ab17797fd518cb4664ee044c3354c7b68f50622d7149b4a1b49",
+    "start": 1282,
+    "end": 1330,
+    "original_start": 1248,
+    "original_end": 1330,
+    "declaration": "norm_unitCubicExponentialSum_primePower_block_le",
+    "source_url": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/CookMagyar/PrimePowerStationaryPhase.lean#L1282-L1330",
+    "archive_url": "https://github.com/PalomarArchive/nihargargava--systole_bound--2ba371315fe1/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/CookMagyar/PrimePowerStationaryPhase.lean#L1282-L1330"
+  },
+  "native_target_name": "SystolicGrowth.CookMagyarPrimePower.norm_unitCubicExponentialSum_primePower_block_le",
+  "source_declaration_label": "norm_unitCubicExponentialSum_primePower_block_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "40d4b1d14e1c58a6c5e498c314356e4e8f7822cda742e6d35fbb40301e6e7d2d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "02d40900d6f457a685a0526fde3676a1c834eb0961bf91f3d6f719a3f1a828bc",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CookMagyar/CircleMethod.lean",
+      "sha256": "97e69741520c54c71c12adf2190466cb379ac97a6ab11983403ecc1cc4337376",
+      "bytes": 11262
+    },
+    {
+      "path": "CookMagyar/FiniteFourier.lean",
+      "sha256": "dd20ca45ce0fb90428c82c497df6f3080e5681bcce5932dda44f33dd0c830bcb",
+      "bytes": 5392
+    },
+    {
+      "path": "CookMagyar/FiniteMultiplicativity.lean",
+      "sha256": "10fe22174d97050238b5bb4d991109bb2b002137fd1d2e329c4656ca825f7747",
+      "bytes": 6553
+    },
+    {
+      "path": "CookMagyar/Local.lean",
+      "sha256": "52cf0ed88282c396e899456913a297d2062c280530717bfae8dd64f92f1026f2",
+      "bytes": 7879
+    },
+    {
+      "path": "CookMagyar/LocalCount.lean",
+      "sha256": "93541cb8e09f100185f58a822d17000d5bf4f60e3f2538a0cc937868e8d6fa32",
+      "bytes": 5379
+    },
+    {
+      "path": "CookMagyar/LocalFactorTail.lean",
+      "sha256": "a3fb75275a58c31588a5012c917c416c803f31e258d27f81ce716f8606441817",
+      "bytes": 25124
+    },
+    {
+      "path": "CookMagyar/LocalLargePrimeCounts.lean",
+      "sha256": "180bdea0a49913e7cf91afe9b34595c51d80d3bc3565e8f628a740e22c63e056",
+      "bytes": 28555
+    },
+    {
+      "path": "CookMagyar/LocalLargePrimeLift.lean",
+      "sha256": "5fff87f7259434fd6e856e8a35e4b3a6a3d1029575af35d29bfe422e5003c4b0",
+      "bytes": 17658
+    },
+    {
+      "path": "CookMagyar/LocalNonsingular.lean",
+      "sha256": "9c97ec86effa7438e477c6ec14e1c2c3304a4c6a1a91df761abb11c9b4d254ab",
+      "bytes": 4213
+    },
+    {
+      "path": "CookMagyar/LocalSmallPrimes.lean",
+      "sha256": "3037081cd0e8f0bd7b6b914e4ca7cdbae198d46ecb468c5f188524a01ab9de2d",
+      "bytes": 13946
+    },
+    {
+      "path": "CookMagyar/PrimePowerStationaryPhase.lean",
+      "sha256": "ceb1114cbbe17b06030fa5914a4c30769d558f23ce69a0ad2fe49deb127467cc",
+      "bytes": 56566
+    },
+    {
+      "path": "CookMagyar/SingularSeries.lean",
+      "sha256": "a48bfcdf51b21a9bf099cbb015e45aef1f9aea202e4f9de9b6fe9776f6bb6cdb",
+      "bytes": 6466
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea0870ec40534e309e6f95a588b8d2cb9108c5297c20d52957a99940feff6163",
+      "bytes": 662,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CookMagyar/PrimePowerStationaryPhase.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/0966ba75045c66835279": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nihargargava/systole_bound",
+    "source_commit": "a54807b9bf6cbd61194c1fb78da380535ec8a871"
+  }
+}

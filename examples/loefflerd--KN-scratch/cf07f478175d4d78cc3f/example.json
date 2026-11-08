@@ -1,0 +1,148 @@
+{
+  "id": "cf07f478175d4d78cc3f",
+  "source": {
+    "repository": "loefflerd/KN-scratch",
+    "commit": "1817019f3e06978bc594e9af151a4966d1f3a356",
+    "project": "loefflerd--KN-scratch--1817019f3e06",
+    "path": "Theorems/FLT/Thm_ModularCurve_isIntegral_adjoin_jqModC_qExpansion_div_of_forall_isBoundedUnder_of_finiteIndex.lean",
+    "file_id": "041866789613d6ec4d06",
+    "source_sha256": "041866789613d6ec4d06f40d05789cbc35348d73e1c3167249261cba6bc25f71",
+    "start": 381,
+    "end": 399,
+    "original_start": 377,
+    "original_end": 399,
+    "declaration": "isBoundedAtImInfty_of_mul_eq",
+    "source_url": "https://github.com/loefflerd/KN-scratch/blob/1817019f3e06978bc594e9af151a4966d1f3a356/Theorems/FLT/Thm_ModularCurve_isIntegral_adjoin_jqModC_qExpansion_div_of_forall_isBoundedUnder_of_finiteIndex.lean#L381-L399",
+    "archive_url": "https://github.com/PalomarArchive/loefflerd--KN-scratch--18c86a7cf53d/blob/1817019f3e06978bc594e9af151a4966d1f3a356/Theorems/FLT/Thm_ModularCurve_isIntegral_adjoin_jqModC_qExpansion_div_of_forall_isBoundedUnder_of_finiteIndex.lean#L381-L399"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "isBoundedAtImInfty_of_mul_eq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "be109fd15872834e202cd8070534c0bfda54ad93e9eeebe34c434d761b10c882",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "29f3c2656bbcd44a4acfd67d4c886a7ad7ecb426cd2548746dde3718a328ebd4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Definitions/FLT/Def_ModularCurve_JqCoeff.lean",
+      "sha256": "5931c05aa7c3d19329cad4ebc1c47978134558ba2204de07fd1779a42dd7bc51",
+      "bytes": 6160
+    },
+    {
+      "path": "Definitions/FLT/Def_ModularCurve_LaurentCoeff.lean",
+      "sha256": "4d051cf893e79389bab944a45d02b8a3038baf1711f3003f26de06fbf959f52d",
+      "bytes": 7704
+    },
+    {
+      "path": "Definitions/FLT/Def_ModularCurve_X0.lean",
+      "sha256": "41432c40a6254a42a670a40860267cf9f44ea040a62cb474e8846b0e31914df2",
+      "bytes": 15922
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_coeffEmb_jq.lean",
+      "sha256": "5c2705daf9f945b7e13c8971831e7095de32351f65560534cbbd1224ae02a1ba",
+      "bytes": 4437
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_hasSum_jNum_qParam.lean",
+      "sha256": "25a8a2bcb25b068ceb682c8fdf32ffa8b184a5767d448668d33f6bfad9c89945",
+      "bytes": 16157
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_hasSum_jq_qParam.lean",
+      "sha256": "ab0127e01473a3cc6f65dc9c9215ec054ffa25e5373c2b490d7461fc11b44afe",
+      "bytes": 4863
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_hasSum_qParam_mul.lean",
+      "sha256": "49ca205fe0bba7d9496438379a90f35152d36b97f5f5596d16dc9bdd2aafe1ec",
+      "bytes": 7618
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_hasSum_qParam_mul_laurent.lean",
+      "sha256": "63c28e1c0e36673fd7216d034aa939122cfd4e345277c3b364030ef1456471dc",
+      "bytes": 7676
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_isIntegral_adjoin_jqModC_qExpansion_div_of_forall_isBoundedUnder_of_finiteIndex.lean",
+      "sha256": "4675d538f4ffc233167d238b4f141d21d1446d603ba72ba70e11a141b89e390a",
+      "bytes": 31095
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_jqModC_eq_qExpansion_E4_cube_div_discriminant.lean",
+      "sha256": "fd6924c349105ae91e276a4898ca39676a370a9d553a5ef63ca08a3095d5cd68",
+      "bytes": 8934
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_laurent_qParam_coeff_unique.lean",
+      "sha256": "273f90a94bdc4fb583620bd566e0f65ea4ac783a373756d9d7a1e4089646b428",
+      "bytes": 6035
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_qExpansion_E4_eq_map_eisenstein4.lean",
+      "sha256": "1fc5a5958949a4ab914b33609eb95a42347e31bc210e2abef6b00e55b2789798",
+      "bytes": 4023
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_qExpansion_discriminant_eq_X_mul_tprod.lean",
+      "sha256": "b630f27a22103cd6e87e5431353702983bd334f0a6169b226e569d4a33925318",
+      "bytes": 12511
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_qExpansion_discriminant_eq_map_X_mul_dedekindEtaUnit.lean",
+      "sha256": "47774e780540d98d74518e79370a253cfc1ce78c43634a28a9d39b1c7d46da77",
+      "bytes": 7389
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularCurve_qParam_coeff_unique.lean",
+      "sha256": "6dd9074f274222e5e352a23010e85780ca0fbfd1a9568ef4139d2f58f93b27fa",
+      "bytes": 10719
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularForm_exists_qExpansion_eq_aeval_mul_pow_levelOne.lean",
+      "sha256": "a8adbfa472d00abbdd7616f8d93864741d72dca0833fd3f02cc869fe3127712d",
+      "bytes": 9779
+    },
+    {
+      "path": "Theorems/FLT/Thm_ModularForm_isIntegral_adjoin_qExpansion_div_discriminant_pow_of_isArithmetic.lean",
+      "sha256": "d11710762b1d282fe7a82f16a67ad8286974907e004b79f14deca80f50f0148d",
+      "bytes": 36717
+    },
+    {
+      "path": "Definitions/FLT/Def_P2M_Util.lean",
+      "sha256": "697b31850a43c438582bdecb69cd4db5d2b6bae2c94a41f22b8c14b2e9b3532f",
+      "bytes": 11060
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5378c0d7f53da3ccd16f4cb5f4116ab7e79f9f7be5b3e5d39f784e364a843a19",
+      "bytes": 560,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Theorems/FLT/Thm_ModularCurve_isIntegral_adjoin_jqModC_qExpansion_div_of_forall_isBoundedUnder_of_finiteIndex.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/loefflerd/KN-scratch",
+    "source_commit": "1817019f3e06978bc594e9af151a4966d1f3a356"
+  }
+}

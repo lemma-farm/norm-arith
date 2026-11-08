@@ -1,0 +1,146 @@
+{
+  "id": "acc21435623d04c2ec38",
+  "source": {
+    "repository": "vltanh/lean4-squares-in-circles",
+    "commit": "621f2340a12f661a51b613719107a75cf40ab03a",
+    "project": "vltanh--lean4-squares-in-circles--621f2340a12f",
+    "path": "SquaresInCircles/Six/Normalization/Basic.lean",
+    "file_id": "0993cba559ceef1fe8a4",
+    "source_sha256": "0993cba559ceef1fe8a48f9fc91db0a2112c586b58b4ed17a42baba7a74da37e",
+    "start": 384,
+    "end": 394,
+    "original_start": 384,
+    "original_end": 394,
+    "declaration": "transverse_distance_lt_one",
+    "source_url": "https://github.com/vltanh/lean4-squares-in-circles/blob/621f2340a12f661a51b613719107a75cf40ab03a/SquaresInCircles/Six/Normalization/Basic.lean#L384-L394",
+    "archive_url": "https://github.com/PalomarArchive/vltanh--lean4-squares-in-circles--0ba28607e811/blob/621f2340a12f661a51b613719107a75cf40ab03a/SquaresInCircles/Six/Normalization/Basic.lean#L384-L394"
+  },
+  "native_target_name": "SquaresInCircles.Six.Normalization.transverse_distance_lt_one",
+  "source_declaration_label": "transverse_distance_lt_one",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "9a6b0406edc719eaf28399aa2e3bd491bfeeb96e58f6175de3a373f6bc039662",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "5a0d50ba5fd7fca6ea75efa7cec3e0398846799c993f4cf806ff90e359f26275",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SquaresInCircles/Common/Analysis.lean",
+      "sha256": "ff03ea5c200465026d3ddb242f3992cd4cdb4ec933784b8a389e9e6f5eb19e67",
+      "bytes": 13399
+    },
+    {
+      "path": "SquaresInCircles/Common/Angles.lean",
+      "sha256": "faab3c56822237c2ed953f8e9324659609211c5da2a1871d1eaafb98d302da09",
+      "bytes": 6674
+    },
+    {
+      "path": "SquaresInCircles/Common/Arcs.lean",
+      "sha256": "84f0a55deac83bfc455cfcdcc7c27d17fa8f1c32e020c8cd14d4281c8b5bf748",
+      "bytes": 10396
+    },
+    {
+      "path": "SquaresInCircles/Common/Basic.lean",
+      "sha256": "32af2962a5f9bde872050afd2732dffd107050b2dc79a6c1effc16d85fa5d822",
+      "bytes": 10733
+    },
+    {
+      "path": "SquaresInCircles/Common/Charts.lean",
+      "sha256": "d40753746d8b6904a577b2a7284affa7dbeb4b2e0a18a8c02a9826689baddb4d",
+      "bytes": 12583
+    },
+    {
+      "path": "SquaresInCircles/Common/Congruence.lean",
+      "sha256": "5fac53d69c777b32835e7950a6dda6932047c9743229310f506bbbed2eb42cdd",
+      "bytes": 9065
+    },
+    {
+      "path": "SquaresInCircles/Common/Constructions.lean",
+      "sha256": "6cc57367dd4de63d0c97eb5ff94a06e5c46d45f49a2cf1ece0f13778fedd9dff",
+      "bytes": 1873
+    },
+    {
+      "path": "SquaresInCircles/Common/Contacts.lean",
+      "sha256": "0e5ebe5b9366166f23b657e23abc199039bb6b81b67bb2569de2a73b2ca71f5b",
+      "bytes": 7615
+    },
+    {
+      "path": "SquaresInCircles/Common/DiskSupport.lean",
+      "sha256": "5dae59fa312366b1cd8b3185bf4e8c69f4c869649bb50cb407b6694f46ee3d3d",
+      "bytes": 5329
+    },
+    {
+      "path": "SquaresInCircles/Common/ExteriorCharts.lean",
+      "sha256": "a023183d9ac8c9e9a85d2d09114c2b60c35a8989984ac677144234c173eb4a77",
+      "bytes": 3120
+    },
+    {
+      "path": "SquaresInCircles/Common/SeparatingAxes.lean",
+      "sha256": "dc9b427312f9bd814a09e5df918cabc38a8fbe699a6b8c880efdebb5bf62f788",
+      "bytes": 15928
+    },
+    {
+      "path": "SquaresInCircles/Common/Separation.lean",
+      "sha256": "0748efdb164f9e2785db79e9da071c02c9600a74f5393c499ee9f9c7537851cf",
+      "bytes": 8021
+    },
+    {
+      "path": "SquaresInCircles/Common/Sweep.lean",
+      "sha256": "8afc9d145d4e1762d66c083a9d86beb180cb8175bf6588e6a98e087ced3e4e2c",
+      "bytes": 5313
+    },
+    {
+      "path": "SquaresInCircles/Common/Trigonometry.lean",
+      "sha256": "6468d15add76fc8bbb676f796bbd9cb859cc8d36124fccdf4ea54e76561c31d4",
+      "bytes": 35506
+    },
+    {
+      "path": "SquaresInCircles/Geometry.lean",
+      "sha256": "bafed025a191c3d30e726d999d9254d35e8696f68b03436dcf01fb963d4b224c",
+      "bytes": 10801
+    },
+    {
+      "path": "SquaresInCircles/Six/Constants.lean",
+      "sha256": "cbe7cc27191a13da946d05ecaa90cd0daa3b84764deed3082882a123f31b5add",
+      "bytes": 17379
+    },
+    {
+      "path": "SquaresInCircles/Six/Normalization/Basic.lean",
+      "sha256": "566ea302404530928bc797edf191fd0bd76caa81e4ad97e8c83a27142e3f4f76",
+      "bytes": 17426
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "92b1467c376e8033d05ca7459fd0b711ada3244ffdc8e39d3143f2921a2a2025",
+      "bytes": 336,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SquaresInCircles/Six/Normalization/Basic.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/acc21435623d04c2ec38": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vltanh/lean4-squares-in-circles",
+    "source_commit": "621f2340a12f661a51b613719107a75cf40ab03a"
+  }
+}

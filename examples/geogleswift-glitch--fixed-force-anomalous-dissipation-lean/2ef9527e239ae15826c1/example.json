@@ -1,0 +1,281 @@
+{
+  "id": "2ef9527e239ae15826c1",
+  "source": {
+    "repository": "geogleswift-glitch/fixed-force-anomalous-dissipation-lean",
+    "commit": "52985f1bb56a05c107523d2265445d0cd38f5619",
+    "project": "geogleswift-glitch--fixed-force-anomalous-dissipation-lean--52985f1bb56a",
+    "path": "RequestProject/HolderTimeContinuity.lean",
+    "file_id": "06cae62e1fa03afb7113",
+    "source_sha256": "06cae62e1fa03afb7113b1c2ecd14345f2acc44dda95db9543ae494c6d15aed0",
+    "start": 42,
+    "end": 56,
+    "original_start": 42,
+    "original_end": 56,
+    "declaration": "holderNorm_increment_tendsto_zero",
+    "source_url": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean/blob/52985f1bb56a05c107523d2265445d0cd38f5619/RequestProject/HolderTimeContinuity.lean#L42-L56",
+    "archive_url": "https://github.com/PalomarArchive/geogleswift-glitch--fixed-force-anomalous-dissipation-lean--81f1bef4781c/blob/52985f1bb56a05c107523d2265445d0cd38f5619/RequestProject/HolderTimeContinuity.lean#L42-L56"
+  },
+  "native_target_name": "AnomDiss.holderNorm_increment_tendsto_zero",
+  "source_declaration_label": "holderNorm_increment_tendsto_zero",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "3aeef255efb9088bb6030cc69e17ea3358d2a0c90c018791917e5c22e9d892da",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "96e63d580941c3344890d8b64b5c63fbf54c2a8fa5b0406d17c17a4fbce5e7f4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Basic.lean",
+      "sha256": "c163cb91ac0b88e7d60a10c385b0f93d1ce3cfcbc220e359724b68dc0595eef1",
+      "bytes": 8544
+    },
+    {
+      "path": "RequestProject/Controls.lean",
+      "sha256": "e2644161f4c372d7d3329cc5b8817658a15e83a4939387aaa3fb9ae4d014996e",
+      "bytes": 25555
+    },
+    {
+      "path": "RequestProject/ControlsAssembly.lean",
+      "sha256": "24e1170fa62142a5bdcdcd4e04c75d33ddc5e72a7899cd45b9ac301d14dbc6e8",
+      "bytes": 25271
+    },
+    {
+      "path": "RequestProject/ControlsBuild.lean",
+      "sha256": "92758f1d6e6b705ed8ab107aa31f003aa2525d38cd616ecc4779983903ba9365",
+      "bytes": 17070
+    },
+    {
+      "path": "RequestProject/ControlsExist.lean",
+      "sha256": "5d0cbb846cd0d0e8f5106567a719b8f69c3876894dd09f1333fb3d8c34adb758",
+      "bytes": 8622
+    },
+    {
+      "path": "RequestProject/ControlsFinal.lean",
+      "sha256": "4014d09dc8e9c5dead372cdd6e042b7c93db741f8328a9ea682d55967b519fb0",
+      "bytes": 9662
+    },
+    {
+      "path": "RequestProject/DampedResponse.lean",
+      "sha256": "bde96b8ab92cf74272eb4c54f91c75ff68bfd9217770dba024f7bd0fdac2444f",
+      "bytes": 36522
+    },
+    {
+      "path": "RequestProject/DiffusiveFourier.lean",
+      "sha256": "0338157f1b6365ff4f9d4c3c6a30fefb54075781b43519c27bae5cf11425ecc2",
+      "bytes": 14116
+    },
+    {
+      "path": "RequestProject/DriftRegularity.lean",
+      "sha256": "d670142207c23052b1787be4d59210b4cc3cc0357cd7d39553aed0be65d9dce7",
+      "bytes": 10115
+    },
+    {
+      "path": "RequestProject/External.lean",
+      "sha256": "692ba2ba6bda2860743313cfbe1274ed15fc5c99c5d2d17d79241e30067daf72",
+      "bytes": 3590
+    },
+    {
+      "path": "RequestProject/FlowBasic.lean",
+      "sha256": "9636d7eae8d444ee6134d0da01a345ea01cd3e7b9f520d94228cc156b3a59f9f",
+      "bytes": 18704
+    },
+    {
+      "path": "RequestProject/FlowC2.lean",
+      "sha256": "f11fb1c428a0134d710236744ba3fdef28f15a0edb1ec50721e29f1d36311d33",
+      "bytes": 4701
+    },
+    {
+      "path": "RequestProject/FlowDeriv.lean",
+      "sha256": "15dc6a54a7272aa22bb5e845f22c271da6fe4d63159d9c0e0bc015bb032b78f3",
+      "bytes": 31922
+    },
+    {
+      "path": "RequestProject/FlowStab.lean",
+      "sha256": "9ddeeb628384d873de73337b467a183233d9d8f1e175d6ebb19686c92bb4da33",
+      "bytes": 6995
+    },
+    {
+      "path": "RequestProject/FlowTools.lean",
+      "sha256": "de5a97cad1f81a9e1f4d8e3e1f6f0966e565e14659916a78666e06f439d188c9",
+      "bytes": 12180
+    },
+    {
+      "path": "RequestProject/ForceRegularity.lean",
+      "sha256": "33ab8bf327fd2e3c25838ced88f227e643858e8aa54c3cba0e15471505f6a0b1",
+      "bytes": 25209
+    },
+    {
+      "path": "RequestProject/Fourier.lean",
+      "sha256": "cc8526448281476487d0e5f4c5b54dfdc452c0b3971be410ea700e78c3dea2ab",
+      "bytes": 7413
+    },
+    {
+      "path": "RequestProject/HeatStep.lean",
+      "sha256": "888d2acf2d05c23c435a5aad7b710d06f19950aa226f711cf3672e435096e894",
+      "bytes": 17982
+    },
+    {
+      "path": "RequestProject/HolderCalc.lean",
+      "sha256": "3928b95660cff6e963c4628fdc5f78e05b49ef8f703f11626f20b385107412c1",
+      "bytes": 4769
+    },
+    {
+      "path": "RequestProject/HolderTimeContinuity.lean",
+      "sha256": "015169f87a1cd9ec6c07db1ffa501c8ca696f58af8fb5bb0c9200a8105002bd2",
+      "bytes": 3835
+    },
+    {
+      "path": "RequestProject/NegMoment.lean",
+      "sha256": "a9e899b1e91bdcfab1d0f41fafcf5cedc3d4b9a37666baea55b742cc539f70cc",
+      "bytes": 26119
+    },
+    {
+      "path": "RequestProject/NonStationary.lean",
+      "sha256": "18ad74e4e8114c0b27777b60dd18c33962b712d94d6005765de0dd1794bf9d08",
+      "bytes": 30551
+    },
+    {
+      "path": "RequestProject/Parameters.lean",
+      "sha256": "8a2c389dacca88af3cddd0eee2a47277028c90ff4cd4258a96b6808979ddf1c4",
+      "bytes": 11557
+    },
+    {
+      "path": "RequestProject/PulseCalc.lean",
+      "sha256": "0fbbd65e222a4d08b6ff230d69edf76d5b233e091d99a5647f4d05a2ed2f7ac7",
+      "bytes": 3834
+    },
+    {
+      "path": "RequestProject/ScalarEnergy.lean",
+      "sha256": "eaf473a0257fe02b14656970ceb4443172abb6c5543da786569d326005cbe23e",
+      "bytes": 16986
+    },
+    {
+      "path": "RequestProject/ScalarStages.lean",
+      "sha256": "1fa5b40d898ba167739c6c48a50fc18418aab9a06049a10060c5294e3936f948",
+      "bytes": 28411
+    },
+    {
+      "path": "RequestProject/SemiclassicalAux.lean",
+      "sha256": "01226d4705ea2fc8fe8a7ec35eb135545a402a21b07912856fa9f121b976c54f",
+      "bytes": 13097
+    },
+    {
+      "path": "RequestProject/SemiclassicalCore.lean",
+      "sha256": "cbf56bc019d663dfcca208039c37ab8aeaebef99f1757559f8390cba6ccec33c",
+      "bytes": 12587
+    },
+    {
+      "path": "RequestProject/Shears.lean",
+      "sha256": "de9754d0d41d51747eca4fe10e1481848fff349abcbef9593cc600c65d5caaf1",
+      "bytes": 48844
+    },
+    {
+      "path": "RequestProject/SplitClose.lean",
+      "sha256": "6c3fb2c0d42ff924b8f58adc8baca62c46cdb9ff021f700533ff087b62239619",
+      "bytes": 13663
+    },
+    {
+      "path": "RequestProject/SplitConvergence.lean",
+      "sha256": "13191031af7934aae724b7e8ef046cb17e9da0d9fa5f0541127e2f3ebdbf466d",
+      "bytes": 26153
+    },
+    {
+      "path": "RequestProject/SplitFlow.lean",
+      "sha256": "1f9ea7feb3c59bd9b576226e0b303aa6ecbf5af9cf3c25ee7061dbc075f295a0",
+      "bytes": 11184
+    },
+    {
+      "path": "RequestProject/SplitFourierBound.lean",
+      "sha256": "b2e2e7101e683f70d354d6856b40ca7e800cff0804c3c19e4d9f07cf0cdade3a",
+      "bytes": 25660
+    },
+    {
+      "path": "RequestProject/SplitMeasurable.lean",
+      "sha256": "45d4fd6419713f71eeca4a2620e4649ee991301ad956edf78cad6a06bdab1341",
+      "bytes": 9909
+    },
+    {
+      "path": "RequestProject/SplitNegMoment.lean",
+      "sha256": "ac5c1f93605ca8c75341f7922fd6073ac966489c729dc2f2104a3287f0e84509",
+      "bytes": 10720
+    },
+    {
+      "path": "RequestProject/SplitRegular.lean",
+      "sha256": "eb8e2c2631e47d6776abdb04047d85f3f0354272f0c9f3d750f97e885d92f2cb",
+      "bytes": 15275
+    },
+    {
+      "path": "RequestProject/SplitRep.lean",
+      "sha256": "eaa2302b0cffcd9d5a373925a910c8e8f96761576ea135ba52133fdbd4310a66",
+      "bytes": 5012
+    },
+    {
+      "path": "RequestProject/SplitSmooth.lean",
+      "sha256": "8b207b95c694005630f2f0f0406e6c0abea8f924f37c42ca9c4dfa81e3655526",
+      "bytes": 10901
+    },
+    {
+      "path": "RequestProject/SplitStoch.lean",
+      "sha256": "309f82756e4fba7a949934403c4667d4fb17e6bd6ec9a8e611e14f4d4416c4a9",
+      "bytes": 18517
+    },
+    {
+      "path": "RequestProject/TaylorHolder.lean",
+      "sha256": "ca6fd0aed6f2d6713c2cec187645beda0601d950c95c4eb96654cec6659ed704",
+      "bytes": 6164
+    },
+    {
+      "path": "RequestProject/TimeSmoothForceContinuity.lean",
+      "sha256": "ba23c613666d7efb3f550d4c97a8d50232e06a6bc943e32cbee7c88a9a20c4b8",
+      "bytes": 7040
+    },
+    {
+      "path": "RequestProject/TorusCalc.lean",
+      "sha256": "d59980cee94813f54ce885b36a6a3f7955a944fefbc37e04211670c66483235c",
+      "bytes": 11514
+    },
+    {
+      "path": "RequestProject/TorusFourier.lean",
+      "sha256": "6b8f866336ab8b5e9aceb645b5514353b3bb315036a99c5a5300d9cff0eb32e7",
+      "bytes": 13927
+    },
+    {
+      "path": "RequestProject/WeightedFourier.lean",
+      "sha256": "ec9be47abb9464e0aae24d810b7a7b468eab8f172466815b8afb7de64caf159a",
+      "bytes": 28731
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "4672322e0c2855b8c48d85de8acec60a023f74b2f4a362f67b9784076e478659",
+      "bytes": 415,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RequestProject/HolderTimeContinuity.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/2ef9527e239ae15826c1": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean",
+    "source_commit": "52985f1bb56a05c107523d2265445d0cd38f5619"
+  }
+}

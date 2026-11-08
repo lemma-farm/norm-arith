@@ -1,0 +1,66 @@
+{
+  "id": "4eaccda1faf9db743437",
+  "source": {
+    "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a",
+    "project": "geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--ad7deb36ea56",
+    "path": "RequestProject/Euler/Smoothing.lean",
+    "file_id": "02804fb58af3b04294ae",
+    "source_sha256": "02804fb58af3b04294aee259d70adbd9f378e3565be5a381f5900e33209b9457",
+    "start": 97,
+    "end": 108,
+    "original_start": 95,
+    "original_end": 108,
+    "declaration": "norm_fourierCoeffV_le",
+    "source_url": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/Smoothing.lean#L97-L108",
+    "archive_url": "https://github.com/PalomarArchive/geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--538bf2aa90ac/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/Smoothing.lean#L97-L108"
+  },
+  "native_target_name": "Euler2D.norm_fourierCoeffV_le",
+  "source_declaration_label": "norm_fourierCoeffV_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "4b4452b64ef0bf9ad3dc80c5f6dc9565713ff6a90c1518d445c74dad82e7b0c3",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "065572b0fb24466892afe59e09232085277e39499af6c389a03551ecb4706810",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Euler/Smoothing.lean",
+      "sha256": "0a8ec690a678d515a62bb1cbf6cdb60c57405f05a83071cd3a7840103af6d3b2",
+      "bytes": 15151
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "558c8c419916890069c0c275b12d3131352ec7842448eb6b11af428881f4774a",
+      "bytes": 566,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RequestProject/Euler/Smoothing.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4eaccda1faf9db743437": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "source_commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a"
+  }
+}

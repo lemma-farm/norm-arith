@@ -1,0 +1,63 @@
+{
+  "id": "92c3e64ae6c5104a1bfa",
+  "source": {
+    "repository": "scottnarmstrong/CoarseDeGiorgi",
+    "commit": "200c40c9c55a5e19188739d27466ddffcb2660c4",
+    "project": "scottnarmstrong--CoarseDeGiorgi--200c40c9c55a",
+    "path": "CoarseDeGiorgi/SharpnessExamples/CylinderFiniteMeans.lean",
+    "file_id": "036ffcb2a11673d37798",
+    "source_sha256": "036ffcb2a11673d37798829e92ac592555e0122f44e358dfe3107c548f10eaa7",
+    "start": 50,
+    "end": 65,
+    "original_start": 50,
+    "original_end": 65,
+    "declaration": "finitePowerMean_add_le",
+    "source_url": "https://github.com/scottnarmstrong/CoarseDeGiorgi/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/SharpnessExamples/CylinderFiniteMeans.lean#L50-L65",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CoarseDeGiorgi--c1c596d07d50/blob/200c40c9c55a5e19188739d27466ddffcb2660c4/CoarseDeGiorgi/SharpnessExamples/CylinderFiniteMeans.lean#L50-L65"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "finitePowerMean_add_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "93ac25fd943d524ce1c2bfbaf21ccf924b37d081d088fbdeafa9d5a2abf5d6d0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "edc67afce316aecf5e98f04a234dad345a3e94d2bcf7c697b398c2d1e9d3e9c9",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CoarseDeGiorgi/SharpnessExamples/CylinderFiniteMeans.lean",
+      "sha256": "bc92d2086ef7deab3485b3a6893f9582896849396a18925f1a54329b8e9a525b",
+      "bytes": 3131
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "591a1fa9adcff2a273be7cdadf56d065f29d51432b297b2c54ddabdd86545cc1",
+      "bytes": 624,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CoarseDeGiorgi/SharpnessExamples/CylinderFiniteMeans.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CoarseDeGiorgi",
+    "source_commit": "200c40c9c55a5e19188739d27466ddffcb2660c4"
+  }
+}

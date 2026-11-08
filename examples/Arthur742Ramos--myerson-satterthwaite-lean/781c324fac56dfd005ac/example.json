@@ -1,0 +1,68 @@
+{
+  "id": "781c324fac56dfd005ac",
+  "source": {
+    "repository": "Arthur742Ramos/myerson-satterthwaite-lean",
+    "commit": "f4dae9744e26a499679e4b8a7aeb9d82dd3f11ee",
+    "project": "Arthur742Ramos--myerson-satterthwaite-lean--f4dae9744e26",
+    "path": "MS/Envelope.lean",
+    "file_id": "04f75eab40c90ef90962",
+    "source_sha256": "04f75eab40c90ef90962eaa43c3ffa4ffd7793fd89180e545de8f60e581e3751",
+    "start": 91,
+    "end": 117,
+    "original_start": 82,
+    "original_end": 155,
+    "declaration": "MSData.U_lip",
+    "source_url": "https://github.com/Arthur742Ramos/myerson-satterthwaite-lean/blob/f4dae9744e26a499679e4b8a7aeb9d82dd3f11ee/MS/Envelope.lean#L91-L117",
+    "archive_url": "https://github.com/PalomarArchive/Arthur742Ramos--myerson-satterthwaite-lean--29d4c4ff61d0/blob/f4dae9744e26a499679e4b8a7aeb9d82dd3f11ee/MS/Envelope.lean#L91-L117"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "MSData.U_lip",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "5514a81b980829abca2c95b0e5219764bce14593bfa764c5e396c65390813427",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "fc859928f5dfc46eecb58357b4b6c5162f725e121895e838545e168cac0532c6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MS/Defs.lean",
+      "sha256": "84697f6844adeabf65a8f04808992e0b36edbb8f48cb4e04c995f575fa7ef8c0",
+      "bytes": 4776
+    },
+    {
+      "path": "MS/Envelope.lean",
+      "sha256": "670a2eaa829128a8b88a070655361975f9ca42c78795acba20b0e76ab17977d5",
+      "bytes": 25480
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "27020f63d33a014e684239da62cc5b8b36bd9becd26880e30ddc4597f6e9112f",
+      "bytes": 434,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "1295806fb120a69c5081071628b9364fc194d8f38ede93f005a47592b488ca12",
+      "bytes": 3551,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "MS/Envelope.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/Arthur742Ramos/myerson-satterthwaite-lean",
+    "source_commit": "f4dae9744e26a499679e4b8a7aeb9d82dd3f11ee"
+  }
+}

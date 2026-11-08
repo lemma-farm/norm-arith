@@ -1,0 +1,91 @@
+{
+  "id": "54ab1642f99acd199d67",
+  "source": {
+    "repository": "SauersML/group-approximation",
+    "commit": "232c77f169ec66b27fd480d5c19474f519d359b7",
+    "project": "SauersML--group-approximation--232c77f169ec",
+    "path": "Palomar/BlanchardToeplitzSolution.lean",
+    "file_id": "0783eecea8c35856d6bc",
+    "source_sha256": "0783eecea8c35856d6bcc12245415c608a9ac9bf2100adecefbca40cbb15ab93",
+    "start": 323,
+    "end": 326,
+    "original_start": 323,
+    "original_end": 326,
+    "declaration": "continuous_inner_shiftVec_const",
+    "source_url": "https://github.com/SauersML/group-approximation/blob/232c77f169ec66b27fd480d5c19474f519d359b7/Palomar/BlanchardToeplitzSolution.lean#L323-L326",
+    "archive_url": "https://github.com/PalomarArchive/SauersML--group-approximation--d16b34e6ab02/blob/232c77f169ec66b27fd480d5c19474f519d359b7/Palomar/BlanchardToeplitzSolution.lean#L323-L326"
+  },
+  "native_target_name": "BlanchardToeplitz.continuous_inner_shiftVec_const",
+  "source_declaration_label": "continuous_inner_shiftVec_const",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "84b8662c3c43df5f6d7121e5b932f814693c3de974693331a0402a9bb3e7f963",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "48fec95cc14a0d3254497c0bcc03f233f82db7d5e635328b2586ae9ed351dab8",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "GroupApproximation/Toeplitz/FockModule.lean",
+      "sha256": "6dda39653f04f7c47872267025448c3ed5de76a61d0f3f58be9729c0a890ebb9",
+      "bytes": 9311
+    },
+    {
+      "path": "GroupApproximation/Toeplitz/FockSpace.lean",
+      "sha256": "53bf730dc388deea888391a1b9be68fa1a1c3841a90721be96ac0d1eb3fd151c",
+      "bytes": 8169
+    },
+    {
+      "path": "GroupApproximation/Toeplitz/GramScalars.lean",
+      "sha256": "579151ee52326d3007751d8e55ead87f49c41c5782bf2eab7f417cab4e3d8094",
+      "bytes": 12360
+    },
+    {
+      "path": "GroupApproximation/Toeplitz/Sections.lean",
+      "sha256": "9c9a9cacd0c4338b7622e0e0b5754a1c285941bb5630a9f50abf5d0dfe1195fa",
+      "bytes": 4627
+    },
+    {
+      "path": "GroupApproximation/Toeplitz/Wick.lean",
+      "sha256": "fbc07492a7ecc02b9e178cc6d1b663f6b6044c90e7f56154875815dbdb58dfbc",
+      "bytes": 8776
+    },
+    {
+      "path": "Palomar/BlanchardToeplitzSolution.lean",
+      "sha256": "aab59be377fee2cdf01616816c4c08253571055d69466f3f53b43448bbe3f4bc",
+      "bytes": 38001
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "85c20e269c16f53f0d651ce99ec60b2068a76d7ca7c34128dee1bd63f303dae8",
+      "bytes": 4262,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Palomar/BlanchardToeplitzSolution.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/54ab1642f99acd199d67": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/SauersML/group-approximation",
+    "source_commit": "232c77f169ec66b27fd480d5c19474f519d359b7"
+  }
+}

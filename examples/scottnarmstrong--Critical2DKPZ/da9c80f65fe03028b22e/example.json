@@ -1,0 +1,476 @@
+{
+  "id": "da9c80f65fe03028b22e",
+  "source": {
+    "repository": "scottnarmstrong/Critical2DKPZ",
+    "commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a",
+    "project": "scottnarmstrong--Critical2DKPZ--f1c98dacb2a8",
+    "path": "Critical2DKPZ/SHF/Moments/PairBlockIncrementProfile.lean",
+    "file_id": "01d7770c53550d53548d",
+    "source_sha256": "01d7770c53550d53548d8d6b0c1a4f5c9dcd8acdcde3de227c9ad022db3ccb70",
+    "start": 767,
+    "end": 868,
+    "original_start": 734,
+    "original_end": 868,
+    "declaration": "exists_hypergeometricWeight_normalizedGaussian_point_error",
+    "source_url": "https://github.com/scottnarmstrong/Critical2DKPZ/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/SHF/Moments/PairBlockIncrementProfile.lean#L767-L868",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Critical2DKPZ--4b43cc0f06bc/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/SHF/Moments/PairBlockIncrementProfile.lean#L767-L868"
+  },
+  "native_target_name": "Critical2DKPZ.SHF.Moments.exists_hypergeometricWeight_normalizedGaussian_point_error",
+  "source_declaration_label": "exists_hypergeometricWeight_normalizedGaussian_point_error",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "4a76aeb34e3e3c4d58a3e3de8d91727a2b84f4b6055b99741151fd2045401e54",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e70817f0b86136447bd875d92e4aad8c55acc08b5c586282d4fcff65285a731d",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Critical2DKPZ/Analysis/Heat/Basic.lean",
+      "sha256": "877330d30aa26ae2f8840fc018173c2ec842d63db8197d5828c844a4790f70af",
+      "bytes": 4169
+    },
+    {
+      "path": "Critical2DKPZ/Collision/ConditionalFlat.lean",
+      "sha256": "bc0bf8002ea6127b1a25ea6f1a07289e059899c251477f4c781d835e1762c1a0",
+      "bytes": 32534
+    },
+    {
+      "path": "Critical2DKPZ/Collision/SpatialRenewal.lean",
+      "sha256": "3a167ec4eb85dc965946164cddbf1d6bbc6512d2928c474654bad2938416685c",
+      "bytes": 16297
+    },
+    {
+      "path": "Critical2DKPZ/Collision/SpatialRenewalComposition.lean",
+      "sha256": "215f8b703b5fcafdb746da3ade5e283be772c5f1d3095d93ad0c1b573ad92b9c",
+      "bytes": 37545
+    },
+    {
+      "path": "Critical2DKPZ/Collision/SquaredBinomialLocalGaussian.lean",
+      "sha256": "17cc629445097491ee4764fa5a91024cc541fc2774170b619816c75f9f7976fb",
+      "bytes": 67371
+    },
+    {
+      "path": "Critical2DKPZ/Collision/WeightedTerminal.lean",
+      "sha256": "2a7ee89bc82d7aad76601c7d0d11736a0e66d072c892c1f83b36b1e45d61c267",
+      "bytes": 23218
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/Disorder.lean",
+      "sha256": "069005cf40966401ea18c3b6da542e8171382c36ee689bdb6b8e56b57a3486f6",
+      "bytes": 1545
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/DisorderLaw.lean",
+      "sha256": "6c9cf209943510ff446f04ccb5deee98e71841182ce50e0de63bc1c0f8662e4b",
+      "bytes": 1633
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/DisorderLawIsProbabilityMeasure.lean",
+      "sha256": "1d6f59983fb6c49ef1e4e2d512c5d2c3eb0f3b768b29ee33ae7209afcc12fd3b",
+      "bytes": 1566
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/DisorderPast.lean",
+      "sha256": "7e04ff328960b8044c7518dfd70c807bdf6651e08b7f496f823550796de587d4",
+      "bytes": 1720
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/EndpointDist.lean",
+      "sha256": "1415fca9169c9041305ec06fd28d4dce1a85ccea944e0fea67bcf0321e551592",
+      "bytes": 1773
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/HeatKernel.lean",
+      "sha256": "2be89dcf35e82cc3624f3083a67b30a6a81e6fb8ada6ce35eb991d72c073b15a",
+      "bytes": 1571
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/Plane.lean",
+      "sha256": "8a1fd90c0e621332f3bc0f26bdde629521aaa7a7d8412f78eea63478e795d8d2",
+      "bytes": 1450
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/PointToPlane.lean",
+      "sha256": "db3020f912579552c3f1fcec0d89e510094b664547d9cbd89dc9944df3088287",
+      "bytes": 1772
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/PointToPoint.lean",
+      "sha256": "71e69b35057e9d979481d99662c0cfdc0e3637e48d75556c1bf617886d8b4c4c",
+      "bytes": 1934
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/ProfileP2Fun.lean",
+      "sha256": "fe4d9eadbf275b0c12bcf1c70e2f2f4e3a6c2d55770c3d63122e8dd338218d0e",
+      "bytes": 1723
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/Site.lean",
+      "sha256": "48ede6342def2ab21c43a84b166670a91d58ac43bc49ba2e46ba2e2a11b6d697",
+      "bytes": 1415
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/SiteToPlane.lean",
+      "sha256": "24cb00fbef2cf8d40469f90672c6a90f2f55cb3290f6df68c1737e946194fd23",
+      "bytes": 1575
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/SmoothedEndpointDist.lean",
+      "sha256": "973be87ec6124a9d0f97f9d3be8c400fdcd44736e21df39b80405a02036bdb86",
+      "bytes": 1901
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/SmoothedP2Plane.lean",
+      "sha256": "32bb16dde5dd6b65e4ee7f08acad26f834b72cb67de2ef72de470164754c8010",
+      "bytes": 1850
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/SrwKernel.lean",
+      "sha256": "721b8bcf5c136ffb2a17ed020d69b837a4b7e1b0fe1c9bb86626b875b2cf7056",
+      "bytes": 1653
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/SrwStep.lean",
+      "sha256": "515267a46d1847eb29085524f6b70cedb58e95c7a027beb583450930e97d52dd",
+      "bytes": 1549
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/WalkPosition.lean",
+      "sha256": "25f0198955e05d3a268b79658242bf12462a4f16ad8cfdebebfbd8385b5f50dc",
+      "bytes": 1717
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/CoordinateConditioning.lean",
+      "sha256": "dcba950acd3148848bbe58ecca633f1df177d7f8e1f5686d0bbd3a1b4e5cd82c",
+      "bytes": 5131
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/DisorderLaws.lean",
+      "sha256": "f94dabadf647a467f4ed8b180b3198ba3cfa43e21c950b310ea56851698b54a3",
+      "bytes": 2854
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/Poincare.lean",
+      "sha256": "632a310e8327ef75a72e8af35a0318c14ddd7eb69d44447264961e3aa53061c2",
+      "bytes": 11666
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/ProductBlocks.lean",
+      "sha256": "cdba97bec503d9266111dfcfb8a42ccea5509cd1effacedfc2c5c9e2e4911371",
+      "bytes": 2732
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/ProductConditioning.lean",
+      "sha256": "3c029aecfd6444e359e8359e80d608cb17f895e749c8e8c6f769d936289fc728",
+      "bytes": 4472
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/TimeBlocks.lean",
+      "sha256": "1bf15c1220daaa961c10828444d50ad1198902a7fe7925b28d33f317ae04bae3",
+      "bytes": 3219
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Basic.lean",
+      "sha256": "a42cb3d55e96ed2308b277da570c500adf2e8c22037656f13f65b43c0ecf43b0",
+      "bytes": 6598
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/BlockMeasurability.lean",
+      "sha256": "22321f3b5f41fd00853c76062ba10e7a96879892cff8ab9dd620c63cc46cbc97",
+      "bytes": 3510
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Chaos.lean",
+      "sha256": "f96ef55dbb0e9717580a363b31c2bf6a479b2dca5559f3fe9465a39e30f13554",
+      "bytes": 6755
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/ChapmanKolmogorov.lean",
+      "sha256": "d2a2427beefa46b4ab077a23c4e6426204e80bac83f18b52bece72691459449c",
+      "bytes": 3867
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/ConstrainedReplica.lean",
+      "sha256": "59008e89e2c92b6ad9ce212b88d4c26e6429f0300f3f3c7a954678a8d7da8856",
+      "bytes": 2370
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Endpoints.lean",
+      "sha256": "db4e8fe0477c757c0f4aa8adba0ebccf714950cfd00a393879f9165c60809d0e",
+      "bytes": 6993
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/FirstCollision.lean",
+      "sha256": "165bcc74ce695c2d209efdbd989cfda9e31119f040c624b8d67259d36cc08ad3",
+      "bytes": 6562
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Gaussian.lean",
+      "sha256": "30d0b882b437f95d33394c23ee99535d0a2ce39f70c18861aa4485d4a7861d2b",
+      "bytes": 4381
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Locality.lean",
+      "sha256": "5b0296726355f8bea97cc0fbc26442a6a266bad475fc9923aab2d2c947b5ca3a",
+      "bytes": 4590
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Moments.lean",
+      "sha256": "949f5d8a842500596e67df6a16b7b77de767eec8adb3f2b92f835c8f2e205f00",
+      "bytes": 6100
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Orthogonality.lean",
+      "sha256": "0a7524e7f51d8ceb0bb457f23d01d31591e1b37b4982db42cfc2fa6159c17c9d",
+      "bytes": 4654
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/PairRecurrence.lean",
+      "sha256": "68be9d2e043e460662881924a3d005e28800c1be13e341ea675dcabc6000026f",
+      "bytes": 5882
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/PathComposition.lean",
+      "sha256": "d36065c57b8af23cf08c15f1bb2a33578046af99551b727b9a2ea5acd475f087",
+      "bytes": 3557
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/ProfileCovariance.lean",
+      "sha256": "0e621df74cf3cd7b35647170b159d8e09852143aafc8e27fef0503d3dd9dd3ef",
+      "bytes": 4889
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Profiles.lean",
+      "sha256": "a47a3a1792e477c2adc8d2d97539b72984344d9ca1b0ca4c2968982fa2e3dcd1",
+      "bytes": 7155
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Replica.lean",
+      "sha256": "ca2368f60b9cf9d9228d738a0d1268ddecc44ac28c8c3dd9a8181e5ad043766a",
+      "bytes": 8094
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/Series.lean",
+      "sha256": "f0ca2cb02a18aee65ba025610692157610e206742725791e5dd7401cc4c9724d",
+      "bytes": 7701
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/SeriesProduct.lean",
+      "sha256": "1756218e1b4816193db7b43315e50d63e6b3d782e73a4ac7e807bc4430ddf7a5",
+      "bytes": 3664
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/SmoothedCovariance.lean",
+      "sha256": "abd30734f99dac9545052fd1bdadd4b049bc93172f7d6a47ab697a9660c22d7a",
+      "bytes": 4697
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/SummableCovariance.lean",
+      "sha256": "b1c76657785f4400233f0dd34ff03b6bfe9089e8f51527d3b4f0e53ce47d26ef",
+      "bytes": 6435
+    },
+    {
+      "path": "Critical2DKPZ/Polymer/WalkKernel.lean",
+      "sha256": "79455239f5a83f71280a87331e04a585d4275be2c9b637470bdf47f1c3c2586b",
+      "bytes": 5830
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Estimates.lean",
+      "sha256": "eb8f6ebb1e0db4ae052518d4ea1150ab0669df055c1856231c44331a95ba13fe",
+      "bytes": 2412
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/GaussianBridge.lean",
+      "sha256": "14738c39bbf12fd8c764d0755c26146772686ee1ca50cf52fdba25ed9648df1a",
+      "bytes": 3723
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/KernelBridge.lean",
+      "sha256": "b49aff25b76ab1749f2999ea95bb383883ade31307facc311026dc4aceb0303c",
+      "bytes": 3806
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Site.lean",
+      "sha256": "fce9266cfb0316fdab7ac4f365065c0c1296553856e2e68b52ee01c0ccee9f19",
+      "bytes": 1053
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/Basic.lean",
+      "sha256": "b090f1a6ca1ce91d89f9e93d2cb19a104ef19c22e34957629bb4d4010982feda",
+      "bytes": 1898
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/Character.lean",
+      "sha256": "673cc6c455d99d712c7fd6ed5e8842ff86847ab1da226bb2964b9f90fd03f386",
+      "bytes": 1640
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/Decomp.lean",
+      "sha256": "2b4e59ebbf1d6f2908b0d1228c31e659a17fcd4ff50549b77bd1f223368b9fe6",
+      "bytes": 2976
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/Fourier.lean",
+      "sha256": "5b6e4437f4b46325d06145d8aa7ac37cfa693b687eb8a3a0703fae29404973c2",
+      "bytes": 1119
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/GaussianFourier.lean",
+      "sha256": "60d41621d2cd225701aa31393c7bbe9dadd9b41ae2304f75ba3e56cb947fcd8e",
+      "bytes": 5883
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/GreenBounds.lean",
+      "sha256": "e29384c4da915f97ffdce6ad76067142a32fb2c910b75ee519150976babb7893",
+      "bytes": 11618
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/LocalCLT.lean",
+      "sha256": "bcfe93b88d5777c4122cb511048f38baa8a9e4b0e4a045113d040a2e86db8f66",
+      "bytes": 28405
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/Moment.lean",
+      "sha256": "3f6d0d04c864d6e975ee0a735fc8a4f8edff6d528cf81a899559f5a0600d7068",
+      "bytes": 6261
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/OneDim.lean",
+      "sha256": "67fa3412e886a58dc681deb17f732ea38459e9b98222a3641b87f6d783a00d19",
+      "bytes": 17564
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/OneDimGauss.lean",
+      "sha256": "9af249ebf6f87eb2f125642b9fcca95f270c20de2929cce7e1f2465b039d13f3",
+      "bytes": 7166
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedFourier.lean",
+      "sha256": "a48f80254b895473bf73081b6478f0a2368eb5dcbb2c53d891b5e7a67b1edaa8",
+      "bytes": 9427
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedGaussMoments.lean",
+      "sha256": "8017fe5a33e40187d5824e54977a3182820e3d37499d7fa0ecc8c1b42f435504",
+      "bytes": 19921
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedLocalCLT.lean",
+      "sha256": "13bfe5c477534c41f69aefd6bb94be1f49505eb859239948dcb35509dc0d061f",
+      "bytes": 12465
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedMultiplier.lean",
+      "sha256": "e2668057075b7a4dbbb65c9201fec8e48fe62e260fe005b0107eee4590563f60",
+      "bytes": 18010
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedMultiplierOff.lean",
+      "sha256": "d82e8c66c170bbb8bd44c5afa938587c671cff86b0011a58a2918a5ada638326",
+      "bytes": 13560
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/PairedOffIntegral.lean",
+      "sha256": "c56afca1f30a7a0605bf282739113acd05ba289adc45139f5053dcfc25f77b7c",
+      "bytes": 27297
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/S1Gauss.lean",
+      "sha256": "a98354b5a6f13e2a015bc64a82368b6392d8eb3a623d0b76a24a21831d6cb08b",
+      "bytes": 8973
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/SRW.lean",
+      "sha256": "b42e1f76c9b7c1b58448e392d2ff3cc8e4d6c8b5b47ed4bf18fd69c6f94617a8",
+      "bytes": 6751
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/SRWDecomp.lean",
+      "sha256": "16d6dbe29969f827c39970c84b35c998c80d8cc8a5d809dab1c69caffd20b60d",
+      "bytes": 7870
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/SRWGauss.lean",
+      "sha256": "54f233f854ef750856e4d2755c6fc4f23cecca203d9232eba6f1756dd4cb6c75",
+      "bytes": 4891
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/SRWGaussBound.lean",
+      "sha256": "9b346fcbd31389cd4b9af3d71ea476e44159b0ee3505e91bfbaea3197a9674d3",
+      "bytes": 5128
+    },
+    {
+      "path": "Critical2DKPZ/RandomWalk/Port/Walk/SRWOneDim.lean",
+      "sha256": "ccaabf7ecfdab5abd226325531d6c30dc703cbbc617694b097aa8be3320df4c3",
+      "bytes": 6476
+    },
+    {
+      "path": "Critical2DKPZ/SHF/Moments/PairBlockCompositionVariance.lean",
+      "sha256": "72a04bcdeff9d7019ca856a38498ea24acc1420c763a414412c04702e2268988",
+      "bytes": 2475
+    },
+    {
+      "path": "Critical2DKPZ/SHF/Moments/PairBlockIncrementProfile.lean",
+      "sha256": "01d7770c53550d53548d8d6b0c1a4f5c9dcd8acdcde3de227c9ad022db3ccb70",
+      "bytes": 40286
+    },
+    {
+      "path": "Critical2DKPZ/WalkTails/DiscreteConvolution.lean",
+      "sha256": "ddb72429395f0fbedc8dfe24610e93abef3a481cfb5405131fc4fe2260d06f9a",
+      "bytes": 8462
+    },
+    {
+      "path": "Critical2DKPZ/WalkTails/Hypergeometric.lean",
+      "sha256": "6b52fb6a0a2517b204a79a10218e4ec7f934f041b7c11158747b6993bead97a1",
+      "bytes": 18623
+    },
+    {
+      "path": "Critical2DKPZ/WalkTails/LogConcavity.lean",
+      "sha256": "4f5a19efb7562277e293894bbeee0815f94f1348bd0c03bd8ba40feb0c6cadf7",
+      "bytes": 36957
+    },
+    {
+      "path": "Critical2DKPZ/WalkTails/SquaredBinomialMGF.lean",
+      "sha256": "ecdc8a391a776a88e6b0ffe98f9089b1fb7c8a7aa3ab2fe82ac7010fa583e5a1",
+      "bytes": 26211
+    },
+    {
+      "path": "Critical2DKPZ/WalkTails/SymmetricMaxAtom.lean",
+      "sha256": "c2c949e775afd559c759bd7f06c1d2383f98dc508539f57aeac66dfe8f9260bb",
+      "bytes": 32055
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "65ff37d544988e2d620f0e9b22018283c4c5e3a31b668bb0b078ba5d7733fbc2",
+      "bytes": 1121,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Critical2DKPZ/SHF/Moments/PairBlockIncrementProfile.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/da9c80f65fe03028b22e": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Critical2DKPZ",
+    "source_commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a"
+  }
+}

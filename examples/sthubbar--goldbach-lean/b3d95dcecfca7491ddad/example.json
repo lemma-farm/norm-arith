@@ -1,0 +1,276 @@
+{
+  "id": "b3d95dcecfca7491ddad",
+  "source": {
+    "repository": "sthubbar/goldbach-lean",
+    "commit": "8aded6c6de0861b078673527b1a57b707bfd2229",
+    "project": "sthubbar--goldbach-lean--8aded6c6de08",
+    "path": "entries/hardylittlewood1923/LeanLab/VanDerCorput1939/SingLimit.lean",
+    "file_id": "0b0bca7fc8233b68431a",
+    "source_sha256": "0b0bca7fc8233b68431acae69e0d105464af3195438d747410ac4108a735e6a1",
+    "start": 240,
+    "end": 247,
+    "original_start": 185,
+    "original_end": 247,
+    "declaration": "BP_sub_P",
+    "source_url": "https://github.com/sthubbar/goldbach-lean/blob/8aded6c6de0861b078673527b1a57b707bfd2229/entries/hardylittlewood1923/LeanLab/VanDerCorput1939/SingLimit.lean#L240-L247",
+    "archive_url": "https://github.com/PalomarArchive/sthubbar--goldbach-lean--98d36766e5ae/blob/8aded6c6de0861b078673527b1a57b707bfd2229/entries/hardylittlewood1923/LeanLab/VanDerCorput1939/SingLimit.lean#L240-L247"
+  },
+  "native_target_name": "LeanLab.VanDerCorput1939.BP_sub_P",
+  "source_declaration_label": "BP_sub_P",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b89b0c7cf3f013cd97e7cb81dcf076c615eab7cf9f04e14b99456ba417786397",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "686cbdc1b7e763a3fecefa69cd0e6cc95de29b0474f7b4131de8ab7f52e072e1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanLab/ChenExplicit/Statements.lean",
+      "sha256": "c6e8bd5c2e9a6b838a48b3a1ca40a620b6d3f3c029d3436caafec747a1fbbe42",
+      "bytes": 3175
+    },
+    {
+      "path": "LeanLab/Common/Goldbach.lean",
+      "sha256": "af4025435524db05c1e123e4c4c54c33ce7121cd9da175e69a42ce795347c9f0",
+      "bytes": 4270
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/DivMoments.lean",
+      "sha256": "99adcd36a9da62869e869eea0575b098603037d8b890434441c21900d5503f8a",
+      "bytes": 12801
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Elementary.lean",
+      "sha256": "3a1bc1af98b82e6269aab85265568030c7c9268c1924a034a77d7137da87cdd6",
+      "bytes": 10887
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Lemma2.lean",
+      "sha256": "ef762bcab7d45d2e571f005f5fb59071082849f8305532315ae5c4831c04c66f",
+      "bytes": 51831
+    },
+    {
+      "path": "LeanLab/HeathBrown1985/Statements.lean",
+      "sha256": "48ebabb197dc7bfa2d9faa476f1350a2ce64e635c4b789e6f4694e513d01af2a",
+      "bytes": 6403
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/Characters.lean",
+      "sha256": "9724ce47d13e9e230a2475ca4327377cc706f98581b61dd538253d5ecbc3ee81",
+      "bytes": 6828
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/Decomp.lean",
+      "sha256": "cea285bdd0b5a8ab1131b716e129581802653f1801d1ff3c91ca08d921f0bf59",
+      "bytes": 2110
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/Helpers.lean",
+      "sha256": "8cb32d4036709169f32d23e2d8b0622cda4cd5b2dd2eaa4f8d40c3dfaaf4e186",
+      "bytes": 16268
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/PolyaVinogradov.lean",
+      "sha256": "77288f8e46c2d2e8b766a3dac1ce1734a519a96070d4e7ce54fee774f91de356",
+      "bytes": 7616
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/S4Blocks.lean",
+      "sha256": "2194c24ec8b3b7685886fd031f9658018f7c6456808490448cbddb33cf507b04",
+      "bytes": 4675
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/TypeI.lean",
+      "sha256": "1bbef2076b0e175c3caca1f02d5faa4cf8d4e62220aa2c8dec9a87aac4f040a1",
+      "bytes": 11978
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/TypeIIAux.lean",
+      "sha256": "a6aada2c209e67dd0f50cbccd4f49ddd4a85b7aaedfa5ec3bfb7d3e4345f8129",
+      "bytes": 7558
+    },
+    {
+      "path": "LeanLab/PNTPort/BV/Vaughan.lean",
+      "sha256": "32838e1d84f093315c1b65ea6564a8795231f94446b4ae4a581e7c485c793b8f",
+      "bytes": 6902
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/Basic.lean",
+      "sha256": "827c79ef06a410076e2577681f50ac05a0e5d6d0ca3f830220d79432de73c974",
+      "bytes": 10008
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/Dual.lean",
+      "sha256": "d60724ca30dadf38c940e12be64669fa6d85f58d67b5907425a57d3d1da7b170",
+      "bytes": 12038
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/Farey.lean",
+      "sha256": "562ee9109bce93bafaf53487f411c0cd239337fa4f32126e085dcce50980ac6c",
+      "bytes": 4385
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/Multiplicative.lean",
+      "sha256": "a52465795e73025f5f32927186b3e2583beb7c1f72ce493bf96649b5075c4947",
+      "bytes": 12442
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/Parseval.lean",
+      "sha256": "c7273a7cf49b45fbac95777fee317835390999eab257e5ccce431e866ec0429e",
+      "bytes": 6208
+    },
+    {
+      "path": "LeanLab/PNTPort/LargeSieve/PrimeSieve.lean",
+      "sha256": "a89b5c1584851332b76f232b5606980028b772f281955e9df82036c675f88bf4",
+      "bytes": 8093
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/Basic.lean",
+      "sha256": "7ee7c6cbe8ae1f01dec14fc32daa90cc12b33baeffd53018d976eb62aed39f05",
+      "bytes": 3974
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/Block.lean",
+      "sha256": "30b02c5ae71fbecfe75604354f9621136e708f6a2db12e1fa46825e24e33a3b4",
+      "bytes": 11671
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/Count.lean",
+      "sha256": "97cd0ca8689207aca2b9e36f3f83486a4fcd27a490fb79d88dc1d005aa236924",
+      "bytes": 14471
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/Decomp.lean",
+      "sha256": "2e07144f5995f54308767181e95744e0f87e6893894410b75f6f08581a853e61",
+      "bytes": 3962
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/Final.lean",
+      "sha256": "72659ce4e82fab605a829c41987ef77cc2b4b9340da9271f2dda11c6d6249061",
+      "bytes": 13060
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/MajorArc.lean",
+      "sha256": "3f2170b46afc97438a1d5c544e7be4a822f0afc8f23ce8bffd42c5ff6e68d147",
+      "bytes": 17716
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/MinorArcs.lean",
+      "sha256": "0e027ac64a50829a1358850497c30a6c57e037024a718a12d23c90daa205cc0c",
+      "bytes": 11295
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/SingPos.lean",
+      "sha256": "c0737afab868a170c732d71cbc9fddb700a4321523eccdb6587e2b1a1774d271",
+      "bytes": 15324
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/SingSeries.lean",
+      "sha256": "13a2088077171d3670904cc00cf60746dd15547422363676f94a63e45b18c714",
+      "bytes": 5301
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TernaryArcs.lean",
+      "sha256": "e2a72196568daf15cfb1421ae28d38d94a8959ce51ac5ff8073fed713602ab4a",
+      "bytes": 9536
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TernaryAssembly.lean",
+      "sha256": "ad695019fe0fb1e02187edd10f461be263430951f306df49ebea1c3130f0e799",
+      "bytes": 17641
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TernaryCircle.lean",
+      "sha256": "f79cf3430708cee434aa52133179cc35c37046e9ce6cc971af65d99271dc884a",
+      "bytes": 7893
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TernaryMajor.lean",
+      "sha256": "304b7d72d1290b6ae7da4d199ea2d253e72ee37fde2eba790b892d3da2b58577",
+      "bytes": 7939
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TypeI.lean",
+      "sha256": "a2f284eda7f447b0a2d4e5ab0e856bfca383dbe924eb9206ae512ecee6825183",
+      "bytes": 9440
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TypeII.lean",
+      "sha256": "22ff9b2241cd556569102d9c801c2acbc51aa53e3b2901e66b9423dfeaaf021c",
+      "bytes": 11671
+    },
+    {
+      "path": "LeanLab/PNTPort/Vinogradov/TypeIIBound.lean",
+      "sha256": "d701e199162b1a7716fc20a73716db407abc5673e7453cecee54300121913a81",
+      "bytes": 10858
+    },
+    {
+      "path": "LeanLab/Routes/R0001Averaged.lean",
+      "sha256": "a75a790fbe85e053ab3465f159b7ece45d7616dca76c124dc8ce743f03aeb785",
+      "bytes": 2302
+    },
+    {
+      "path": "LeanLab/Routes/R0001Markov.lean",
+      "sha256": "7a9838af924b1324198527854e086f8f14e89f627bc3a402e829a2e1f63a5ee7",
+      "bytes": 2049
+    },
+    {
+      "path": "LeanLab/Routes/R0001Parseval.lean",
+      "sha256": "cb6df981cf76e2a654ac166681289bf776228471a0197e0fcdd6ff67d2cdcde6",
+      "bytes": 3225
+    },
+    {
+      "path": "LeanLab/VanDerCorput1939/Global.lean",
+      "sha256": "71ce6a60a64d9e2cf67c847c9c3f64adfb6ea56b98f0b5d3df122c2aab3f1cce",
+      "bytes": 4540
+    },
+    {
+      "path": "LeanLab/VanDerCorput1939/KBounds.lean",
+      "sha256": "4ce22e8fe0a6ce679d999907fdbd2d65fc12a46feffc2fa20e46e4fdff362361",
+      "bytes": 6604
+    },
+    {
+      "path": "LeanLab/VanDerCorput1939/SingLimit.lean",
+      "sha256": "de4a7272ac2647210fab482a6cc1e2f99832cc6b29b7f0b10b023157c8d149a5",
+      "bytes": 13689
+    },
+    {
+      "path": "LeanLab/VanDerCorput1939/Statements.lean",
+      "sha256": "25ae431322e8bc451805f25bbcabc9b182d6ec5d1b37a3a3f899e5d79a55f972",
+      "bytes": 4914
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "d77927121f080d08a78f4fd0b31459954ba579ba74a275fecc2d5cbaa1d79f6d",
+      "bytes": 557,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "LeanLab/VanDerCorput1939/SingLimit.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/b3d95dcecfca7491ddad": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/sthubbar/goldbach-lean",
+    "source_commit": "8aded6c6de0861b078673527b1a57b707bfd2229"
+  }
+}

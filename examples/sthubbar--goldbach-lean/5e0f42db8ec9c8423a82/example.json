@@ -1,0 +1,131 @@
+{
+  "id": "5e0f42db8ec9c8423a82",
+  "source": {
+    "repository": "sthubbar/goldbach-lean",
+    "commit": "12f09bfeca2ae00988fa039e2e82c6de4d147108",
+    "project": "sthubbar--goldbach-lean--12f09bfeca2a",
+    "path": "entries/halupczok2012/LeanLab/Halupczok2012/U1496PP.lean",
+    "file_id": "019ea87e2f68e4177d17",
+    "source_sha256": "019ea87e2f68e4177d174d888c856cd98d9b96f458617ab68496edbd564aa64b",
+    "start": 1020,
+    "end": 1038,
+    "original_start": 973,
+    "original_end": 1038,
+    "declaration": "theorem5_of_PP",
+    "source_url": "https://github.com/sthubbar/goldbach-lean/blob/12f09bfeca2ae00988fa039e2e82c6de4d147108/entries/halupczok2012/LeanLab/Halupczok2012/U1496PP.lean#L1020-L1038",
+    "archive_url": "https://github.com/PalomarArchive/sthubbar--goldbach-lean--98d36766e5ae/blob/12f09bfeca2ae00988fa039e2e82c6de4d147108/entries/halupczok2012/LeanLab/Halupczok2012/U1496PP.lean#L1020-L1038"
+  },
+  "native_target_name": "LeanLab.Halupczok2012.theorem5_of_PP",
+  "source_declaration_label": "theorem5_of_PP",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "e7c49ddfb5858f3e8a40242ff31ff62a8bbfc0a55cb07bafacc1acdc65fddf10",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c299ca018f68b08ac9541ab893ad2b11d8d1ec85e70b1b95b170e1fa0fb49414",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "LeanLab/Halupczok2012/NonCoprime.lean",
+      "sha256": "ea47bb6bf811b5792e1bd17976863417439a09e364dce3391bdc08f58d7a1d08",
+      "bytes": 4502
+    },
+    {
+      "path": "LeanLab/Halupczok2012/Statements.lean",
+      "sha256": "9100cfef7af1fdb61341b019f0ef230953d0de12be1f1d695391221ad9e11353",
+      "bytes": 5725
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1439Combin.lean",
+      "sha256": "39135331c24e0334c19a23d2052eb97dd299412e5ba964f20f5f7d7c6c620c9e",
+      "bytes": 13920
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1439Thm2Reduction.lean",
+      "sha256": "1d47bcd39f31de6db9eb54a86026f6050755c35e7c7fb5431bab366ffbc03148",
+      "bytes": 28424
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1452MainTermMV.lean",
+      "sha256": "c4d60ec97e5ce2ba90ab7ed718fd357410778e9ae2a30551cca4b9427935265e",
+      "bytes": 16661
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1457SingSeries.lean",
+      "sha256": "19d674e3a79df95c3461dcb9c33a62eefe5238d6d4e54a85ce86e5f745cba76d",
+      "bytes": 21897
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1460Reduction.lean",
+      "sha256": "91d6274fd987b5035dd813eca7905bd4ca623463dd873d7a94fec10eeb192dbf",
+      "bytes": 4883
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1460SingSeriesProof.lean",
+      "sha256": "15e747b260357a9a042f75a4d3800641a4601aad50b5f4345dfebe1f9b4e9d78",
+      "bytes": 20246
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1462Analytic.lean",
+      "sha256": "076b46211c8df488f336b7fda037907456034d48dfeebd08495fa6be8b839531",
+      "bytes": 23116
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1462Pointwise.lean",
+      "sha256": "05e32dc2eb15d9ad4ebbf400581562ec4ca327e4da66f85dd5b720d520395244",
+      "bytes": 16360
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1462Tails.lean",
+      "sha256": "7ca16d3f6ddd0ebe671c387a99c59f122a721c6797e6d7f1f91f53fb9ed43f92",
+      "bytes": 18180
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1493Theorem5Min.lean",
+      "sha256": "4e22dc17b8ee100615016325bb9ed317f8fd25136fdf642972ba01cd3eaf8e6c",
+      "bytes": 6819
+    },
+    {
+      "path": "LeanLab/Halupczok2012/U1496PP.lean",
+      "sha256": "1a438e3b064601e876205ab84059d651944f67fb74626ad8ae3642e659477d10",
+      "bytes": 56740
+    },
+    {
+      "path": "LeanLab/PrimePowerWindow/Count.lean",
+      "sha256": "d93f986c059e288847bccd26e41286d68d995d4d46ffc5a00ac59785bbc968d8",
+      "bytes": 8936
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "f8f6da8d9abb13432578307914dd634e02fdfcd462ded919968098a4fdfa1813",
+      "bytes": 515,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "LeanLab/Halupczok2012/U1496PP.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/5e0f42db8ec9c8423a82": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/sthubbar/goldbach-lean",
+    "source_commit": "12f09bfeca2ae00988fa039e2e82c6de4d147108"
+  }
+}

@@ -1,0 +1,97 @@
+"name" = "arbitraryRsb"
+"version" = "1.0.0"
+"defaultTargets" = ["DepthPaper", "GeneralDepthPaper", "Challenge", "Solution", "Verification"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "DepthPaper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "FourPapersCommon"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "OverlapPaper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "QuantitativePaper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PositiveFieldPaper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Paper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "FRSB"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "StochasticCalculus"
+"srcDir" = "vendor/lean-stochastic-calculus"
+"leanOptions" = {"autoImplicit" = false}
+
+[["lean_lib"]]
+"name" = "BrownianMotion"
+"srcDir" = "vendor/brownian-foundations"
+"leanOptions" = {"autoImplicit" = true}
+
+[["lean_lib"]]
+"name" = "KolmogorovExtension4"
+"srcDir" = "vendor/brownian-foundations"
+"leanOptions" = {"autoImplicit" = true}
+
+[["lean_lib"]]
+"name" = "Common"
+"srcDir" = "vendor/cole-hopf-foundations"
+"leanOptions" = {"autoImplicit" = false}
+
+[["lean_lib"]]
+"name" = "Lemmas"
+"srcDir" = "vendor/spin-glass-foundations"
+"leanOptions" = {"autoImplicit" = true}
+
+[["lean_lib"]]
+"name" = "ParisiFormula"
+"srcDir" = "vendor/spin-glass-foundations"
+"leanOptions" = {"autoImplicit" = true}
+
+[["lean_lib"]]
+"name" = "Targets"
+"srcDir" = "vendor/spin-glass-foundations"
+"leanOptions" = {"autoImplicit" = true}
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Verification"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeneralDepthPaper"
+"leanOptions" = {"autoImplicit" = false}
+"srcDir" = "."

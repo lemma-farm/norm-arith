@@ -1,0 +1,63 @@
+{
+  "id": "5f29e74e99f5ae1ab31b",
+  "source": {
+    "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a",
+    "project": "geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--ad7deb36ea56",
+    "path": "RequestProject/Euler/BanachSequenceGreen.lean",
+    "file_id": "051e324542c3bb22eb5f",
+    "source_sha256": "051e324542c3bb22eb5f32242cca9c9c7f75c5e63d03c1588d98326c112bd94c",
+    "start": 89,
+    "end": 99,
+    "original_start": 85,
+    "original_end": 99,
+    "declaration": "norm_stableSequenceGreenCLM_le",
+    "source_url": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/BanachSequenceGreen.lean#L89-L99",
+    "archive_url": "https://github.com/PalomarArchive/geogleswift-glitch---euler2d-finite-lp-nonuniqueness-palomar--538bf2aa90ac/blob/ad7deb36ea565f34bdb784e9153073c5a220d46a/RequestProject/Euler/BanachSequenceGreen.lean#L89-L99"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_stableSequenceGreenCLM_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "f610f48c61603449dce3bd08663b9b798d8388a3f6f9fd5ebb1a6d10571c92d7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b822c84968d802d022459783275e0447713aab0cd4739afe99527cd70f4cbbda",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/Euler/BanachSequenceGreen.lean",
+      "sha256": "051e324542c3bb22eb5f32242cca9c9c7f75c5e63d03c1588d98326c112bd94c",
+      "bytes": 4755
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "77fc085aa6a29e7ac04d9dc66e6e840cec00fa0c548cf34224454a50eaee20d3",
+      "bytes": 483,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "56e1ca3207a1a9a09d5380474aa06b8ea5147c7230e8543e951ed59b26b4e352",
+      "bytes": 3577,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RequestProject/Euler/BanachSequenceGreen.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+    "source_commit": "ad7deb36ea565f34bdb784e9153073c5a220d46a"
+  }
+}

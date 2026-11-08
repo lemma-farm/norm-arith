@@ -1,0 +1,246 @@
+{
+  "id": "3622fd6360a7c3441ee5",
+  "source": {
+    "repository": "scottnarmstrong/Critical2DKPZ",
+    "commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a",
+    "project": "scottnarmstrong--Critical2DKPZ--f1c98dacb2a8",
+    "path": "Critical2DKPZ/Ehrhard/OUInitialContinuity.lean",
+    "file_id": "08c4e1b5a0cf370975d6",
+    "source_sha256": "08c4e1b5a0cf370975d6d1cc1472a5f8b5e2cd3fd34f6599f6c4a690bcc6f6de",
+    "start": 25,
+    "end": 40,
+    "original_start": 21,
+    "original_end": 40,
+    "declaration": "abs_ouAverage_sub_le_generator_bound",
+    "source_url": "https://github.com/scottnarmstrong/Critical2DKPZ/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/Ehrhard/OUInitialContinuity.lean#L25-L40",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Critical2DKPZ--4b43cc0f06bc/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/Ehrhard/OUInitialContinuity.lean#L25-L40"
+  },
+  "native_target_name": "Critical2DKPZ.Ehrhard.abs_ouAverage_sub_le_generator_bound",
+  "source_declaration_label": "abs_ouAverage_sub_le_generator_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b54b3ed205791d0b24166c3e78f0b8f63a630818c895ef7a4c1b68a4c8440dd4",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f6059086af8401f69cc6fa841af03060a5f95dffafed34ccda9561e88aa978c2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Critical2DKPZ/Ehrhard/CompactDerivativeBounds.lean",
+      "sha256": "483b9f9969e5a1ac58a42ba70682023609b59ae7308fd6d23e79b303608c25c8",
+      "bytes": 3404
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/DiagonalPerturbation.lean",
+      "sha256": "2ca1c8024b3087358798c0bd97d818de01c56a4e79f40270580accec9e0f1b4f",
+      "bytes": 3705
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/FunctionalHessian.lean",
+      "sha256": "626e3cc8a01f55072a7263e2bd9972bf8ded48e3dcad7ec1df6f29e3aa65b94b",
+      "bytes": 9601
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/FunctionalRegularity.lean",
+      "sha256": "2ad0f7ae5c7e2a9175e697a30c3f922f558a42fdd7b8bf6446fe87b45b591354",
+      "bytes": 2360
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/FunctionalTimeDerivative.lean",
+      "sha256": "ea914cc171f1ad171fc735ca8148120531e57873dac21b74b73c0c954bdc2977",
+      "bytes": 3199
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianBridgeDerivative.lean",
+      "sha256": "d680d274d792c5d0313979e73d15bb86776b9956e1e61a579afe4d5c3aa6be4f",
+      "bytes": 18741
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianCDF.lean",
+      "sha256": "4f3c34ac26f46ccdfabdafc6fcce3c4740f35deb740485c44af320acfd1bb970",
+      "bytes": 6910
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianHeat.lean",
+      "sha256": "2af6501b627175d868e23e4f84955ef2b2edb944b4149c4bb65126fab9ec50b8",
+      "bytes": 25192
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianHeatCenter.lean",
+      "sha256": "3ff65333d55274c7eb3a8cf290c6c21133c083c9263e63389a57daaaac90f543",
+      "bytes": 17562
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianHeatRegularity.lean",
+      "sha256": "c0ddd11631c41c6a237b572e9f0fb0643e2fe2882e20d289aabbcefddc64eadf",
+      "bytes": 14438
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianLinearAverage.lean",
+      "sha256": "16b7e7cce6e040d106d205b85d4ec6ccac5118c3a03513e3a296e6a064c2bff1",
+      "bytes": 5888
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianLinearAverageBounds.lean",
+      "sha256": "db3415fc2c43d71580fb098417b972184690eb92d0a52f95a9a568445e8fbbee",
+      "bytes": 1186
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianPathDerivative.lean",
+      "sha256": "8b48f1ca1e8ae1d35314d0e449020a92104d41cbebeedbe90a4aff93386a2af1",
+      "bytes": 8919
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianSmoothClass.lean",
+      "sha256": "9a2d93b15484ff11de3d8b8b9b78abc583452f47eff6d226efa7251a631cd113",
+      "bytes": 4065
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GaussianTailMoment.lean",
+      "sha256": "a927e1175f8f795ceea034176ef4bd4b3747a963929a7787c6adb041f540b5dd",
+      "bytes": 6070
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/GeneratorChainRule.lean",
+      "sha256": "cbacd0dca61ef3036ffe433206fe4ab742e7498684717c4d8cfbaf9ddd36e3b2",
+      "bytes": 8467
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/HalfLineExtremizer.lean",
+      "sha256": "141672106bb82bbe4d58072fb4624aaedf055b8244a3d02a7b482f52145516ec",
+      "bytes": 3235
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUBackwardDerivative.lean",
+      "sha256": "de1dcb66a5443d4919bb989cc9487f367f5d4f65971025c07f207d76f5846243",
+      "bytes": 3198
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUCommutation.lean",
+      "sha256": "7d56dee236d0cc93c4435b3eee54885b23b5ae2622af51ab985e3d2f758be8ce",
+      "bytes": 4264
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUEndpointContinuity.lean",
+      "sha256": "ff9c575d322744fb4379e1ea14dddda694a6c3e1178df5fd313b00d1a592caf6",
+      "bytes": 3012
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUFamily.lean",
+      "sha256": "763eb20241670742ed070fa8bf8b4072092b46a1b706f222424ce8d17a35e3bd",
+      "bytes": 4914
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUGenerator.lean",
+      "sha256": "7569f67f842338997fb6107630c8a441ba141eea988512e50e359f04054adb97",
+      "bytes": 6648
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUInitialContinuity.lean",
+      "sha256": "08c4e1b5a0cf370975d6d1cc1472a5f8b5e2cd3fd34f6599f6c4a690bcc6f6de",
+      "bytes": 2002
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUJointBounds.lean",
+      "sha256": "7ffe2eee251d936677cca37dc513b94a11dfba7ba9db6cca5e60fe5d6acdb746",
+      "bytes": 7465
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUJointRegularity.lean",
+      "sha256": "5a95fc036e0a99df95373986fe07feca1b8bff4f20fb45b7ab402e64ef3924e6",
+      "bytes": 3932
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OULimits.lean",
+      "sha256": "ae4d57db689efd9cf104cfa4eed8c8419ab8a829597ce4f85b2b641ff64be344",
+      "bytes": 5320
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUSpatialDerivatives.lean",
+      "sha256": "08de041e0867f6bc8abb01d59cbf4bc0988bf864691c0737b5975834bfa5654f",
+      "bytes": 4130
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OUTimeDependent.lean",
+      "sha256": "d5561d1153a982cb45ce9f6549d3ee69d67c7fe0ffbcc019065f0ce629659baf",
+      "bytes": 5540
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/OrnsteinUhlenbeck.lean",
+      "sha256": "72c59f390079d31cf52b9a49db4e6327b76f7f1d327e08edbe609b4843eba2d5",
+      "bytes": 3377
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/TimePerturbation.lean",
+      "sha256": "e034db6788ff55e2e1ff429df1aa433e2417f7bb1ee3f50105e8179e8a2df5f4",
+      "bytes": 3691
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/TripleCovariance.lean",
+      "sha256": "e4fc23ed7f209c953267cb5d6c5f37080b943799d4a87ab33055073d0534cdba",
+      "bytes": 3208
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/TriplePerturbation.lean",
+      "sha256": "d4aa2da2771bf82279ea6de8c0e21ae2d1fb5718e2dcd80e49c4b4d8e1324bf6",
+      "bytes": 8489
+    },
+    {
+      "path": "Critical2DKPZ/Ehrhard/TripleSpectralGap.lean",
+      "sha256": "8689ca7374c6df3c3cb163e86c820d528ef217cb0bc9e92b3bb4cf33c26eb3a1",
+      "bytes": 2388
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/GaussianLaw.lean",
+      "sha256": "9eda3f3fac20d9462c6c097f2766807d6497e7f80c5fa21899f3d90c6c81b8ec",
+      "bytes": 1847
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/GaussianPolynomial.lean",
+      "sha256": "304bc4ed19930583aa605c94b438b47c2c0e94f13e35dd155385535de5a77bc8",
+      "bytes": 3648
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/IntegrationByParts.lean",
+      "sha256": "ab9527ad8112a3caadccdf1c2d4f379ddd379a1a8508f2b258d05e750577dd80",
+      "bytes": 3352
+    },
+    {
+      "path": "Critical2DKPZ/Gaussian/Poincare.lean",
+      "sha256": "632a310e8327ef75a72e8af35a0318c14ddd7eb69d44447264961e3aa53061c2",
+      "bytes": 11666
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "65ff37d544988e2d620f0e9b22018283c4c5e3a31b668bb0b078ba5d7733fbc2",
+      "bytes": 1121,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Critical2DKPZ/Ehrhard/OUInitialContinuity.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/3622fd6360a7c3441ee5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Critical2DKPZ",
+    "source_commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a"
+  }
+}

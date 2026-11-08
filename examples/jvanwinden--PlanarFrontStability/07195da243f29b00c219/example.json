@@ -1,0 +1,88 @@
+{
+  "id": "07195da243f29b00c219",
+  "source": {
+    "repository": "jvanwinden/PlanarFrontStability",
+    "commit": "4811e1e1286ee9bac5700dcbfa00c782c636154d",
+    "project": "jvanwinden--PlanarFrontStability--4811e1e1286e",
+    "path": "Planarwave/Analysis/BUCSpatialComposition.lean",
+    "file_id": "025198664f7804fa470a",
+    "source_sha256": "025198664f7804fa470ad1a83724cb613ddba80393e91c258359c7f5866ccfaa",
+    "start": 79,
+    "end": 103,
+    "original_start": 78,
+    "original_end": 105,
+    "declaration": "BUCSpatialBound.precomp_contraction",
+    "source_url": "https://github.com/jvanwinden/PlanarFrontStability/blob/4811e1e1286ee9bac5700dcbfa00c782c636154d/Planarwave/Analysis/BUCSpatialComposition.lean#L79-L103",
+    "archive_url": "https://github.com/PalomarArchive/jvanwinden--PlanarFrontStability--6e45ea577e6b/blob/4811e1e1286ee9bac5700dcbfa00c782c636154d/Planarwave/Analysis/BUCSpatialComposition.lean#L79-L103"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "BUCSpatialBound.precomp_contraction",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "20763dbabdecbc419fe527e2c6c680d4e6d96e373bf1330aa7f5070eef78a410",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "95766e534b3f8ccb3433958ebd180c5a7db230dc4df21bec1ae17fb00e9910c4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Planarwave/Analysis/BUC.lean",
+      "sha256": "583d326fa72cad4de5aecea3035714fbc9a01c824bc94298038a42c229551409",
+      "bytes": 16579
+    },
+    {
+      "path": "Planarwave/Analysis/BUCBilinear.lean",
+      "sha256": "0b7960c34771b243e2dca9988e9bec7dd0de2f37a07ca5a4fd7d99cab0b6cde9",
+      "bytes": 7344
+    },
+    {
+      "path": "Planarwave/Analysis/BUCNonlinear.lean",
+      "sha256": "e0ce15bcda3f8068d19fafe2004526b57b2d2fa4c1e88218f353eed1230e4993",
+      "bytes": 6993
+    },
+    {
+      "path": "Planarwave/Analysis/BUCSpatialBounds.lean",
+      "sha256": "ebed4afa3e520bcf29150a1a038a46b8640df56f75bd9be9076762f83bfe919b",
+      "bytes": 8803
+    },
+    {
+      "path": "Planarwave/Analysis/BUCSpatialComposition.lean",
+      "sha256": "85583e600cee22743756a2f279fa174d7dc5fd446372e49fe4fdae35cc8d6245",
+      "bytes": 7123
+    },
+    {
+      "path": "Planarwave/Analysis/BUCSpatialRegularity.lean",
+      "sha256": "e8428511b0d388dff7598f70715ca4e62dd98c7739e73b3ed056f1b4229b5983",
+      "bytes": 7087
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "530bee12841b99d79ff4a2cae46e760212969c6963cf87dad73c137aa7366299",
+      "bytes": 294,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "cf82d307051041db095bad2b65de106e21c485dbbcfd5b7c1007d4ade83cb471",
+      "bytes": 3552,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Planarwave/Analysis/BUCSpatialComposition.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jvanwinden/PlanarFrontStability",
+    "source_commit": "4811e1e1286ee9bac5700dcbfa00c782c636154d"
+  }
+}

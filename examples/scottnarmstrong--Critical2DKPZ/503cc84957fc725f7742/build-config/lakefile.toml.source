@@ -1,0 +1,26 @@
+"name" = "critical2dkpz"
+"defaultTargets" = ["Critical2DKPZ"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Critical2DKPZ"
+"globs" = ["Critical2DKPZ.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Critical2DKPZStatements"
+"globs" = ["Critical2DKPZStatements.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Critical2DKPZAudit"
+"globs" = ["Critical2DKPZAudit.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}}
+"srcDir" = "."

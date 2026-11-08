@@ -1,0 +1,233 @@
+{
+  "id": "0c67f691dc5e08ab993a",
+  "source": {
+    "repository": "jconorgrogan/prime-minor-arcs-2-15",
+    "commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba",
+    "project": "jconorgrogan--prime-minor-arcs-2-15--f369f267b4dc",
+    "path": "Proof/GuthMaynardAffineSmoothingSubpower.lean",
+    "file_id": "0947f7216ac8f4417dd6",
+    "source_sha256": "0947f7216ac8f4417dd6410c12919c164da10c3320a6018446178033b6f6dc85",
+    "start": 40,
+    "end": 49,
+    "original_start": 26,
+    "original_end": 49,
+    "declaration": "affineSmoothing_le_mass_mul",
+    "source_url": "https://github.com/jconorgrogan/prime-minor-arcs-2-15/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/GuthMaynardAffineSmoothingSubpower.lean#L40-L49",
+    "archive_url": "https://github.com/PalomarArchive/jconorgrogan--prime-minor-arcs-2-15--b3b69567282b/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/GuthMaynardAffineSmoothingSubpower.lean#L40-L49"
+  },
+  "native_target_name": "GuthMaynardJIteration.affineSmoothing_le_mass_mul",
+  "source_declaration_label": "affineSmoothing_le_mass_mul",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "681b44e65e8b2a460c1c8cd4af79bf65d23292132aae1dd6ab9d0e100971c20d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "153d11527017726edfc73e74d5ee5b4ae4f0cd98275abc424e3c3a1a7aa03bd1",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Proof/AppendixTypeIPowerAlgebra.lean",
+      "sha256": "396ae678312ba20da4da67fd80d8bd4b8763ee139122e9915411597aa917fd96",
+      "bytes": 8726
+    },
+    {
+      "path": "Proof/CGLProofDAG.lean",
+      "sha256": "6f697daa7d3786d44e338261323fd67f856dd5daa927057728af4415ac1cc5f3",
+      "bytes": 21518
+    },
+    {
+      "path": "Proof/DeterminantCountWeld.lean",
+      "sha256": "72cab8b406943fdfc9e8aacb6eaa48b4cd4bdf6cdd6e3473efb0062535ff3897",
+      "bytes": 27180
+    },
+    {
+      "path": "Proof/FixedCharacterPoweredBridge.lean",
+      "sha256": "70f210c93afd7cfc8d482c7fe3815798f4791d55283574824c3f8b4c944a8cc8",
+      "bytes": 32092
+    },
+    {
+      "path": "Proof/GuthMaynardAffineSmoothingNorms.lean",
+      "sha256": "af66e6fa4ed7bbf1345d71a6ec1f058fb3f36e705e7463b677ccd77c45814951",
+      "bytes": 35611
+    },
+    {
+      "path": "Proof/GuthMaynardAffineSmoothingSubpower.lean",
+      "sha256": "0947f7216ac8f4417dd6410c12919c164da10c3320a6018446178033b6f6dc85",
+      "bytes": 8107
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationAffineEnergy.lean",
+      "sha256": "64a726d815109b7627b633d016a86332e79b85f48590bcc3251b623a59c4e57c",
+      "bytes": 8346
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationDeterministic.lean",
+      "sha256": "5dc9bd8c45921fdfae81819b02b9ae7acd082d5c363bbb20f924fd73fdb562c0",
+      "bytes": 10381
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonFiniteRange.lean",
+      "sha256": "194febac02ccd16b6267a71454c6e90eabb5da3597b4b288d13205150ffbceda",
+      "bytes": 6482
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonFourierShift.lean",
+      "sha256": "d4f3441a2db2d2356cc620068e7757dd8190418908e1a8e243a35d3aea3e68e5",
+      "bytes": 4423
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonGhat.lean",
+      "sha256": "8c24b7d0db8426abbd497ace6eefe077ceb47111fead1f98f2d6979d52928e2e",
+      "bytes": 4267
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonGhatLocalization.lean",
+      "sha256": "f5ca9398bd7ce25bedb708ca87d45f146ffc8a929d87f0f6db407e5d0e290f6f",
+      "bytes": 5413
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonHatgBound.lean",
+      "sha256": "af838579817d57785b6bdf5f13e081e3eb7b86251c99ef6fa2813a3b0678a16f",
+      "bytes": 6517
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFirstPoissonLocalization.lean",
+      "sha256": "e0251c284e701cfc7f700dd48f926075920ce59009f0b3f8b7da52252c097234",
+      "bytes": 11196
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationFrequencyBounds.lean",
+      "sha256": "f495d9f727aad748e11c7a6689122e095b91576ac7f56500973535b4dba04e5f",
+      "bytes": 8963
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumLocalizedPairs.lean",
+      "sha256": "2a487c78f883c8dc14fa99a9714e5e5698b31e0f5e33c97eeb0dee2c4a295f65",
+      "bytes": 10182
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumPairCount.lean",
+      "sha256": "6fb3c6f7a2d9974ae98109738339551b456ec345c36fae20aa25271d0535b068",
+      "bytes": 4649
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumRegionAggregation.lean",
+      "sha256": "c1fc60c1f5bf2782d223f5f7655859ac518de3a4cb899145df444c427a936275",
+      "bytes": 6277
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumRegionGeometry.lean",
+      "sha256": "cf142fb2b8dc89d9853ab162a247869d5295186be2d7450030ce77f5a85fe4a1",
+      "bytes": 4994
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumRegionIntegration.lean",
+      "sha256": "9fd73d2fd4e585cf95fa21d433fd5d30db8ab57d9328623942684f5cbe0dbd53",
+      "bytes": 17484
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumRegionTailInsertion.lean",
+      "sha256": "e5c426ad0fb568beb6da722d3328e80cb3d128f7797fc9f8192b9b6bd71850a0",
+      "bytes": 9406
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumRetained.lean",
+      "sha256": "1de1f973908e0c8ea213667034e50adc904e1a5fb1ef6c3bd1b62e2f182beacb",
+      "bytes": 7242
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationMediumWindowCount.lean",
+      "sha256": "ba718f8ae195637bbb75ffddcb94fb08a9101b4e7abd4ba0538a4de20bbff6f8",
+      "bytes": 2540
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationPoisson.lean",
+      "sha256": "75a44adce93e0f7f524f90e950bf820e3daf5574df41c81cc082e4c101a18d71",
+      "bytes": 13337
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSigmaII.lean",
+      "sha256": "7bcbffaf23e7a8fd25754643c653d529b187416f3911f9a447f2a8768e1e97df",
+      "bytes": 20311
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSigmaIIAssembly.lean",
+      "sha256": "427d810ad2c1c0eacfcf344afbd4aed40612c3c6cf334326dae1596d1855b7bd",
+      "bytes": 13300
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSigmaIIFourier.lean",
+      "sha256": "ec399898de762d53e13ccc3d29896448429c16be39d2352d3a70aece9af6fc18",
+      "bytes": 5418
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSigmaIIFubini.lean",
+      "sha256": "7b28f4e17203c8ab1097a6cf660b7c322cb0988a89c4b2950e10310e92b6b117",
+      "bytes": 9387
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSigmaIIPoissonSupport.lean",
+      "sha256": "c609a248ae50f1052b2aa88587786586b2c760071421fb32b95120af20106741",
+      "bytes": 15208
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationSourceFourierDecay.lean",
+      "sha256": "74dad1aaaf82d6dea0628538adeddda0979594e33072d70decabfca0902a4b2f",
+      "bytes": 5901
+    },
+    {
+      "path": "Proof/GuthMaynardJIterationTail.lean",
+      "sha256": "a53ef8a40adfb44176f54587d1f7689e5e0ac2c33aaa0c999b856e3fcc9ed23d",
+      "bytes": 18702
+    },
+    {
+      "path": "Proof/GuthMaynardSourceLemmas.lean",
+      "sha256": "a587727986f44d73e6fcc9ac21be1654d222241a03e849428d25aa416ee28c84",
+      "bytes": 8280
+    },
+    {
+      "path": "Proof/MixedMellinCert.lean",
+      "sha256": "04df132acdab6e9721ab93bfcd420982670119b0aa610c3c2129fab37915b8a5",
+      "bytes": 8915
+    },
+    {
+      "path": "Proof/ShiuAnalyticLayer.lean",
+      "sha256": "5322457bfecf9078b0f6ee64c6a215b91689603e17a69d31a4af4b725120ab4a",
+      "bytes": 14495
+    },
+    {
+      "path": "Proof/ShiuFoundation.lean",
+      "sha256": "04caf599b442858f4296a6adb48315a916076e37b89d3f8205d91039cbbbf6b6",
+      "bytes": 16107
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e34d0de7044464273f9d229eb871ca4b9ab34d9059018b01dc49d99b2485871e",
+      "bytes": 61918,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Proof/GuthMaynardAffineSmoothingSubpower.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jconorgrogan/prime-minor-arcs-2-15",
+    "source_commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "a2ea659f5904f4254831",
+  "source": {
+    "repository": "rwst/Subspace-Theorems",
+    "commit": "d7a11cb1dcab3883fd1008db27a8382c95455b0a",
+    "project": "rwst--Subspace-Theorems--d7a11cb1dcab",
+    "path": "DiophantineApproximation/AlgebraicExponent.lean",
+    "file_id": "0903ce4c2df8048d25ef",
+    "source_sha256": "0903ce4c2df8048d25efdef496ec2b20fb766e3cbaa05d5fab0c40c1aaebb172",
+    "start": 88,
+    "end": 110,
+    "original_start": 83,
+    "original_end": 110,
+    "declaration": "Real.infinitePlace_aeval_le",
+    "source_url": "https://github.com/rwst/Subspace-Theorems/blob/d7a11cb1dcab3883fd1008db27a8382c95455b0a/DiophantineApproximation/AlgebraicExponent.lean#L88-L110",
+    "archive_url": "https://github.com/PalomarArchive/rwst--Subspace-Theorems--9bd9bba330e8/blob/d7a11cb1dcab3883fd1008db27a8382c95455b0a/DiophantineApproximation/AlgebraicExponent.lean#L88-L110"
+  },
+  "native_target_name": "Real.infinitePlace_aeval_le",
+  "source_declaration_label": "Real.infinitePlace_aeval_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "963fc0937ca313eb741fa3352a5aca4f3024b81f1392ca50005d920b416951ed",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a9093f3541da8b604c3293cc4d5c99dd820b65a77464486b2234d78795dbc587",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DiophantineApproximation/AlgebraicExponent.lean",
+      "sha256": "461580e9cebbd4ba27c66a9c027946c135d3e0a8010db8186befbe56505dd475",
+      "bytes": 18250
+    },
+    {
+      "path": "DiophantineApproximation/IrrationalityExponent.lean",
+      "sha256": "3bab77e78408872448cefc128f655153d64cb3b1957e18c6b0bcf1b743289210",
+      "bytes": 26932
+    },
+    {
+      "path": "DiophantineApproximation/MahlerExponent.lean",
+      "sha256": "ee663dcd2bd3a361038f8e5e1677abcdde6dde3a7ac54f3da1be7caae785178d",
+      "bytes": 61352
+    },
+    {
+      "path": "DiophantineApproximation/PolynomialEval.lean",
+      "sha256": "557799f112406024ce3da5cee9042706d3baeb2441de464cb3f8974737253775",
+      "bytes": 10425
+    },
+    {
+      "path": "DiophantineApproximation/PolynomialSupNorm.lean",
+      "sha256": "e31c052d42696d7420956d99fad5e048abf8337dc6b4a51817e54fa1f2c46913",
+      "bytes": 19586
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "f5825c92259ed559921b8d29c35b2da813ac0d6de7f8b05068ad3ffd633a945a",
+      "bytes": 1684,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "DiophantineApproximation/AlgebraicExponent.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/a2ea659f5904f4254831": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/rwst/Subspace-Theorems",
+    "source_commit": "d7a11cb1dcab3883fd1008db27a8382c95455b0a"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "f4cffad76385215fabd6",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/Sobolev/LimitFormUniqueness.lean",
+    "file_id": "00d09091c7884089df26",
+    "source_sha256": "00d09091c7884089df2673bd659bfcf0c75fb8c84ed682d3f2512f4018b4172b",
+    "start": 19,
+    "end": 34,
+    "original_start": 18,
+    "original_end": 60,
+    "declaration": "limitFormEnergy_apply_eq",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Sobolev/LimitFormUniqueness.lean#L19-L34",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Sobolev/LimitFormUniqueness.lean#L19-L34"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "limitFormEnergy_apply_eq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "7444bc0551191845b902e7f8277992cfff4356baffab2257367a90f6c6924ba1",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "7e887756a0c410d26e2c70e0c4eef01ed6307c65aab4d165b824acb54b60c1f4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/Sobolev/FiniteResponses.lean",
+      "sha256": "f4ee271a7e09f96bd4381531a9b77a581a8e0a178aa39cfed2d2078ab0a9cbb0",
+      "bytes": 4161
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/GradientRange.lean",
+      "sha256": "ea06d230e5296017b607ce0ea026a9d43d56f889305f080463bc4c31fb83e41f",
+      "bytes": 5949
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/KilledGraph.lean",
+      "sha256": "dd8b1f47aa9db695e5eff9ad3b1da68c8505db0a707249d3f58eb0e68da88793",
+      "bytes": 6153
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/LimitFormUniqueness.lean",
+      "sha256": "0836b4c98ea75a22069940340badf7b0244980b9b8b2ae12c8b935a991892589",
+      "bytes": 3317
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/MeanZero.lean",
+      "sha256": "e2ba561f5124d26dfbc16cf809177dc9151e97cace103612bb332f7ceee03db8",
+      "bytes": 3312
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseInjectivity.lean",
+      "sha256": "8c7f7d106e6d60ca60ff47661fc8b09c9d38804548d677993fe135816af59b69",
+      "bytes": 4739
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseLimits.lean",
+      "sha256": "fce5fba13d26b022a86fbe8168f369782082025f92269778d0a2be37c7b87908",
+      "bytes": 4139
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponsePositivity.lean",
+      "sha256": "ef7f22c12dfba379dd085df6f0eccc0ccdef178d7d4fa899f413dab9ab504337",
+      "bytes": 10835
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseRecovery.lean",
+      "sha256": "b85e2e05354e683fa43781b6fa450842b8f1585214b62da7e71a992a5b0d1f51",
+      "bytes": 3308
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseSpace.lean",
+      "sha256": "1f8a3fb77fab2b6c588076b0307b891a2c825e8a14a6aacea709019395bafd52",
+      "bytes": 6539
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeakGradient.lean",
+      "sha256": "4b840603e0435fa584da39a8e9eee68b2d31759e7ed255ee26f6a4109fe6812b",
+      "bytes": 6206
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeightedGradient.lean",
+      "sha256": "13551e01bf074eb92fc97ea84c927b16c564244b626e277b22ee8fbc52a4b0e3",
+      "bytes": 4257
+    },
+    {
+      "path": "SubdiffusiveProcess/VariationalResponses/KilledInverse.lean",
+      "sha256": "f7164ee884a640b8787d1d48384a04501c4d5d8ca30ad7e4a13e04127b8ec4cf",
+      "bytes": 2601
+    },
+    {
+      "path": "SubdiffusiveProcess/VariationalResponses/LimitForm.lean",
+      "sha256": "e04016e7960ddd3b008ee46e9d307ddcad8f7d5e4578a01134dc37a04e8fcf6b",
+      "bytes": 2999
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea9f9e22a41d24724511bfd5c629dbbd402e9ddaf4d4d7e07f27d8919e652ff3",
+      "bytes": 880,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/Sobolev/LimitFormUniqueness.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

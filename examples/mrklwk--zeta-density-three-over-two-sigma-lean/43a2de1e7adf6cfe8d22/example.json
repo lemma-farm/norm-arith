@@ -1,0 +1,231 @@
+{
+  "id": "43a2de1e7adf6cfe8d22",
+  "source": {
+    "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+    "commit": "804bdb55b1fc40e6a1a6878fd96078644a70e288",
+    "project": "mrklwk--zeta-density-three-over-two-sigma-lean--804bdb55b1fc",
+    "path": "lean/MathCollab/Density/Stronger/Fourth/SquareKernel.lean",
+    "file_id": "06d83e889f1e3788db05",
+    "source_sha256": "06d83e889f1e3788db05b8a9fa74f8e5b1862d4378cb0590dd805f0e832adef6",
+    "start": 73,
+    "end": 123,
+    "original_start": 58,
+    "original_end": 123,
+    "declaration": "exists_norm_zetaFourthKernel_near_le",
+    "source_url": "https://github.com/mrklwk/zeta-density-three-over-two-sigma-lean/blob/804bdb55b1fc40e6a1a6878fd96078644a70e288/lean/MathCollab/Density/Stronger/Fourth/SquareKernel.lean#L73-L123",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-three-over-two-sigma-lean--3191042a783e/blob/804bdb55b1fc40e6a1a6878fd96078644a70e288/lean/MathCollab/Density/Stronger/Fourth/SquareKernel.lean#L73-L123"
+  },
+  "native_target_name": "MathCollab.Density.Stronger.Fourth.exists_norm_zetaFourthKernel_near_le",
+  "source_declaration_label": "exists_norm_zetaFourthKernel_near_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "101c595c1f1bbdb1876720a7ac1ed2b1eb8efbccacfb9bfa819a0a87179da4f4",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2a852190c4dbab822e22f8facd18b62133c2378e1c84cffca60952dd49c358bb",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MathCollab/Density/AbelZetaGrowth.lean",
+      "sha256": "9367844855b4514671d07f85bbf8b8a5cfabe75cad28b25fb9bb4e14159c070c",
+      "bytes": 15154
+    },
+    {
+      "path": "MathCollab/Density/AllFrequency.lean",
+      "sha256": "c25f92290f71052fcfc007291e4d718aa8d1fb9cb67a6e3438de70937775997f",
+      "bytes": 5123
+    },
+    {
+      "path": "MathCollab/Density/AnalyticTransforms.lean",
+      "sha256": "8303a87024cbfb528aa37e74a2f5ea3c0c438849897f3182dbce627a3ff922d7",
+      "bytes": 11419
+    },
+    {
+      "path": "MathCollab/Density/BandEnergy.lean",
+      "sha256": "915058f0e03080e0c4ae821ee114cc0cbbb697a59df8c7a46069186a83e56726",
+      "bytes": 4660
+    },
+    {
+      "path": "MathCollab/Density/ComparisonCutoff.lean",
+      "sha256": "ecef6318f62b2127ef548ad44949927d21b749411671b02bc0085e00aa0379d2",
+      "bytes": 3267
+    },
+    {
+      "path": "MathCollab/Density/CompletePairs.lean",
+      "sha256": "722ed343e912383a2785aac97d716078799545af76646ee984b8f1d7e4df7d10",
+      "bytes": 4020
+    },
+    {
+      "path": "MathCollab/Density/CutoffTransforms.lean",
+      "sha256": "469ba43a066aec880a2dd14b287acdc33f295e69dfb6ba67ba7011f26837913d",
+      "bytes": 8557
+    },
+    {
+      "path": "MathCollab/Density/DivisorGrowth.lean",
+      "sha256": "540e2aa5295db7c418ae6667af980959103628a41b0fb66e6d76291766af14c7",
+      "bytes": 5855
+    },
+    {
+      "path": "MathCollab/Density/DyadicBlocks.lean",
+      "sha256": "c768942d700f6f21a69b0d11067c4682bf90984aacc10f0b2516fa64b3b5f6cf",
+      "bytes": 8815
+    },
+    {
+      "path": "MathCollab/Density/FixedBandError.lean",
+      "sha256": "85fd286eb0da8c4ad4f2e8ef067a66389300516b723dccfb863965c99929a3f1",
+      "bytes": 4472
+    },
+    {
+      "path": "MathCollab/Density/LargeValueDefinitions.lean",
+      "sha256": "ed0b6d5aeca2531850a8db37af9834783384398f1d6aca06d84bcb1231797cd4",
+      "bytes": 2737
+    },
+    {
+      "path": "MathCollab/Density/LocalCover.lean",
+      "sha256": "3ee8dc28b12b3b35198dc15da6211117027a71dab385a0ffc3dc085ba1fa1ec1",
+      "bytes": 7345
+    },
+    {
+      "path": "MathCollab/Density/MellinKernel.lean",
+      "sha256": "70215754c0aef0415fa5c805cf1872177c78f10dad2af1335b3dda6454f11dcd",
+      "bytes": 13147
+    },
+    {
+      "path": "MathCollab/Density/Oscillatory.lean",
+      "sha256": "05fde3972334bc11b142e0e8b715e9049eab3255dc9ad0cf501af4c998cd8732",
+      "bytes": 18093
+    },
+    {
+      "path": "MathCollab/Density/ProductGrouping.lean",
+      "sha256": "65aff096fd7870279891010039fd16c450fc9c8f8a911af67109823be456c58e",
+      "bytes": 5800
+    },
+    {
+      "path": "MathCollab/Density/RectangleResidue.lean",
+      "sha256": "16d6a162c997b763d234c9b4654c9bbc87aaf1204f26a9535d7e3fa6d59d3c7d",
+      "bytes": 16313
+    },
+    {
+      "path": "MathCollab/Density/Reflection.lean",
+      "sha256": "f754cb2258091dd1420304ae0ef9dcdc6390ec81d837b5f5c13f3d1e80a26626",
+      "bytes": 5879
+    },
+    {
+      "path": "MathCollab/Density/ReflectionAssembly.lean",
+      "sha256": "19bf7c503a7d5eae3a5d3768711cd4eda32a342029ab046b6ca975295b26961a",
+      "bytes": 8759
+    },
+    {
+      "path": "MathCollab/Density/ReflectionDefinitions.lean",
+      "sha256": "c8e59780e19e507a66262e139246b504f2af9ec58cae0c474d8817d29c3d3f8c",
+      "bytes": 10025
+    },
+    {
+      "path": "MathCollab/Density/Stronger/CriticalMoment.lean",
+      "sha256": "27dc045e65fb0157450258f800f5e42f94dfe24fb9bd2e7060f6992cea496cbb",
+      "bytes": 7675
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/Coefficients.lean",
+      "sha256": "b14fc13390eb18c10ba0abf74c541a2ac4d611ede90a18aa0b888efa240f0c4c",
+      "bytes": 5265
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/DigammaLog.lean",
+      "sha256": "b3d6bd417ae0cb77b5328b7588248d9269ee5ea975537d51f0dc9cae7bc7ff1d",
+      "bytes": 11033
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/DigammaSeries.lean",
+      "sha256": "32aa7c09a4dd5ef3455e84adff4f15cc2f9a52ffa4a982a9ce1b7d3cfc0750fd",
+      "bytes": 17703
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/GammaShiftAmplitude.lean",
+      "sha256": "6cf9231bf0e17aef331174c935f1ba235b225fd2c3bbe1296dcac4844a61d764",
+      "bytes": 8150
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/GammaShiftLog.lean",
+      "sha256": "be47425210757913f179f218a035dfe14e57f63bee98b3c47a7d7e7fe47d03dc",
+      "bytes": 8037
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareContour.lean",
+      "sha256": "6195cbf078eeef408deb0b95ea9fcf0c37105fa741cdacf6c84abaede46a1dd6",
+      "bytes": 12574
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareGrowth.lean",
+      "sha256": "10ecdec0c0aa256235be4b82279ee78250c35bad5b524cb9a849d041fae28bba",
+      "bytes": 6647
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareKernel.lean",
+      "sha256": "d152f3c62120a2fbffc9d553dcc36f5198acce4778cf88ab802eea7d57355079",
+      "bytes": 7344
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareKernelFar.lean",
+      "sha256": "c2b79f0004f436e4660eaffaf1c713a42da194246dd487da9d513a6f64c9eb31",
+      "bytes": 10521
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareNormalized.lean",
+      "sha256": "c8f043a5deb8ebe729663235300e4f42032827c119fba0c7178f242ecf92ec95",
+      "bytes": 15689
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Fourth/SquareSource.lean",
+      "sha256": "37c6ee7c1593ef74c3afe38b33388069a0aec858a53760314f143cca2a2e1e99",
+      "bytes": 18414
+    },
+    {
+      "path": "MathCollab/Density/Stronger/TruncatedLayerCake.lean",
+      "sha256": "8afa27c775abaa77cc19c4e10af0e422ca59689e0e0898b155ed9ba8ee0993c1",
+      "bytes": 2995
+    },
+    {
+      "path": "MathCollab/Density/UniformIBP.lean",
+      "sha256": "4b09434727f5840e2783641398b373e9b696e7215c1f7d0347b2c57b1ce6a0a1",
+      "bytes": 16193
+    },
+    {
+      "path": "MathCollab/Density/WeightedSquare.lean",
+      "sha256": "4a0eb5b56e0480ae0db309824a3b9c369c8f492933ba75745d17aeaf81c0f99b",
+      "bytes": 2658
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "bbd895d7cce9b34d717602d78efbd669782a1918d6236499ebbb24fd6faa5c18",
+      "bytes": 602,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "MathCollab/Density/Stronger/Fourth/SquareKernel.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/43a2de1e7adf6cfe8d22": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-three-over-two-sigma-lean",
+    "source_commit": "804bdb55b1fc40e6a1a6878fd96078644a70e288"
+  }
+}

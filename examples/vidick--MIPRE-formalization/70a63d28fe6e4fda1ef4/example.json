@@ -1,0 +1,226 @@
+{
+  "id": "70a63d28fe6e4fda1ef4",
+  "source": {
+    "repository": "vidick/MIPRE-formalization",
+    "commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6",
+    "project": "vidick--MIPRE-formalization--7798a80300e1",
+    "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/HaarSpectrum.lean",
+    "file_id": "01980844397e19a05502",
+    "source_sha256": "01980844397e19a05502cdba82c9f0f0a94793f7c45d10e48453d9046e8dd0bd",
+    "start": 510,
+    "end": 525,
+    "original_start": 460,
+    "original_end": 544,
+    "declaration": "exists_trigSym",
+    "source_url": "https://github.com/vidick/MIPRE-formalization/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/HaarSpectrum.lean#L510-L525",
+    "archive_url": "https://github.com/PalomarArchive/vidick--MIPRE-formalization--0d44c812c686/blob/7798a80300e1c63b783c214f9e0cd9c00a8721b6/MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/HaarSpectrum.lean#L510-L525"
+  },
+  "native_target_name": "CommutingRepetition.VN.Modular.exists_trigSym",
+  "source_declaration_label": "exists_trigSym",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "baff849ea540b5ff7f4a18829ffba996b949ee4fb750c20da51612006033b02b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9e1fa9e1bf0019951aadee5abeb88cf10e1612c428beb5a930d58a80fe71d0f0",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Prelim/Entropy.lean",
+      "sha256": "922227855e42d6ea8065ff8b9a4061b3e2c45f0a560d53c07cf129a8b7f06ab7",
+      "bytes": 23209
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Prelim/FiniteProb.lean",
+      "sha256": "08b2bba240c8a03b7cd238811b810ad4dd24c3c9b07ca00974786c97e850de4b",
+      "bytes": 6863
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Resolver/Douglas.lean",
+      "sha256": "f02a82ee99004a389e9cda408312a1f705f0d204fcccc6ec319ac35ee2509f3c",
+      "bytes": 15875
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Resolver/Resolvent.lean",
+      "sha256": "14d8b75b0a579602c6007271ef0e44c878c2f6f06230497fc507b713c5494a58",
+      "bytes": 14561
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/Tracial/Density/FaithfulState.lean",
+      "sha256": "96468c2d5192a71378799664d19ca69e6226198eb0d5654abdce071a953fbd37",
+      "bytes": 10760
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/BorelCalculus.lean",
+      "sha256": "010cc8a7a291361d0d69436206b2ccf291a4572117de0a648d45f57c69e297b8",
+      "bytes": 31460
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/ComplexBorel.lean",
+      "sha256": "98477c2ce20888f83dbf147c956b63e70c8d24ee9c0f7d940d0f4a185059f6b8",
+      "bytes": 15498
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Cutdown.lean",
+      "sha256": "85895517fafa59099302617a255ab6d39f610ef71b7f9e61c28e35de2ae8bf87",
+      "bytes": 22121
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Cyclic.lean",
+      "sha256": "70fff829c0e80d755817f864a365dc66aad9b3e12296d865eb12661e4938686a",
+      "bytes": 11428
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Generated.lean",
+      "sha256": "85230073934fa74b8aa77dce6c6ebea9851b1be6325073b795f6bdb0c1452ae5",
+      "bytes": 6284
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/JointBorel.lean",
+      "sha256": "b05c8fc7877adfc907926ad8618ab19e66f7ec130290f6b351e2ca0be2c75963",
+      "bytes": 53277
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/JointSpectral.lean",
+      "sha256": "00a96f9c85350d763930399108436385d67eae27eec49e1d3e7515631b5f9296",
+      "bytes": 22439
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/AnalyticFamily.lean",
+      "sha256": "91bf241a77beb5f40099ed4edc3ca17d3e9119d2db50eaad1eea87cf0b08fbc0",
+      "bytes": 26810
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/CentralExp.lean",
+      "sha256": "f9454c56237cda9cbd351292395773ec3a2bf47a9a23644a66fd9d3f6b4fa5ce",
+      "bytes": 24059
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/Centralizer.lean",
+      "sha256": "683207163748e45feb959a3465985386d4a133d1bc60d7c281f9e01a541aaa47",
+      "bytes": 6690
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/FourierConverse.lean",
+      "sha256": "1d5b86279f4d5454c9559809e3957f0cc3cdd2eb49f8bb9e65c486b7f03939d4",
+      "bytes": 19895
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/HaarSpectrum.lean",
+      "sha256": "3e13de1571c486cd16f68c5f81b2b5d74f8583e353d240741373c23abce61bcd",
+      "bytes": 35409
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/LaplaceUniqueness.lean",
+      "sha256": "68d877a925a0c67db8c75e6153ca7d17899409870bec8f7a7e98912f5595ea89",
+      "bytes": 11764
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/LinearRN.lean",
+      "sha256": "d870960e7e4c95822071747c83571ea807793a941eec8d17bfddb94b75d37b3c",
+      "bytes": 38515
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/ModularGroup.lean",
+      "sha256": "da917f5eab7c97ec97ba619d2e0d13cd1d8a2e3642b31912b7b292fa7d299489",
+      "bytes": 5734
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/ModularOperator.lean",
+      "sha256": "f08937fd174aa1773f55519add7f37764355c8f619210ef97ff2ff6eae94b74a",
+      "bytes": 14145
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/PolarJ.lean",
+      "sha256": "5ea1f6d09aa32b832e70b83feac2f2921a48771f48c45b8792c2a163f36a9365",
+      "bytes": 31928
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/RealSubspace.lean",
+      "sha256": "14f02b192e3e060badfcbcdb5602b2edb5f9b5bf5cc186fbeb0d4796013783df",
+      "bytes": 11153
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/Smearing.lean",
+      "sha256": "2ada4404d326618a20df777bef86cd02dabff87bf64851630534fcbe6dc6de73",
+      "bytes": 24575
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/StripCauchy.lean",
+      "sha256": "b05dc773a350ae75fb758c685feb49f3ef915ce7ccb917f5dac5a84cbb8e39d8",
+      "bytes": 30402
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/Tomita.lean",
+      "sha256": "591c6e7aa1d31b2e163b9fadadaff774312ba60b5b5e2195454753b2d2c7a410",
+      "bytes": 38001
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/Uniqueness.lean",
+      "sha256": "09564d13947ee258cf63932368d3c13b16ceb5612aa150446ab19de4d8c394e8",
+      "bytes": 5091
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/UnitaryLog.lean",
+      "sha256": "e410a0a0215007dc347a55f7dd8635f992d0afb372c11d8fc45d6bea5eb9e38e",
+      "bytes": 26349
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/WOTCompact.lean",
+      "sha256": "1b5a54e93f016d6da678f960306f05f2a3b9e7f600060fc15fc7084bacae3071",
+      "bytes": 10880
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/MonotoneLimit.lean",
+      "sha256": "24e08a3ebc2390be7133a2e0249a4aa2f58583a8fe66868c24088ae008c684dc",
+      "bytes": 10919
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/Normal.lean",
+      "sha256": "cf5d8585e3ab2711868cd1a6d2c4558db6d1e994758336240d8bcad159ffd5a2",
+      "bytes": 7953
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/SpectralMeasure.lean",
+      "sha256": "91426137a089262c8fe9155c220f697f23ea9dfef70400f517e9d54ddb108d97",
+      "bytes": 14376
+    },
+    {
+      "path": "MIPRE/Background/Repetition/CommutingRepetition/VN/SpectralProjection.lean",
+      "sha256": "30b0323464851b43b25dcc56e7503f62bdc4ef5d967857fb42b8d2d360a80ce4",
+      "bytes": 27745
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "31e850592b8a96d67b572931e8e762f76e80b664b592adfe7f692c0748885a46",
+      "bytes": 511,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "MIPRE/Background/Repetition/CommutingRepetition/VN/Modular/HaarSpectrum.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/70a63d28fe6e4fda1ef4": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vidick/MIPRE-formalization",
+    "source_commit": "7798a80300e1c63b783c214f9e0cd9c00a8721b6"
+  }
+}

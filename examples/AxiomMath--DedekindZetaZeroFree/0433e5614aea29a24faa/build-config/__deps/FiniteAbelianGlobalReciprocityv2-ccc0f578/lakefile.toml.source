@@ -1,0 +1,34 @@
+"name" = "FiniteAbelianGlobalReciprocityv2"
+"weakLeanArgs" = ["-j1"]
+"version" = "0.1.0"
+"defaultTargets" = ["ClassFieldTheory.All", "ValuedFieldTheory", "GaloisCohomology", "ProCGroups"]
+"enableArtifactCache" = false
+"restoreAllArtifacts" = false
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "ClassFieldTheory.All"
+"srcDir" = "Lean4"
+"globs" = ["ClassFieldTheory.+"]
+"leanOptions" = {"linter" = {"missingDocs" = true}}
+
+[["lean_lib"]]
+"name" = "ValuedFieldTheory"
+"srcDir" = "Lean4"
+"globs" = ["ValuedFieldTheory.+"]
+
+[["lean_lib"]]
+"name" = "GaloisCohomology"
+"srcDir" = "Lean4"
+"globs" = ["GaloisCohomology.+"]
+
+[["lean_lib"]]
+"name" = "ProCGroups"
+"srcDir" = "Lean4"
+"globs" = ["ProCGroups.+"]

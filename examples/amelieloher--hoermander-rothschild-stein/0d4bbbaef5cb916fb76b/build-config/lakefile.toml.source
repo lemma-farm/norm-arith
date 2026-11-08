@@ -1,0 +1,44 @@
+"name" = "hormander"
+"defaultTargets" = ["Hormander", "RothschildStein", "HormanderChallenge", "HormanderSolution", "RothschildSteinChallenge", "RothschildSteinSolution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Hormander"
+"globs" = ["Hormander.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "RothschildStein"
+"globs" = ["RothschildStein.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "HormanderChallenge"
+"roots" = ["comparators.Hormander.Challenge"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "HormanderSolution"
+"roots" = ["comparators.Hormander.Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "RothschildSteinChallenge"
+"roots" = ["comparators.RothschildStein.Challenge"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "RothschildSteinSolution"
+"roots" = ["comparators.RothschildStein.Solution"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "deprecated" = true}}
+"srcDir" = "."

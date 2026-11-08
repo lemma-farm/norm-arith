@@ -1,0 +1,30 @@
+"name" = "snumbers"
+"defaultTargets" = ["SNumbers", "BasicResults", "AddOns"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "SNumbers"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "BasicResults"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AddOns"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarChallenges"
+"globs" = ["PalomarChallenges", "PalomarChallenges.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "PalomarSolutions"
+"globs" = ["PalomarSolutions", "PalomarSolutions.+"]
+"srcDir" = "."

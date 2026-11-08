@@ -1,0 +1,26 @@
+"name" = "Zeta23"
+"version" = "0.1.0"
+"defaultTargets" = ["Zeta23"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Zeta23"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ChallengeDeps"
+"srcDir" = "comparator"
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "comparator"
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "comparator"

@@ -1,0 +1,20 @@
+"name" = "SubdiffusiveProcess"
+"defaultTargets" = ["SubdiffusiveProcess"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "SubdiffusiveProcess"
+"globs" = ["SubdiffusiveProcess.*"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}, "warn" = {"classDefReducibility" = false}}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "SubdiffusiveProcessAudit"
+"globs" = ["SubdiffusiveProcessAudit.+"]
+"leanOptions" = {"autoImplicit" = false, "relaxedAutoImplicit" = false, "linter" = {"unusedVariables" = true, "unusedSectionVars" = true, "unusedSimpArgs" = true, "unnecessarySimpa" = true, "deprecated" = true}, "warn" = {"classDefReducibility" = false}}
+"srcDir" = "."

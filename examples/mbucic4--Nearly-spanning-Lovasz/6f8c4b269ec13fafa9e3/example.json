@@ -1,0 +1,91 @@
+{
+  "id": "6f8c4b269ec13fafa9e3",
+  "source": {
+    "repository": "mbucic4/Nearly-spanning-Lovasz",
+    "commit": "7f2728d07ce648ed74cae08bbfa7084b9ec13f4b",
+    "project": "mbucic4--Nearly-spanning-Lovasz--7f2728d07ce6",
+    "path": "RequestProject/FiniteTrapping.lean",
+    "file_id": "071d985c552302b2ec4b",
+    "source_sha256": "071d985c552302b2ec4b7201d4458e0d9e5c732fbb3b39479c2959b69d454c2f",
+    "start": 54,
+    "end": 64,
+    "original_start": 50,
+    "original_end": 64,
+    "declaration": "integrable_and_abs_integral_le",
+    "source_url": "https://github.com/mbucic4/Nearly-spanning-Lovasz/blob/7f2728d07ce648ed74cae08bbfa7084b9ec13f4b/RequestProject/FiniteTrapping.lean#L54-L64",
+    "archive_url": "https://github.com/PalomarArchive/mbucic4--Nearly-spanning-Lovasz--dc3fe5736fab/blob/7f2728d07ce648ed74cae08bbfa7084b9ec13f4b/RequestProject/FiniteTrapping.lean#L54-L64"
+  },
+  "native_target_name": "Lovasz.Trapping.integrable_and_abs_integral_le",
+  "source_declaration_label": "integrable_and_abs_integral_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b70887fa3d94f9a494b1026bdccc735e3e2f4669bd507049dcfd4bb1922261d6",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "046339308b88e8a620913abeafa74a574a42575407b1f571cecc17ceb81db471",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RequestProject/BGTEscape.lean",
+      "sha256": "a54c75572abc30aff3f57523a400d2fb64f4b6a83840936b5fe400f3109b1fc4",
+      "bytes": 9155
+    },
+    {
+      "path": "RequestProject/BGTSanders.lean",
+      "sha256": "9c239ff962409a53405695ae789be69161966ed716ff11de03247217bee27fd7",
+      "bytes": 35734
+    },
+    {
+      "path": "RequestProject/FiniteTrapping.lean",
+      "sha256": "a6fd46e74a483da33fda27f3116144395d4cc89d84c6ca524bc0cecdfe56ccb1",
+      "bytes": 18441
+    },
+    {
+      "path": "RequestProject/FiniteTrappingLayers.lean",
+      "sha256": "672a48b575ec39bf10bb977f43d8abc13f32265d9965b87cdb22be1ec4573b6a",
+      "bytes": 5622
+    },
+    {
+      "path": "RequestProject/NSSConj.lean",
+      "sha256": "4b4832c8d03e2477b63a6a1cdeaaa7197222b61a5853d28bed28672c4a4d5992",
+      "bytes": 2743
+    },
+    {
+      "path": "RequestProject/NSSTopology.lean",
+      "sha256": "2187638f19cffd19405e2948b5668185db4fa14bc5417072242048ed300c34b2",
+      "bytes": 6563
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c9ccd8e523359993e43cb6249567c9c42beaac321a694df045c5e7d54e043aa0",
+      "bytes": 437,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RequestProject/FiniteTrapping.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/6f8c4b269ec13fafa9e3": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mbucic4/Nearly-spanning-Lovasz",
+    "source_commit": "7f2728d07ce648ed74cae08bbfa7084b9ec13f4b"
+  }
+}

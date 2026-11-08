@@ -1,0 +1,111 @@
+{
+  "id": "46c0aff380e553d18d68",
+  "source": {
+    "repository": "cenozoic-works/rhone-theory",
+    "commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a",
+    "project": "cenozoic-works--rhone-theory--40430cc1c60b",
+    "path": "Rhone/Statistics/ThreeSiteRobustness/EmpiricalMoments.lean",
+    "file_id": "02e81ec481f6ff99cad9",
+    "source_sha256": "02e81ec481f6ff99cad9b62ead3068289af994b267f0e04fa41b0f8940ece7b9",
+    "start": 27,
+    "end": 35,
+    "original_start": 27,
+    "original_end": 35,
+    "declaration": "empirical_feature_bound",
+    "source_url": "https://github.com/cenozoic-works/rhone-theory/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Statistics/ThreeSiteRobustness/EmpiricalMoments.lean#L27-L35",
+    "archive_url": "https://github.com/PalomarArchive/cenozoic-works--rhone-theory--fb903f3fec24/blob/40430cc1c60bb35b2b4872a6c9583b71cc363e7a/Rhone/Statistics/ThreeSiteRobustness/EmpiricalMoments.lean#L27-L35"
+  },
+  "native_target_name": "Rhone.Statistics.ThreeSiteRobustness.empirical_feature_bound",
+  "source_declaration_label": "empirical_feature_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "322c8e226d011ea817e395d421c4b9bc99cc030318faafa6a053d0181d1f678c",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9c633dfdaaf5645b72fbf0009c4f04fd429cb9c5dee23803eb7848b46aee4729",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Rhone/Statistics/Identifiability/FinitePanelConcentration.lean",
+      "sha256": "e2dab8c700514c747198a2f4c08ab3dd19940df54f97ac51f00f03a85e0086cb",
+      "bytes": 5714
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteRobustness/EmpiricalMoments.lean",
+      "sha256": "40ec1700ba3bdef46d59772691e6bcc36448f096bb193e6ad745ba5e65ddd23c",
+      "bytes": 2075
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteRobustness/FeatureBounds.lean",
+      "sha256": "96af7c053003603825fdc938e001e39948ec94e2fb9dec4f345f6d4d45d4861a",
+      "bytes": 3549
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteRobustness/UniformMargin.lean",
+      "sha256": "e76c60633a0f9b8e74d4de74b2576d356614aa84fd00107e98ea6a949ed20c4c",
+      "bytes": 3476
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteSeparator/BlockExpectations.lean",
+      "sha256": "37db1b434eda86f0afd206fc32dd168670aa7cf9367ddaffec5f582616874fe9",
+      "bytes": 2655
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteSeparator/BlockStatistics.lean",
+      "sha256": "a8c941d57499dbb381ca3a6838da1bcdc3a0b34bf41d3e9677bccfbba0528a30",
+      "bytes": 4035
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteSeparator/ObservableAlgebra.lean",
+      "sha256": "955bbd648be35059e9005f18c6afde3862befd3cc758fe10fdeb235ed7900dc7",
+      "bytes": 2625
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteSeparator/ObservableBounds.lean",
+      "sha256": "615c5c4aa2ecd783dcb444eee6a607cdcba76030b925a47c3007bbae39ff0101",
+      "bytes": 2289
+    },
+    {
+      "path": "Rhone/Statistics/ThreeSiteSeparator/ScoreSymmetry.lean",
+      "sha256": "a4469852e12e5494aec6fc118f1b776e76e5d98fcc633af4999d335926164c93",
+      "bytes": 2884
+    },
+    {
+      "path": "Rhone/Statistics/ThreeTipSites/Channel.lean",
+      "sha256": "1f369864b21a3442d63e790495e6d69148ddfd25bc0d5077250683ed140982d6",
+      "bytes": 6411
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9773dc8a3095cdd485efd31b34bc69d495d84c5a26ab4ec68b0482303c7249a5",
+      "bytes": 12299,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Rhone/Statistics/ThreeSiteRobustness/EmpiricalMoments.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/partial-owner-demand-v5-pilot-637000856/46c0aff380e553d18d68": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/cenozoic-works/rhone-theory",
+    "source_commit": "40430cc1c60bb35b2b4872a6c9583b71cc363e7a"
+  }
+}

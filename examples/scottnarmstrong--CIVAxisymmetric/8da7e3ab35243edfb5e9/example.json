@@ -1,0 +1,63 @@
+{
+  "id": "8da7e3ab35243edfb5e9",
+  "source": {
+    "repository": "scottnarmstrong/CIVAxisymmetric",
+    "commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681",
+    "project": "scottnarmstrong--CIVAxisymmetric--9f539dc7bf7d",
+    "path": "CIV/Closure/MixedTermBound.lean",
+    "file_id": "0a85ff270a9faa99ce40",
+    "source_sha256": "0a85ff270a9faa99ce4091d755d10d5bdeeb790846345267e219d1116cfe309f",
+    "start": 33,
+    "end": 47,
+    "original_start": 33,
+    "original_end": 47,
+    "declaration": "CIV.mixed_term_bound_of_cauchy_schwarz",
+    "source_url": "https://github.com/scottnarmstrong/CIVAxisymmetric/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Closure/MixedTermBound.lean#L33-L47",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CIVAxisymmetric--a71f9ac656b8/blob/9f539dc7bf7ddd414d3ef81df539e1bef229f681/CIV/Closure/MixedTermBound.lean#L33-L47"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "CIV.mixed_term_bound_of_cauchy_schwarz",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "aa2285bf8b763fe6bdb0d15f710945377b4bf824031411aa4f53fb70435d2077",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "4dc81d4c95afc32c9e9a58b8dbb1fe7252373349c265999c07ae2de7b02ea844",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CIV/Closure/MixedTermBound.lean",
+      "sha256": "0a85ff270a9faa99ce4091d755d10d5bdeeb790846345267e219d1116cfe309f",
+      "bytes": 2987
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "0e01fc996718976c04811dd3accfe778a4d97650d59445ed955bad4b4647166e",
+      "bytes": 425,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CIV/Closure/MixedTermBound.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CIVAxisymmetric",
+    "source_commit": "9f539dc7bf7ddd414d3ef81df539e1bef229f681"
+  }
+}

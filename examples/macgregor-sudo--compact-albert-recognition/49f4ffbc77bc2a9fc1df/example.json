@@ -1,0 +1,103 @@
+{
+  "id": "49f4ffbc77bc2a9fc1df",
+  "source": {
+    "repository": "macgregor-sudo/compact-albert-recognition",
+    "commit": "40d3b344180d9ddb78aaa2876873377c1e631515",
+    "project": "macgregor-sudo--compact-albert-recognition--40d3b344180d",
+    "path": "Glennie/SectorBudgets.lean",
+    "file_id": "0ad1204e6bfed4f0928a",
+    "source_sha256": "0ad1204e6bfed4f0928aaa0958b411aad0dba1a3864364216736cc647f5a6d4a",
+    "start": 52,
+    "end": 72,
+    "original_start": 49,
+    "original_end": 72,
+    "declaration": "complex_coefficient_bound",
+    "source_url": "https://github.com/macgregor-sudo/compact-albert-recognition/blob/40d3b344180d9ddb78aaa2876873377c1e631515/Glennie/SectorBudgets.lean#L52-L72",
+    "archive_url": "https://github.com/PalomarArchive/macgregor-sudo--compact-albert-recognition--0d184e5e9908/blob/40d3b344180d9ddb78aaa2876873377c1e631515/Glennie/SectorBudgets.lean#L52-L72"
+  },
+  "native_target_name": "Glennie.complex_coefficient_bound",
+  "source_declaration_label": "complex_coefficient_bound",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "3560d49933bceb80045aab9d78cf127bc45425949b1dadfa81934397b367f296",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "45e1b2e6b4878dd9870bec482379620f06941b996c0182bf75919ada6693c7f7",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Glennie/Hilbert.lean",
+      "sha256": "03aac171dbe287f0f5ad06e949237b83d4ac13463a0d6d36df3981cb0c2218d6",
+      "bytes": 3069
+    },
+    {
+      "path": "Glennie/Native.lean",
+      "sha256": "fe4ccae1467e8b51511aa8361bc8f8d68965f8a409c56a6ca2a0f988c39f6591",
+      "bytes": 16774
+    },
+    {
+      "path": "Glennie/Native/AlgebraLaws.lean",
+      "sha256": "5073790a660cf4bed5de5db24b215b2ecb3e8fc7477016aa0a4599328d2b9b67",
+      "bytes": 7290
+    },
+    {
+      "path": "Glennie/Native/CubicIdentity.lean",
+      "sha256": "f9567c1e8f64a22376ea20a42fb513ad0b45936a1a0049586f205223ae729c35",
+      "bytes": 2582
+    },
+    {
+      "path": "Glennie/Sector.lean",
+      "sha256": "90796ffba7e201f636577767fd82e4fd35daf37eb6077c30e9dccc9c05bfb9ca",
+      "bytes": 4265
+    },
+    {
+      "path": "Glennie/SectorBudgets.lean",
+      "sha256": "0ad1204e6bfed4f0928aaa0958b411aad0dba1a3864364216736cc647f5a6d4a",
+      "bytes": 3781
+    },
+    {
+      "path": "Glennie/Theorems/MatrixDetEstimate.lean",
+      "sha256": "21768b5c5c05f4f08a18763377c6b3b9307aa9047d1e7e23a5b150fcb5f697b8",
+      "bytes": 4809
+    },
+    {
+      "path": "Glennie/Theorems/ScalarEstimates.lean",
+      "sha256": "d8487b93d28d9c4de1c9c8646afeee9f9944660bf681ccf4e28200a37255b060",
+      "bytes": 8785
+    },
+    {
+      "path": "Glennie/Native/CubicJordan.lean",
+      "sha256": "8baca640d579e9ae9257d23abeb53d7669150df53bbcc6dd2685af9fd6bdfe82",
+      "bytes": 3840
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e2f5e765abc34baf7db99ce17ed1e1051cac63364ca1753985a34be08c167309",
+      "bytes": 1094,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Glennie/SectorBudgets.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/macgregor-sudo/compact-albert-recognition",
+    "source_commit": "40d3b344180d9ddb78aaa2876873377c1e631515"
+  }
+}

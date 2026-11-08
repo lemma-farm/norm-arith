@@ -1,0 +1,1658 @@
+{
+  "id": "f16d7dda1d4bc6e4eac6",
+  "source": {
+    "repository": "CoolRmal/falconer-theta-gauge",
+    "commit": "98d3222b42ba5fcaeb56068cf2d542c3d4851d80",
+    "project": "CoolRmal--falconer-theta-gauge--98d3222b42ba",
+    "path": "FalconerThetaGauge/SpaceSplittingCircleProductRemainder.lean",
+    "file_id": "0adb75c7d0bfa8379a58",
+    "source_sha256": "0adb75c7d0bfa8379a58aea112fe6995ab0affbae936f879b4b52bdaa280e912",
+    "start": 110,
+    "end": 127,
+    "original_start": 59,
+    "original_end": 127,
+    "declaration": "norm_averaged_circle_product_sub_stationary_product_le",
+    "source_url": "https://github.com/CoolRmal/falconer-theta-gauge/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/FalconerThetaGauge/SpaceSplittingCircleProductRemainder.lean#L110-L127",
+    "archive_url": "https://github.com/PalomarArchive/CoolRmal--falconer-theta-gauge--be7ec6402313/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/FalconerThetaGauge/SpaceSplittingCircleProductRemainder.lean#L110-L127"
+  },
+  "native_target_name": "FalconerThetaGauge.norm_averaged_circle_product_sub_stationary_product_le",
+  "source_declaration_label": "norm_averaged_circle_product_sub_stationary_product_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "9750fba7d3c95ff5c0e627c354c9d25362c62339b0de1c16b3344f80932b279b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f149c2f1dd03e6636f13d2eba504dc4199573e8fb395b0789226137c6fb216f0",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FalconerThetaGauge/CircularStationaryAway.lean",
+      "sha256": "409860a7e5c8f706eb91af9f77258d722012b0c940c4ce0ee614a41b26800558",
+      "bytes": 5370
+    },
+    {
+      "path": "FalconerThetaGauge/CircularStationaryCutoff.lean",
+      "sha256": "2c532bae7c3a7711bca0ff06c7db86d50b0914c762ae51a07c05ee459f92e72f",
+      "bytes": 4053
+    },
+    {
+      "path": "FalconerThetaGauge/CircularStationaryPartition.lean",
+      "sha256": "54f3856ba59a76c43ee3a0c3357c8ff7630422f9dd7bd45decd1487379a4ef16",
+      "bytes": 7244
+    },
+    {
+      "path": "FalconerThetaGauge/CircularStationaryPartitionDerivatives.lean",
+      "sha256": "4a6e58e1bc105cdc9109d39fa7810fa445df0cdbc3f633fc8d8c664e8669a2df",
+      "bytes": 4907
+    },
+    {
+      "path": "FalconerThetaGauge/CircularStationaryPartitionIntegrals.lean",
+      "sha256": "75f9b365eeb155542ee5ba57e3e260ebb4a6c8a6c8e053a5af4e47641e9fdf0d",
+      "bytes": 6920
+    },
+    {
+      "path": "FalconerThetaGauge/CircularStationaryPeriodization.lean",
+      "sha256": "08aa358c2da8ea82719cb125ad1008ae44b46a76d2763f7b1262c1a7c0afcd6f",
+      "bytes": 4557
+    },
+    {
+      "path": "FalconerThetaGauge/ComplexMorseJacobian.lean",
+      "sha256": "32907ae17c80a045268673a62f3174896ad1c86a630c3f32c15640dbc195db0b",
+      "bytes": 6939
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverage.lean",
+      "sha256": "1ace8640eee8ad8d2ebb672c5b3e78de3dc4e2410c053b78570d6182f60abcd5",
+      "bytes": 5213
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageAngles.lean",
+      "sha256": "28659b3e32504c1de2bcf9f69af0d4d52196c17c89582a0a8e9a7e01e9ceec88",
+      "bytes": 6323
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageBands.lean",
+      "sha256": "f923783fe3d324c6d753af52c06de1bebd1f9b3f843ee243275a3a867f0f76dc",
+      "bytes": 6164
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageGrid.lean",
+      "sha256": "135ea20ac9e1df4409d9928916af9162706638d52c473be807f1839b4d09d518",
+      "bytes": 3716
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageGridCount.lean",
+      "sha256": "a397933c9a6298d01477da059de1e27122344dc6dc065c1d888582e552f88268",
+      "bytes": 3465
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageGridMass.lean",
+      "sha256": "1555441a0f6319ddce198513d64dd8e769d9f94ba4b40cb15df72f74c21896bf",
+      "bytes": 4319
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageGridTotal.lean",
+      "sha256": "65af07aa07517a4dee16e78dfb319257ef46c445600bf89438525bb520b3af51",
+      "bytes": 2266
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAveragePairMass.lean",
+      "sha256": "2b61c847d34cf6e9ab78c3fb07589804c1f14b1804f42db8c73b624b7de5c711",
+      "bytes": 3698
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageProjection.lean",
+      "sha256": "dbb92c4e6b5559ff917c6beb1229d1f2cecbaead38692d253454f5a9b47fd893",
+      "bytes": 6818
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageProjectionBound.lean",
+      "sha256": "05fce5e108be7dcd131130336c6b74221efc232fba1c6e0b568f45e3718d5c66",
+      "bytes": 7887
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageShells.lean",
+      "sha256": "8d2ba3574ed1be174ae9418f7aec3310f3ad2b703ff0686e7583e694d9a8d9fd",
+      "bytes": 6408
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageTube.lean",
+      "sha256": "8f2d861589e447e8ef3c558418f3d0d8942ef600de6485d51f21c589395b3d3a",
+      "bytes": 5173
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageTubeBound.lean",
+      "sha256": "f732b90671358951d2c796ff0c76b521594feca75120381d3180d1da17b8bdb9",
+      "bytes": 10906
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsAverageTubeShells.lean",
+      "sha256": "d3a72c54823a22d4e7313b1ded0719fc2d644f21b8372708a835989393350895",
+      "bytes": 4244
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsFilter.lean",
+      "sha256": "22a4f793de1e38cf2f5fa2e06c1fb34614bd469d5d807e104c0dc16aa64f925e",
+      "bytes": 9952
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsMarkov.lean",
+      "sha256": "3c68520a64c1be017d18c1c25efe0624ee628dc787547ddaed764b4f531c6ff7",
+      "bytes": 3212
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsMaskSupport.lean",
+      "sha256": "441d746c1205888d85ab91adab0bfa0d4e632e50af0cdef8991ded4de9018be2",
+      "bytes": 6131
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPieces.lean",
+      "sha256": "f1d5558a0be77444fff6c3fe6b04eceb91c580c9adb0f837d2df1100db964a40",
+      "bytes": 4884
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPiecesCoverage.lean",
+      "sha256": "7fd22ffde160b11c1e64ef116cfb49c5bd2c9df4938818d884711e554ab15cb4",
+      "bytes": 4785
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPiecesDerivatives.lean",
+      "sha256": "bab491c9c196534852ebe064eb988736cca16f39c490d49dc657aaa9fd21d7a2",
+      "bytes": 4287
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPiecesPadding.lean",
+      "sha256": "8100613875de99430bc43cd187ac68935769c3149455d5db70997a62e5753fe3",
+      "bytes": 3645
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPiecesPartition.lean",
+      "sha256": "8ad46d4ead6f6611fecaa311f46199d14fb3dbe8b2a34a102795ccd8136399aa",
+      "bytes": 7111
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsPiecesSmooth.lean",
+      "sha256": "42fe73b88330db48ec98c7379d0f7a9a976939b04c4eb0f730d2f06eba0a4ebf",
+      "bytes": 4929
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsProjection.lean",
+      "sha256": "9b03a035c1c922684e71a667a1dc471c3e8d258865a32fb3d0c87107531436a9",
+      "bytes": 6380
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsRecords.lean",
+      "sha256": "4125b0e7ecb0d7887eec56ccf84e3dbd4900f24a4c07958fdb9232dd8cd1a070",
+      "bytes": 8465
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsTube.lean",
+      "sha256": "1ce7d1119e3a23a2a9c6b294d8b76d67bce6e5f78c38f2e7f4cd6d9710215aca",
+      "bytes": 8098
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsWidening.lean",
+      "sha256": "3517143cd82799c2182479855594c23c98af418848291f4515b8f9e60644d758",
+      "bytes": 10065
+    },
+    {
+      "path": "FalconerThetaGauge/DirectionalTestsWideningGeometry.lean",
+      "sha256": "83eedea8c40df065b50a535af6ad09b69ea3a7d9fe949990fcd929292fb9c9b9",
+      "bytes": 5886
+    },
+    {
+      "path": "FalconerThetaGauge/DistanceMeasure.lean",
+      "sha256": "509ee787352949a84866de0eba621b369f29f75c0a8d7605f0871dcd11482ffe",
+      "bytes": 2192
+    },
+    {
+      "path": "FalconerThetaGauge/EqualAngularCellGeometry.lean",
+      "sha256": "c774fc9f52626338e22f8f1d2157566ea8f9851881a23dd90ee36ad243a82b2a",
+      "bytes": 3079
+    },
+    {
+      "path": "FalconerThetaGauge/EqualAngularCells.lean",
+      "sha256": "f262e52d21a3fb5da9b0fb68f9c9425de0c016554336726650c250ba4641a9a6",
+      "bytes": 3371
+    },
+    {
+      "path": "FalconerThetaGauge/EqualAngularPartition.lean",
+      "sha256": "e33559afc940eb80824d92cf13b688a2ba72d58539ab1951a08618a148616761",
+      "bytes": 6298
+    },
+    {
+      "path": "FalconerThetaGauge/EqualArcCutoff.lean",
+      "sha256": "f452a7ee23e8e466717417705676acf9000277f60768d0525f4e4db6b8278cab",
+      "bytes": 6043
+    },
+    {
+      "path": "FalconerThetaGauge/EqualArcCutoffRegularity.lean",
+      "sha256": "199fe4431d6bcfefdb7091fd1934c6d38beb0d72bed7634b05a1f30d90a70cc7",
+      "bytes": 2740
+    },
+    {
+      "path": "FalconerThetaGauge/EqualArcSupportMeasure.lean",
+      "sha256": "a8fef04f5c694385c4e5967645c6c28d09bb9ea2c15859f207e74c25540742b8",
+      "bytes": 4215
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBump.lean",
+      "sha256": "58e2f80f255acfec43d2ad42df0e4fa7e14873647181527a2cef847454c9f089",
+      "bytes": 4192
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpBox.lean",
+      "sha256": "57de716331e49fe2ed332746538b0df993d64504c8cce5cf0b442da0d81611d1",
+      "bytes": 5165
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpCircle.lean",
+      "sha256": "58e6b3450b02e47724e855c356e7d005696f51a4cb858d2d413bf06c5b8c7887",
+      "bytes": 7606
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpCutoff.lean",
+      "sha256": "2bd130226c5ecc6f7e5cbe941ed9a2144f57510c111506ecada898d908ebdd3f",
+      "bytes": 7685
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpDerivativeBudget.lean",
+      "sha256": "0db27d2dbdab041d5a9149c324a00491e54a88e3fcb8e4a03d2513ad0e76691c",
+      "bytes": 2258
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpPartition.lean",
+      "sha256": "007c97695db29451d53a92e6f183c561b7c83094244fa47fc270c310ed524095",
+      "bytes": 5408
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpPeriodic.lean",
+      "sha256": "9f26cfd4d08f24d2e7c3b5babfb3d3788492692f36de2bccb581c334d613efbc",
+      "bytes": 3314
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpProbability.lean",
+      "sha256": "fe47a98336f8b0cce5ed2b5d4d6193a213aeaa1cdd20415d02e4bf09db128768",
+      "bytes": 4343
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpScale.lean",
+      "sha256": "221b2e0f7330e2aa287fdea0462117a28bce26aeafafd03e72e52643305bb198",
+      "bytes": 3644
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpStack.lean",
+      "sha256": "0f2bcc5323f891057612f9a14f20b326403dc87254cafcd80acff7e5447d90b1",
+      "bytes": 7387
+    },
+    {
+      "path": "FalconerThetaGauge/ExplicitBumpWidths.lean",
+      "sha256": "4b0c93c6ce27845ae392bb48e1230fc12be28747d73a43835e4d4ab4fb5e2738",
+      "bytes": 2241
+    },
+    {
+      "path": "FalconerThetaGauge/FilterSummability.lean",
+      "sha256": "7b206d99238d5bfba869bdf4d7e3ae5c4618803b21ffe435562dfb7b11b034cd",
+      "bytes": 3954
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasure.lean",
+      "sha256": "3aebb3c2a17f0cf16fd46f0c09029841ff251dda9e874d687cf983321abab06a",
+      "bytes": 6747
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureCircle.lean",
+      "sha256": "5016c4c321da5b5803fde2c68e3b7a2874a56cf29bd9d28ae108de245ac737e1",
+      "bytes": 957
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureDirections.lean",
+      "sha256": "b6c526e5e611da44a208d75c0de812085be5157ef05043ad0df7aa0ae342fc47",
+      "bytes": 5511
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureFiniteTests.lean",
+      "sha256": "9e328eecc881ea4cc097d366de83a6d2b181b0005ffdd22a51c293796420468d",
+      "bytes": 6041
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureGeometry.lean",
+      "sha256": "04cf98b1685099c6d16c45e20ec6bee5717efa5810471c89857bcb64654b4261",
+      "bytes": 6831
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureLoss.lean",
+      "sha256": "cf40a224f1d53b27652c994d7ef374c5fccd19195c50a7a94018ca006a03bc64",
+      "bytes": 6785
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureParameters.lean",
+      "sha256": "82901549384967e1adb8dbad26c9029f827a52e37906ec2fbfe14d4bfe34a433",
+      "bytes": 5376
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureRegularCarriers.lean",
+      "sha256": "e4e2b7cf29ff95c761999c7655367372ab036eb3606d4bae4787bd1a3caedc2a",
+      "bytes": 4750
+    },
+    {
+      "path": "FalconerThetaGauge/FilteredDistanceMeasureTests.lean",
+      "sha256": "e6d0119919d8829ef2d4d86fc818561ebb8b526f4b09bbec019f0f9d4b8419a8",
+      "bytes": 6133
+    },
+    {
+      "path": "FalconerThetaGauge/FourierBilinearCauchySchwarz.lean",
+      "sha256": "12eb205524828f863048e6bd2ec77a1f10e200edf2c5b0d63a33270a7fdfaa7e",
+      "bytes": 6812
+    },
+    {
+      "path": "FalconerThetaGauge/FourierSeparationKernel.lean",
+      "sha256": "1b7eb700b8e61cfa312d7f7caa8013ec7bafc2029e8ed4de1962e790509fd5ef",
+      "bytes": 5207
+    },
+    {
+      "path": "FalconerThetaGauge/Gauge.lean",
+      "sha256": "641d0a6938e118c09567f068af795485ef1c56e1909cd1db748dafbf9c7a1b5b",
+      "bytes": 2577
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeFrostman.lean",
+      "sha256": "f9feaf5add39a09648aa3b6333512bd552bf7d258fcc7b8ee80e9587b373ab4b",
+      "bytes": 13334
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeFrostmanDyadic.lean",
+      "sha256": "a62877ec06dc443177471d5e3017dd87aaa8d12c2eaaf2283dab7b007f568fde",
+      "bytes": 10251
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeFrostmanLimit.lean",
+      "sha256": "bdc6ac24eec819bc477220ab21690be96628500bdf9d2cb8b7478eb86a72b6f6",
+      "bytes": 16034
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeFrostmanMeasure.lean",
+      "sha256": "21c6bd2ddf17b8ba459b1db017063fd2e404a6b255b63d5b48b60b11a2e6f0eb",
+      "bytes": 19335
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeFrostmanWeights.lean",
+      "sha256": "4327e7244e5ceb06e68c786b10bc8233ff3e17cd691ce606552af3fa1075a8c3",
+      "bytes": 22469
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeLogEnergy.lean",
+      "sha256": "cb0edb24b4516264a504db47d3e550bfc64f11a159868812a6a7597bf70d54e6",
+      "bytes": 16798
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeSeparatedMeasures.lean",
+      "sha256": "aef58164a1ec06618accd6f0e9e7d3200737d0a4eb4c9e6dab51f4525e4e6c1b",
+      "bytes": 10500
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeSeparatedMeasuresGeometry.lean",
+      "sha256": "5fcac9343a6eda59a1be2f9ebdc630ce6c227e6e3a3f56434c62d45c0d059af7",
+      "bytes": 11209
+    },
+    {
+      "path": "FalconerThetaGauge/GaugeSeparatedMeasuresSimilarity.lean",
+      "sha256": "43c3adeabb6c71a0addc8a00d5542e4c5fc9078be45cdbe1f9a91f28156a0313",
+      "bytes": 6622
+    },
+    {
+      "path": "FalconerThetaGauge/LinearPhase.lean",
+      "sha256": "a7c67efb3b1595672660c27feed3130c5187c2bf466db37aeb39ab298f997d10",
+      "bytes": 3449
+    },
+    {
+      "path": "FalconerThetaGauge/LocalizedStationaryPhase.lean",
+      "sha256": "78c6d2d79b6530f5f0b7a0a5bd33864dd58466e606663fe01bca61f87185076d",
+      "bytes": 1712
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergy.lean",
+      "sha256": "2dad6def90987a3101e0a13fec4e21b14ff42aec6066db98264b82ac3fd9c83f",
+      "bytes": 9789
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyBridge.lean",
+      "sha256": "4c47154ec95aa6ad853f1888ce4ff3ce83aea3b7a04dc261ea9ba69a925daa83",
+      "bytes": 3892
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyCells.lean",
+      "sha256": "181e5dc7d1a2234a0da00b85fd3903688eb2a9e41b45943e10160c737290351c",
+      "bytes": 5738
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyDyadic.lean",
+      "sha256": "ace588ae4b2e21a76fa013d2adda69207d75e7fce0c9ecd247e66388fe472bac",
+      "bytes": 6149
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyFourier.lean",
+      "sha256": "b0607c5ec4e83d445f962bc96a6bc9cd9ac3d1389791c296f2fdb737b29ef41f",
+      "bytes": 5321
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyLevelMeasures.lean",
+      "sha256": "10f814a9e8e0fcdd8cfc03b1909e01b27814db38ef919062ce63c764fd73ab84",
+      "bytes": 5021
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyLevelSymbols.lean",
+      "sha256": "f579eeb1d5262658740f872ea97e4b9406c1274d8340b4e5dbeeb6c8d10c3c73",
+      "bytes": 7587
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyLowHigh.lean",
+      "sha256": "e462d5b4c88eee52333d9b80785e9449dbdf8bbbc7868fb6452616ed1642683f",
+      "bytes": 3510
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyOrderedLists.lean",
+      "sha256": "b68777e03004704c99133ff93ad0a94fe85e6649fbb81c8d1154f967ea96b9cf",
+      "bytes": 1862
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyReal.lean",
+      "sha256": "1050e42e054f9a61a48300ea3e628d72ca7585fdbdfff349846deb23a600279a",
+      "bytes": 3483
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedDistanceEnergyTests.lean",
+      "sha256": "f80d2ce31b0b1bbbb149faba412c7afd831d52004cdd20fcad26c5b37fdad902",
+      "bytes": 7223
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierArcEnergy.lean",
+      "sha256": "b9732f040b61d5edfe59411c657fd8679c409c8dadda22fef282e7f93ad14cec",
+      "bytes": 5581
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierArcPair.lean",
+      "sha256": "a5e18abfea55348d5a43f80862998a6577f11665b64d4aa0ce7a345125e27adb",
+      "bytes": 5525
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierCells.lean",
+      "sha256": "95449dfb5602d5fbe3ae11ca3f68daaf8340a37cb3d1e685b5ddf74e5bb51164",
+      "bytes": 4061
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergy.lean",
+      "sha256": "b3f1d8ab7732a3c2c32125f6dbb1439bd75f1634f54f8b3f2f6b0e38db6f7802",
+      "bytes": 6524
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergyAverage.lean",
+      "sha256": "e126fa4e74bc09727264359d78a9c34885e539abf36469d2957bd1cd62379518",
+      "bytes": 5283
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergyCells.lean",
+      "sha256": "b4df25179c9b6da2514be0f2e7ef120ab73910cd0abaa940fa7021d869ca0655",
+      "bytes": 2214
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergyCutoff.lean",
+      "sha256": "35ffcfa46b5350c2c5c3860d50cba542c26f1452edbf02d620282ea2a2d17d70",
+      "bytes": 7856
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergyFactors.lean",
+      "sha256": "e36590579de340b374b02297e68812f5f0c3ab2b70c1ce08c9ab653eeec86f0d",
+      "bytes": 4211
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierEnergyReached.lean",
+      "sha256": "5351fd6136c5601bd79fa1076ff6f83573cde501493440f0e1005ed09c8948b7",
+      "bytes": 6183
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierPairEnergy.lean",
+      "sha256": "cf7b2b3f0984e49e89b36b3551554620b300b77997672be50df00b78cd5210fd",
+      "bytes": 4286
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedFourierRadialMeasure.lean",
+      "sha256": "0d3651fcf17987fb7f62d579d88603fc5798d01b049d09d30dce11704c2721e7",
+      "bytes": 4510
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedMattilaPointwiseInversion.lean",
+      "sha256": "e9ce7c7888b5ba5b235aa08cc898e0a904c19ef3b58915abbad3a4a6e7228ce1",
+      "bytes": 3565
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedMattilaSymbolRegularity.lean",
+      "sha256": "525c2ae280f6aedb444ff0d016895836a17f416d06a84ab95acb08e3931928e5",
+      "bytes": 4264
+    },
+    {
+      "path": "FalconerThetaGauge/MaskedMattilaSymbolScale.lean",
+      "sha256": "73c6faa24830bc6c1002fad1868ad418e1e174aae33fd7d05922141408134d10",
+      "bytes": 2774
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhaseBounds.lean",
+      "sha256": "12cc0bb005cfd5928f292a8f586b463b7e6522f89b368ce69f7b92ffbbbd6064",
+      "bytes": 8947
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhasePeriodic.lean",
+      "sha256": "41bfcb65e586096f6fa58cc2d2523f4abb83afd40a07824603c4086b2d7ebf9b",
+      "bytes": 6807
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhasePeriodicSupport.lean",
+      "sha256": "c732eceaa70a56ec6917570d30ccb072041b9d379fc17627f20b3e2ba6291778",
+      "bytes": 6333
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhasePeriodicUniform.lean",
+      "sha256": "ae93a797902a79b95efcde1aaaa33de871c61466e94057c6f5b8213a03fca731",
+      "bytes": 3455
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhaseUniform.lean",
+      "sha256": "074bef92005006d0d9aabdefa54c0909c17dca3ed4bbd471647a9a6ec7207384",
+      "bytes": 4407
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryReciprocal.lean",
+      "sha256": "f41e96a833764588e006ef040de38c6d0e72cc8d1e70e2bc8e4bed33b88798e4",
+      "bytes": 5389
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczDuality.lean",
+      "sha256": "acf314f54ab22f0d60dd62ec494df2bb45a5778e711d5e111d1859adee140fae",
+      "bytes": 3947
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczDualityLayers.lean",
+      "sha256": "e162cbe1f6570188db1e644677cf1f26105f5c37121be9e9f22e23f2b694e6a8",
+      "bytes": 11101
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourier.lean",
+      "sha256": "fdd1e7f3c7ae56d7d7d51b46e0df65ba831bc1350e28ff13e89ccf8248c2ef6c",
+      "bytes": 4957
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourierGaussian.lean",
+      "sha256": "b4d3df6c6425236101610b1d77c117abdbab6751320e513fe97106e6c0f45859",
+      "bytes": 4916
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourierKernel.lean",
+      "sha256": "29a377b57cdd0618ce5055418b84656932039761df636ef2a3862afd4a734fb4",
+      "bytes": 3490
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourierLow.lean",
+      "sha256": "c22e299519ed6043a0433aef56792fab2fe48643077cbfa503b8d2d40d344525",
+      "bytes": 3448
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourierSeries.lean",
+      "sha256": "442e2241321b50b2ec3a38ed91035fbe7ef641064eba154af87ed6dbffd24588",
+      "bytes": 6983
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyFourierWeight.lean",
+      "sha256": "daaf990d427446f4b2b26ad359e2220c4438896b30ae50d67c4a956dbdb4d40b",
+      "bytes": 9777
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczSmallSet.lean",
+      "sha256": "c83fdcd24e3317fb95a64d7dad163d6ae9874b9ec293b5f5e96c674842463009",
+      "bytes": 7761
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjection.lean",
+      "sha256": "91d22942c6ee7b7a2aa6f9dd1f52d6f96a0a2ce373503c1d3b92abfd66957adf",
+      "bytes": 5968
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionAngular.lean",
+      "sha256": "e43a84a7971508156aa5a6e9764298ac56fc20505da560c095e9046ab4c6e9d9",
+      "bytes": 7141
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionDensity.lean",
+      "sha256": "4a1deb99855dcb7eae815c4e43324ff87d4d928ca9d9cd07247339ef924225b3",
+      "bytes": 10175
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionFourier.lean",
+      "sha256": "fc48e82d839d8edc39eaf4f5e4ca7114150007de0f1059fcff58333446e4f86b",
+      "bytes": 7804
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionOrlicz.lean",
+      "sha256": "03190a27b8a34847b72fc0cdda57a3c04ea049d584cbbdbb99ec19df3a3ddecb",
+      "bytes": 12338
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionRadialEstimate.lean",
+      "sha256": "616249f5bf6c8f473240c3054fe9a07bd0be21f7b054e380315184e51bd20240",
+      "bytes": 6360
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionSmooth.lean",
+      "sha256": "bdb9f079e218c3634ea620df1cbd3d5b5103c203126925e7bac32600add184c0",
+      "bytes": 2029
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionSmoothing.lean",
+      "sha256": "3c408d03fce1fdb0ef6b4bbf11c79c7cff3fc9b91e78ebd2a8792c8798dbc330",
+      "bytes": 4577
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionTail.lean",
+      "sha256": "291fb8f178ae477ef8ae63b956f194e0e01efbcbec868982bd4fb3bbc17fe1a8",
+      "bytes": 10307
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularBudget.lean",
+      "sha256": "4056172c9c5d074c828e32ed52dcf3c2c9bf1bd7be609f02612b606b32f696a0",
+      "bytes": 4648
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularDecay.lean",
+      "sha256": "5a828706c04a38023b7bee1eabfc8df8eb837ddfcdfd3bde0cc70d9dcfbbd0c9",
+      "bytes": 3722
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularFrequency.lean",
+      "sha256": "6ec40e767dc4af052036c8305d0dbd709eb1c5f8237cdd9151248b8da8d1c2c1",
+      "bytes": 2732
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularNonstationary.lean",
+      "sha256": "8f7267e637ca3eb8c3f6cf8a28c7da773b3dff34265d5c64d3a1a6b6415dc026",
+      "bytes": 4552
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularPhase.lean",
+      "sha256": "6cecce4d56b761a38deabe2dbcbddd02e666ad1365bc2e2a641fa955bb624ac2",
+      "bytes": 6366
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityAngularSource.lean",
+      "sha256": "9b9daa94fb352dd77d295e1d8a3557b5f47c1aeece3d609fe368dda8ed852311",
+      "bytes": 3881
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityCircleBounds.lean",
+      "sha256": "371a2f808612447e44faad1bd126a5d838fbc5c18641110e2467da61b393fea1",
+      "bytes": 3880
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityCircleKernel.lean",
+      "sha256": "92967917901cd852057349eb0546bfd6bbe4820e0ea4bd05096121a4445dbed4",
+      "bytes": 4500
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityGeometry.lean",
+      "sha256": "14fa7a77285351e49d0ec63a796b28292a12818f0a17dacba15866943adb0587",
+      "bytes": 4839
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityGridCount.lean",
+      "sha256": "59dbe3e8d5d4f34d5c2a2c23cbcc999fdbe8fa21cff7def422e2498024be0699",
+      "bytes": 5806
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelAngularBound.lean",
+      "sha256": "605fa6df75bc86232c6fd94b823a3862ceb993c7602ad492b9adb2d33aecc8c3",
+      "bytes": 4328
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelAngularSource.lean",
+      "sha256": "c3ed66c7089aff21a1596186d51efdd10e29cb47554e3350b1e813c8288fb724",
+      "bytes": 4387
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelCrossBound.lean",
+      "sha256": "616b8d21d16f1b0839db800d1ca7675105018bf134a185e59ed11616fbc8519b",
+      "bytes": 8946
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelCrossFubini.lean",
+      "sha256": "b72eca05839e6e35e490f38cc3d0d3a93852a3fe279bbbeabee818fe8df72a70",
+      "bytes": 4431
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelCrossIdentity.lean",
+      "sha256": "a3df107a8cc3ff99ff2c1b6cfdd55bb769542e83477cbf92d612d14069823b0c",
+      "bytes": 5067
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelFubini.lean",
+      "sha256": "0fe95435833752340d67e8a23e70dfd7496d05ea41c6da3c297601705747f945",
+      "bytes": 5604
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelRadialBound.lean",
+      "sha256": "73f4e667203a0c0dcaaf1f068c42a8d7ddd3ae9512266f0a18920cd3b94bacbe",
+      "bytes": 5595
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelRadialPhase.lean",
+      "sha256": "f1b48b0871654396d403cc20c16ec3122162d3729c4d575275f206f7ba679f3a",
+      "bytes": 2277
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelRadialSource.lean",
+      "sha256": "160f6ecbeebe2ec6da96ba016845953d38711823a6fb6e06acff09daa556b1d1",
+      "bytes": 3201
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelSpatial.lean",
+      "sha256": "46d419c601281d5e5e7293c26ebde643766e9afe226d1ea1a65412ad87ef26bc",
+      "bytes": 4014
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityKernelUnlinked.lean",
+      "sha256": "0c4a7ba7aeb8c3a97d00ed804f44d96b04e673df6df7737924e514f25fd93ccc",
+      "bytes": 3212
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityLinks.lean",
+      "sha256": "c59e2721fda2420fd2fbd664eba7315f1e7c7dd3f6f998d65cf6f48d7130a399",
+      "bytes": 6702
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityPhaseSeparation.lean",
+      "sha256": "5f7afd66a86572515d73c93db0b71a8cf8535176e5bb79ea223854e6247134aa",
+      "bytes": 4915
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityRadialAmplitude.lean",
+      "sha256": "8c00b7e0c85d6881bea4f4c03b3bf19b340a4458491bebf03d421c0cf0b3d295",
+      "bytes": 3300
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityRadialBudget.lean",
+      "sha256": "6c2a624a0833ceb99ba71e858d948a8c7b293fa4d10ff0fe0854f9da1e74ad1e",
+      "bytes": 5106
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityRadialDecay.lean",
+      "sha256": "c5c184d95ff3196df59594e2618ffd045ca4bb0ec58d7b00d8ae479ff5b7ccee",
+      "bytes": 2401
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityRadialDerivatives.lean",
+      "sha256": "dbaf335558c0af41bcbebe0e809d4c6e26be022d14c2a68638a4716eea11ab73",
+      "bytes": 3669
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityRadialRegularity.lean",
+      "sha256": "57eeda17c0d68e8cb8873ecac9c003c137ddf71acb7d7d61c8b0f69d04e4c617",
+      "bytes": 2518
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityTubeCount.lean",
+      "sha256": "9b1a8136d72b2bc1d8da0b9bbf80367eb6c67758ec1c1dfc87761de87f4ac61f",
+      "bytes": 4603
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalityTubeGeometry.lean",
+      "sha256": "f151de9df73978f694730d21b9d9ed0fdda20e1bd364c41247c4124b0d1cb1ed",
+      "bytes": 5345
+    },
+    {
+      "path": "FalconerThetaGauge/PolynomialDifferentialActionFinite.lean",
+      "sha256": "c015e77920aca84c0fbd5ed274c53da859c4040c2b4fa95ebf4d48128c5727b8",
+      "bytes": 2145
+    },
+    {
+      "path": "FalconerThetaGauge/PolynomialWeightedNorm.lean",
+      "sha256": "7347ee02bcf8db2f411fec5cb08724d83c8a14b6d631fa4672ef1a87b85133cd",
+      "bytes": 3837
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionContinuity.lean",
+      "sha256": "68acb145ee4480d3062be8c44f9359c1d390caff88e9f1946b2d3dd5543564c7",
+      "bytes": 1669
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionDefinitions.lean",
+      "sha256": "77829d4ae113709fcd20d17f284ffaa46c72bce2d1726ab85d0ff82087b8d9bd",
+      "bytes": 6919
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionEndpoint.lean",
+      "sha256": "454e50f8403da1305c1c15e8b55590712f0e1244c332ee19bf0bd394429ff4dc",
+      "bytes": 3444
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimit.lean",
+      "sha256": "b4a9a5a51075ab02ca7e858344e000b8ab2a76e0017bafbf7e82c384bd03606f",
+      "bytes": 4242
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitAssembly.lean",
+      "sha256": "69c63a4c96eeaf49de66b7681c03eaf2821db6331eb5567fc2c8dee29cac0063",
+      "bytes": 2895
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitConvergence.lean",
+      "sha256": "2dab8f7f73e985fe6406c6b7e7d6fc63ef655c8d5121eac5ef9fa376f541d36c",
+      "bytes": 5022
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitEndpoint.lean",
+      "sha256": "0246b7e2135db0bd1a3c63aee20043b5a7bb650eba9509f59bea6380ffc2f662",
+      "bytes": 3886
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitJoint.lean",
+      "sha256": "72db0e12be6054a52c668d443b2d7a97fe160532549cb33783645d1c03992d1e",
+      "bytes": 4163
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitOrlicz.lean",
+      "sha256": "cc8942d35549ce52853ee915ff9a50c6025c84e0743e2c4b404612c7571cc8da",
+      "bytes": 9388
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitPrepared.lean",
+      "sha256": "126b817a8f2f319b69621ae27b78daa7050af8913477b810f2fad54351866284",
+      "bytes": 3787
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitSmoothing.lean",
+      "sha256": "d6f17e213e48e7c38f6526148a92629e6d640b97e7d91ac496a6a948707c34a5",
+      "bytes": 4097
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLimitTails.lean",
+      "sha256": "54d02af4a00e6f0d418d450fd865f06e1f830d2bb1548bf0a1ee09bacdec7cb5",
+      "bytes": 4793
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionLine.lean",
+      "sha256": "501aebaf3d342a043c774cd00b15550f4009bd8c2bdfc176ff0d040212fcc6e8",
+      "bytes": 9507
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionOrlicz.lean",
+      "sha256": "527596e572ba94d2c556a3031899278635deea58324813257375ea9b48a512eb",
+      "bytes": 6279
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionPolar.lean",
+      "sha256": "78059436b86200728f2752ec2a0094c428a7041d89f2f68d72dfacec2d8f2663",
+      "bytes": 1421
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionPreparation.lean",
+      "sha256": "3a3ba9c394b3806677f344a3c6c390a60bc57aa8c89dcf0abed1537a9ddf2adc",
+      "bytes": 4091
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionRay.lean",
+      "sha256": "d32978c088d4a500439ff752d6d30eee9f878322ad0eb322d2b5e71aa83e2784",
+      "bytes": 8238
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionSpread.lean",
+      "sha256": "9eddc2f9302aa1366a0c5c284c57fc1c7d0a3c056c1e0af34d922254a1de8344",
+      "bytes": 6125
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionSpreadGoodPins.lean",
+      "sha256": "710e06b4f0d53bf6702a5e30c822470e750094fa269061eb27c0ccb7c80c1434",
+      "bytes": 4180
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionSpreadRN.lean",
+      "sha256": "8b71e2f808961ab4bfbe397654a628e19f7593da8f884717bb9e05967705d69d",
+      "bytes": 4909
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionSpreadRestriction.lean",
+      "sha256": "b335eac3a834da4e773b8672e637b3ac985240225bcd8dc20a04ca8651a2f666",
+      "bytes": 4704
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionUniformBound.lean",
+      "sha256": "5c4c2913ae6e23caacce7100cb22b087887258b7080f96e572c1bc5ba2622064",
+      "bytes": 3637
+    },
+    {
+      "path": "FalconerThetaGauge/RadialProjectionUniformIntegrability.lean",
+      "sha256": "ba36adc8c834e620705fd967fbc10a56c11b12641ab8b0fe21b25d882558212f",
+      "bytes": 4822
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionCells.lean",
+      "sha256": "2edd51c5ce8c3b70f9755280d1bf6f9005f78723b78b1ca0163dcf2a0f5357bc",
+      "bytes": 13863
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionDyadicTypes.lean",
+      "sha256": "fc5f1c4621f73d64eca3953d234cc89f82a8602d523473b23e0280dd1188e07a",
+      "bytes": 7488
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionMeasures.lean",
+      "sha256": "4af689513e2e85452ef5b3c0b0be984d1332f47244f2ee47925c314279730104",
+      "bytes": 13681
+    },
+    {
+      "path": "FalconerThetaGauge/RegularFunctions.lean",
+      "sha256": "5359317c44a1b4de045cd5369be90d2c5baa6ef0b842385fb8a23aa7a4a032f3",
+      "bytes": 3405
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntry.lean",
+      "sha256": "48a85c633cea6d69d308f2a25e97f8540ed3631b873e49d069e394f5ba410e42",
+      "bytes": 5506
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryActual.lean",
+      "sha256": "6d26c125e62c7b06f7629456bec616a5c70059fa4b6283e68dcb186a7c5c6f56",
+      "bytes": 4534
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryBudget.lean",
+      "sha256": "27ff2eaac5beb06a059ff89d510f42e7331f704293624fddfdb9cd60fc712ec8",
+      "bytes": 5162
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainBudget.lean",
+      "sha256": "dbebe72601c69bea0fc1fcdd8c95f340107421e492532b6d8a8a2b32cd7b8688",
+      "bytes": 5740
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainCosts.lean",
+      "sha256": "1c8022318bccf13ba35c5428d444ecff24b69db4e984836b231d8cce440ad96f",
+      "bytes": 4761
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainCount.lean",
+      "sha256": "191cca8b95f3df1a8f0f812c97cb7ce7a98a494e926cb84a58d667edd9f4c219",
+      "bytes": 6838
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainNumbers.lean",
+      "sha256": "c1d935cbeed8a72b06bc09d7498a6f6298187aeb1c90bfb3b9d4cd464916bb89",
+      "bytes": 6336
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainShort.lean",
+      "sha256": "57402ae7620e16224f6740e4f8b526782837aa41b61428ed1fa37955315a3b2b",
+      "bytes": 4732
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainStates.lean",
+      "sha256": "35067b126ffa50fa3028ecae92ce0145df86df5ada24e962a99f4eb2a1cf32f6",
+      "bytes": 7363
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChainSteps.lean",
+      "sha256": "d109cd9c784bed3557f476352f336f98d9bc2c670dd5ec86cab1b596e09679cb",
+      "bytes": 5681
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryChains.lean",
+      "sha256": "d384523ef266c5d507aebf39c0c6da193c9870a4f7ceb578caaf3498ee575b74",
+      "bytes": 8439
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryIntervals.lean",
+      "sha256": "21f8812431a1b35fd06587ec6169dfd4b5a5a5ea2e5f7405a281ff8eac947deb",
+      "bytes": 3440
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryPieceLists.lean",
+      "sha256": "a7eff025d3aec6e9a13756958f929e6bcffbb3b5248371af12f4717ae303c389",
+      "bytes": 3714
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntrySchedule.lean",
+      "sha256": "cd793b2a99cf87cbf7ac2d03d3e2bde600de6f3da76dc201ec1b5fb775ae3e8a",
+      "bytes": 8120
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryScheduleBlocks.lean",
+      "sha256": "12869320a3eb446b2aa15a0bd66562081156fd0c3eba04833423e98bb610f580",
+      "bytes": 5513
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryScheduleGains.lean",
+      "sha256": "f14fcb6145fac8871d4325d89c44585e30a32917c6c39cacb3d5f1db0e53a39d",
+      "bytes": 4527
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryShellNumbers.lean",
+      "sha256": "0194d937d7a15d51e9843ec123755cdf2e086d04531c068bffce625137d17df2",
+      "bytes": 5473
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryTestLists.lean",
+      "sha256": "a6dea9101819e853dddeb9facd60c13f9dd329f2be9ee3905d5f506120c46937",
+      "bytes": 7341
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureEntryTests.lean",
+      "sha256": "dc56b8355a49a69e62db21e1a7abfcc22af73d4fdc5eab39e806824255996425",
+      "bytes": 4614
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureExcess.lean",
+      "sha256": "b6738ecf0aa9126ff8489b20e9385c84d6e91b43a2f3bdfb77af682573961dfc",
+      "bytes": 5243
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureExcessCount.lean",
+      "sha256": "3dcec9e4a3718d914a29e7579e3ca59925648e5711810893126613e634e9858f",
+      "bytes": 6712
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureExcessGauge.lean",
+      "sha256": "a24ed238d66fbf7fed4551d9adc5448d239659cca08b4de4757c34f51ae3df96",
+      "bytes": 9579
+    },
+    {
+      "path": "FalconerThetaGauge/RegularMeasureExcessMass.lean",
+      "sha256": "81c429c95829c650497de6dc5a68b948b00da298a306ef41eb9468934dbb2dee",
+      "bytes": 5050
+    },
+    {
+      "path": "FalconerThetaGauge/RegularizedReciprocal.lean",
+      "sha256": "2a2b83bcfbb28591f679a7daa591cdd9d82e9ad4d0bf5779338fa75c23b26df3",
+      "bytes": 2165
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolAssembly.lean",
+      "sha256": "2882195401e8a19d02bab930aa764ef2f22201586d3cbd33a823f96b7e4a7618",
+      "bytes": 2565
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolBudget.lean",
+      "sha256": "d72d4faf4af987a8bb434c9a64544745b3fb830d7b3df78291e4a42a738cc602",
+      "bytes": 3621
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolClass.lean",
+      "sha256": "42194d413c8026d14ee705c01793166adfd5be93f7a23d636715760d011eb354",
+      "bytes": 6421
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolDerivatives.lean",
+      "sha256": "656af1eda68965bfced2884e44295841b35d7a05c58131ebdc6e99612a09be0a",
+      "bytes": 6930
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolEnergy.lean",
+      "sha256": "4637fe4b7cd79168ba4ca21dd9c356843513fa7e29c821cefdce0b2ab12ff8f9",
+      "bytes": 5839
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolExpansion.lean",
+      "sha256": "1fd2086e2ca2106bf47045bfc3d3e34df37d49bf17a74daa30c2636e82aef365",
+      "bytes": 6273
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolFactors.lean",
+      "sha256": "d9f577a9aabd01ddc78f13556dfa336b59acac672e50b2c613d09860e1a5779d",
+      "bytes": 5758
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolOneStep.lean",
+      "sha256": "7b3b471a620b27f36478d4043b73a5ee803933acce6e99c9f3906d3feace244f",
+      "bytes": 5635
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolReached.lean",
+      "sha256": "530924845f6203e18656db01d5d2cd3841469153f261dc79aa03303702827730",
+      "bytes": 4608
+    },
+    {
+      "path": "FalconerThetaGauge/ScheduledSymbolRegularity.lean",
+      "sha256": "7c54e546bab53c4e68362f3aba276f2aac0b3338dd6d457287e4a2cadee5451c",
+      "bytes": 3413
+    },
+    {
+      "path": "FalconerThetaGauge/SeparatedDirectionsArc.lean",
+      "sha256": "bd3df725d2a505952917694f64a98da607bdea245b208bf9213027b40e5f1d98",
+      "bytes": 5524
+    },
+    {
+      "path": "FalconerThetaGauge/SeparatedDirectionsCutoff.lean",
+      "sha256": "2e237180552de7e880e9d0001758691868e706b500eefaff5413ad3bf359e24f",
+      "bytes": 5304
+    },
+    {
+      "path": "FalconerThetaGauge/SeparatedDirectionsNeighborhood.lean",
+      "sha256": "20e8ffd28ac44323109d9aade6287fa971f5267103d977da04bc5ab91c8fa565",
+      "bytes": 4371
+    },
+    {
+      "path": "FalconerThetaGauge/SmoothAngularPartition.lean",
+      "sha256": "47a33a0edf5dd24f3488e2036eea0fb8fd8d9992077da5cc7148dddc01eb3adf",
+      "bytes": 2969
+    },
+    {
+      "path": "FalconerThetaGauge/SmoothMeasureApproximation.lean",
+      "sha256": "90bb0a2409e89ffa7b3918342ecc3367f5870c5a9e5d3e799cf67820703bda4c",
+      "bytes": 9038
+    },
+    {
+      "path": "FalconerThetaGauge/SmoothProbabilityApproximation.lean",
+      "sha256": "a7305b623c60a4a60d42f1db0f8cfaa3616864350fbce0a3b69b02e626cb3bdb",
+      "bytes": 6744
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudget.lean",
+      "sha256": "e1d5f16adeeb8131bb35ee5cda9d748184db22bee1a55b9d4917f1bc3522f3b0",
+      "bytes": 4735
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudgetPolynomial.lean",
+      "sha256": "009c9101cfcfe933373941362f04ed46d9075dcb5380eade28f40f23eee6025f",
+      "bytes": 2737
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudgetReciprocal.lean",
+      "sha256": "337caf6b85ada649521bfb0bf8926eee2a834ec663d3d9045c0431d3b1aee2b4",
+      "bytes": 2014
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudgetRemainder.lean",
+      "sha256": "0384d9012f59e9780371eda5301f9f71fbcdbcb27cd779ca3ae5451ca320361b",
+      "bytes": 2861
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudgetScale.lean",
+      "sha256": "4fcf1351c584d567298521583daa071e6fae7ded419101f9d84570280ad92102",
+      "bytes": 2038
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingBudgetTerminal.lean",
+      "sha256": "e5989d88e5517542f4da4d1c31a7c4d49f9219937cbb4e6c935aace99cd250e2",
+      "bytes": 4191
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingCircle.lean",
+      "sha256": "703245a10219aed2906bf46c53a641b4f8cd13debcaf9f663a84bdb99cf4aa61",
+      "bytes": 6392
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingCircleProductRemainder.lean",
+      "sha256": "09e9a0244077f1e704a7c505dea16ffec020fef5ad93eba8a9edf2d1dd95eec6",
+      "bytes": 6770
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingCircleRemainder.lean",
+      "sha256": "b9ac6ac90903352c4268ce5176d67acca46d40f7c393abf18dcff1c7281f7157",
+      "bytes": 2371
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingNearCells.lean",
+      "sha256": "ba95e92719919b5bed31e56221abef01fe46afa2a5f085fb501600bab4c7884c",
+      "bytes": 3101
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingNearSchur.lean",
+      "sha256": "1cdcc1bbcf6098604906427772991662947fd5d26d16c27587d22480893db1db",
+      "bytes": 6416
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingSpatialKernel.lean",
+      "sha256": "e25c005b016cd73b3adfdc85b31b13e269379040db0d8cb339a07b7c0c2398ff",
+      "bytes": 6219
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingSpatialKernelBounds.lean",
+      "sha256": "e67ee3fb3849a9f0e164ced0366465691bedb0a3f3e5d8139fe06bf5aeb544a1",
+      "bytes": 4321
+    },
+    {
+      "path": "FalconerThetaGauge/SpaceSplittingSpatialKernelFubini.lean",
+      "sha256": "4cd029dd3476f6caa0ddf3f9b123769a5857a6adfa2047a0e520a636b0ca525b",
+      "bytes": 8398
+    },
+    {
+      "path": "FalconerThetaGauge/Statement.lean",
+      "sha256": "1768e1b0d1ff2f8d9031912284b1474574e6c4b65ce2ca00cf3de83f784b9535",
+      "bytes": 3908
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularConjugate.lean",
+      "sha256": "a335a76cbf4fa1b9e9909f26bb4bf4e75a3e30aaa7a495fb7395716d8ff70989",
+      "bytes": 2998
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularExpansion.lean",
+      "sha256": "9966dfc4879cb2d85dddc460bd7c1c4620ff11c3dc37e8b581f211e7875aa80b",
+      "bytes": 2341
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularFactorialBudget.lean",
+      "sha256": "9607ce8a88508a644a982bdaf683d1f173723df04d99e24af07cd6e465031087",
+      "bytes": 1949
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversion.lean",
+      "sha256": "6d65c79de39c96fd626d6db5f833965530a83e6dc4a3d11539164dc46d237b2b",
+      "bytes": 4383
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionBound.lean",
+      "sha256": "cad70e57e04f5e531c09cf14bbc1e220ebc2b2310b3b3e222832e6a646c29c6b",
+      "bytes": 3177
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionDecay.lean",
+      "sha256": "64c2184c549542601e706e901efe4f0cf7429695b9062689c460d15eac25a8da",
+      "bytes": 4175
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionGeometric.lean",
+      "sha256": "2691bb5fae2c529659ee1c7cf7ba8d4c38858cc13fc96a59d90683f46022624a",
+      "bytes": 3062
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionNormalized.lean",
+      "sha256": "c6509127bacbdc8ecd1c9794ca4f73193492e71c3dee2f02efd4416cc97b0254",
+      "bytes": 5239
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionScale.lean",
+      "sha256": "363b52a005b5a174db89fb02b75f01ce8fe109971973844b7a5d2c81dedce85e",
+      "bytes": 4568
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularInversionTerminal.lean",
+      "sha256": "ffad254a96214cec649512d55bf04f99990b2f24fcea71ea3bae64226c44a64e",
+      "bytes": 4894
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularPeriodic.lean",
+      "sha256": "f36f3d89feb7961a3f80663537cc2bb51ae690bfa04f4c588d31e0f8533f5f2d",
+      "bytes": 1969
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularPreparedArc.lean",
+      "sha256": "4622ac08563b032e241230b091cd2c94ed2605f67cbfd3bc8bd5c73ced3a0e33",
+      "bytes": 5371
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularPreparedExpansion.lean",
+      "sha256": "945b6d36e3b75443ce2c3c0d6f68cd757a70be3d25958a6812f25bbc0ab64999",
+      "bytes": 3044
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularRemainderBudget.lean",
+      "sha256": "d2d8e85dae96603d44c80c74919b42d31cc1f1de0723fb385b2d19648f545a12",
+      "bytes": 3574
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularSource.lean",
+      "sha256": "c1a9dc95d9fa285fa1a0e898065dfde389b8125beb562e99b13f83d799b1f56a",
+      "bytes": 2933
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryCircularSourceBudget.lean",
+      "sha256": "a4fde67b62dcc46ec092bc566f88a1b6f5e5060b061d104f526fc5d188595bf2",
+      "bytes": 7340
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryGevreyComposition.lean",
+      "sha256": "dd6ee86265c521c70489894076de17ae14c0a03ab307a27b595cac1da05b46ad",
+      "bytes": 4011
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryGevreyProduct.lean",
+      "sha256": "153ab244db8c98b682389604140ee5ac5859cc1c9c4a681382c4346c93665779",
+      "bytes": 2111
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseAmplitude.lean",
+      "sha256": "fbdc3d4c6e8eb6eed4b31bb6880efb797d56b90abb6fc1d435b12fa5b13a3d98",
+      "bytes": 2944
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseAngle.lean",
+      "sha256": "f7dbdda0b0e8f55b237cdd53a74dcba597301ed52e45ba152e90e986652bb5a9",
+      "bytes": 3697
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseDerivativeBudget.lean",
+      "sha256": "34446b1c88feb9d2c292a10e34f1f257af597820e76167e316103293e1935b91",
+      "bytes": 7002
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseL1Budget.lean",
+      "sha256": "41de6c74744c944bc016f183f3fc82f84b59681ef5cf755d2c5dff8ce36461aa",
+      "bytes": 3529
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseOperatorExpansion.lean",
+      "sha256": "d47d3264b3ec40cb8675b46991bfeb527925cc386765119c122d1c34296f5f38",
+      "bytes": 3220
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryMorseSubstitution.lean",
+      "sha256": "488c68e73e498fafc317cccd914f5b0ca2663f1b7d994e3e209e240231918afa",
+      "bytes": 3947
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseCompositionNorms.lean",
+      "sha256": "f5bd0b1553eb775b8c4506aac365a6d64c12939069c3f63f36ee8f256ff98079",
+      "bytes": 3495
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseFiniteInversion.lean",
+      "sha256": "0684e191c35501f4903ab1bd15a7a92dbaf72c2d6f31b67aff4b5a2fa52c07a1",
+      "bytes": 7663
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseFiniteTailBudget.lean",
+      "sha256": "98fc312d7227fb3355075065cc7da9a1745e1ece0e1da89f557cab5b719a0400",
+      "bytes": 2416
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperatorBudget.lean",
+      "sha256": "5035b5f42e3a815811ba3afa5ac876c19a3d8771bf7399f63b53394840602a87",
+      "bytes": 3618
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperators.lean",
+      "sha256": "e123e478f20fadd6dc591c9a06880296a3040777f56a97c7fc3402c3ffe56c3e",
+      "bytes": 4133
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperatorsAction.lean",
+      "sha256": "77f970fc8e7ee725389d107c40ff7b772e19a53f736067990fdddf11256a8498",
+      "bytes": 8922
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperatorsConjugate.lean",
+      "sha256": "7ce6304a256d89f502dd5708b72ae31649941e767c8d3246afef303d931c9998",
+      "bytes": 4288
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperatorsRegularity.lean",
+      "sha256": "cbc02017f825015905579dd310f4a06325253a48157c0efcb789e07b6cad6c70",
+      "bytes": 6571
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseInverseOperatorsRegularityBudget.lean",
+      "sha256": "fcc5d0c22930b2723ec333d9a53033e529fa57fafe8bc2437ca5dd667966db94",
+      "bytes": 2384
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseOperatorBudget.lean",
+      "sha256": "d8a5c218d4df98cf8786fd5b1789ed3d72bf77e6369563d9d06b62589b1cf6a0",
+      "bytes": 2537
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseOperators.lean",
+      "sha256": "4ab9ad2ac658527f5da09cdbf975d71e84059cb94dce9b3aefd7c549b3409f3b",
+      "bytes": 6573
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseOperatorsComplex.lean",
+      "sha256": "4aca5eafbc0cf868466ee2a2f08827c080eda13227b99a5907c6a32f450f4d29",
+      "bytes": 3522
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseTruncatedConvolution.lean",
+      "sha256": "a2f7b8502a1e5c1a547a2992fa19db9bc662bcf19fd8c5fa726a1ce1ba4b77a9",
+      "bytes": 4974
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPhaseWeightedNorms.lean",
+      "sha256": "0abd18dc98a308b54581697d645464443b4cd3bb76290943d13aae452b37eff3",
+      "bytes": 4102
+    },
+    {
+      "path": "FalconerThetaGauge/Asymptotics.lean",
+      "sha256": "0fe1bd69031212ae934354a239b2dd1cf6156cc330e5576f4bbe3f92a12f8f22",
+      "bytes": 4042
+    },
+    {
+      "path": "FalconerThetaGauge/FiniteGraphSchur.lean",
+      "sha256": "34b1347845d40084ce5c50e3415ab30fe43509cdeba1d13818a93209d21765e4",
+      "bytes": 3310
+    },
+    {
+      "path": "FalconerThetaGauge/FiniteGraphSchurIntegral.lean",
+      "sha256": "4f6cfb13e9aab666d1921525298e7e765dbeba60ca7ad74056dabb3e85a80913",
+      "bytes": 5010
+    },
+    {
+      "path": "FalconerThetaGauge/FourierReconstructionApproximation.lean",
+      "sha256": "4411731dae2e46b1ff8502d786df717be6b0266097f47cc5d467fa58686590d0",
+      "bytes": 6181
+    },
+    {
+      "path": "FalconerThetaGauge/FourierReconstructionCutoff.lean",
+      "sha256": "0a096fd2aa6b990b41e9afad187af1107544819c4a2130db95e680da1698711a",
+      "bytes": 10504
+    },
+    {
+      "path": "FalconerThetaGauge/FourierReconstructionEnergy.lean",
+      "sha256": "f52f694943c656dd30b824bf26cb2772ff29bb9ada29305d52d6e1da993a9918",
+      "bytes": 10096
+    },
+    {
+      "path": "FalconerThetaGauge/FourierReconstructionMeasure.lean",
+      "sha256": "f78fccb692c9e8270ba9516938cbb01c521f8853196495453173b57c7efc796d",
+      "bytes": 6304
+    },
+    {
+      "path": "FalconerThetaGauge/FourierReconstructionPairing.lean",
+      "sha256": "6c62c67c8380f84680f2e609ad796ecb8ce3c69265ec61fd267c13e79f872728",
+      "bytes": 3838
+    },
+    {
+      "path": "FalconerThetaGauge/ImaginaryTaylor.lean",
+      "sha256": "6e71391651c50bd2a49109a46714ef096c47c0ca505728d711ea99a5f8a9dfc5",
+      "bytes": 4480
+    },
+    {
+      "path": "FalconerThetaGauge/NonstationaryPhase.lean",
+      "sha256": "4a430d18e2681c8d2c5ef591499652de4044a484346f9481e9b493ab024fb260",
+      "bytes": 9872
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergy.lean",
+      "sha256": "cbc8df66bb21b54df895f0ea398a134d0220f6d9f4a232ade83a6bd63dbd9224",
+      "bytes": 4356
+    },
+    {
+      "path": "FalconerThetaGauge/OrliczEnergyKernel.lean",
+      "sha256": "d90e8dad3b5f4b0cf138517c1f0e24b118872f7ea83799946edeada6b519ddfb",
+      "bytes": 7407
+    },
+    {
+      "path": "FalconerThetaGauge/OrthogonalProjectionFourierDensity.lean",
+      "sha256": "e2a261eea372b24f141901904149ed6c4ccc39a394f556621d8735057db4346d",
+      "bytes": 11096
+    },
+    {
+      "path": "FalconerThetaGauge/ParameterBudgets.lean",
+      "sha256": "9d755bf211ee292e9f1244005f34212195d5df31b6145adc581829deadb85784",
+      "bytes": 18153
+    },
+    {
+      "path": "FalconerThetaGauge/Parameters.lean",
+      "sha256": "df76b42096852da8378b724ffc0a72e73b5bd6c075ad6982bfeb24fb330d2735",
+      "bytes": 14312
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticGaussian.lean",
+      "sha256": "b905a71e92cf2f774ce6b7a711e4ae6569589e6b33dec3b366343c4c383fa2ce",
+      "bytes": 2875
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticGaussianLimit.lean",
+      "sha256": "2d33da10b679d1ca0a2c2857044b14cb106717d7245af726f91277ac0b20b3ef",
+      "bytes": 3706
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticPhaseCompact.lean",
+      "sha256": "4c6b775d3cbd1d02db544ac2ba236aff8ffc9df0a685504ef5df7eba60974c7a",
+      "bytes": 3426
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticPhaseDuality.lean",
+      "sha256": "f009ec9f960f2ef5dc53b71311a6290cb059bbe434aa31449c6fc28969567c96",
+      "bytes": 2220
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticPhaseExpansion.lean",
+      "sha256": "f58956f45e8336639e4ecbe1c95e5f3a29f40baeb2bca994d6950f9602f13327",
+      "bytes": 9733
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticPhaseFourier.lean",
+      "sha256": "e5d04afbbc55b9761f4a38d6dd99517179a3b53be6076c0375e3fa211455b18f",
+      "bytes": 2539
+    },
+    {
+      "path": "FalconerThetaGauge/QuadraticPhasePrefactor.lean",
+      "sha256": "7c544787d71efbb84730b59355e4548497fadf3b08fc47ecff5f35d604337b95",
+      "bytes": 1981
+    },
+    {
+      "path": "FalconerThetaGauge/ReconstructionDensity.lean",
+      "sha256": "d3ad198c2c1f91d16ebcbef66d8f1fe875eb31c663fccf6266b1b715fda66d7b",
+      "bytes": 13315
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionCounting.lean",
+      "sha256": "681c3f66f3769c7a34eed5c8a0581a9114b3ec8b0ed25a34d98f824563e65d67",
+      "bytes": 3803
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionDiscard.lean",
+      "sha256": "7fa9cb17f402d4ea4900090b2530b091c6fc9bc56f9040e6d5f1efc3a1ffb71c",
+      "bytes": 3531
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionFinite.lean",
+      "sha256": "333e855445b74a837ce91348287134991d070b39059baccbf41cf5e48b88cb8b",
+      "bytes": 6535
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionInterpolation.lean",
+      "sha256": "3b05dc7b47779197c2e0a11e2012eeebf430212a8521688caec5bac476709e70",
+      "bytes": 5987
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionMass.lean",
+      "sha256": "ec60453e18e75b75090465f34b34dbc3fe974ffa3201003c04490544fb2eb34a",
+      "bytes": 7026
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionParameters.lean",
+      "sha256": "358891c226ce8d2a5f04bb6c9dddbdf0b91bac60537df589d2d00d0b93dc082c",
+      "bytes": 8047
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionSchedule.lean",
+      "sha256": "515e1b0fdd535cb11bdd6c114cd5f9a1bac66fc7814fb66e0395fcc0304f30b7",
+      "bytes": 7581
+    },
+    {
+      "path": "FalconerThetaGauge/RegularDecompositionTypes.lean",
+      "sha256": "8cbe207e696b9970e6c7c84bd61248a59ed70b9f0309926a107805ac7615af46",
+      "bytes": 15867
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinning.lean",
+      "sha256": "d93c1b5f327ec6bc86ee7cd05e11de8364fdd2346a873e8d4b48080d1fb501ef",
+      "bytes": 5233
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinningFourier.lean",
+      "sha256": "fd457922a197cf040cbba4c28e16a653ac785a23275a8d14769652a8a06d4d01",
+      "bytes": 11622
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinningFourierAverages.lean",
+      "sha256": "db0aec3319e34e2bbcfdbc9fb4453a45f8312a4103533995ee6d5a37771b4e92",
+      "bytes": 5200
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinningFourierKernel.lean",
+      "sha256": "c34ba60244080951d93a1cb5ffd2a3774670091e34de300162e050ae59157dc6",
+      "bytes": 8091
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinningKernel.lean",
+      "sha256": "d21b06541dd9706a671fcc53d1b2f12c525d44e352576d6cf295e13e35466056",
+      "bytes": 9105
+    },
+    {
+      "path": "FalconerThetaGauge/ScalarEnergyBinningShift.lean",
+      "sha256": "288dee77b7f30de00642b05966e67e0dc05962007aee9cdae9f779b2fe140a24",
+      "bytes": 7963
+    },
+    {
+      "path": "FalconerThetaGauge/SchwartzDerivatives.lean",
+      "sha256": "e06008665fa15645054a0ca47c320ac3f4d6ce05b40d3bbcda2722a9cd232713",
+      "bytes": 3896
+    },
+    {
+      "path": "FalconerThetaGauge/SchwartzMomentBounds.lean",
+      "sha256": "f48fa0973f4a311abeee045f2bc2b791cfdba6264a6b029d77b09bacdf269d33",
+      "bytes": 2863
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPartitionCycles.lean",
+      "sha256": "720604ed26d43bb04c875227e953a405e347050b8f1bc37e62d6901b610b7544",
+      "bytes": 3383
+    },
+    {
+      "path": "FalconerThetaGauge/StationaryPartitionWeights.lean",
+      "sha256": "c6df107ab795832d2140ed871723d1c103dee521a51776dc57e27b9643dc4f33",
+      "bytes": 4153
+    },
+    {
+      "path": "FalconerThetaGauge/SummableReconstruction.lean",
+      "sha256": "092fb3bae1a6de867daad63e9fab7272f6d807fb55d885e7468c84d7e7c8cb75",
+      "bytes": 10054
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "0d2f8cd6944163e2f94c94e3238e22378a56c027db415331c26ebd37310512ff",
+      "bytes": 491,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "FalconerThetaGauge/SpaceSplittingCircleProductRemainder.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/CoolRmal/falconer-theta-gauge",
+    "source_commit": "98d3222b42ba5fcaeb56068cf2d542c3d4851d80"
+  }
+}

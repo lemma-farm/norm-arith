@@ -1,0 +1,71 @@
+{
+  "id": "6083ec98e42e41ca2f6b",
+  "source": {
+    "repository": "aimathpapers/Jensen-Two-Thirds-Palomar-T5",
+    "commit": "6c4ac2b98f4479c37b3479d9daafa1d679479614",
+    "project": "aimathpapers--Jensen-Two-Thirds-Palomar-T5--6c4ac2b98f44",
+    "path": "Zeta23/FromPNTPlus/MellinCalculus.lean",
+    "file_id": "010a74544650e8daeb21",
+    "source_sha256": "010a74544650e8daeb2124aa0aefa218b5a437e9dba80b4d7b2752e456e93b02",
+    "start": 399,
+    "end": 429,
+    "original_start": 388,
+    "original_end": 443,
+    "declaration": "MellinOfPsi",
+    "source_url": "https://github.com/aimathpapers/Jensen-Two-Thirds-Palomar-T5/blob/6c4ac2b98f4479c37b3479d9daafa1d679479614/Zeta23/FromPNTPlus/MellinCalculus.lean#L399-L429",
+    "archive_url": "https://github.com/PalomarArchive/aimathpapers--Jensen-Two-Thirds-Palomar-T5--6f1e2bde79cf/blob/6c4ac2b98f4479c37b3479d9daafa1d679479614/Zeta23/FromPNTPlus/MellinCalculus.lean#L399-L429"
+  },
+  "native_target_name": "MellinOfPsi",
+  "source_declaration_label": "MellinOfPsi",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "47ab8b0a336cab2b8579bd70d8d24fbf75dc423b08541663bd7f6a90edd1c132",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a5e232603d837b2e46599fba5778b8d703638481e082390527def62eb7d106f2",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Zeta23/FromPNTPlus/Auxiliary.lean",
+      "sha256": "794ca10e18196c2ed924514f777afbfe907272f87a08292a7070834dbc4a91ad",
+      "bytes": 3857
+    },
+    {
+      "path": "Zeta23/FromPNTPlus/MellinCalculus.lean",
+      "sha256": "a603911a67ce6ab0dc6bf700c47f252e3fa98bce1a102266c823f0dddcd4fb39",
+      "bytes": 48718
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "827e7374cc8cd8389efd285bb683e1edaad6462f3bf50aa7ffd8a205caf7109d",
+      "bytes": 523,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Zeta23/FromPNTPlus/MellinCalculus.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/6083ec98e42e41ca2f6b": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/aimathpapers/Jensen-Two-Thirds-Palomar-T5",
+    "source_commit": "6c4ac2b98f4479c37b3479d9daafa1d679479614"
+  }
+}

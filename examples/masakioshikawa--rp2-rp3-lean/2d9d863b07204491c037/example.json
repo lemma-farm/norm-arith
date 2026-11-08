@@ -1,0 +1,141 @@
+{
+  "id": "2d9d863b07204491c037",
+  "source": {
+    "repository": "masakioshikawa/rp2-rp3-lean",
+    "commit": "ab120db3ae50756b2f640400aeca757a0ff9dbb5",
+    "project": "masakioshikawa--rp2-rp3-lean--ab120db3ae50",
+    "path": "RP2/QuadraticCoefficientBounds.lean",
+    "file_id": "01d0696ad4cf6afeb82a",
+    "source_sha256": "01d0696ad4cf6afeb82ad358bb0dcd4fd39361743c69953cf28a1a7a567cba6d",
+    "start": 18,
+    "end": 29,
+    "original_start": 13,
+    "original_end": 53,
+    "declaration": "mixedAB_norm_le",
+    "source_url": "https://github.com/masakioshikawa/rp2-rp3-lean/blob/ab120db3ae50756b2f640400aeca757a0ff9dbb5/RP2/QuadraticCoefficientBounds.lean#L18-L29",
+    "archive_url": "https://github.com/PalomarArchive/masakioshikawa--rp2-rp3-lean--cd82cc16db01/blob/ab120db3ae50756b2f640400aeca757a0ff9dbb5/RP2/QuadraticCoefficientBounds.lean#L18-L29"
+  },
+  "native_target_name": "RP2.Quadratic.mixedAB_norm_le",
+  "source_declaration_label": "mixedAB_norm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "d2388ca6d25c0c3de0edc9690eed347f628c24684a73d489a4724a8829f5bb86",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "059329d77590ffa12595eda2398d2df4f8efa6d06c85f2c7279bc8da84cb26eb",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RP2/Averaging.lean",
+      "sha256": "cec29992a4fc3a8a67e754d7ec842dce196d9b90778b87945fa9dfe5f05415b9",
+      "bytes": 9731
+    },
+    {
+      "path": "RP2/Calculus.lean",
+      "sha256": "e8310e51a2e710a2b951a77aa591be46b952003c8917ee3ae4c9d3c583011813",
+      "bytes": 4970
+    },
+    {
+      "path": "RP2/FiniteAveraging.lean",
+      "sha256": "dee137d0ffac9b6c186154620b711ab3f0a25dc0ddedb38f39648ac8212d5c6b",
+      "bytes": 5458
+    },
+    {
+      "path": "RP2/MixedAlgebra.lean",
+      "sha256": "8a1c3573e54051b8625d1f683bde76556eda979c918782cea51be252760ab07f",
+      "bytes": 16667
+    },
+    {
+      "path": "RP2/Model.lean",
+      "sha256": "16d40161f49a86b9c64beca0a64419958c7e9bda9371c926bac71183b1d53580",
+      "bytes": 7570
+    },
+    {
+      "path": "RP2/ProductJets.lean",
+      "sha256": "65ee1b83b5a9cd23d77c4390b05bc91e7f92cd23d12f9a51eb7976ed3a7a9f32",
+      "bytes": 3180
+    },
+    {
+      "path": "RP2/QuadraticAverages.lean",
+      "sha256": "3d5bb9008df96019ffc787b1dd8cbd04de7080dfa73bbd5e5ed1667959400680",
+      "bytes": 10867
+    },
+    {
+      "path": "RP2/QuadraticBounds.lean",
+      "sha256": "af549aec6259b180d744d8cf25057837e7b1e3c186dafd1649413ae0015b5103",
+      "bytes": 6671
+    },
+    {
+      "path": "RP2/QuadraticCoefficientBounds.lean",
+      "sha256": "f5a050f175af866cadaaaa9654298b49495ca471a3889b3503f5088ca6ec5ea5",
+      "bytes": 7055
+    },
+    {
+      "path": "RP2/QuadraticDerivatives.lean",
+      "sha256": "dc82a6278a93c0702af846da26ff6583a2c253b905ad3394503a02a3973e0548",
+      "bytes": 15922
+    },
+    {
+      "path": "RP2/QuadraticGibbs.lean",
+      "sha256": "00b526905f1fab664e41be9d13174346183291481b4cef9f24a55eb0992e87b5",
+      "bytes": 7270
+    },
+    {
+      "path": "RP2/QuadraticMixedJets.lean",
+      "sha256": "157f48fadccff597fb901bd3937bb71c9c6d01d5542caf5d64ae6a580d537416",
+      "bytes": 13094
+    },
+    {
+      "path": "RP2/QuadraticPlane.lean",
+      "sha256": "17fcb48c1f8048695e96edb425db81ded392290dee4a032b2039c97a1b1c2f51",
+      "bytes": 5958
+    },
+    {
+      "path": "RP2/QuadraticPlaneResponse.lean",
+      "sha256": "77d29931a0058c4c82f190f37d075895fcf88a2c302d42aa2346d88e5d9bb984",
+      "bytes": 5767
+    },
+    {
+      "path": "RP2/QuadraticWard.lean",
+      "sha256": "8ea21abc1f27f41aa41b6a557dc7a155d0fea3eb0d29611e3562c398369e0ac7",
+      "bytes": 6262
+    },
+    {
+      "path": "RP2/RotationGeometry.lean",
+      "sha256": "3a192d9722aef11239436a915b7ca5b0bfa554b3dbbf4fd8fca4289925f2a736",
+      "bytes": 19585
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "4d290398fd5cd4cc98787a8a264dfc597a81d1b2d8e664f3c44f88e14a364955",
+      "bytes": 477,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RP2/QuadraticCoefficientBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/2d9d863b07204491c037": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/masakioshikawa/rp2-rp3-lean",
+    "source_commit": "ab120db3ae50756b2f640400aeca757a0ff9dbb5"
+  }
+}

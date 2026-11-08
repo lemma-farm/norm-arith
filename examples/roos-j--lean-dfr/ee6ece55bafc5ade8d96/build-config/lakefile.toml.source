@@ -1,0 +1,27 @@
+"name" = "lean-dfr"
+"version" = "0.1.0"
+"keywords" = ["math"]
+"defaultTargets" = ["DFR", "Challenge", "Solution"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false, "weak" = {"linter" = {"mathlibStandardSet" = true}}, "maxSynthPendingDepth" = 3}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["require"]]
+"name" = "lean_spherical"
+"path" = "/project/deps/norm-extraction-build/repair-goal-112c3fb0b7beaa7c/ee6ece55bafc5ade8d96/__deps/lean_spherical-fe99b585"
+
+[["lean_lib"]]
+"name" = "DFR"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."

@@ -1,0 +1,23 @@
+"name" = "fixed670_palomar"
+"version" = "0.1.0"
+"defaultTargets" = ["Challenge", "Solution"]
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Erdos488"
+"moreLeanArgs" = ["--trust=0"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"moreLeanArgs" = ["--trust=0"]
+"srcDir" = "."

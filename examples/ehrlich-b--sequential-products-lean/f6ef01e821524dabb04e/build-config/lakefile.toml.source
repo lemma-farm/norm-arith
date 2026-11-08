@@ -1,0 +1,39 @@
+"name" = "twist_normal_form"
+"version" = "0.1.0"
+"keywords" = ["math"]
+"defaultTargets" = ["RadicalRelativity"]
+"leanOptions" = {"pp" = {"unicode" = {"fun" = true}}, "relaxedAutoImplicit" = false, "weak" = {"linter" = {"mathlibStandardSet" = true}}, "maxSynthPendingDepth" = 3}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "RadicalRelativity"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AlbertChallenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "AlbertSolution"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "WignerChallenge"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "WignerSolution"
+"srcDir" = "."

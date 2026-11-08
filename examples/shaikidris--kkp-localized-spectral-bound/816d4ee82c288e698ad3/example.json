@@ -1,0 +1,186 @@
+{
+  "id": "816d4ee82c288e698ad3",
+  "source": {
+    "repository": "shaikidris/kkp-localized-spectral-bound",
+    "commit": "d3593f26e60c27d1cae1967f720f4dd59ad1c4d8",
+    "project": "shaikidris--kkp-localized-spectral-bound--d3593f26e60c",
+    "path": "Transfer.lean",
+    "file_id": "060daf8902c6b45defc0",
+    "source_sha256": "060daf8902c6b45defc00b444163e693ea54fd38b4b969140e03370e087e1abe",
+    "start": 27,
+    "end": 32,
+    "original_start": 27,
+    "original_end": 32,
+    "declaration": "LocalBN.cpPairing",
+    "source_url": "https://github.com/shaikidris/kkp-localized-spectral-bound/blob/d3593f26e60c27d1cae1967f720f4dd59ad1c4d8/Transfer.lean#L27-L32",
+    "archive_url": "https://github.com/PalomarArchive/shaikidris--kkp-localized-spectral-bound--6e7c863269f5/blob/d3593f26e60c27d1cae1967f720f4dd59ad1c4d8/Transfer.lean#L27-L32"
+  },
+  "native_target_name": "LocalBN.cpPairing",
+  "source_declaration_label": "LocalBN.cpPairing",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "bc892dc6153c952b932cea1c4c64f308ecd4b680b8aafc7e5f11b09ca902a806",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "551a8bfc33f8fb3149e640aca9aa692f6495b9621b089fb1ee1d778cb79087b9",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "BN/Basic/Graph.lean",
+      "sha256": "298bbe4032c5de581080494bcdd5593299e3c9a24a0757ddcee7eb002025f1fd",
+      "bytes": 3445
+    },
+    {
+      "path": "BN/Basic/Inner.lean",
+      "sha256": "6985f557791407866975c6fbb79b57eb123807556d43e79dd2f5d68a42c708c9",
+      "bytes": 8757
+    },
+    {
+      "path": "BN/Basic/Spectrum.lean",
+      "sha256": "f9e33677e5d3de621a51327d2311aa6300933614f39a5d969d8a01ef40cf2f33",
+      "bytes": 3724
+    },
+    {
+      "path": "BN/CP/Basic.lean",
+      "sha256": "6815599dbb933cabdf06adf67a76c7efd705195435e34c5f5b66d9e7e8e59db7",
+      "bytes": 4418
+    },
+    {
+      "path": "BN/CP/Closed.lean",
+      "sha256": "fd66a402364529c30b79e1bad8c41f7140b502fb149118e624652df564fbd80d",
+      "bytes": 12516
+    },
+    {
+      "path": "BN/Kernel/Bilinear.lean",
+      "sha256": "64e45a0867855221f051ed1642717da3fe70808e0e2bafb875b14480ecd058c6",
+      "bytes": 16631
+    },
+    {
+      "path": "BN/Kernel/Data.lean",
+      "sha256": "1f9fa16cd2d045263582c10925e7cbd2e5606d6287f319bc7af28d6325a0427d",
+      "bytes": 7852
+    },
+    {
+      "path": "BN/Kernel/Main.lean",
+      "sha256": "067933687e35dae1272a8d93e387224c0695205d5c3243d8ad0db7967c49b220",
+      "bytes": 3880
+    },
+    {
+      "path": "BN/Kernel/N.lean",
+      "sha256": "24b89c452e53c1519f77b552d0dc34478e8882a3dd5d6eb4c3dc9c1333899840",
+      "bytes": 17437
+    },
+    {
+      "path": "BN/Kernel/SM.lean",
+      "sha256": "7585779c06d5924373c7aa59d18b96892e46cac4e1d78a71edcdddb27defc74d",
+      "bytes": 3526
+    },
+    {
+      "path": "BN/Kernel/Signs.lean",
+      "sha256": "4122eea14e11c6d2393589f431702d7521c4aa015e4c2719c5f47a3e1ac79311",
+      "bytes": 7174
+    },
+    {
+      "path": "BN/M/Basic.lean",
+      "sha256": "5863c55e41b757dade72eb83356f6236e6d4a146bdbe3345c594dc91eb8c3fcb",
+      "bytes": 10271
+    },
+    {
+      "path": "BN/M/Config.lean",
+      "sha256": "38827d5d9799f93cbeeb5e765179101aef67e17939db8fd1bf7284e865e02a9e",
+      "bytes": 20670
+    },
+    {
+      "path": "BN/M/Elim.lean",
+      "sha256": "3303e63b2d51f90a3e0615f4dbae0ea935b07a6feea2e3ad60559f27086273a0",
+      "bytes": 98084
+    },
+    {
+      "path": "BN/M/GammaZero.lean",
+      "sha256": "3a61ecdc67164b238070d426b696c12cfca85a323b0debeb23da3299e1768095",
+      "bytes": 20189
+    },
+    {
+      "path": "BN/M/HalfPlane.lean",
+      "sha256": "fd93f02728b4d18755688a2cff265659938be1a5d333a30d6ab17c469f9374f8",
+      "bytes": 50278
+    },
+    {
+      "path": "BN/M/Main.lean",
+      "sha256": "3d6709be8a9613a2e994c61151083549eef8a950b48736e08ae99145f62b79be",
+      "bytes": 1585
+    },
+    {
+      "path": "BN/M/Schur.lean",
+      "sha256": "2a54804198dbe20c3730aab9f6594f46195c8bb2848a04527da43563c728026f",
+      "bytes": 111695
+    },
+    {
+      "path": "BN/MS/Basic.lean",
+      "sha256": "54e9974fb919e1fc6eea48c065d7c3b692a9347d74f71ab725c206d511f46db8",
+      "bytes": 19907
+    },
+    {
+      "path": "BN/Spectral/Perron.lean",
+      "sha256": "0681c641242895581e0e34bb1c8438cc30a47d6bef9eee9631c14b24396ab659",
+      "bytes": 7265
+    },
+    {
+      "path": "BN/Spectral/Weighted.lean",
+      "sha256": "2ec71db5b348b16531745d405fa961394cc7a4f61924c81d86570c7ea6a6409c",
+      "bytes": 24417
+    },
+    {
+      "path": "BN/TN/Basic.lean",
+      "sha256": "f616cc68a6f68f142e209562fd717ddf200d5c7fcc56352d5d53b3af9508c5a8",
+      "bytes": 11787
+    },
+    {
+      "path": "BN/TN/Convex.lean",
+      "sha256": "5938df3111e5d29ec4e1d7464b8328a206c1c3e0f055bf5c626e7cfbcbf94f9d",
+      "bytes": 7910
+    },
+    {
+      "path": "BN/TN/Truncated.lean",
+      "sha256": "228855ec5068326fb9b91e41b8c42eb2d14180e55c93bd34280bd60110fac777",
+      "bytes": 67756
+    },
+    {
+      "path": "Transfer.lean",
+      "sha256": "38e9cda2f038f67cffe06b05b045e0a0a29de31513648bad1b4b56e3e83bfe94",
+      "bytes": 5878
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "bce25f9244843fa0f9be424480a583a0d5aadc5ae3b9ddaa32ff69d9151994cd",
+      "bytes": 634,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Transfer.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/816d4ee82c288e698ad3": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/shaikidris/kkp-localized-spectral-bound",
+    "source_commit": "d3593f26e60c27d1cae1967f720f4dd59ad1c4d8"
+  }
+}

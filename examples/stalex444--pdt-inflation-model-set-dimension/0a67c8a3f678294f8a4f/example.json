@@ -1,0 +1,91 @@
+{
+  "id": "0a67c8a3f678294f8a4f",
+  "source": {
+    "repository": "stalex444/pdt-inflation-model-set-dimension",
+    "commit": "c41d9d29f9c86fb0f849df79b03e713d3405a5eb",
+    "project": "stalex444--pdt-inflation-model-set-dimension--c41d9d29f9c8",
+    "path": "InflationDimension/Tilt.lean",
+    "file_id": "07e4211d949ba1bbd971",
+    "source_sha256": "07e4211d949ba1bbd971ba6fb101121ade0fd551b10858f9402fe5e3de9aff17",
+    "start": 1248,
+    "end": 1256,
+    "original_start": 1218,
+    "original_end": 1261,
+    "declaration": "sub_one_apply_eq_zero_of_bdd.hbound",
+    "source_url": "https://github.com/stalex444/pdt-inflation-model-set-dimension/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/InflationDimension/Tilt.lean#L1248-L1256",
+    "archive_url": "https://github.com/PalomarArchive/stalex444--pdt-inflation-model-set-dimension--6934a2b28ed6/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/InflationDimension/Tilt.lean#L1248-L1256"
+  },
+  "native_target_name": "InflationDimension.Tilt.sub_one_apply_eq_zero_of_bdd",
+  "source_declaration_label": "sub_one_apply_eq_zero_of_bdd.hbound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "f60a74a49dcb23b16527672b25bb2ed7a656b19161de6de6228a47d1cb4ad899",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b2a135b067341627f36973454710d7de5c1942932a52653201e9d2d98049c090",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "InflationDimension/Admissibility.lean",
+      "sha256": "1fea7a1b543cbf27137dc7c23a7af362375bbc79a07f469557130c3ffca225e2",
+      "bytes": 34901
+    },
+    {
+      "path": "InflationDimension/Count.lean",
+      "sha256": "056df40aae21c0ed9b2401348a83afec568f4f9de916e6c282410124724ed9c0",
+      "bytes": 39014
+    },
+    {
+      "path": "InflationDimension/Defs.lean",
+      "sha256": "ea9fc40ad707c3959d546dd3958f44410e1a31ae7da49d81c4890ac15fa55259",
+      "bytes": 10033
+    },
+    {
+      "path": "InflationDimension/DimOne.lean",
+      "sha256": "d2e2a823a800da04937a2025ffc70ef95b916b8f9c8ebbc4b3bd1c52642d8ccd",
+      "bytes": 40651
+    },
+    {
+      "path": "InflationDimension/Normal.lean",
+      "sha256": "ae49cd1ee042508978c4e7679797d355a1c7a344d04dce6da85af08743574648",
+      "bytes": 38100
+    },
+    {
+      "path": "InflationDimension/Tilt.lean",
+      "sha256": "cf33f0870ac7f7c08d21c46c210369f1a1494716702cb9ae013a6949f4907b90",
+      "bytes": 112599
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c586872556ca29fbeea39a7303cfff5ab816072cb548eed73ea3f5ffd4690747",
+      "bytes": 545,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "InflationDimension/Tilt.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/0a67c8a3f678294f8a4f": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/stalex444/pdt-inflation-model-set-dimension",
+    "source_commit": "c41d9d29f9c86fb0f849df79b03e713d3405a5eb"
+  }
+}

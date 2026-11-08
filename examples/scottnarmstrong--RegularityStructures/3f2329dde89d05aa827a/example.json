@@ -1,0 +1,211 @@
+{
+  "id": "3f2329dde89d05aa827a",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "Phi43/Inhomogeneity/DuhamelSpatial.lean",
+    "file_id": "00f710670407dca8659a",
+    "source_sha256": "00f710670407dca8659a9db5570738d8dc43bff05487a643b67434c24096850a",
+    "start": 164,
+    "end": 169,
+    "original_start": 152,
+    "original_end": 169,
+    "declaration": "abs_duhamelField_le",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/Inhomogeneity/DuhamelSpatial.lean#L164-L169",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/Phi43/Inhomogeneity/DuhamelSpatial.lean#L164-L169"
+  },
+  "native_target_name": "RegularityStructures.Inhomogeneity.abs_duhamelField_le",
+  "source_declaration_label": "abs_duhamelField_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "9aa674cdf485c3a704a325ff30b9637676eaa2df336726c7de7894610150b79b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9055ab5a966cd7c934df4b81093faacc7d409b30a893214d3a6d4d961f976b48",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Phi43/Inhomogeneity/DuhamelField.lean",
+      "sha256": "7c749b10a21e41778583d2f999a0139a972b55f6e94b139310984484b39f67e9",
+      "bytes": 5628
+    },
+    {
+      "path": "Phi43/Inhomogeneity/DuhamelSpatial.lean",
+      "sha256": "42bf0b11d4ba0e0bf4a10c9560c606db5a9a5843697a1c4552298f7e76fd39e8",
+      "bytes": 7832
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/Deriv.lean",
+      "sha256": "1ef802ee792e4525442478bb58af545b162db125aa66038dcf66522ccb27771c",
+      "bytes": 10278
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/HeatBounds.lean",
+      "sha256": "b3b185c14c5f7a87ac68307aa703148f2d109d6e7fa1a930aa9fda4fd1cd3ebf",
+      "bytes": 7237
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/HeatDeriv1.lean",
+      "sha256": "48cb5257ef9f33d045c153a05398e1de80a07e4fece345edd065af9068269ae7",
+      "bytes": 11963
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/HeatField.lean",
+      "sha256": "560f70244b917c4b6f79acda40657ff1c95f21f7c3b8c9b4da11209038d9124f",
+      "bytes": 8428
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/HeatFlow.lean",
+      "sha256": "643fcdfc0fb4f0a4e75e4c9fa6d0b0c7a5b78adf4ee86c6d17d7b5db3af25401",
+      "bytes": 2490
+    },
+    {
+      "path": "RegularityStructures/Abstract/Datum/HeatSmooth.lean",
+      "sha256": "e7a31cda42b0446f8aed4e0d3a8afa0a8d69dd7c71c697e3b51300ba32ba38d1",
+      "bytes": 6831
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "fa27faf3c4554841f45a196e3fef864ce40b706c2c9306300aa48c772ae2ea60",
+      "bytes": 3401
+    },
+    {
+      "path": "RegularityStructures/PDE/Duhamel.lean",
+      "sha256": "ea4062e5fd468ec4aa7fceee942925e170ff211a99bb869d92db3d2d450da896",
+      "bytes": 5272
+    },
+    {
+      "path": "RegularityStructures/PDE/DuhamelTime.lean",
+      "sha256": "2346af37f7f2c948c9b55ae78188ed3973898af00b6ad91adf6608c2fe26fda5",
+      "bytes": 10724
+    },
+    {
+      "path": "RegularityStructures/PDE/GaussDeriv.lean",
+      "sha256": "9f0f985ab0591095d415b34c2d0a85866f5c7f4c776ed1564311be406289ad39",
+      "bytes": 4454
+    },
+    {
+      "path": "RegularityStructures/PDE/Gronwall.lean",
+      "sha256": "fef8dee3138991a156bdf1f6171d49fd479ac07cf842a4e08038f6f8153c7452",
+      "bytes": 3522
+    },
+    {
+      "path": "RegularityStructures/PDE/HeatOp.lean",
+      "sha256": "4a1eb58285104e65da842d02378968ada32cbc9ca8d2f0ddc7a00b5c7a54aeca",
+      "bytes": 9778
+    },
+    {
+      "path": "RegularityStructures/PDE/HeatOpBridge.lean",
+      "sha256": "8375f8f7e6d873142cdec830df47cddc3dfdb686cfc4f930e1e3cf73a8a27dc0",
+      "bytes": 2389
+    },
+    {
+      "path": "RegularityStructures/PDE/HeatTime.lean",
+      "sha256": "c3e12bf8a2e21d29c12a6e53bcdf5109298df2320f2a3a26e822f6ce1a4c70fd",
+      "bytes": 14045
+    },
+    {
+      "path": "RegularityStructures/PDE/Jet.lean",
+      "sha256": "c33d2cc2636cb165fe088d0716aa3ccf759c28594f4e039397e075dd1840bfa7",
+      "bytes": 6694
+    },
+    {
+      "path": "RegularityStructures/PDE/MaxPrinciple.lean",
+      "sha256": "91b3e7fc9a5c4a977954964726cbcc6c4557061f764de324466425438bceb68e",
+      "bytes": 6680
+    },
+    {
+      "path": "RegularityStructures/PDE/Mild.lean",
+      "sha256": "5f60e44bb717a58171def1a5bf1e7918617b3a119fed488070ab4759677df814",
+      "bytes": 10221
+    },
+    {
+      "path": "RegularityStructures/PDE/MildDeriv.lean",
+      "sha256": "590147f6293e89b9a945235ba8849ef20ebf7ee2d853d1fa09f0a990afb41a7a",
+      "bytes": 19535
+    },
+    {
+      "path": "RegularityStructures/PDE/MildSmooth.lean",
+      "sha256": "d28770954bcdb386af82c2b0c7e9e4e3a86cbeac9cc4dfdc63cfbef7ae55115e",
+      "bytes": 10526
+    },
+    {
+      "path": "RegularityStructures/PDE/MildTime.lean",
+      "sha256": "a3ea490227f1aee1bcfa3fa6e0e806794b0389e1f6a8de901c7f998ddcd6cf1f",
+      "bytes": 7474
+    },
+    {
+      "path": "RegularityStructures/PDE/Nonlin.lean",
+      "sha256": "12de2fbe305ede1378c1bb48d0b797180795cf80e032ae4b4b39222d8b27d2ac",
+      "bytes": 12493
+    },
+    {
+      "path": "RegularityStructures/PDE/Semigroup.lean",
+      "sha256": "1b8a6a64b3289649541d61a1cae874f99218ca1fd3bf78cbecfb167969a34449",
+      "bytes": 8814
+    },
+    {
+      "path": "RegularityStructures/PDE/SmoothDense.lean",
+      "sha256": "0026ffef19e208cdbe07e63d4e4f60cca63fe36b78042658ef474972c66e129d",
+      "bytes": 6688
+    },
+    {
+      "path": "RegularityStructures/PDE/SpatialDeriv.lean",
+      "sha256": "18db774fa5f0cfcc077807c9097cca6ba7e1068ea0e91c4123a793316e983ca9",
+      "bytes": 6129
+    },
+    {
+      "path": "RegularityStructures/PDE/TorusLift.lean",
+      "sha256": "31e3e7b775085027ceac7a94f7357899a5370a36410508e3b60d4d26e14c03da",
+      "bytes": 7376
+    },
+    {
+      "path": "RegularityStructures/PDE/UniformTaylor.lean",
+      "sha256": "32c59a7ffbca65a99cb0ca1c3c9296cc7bea861226f5220eebbdee04e2c67f93",
+      "bytes": 3087
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "8dbc8cd135c4d7be66532ffe68e0b43a431edffc7f64bba36d43c5a1e8f6b559",
+      "bytes": 1773
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernel.lean",
+      "sha256": "e2e35b631fb85b50acec12850b6e80ce58ab53d1cce35211c66c62c9d9feed3b",
+      "bytes": 6569
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Phi43/Inhomogeneity/DuhamelSpatial.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/3f2329dde89d05aa827a": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

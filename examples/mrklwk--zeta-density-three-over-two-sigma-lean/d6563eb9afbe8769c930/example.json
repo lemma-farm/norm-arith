@@ -1,0 +1,101 @@
+{
+  "id": "d6563eb9afbe8769c930",
+  "source": {
+    "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+    "commit": "804bdb55b1fc40e6a1a6878fd96078644a70e288",
+    "project": "mrklwk--zeta-density-three-over-two-sigma-lean--804bdb55b1fc",
+    "path": "lean/MathCollab/Density/Stronger/Atkinson/AtkinsonSaddleTaylor.lean",
+    "file_id": "031d9d5079981cb1806d",
+    "source_sha256": "031d9d5079981cb1806d745f945624905c00224eff4367b5c02c83f61fc7ccee",
+    "start": 102,
+    "end": 120,
+    "original_start": 102,
+    "original_end": 121,
+    "declaration": "norm_atkinsonRootKernel_sub_quadratic_le",
+    "source_url": "https://github.com/mrklwk/zeta-density-three-over-two-sigma-lean/blob/804bdb55b1fc40e6a1a6878fd96078644a70e288/lean/MathCollab/Density/Stronger/Atkinson/AtkinsonSaddleTaylor.lean#L102-L120",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-three-over-two-sigma-lean--3191042a783e/blob/804bdb55b1fc40e6a1a6878fd96078644a70e288/lean/MathCollab/Density/Stronger/Atkinson/AtkinsonSaddleTaylor.lean#L102-L120"
+  },
+  "native_target_name": "MathCollab.Density.Stronger.Atkinson.norm_atkinsonRootKernel_sub_quadratic_le",
+  "source_declaration_label": "norm_atkinsonRootKernel_sub_quadratic_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "7aba84c4179b530ee9cb73b5cfd2ca8475635886e62d786c607c55fea183cb3f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b73084cd7c73cfcaf5356ef67aa6bfedaca6987edeea9dcea3ee3d33221bee89",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/AtkinsonFirstDerivative.lean",
+      "sha256": "44720d8e1c075947aa837dea8bddebe4fbb6d05f3f15b53164ec7102b4c011c1",
+      "bytes": 4458
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/AtkinsonRootFirstDerivative.lean",
+      "sha256": "e03081ce241b1a5e2b524a382d6c730852204d1a01fced6d5562e77ff81fe32f",
+      "bytes": 2598
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/AtkinsonRootIntegral.lean",
+      "sha256": "77b8b82bc09ea4f632766b7367c6e259ce198753c9f02216e22c5d9f29c3c215",
+      "bytes": 4561
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/AtkinsonRootPhase.lean",
+      "sha256": "bebd8cfc2a45edd2508433edfa24d1d554eeaa47a8486aaec8eac1505383cdcf",
+      "bytes": 4374
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/AtkinsonSaddleTaylor.lean",
+      "sha256": "031d9d5079981cb1806d745f945624905c00224eff4367b5c02c83f61fc7ccee",
+      "bytes": 5436
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/ZetaAtkinsonPhase.lean",
+      "sha256": "4cc7b24a548798ffcd4fcf99a0715dd4b1dfde92515f31d84eab425c35310763",
+      "bytes": 2357
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/ZetaAtkinsonSaddle.lean",
+      "sha256": "12217ab43eb7b35e2838700ee88e39c21ae7928a0a48057d3cd07b0e3cd3d5a7",
+      "bytes": 5828
+    },
+    {
+      "path": "WeylPort/Analytic/NonstationaryFoundation.lean",
+      "sha256": "b4d916a71ecdab7aade0f8e8b2e02021532b223aaaaa356127b492c13626ce47",
+      "bytes": 34470
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "bbd895d7cce9b34d717602d78efbd669782a1918d6236499ebbb24fd6faa5c18",
+      "bytes": 602,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "MathCollab/Density/Stronger/Atkinson/AtkinsonSaddleTaylor.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/d6563eb9afbe8769c930": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-three-over-two-sigma-lean",
+    "source_commit": "804bdb55b1fc40e6a1a6878fd96078644a70e288"
+  }
+}

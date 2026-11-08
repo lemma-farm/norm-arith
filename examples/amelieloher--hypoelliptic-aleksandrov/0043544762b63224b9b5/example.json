@@ -1,0 +1,186 @@
+{
+  "id": "0043544762b63224b9b5",
+  "source": {
+    "repository": "amelieloher/hypoelliptic-aleksandrov",
+    "commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6",
+    "project": "amelieloher--hypoelliptic-aleksandrov--d7e0125892d7",
+    "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionBounds.lean",
+    "file_id": "032a0b8a7a03d8b3150d",
+    "source_sha256": "032a0b8a7a03d8b3150da9f885b09083fbccca031c9d55f4a8987632ab6615e7",
+    "start": 14,
+    "end": 19,
+    "original_start": 13,
+    "original_end": 19,
+    "declaration": "barrier_projection_norm_le",
+    "source_url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionBounds.lean#L14-L19",
+    "archive_url": "https://github.com/PalomarArchive/amelieloher--hypoelliptic-aleksandrov--29cafd061e52/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionBounds.lean#L14-L19"
+  },
+  "native_target_name": "HypoellipticAleksandrov.KineticAleksandrov.Autonomous.barrier_projection_norm_le",
+  "source_declaration_label": "barrier_projection_norm_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a727d40bf2e4a109ac257b469929ea9a95947404f97d9acd5390d33436612d43",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "647df254ea8a2d156b78868181a128050802c0d88a8b10440e643c289bb0a930",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionBounds.lean",
+      "sha256": "078e2988ec041656ab3c685db909d04fad4eb1564deaa1828e4660c7c0c5b333",
+      "bytes": 2975
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionJets.lean",
+      "sha256": "43e6401ef3e61cfc133a73f2c9d26c3c7b6cdd2dc207e9472128e871a1116559",
+      "bytes": 5440
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsFiber.lean",
+      "sha256": "514bf276b4ad9fe7279f1985aebe26a8d16e44370a2e1b8749081cb331eda08c",
+      "bytes": 3369
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsLineWeak.lean",
+      "sha256": "c95936eef03a91df8d1a02981f147259532242d9c1e5749bbc761656237350ed",
+      "bytes": 3694
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsModulus.lean",
+      "sha256": "dc89d921bcbcf4ead99fe44686cc1dba44e430f539108bc043d95f8e0ca3d0a6",
+      "bytes": 4318
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsModulusLocal.lean",
+      "sha256": "38a45194e7cb4b194ef8241207c5b5428e7b6d3223082ee71327d40c77f3dac0",
+      "bytes": 2662
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsModulusReference.lean",
+      "sha256": "1a46dd05420d62619167f1e82afb6ed2b01621155a96bf0fa578e142dfd43fd5",
+      "bytes": 4573
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsParametric.lean",
+      "sha256": "9f988034cebdf559ce218c1246510b3fd42c525116dcd0c0fd39d36a9102b540",
+      "bytes": 3522
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/AnnularNormalizationGeometry.lean",
+      "sha256": "ea77e21878533eec930d71c2d5bdf95cac5fa9384da88924ad2f3de1445ffea3",
+      "bytes": 3113
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/BarrierFunctionSpace.lean",
+      "sha256": "d3d0d7f3f68aab9e21adb2d21e236902070684dcce940c0c0182b6f0e6086b6b",
+      "bytes": 4511
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/BarrierFunctionSpaceGeometry.lean",
+      "sha256": "04d9dcac9161e399771321731c5a1313fd0a9874f2cb89d9ed02b155e2f16bb4",
+      "bytes": 3438
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/BarrierFunctionSpaceLinear.lean",
+      "sha256": "6868b52c32a90ded401a52e8a5f8ddc1acdd85a2163215e503e3752691edfb00",
+      "bytes": 4145
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/ExponentSetting.lean",
+      "sha256": "76f5ed684e01509175f786d48633121b850da3521766a6fb30a06a06d7e57a49",
+      "bytes": 3044
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/Geometry.lean",
+      "sha256": "a782f52a1edb1e8f056ca187d82033480d3305890d7b1f97e3d770505b34c6c5",
+      "bytes": 3285
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/HomogeneousTestLiftCalculus.lean",
+      "sha256": "0e08e274651f87ea5eaf723cf20d494174775344d2683e3e0bff8df7a0764bb7",
+      "bytes": 5259
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtension.lean",
+      "sha256": "7444d36b751683cfd4e374917a4592b4845222b001b5fb7c85614c348bb3fb06",
+      "bytes": 2779
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionBoundary.lean",
+      "sha256": "e43c6db383ea59cd84258db2d81cd425d9371a2e0e2d9e0d2e90fd55057b1a5f",
+      "bytes": 5026
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionContinuous.lean",
+      "sha256": "0f25de364754dbba7d6331354824142675f32be7e54ab43325b726976d4321dc",
+      "bytes": 2762
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionDistribution.lean",
+      "sha256": "fc1b8a06919436cc1adf2ca7867896d6c0e5c1dd7cf88382ccb922f7d2555762",
+      "bytes": 4253
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionFaces.lean",
+      "sha256": "2bed5e47ab132ed231d4045552baafba112a118391c53b269fb72d207019767e",
+      "bytes": 8042
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionSlices.lean",
+      "sha256": "b5bfd2f55b040d2d32fb217005ffff430c17eb16cc1323119e93c77fc46c6720",
+      "bytes": 2976
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginExtensionWeak.lean",
+      "sha256": "143e9b356ed8af2d16d85932eb5b24bb8a2d7f811e9e3d0cf9f78c5646010c62",
+      "bytes": 5265
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginJetsBounds.lean",
+      "sha256": "2c6c2522982bd7cb984a8faeaa15f73172d024727214f3c5d0bbcee2d86b96ea",
+      "bytes": 3558
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginJetsIntegrability.lean",
+      "sha256": "4df26d0bb334f94bd783c50fb8cfcff61d9ed9be17870e751e705880d0d2e2b8",
+      "bytes": 6103
+    },
+    {
+      "path": "HypoellipticAleksandrov/KineticAleksandrov/Bellman/OriginJetsScaling.lean",
+      "sha256": "b2cf838b35c05ca150b796b96e98ceb1b24e5e6f1dfdf28ccf3e38afc7f2b302",
+      "bytes": 4576
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "50f4e327de602c10798b31187ac25a1b404a9a3f95b0fad7c9304cf1c1ad1833",
+      "bytes": 2326,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "HypoellipticAleksandrov/KineticAleksandrov/Autonomous/SingularGreenCutoffsConvolutionBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/0043544762b63224b9b5": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/amelieloher/hypoelliptic-aleksandrov",
+    "source_commit": "d7e0125892d7bbd013c86c9c5d6a04e39e0168a6"
+  }
+}

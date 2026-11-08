@@ -1,0 +1,216 @@
+{
+  "id": "40d6fa9ede5834900272",
+  "source": {
+    "repository": "pmaronow/roughregime-palomar",
+    "commit": "ec97825d7539266fd3ebd9d0527c34b0ba5d0f65",
+    "project": "pmaronow--roughregime-palomar--ec97825d7539",
+    "path": "RoughRegime/ProjectionComplexBounds.lean",
+    "file_id": "02b6fa535b80a04bb9ef",
+    "source_sha256": "02b6fa535b80a04bb9eff6a2236d771da6664945f5617658a461a67749d2cb61",
+    "start": 35,
+    "end": 53,
+    "original_start": 27,
+    "original_end": 53,
+    "declaration": "bilinearPolynomial_complex_bound",
+    "source_url": "https://github.com/pmaronow/roughregime-palomar/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/RoughRegime/ProjectionComplexBounds.lean#L35-L53",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--roughregime-palomar--9ee2236482f9/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/RoughRegime/ProjectionComplexBounds.lean#L35-L53"
+  },
+  "native_target_name": "RoughRegime.ProjectionComplex.bilinearPolynomial_complex_bound",
+  "source_declaration_label": "bilinearPolynomial_complex_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "41bc91e1bff66003c5a42c2f0d054cb3e7ad9f48ca3b6c4fa664b0c43fe8ce5f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "7dfa4579f47ff4cdf54cae90be14e8376a4c31d03cd3727ecc0b777b97a7bc63",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RoughRegime/AnalyticCoefficients.lean",
+      "sha256": "84f3dded7a9d81cfd6acee026e1449b3099765d0ef9eece3aa060c3f43d6fb38",
+      "bytes": 4599
+    },
+    {
+      "path": "RoughRegime/Cauchy.lean",
+      "sha256": "b911b842c7ac8e58cc820d6ee1eef67c2cdc04c355d818f4b370196388c1f97e",
+      "bytes": 7192
+    },
+    {
+      "path": "RoughRegime/CombinedAnalytic.lean",
+      "sha256": "a54e896729e74a997502a4b36fce44f8c82073285de9600f499946ae2f870f6e",
+      "bytes": 15109
+    },
+    {
+      "path": "RoughRegime/CombinedPolynomial.lean",
+      "sha256": "6bab10487a8c53516ef9711ea62c441ff30ce35b021d126ad28178ef8bde20aa",
+      "bytes": 7489
+    },
+    {
+      "path": "RoughRegime/ComplexDerivativeBridge.lean",
+      "sha256": "277e5cad28b17a501daed7332b5fac6d7c185a52b3e718c9d384c27f9d354d9d",
+      "bytes": 6555
+    },
+    {
+      "path": "RoughRegime/ComplexGram.lean",
+      "sha256": "ded53a489439f7c08584d22cb02a3e6cc98955b71fb18f6ba1eaa4a82b097c4b",
+      "bytes": 4657
+    },
+    {
+      "path": "RoughRegime/ComplexKernel.lean",
+      "sha256": "de77259f126d29a3ea017f644bd11381dd0648f9cabcf894e32d4922a8afa6ef",
+      "bytes": 11383
+    },
+    {
+      "path": "RoughRegime/ComplexPolynomialKernel.lean",
+      "sha256": "b95cab9658fc935b84bdcdba29a9ba0c60c7e24f891c4bea3bf01c6dd84e480d",
+      "bytes": 5916
+    },
+    {
+      "path": "RoughRegime/HermitianDenominator.lean",
+      "sha256": "39c572a785fb28e8c76404e4fcfb2edde103cdc3c09628294c2dc71e55e4f932",
+      "bytes": 4740
+    },
+    {
+      "path": "RoughRegime/HilbertGram.lean",
+      "sha256": "eb74a1b14675657533845118e027a3575e8b6e3d9131201e6c31e6217bce6d2b",
+      "bytes": 10783
+    },
+    {
+      "path": "RoughRegime/KernelExpressionFinite.lean",
+      "sha256": "60d40bf12a030b8b9e138a8926a46daf01ecbd7da53dcce649eb833ea9e28605",
+      "bytes": 3837
+    },
+    {
+      "path": "RoughRegime/KernelExpressions.lean",
+      "sha256": "920405b7a1e74a07c80f6d579207bd5dab6f05b9c73577f9bbd7bb44233aecfb",
+      "bytes": 10985
+    },
+    {
+      "path": "RoughRegime/KernelNeighborhood.lean",
+      "sha256": "c9a2de537664def98ef5cf1880378ea84711cb80aa812aca52f11752a0eaa79d",
+      "bytes": 2692
+    },
+    {
+      "path": "RoughRegime/KernelUniform.lean",
+      "sha256": "83e12b96561487009f66a4c8943fd519bff378c69d7b6c2b8fe66a5c3d86134c",
+      "bytes": 10382
+    },
+    {
+      "path": "RoughRegime/MatrixDeterminant.lean",
+      "sha256": "8589c0e69dc0793be4ac4e4d63e409cfc2093aaba0966885dce06768294b59bf",
+      "bytes": 22050
+    },
+    {
+      "path": "RoughRegime/MatrixKernel.lean",
+      "sha256": "2a2e1eed71da2901f3f8c43d74e6aba851076c81e8094d6cd62e3bea6b4ba9f9",
+      "bytes": 6420
+    },
+    {
+      "path": "RoughRegime/MatrixUpper.lean",
+      "sha256": "014f331c6717e4cf769a0eaa83fa4d695f0d0a711a42dc95dcf2a7eaa3b7f2c0",
+      "bytes": 8336
+    },
+    {
+      "path": "RoughRegime/PolynomialDerivatives.lean",
+      "sha256": "2bf937fcd8c547328795818d3cddd58fcffc43c23af99988334f2dfc5a259b84",
+      "bytes": 4596
+    },
+    {
+      "path": "RoughRegime/PowerSeriesAnalytic.lean",
+      "sha256": "45170aa480b27bf0cf83fa51d2a73933c35b144e1f4c91eada0dc1e1b1ce513c",
+      "bytes": 7138
+    },
+    {
+      "path": "RoughRegime/ProjectionApproximation.lean",
+      "sha256": "95a574dc88113291ce4aeb0426e461f7045a9014550ca3ae4a8f4cd1cd38c7f8",
+      "bytes": 6606
+    },
+    {
+      "path": "RoughRegime/ProjectionComplex.lean",
+      "sha256": "5c4ffe9183baa0a8882c7e17c2718242cb4029c65168222edab45172d32ba682",
+      "bytes": 5333
+    },
+    {
+      "path": "RoughRegime/ProjectionComplexBounds.lean",
+      "sha256": "cea141d4500f3a8547c3194568516b4277bbced0be9d240c7d2a015730958ded",
+      "bytes": 4900
+    },
+    {
+      "path": "RoughRegime/ProjectionError.lean",
+      "sha256": "c7f58d546653e382ecbaafe000ecf89d991db764d2334a950ade7093053d6a54",
+      "bytes": 6778
+    },
+    {
+      "path": "RoughRegime/ProjectionFrame.lean",
+      "sha256": "ada92651e1b123b1e57747388b88e745c846bd4ff4fcab346d60c0a170d2c083",
+      "bytes": 8494
+    },
+    {
+      "path": "RoughRegime/ProjectionGram.lean",
+      "sha256": "bb7a73d9d3cac7bbabb3d7df74402ac79dce50b83fca558c357c5fda13a14676",
+      "bytes": 10533
+    },
+    {
+      "path": "RoughRegime/ProjectionIncrementPolynomial.lean",
+      "sha256": "dcd76300104b35265dcb2d8e90a311e06308e20def6141c89ed194c8ffbedc91",
+      "bytes": 3475
+    },
+    {
+      "path": "RoughRegime/ProjectionPolynomial.lean",
+      "sha256": "86cede4799ab5cb0b68b872f251ab07e13d816b893a1a7d41762a140022a4964",
+      "bytes": 6993
+    },
+    {
+      "path": "RoughRegime/ScalarDenominator.lean",
+      "sha256": "f3259b27c34883d69765aa28cca2b63ee0006fad11cf64c5093f2d59cdffe4c4",
+      "bytes": 1933
+    },
+    {
+      "path": "RoughRegime/SeriesBounds.lean",
+      "sha256": "39db65347162846114ff94f2bc3a596bca4b357314a8e74ac0ea32ffe5226610",
+      "bytes": 8606
+    },
+    {
+      "path": "RoughRegime/UniformExpressionFamily.lean",
+      "sha256": "ea71c7c4a456d50256da9ff1894d9827c6234cbc8bf3caeb80496fd44075d232",
+      "bytes": 2228
+    },
+    {
+      "path": "RoughRegime/Upper.lean",
+      "sha256": "41401eaff2042252727eee1c10bea35cfc33fa93e1d5bb52e19a65f09d9efbc9",
+      "bytes": 23712
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "391f4fbe321180fc43f2dbbad832b8bc63ba153df24a50bc55429c81b1633cda",
+      "bytes": 486,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "8ae437885002eb4c68724bad2320c4bc4ed48a204f81c042f9ba8e4278eaaa17",
+      "bytes": 3575,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RoughRegime/ProjectionComplexBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-7dd11aab5ec1809f/40d6fa9ede5834900272": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/roughregime-palomar",
+    "source_commit": "ec97825d7539266fd3ebd9d0527c34b0ba5d0f65"
+  }
+}

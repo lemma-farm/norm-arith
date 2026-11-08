@@ -1,0 +1,66 @@
+{
+  "id": "30b181404030c8ab90b8",
+  "source": {
+    "repository": "jconorgrogan/prime-minor-arcs-2-15",
+    "commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba",
+    "project": "jconorgrogan--prime-minor-arcs-2-15--f369f267b4dc",
+    "path": "Proof/GuthMaynardS2ShortGapPhase.lean",
+    "file_id": "0b0a4ab3157e58f5cdd0",
+    "source_sha256": "0b0a4ab3157e58f5cdd0b93d6fa7c7d65493aecf22771ca7d40ab6dd72975c5d",
+    "start": 39,
+    "end": 49,
+    "original_start": 38,
+    "original_end": 49,
+    "declaration": "first_lower",
+    "source_url": "https://github.com/jconorgrogan/prime-minor-arcs-2-15/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/GuthMaynardS2ShortGapPhase.lean#L39-L49",
+    "archive_url": "https://github.com/PalomarArchive/jconorgrogan--prime-minor-arcs-2-15--b3b69567282b/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/GuthMaynardS2ShortGapPhase.lean#L39-L49"
+  },
+  "native_target_name": "GuthMaynardS2ShortGapPhase.first_lower",
+  "source_declaration_label": "first_lower",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "c894f5a16b8e04acdf489109a65738a675f52f421271777028a9a415dfe83cc9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c8264c5eafe821bac96d41d91e9526f8504e64c689f8638815619058ffa2eadd",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Proof/GuthMaynardS2ShortGapPhase.lean",
+      "sha256": "1caf0eba1381df37c626b169f5ee5eb709892c30fbdd9aae90b59992a60e98c3",
+      "bytes": 4281
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e34d0de7044464273f9d229eb871ca4b9ab34d9059018b01dc49d99b2485871e",
+      "bytes": 61918,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Proof/GuthMaynardS2ShortGapPhase.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-import-minimization-v2/30b181404030c8ab90b8": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jconorgrogan/prime-minor-arcs-2-15",
+    "source_commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba"
+  }
+}

@@ -1,0 +1,54 @@
+import V7.Proofs.Stage5AboveTwoLowerS5AGlobalC2.Continuity
+
+namespace V7.Stage5AboveTwoLower.S5AGlobalC2
+
+open S5ARepair
+
+                                                                      
+                                      
+                                                                     
+                                                      
+
+                                                     
+                                                                     
+                                                              
+                                                                            
+                                             
+                                              
+
+                                            
+                                                                   
+                   
+                                      
+                                                
+                                                        
+                                                      
+                                          
+                                                                
+            
+                                
+                                                                              
+                                                               
+          
+
+                                               
+                                                                     
+                                                      
+                                        
+                                        
+                                                    
+                                           
+
+                                                                         
+                                                 
+                                                                     
+                                                        
+                                                                             
+                                           
+                                
+                                              
+                                               
+                     
+             
+
+end V7.Stage5AboveTwoLower.S5AGlobalC2

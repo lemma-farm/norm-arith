@@ -1,0 +1,316 @@
+{
+  "id": "c6df643dcbac75cc6a8d",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d",
+    "project": "mrklwk--zeta-density-39-over-17-lean--c55fc0088bd4",
+    "path": "OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean",
+    "file_id": "0a07e56e116dc99a70d7",
+    "source_sha256": "0a07e56e116dc99a70d7f5fd481e6b49e8e9669478c7a3085c6ef2dbe02f5251",
+    "start": 280,
+    "end": 286,
+    "original_start": 269,
+    "original_end": 286,
+    "declaration": "quadratic_gram_diagonal",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean#L280-L286",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean#L280-L286"
+  },
+  "native_target_name": "OAI.QuadraticInitialBound.quadratic_gram_diagonal",
+  "source_declaration_label": "quadratic_gram_diagonal",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "480b16be627a8fddfb9fe4998ba07426a27c43f1379a51ea68c740a854e9f63e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9ed31bbb535da4d9ca7ac187245fd6e7ef20b5293b82bb8f594c1dd3b695220b",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean",
+      "sha256": "e1321b952309fe18a1965ad3635ce4acd429ae704d1e19c9d932000d57f8d280",
+      "bytes": 30047
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinEmbedding.lean",
+      "sha256": "c4b2ca6d28a14da55557a97f12370c9ecf4f7121f65cc279b6c44fa3520025ee",
+      "bytes": 26940
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/EisensteinIdeals.lean",
+      "sha256": "596e51e796fe583254d5a25e54692f2dd4ba22262d67f192f67628292acc69ee",
+      "bytes": 34154
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/IdealMobius.lean",
+      "sha256": "e54e382325498aa87d70099a914db408d5eefe5e361658057bbb735389a3e4dd",
+      "bytes": 26596
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/LatticeCount.lean",
+      "sha256": "b1a5e1cc10f7aabe21014c71cb4b060831a457eb56554934c600c92f396388fb",
+      "bytes": 20962
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Arithmetic/NormFiberMellin.lean",
+      "sha256": "63efc819de38011b0a717734d727325bc529a52368ed54a8d2f2964725e32bdd",
+      "bytes": 29291
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/ChineseRemainder/AdditiveCharacters.lean",
+      "sha256": "7280fc8693496283dcf296e2709c72fd8450a0db94b391cec633364b20ce0b24",
+      "bytes": 20954
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Cusp/MatrixPhases.lean",
+      "sha256": "09b07b03ba0359d9a5f49ffef6fb81fc8340808b4aac3f143831ec21370e0d81",
+      "bytes": 24254
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Fourier/PositiveLogProfiles.lean",
+      "sha256": "391b03973645d6ed3602c3350e9a06053e6b79c59bb6267d16fd3a26f9e31e2a",
+      "bytes": 37160
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/AbelPhaseLimit.lean",
+      "sha256": "64924b9173cd5f4a0ea6df725cadff614133642123fec0fb69b9875ecdd76306",
+      "bytes": 24482
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/ActiveConductor.lean",
+      "sha256": "83828c1330f2d1fcabe2048dd94e98dbdc9a9fe8cc09cec96a4742aafb988b6d",
+      "bytes": 29768
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/ChineseRemainder.lean",
+      "sha256": "d2b946c5c8832a3bc20b2d3513989f8066edda6482dcc74ced4cd205f9421878",
+      "bytes": 28299
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/CompletedExpansion.lean",
+      "sha256": "976160546f182fde4a62a541ee582338aa23ad0c9f2a41b0d2bd44a933b275f3",
+      "bytes": 31130
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/CubicNormalization.lean",
+      "sha256": "f62f98a0a6e854a3df99f73db1299643e4d484bda55ae67793105caa525df84d",
+      "bytes": 22422
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/CubicTrace.lean",
+      "sha256": "eb9a28ceff59f78e7b185051903cba19a08b852439f47df8af46b9e53ff4e6a7",
+      "bytes": 33855
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/FiniteFourier.lean",
+      "sha256": "3d7b1445719fced83d493ed29589e52343719bc6a3fe752bb0daa01f95c713f1",
+      "bytes": 57608
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/GaussianDualLimit.lean",
+      "sha256": "733a969c820a3bad6cce87f12ee7ff51c31d59a2c187ff249b5f5d3a6ce73c7a",
+      "bytes": 22075
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/GaussianFiberMass.lean",
+      "sha256": "b7763875c3d3c58acb69e63cec54c6beb08d0d1834bad04f0d2f20ea3118f982",
+      "bytes": 23969
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/LocalProductAssembly.lean",
+      "sha256": "31200f3a7cbc46d946bb1d0054f51c194631f9c470ed19e64131d1c5306ba981",
+      "bytes": 24130
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/MixedConversion.lean",
+      "sha256": "b4bd9fd3bdd1454b4483c10abe425afc371d15e62f51ade05d0de7945324c16a",
+      "bytes": 35390
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/QuadraticNormalization.lean",
+      "sha256": "bc4819857bf11e330cebd6730f8f74ef60ec8e10a177c6a8680eba26ed63e43d",
+      "bytes": 33487
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/QuadraticTrace.lean",
+      "sha256": "c927302edd9c78b10507a6f4b34f0797243a71740629aab4f1275f771d0e0823",
+      "bytes": 23225
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/RamifiedTracePhase.lean",
+      "sha256": "c85b49158f718b073d51ae2c5e5e37ee082a378a2bd92a58730cf959fc689bb4",
+      "bytes": 22321
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/RayCharacters.lean",
+      "sha256": "0baf1f61f31fc0b6bc75c219d22a41787fce2a353eae9905ce00c2c65aafc70a",
+      "bytes": 32975
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/SecondPoissonScale.lean",
+      "sha256": "cc0c921b534ffb6da11195d4beb082d21e796afd5a63b484ec4f8892be49d10f",
+      "bytes": 39602
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/SexticNormalization.lean",
+      "sha256": "bc69a639266e482856c95481e4e3b318afdf9f00a575f6d19677359e508b0720",
+      "bytes": 24114
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/SexticRadialPoisson.lean",
+      "sha256": "cf2fb6f44d40954ecd579c084fe6c319953bbc0c0e895e84ffb274a4478151c8",
+      "bytes": 38271
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/SquarePhaseFactorization.lean",
+      "sha256": "2167cb758206c7883ab448a36943e30eaaf71de8e55067345b09b2536fd80f04",
+      "bytes": 26933
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/GaussSum/ThetaLocalRows.lean",
+      "sha256": "f1ef8b5c1271d8e9dc4869b4ca6ed1126dd329fa03c80af9f985fa53070877ff",
+      "bytes": 22049
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/FiniteEulerFactors.lean",
+      "sha256": "c82ce7b6ea8ce33f0fe1689bd1296c6c4225290b8118ae3dc44f22e1227d88c3",
+      "bytes": 27932
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/LocalEulerIdentities.lean",
+      "sha256": "00274099210d0c6f50d1f879fd27c2126324e6dab7b5a2d776e53db80033d390",
+      "bytes": 31117
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/NormFiberCharacters.lean",
+      "sha256": "0e3aaadca3be7fae8ac69a016b6103b5301f3c8a412a4d03edb0a6c9ab7efd3c",
+      "bytes": 26691
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Hecke/PrimeExtraction.lean",
+      "sha256": "d53c87d81984619de4414306459c5f166123ca8a190e9e1143d09b72df5dcde0",
+      "bytes": 22627
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/CompactScale.lean",
+      "sha256": "c763ca117d55b806ee196e38246fbcb16343f12ae84d2c5932095f682f8287ad",
+      "bytes": 33552
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/CompactWeights.lean",
+      "sha256": "a41ec69e9c8640ce5f514e2d126792a3a65c5f76c8f3e6a248f169333ffda78d",
+      "bytes": 22373
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/ExponentialSmoothing.lean",
+      "sha256": "492785d19b991c80acd8c2148d4296bc17759308e2bb851773d4c71147144f91",
+      "bytes": 24749
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/FiniteEulerRestoration.lean",
+      "sha256": "10fc66947c9076fce02c7a6b7649f8e6cc3db06e51a63ee15d94020c0722059a",
+      "bytes": 28925
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/LocalNonvanishing.lean",
+      "sha256": "f3227456b97ab2c1d558b789a413407aeb511d0307687396b5ee140ad722e261",
+      "bytes": 23841
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Mellin/LogProfiles.lean",
+      "sha256": "8a7c916d15764c355a8c30780bed0e75ca5b9c00b64c418022a6e5857e3df726",
+      "bytes": 62340
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Poisson/BinaryGaussian.lean",
+      "sha256": "80933688db26bfd692357b89b4d0e363c621511f75c22080f866d2e2e48b9f2e",
+      "bytes": 29430
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Poisson/EisensteinLattice.lean",
+      "sha256": "5adbf466178aef48936f39de4f37764c640c21abc8d5597926cfae96e36744a5",
+      "bytes": 26774
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Poisson/GaussianMoments.lean",
+      "sha256": "9b6a42023dbeb9e726cc79c71aba735034b8c8d2dcadc4bef24d6ac75d767f2b",
+      "bytes": 22627
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Poisson/OscillatoryGaussian.lean",
+      "sha256": "4c967cdc71bed657e098ce89a1e340cecc76f1c02b4507b9ae49454ca0379c9b",
+      "bytes": 23063
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/Poisson/RadialFourier.lean",
+      "sha256": "12953680f768e2b3624ca3eccb6150069d9470eeca4ce033728278915e935454",
+      "bytes": 26559
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrimeRows/ActiveGaussFactorization.lean",
+      "sha256": "fc77b39062d7b671416d51662c5fb61e3ffdb24d3c6a241f66c8f918db3087d6",
+      "bytes": 37341
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrimeRows/IdealGenerators.lean",
+      "sha256": "65c3a7202ee7006bc28e259ed17c6f8d8f60e2664596c4153480c516be5ef9ed",
+      "bytes": 25689
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrimeRows/NormFiberExtraction.lean",
+      "sha256": "81bb65c09b1c965da2e6758dde3d2858e288dfe54b0cb230ace6f9a38c6a42d5",
+      "bytes": 24641
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/PrimeRows/RationalApproximation.lean",
+      "sha256": "e8b2a27643d08a42ce7d0cc43d1065ddd520ba19dc023d183f93f4c676676f90",
+      "bytes": 22544
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/QuadraticSieve/CoefficientCancellation.lean",
+      "sha256": "3c389b131c932007f046f1747db7ff0940633db992e6a02fa1ef848dfc4e1edb",
+      "bytes": 33832
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/QuadraticSieve/CrossSeparation.lean",
+      "sha256": "87fa1b896e072e457d10c848e7654841159fda8a9eafeba15a2d3ff62475fdaf",
+      "bytes": 27000
+    },
+    {
+      "path": "OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean",
+      "sha256": "89d11459b72eb4b1df9a6a86309394a8feec01bd00eb3a4ededfe807e8b942db",
+      "bytes": 29606
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "6950d352df01d762a5c0465b77e813bd563f727d0d5094bc9ff1561d8020261e",
+      "bytes": 258472,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    }
+  ],
+  "build_target": "OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/c6df643dcbac75cc6a8d": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d"
+  }
+}

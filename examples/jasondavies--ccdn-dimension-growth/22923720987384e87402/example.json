@@ -1,0 +1,63 @@
+{
+  "id": "22923720987384e87402",
+  "source": {
+    "repository": "jasondavies/ccdn-dimension-growth",
+    "commit": "bb025e7207f3a35a21b898629f5678b72aa7e44f",
+    "project": "jasondavies--ccdn-dimension-growth--bb025e7207f3",
+    "path": "CCDN/ClassGroup/NumberFieldEuclideanLattice.lean",
+    "file_id": "0a35e2519190213b3e8b",
+    "source_sha256": "0a35e2519190213b3e8b7a851ac51d3485301502c35dab940522e948702eebd2",
+    "start": 167,
+    "end": 184,
+    "original_start": 164,
+    "original_end": 184,
+    "declaration": "euclideanNumberFieldEmbedding_norm_mul_le",
+    "source_url": "https://github.com/jasondavies/ccdn-dimension-growth/blob/bb025e7207f3a35a21b898629f5678b72aa7e44f/CCDN/ClassGroup/NumberFieldEuclideanLattice.lean#L167-L184",
+    "archive_url": "https://github.com/PalomarArchive/jasondavies--ccdn-dimension-growth--ffcad32f3870/blob/bb025e7207f3a35a21b898629f5678b72aa7e44f/CCDN/ClassGroup/NumberFieldEuclideanLattice.lean#L167-L184"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "euclideanNumberFieldEmbedding_norm_mul_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "72503c029757d40ec3ab7a464729ad6e6072bdf2fa6c31c953d81a9ad1902a5f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "35626c40d1312957dad43916aa30b1e8e8aaf58c70ebc336a955481c6b913bc4",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CCDN/ClassGroup/NumberFieldEuclideanLattice.lean",
+      "sha256": "0a35e2519190213b3e8b7a851ac51d3485301502c35dab940522e948702eebd2",
+      "bytes": 9763
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "8ee5b648532d515ed5484916bea6e368fbb4855005b7fcf8bc3aea3cae873775",
+      "bytes": 1315,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "696ed0fce65e8b77d15a295631a30eddddf44e894ce2474713fbe3911736c7b4",
+      "bytes": 3580,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "CCDN/ClassGroup/NumberFieldEuclideanLattice.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jasondavies/ccdn-dimension-growth",
+    "source_commit": "bb025e7207f3a35a21b898629f5678b72aa7e44f"
+  }
+}

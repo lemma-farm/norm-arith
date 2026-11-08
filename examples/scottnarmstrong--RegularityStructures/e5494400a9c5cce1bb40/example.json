@@ -1,0 +1,68 @@
+{
+  "id": "e5494400a9c5cce1bb40",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "RegularityStructures/Analysis/Kernel/Symbol.lean",
+    "file_id": "080f188aa955ec977fe7",
+    "source_sha256": "080f188aa955ec977fe769f4f87c242e0d2f015df0c6e920f158374e7a2a2862",
+    "start": 161,
+    "end": 170,
+    "original_start": 161,
+    "original_end": 170,
+    "declaration": "abs_le_mul_one_add_rpow_neg",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Analysis/Kernel/Symbol.lean#L161-L170",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Analysis/Kernel/Symbol.lean#L161-L170"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "abs_le_mul_one_add_rpow_neg",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "d4ddcc9a446ce0d6b56aab64ee61fb2e2d9781957432e8406ed54f178ace9110",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "313df19a2e6c8442c884fc5a8c85f9515cef026030efb3fbb32b8777a5d689d5",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Symbol.lean",
+      "sha256": "080f188aa955ec977fe769f4f87c242e0d2f015df0c6e920f158374e7a2a2862",
+      "bytes": 9061
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Schwartz.lean",
+      "sha256": "2d5914c795e6f1f55e3e97a29c65b66ccd9241718310a6ac7b9089e4724b7089",
+      "bytes": 7525
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "20720495ad864c165d32838ea360dd8cd3bca5a04d6c3525ed8718c09375b692",
+      "bytes": 3841,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c23510dbf16297f927a8cb0b42d0816730c679720d11b5f8cd95e3da16240a90",
+      "bytes": 3555,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "RegularityStructures/Analysis/Kernel/Symbol.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

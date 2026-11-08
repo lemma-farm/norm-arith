@@ -1,0 +1,98 @@
+{
+  "id": "513e981827e89063e24c",
+  "source": {
+    "repository": "mrklwk/kakeya-two-scale-lean",
+    "commit": "1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c",
+    "project": "mrklwk--kakeya-two-scale-lean--1eba4ec16c68",
+    "path": "KakeyaTwoScale/WeightedBrushCounting.lean",
+    "file_id": "08b8117c12c31f2260ef",
+    "source_sha256": "08b8117c12c31f2260ef6d6982e6c0fcaaa2452281c7aa5e63acf631d9a5b537",
+    "start": 40,
+    "end": 59,
+    "original_start": 40,
+    "original_end": 59,
+    "declaration": "weighted_union_volume",
+    "source_url": "https://github.com/mrklwk/kakeya-two-scale-lean/blob/1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c/KakeyaTwoScale/WeightedBrushCounting.lean#L40-L59",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--kakeya-two-scale-lean--545e237f3070/blob/1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c/KakeyaTwoScale/WeightedBrushCounting.lean#L40-L59"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "weighted_union_volume",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "abbd54b7f011fbb6f3c561f3e234e7fe3f347d460c56516f58ede9ac5f17eec2",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f29b7d1c67791515f2cf2f60efda54695fd0d923b7ab7d41cf505f75de1f7bfe",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "KakeyaTwoScale/BrushGeometry.lean",
+      "sha256": "79c352c6e5ae2c51a47d56c0e1803753cc824fcd2e48d8a9ff1350c4c609d3b4",
+      "bytes": 5192
+    },
+    {
+      "path": "KakeyaTwoScale/CellVolume.lean",
+      "sha256": "e6e1f90719758a93c3d38bd4fb12ccbe89f167e1760d5d7131a3868842fa78bc",
+      "bytes": 3162
+    },
+    {
+      "path": "KakeyaTwoScale/NestedGrid.lean",
+      "sha256": "cd98487bbe4a1486b97893135346e9ac5c1c8aab78bc2f142dc9798bd5841002",
+      "bytes": 5726
+    },
+    {
+      "path": "KakeyaTwoScale/SegmentGeometry.lean",
+      "sha256": "4639f51ebe2798ba79bfac4b5295cb35246c89a41bf71130857b4f162cb9a36c",
+      "bytes": 2474
+    },
+    {
+      "path": "KakeyaTwoScale/WeightedBrushCounting.lean",
+      "sha256": "dd28ac26478ef1d451937c462ad2496383991202a062acc0a3814ace406324bb",
+      "bytes": 10356
+    },
+    {
+      "path": "KakeyaTwoScale/FixedParents.lean",
+      "sha256": "d5f7d799b1199452e8cd4b2fcfc39ae2fe5e820b43d7698e48750c73179ce1ca",
+      "bytes": 4955
+    },
+    {
+      "path": "KakeyaTwoScale/MeasureSelection.lean",
+      "sha256": "87d578286a58a40dcd05e81e44e5b42a7e2d9c6b70b6c79a11779b21c735fea0",
+      "bytes": 4320
+    },
+    {
+      "path": "KakeyaTwoScale/Selection.lean",
+      "sha256": "f679dec1062735b4c556ac7c72b4bbde7d2070521fd0a971c47b8b10c5dab511",
+      "bytes": 2236
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "fc6b33bf4fd6eb3b5ba0ae784c77faac496c279b4cb15f98f22657a72ad211c9",
+      "bytes": 1060,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "ff501511546c88e3dcc3211f5f9603ebbcfb637ab266c4a4a6b511681bbc6503",
+      "bytes": 3576,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "KakeyaTwoScale/WeightedBrushCounting.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/kakeya-two-scale-lean",
+    "source_commit": "1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c"
+  }
+}

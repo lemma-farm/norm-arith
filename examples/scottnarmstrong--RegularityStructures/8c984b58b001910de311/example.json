@@ -1,0 +1,1481 @@
+{
+  "id": "8c984b58b001910de311",
+  "source": {
+    "repository": "scottnarmstrong/RegularityStructures",
+    "commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f",
+    "project": "scottnarmstrong--RegularityStructures--231a68c9a983",
+    "path": "RegularityStructures/Abstract/Ext514W/PolyBoundNear.lean",
+    "file_id": "093718370c9adf0fce35",
+    "source_sha256": "093718370c9adf0fce35410bf744d56b1563f823466e9b22349f820590aa2d9d",
+    "start": 65,
+    "end": 93,
+    "original_start": 65,
+    "original_end": 99,
+    "declaration": "exists_abs_tsum_extU_le_win_near",
+    "source_url": "https://github.com/scottnarmstrong/RegularityStructures/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/Ext514W/PolyBoundNear.lean#L65-L93",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--RegularityStructures--2e84fb607643/blob/231a68c9a98369b83a47bf307c58f59c19e7f57f/RegularityStructures/Abstract/Ext514W/PolyBoundNear.lean#L65-L93"
+  },
+  "native_target_name": "RegularityStructures.Model.exists_abs_tsum_extU_le_win_near",
+  "source_declaration_label": "exists_abs_tsum_extU_le_win_near",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "4849a3a32a670596fd6fcb88fadd486cca2c8ffa26077b83349b12e0cd07b813",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "978cd9b97c5f330e356543ef7e5cf5f343fce85ac7b7e6e722f7af9e1ac8d69c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "RegularityStructures/Abstract/Ext514/Bounds.lean",
+      "sha256": "807a32586b136112c39f4426f7b5f9699e6d3eb64d6600031db6195cc3cd94ba",
+      "bytes": 1957
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514/Bracket.lean",
+      "sha256": "229afcc68f01cd1be9587137aa745ff82d66dfd19894527f019b7a4eb93c76cf",
+      "bytes": 1672
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514/Decomp.lean",
+      "sha256": "f3273b432811714f8a69d6ca6df226dcce0a72b0b7b81602ba52c3e32419913a",
+      "bytes": 5149
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514/Large.lean",
+      "sha256": "b3bf2ffab900a6af00f66c810ac20491473f8ff50f112aae6561baba77788731",
+      "bytes": 1439
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/IdentityNear.lean",
+      "sha256": "6b23915d117fa403f038f8bd863efab5ba1b0096b713817d12fb9b2562490485",
+      "bytes": 8688
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/PolyBoundNear.lean",
+      "sha256": "093718370c9adf0fce35410bf744d56b1563f823466e9b22349f820590aa2d9d",
+      "bytes": 5106
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/SeriesLargeNear.lean",
+      "sha256": "4a7436f5c16858c88dbfdc4e26682a53365061927db9eac4977d495ede1d9e71",
+      "bytes": 8819
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/SeriesSmall.lean",
+      "sha256": "0d0a62ebae38ead2236b2d975a40a6e930bba5e9c5be3839d8f96ed26a67dcdd",
+      "bytes": 2100
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/SeriesSmallNear.lean",
+      "sha256": "ebf3395d0f15bfa96acd3a64dd7c1bd83272b4a16babf2670214b7f56f51cbd1",
+      "bytes": 9279
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/SettingNear.lean",
+      "sha256": "ba1838d725f65c02e88c8a9cbb45b8523b08ea20078f4268ba913574af8960de",
+      "bytes": 5730
+    },
+    {
+      "path": "RegularityStructures/Abstract/Ext514W/TermsNear.lean",
+      "sha256": "ec116db31e03614aab3df680575abbff5a813a47c59249ea2e6d1d03e0ce5c10",
+      "bytes": 7967
+    },
+    {
+      "path": "RegularityStructures/Abstract/FixedPointTimeSlab.lean",
+      "sha256": "d9383582be8d25fcde9299453e25c25dfb4fa88becba501ed31138ca219f5fe9",
+      "bytes": 2306
+    },
+    {
+      "path": "RegularityStructures/Abstract/Germ.lean",
+      "sha256": "411c97f2995acbfaa2d0952909abf081f85ee8f0663b41aca0fa00034d0d808f",
+      "bytes": 1877
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration.lean",
+      "sha256": "96fd304cef8961890fceac9539413ed90c6c656f1c529655636374be5bce3edb",
+      "bytes": 5841
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute/KConv.lean",
+      "sha256": "82851343619fa688057b2730ab3172c30b1f269d3bc631f3ecd521b7f400166b",
+      "bytes": 2563
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute/Lemma516.lean",
+      "sha256": "eb997e8f2b77ed63cd47e5612fe69a1f05dd4101e5dd5b38e1ed11ac6cccaad1",
+      "bytes": 2211
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Commute/Reg.lean",
+      "sha256": "ce2268ee40e2736d117f8a43b294d59229a1c7168612b3226583725b6787bb89",
+      "bytes": 3985
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Analysis/Linear.lean",
+      "sha256": "0b93b921cc926adc231db621256c17e75f8aa3d64831483f31f3e6e42508af53",
+      "bytes": 9953
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Analysis/Reflect.lean",
+      "sha256": "ebdc62c706b411b0f36e3f95838ea4723725562f397f52c56001e8ad0377aed8",
+      "bytes": 13455
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Analysis/Shell.lean",
+      "sha256": "7c51bf5415fb9b334b03a0afa92fc077c1f1d0f3b47a18f29ca80db445e67053",
+      "bytes": 5477
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Analysis/Small.lean",
+      "sha256": "11c1ef3f2ebe9200fae472b903636e5a3e2cdee06fbbea401808bc99aed251e6",
+      "bytes": 5015
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Analysis/Split.lean",
+      "sha256": "22798b8bb893db19d0315621d1bb755789e47eb7987605323bf2e045fa3db5a3",
+      "bytes": 4468
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Bundle.lean",
+      "sha256": "75ae1c7ff74618cdbcbdc0326ede0e1ec832969c5b2e43f44dee48d38e38f5c8",
+      "bytes": 3264
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Commute.lean",
+      "sha256": "8adfd34b6f991087ace8271a882ae4a932bda54305436fc64411ad969be3265b",
+      "bytes": 3057
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/KConv.lean",
+      "sha256": "72e1ed50a23a2aacdcd884c6175dfd69884a9660f29ba40c2a2a0fa2e411cb9f",
+      "bytes": 1481
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/LocalOrder.lean",
+      "sha256": "23c7bc9bd9cb0b23bc8e34c2740eba5c44001536229374b67d87a19bfd1c8c00",
+      "bytes": 7505
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Growth/Setting.lean",
+      "sha256": "00fdb720642e41e23d6640305ba1584a893bcb06a4da0b052743685cfb80a903",
+      "bytes": 2478
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/JMapLinear.lean",
+      "sha256": "0b64143cf0bd74a61b9e6f4063a48edeca2d8bd661396a670d9acbf78a4b0e56",
+      "bytes": 1797
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat.lean",
+      "sha256": "96fb7791f31b5d6fa315d9a5733391b11ccb3c67c5fd7e28e0dab9935baff978",
+      "bytes": 698
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Approx.lean",
+      "sha256": "7f084cd311424d146240e6a5692d1f943d1bbf5222aacce762bf256d9ee4a8b0",
+      "bytes": 6246
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/ApproxPoly.lean",
+      "sha256": "1e0b10a538c97b2fa52ca39c2d284dff8968a950db87f12956e98bab83f18eed",
+      "bytes": 4257
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Compat.lean",
+      "sha256": "f7da8382d6f7f2e67e5eef799d9a328c7a0f0baeaa29a4370b2387bf33fafb0f",
+      "bytes": 5390
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyCompat/Inject.lean",
+      "sha256": "f331bfd2229a2b6baf84ffe4eb22596b4eed3cff62cf4fe6a03f36a9797a058b",
+      "bytes": 2848
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyPairing/Limit.lean",
+      "sha256": "77c255ddf8d4dff13e5ab441659483728c000b69f19c72b669ce1debbd85cb3d",
+      "bytes": 6763
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/PolyPairing/Vanish.lean",
+      "sha256": "7c14ec324259b7cbf59d1630ed38836f1393cb925b8d09763f86ca3f25697915",
+      "bytes": 3301
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising.lean",
+      "sha256": "0a8eb85152ad92d6a967efa57a11a1b1947f72d4f90baeda7e92aae4d0ad5155",
+      "bytes": 735
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Def.lean",
+      "sha256": "f7fae9a59403ded6ce48d7191844d6df91eb9eea2144bf06dad37adde755b610",
+      "bytes": 1777
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Germ.lean",
+      "sha256": "15196bdc79a0efba6873146b774e810109bd7a7ff692d6fe9e75496eb3d34aa4",
+      "bytes": 1685
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Measurable.lean",
+      "sha256": "8351bc7eca1c7c1f87ec6ea3b0ca62c0c262b6b0875a45d12970a416febfdad9",
+      "bytes": 1485
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Realising/Reg.lean",
+      "sha256": "0c603251040152fc7ce8f0e43a74f5ce96d751d8b63cce3ce4a0138d71ec264f",
+      "bytes": 1471
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/SchauderComp.lean",
+      "sha256": "3adea990e3dc4915fa5a681409a1ce7408a7c674241028b2d84624d991363724",
+      "bytes": 2857
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Sector/Coeff.lean",
+      "sha256": "474e7d298637c3bd5c6fc196698516e19a7eba1bb4542f59b4bd2c5ee7daf6f8",
+      "bytes": 1633
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/Sector/Commute.lean",
+      "sha256": "922c3cd1574c899cd193d0a20e171c5630aab7865b6eb4481401422b0a5efb2f",
+      "bytes": 1946
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/SectorLocal.lean",
+      "sha256": "41ec8a859e724725d6329a76bdf359ba4f401b3fc08c77e9daa78356e1c6c8e5",
+      "bytes": 4157
+    },
+    {
+      "path": "RegularityStructures/Abstract/Integration/SectorLocalOrder.lean",
+      "sha256": "76f44245880731650c875bf1019beb19eb89f4b4c2b03877219eb30dca194e76",
+      "bytes": 1812
+    },
+    {
+      "path": "RegularityStructures/Abstract/Model.lean",
+      "sha256": "3610daa533b92f9a39fe137f7abb8df3834e80860005687105ed8504546b3d07",
+      "bytes": 10479
+    },
+    {
+      "path": "RegularityStructures/Abstract/ModelNear.lean",
+      "sha256": "5d43f3828227827de5bd6bfd3f0b0bbd7d0622ec809ce19f8ee12d19094b1934",
+      "bytes": 4459
+    },
+    {
+      "path": "RegularityStructures/Abstract/PolyGrowth/Reconstruction.lean",
+      "sha256": "6e9317c942b6fccb010f742ad83b003918562a01865a1605f2a89cfad0780952",
+      "bytes": 2316
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial.lean",
+      "sha256": "2fbe686bf4335eeb828aeefa09849e729ff4dcf75d7ab994c1076620338dff37",
+      "bytes": 680
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Basic.lean",
+      "sha256": "7ff49b9274e5e815101284b80a9704a92b47b1d754d63239b02072f74dba9069",
+      "bytes": 4411
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Bound.lean",
+      "sha256": "13b3a9c8be451ad2e72c4394d3b5ebaec735d92934d90336c063e9fcaa112b47",
+      "bytes": 3239
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Coeff.lean",
+      "sha256": "d645f805b06272ad8ed19ca7dfa6255c3b28a0b223c3ed15afa19a783471defb",
+      "bytes": 2623
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Fubini.lean",
+      "sha256": "dc48e640a65120eba13e69b2e12ab81faafae5757d7a40d907b73017a64e4274",
+      "bytes": 3667
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Growth.lean",
+      "sha256": "5beb0e12d7b4ae617044908927b9843583b2a015423bfee5e163c34fb00ec926",
+      "bytes": 9633
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Model/Reg.lean",
+      "sha256": "a291c76050f5f83ff3bb37a78c0cde35a2a617f9dc0ffcc726bcd7764b69c7ac",
+      "bytes": 7475
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Structure.lean",
+      "sha256": "6a839374af76a61f1cf280a93058e3feb10cd4d6cd3c7b97923c100cd2c133e4",
+      "bytes": 3493
+    },
+    {
+      "path": "RegularityStructures/Abstract/Polynomial/Translate.lean",
+      "sha256": "092323df859362ed9fb744b342e0ec53a54f8bedbaaf8599d9ace86868408c17",
+      "bytes": 5665
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductBounds.lean",
+      "sha256": "825fe7134766a3270ee022c04d29584475c2a349fee77e113306ea124ceb0e3d",
+      "bytes": 4091
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductBoundsNear.lean",
+      "sha256": "e55ff4ce39d281f621799cd4572ed251fb2bd5b0d93492d36f3b640c269eae68",
+      "bytes": 7001
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductCube.lean",
+      "sha256": "e9fa74dc8ad4190218ea74cbc3738aa98f9b540a81cdfdd964031f5e57efadb9",
+      "bytes": 5976
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductDefs.lean",
+      "sha256": "7eac2fe180c52723e9818223f5903dd77116e7edd6945e3be93404705a5a3a38",
+      "bytes": 15151
+    },
+    {
+      "path": "RegularityStructures/Abstract/ProductTheorem.lean",
+      "sha256": "5ec7635bf93b32dc1f90a9e973c510b78ac750d1016c40bd7bfadfd9c2991062",
+      "bytes": 4327
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Basic.lean",
+      "sha256": "13cf7611388605f18585bbc604fe58895f6eb7996bb7b55a52c5b06c9641b2d5",
+      "bytes": 1923
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Germ.lean",
+      "sha256": "35061f5e4bab60cba9cf1d03fe9c5e8096c9a033848451ef12108427f6c73f5a",
+      "bytes": 4287
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Growth/Coeff.lean",
+      "sha256": "118bb9fee7e5d074dc1c04afefe83f68b36f9d2f9060aaf13f841bcfa890db10",
+      "bytes": 2917
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Growth/Commute.lean",
+      "sha256": "fc9967d5b7f65edb076224fa2e4dcc04c2030bf71452f55117dbc042c87742de",
+      "bytes": 13201
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Growth/KConv.lean",
+      "sha256": "0a0df05259f841747c566e0a9ed6bcd47223579e5c0ef9c4731bc60403bf6026",
+      "bytes": 18148
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/JMap.lean",
+      "sha256": "5f801d7d48d72e903b939a132538dc9f699e37739d459ddeec66bae9869520fa",
+      "bytes": 3944
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/KConv.lean",
+      "sha256": "f4b9ea072447267343ba10a02455ce83dccbb265c2f17437818d9ce1513556f6",
+      "bytes": 1375
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/PolyPairing.lean",
+      "sha256": "3a4e166e70c280c59b82fcfbec7471ea8f6dccf2203891f912f0aa344ceafb8c",
+      "bytes": 5344
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/RealGerm.lean",
+      "sha256": "149e46febb1cd47f2e21e898a450fafde30c735bca33840dac856dbd3146063e",
+      "bytes": 1799
+    },
+    {
+      "path": "RegularityStructures/Abstract/Profile/Realising.lean",
+      "sha256": "581abfde7fe9447aef30edb4b68c7fbd4b46bf52366369c3167ee4f530ca8bdc",
+      "bytes": 3455
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyModelBound.lean",
+      "sha256": "12044e9644ecc98c47de1a95a6fc95659f0cd5f8203984207cf6ea087bd5b517",
+      "bytes": 4460
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyR4Convolution.lean",
+      "sha256": "378370b965933a63ce61b0a933f71bd0d36410ce40d80c4d4de8b85e8a53128d",
+      "bytes": 1974
+    },
+    {
+      "path": "RegularityStructures/Abstract/QFamilyR4ModelBound.lean",
+      "sha256": "3e472c3fbc1a56f9faed9669e3a6142b4e9c0120fd3149cb0938c0350a06e6d0",
+      "bytes": 2229
+    },
+    {
+      "path": "RegularityStructures/Abstract/RegularityStructure.lean",
+      "sha256": "dbd69b73c8f05200b3e8ccaa29853a5b9d3f0b9c30db7103ceb5c0ab54842a05",
+      "bytes": 9655
+    },
+    {
+      "path": "RegularityStructures/Abstract/RegularityStructureDegrees.lean",
+      "sha256": "ea8217855de350dd1357ec2b80df2ba48bd387168fb89f3c771c939ec9fe4f5d",
+      "bytes": 1310
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Bracket.lean",
+      "sha256": "27ed6f88707ad1e055619b96955fac3ef8456920ebcea33aeb38d205fc365e13",
+      "bytes": 2074
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Defs.lean",
+      "sha256": "a1486babc083f2e83ed3d60d67df215bf21660b04b340d45671aa924608d780b",
+      "bytes": 3297
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Emb.lean",
+      "sha256": "5734864a83995ca627565183dc5e3626b8a2ae55058ba5f99f0699bb7d613ecb",
+      "bytes": 6510
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Geom.lean",
+      "sha256": "dd28731f182fe9c365d1ea58c112c57d6265e5723ad32788d387dce3e0682875",
+      "bytes": 5963
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Large.lean",
+      "sha256": "203f8b85c8b8c2f29f799348645cd242031453e84a763a6509a6962b8b2c263c",
+      "bytes": 1731
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/LargeG.lean",
+      "sha256": "246aeae20b16bdfd84573ce674fdb0e57d5966576cd5cb5387d6bec474b68044",
+      "bytes": 4272
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/PairingG.lean",
+      "sha256": "89210ad0deff302520a033e8b8d06667a6ccad3877feece163e8bf6c97cdedf5",
+      "bytes": 5660
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/Radius2WNear.lean",
+      "sha256": "399a854d177caff87dd4105800085a64f55fef9f32da6b104e8104c5940f8246",
+      "bytes": 16795
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesAllWNear.lean",
+      "sha256": "6af543a3ea4adcecde073a96644ec040dc948f611dd3f3e57251c47e46f7f2eb",
+      "bytes": 6993
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesAux.lean",
+      "sha256": "790bd9c9ca699c3dfed0ed3742088a6c1c5761906a7f23986b4b5dc2d0b4d272",
+      "bytes": 5393
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesLinear.lean",
+      "sha256": "b455decf16e8467225c8e30ce0d065854a19d15a4975e2fcb9cccfd0586feecd",
+      "bytes": 2276
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesOffCentreWNear.lean",
+      "sha256": "3a1ec5a45ffc8fef77f49389ee390afed67c9d7469437b560d03e6adc626ec29",
+      "bytes": 12068
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesTaylor.lean",
+      "sha256": "0d69fd5ce1ff8b41a9f6f7124fba7137a20144f90fca0ee3b544cc1eb3890567",
+      "bytes": 2887
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesTaylorWNear.lean",
+      "sha256": "425c75011ce96cf0e11c3ac89c581e6432efab66fcce91c82d8b213b73dae414",
+      "bytes": 9481
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesZero.lean",
+      "sha256": "3dc65b06156e3f9919a18e5fa83fb999033d441e5a6fa36b7d0597a5d500dbe0",
+      "bytes": 3675
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesZeroW.lean",
+      "sha256": "e8db3068487c496140511ba27d4e17c8ea05cd339e3434ae478deb993f5fa4ec",
+      "bytes": 5239
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SeriesZeroWNear.lean",
+      "sha256": "fb61588fcd9a273498bf5ec31c55e8078b5608b865d54fb0a16010af84b0e6da",
+      "bytes": 11349
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SupPieces.lean",
+      "sha256": "abe2f5954cc2f6e118e98514e41c8bce6975b795bb22a99e9a7cf42ee49ef03b",
+      "bytes": 3551
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/SupReal.lean",
+      "sha256": "78736a1cc3af4fa45d691a0aa9ab055ea07fe24ab2a9d35cdc9bf0ff499100dd",
+      "bytes": 8249
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/WrapG.lean",
+      "sha256": "13859472f320872539b8b0b37f8f7e3258c3a0779cc19a576ce3d337595e410e",
+      "bytes": 3445
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/WrapShell.lean",
+      "sha256": "98a5e2db3600b7ca183feb21e41bffae27c542bea776cdda270c6aa09e828095",
+      "bytes": 1984
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/WrapShellG.lean",
+      "sha256": "9006f6ff1df9bb0802bb1d7129e84f87543b7e598ce34a49cfd9c4d802b7e8e6",
+      "bytes": 6123
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/WrapShellWNear.lean",
+      "sha256": "f8b2ef0e018996da6c7313af297e1d772ee89fd491595b26d08f21b2b94a4408",
+      "bytes": 10916
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/KGamma/WrapWNear.lean",
+      "sha256": "d72af049e3a2b86c7d6710e5b40e8c2a14200d6a49555ae241735c93b71a51f8",
+      "bytes": 6438
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel.lean",
+      "sha256": "0fb2d1314373de63a1f6058acbde32de520d40e5ff59ba6e2180bb4e4d8586fb",
+      "bytes": 740
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/LinearG.lean",
+      "sha256": "25d5964744b1d57db590008d3f6501a8ad320d7cac449fa45497f9b577063d62",
+      "bytes": 11503
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/Shell.lean",
+      "sha256": "6304d9eebd83de73ea0d063dac694fd039cee8a0aadab1de0bd4b73c21c410cd",
+      "bytes": 5782
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/TimeTaylor.lean",
+      "sha256": "9d7609b506a2692c75d81d205b2ed780a02c3f406d1ec4736c0424f54777ff0c",
+      "bytes": 4591
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/TimeTaylorBound.lean",
+      "sha256": "4e893c28ca27f674dd5dfbe3e0e90771dd8420fef8bd5c0139af6ba81c71fb53",
+      "bytes": 5531
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/TimeTaylorCausal.lean",
+      "sha256": "86a633af2828d5811f897ab63831eb2397207713cbebaf7e5ebe0a1a37663779",
+      "bytes": 2076
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/TimeTaylorScaled.lean",
+      "sha256": "45254329daee7898572ef92756410cb3457063c2c86ed82a7fa24249affa5fc5",
+      "bytes": 7812
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Kernel/Vanish.lean",
+      "sha256": "c572e6edf609679fdfa24bcf7f7f375bc4c342eba67ed152a93e17137efae225",
+      "bytes": 2686
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox.lean",
+      "sha256": "ba5be1c38b39133e05d45a197bfc3e42100b78f5a4a0e4ef5fa119518795f671",
+      "bytes": 471
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/ComparisonG.lean",
+      "sha256": "0fffcf671195356cfffa8c4ea6017e1ac3a49c58bc3f4f5ccfddd5941a81088b",
+      "bytes": 4077
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/ComparisonW.lean",
+      "sha256": "302e0095cec694f9a655f56a2b78d4a3e4ea82e7a8612b1c95520415c668a50c",
+      "bytes": 2014
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/Defs.lean",
+      "sha256": "f24ea6c2d206eba2f5ff0674978eae72d5f8e1e6ca7c933bb01b3dae4a9b6dd0",
+      "bytes": 3847
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/Pieces.lean",
+      "sha256": "50f83db013beb91ebe2ee948b9856335d119a18ecbc497b098bf8ee16d530ee7",
+      "bytes": 12615
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/TelescopeG.lean",
+      "sha256": "0770d77f3c2327cf06ae477093c570f7272e0e4f3cfdb6219c09992ceb74bc36",
+      "bytes": 5420
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/LatticeApprox/TelescopeW.lean",
+      "sha256": "d8a992454da82847044fb1870ed98f5190c562a9ea88db00940492020f710cc7",
+      "bytes": 2045
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/BoxSums.lean",
+      "sha256": "b6d6256acf3564e36bc6b1ac9d84e44a99b5ed097a53b153476820e7f1ab4462",
+      "bytes": 5892
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Classify.lean",
+      "sha256": "48e85d84b72a87a7b9f833d9aa08a3fd78029fcab979782fd46562e76cdf9dc7",
+      "bytes": 5937
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Counting.lean",
+      "sha256": "9413241dc8a8318e7e9fbebfef035d9f2c0b25f4530539030b0a48c3ffd07e6d",
+      "bytes": 4277
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/FirstLevelWNear.lean",
+      "sha256": "13e26472d7afc6bd5805f88af02ad348d531415c0ba13386166eb9b6deefb6d3",
+      "bytes": 7486
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Geometry.lean",
+      "sha256": "2851b84150a65bc74ea519302008a7289215adcbd5b6e87890c7544f6a1d30c6",
+      "bytes": 4506
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/IncrementWNear.lean",
+      "sha256": "c2c7b5bbc6172379810c88f18224684cd0e7df37c77ff6365f70fdcf1f0e5b6c",
+      "bytes": 9158
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Main.lean",
+      "sha256": "7052e9761797cf952f052be3d0a6bddf37fed42a6441399f9fcca1efeefe5b0c",
+      "bytes": 1980
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/MainWNear.lean",
+      "sha256": "dc187c58eb8d916466e66876c2e557a2db87adba57ac1cbe2151e3aeb8686d3c",
+      "bytes": 9137
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/NearWNear.lean",
+      "sha256": "1785f3544c04f4a61498c8472f2f1a881a5ee4e74cf611965f6a1c4674998ed2",
+      "bytes": 4905
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Pair.lean",
+      "sha256": "8845a25af82dee437fe78384ec844b6c69ea02f7ce699e19f3146e40db84e376",
+      "bytes": 1997
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/PairWNear.lean",
+      "sha256": "d37008af4a771b79f18dd0c4738daa7fad6e6d94d195853708af76c215245870",
+      "bytes": 9654
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/RegularWNear.lean",
+      "sha256": "ce70322b49442afbf329f517f541657e48ad27febb8bf04d7b591efa20e984d3",
+      "bytes": 8872
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Rescale.lean",
+      "sha256": "3c32bf81201d2098b4619193308ede8b4f00f237677e826356fcc96f1d9f0375",
+      "bytes": 2898
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Series.lean",
+      "sha256": "1bec460b05bbe402e2549f8069fb7d273b9026ca724ba49837e892692f4b834a",
+      "bytes": 2313
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Setting.lean",
+      "sha256": "64e535da5557db3bb156744c3af23d1f55a11894d991f8694f7c7f794a92228e",
+      "bytes": 1751
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/SettingWNear.lean",
+      "sha256": "c0ca99343e82a58d7af44c55a2582bc43fc7408807ba82f3a34317b62b57ae37",
+      "bytes": 4740
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Sums.lean",
+      "sha256": "9fcab8912091c09b2b0e268328f5d554e3a44d7b49cca614ed888ecd68278cf1",
+      "bytes": 6210
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/SupBoundWNear.lean",
+      "sha256": "9a54d5392999e6b286fecdf23f682b16d8b8d49e1ef98747f827f93a4d6793f5",
+      "bytes": 6563
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Layer/Weighted.lean",
+      "sha256": "f3c6155f830a0fe4acc5744c19316dc7aa4e368aae1b573fc16f0ad1ce44121b",
+      "bytes": 5836
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/Const.lean",
+      "sha256": "eafe14e51277f156f1c71db7c684ca8a88369a62ad07f214b68fd772f1af2c6e",
+      "bytes": 6850
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/FirstLevel.lean",
+      "sha256": "71e70c9d19826eb17089982e45e5f65a96d208fc1e44b2d2db1df1bd0304dce9",
+      "bytes": 2275
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/FirstLevelWNear.lean",
+      "sha256": "b2ec986905efed767f013b596fb8e0009315314ba8cd178be0973cb60e2b8451",
+      "bytes": 13044
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/Increment.lean",
+      "sha256": "eb479fff1891a396f1bff1c809ab48e85e29ece53458389ecf586c8ee4636ab4",
+      "bytes": 1750
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/IncrementWNear.lean",
+      "sha256": "fde16a51c2f90e9b8d065d7a0a57b34b6331ca40209df031ecb2193a8caf56f4",
+      "bytes": 8986
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/Main.lean",
+      "sha256": "458b35b49e4bdf62335bada203f2c6a2c263d3e1d9d694503d18c05ab9c08f69",
+      "bytes": 2912
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/MainWNear.lean",
+      "sha256": "9eefc9dc90c85e9c0194d7c2c47bde3ec1760b0a10576c3527d42f6aeedd5e04",
+      "bytes": 3919
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/PairWNear.lean",
+      "sha256": "121df619b550769c5155bffc6924407adf237ee8011c560638b06897c52582f3",
+      "bytes": 6634
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/ReconWNear.lean",
+      "sha256": "1a75e23143a77f1ae80196537618eb9fee3f0ac7fc0483b8b79c327d5246db78",
+      "bytes": 6941
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/Series.lean",
+      "sha256": "126a227fcf23dba8408d7dad28007044c8069686c0a4e73078a87e5e217240ec",
+      "bytes": 2814
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Local/Weight.lean",
+      "sha256": "a30fd6367f43e68dcb5b2c1911e2cc5e6bd94e4d94f374fbcf72f52c1945d75c",
+      "bytes": 3407
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairing/Increment.lean",
+      "sha256": "6965ac2b8ee0aff59f3a130bf656f7192df25c40122b1563bfa5ba58a3014c09",
+      "bytes": 1598
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairing/Single.lean",
+      "sha256": "a8d5847b18aba367e8485e1484581e47098198a1deaf87d3dbbd7d576605b07f",
+      "bytes": 2229
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairingGrowth.lean",
+      "sha256": "9ccea338efff1783297106295d3e5f8d287e249e945d375d863f01bc05a50405",
+      "bytes": 997
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairingGrowth/Bound.lean",
+      "sha256": "85ce2aaee6b505b43521b60ba5cd4ad47a352b3db8ee687749cd5c37d3dff84f",
+      "bytes": 7617
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairingGrowth/Increment.lean",
+      "sha256": "d5883b8d9cbec6f72bac680532c3f6ab6fa2f1424786cc68244e43817f8a53de",
+      "bytes": 3729
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairingGrowth/Pairing.lean",
+      "sha256": "65fe7d334b554d5bb1fd600b2e3807918fcebb431400919fe20363d122998555",
+      "bytes": 4741
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/ModelPairingGrowth/Single.lean",
+      "sha256": "95407ba3d45c7a048c9e97304566a17ae71f2376cb2b30845b6a1e8cdd635d2b",
+      "bytes": 7534
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/IterDeriv.lean",
+      "sha256": "1b3cc11a3efbb7cf2749cbd7e56ca867358fc649d41c43cf00ef517552bcd419",
+      "bytes": 3709
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/ProfileDeriv.lean",
+      "sha256": "68f6811d9b6af3b4dacd66f07a2e016ddbfc1d89f50c88bd7cab48a681a820b8",
+      "bytes": 5207
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/ProfileSup.lean",
+      "sha256": "79cb98a86609b1db777c28bff80990a016720df574f2f162d29522e1c0075b8a",
+      "bytes": 3467
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/ProfileSupOn.lean",
+      "sha256": "b8572158c22460cdde562ec1dadf1125c83b7f389b3e4320dd8adeba6b772035",
+      "bytes": 11537
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/RemSup.lean",
+      "sha256": "95092efac2edf70291bda4369c77b7870729987c1ec6f7e660cea059e19135f7",
+      "bytes": 4702
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/Scale.lean",
+      "sha256": "5bc5b9323d7209322d6a3949c987cfa234bd2de7d381ea258fa736c2bc06e276",
+      "bytes": 3564
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/TaylorKernel/ScaledTest.lean",
+      "sha256": "62d7180905f6064884811422592212fb201fb91ef2cc1a009967d3b7e97508f5",
+      "bytes": 8970
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Window/Basic.lean",
+      "sha256": "55fe9d1902653408aa0bec17b25570c8f9502d05ceb2c77d0a60c3d4f4ba53cc",
+      "bytes": 2759
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Window/BasicNear.lean",
+      "sha256": "123a94f12eae1db8debb7001a6d41a217d8634863876b59456afe53af283406b",
+      "bytes": 1730
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Window/LocalOrderNear.lean",
+      "sha256": "3376ed535809674b81dedc99e83ede6873997cd06d5ccb5f0fb1b11ca077a06f",
+      "bytes": 5601
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/Window/Single.lean",
+      "sha256": "e087dcb02ef0a228a8c1e0735baeb5d7debd573746fe2a050d67e73ad7d57c94",
+      "bytes": 2004
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/WindowAt/Basic.lean",
+      "sha256": "8f1e6bed115b66a82087dd2fb8b39a7187ec57851307a16c7e38da9f8ef1eb66",
+      "bytes": 7146
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/WindowAt/PairingNear.lean",
+      "sha256": "ed0f88978f71071004fb4ca302b41645f83fb5922b1238584637bdc81533671a",
+      "bytes": 6086
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/WindowAt/ScaledNear.lean",
+      "sha256": "e1a78ec3c0da5c254352b486b637f8126da5ff70c92488421555de09a6b3b0e9",
+      "bytes": 5474
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/WindowAt/SingleNear.lean",
+      "sha256": "e44c4eeea4af5f33969266c93c683d0279d99b910ca399ce1c664be28c4c0be1",
+      "bytes": 5813
+    },
+    {
+      "path": "RegularityStructures/Abstract/Singular/WindowAt/SlabNear.lean",
+      "sha256": "636e4e2dc1fc33eec57d04d43f44f393e6d70b1edb20dd1594e5b18fb18f83cf",
+      "bytes": 1988
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularBounds.lean",
+      "sha256": "4981410f4f63925245215c3684dc06ef60d70d2378b1d8692cdf903f2ae15fde",
+      "bytes": 12026
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularBoundsNear.lean",
+      "sha256": "16f68ea2da212ccb74b4ed614292e33200dce54dc79304406a8a3034898de1c6",
+      "bytes": 5827
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularCube.lean",
+      "sha256": "accad910783edbf9f1d50e333dd69e23c7a8bd9ba571b2ee7ddf31915fcdf63d",
+      "bytes": 3116
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularCubeNear.lean",
+      "sha256": "e20cfa139695bcb46fcb95cba0ea1a669e76cbc3a7343f538fe7af08ed1bac93",
+      "bytes": 8364
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularDefs.lean",
+      "sha256": "cde40c6708f19806db772a9a2be7ac456dd6b4286f8f487986aeef8a97eac3bd",
+      "bytes": 5657
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularProduct.lean",
+      "sha256": "e9d14a430105adbd6f2dab23c8047e18108520c6a5f21854c5ae3179518e1fc1",
+      "bytes": 4460
+    },
+    {
+      "path": "RegularityStructures/Abstract/WeightedSingularProductNear.lean",
+      "sha256": "4e3cb803c65f9f8f27af8ec3250e0e188884265764ab58c429498889391773a4",
+      "bytes": 13077
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Basic.lean",
+      "sha256": "6c31c1402237906ec3e75b222316f0e6f83a2e1e8c4a99b0d62a8cbadb893c96",
+      "bytes": 1294
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Decomposition.lean",
+      "sha256": "0740626b4d9b86ca500da82092b9bab26c3ab2452c9a5637078412b522315376",
+      "bytes": 1176
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Moment.lean",
+      "sha256": "7b15b7e6336df1714cd1315e967317a1a5e60663a7fb3cd430d1bb06526ab738",
+      "bytes": 2016
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Annihilating/Scaled.lean",
+      "sha256": "5e01051880a373398729489b5369c540b7f789ba5c08208b48b2c7f8db904b8b",
+      "bytes": 3383
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Causal/Basic.lean",
+      "sha256": "df34cbf8578aa3063de3944c767d8d087a6df84e61a4e66117791a654cb672ae",
+      "bytes": 5795
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Causal/Bump.lean",
+      "sha256": "4cb939f3b4d92ed248757bf04e5d413edd9ef0cc68324a18616f32923622d2ae",
+      "bytes": 5542
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Causal/Moment.lean",
+      "sha256": "7de105db2fec788a63db82a674ae33a8c4263cc9cc3aca9d0d9a5e475fbd3648",
+      "bytes": 3021
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Causal/Support.lean",
+      "sha256": "6a7d475e9366b17f53a6bc3de0b3274f88ce98ef380d2cc923d2beafb39f0d41",
+      "bytes": 3807
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition.lean",
+      "sha256": "5853d9aa2a363864f52f4b977a69d760cea095cbbe5d15a167b0990da5287994",
+      "bytes": 1057
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Basic.lean",
+      "sha256": "51cf748cc32acdc0e4ccd4a49bd3603b3511c1b6a0420ea9107bd28c42d29c7d",
+      "bytes": 5229
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Deriv.lean",
+      "sha256": "d22b2c55e5b2119a2f12954345461aa78f95dacf544d239a015fff1ccf5382bf",
+      "bytes": 1950
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/LineIter.lean",
+      "sha256": "0982b77602a1a386173a8f7d21135abc2996bc0dfde5ca7cd90e77db681d612e",
+      "bytes": 5302
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Moment.lean",
+      "sha256": "e05c3bfb3ad837db00aea877f9ecf3c97c2b811cfff83e70b52dc170b05303c5",
+      "bytes": 1011
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Regularising.lean",
+      "sha256": "e8bfecc401368848be1abfc0588ebdadf5dff1a30f92f40dcc9d09cc800d4417",
+      "bytes": 1165
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Scaling.lean",
+      "sha256": "d82c98999bbbdd7c66890a8959ef44c742f389c0d87953553c29a40058b0a3fe",
+      "bytes": 2609
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/ScalingDeriv.lean",
+      "sha256": "f42a559eb895ff8d36e2c55bfa553c3d6ccaa253ea2fe1cb7b7beaaf7118e700",
+      "bytes": 3748
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Support.lean",
+      "sha256": "d7420ec5bb63f3bc6ac442e59f5b565edf165f5b0047afa6733199da4e870942",
+      "bytes": 1961
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/SupportBound.lean",
+      "sha256": "ff4bf4b9e56674dea656e4f8db27e663d9860d582181613b11ab9486304a6c11",
+      "bytes": 1345
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Decomposition/Vanishing.lean",
+      "sha256": "6b214215fa5c12b7813b4b6331ad2feb40d08b67bd41e17beef2bd98cb68db01",
+      "bytes": 3599
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/FlatExp.lean",
+      "sha256": "ec46d91ba968289e2fff4f30e171a5e5839bf38a6a2acf47ed282307b0e8b30c",
+      "bytes": 5291
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Kernel.lean",
+      "sha256": "b72e399211558a4839a9dfa4ab687e7a9d5e2845b3d59e2245880c959adf32eb",
+      "bytes": 8782
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/ConvolutionLineIter.lean",
+      "sha256": "2a45696f5c776d7e1fd0c23e279ade7ec5fe8a340a2060944128eb42d6cffb63",
+      "bytes": 5048
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/DTaylorDeriv.lean",
+      "sha256": "821c9573ba78e619918c8d563fe3a5085974522bfb4e81e271cd87ccccaf9cca",
+      "bytes": 2715
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Derivative.lean",
+      "sha256": "a50102ce2581c232c638433f9b1b02eeef931d6752d1df84ed1d2d085c96a6f3",
+      "bytes": 3009
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/DerivativeScaling.lean",
+      "sha256": "88d2049561060b9cae51ebe4af778fc32c286d1b3a0de329290fd9c49d55ecd8",
+      "bytes": 4200
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Diff.lean",
+      "sha256": "31e17556c6319cb5d90515608ad2470b9ed3cfd95d7ce399a085ef5942bf27b1",
+      "bytes": 1465
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Reflect.lean",
+      "sha256": "d3aa5afe95a247a3b43732ab151b8249af7d81b615d8999ac8ee67f606bb7a6d",
+      "bytes": 3779
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/Shell.lean",
+      "sha256": "b92ed73f637d89db2dfd6819a878bc4d73c22620394ed87863a07e213e45f631",
+      "bytes": 1595
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/ShellPairing.lean",
+      "sha256": "087e656c52527c2578f03454a71a7fe9a63319fdccdacea3af7a1a01f7eb40a4",
+      "bytes": 1103
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorBound.lean",
+      "sha256": "3848e9b757936ac432baa52a557af0468d95ad1ad87e3440d79ca121751641e6",
+      "bytes": 4571
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorBox.lean",
+      "sha256": "dd02040ae2f7cbcdca96fe99646269aea785df0be0ed5649f3d606bbdb8ec0f1",
+      "bytes": 1571
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorDeriv.lean",
+      "sha256": "a365b92e4bdae5d356fffd9533d4bea2c243df21d85cc542643c477b4b6cb73d",
+      "bytes": 5829
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorEstimate.lean",
+      "sha256": "73a754055dff62c3a9126ac84d4bbb1ad4403b9435854b9a76610d85d062437c",
+      "bytes": 2916
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorGen.lean",
+      "sha256": "711e04fde48d20b13f7747ccc15161debc364df040c72bbd77f0fc0d9e5e1c38",
+      "bytes": 2035
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorKernel.lean",
+      "sha256": "1ad6138ea693b6f979c343c6c9ab82acf36878d9210260bd087da8efa7f1b732",
+      "bytes": 7312
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorOp.lean",
+      "sha256": "04059b8dbcc34fe93181f11efd37f46a2af0720c59983ea7019f53a97c97629b",
+      "bytes": 5013
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorPairing.lean",
+      "sha256": "7111eb526c1534a1b6dcd26c31f25f36684142fe969b8873a3b5e5117ce5965d",
+      "bytes": 2864
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorRegime.lean",
+      "sha256": "7409ea285ac6c939b2d59a7656dccedf91551b4c453cf490ae03403389f9a3d1",
+      "bytes": 2556
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorSum.lean",
+      "sha256": "4c764f408fc0ccfb18d6190c6af83a5c786ebeb7e8414cc96941e4544f8cd53c",
+      "bytes": 6501
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorTy.lean",
+      "sha256": "1691fc2b9d60f6d828fd05e84d3c5d96bb839799cc012526a24ccabe4f7ff7f5",
+      "bytes": 6116
+    },
+    {
+      "path": "RegularityStructures/Analysis/Heat/Schauder/TaylorWord.lean",
+      "sha256": "cacc7ae2ba4f9f1b7979c2f74af9be0b30124abca5e256b680c49829d8ed99b6",
+      "bytes": 3967
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Conservative.lean",
+      "sha256": "070f7a5fd41f89ce274312d5dbe44595a9c95af50beba7b3c94c302c48f352f7",
+      "bytes": 2898
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Gaussian.lean",
+      "sha256": "1951599b8d6c484c2cbe9d27a8d4dcad0acc90497964f43e4b4d46647defc86c",
+      "bytes": 3379
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorBridge.lean",
+      "sha256": "6da945aa1719ae98c90d8ba0a3f69124635232da4412c844606e3942f07f0f24",
+      "bytes": 2825
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorDeriv.lean",
+      "sha256": "681b81d87116c4ded87d00cc6e07c78e363085944869bb4dfd557eaa3d1c9be7",
+      "bytes": 3941
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorDiff.lean",
+      "sha256": "043b48e66a632c36e9f608de082499078834d19d73673e25458c20126b67ffa5",
+      "bytes": 4492
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorIBP.lean",
+      "sha256": "424c15093c906bcb94883da333f76bd020d20eb579a0b6ac2fc152769f2ec5fd",
+      "bytes": 3447
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorIdentity.lean",
+      "sha256": "a8a6186384b3338d27ab0938e2705ae55cacd8d543e64682c251ad3c2a02acc6",
+      "bytes": 5527
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorKernel.lean",
+      "sha256": "6461d89f224d099d75ed4d551d0b751fc34c5a633df6b1121923f2582c3c5f2a",
+      "bytes": 3515
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorLimit.lean",
+      "sha256": "f2b704da92812a13af831f73b2c288bd23a1268694a35205886a047cee7672be",
+      "bytes": 2257
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorLip.lean",
+      "sha256": "d2efa19397c0800874e5c3445dbec25b0552246c731b041e855178bc8c0a1659",
+      "bytes": 3452
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorMoment.lean",
+      "sha256": "fd3e9b5df56aebe18cd389d6dacddaa3677cfac61648e29f3b41c8e6b84e26d6",
+      "bytes": 4262
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorPDE.lean",
+      "sha256": "de8e7036872d0ddcc54494d120e6bfc343213864f3022aeffe4374562b9ad1b6",
+      "bytes": 5054
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorProps.lean",
+      "sha256": "4b934c6aec0a881c16ff9faf1bda01752d190450a90d4a937f554ee4abeb287e",
+      "bytes": 2590
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorStep.lean",
+      "sha256": "9d1311317b5478344d79e204fb952f94dd7c782944507ab6bcc5cfab1ea80f8c",
+      "bytes": 4790
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/GeneratorSymbol.lean",
+      "sha256": "159b04d2a8d628c44f9535d2eeac3e8df35d3bfcebbbd1db27389bcf92e99cb9",
+      "bytes": 10684
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Moments.lean",
+      "sha256": "3d17641d69ee8d106fd3e86d6c4f7a1362859d023c10a16e2f6a014c485740cc",
+      "bytes": 7046
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Parabolic.lean",
+      "sha256": "50871ac19288403df075a2d289ee3b1ffc4818a9f40c78fff9c79f86c937b9c7",
+      "bytes": 5497
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/ParabolicSemigroup.lean",
+      "sha256": "304d788debaefc7991fd3f45f5f610a5c4b1974c760dc9744a5d84c0577e5d87",
+      "bytes": 5492
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Quartic.lean",
+      "sha256": "0ec84cb926e5d172848e3c902f74ecbb849c2f0a73c226996d7b87d3c21c27a0",
+      "bytes": 3400
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Schwartz.lean",
+      "sha256": "2d5914c795e6f1f55e3e97a29c65b66ccd9241718310a6ac7b9089e4724b7089",
+      "bytes": 7525
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/Symbol.lean",
+      "sha256": "080f188aa955ec977fe769f4f87c242e0d2f015df0c6e920f158374e7a2a2862",
+      "bytes": 9061
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/SymbolDeriv.lean",
+      "sha256": "b7211c2d6abfb64d90d7d99aef6abf5fcf84f096d25deeba7826388ca4b8c90c",
+      "bytes": 4171
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/SymbolScale.lean",
+      "sha256": "c4ba52ac2c004d3dd4cbeadf554be0f592a2d45657f08944392939019636929c",
+      "bytes": 6500
+    },
+    {
+      "path": "RegularityStructures/Analysis/Kernel/TimeDeriv.lean",
+      "sha256": "b127017f5404049c715fedb94ac87fce56e74c57b87c626d151512debf9104d6",
+      "bytes": 11506
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Basic.lean",
+      "sha256": "3df36918fe8656f84a375185af90286b17494c9036a154ab48d425524442d490",
+      "bytes": 3478
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/DyadicPartition.lean",
+      "sha256": "6509c45ddd9bfc575ed52accb7d102c6b718f88d62ea18f81473c98ab95ed0d0",
+      "bytes": 5474
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Generator.lean",
+      "sha256": "b98bd414ef5f612d8b94e975cdd90980d4f6c65cd6fec6b9d21d0e8b1bb86d4c",
+      "bytes": 2568
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling.lean",
+      "sha256": "e2ee0566704859c0c9663adc952f5027f65d082acad4bb9348fa35223d8512c6",
+      "bytes": 741
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling/Algebra.lean",
+      "sha256": "ba73d17d31a1d01bbfdc6f5ce64e53d508dba32d052bd4d09dc31d37e8032f73",
+      "bytes": 7315
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/GeneratorScaling/Integral.lean",
+      "sha256": "9e65d89da9e675971c27c8aaa587ce22d1df84c0238f4a4e2b76837698730cb1",
+      "bytes": 10729
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Bump.lean",
+      "sha256": "2053e886d48a33311e0b4584b904706b988610b83c156a6fdc3eaa5930d5df04",
+      "bytes": 6041
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Cell.lean",
+      "sha256": "8124f3b64af54ab0a1d9d3396034dd2c4ab3a4b7eab8273aa56be955b2e236b1",
+      "bytes": 5320
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Count.lean",
+      "sha256": "f09de0f7038bf656463cb26a51ef934209439aee635c226842ba4ec4de0b71cf",
+      "bytes": 5373
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Lattice/Partition.lean",
+      "sha256": "e11456e7f67ee13ed209e9e9bf1b0ac8e6a9a817d367ceeca7a25b60f0bb8fd7",
+      "bytes": 3482
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/MomentBump.lean",
+      "sha256": "eba2a74d841b2cef50c0457d749f97132e9d3ef5cc4f560801422557e8ed6517",
+      "bytes": 8006
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/Polynomial.lean",
+      "sha256": "6002d3d3431da8c8d74d76a3b7d53a2c46d4ef2cdc41e8e2516fec46542bc5e0",
+      "bytes": 4551
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/RegularisingDecomposition.lean",
+      "sha256": "aae129dc7d97b3fd61318bdd14ca2a6d16a83d34beb8c1e27a716760b31666a7",
+      "bytes": 2630
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/ScaledTest.lean",
+      "sha256": "587a1f5cd56139d4e05af3ea7169fceaaf9284fa4d9fc6b078bc36cfe35e1fcb",
+      "bytes": 9811
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/SingularKernel.lean",
+      "sha256": "2fd36b8fbb0398f4a4d33c67db8fb56260ca7a056c6c309243cbe8b06542ef31",
+      "bytes": 2428
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/SmoothNorm.lean",
+      "sha256": "7e3082f3ac269320601a52559b98eab73aa83bd8260a2d3d412eae0c1f6ed0cc",
+      "bytes": 6740
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunction.lean",
+      "sha256": "34bea470cabb919051806391b7b0e578450b3185d9d9a394c58915acc79526a9",
+      "bytes": 8655
+    },
+    {
+      "path": "RegularityStructures/Analysis/Parabolic/TestFunctionExists.lean",
+      "sha256": "5321f239f1b98742435b610715f32ecd7dfa17cbead33def3a44677c002577e8",
+      "bytes": 3822
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Basic.lean",
+      "sha256": "3e9b5eed46d3cee088915fb02ad01727fa7487e5914a581b377a6e4f7ddd683d",
+      "bytes": 5630
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Consistency.lean",
+      "sha256": "0bb9d2aa88c8bb6becfbe424e19fecc458e4634843b6ad134aa17d82f137bc0f",
+      "bytes": 1321
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Locality/Pairing.lean",
+      "sha256": "743a3d3cd2c5d8a859cbee55246f82985d31f5628bd4a332887cf51ef166f918",
+      "bytes": 11174
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Locality/PairingUniform.lean",
+      "sha256": "5affd08366d2fda3f0122698782fb4d06f8cb1a8baa5cdf8f21c6377a8bbef7d",
+      "bytes": 6204
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Operator.lean",
+      "sha256": "a97da29d8958bfcc22c40df99d08cbb82768584687e79a1fd34d208a7265bc92",
+      "bytes": 2134
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing.lean",
+      "sha256": "70f17b5a91ed6259687821fe01b64a06450700a792ea4d515e0d57479f394add",
+      "bytes": 765
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Basic.lean",
+      "sha256": "8debf11006773eee87d1d140310dc14dbbcfd5358c2b2c663e127353a07185f9",
+      "bytes": 3592
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Fubini.lean",
+      "sha256": "6a07594ca0d655e8832c158873197f29cedc72a78df5948ed71dea9e0e49beda",
+      "bytes": 1502
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Main.lean",
+      "sha256": "69aa577e008de9572063112d4e5d471cf6c4dfe017cf6840ccf581a34e9bf8c4",
+      "bytes": 2534
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Moment.lean",
+      "sha256": "1df39c39e44b7649f608d636b82a6a1a4ea56580c755988a890cd2e8df2f1d5b",
+      "bytes": 1792
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Swap.lean",
+      "sha256": "cc6965134fd42b5a47aedc8e79f4f2abd0ed7b5fbdc9c91abc340cbcab61791c",
+      "bytes": 2817
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Pairing/Tendsto.lean",
+      "sha256": "b05a8981811f951997c7c4cfaf6b4113934f431d012ab621fa6ef0af395dc3ef",
+      "bytes": 1587
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth.lean",
+      "sha256": "d7ae484228dbdf9ac6bc2ff1c8a87a11a587e922cd4ebdfba3269914cb280490",
+      "bytes": 751
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Basic.lean",
+      "sha256": "5b027ea07cb5c5dcf504af914a88ee3b075e18f4309e0c35f27c5ede1b70e95f",
+      "bytes": 2888
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Bound.lean",
+      "sha256": "b6f0d3d624abd89346bce2a153102558d6fe2a5595a24a93dde0c10160ef202a",
+      "bytes": 4835
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Fubini.lean",
+      "sha256": "f88a7cb0ad259b7f0b466aa89c70dc0280548cd315251e974d9891b03b88a991",
+      "bytes": 3826
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Increment.lean",
+      "sha256": "a3b3ebf06d4c8df537bd21e0263ee7e7de9d48241471612b0ab53eede0f74169",
+      "bytes": 2628
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Kernel.lean",
+      "sha256": "dfdd20f39bc800160b6e74e482265a48940d32e8cfee65eeeeabb254b3223a07",
+      "bytes": 7382
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Main.lean",
+      "sha256": "5dd8b452d707416055ef73c53ff1615c07e5d1b02be00db8391f20adc03169a7",
+      "bytes": 10639
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Moment.lean",
+      "sha256": "3163724e089f81e2e9cf2aca2a1a65c802c83fc6595035ab327d2f5b103b1b96",
+      "bytes": 1650
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Swap.lean",
+      "sha256": "414f55ee9e01690b8fbe7e6ff9149c5887c7afee496c6a7597f9ae5e44cbdb7f",
+      "bytes": 4804
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/PairingGrowth/Tendsto.lean",
+      "sha256": "ea53a8491c33d01c4a044f890dd217008f4d9b56c3a1035520d5ea7f987140aa",
+      "bytes": 2207
+    },
+    {
+      "path": "RegularityStructures/Analysis/Semigroup/Weighted/Defs.lean",
+      "sha256": "7bd43e0b234b25825b1a31204375bc150f841c1678b8eba9a7b2a7b72e2d0a00",
+      "bytes": 4030
+    },
+    {
+      "path": "RegularityStructures/Torus/Basic.lean",
+      "sha256": "ee218b74d3e26f0c5ae259a32c34fb3424f8277ccc40bf4d9a4dcdf04b36276d",
+      "bytes": 1823
+    },
+    {
+      "path": "RegularityStructures/Torus/HeatKernel.lean",
+      "sha256": "925dc3ac647fab1796f3718c2565ae12ed4119a037c0b4811cacb1775aa4c288",
+      "bytes": 6722
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "604cf9e437066e4f8a66afaff1763b164614853c4ef6fb2295930a1da96084f9",
+      "bytes": 3674,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "RegularityStructures/Abstract/Ext514W/PolyBoundNear.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/8c984b58b001910de311": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/RegularityStructures",
+    "source_commit": "231a68c9a98369b83a47bf307c58f59c19e7f57f"
+  }
+}

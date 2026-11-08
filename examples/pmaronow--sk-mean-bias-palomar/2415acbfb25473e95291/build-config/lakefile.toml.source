@@ -1,0 +1,91 @@
+"name" = "skMeanBias"
+"version" = "1.0.0"
+"defaultTargets" = ["HexagonUpperBound", "Challenge", "Solution"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "BrownianMotion"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Common"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "DepthPaper"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "FRSB"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "FourPapersCommon"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "HexagonPaper"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "HexagonUpperBound"
+"roots" = ["HexagonUpperBound"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "KolmogorovExtension4"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Lemmas"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "OverlapPaper"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Paper"
+"roots" = ["Paper"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "ParisiFormula"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "QuantitativeFollowup"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "QuantitativePaper"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "StochasticCalculus"
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Targets"
+"leanOptions" = {"autoImplicit" = true}
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Challenge"
+"roots" = ["Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "Solution"
+"roots" = ["Solution"]
+"srcDir" = "."

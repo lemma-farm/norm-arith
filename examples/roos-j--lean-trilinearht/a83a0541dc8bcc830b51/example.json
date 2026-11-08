@@ -1,0 +1,221 @@
+{
+  "id": "a83a0541dc8bcc830b51",
+  "source": {
+    "repository": "roos-j/lean-trilinearht",
+    "commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46",
+    "project": "roos-j--lean-trilinearht--0fac9f4ed4aa",
+    "path": "TrilinearHT/Auto/Sec12_2DecreasingColorsHistoricalMasks.lean",
+    "file_id": "0eef4ca2ca613bfe365e",
+    "source_sha256": "0eef4ca2ca613bfe365e4708c3b7e0346a01ab9a27b007d2ab185c738153e9ad",
+    "start": 3302,
+    "end": 3315,
+    "original_start": 3302,
+    "original_end": 3315,
+    "declaration": "sq_sum_le_of_support",
+    "source_url": "https://github.com/roos-j/lean-trilinearht/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Sec12_2DecreasingColorsHistoricalMasks.lean#L3302-L3315",
+    "archive_url": "https://github.com/PalomarArchive/roos-j--lean-trilinearht--96f63735ff5a/blob/0fac9f4ed4aa3391931897a681ce547981fb5f46/TrilinearHT/Auto/Sec12_2DecreasingColorsHistoricalMasks.lean#L3302-L3315"
+  },
+  "native_target_name": "Auto.sq_sum_le_of_support",
+  "source_declaration_label": "sq_sum_le_of_support",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "2977b620978dbe82ed4c32c8166d94533600137d0d8212a5f2a6139d714e15d5",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "d80cd8a6945085be55517ed957fc15fefc516dc6fc8c10dcc4828b03c358fccb",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/BalogSzemerediGowers.lean",
+      "sha256": "41110cc1b29a279f3f6c50a6535b5773bbfdc3d4f4d550ac7ec1be242188c86a",
+      "bytes": 37188
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/ChangSpectrum.lean",
+      "sha256": "e387c6d4d4e7ed34ab5d0dca4569f363daf59b934eba369ec9e11ede7d39e97f",
+      "bytes": 22030
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/DenseBogolyubov.lean",
+      "sha256": "8e9b1b0d9f86b7ec2116e5d4fc6ce5717b154b2b137f339ab79affa90cb66fa3",
+      "bytes": 43979
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/DyadicStopping.lean",
+      "sha256": "0b03a27ba08a66a0ee7b1a92a58d783a82a633769b309dae74719d1e6fc1cfb6",
+      "bytes": 152995
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/FeffermanStein.lean",
+      "sha256": "5e45e3094b97497aed070d37bb3e0be7e4324c854fac3464b8b613df480f410f",
+      "bytes": 103685
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/FourierApproximation.lean",
+      "sha256": "42c88729e6eb31f52793b0a7b27e17ce8be918fdb22f78cab923113150254f72",
+      "bytes": 53546
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/GevreyCutoffs.lean",
+      "sha256": "2cffaa4c910bec99f1bbc27f74ced2cf33458f6b51cd2a36bcc5361dcfb64e87",
+      "bytes": 38316
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/GowersCauchySchwarz.lean",
+      "sha256": "f939a3514e1072f102a34ed47f1725630e81848be5acf5f3f86e4e8b4ae245c2",
+      "bytes": 123261
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/HilbertAtomicDecomposition.lean",
+      "sha256": "9518ceb3473b1bcc2009165afd9765f55f3ceb02918a6828ebe71e628758e39c",
+      "bytes": 18145
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/KhintchineSampling.lean",
+      "sha256": "7c82996feb228f8b24d83ca79f8e0b31e2c27c87afc67d0c01b53a5e0e8120e4",
+      "bytes": 59636
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/LatticeTransference.lean",
+      "sha256": "119de8dd86190d6f0bca1b52b5890f28220eb7c6ddd7472f8d8f250e708c5cec",
+      "bytes": 109152
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/MinkowskiIntegralInequality.lean",
+      "sha256": "c467a6a940b0ce7fee6a4f035e48ecf1aac31d4eb8756103312699ca6ccf1bb5",
+      "bytes": 9831
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/RademacherMenshov.lean",
+      "sha256": "77ae6d6d4678f68e3568fcc64eafbc30ac3214b5f4b394e5a9b5c7e9f30a7676",
+      "bytes": 46425
+    },
+    {
+      "path": "TrilinearHT/Auto/Prerequisites/RationalLinearAlgebra.lean",
+      "sha256": "8cbadb819753081d29d528cad6da02efd134c22440308cc053fe2319b6001115",
+      "bytes": 126304
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec01Foundations.lean",
+      "sha256": "423769466027e22dd671219ff19aad657bbe7a709c14d88164b22c47e5723ad2",
+      "bytes": 28810
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec02LatticeTorusFacts.lean",
+      "sha256": "638c1ad9ae865f0005603e4841f8d5f8c341d8860949a1f8e48eadfe73bd2142",
+      "bytes": 27926
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec03LocalFormsFiniteConstants.lean",
+      "sha256": "af3a6ac29247858c8f6dfe243868109f5a3099c98a63ca76194ab65dae113ba8",
+      "bytes": 58640
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec04ColumnProjections.lean",
+      "sha256": "9aee955614e6e2005c879a453361bbe6b896a12c2b4e4b5151f0989bee4ad363",
+      "bytes": 209722
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec05QuadraticCharts.lean",
+      "sha256": "dd0518e86bb545102a364922f511050c6c5ef8a5406c667b99ed969169900a9e",
+      "bytes": 66033
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec06FiniteAdditive.lean",
+      "sha256": "19f60e47e81ec80cac616dad05e24531778e1777c623c61da1c63249bc5f6765",
+      "bytes": 99147
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec07FiniteInverse.lean",
+      "sha256": "034ca6e92735b16578e8dc2086b100be61b40584e4d2f8859d92f519e297dbe4",
+      "bytes": 255821
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec08ContinuousDecomposition.lean",
+      "sha256": "acd6745321ffa4e3ab7c324677ea19938f69e8d96d87a0569c1051c6f6124087",
+      "bytes": 115426
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec09_1ReturnWeylSplitting.lean",
+      "sha256": "761159c8f23b23c92a474af3d3968c1b05d0e06b3c345891c3f8f9e0904cf78c",
+      "bytes": 147834
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec09_2ChartFourierSeparation.lean",
+      "sha256": "dac8d534bba97d5f8bf7e44e34b01a40025f93c5d97309944e16a8765c909298",
+      "bytes": 390122
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec10Detection.lean",
+      "sha256": "3bfca75c289a5c6977147a2a7c4b9dd8403bb708ab6c0af8dbdbe212dd9fadbf",
+      "bytes": 218022
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec11_1aPredictors.lean",
+      "sha256": "140a66c5fe7b2fc3e5f5a6da108221e686ca6ac49c1054e5bf203e2791a985c5",
+      "bytes": 479683
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec11_1bDelayedMoments.lean",
+      "sha256": "dc567da5777f7ba89509a4b97497407b7d5879a772fa4348c667bfb9cd0629d0",
+      "bytes": 190106
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec11_2aAdaptiveFitsStagger.lean",
+      "sha256": "257434158c95a1f4ab16b560f2ac0dc77fb8392b84abf85ff354fe569827504e",
+      "bytes": 191491
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec11_2bFiniteBaseDataPairs.lean",
+      "sha256": "77efcfc6178baefdc8c597908fb3948f6bf3a4815addd81d7424b53030005221",
+      "bytes": 336668
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec11_2cFiniteBaseDataAssembly.lean",
+      "sha256": "d8c8b33a34e8fd53af0c2f91f576142051b6764d7e59221504c91f621adecdd7",
+      "bytes": 412608
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec12_1TagsAmbientGraph.lean",
+      "sha256": "82f305ee52d5b6f00f1c5489fc1db9324f9441075796f47480028287e08d5920",
+      "bytes": 135613
+    },
+    {
+      "path": "TrilinearHT/Auto/Sec12_2DecreasingColorsHistoricalMasks.lean",
+      "sha256": "592fd7a9f0b7a284010cb319cbd4f337eadd604b7ff58db5e346ab3cc5a981ec",
+      "bytes": 198607
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "abe273a8722bb6382a2a3bcbfb76a7e2f91eef552624667cea0ee3223a4e8656",
+      "bytes": 465,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "TrilinearHT/Auto/Sec12_2DecreasingColorsHistoricalMasks.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/a83a0541dc8bcc830b51": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/roos-j/lean-trilinearht",
+    "source_commit": "0fac9f4ed4aa3391931897a681ce547981fb5f46"
+  }
+}

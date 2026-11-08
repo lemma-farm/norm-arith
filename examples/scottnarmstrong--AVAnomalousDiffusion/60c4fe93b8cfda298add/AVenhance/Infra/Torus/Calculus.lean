@@ -1,0 +1,144 @@
+-- Copyright (c) 2026 Scott Armstrong and Vlad Vicol.
+-- Released under Apache 2.0 license.
+
+module
+
+public import AVenhance.Infra.Torus.Slicing
+public import Mathlib
+public import Homogenization.Sobolev.CubeEmbedding.FaceReflectionLines
+
+/-! Smooth periodic integration by parts on half-open fundamental cells. -/
+
+@[expose] public section
+
+noncomputable section
+
+open MeasureTheory Set intervalIntegral
+open Homogenization
+
+namespace AVenhance.Infra.Torus
+
+/-- The classical coordinate derivative, evaluated in the unit coordinate direction. -/
+noncomputable def coordDeriv {d : ℕ} (i : Fin d) (f : Vec d → ℂ) (x : Vec d) : ℂ :=
+  fderiv ℝ f x (basisVec i)
+
+                                                    
+                                            
+
+                                                                                               
+                                       
+                                                      
+
+                                                         
+                                                
+            
+                                                                     
+                                                                             
+         
+                                     
+
+                                                                     
+                                                              
+                                                                           
+                                                                                             
+                                               
+
+                                                                                   
+                                                                            
+                 
+                                       
+                                                             
+          
+                      
+           
+                                              
+                                                  
+                                                        
+
+                                                                       
+                                                             
+                                                   
+                                                          
+                                                                
+
+                                                          
+                                                   
+                                           
+                                             
+                                                
+                                                            
+                                               
+
+                                                            
+                           
+                                               
+                                                               
+                              
+                                                                 
+                                
+                                                                    
+                                               
+                                               
+                                                             
+                                                             
+                                                              
+                                                              
+                                                  
+                                                        
+                                                  
+                                                        
+                                                                           
+                                          
+                                                              
+                                 
+                                                                 
+                                                                                  
+                                 
+                                                                 
+                                                                                  
+                                       
+                                                               
+                           
+                                       
+                                                               
+                              
+                                                       
+                              
+                                                       
+                           
+                                                                      
+
+                                                                   
+                                                             
+                           
+                                               
+                                                   
+                                                       
+                                                            
+                                                         
+                                                                     
+                                                         
+                                                                     
+                                                                                 
+                                                                     
+                                                                                 
+                                                                     
+                                                                             
+                                   
+                                                       
+                           
+                                                    
+
+                                                                               
+                                              
+                                                                       
+                                                                        
+                                                       
+                                                                             
+                                                                    
+             
+       
+                                                             
+                            
+
+end AVenhance.Infra.Torus

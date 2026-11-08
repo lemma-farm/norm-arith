@@ -1,0 +1,236 @@
+{
+  "id": "370c131a1b7b961ce045",
+  "source": {
+    "repository": "ProofFleet/prooffleet",
+    "commit": "13853222d90d7cff0608c6380d0ee75b0e12473d",
+    "project": "ProofFleet--prooffleet--13853222d90d",
+    "path": "MoltResearch/Discrepancy/HalaszEuler.lean",
+    "file_id": "0cbef19ffcbdde0784cb",
+    "source_sha256": "0cbef19ffcbdde0784cb57a8f17171846dc3ea2593091365099c3a8f66778e30",
+    "start": 1211,
+    "end": 1358,
+    "original_start": 1136,
+    "original_end": 1358,
+    "declaration": "norm_smooth_tsum_sub_sum_le",
+    "source_url": "https://github.com/ProofFleet/prooffleet/blob/13853222d90d7cff0608c6380d0ee75b0e12473d/MoltResearch/Discrepancy/HalaszEuler.lean#L1211-L1358",
+    "archive_url": "https://github.com/PalomarArchive/ProofFleet--prooffleet--f3efc1a69e0c/blob/13853222d90d7cff0608c6380d0ee75b0e12473d/MoltResearch/Discrepancy/HalaszEuler.lean#L1211-L1358"
+  },
+  "native_target_name": "MoltResearch.norm_smooth_tsum_sub_sum_le",
+  "source_declaration_label": "norm_smooth_tsum_sub_sum_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "f855a9ebf2b7136e947b65688e6de250383079cbcf3b33916ab8bbd2fc06611d",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "c0dc07b64b0b0f976faf57a8fb9d59a18835f786094fb4804bb5fe3dbf127bda",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MoltResearch/Discrepancy/Affine.lean",
+      "sha256": "3b37bdd460b59c1a9450a36ab85aaf596abc130bbdc91c601fe394c60dda1a93",
+      "bytes": 63136
+    },
+    {
+      "path": "MoltResearch/Discrepancy/Basic.lean",
+      "sha256": "d13e1d6871670605579e8cd8dacd6eb03799e9d69f885e3ea980c8773b74b310",
+      "bytes": 219261
+    },
+    {
+      "path": "MoltResearch/Discrepancy/BrunTitchmarsh.lean",
+      "sha256": "a32bf14dc7ea32e4c0442814c4b065015fd12548016bdad2883445841cb9e279",
+      "bytes": 33631
+    },
+    {
+      "path": "MoltResearch/Discrepancy/ChebyshevTail.lean",
+      "sha256": "3344ba73f2ba9f383ad3ad7adead66d37d35e89837f8ecb7df79f49a08e9eab3",
+      "bytes": 27685
+    },
+    {
+      "path": "MoltResearch/Discrepancy/DilationCover.lean",
+      "sha256": "eecf6e7eb13b69cd31998311b2b6286bea77a497d87f42b186bb24fd05bd30da",
+      "bytes": 5065
+    },
+    {
+      "path": "MoltResearch/Discrepancy/DyadicMVT.lean",
+      "sha256": "eb5724df9c8ac16ce3760b82ddac2efe9a2e379ae27677bb0d49777b4fb3fa14",
+      "bytes": 238399
+    },
+    {
+      "path": "MoltResearch/Discrepancy/EulerLogBridge.lean",
+      "sha256": "9a9ff2b92cdc3039f66fa918bedededeab7d69182d973d654e822c18ece16267",
+      "bytes": 9601
+    },
+    {
+      "path": "MoltResearch/Discrepancy/ExpSums.lean",
+      "sha256": "75bff6ae683cd9fb0b84ebb9a4fd612898ee2f65d93e1af3b4949851973a48ed",
+      "bytes": 56550
+    },
+    {
+      "path": "MoltResearch/Discrepancy/HalaszEuler.lean",
+      "sha256": "c6329bf23444618675b288060da96974ce29678c4c58b68b58daaaf55b552937",
+      "bytes": 64112
+    },
+    {
+      "path": "MoltResearch/Discrepancy/LandauLemma.lean",
+      "sha256": "da407df397728cf26598b4a73fa3ba6eda5e7ac63160817cf2155d937a93e159",
+      "bytes": 40270
+    },
+    {
+      "path": "MoltResearch/Discrepancy/LargeValues.lean",
+      "sha256": "35384ce7bbafaeb609d6a90b3e0ff2180ca9754017f1c6bd1f9163de7a1668e1",
+      "bytes": 22622
+    },
+    {
+      "path": "MoltResearch/Discrepancy/LogAvgCorr.lean",
+      "sha256": "84319cedb92ae51b965617889ae21a1e466bb3cb69447a4ed498799e79c77d7a",
+      "bytes": 3169
+    },
+    {
+      "path": "MoltResearch/Discrepancy/LogDifferences.lean",
+      "sha256": "d70f1d4a10d1c6f6d4dd99dd0bc400c443e20c320168751a9062a11fdf45b9ce",
+      "bytes": 157276
+    },
+    {
+      "path": "MoltResearch/Discrepancy/LogUniform.lean",
+      "sha256": "cb8e36c2f6e274892a663e0ce8072faae23259f7791bec654f09b4e91485dfdc",
+      "bytes": 51540
+    },
+    {
+      "path": "MoltResearch/Discrepancy/MertensFirst.lean",
+      "sha256": "d34ea9372dde514a31b1564583ba81b8fc79cf4a16fa5269f1851ffc94c50093",
+      "bytes": 26547
+    },
+    {
+      "path": "MoltResearch/Discrepancy/MertensFloor.lean",
+      "sha256": "d314203f6b4999cbb3e22b6c90314c235d15c9a57634256b74a593b076ee0740",
+      "bytes": 12419
+    },
+    {
+      "path": "MoltResearch/Discrepancy/Multiplicative.lean",
+      "sha256": "ec2072b3e260f663cae675c5c1620221e6279a5b4f33900769eb916b5e460a8b",
+      "bytes": 6243
+    },
+    {
+      "path": "MoltResearch/Discrepancy/MultiplicativeC.lean",
+      "sha256": "d37f4d6efc2534fda811e9ed65c8e4e39ca1eba88357674a285fad00606f2eaa",
+      "bytes": 17532
+    },
+    {
+      "path": "MoltResearch/Discrepancy/PerronWindow.lean",
+      "sha256": "c941189e72ea8457b37ab2e6cff3756ea6a56a381d5d013adc6b93e5066e6c97",
+      "bytes": 179766
+    },
+    {
+      "path": "MoltResearch/Discrepancy/PlancherelHarness.lean",
+      "sha256": "386ebb150c7ae8260d4620cf813b4ca41bf0fc5e4fed9589ee8166813adc039e",
+      "bytes": 53122
+    },
+    {
+      "path": "MoltResearch/Discrepancy/PretentiousDist.lean",
+      "sha256": "177ba4326f948156d4df62c7bed0b57c79ab1b225e115294a84f65835f61dd05",
+      "bytes": 17175
+    },
+    {
+      "path": "MoltResearch/Discrepancy/RamareIdentity.lean",
+      "sha256": "cd59ee966d265999aada1d1d2f1ac34109fe5cb1505e38ce043f3315a8d1db18",
+      "bytes": 77667
+    },
+    {
+      "path": "MoltResearch/Discrepancy/Reindex.lean",
+      "sha256": "5b0b8a018dffda342fc585fe2b68da254f133f39df505f0457046c6711467982",
+      "bytes": 36997
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SelbergDiagonal.lean",
+      "sha256": "994f0c4c42adfdd0bbb4c8e1b759eb8ca601a7074da4dde9fe1ddd9d17221b43",
+      "bytes": 14302
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SelbergGFloor.lean",
+      "sha256": "56e72b050036725f783b01d925d1750047f6795e70fc5dc76f6f17525768d5ef",
+      "bytes": 22820
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SelbergPrimorial.lean",
+      "sha256": "4827a897a4e32cbf02e7cfef1c3bd298bc6596f75df0f3ef3980e920cd3042e0",
+      "bytes": 8350
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SelbergQuadratic.lean",
+      "sha256": "ba78a9739bdddd6337fd47c8c7c7f80202bded12af87b4c4c1ad5bdd0eb1eb0d",
+      "bytes": 14569
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SelbergWeights.lean",
+      "sha256": "0b869c938f2e509da9f930fbcc2f557bc487e3e7e00e253ad217baeb9724b198",
+      "bytes": 30244
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SieveResidues.lean",
+      "sha256": "569c4e7ad9c36b4761525040ae6d31f7da68b9d354d81a1d41590aa95cdc6be5",
+      "bytes": 15538
+    },
+    {
+      "path": "MoltResearch/Discrepancy/SmoothRankin.lean",
+      "sha256": "83705746972479b5d01287def8f21281cb5bc23b2300b0b3ae4b92857618a54a",
+      "bytes": 482138
+    },
+    {
+      "path": "MoltResearch/Discrepancy/TruncatedBridge.lean",
+      "sha256": "49a4d8deed93add7da0c93d9e606d127d396679d3632a8d878e57da76631337b",
+      "bytes": 13349
+    },
+    {
+      "path": "MoltResearch/Discrepancy/TuranKubilius.lean",
+      "sha256": "6cda471c8a7894a3dd11051d8cc7a7b2500bacb7871e7a742d6d03c85f9cb9ef",
+      "bytes": 23787
+    },
+    {
+      "path": "MoltResearch/Discrepancy/Unbounded.lean",
+      "sha256": "af3d6bb48dc7375be996bb0202749b1af5932b4283dbf0d423cb02e65f98bd76",
+      "bytes": 2994
+    },
+    {
+      "path": "MoltResearch/Discrepancy/ZeroFreeRegion.lean",
+      "sha256": "aba5f168c739b439109e9121bf597d28ea58f861a8e89fcf093ef60d801a9a0a",
+      "bytes": 51320
+    },
+    {
+      "path": "MoltResearch/Discrepancy/ZetaBound.lean",
+      "sha256": "84fa4d5e89bab7d2fb72b2f853c01161598c4588c61e774617504b9a14fe47c4",
+      "bytes": 78386
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "0c25c8aecd85ee550e4be84a27d217f7caf291f124f5a825e6140d4e0aefefb7",
+      "bytes": 646,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "MoltResearch/Discrepancy/HalaszEuler.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/370c131a1b7b961ce045": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/ProofFleet/prooffleet",
+    "source_commit": "13853222d90d7cff0608c6380d0ee75b0e12473d"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "c969baac900cd5f0aa3b",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/Sobolev/ResponseOfExpComparison.lean",
+    "file_id": "0102a48c30fd7d6e0338",
+    "source_sha256": "0102a48c30fd7d6e0338c6c266879db22de8d354bc22b8f060ac5aec988134d9",
+    "start": 59,
+    "end": 64,
+    "original_start": 59,
+    "original_end": 75,
+    "declaration": "Response.ofExpComparison",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Sobolev/ResponseOfExpComparison.lean#L59-L64",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Sobolev/ResponseOfExpComparison.lean#L59-L64"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "Response.ofExpComparison",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "01adc99f282adb0b3bfdc033550cdb950711e5233a127b0d21a820a119d87af8",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "8f3ea0e1b62677cfaed9ae90ae795461c561f706b06a611016e1f7af7280b48f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/ResponseMoments/Interfaces.lean",
+      "sha256": "eb8ccee110956d22755ce714c805a25fe73792b37c76dbb44ab445aa3ce11adc",
+      "bytes": 11504
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/DirichletComparison.lean",
+      "sha256": "cce17e42a3b9ec29ee2bf08e3b8c17463a24ba4f611a2c0046fc16a0e49e06f8",
+      "bytes": 4506
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/DirichletResponse.lean",
+      "sha256": "b689798f825dad56583947a0ab86b82f65cf0dd10b99e765c395eb735bdcd324",
+      "bytes": 9733
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/FiniteResponses.lean",
+      "sha256": "f4ee271a7e09f96bd4381531a9b77a581a8e0a178aa39cfed2d2078ab0a9cbb0",
+      "bytes": 4161
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/GradientRange.lean",
+      "sha256": "ea06d230e5296017b607ce0ea026a9d43d56f889305f080463bc4c31fb83e41f",
+      "bytes": 5949
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/KilledGraph.lean",
+      "sha256": "dd8b1f47aa9db695e5eff9ad3b1da68c8505db0a707249d3f58eb0e68da88793",
+      "bytes": 6153
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/LocalEnergy.lean",
+      "sha256": "03109c4f624da6fb502966797c6f72b66689b25b41d5163b2a956a097c791eef",
+      "bytes": 6246
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/MeanZero.lean",
+      "sha256": "e2ba561f5124d26dfbc16cf809177dc9151e97cace103612bb332f7ceee03db8",
+      "bytes": 3312
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/PotentialCoefficient.lean",
+      "sha256": "f643a947295c2455714f421c700763315a89b5f74b68698a8ce2488584e984f3",
+      "bytes": 3820
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/PotentialPerturbation.lean",
+      "sha256": "9e9b487b1410ed464447c242bfe3b69f30dfbbbc9db28f27463af477a306a197",
+      "bytes": 4904
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/PotentialResponses.lean",
+      "sha256": "8e34216ecbc437edba77ab72d661634ef067b1742246deecb944728447189314",
+      "bytes": 4393
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/RelativePerturbation.lean",
+      "sha256": "4cd2758d8b517f712befb07a9741f2534f5bdd7eb900b99a32f4836e8266f2dd",
+      "bytes": 6586
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseComparison.lean",
+      "sha256": "cc0bc2b49d14466acf9a2561994fbac9e41945069cf23b5c1eb7d764271931a6",
+      "bytes": 5807
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseOfExpComparison.lean",
+      "sha256": "0102a48c30fd7d6e0338c6c266879db22de8d354bc22b8f060ac5aec988134d9",
+      "bytes": 3349
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponsePerturbation.lean",
+      "sha256": "dd40bd7ff27da4ad97b2f7e552b485a365da3a14ccde4c151f386098e70d756e",
+      "bytes": 5150
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponsePositivity.lean",
+      "sha256": "ef7f22c12dfba379dd085df6f0eccc0ccdef178d7d4fa899f413dab9ab504337",
+      "bytes": 10835
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/ResponseSpace.lean",
+      "sha256": "1f8a3fb77fab2b6c588076b0307b891a2c825e8a14a6aacea709019395bafd52",
+      "bytes": 6539
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeakGradient.lean",
+      "sha256": "8ac0e1c34f33f75d46b7a2eedfe5a337dcbf03b5d39edf393d6efa2e6d5def53",
+      "bytes": 6200
+    },
+    {
+      "path": "SubdiffusiveProcess/Sobolev/WeightedGradient.lean",
+      "sha256": "13551e01bf074eb92fc97ea84c927b16c564244b626e277b22ee8fbc52a4b0e3",
+      "bytes": 4257
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea9f9e22a41d24724511bfd5c629dbbd402e9ddaf4d4d7e07f27d8919e652ff3",
+      "bytes": 880,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/Sobolev/ResponseOfExpComparison.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "id": "f6885139f0d1e60376ff",
+  "source": {
+    "repository": "vltanh/lean4-ambidextrous-sofa",
+    "commit": "0f24fe48b4cadf02a442420e677b45a036136dbf",
+    "project": "vltanh--lean4-ambidextrous-sofa--0f24fe48b4ca",
+    "path": "AmbidextrousSofa/Analysis/FiniteNicheOscillation.lean",
+    "file_id": "04f41abb14a49515218d",
+    "source_sha256": "04f41abb14a49515218d6ee27be29840e13b0740991ba2af7f9a3e9b2e9f9f0a",
+    "start": 87,
+    "end": 93,
+    "original_start": 87,
+    "original_end": 93,
+    "declaration": "finiteBarrier_peak_le_end_heights_and_moments",
+    "source_url": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/AmbidextrousSofa/Analysis/FiniteNicheOscillation.lean#L87-L93",
+    "archive_url": "https://github.com/PalomarArchive/vltanh--lean4-ambidextrous-sofa--1b8cd0a61272/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/AmbidextrousSofa/Analysis/FiniteNicheOscillation.lean#L87-L93"
+  },
+  "native_target_name": "AmbidextrousSofa.FinitePolygon.finiteBarrier_peak_le_end_heights_and_moments",
+  "source_declaration_label": "finiteBarrier_peak_le_end_heights_and_moments",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "a97ae8574970a1bd9cffaa2b26129e99b09384129dfa518dd91694656b5147f0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "84610f1aa1c850c01687db5724d899b410eac0243d69b0c492bd01f921e40c35",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "AmbidextrousSofa/Algebra/Deficit.lean",
+      "sha256": "e48a70b8077f9d8ee0c1f405b36124847abdca6229e8c59012f3367b49a82418",
+      "bytes": 3385
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/AxisVariation.lean",
+      "sha256": "e767b4ad4e13f281c98c336052b6e5678f394259ccfe5a25392ab312deedeaf1",
+      "bytes": 6355
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapCompactness.lean",
+      "sha256": "a732e0ec708c26005caa9881655b781d3e5fbe0684eeaf714004a6520064b125",
+      "bytes": 8305
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapMaximum.lean",
+      "sha256": "376b40e3950df05a112e3cc8d6153c644496a24c41d89264ab006c7148a0f149",
+      "bytes": 2721
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapNicheContinuity.lean",
+      "sha256": "24503a39fa0b9d18ce39a9687efca5b11630d942b88dde6cbf94da134c4bb368",
+      "bytes": 7075
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapOrder.lean",
+      "sha256": "433f734dace5ed05e9d2a361116aaafbbd6753fad5b184f0b90b601202c97262",
+      "bytes": 3598
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapRoofConvergence.lean",
+      "sha256": "c5d1edb27addf75a1967f3b73b6382487065a6eaf39841413874dfb2c22519c4",
+      "bytes": 4921
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapScoreContinuity.lean",
+      "sha256": "faedad3aec86df73fa84e95a094002e84a766f98aa55b24f0f8b7a21aae25c59",
+      "bytes": 5847
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapTranslation.lean",
+      "sha256": "aaca2c778a8bac3f2e6d2cb10e8d7e2dc5b25dd2c7d7d40fb12a53c64e6a30bd",
+      "bytes": 6320
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapVolumeContinuity.lean",
+      "sha256": "9470534fcb7cee85603ee6426371d6b935725fc271f6c8da508cea7a13d49a94",
+      "bytes": 3934
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Chord.lean",
+      "sha256": "e5144642e2388a79e1f28fc6fad29b0a166d8eaa2ec90552a5269c8ed6b6f600",
+      "bytes": 11624
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Circumscription.lean",
+      "sha256": "34756ac9d9bc1b38be62dd21a7ad90b900b5ca95cb709d941b67eb0b05a35a37",
+      "bytes": 5486
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/EndpointPolygons.lean",
+      "sha256": "4f5ac8eb29eeaf767952bf45e8dc3841aa9f43313980f9cab5be9494d4848657",
+      "bytes": 2483
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/EndpointPressure.lean",
+      "sha256": "8d50e737d58a8d9c9ae96ec4a9c148a4f872487151cb449c9d77ab1a831d6a48",
+      "bytes": 13807
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/EndpointTrimming.lean",
+      "sha256": "1c355af6103fce8e74da3d5ba58c1be0ffec1d16846d3e750a249c8ef4cdebdb",
+      "bytes": 16496
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ErosionMoments.lean",
+      "sha256": "3388591375b8b58a9201f5ce45f9c3a19d88153df9aefca53aca3ccdd7687299",
+      "bytes": 14110
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ErosionVariation.lean",
+      "sha256": "2841435049950bfc6860fc589ca6946e7a56282459d0b3c0242bf0bc9298d5f0",
+      "bytes": 5044
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ExposureMoments.lean",
+      "sha256": "60341e4f5b0b97df3b2bbb3ed3db0b677bffedac6685821811ac8a32a8823994",
+      "bytes": 6704
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Extrusion.lean",
+      "sha256": "1ecd255d463e90eaac5bab0267fccb362793d00814f5351309da44908ae6a832",
+      "bytes": 10577
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteEnvelope.lean",
+      "sha256": "1de815776b36986537d9400e510a1786fe958990947f6ecfb0b76d402a9e94f5",
+      "bytes": 8656
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteNicheOscillation.lean",
+      "sha256": "04f41abb14a49515218d6ee27be29840e13b0740991ba2af7f9a3e9b2e9f9f0a",
+      "bytes": 5008
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteRoofVariation.lean",
+      "sha256": "1c585d222682e671514ccde2f7a30526d9494a82fe828020a3769628578aa26f",
+      "bytes": 5999
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteScore.lean",
+      "sha256": "9d7fb09a337a036bd9849e7c2bd3f1be031eed82bdaeb8d8956b45f0f227b701",
+      "bytes": 8822
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteSpatialVariation.lean",
+      "sha256": "7710bdb1b12557dfee7b0525ef3d969ad9f53ab6733c2c2cf09bf6ad66899ed7",
+      "bytes": 3535
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteVariation.lean",
+      "sha256": "c4090aeac857210a453a4df34c618bf5bbea78d51ea34798acf3a612a6c8d790",
+      "bytes": 6086
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/GridNiche.lean",
+      "sha256": "497ad05d8cb231a0a0dcdd47177c816417d7845d8f6cd1bc568fdb522438340d",
+      "bytes": 4973
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonEnvelope.lean",
+      "sha256": "b544c279ea197fd27b5e26114f83cc292710a3f75577ba4a92cc0790a0135b89",
+      "bytes": 12537
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonExposure.lean",
+      "sha256": "360904aa31068ea72e842b9fcf30a932c4297b57f893e7f10cb9ffbb5b1025da",
+      "bytes": 7378
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonVariation.lean",
+      "sha256": "fd4ec51fb8e4c2be0bc2ea3f9e9eb58b687c5460e1752366f176bbf9b2a832fa",
+      "bytes": 10009
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/RoofContinuity.lean",
+      "sha256": "b8495b2f7d02588eabca20d9d289c311647627f0f797da3126d6822f2fd3f55e",
+      "bytes": 2331
+    },
+    {
+      "path": "AmbidextrousSofa/ExactConstant.lean",
+      "sha256": "c082bc557bb118eb9de0b86081137451f5537fb8119f76101f56ae9fa6437f13",
+      "bytes": 3475
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/BarrierAnalysis.lean",
+      "sha256": "496e79af160ba6cdbffb5f0ee41312920e99a26cbd677865376b572669324c6b",
+      "bytes": 8062
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Barriers.lean",
+      "sha256": "62461745aca846447ba5b23ffae10d7a3d498bf08207a0eb3fc1c7e46f8a230b",
+      "bytes": 5142
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/CapGeometry.lean",
+      "sha256": "90413172790387bffb97525f398f548833dc0234d45f304ca2e6b3fb7abe1c7f",
+      "bytes": 10988
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Caps.lean",
+      "sha256": "5a19bb77a5ac2fd0b35c19f0bbacf70b40c2ec3c1a5280189f4a948ab3409b42",
+      "bytes": 2636
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Hallway.lean",
+      "sha256": "dd0db7586c50ee05052ccdeffae26ada31dbfaf81c5ecaf4b6860306fcc15a34",
+      "bytes": 6956
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/HullCompact.lean",
+      "sha256": "1f8e2f9579baec6bf7379bdeb1f54b154bdedd6b308c484c45e9a14e050bbf25",
+      "bytes": 2789
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Motions.lean",
+      "sha256": "a27567c950f8041fe3c01d8ab72563a1b3e13939bef4f0b5575f45be6d5d5dbe",
+      "bytes": 2153
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Plane.lean",
+      "sha256": "836775196a2848aadb03a3cb11cba8026796a8303c82d1f0d535b1244221168b",
+      "bytes": 2638
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Reflection.lean",
+      "sha256": "43b25665688af1adad913ef6d5e4c88726321961dbdb83d19bcc2951b1f9c5b1",
+      "bytes": 7128
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/RigidMotion.lean",
+      "sha256": "6ec12b876f1671e8f37b15bef2fa45c410d0507e24eab99736979f7c08373e38",
+      "bytes": 4652
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Support.lean",
+      "sha256": "1a45f86daace917c91cadeea6939ee1fe7f9c883b9f7caf05e56fd5c9ccb9155",
+      "bytes": 8932
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/CapScore.lean",
+      "sha256": "7414862b00c2977bf9fa309588fbca3c1d6723addbb03cb08e205eb81470093d",
+      "bytes": 4872
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/Fibers.lean",
+      "sha256": "a15445fe8a53e53b2fa7f37d0b21d10c8f1adc7858cf0733830ddc12309a34bd",
+      "bytes": 6459
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/Partition.lean",
+      "sha256": "cda953702d96c3598ae60ea5df4e47863b1573c005a37a97adb1ab634937dd93",
+      "bytes": 6201
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/RigidInvariance.lean",
+      "sha256": "53ed1b9948672975d9ce9556ce46b50e0f55cd850a9b48e85138b136727f34c1",
+      "bytes": 2332
+    },
+    {
+      "path": "AmbidextrousSofa/Topology/RegularClosed.lean",
+      "sha256": "b823740c5fc9556624f98306e2efdeb5fea5c8db2918bf86b3bb518019220244",
+      "bytes": 1600
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1792deeb53e5cd93ce6d73dab054cd7f6e0fb316b1c6824a63552e7c183b4630",
+      "bytes": 671,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "AmbidextrousSofa/Analysis/FiniteNicheOscillation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/f6885139f0d1e60376ff": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vltanh/lean4-ambidextrous-sofa",
+    "source_commit": "0f24fe48b4cadf02a442420e677b45a036136dbf"
+  }
+}

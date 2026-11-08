@@ -1,0 +1,2401 @@
+{
+  "id": "d2a9a51fa2e53932d1a0",
+  "source": {
+    "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+    "commit": "58a9ffe548ea64319ac8cba098634340ee6270cb",
+    "project": "scottnarmstrong--CaffarelliKohnNirenberg--58a9ffe548ea",
+    "path": "CKN/Core/Step4/PressureGradientOriginClauseGrowth.lean",
+    "file_id": "0369616dc4518b841bd9",
+    "source_sha256": "0369616dc4518b841bd98c95ca0e69242f571c55fc3044efa5ae5dc55a08bd93",
+    "start": 42,
+    "end": 70,
+    "original_start": 29,
+    "original_end": 70,
+    "declaration": "originClause_pressure_clipped_holder",
+    "source_url": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/Step4/PressureGradientOriginClauseGrowth.lean#L42-L70",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--CaffarelliKohnNirenberg--b8e78fb1bbb0/blob/58a9ffe548ea64319ac8cba098634340ee6270cb/CKN/Core/Step4/PressureGradientOriginClauseGrowth.lean#L42-L70"
+  },
+  "native_target_name": "CKN.Core.Step4.originClause_pressure_clipped_holder",
+  "source_declaration_label": "originClause_pressure_clipped_holder",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "fe214f4004e10ee4dc01c121f7ced04488e7dba7abf4e3488ae68624cf9caa43",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "97c1d6cb46921fc2a38652f448f9058c15f636a4d2c218c3e2bcfa5e30f66fb8",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "CKN/Core/Caccioppoli/Admissibility.lean",
+      "sha256": "7317b0f4cce23e9a36b1cddbe37b239d7d7058d50a5c4f81b2664a9d0b896b11",
+      "bytes": 4379
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Caccioppoli.lean",
+      "sha256": "5ffe18f4293dd6afae88ef16feccf54a08cb75d3b3f218616d5591a35f72dd06",
+      "bytes": 8159
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliAssembly.lean",
+      "sha256": "fa9f571c351d9ae3f321521fb6910a0c7e4dfe5260e7a82f74339f3c4428d2d4",
+      "bytes": 14425
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliCentered.lean",
+      "sha256": "17c501e61d419c284e0bd2cebd8990c73b7deaae7b7d0408e24e9edca811a50d",
+      "bytes": 31554
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliCenteredRhs.lean",
+      "sha256": "cdd6b5a5caa5daa2dd1a624d3926399ab03f5de624f12030b4b2194ebc3c23ec",
+      "bytes": 2462
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliEnergy.lean",
+      "sha256": "ecf8fd35c63c449d0663f0fcb2c61ccac66b92a50adcd9ac83554f921c1a0856",
+      "bytes": 8277
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliEnergyLower.lean",
+      "sha256": "3bd2475ab18b30b600afc1d0158296722a701d9e95e463c431988125f58c15ac",
+      "bytes": 26827
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliEnergyLowerIntegrability.lean",
+      "sha256": "2703c1e9a2e80b4790b1d7a3b9928c24dea1fcbd656e142e61f1533f91d713f4",
+      "bytes": 7210
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliEnergyTerms.lean",
+      "sha256": "8ec1b87aa0e8d73fcd212dba9661bd1e40ef00d2e87ca81cd3f08be165fc6909",
+      "bytes": 31806
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliEnergyTools.lean",
+      "sha256": "f50329a29320bc248483c5511466284450673ac97cc94a4e8588714ecf82940b",
+      "bytes": 13692
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliMeanSubtraction.lean",
+      "sha256": "7b8a92cc3dc7b609ecf596962808f2e39a8eb37702ade5d43642a181b22342e8",
+      "bytes": 24554
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CaccioppoliRHS.lean",
+      "sha256": "d22c9ac97258f21a47363a6e0229b836c26b8d5ada9ca28dcfb8772b7ea22dd7",
+      "bytes": 27767
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Conversions.lean",
+      "sha256": "b228266c144a401b72ded8cc34b0fd6893c85ad540e79c236cbb1e4dd392a2ce",
+      "bytes": 3712
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Cutoff.lean",
+      "sha256": "ad52dbfcc56bf3d022952d875e1dc87cbc93930ac86f63260710494b0dfb277d",
+      "bytes": 29893
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/CutoffBase.lean",
+      "sha256": "7be2f0bb9c9d4b875a45af743ed9e20f4ea5832a11c0e0bb3d183b6a2344df31",
+      "bytes": 4949
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Derivatives.lean",
+      "sha256": "c52cab5a88de097b789140051f0fdde301f71a29c249abfa40673116c742e901",
+      "bytes": 12166
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Finiteness.lean",
+      "sha256": "47042aba1541d32c9a9628d0c7c872ee3e54a5df0f200f76be6781682fb9156a",
+      "bytes": 29936
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/FinitenessComponentBounds.lean",
+      "sha256": "96253f1ae2c8001d6d0a2a2c67be9c4c555c4cea210fc1ad7bcee7fdedcc4fa8",
+      "bytes": 7529
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/I1.lean",
+      "sha256": "6b1299aa0fb7844381ee562291668b1e2c6cba8ec1dcca5ccf3eb60bb56c0ccb",
+      "bytes": 31140
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/I1ProductRules.lean",
+      "sha256": "ecccd6c7dbb02151cbe00238566e73bb1960fe010613b57e55608a55a34abb05",
+      "bytes": 3358
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/I2.lean",
+      "sha256": "f23c6bf710360582b07cc7e4d86e9dda729bcf7f37639b645dbaefdfc86a6783",
+      "bytes": 4824
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/I3.lean",
+      "sha256": "d18742720cb2a96cb54d413ec0e85e8e90fcf43e52b5d00d34516341b7569bf3",
+      "bytes": 1979
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/I4.lean",
+      "sha256": "83e50a60759a41a58b10b39a9b1c8143f44909d32c199627089f78fa2f3e0d06",
+      "bytes": 15865
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/LocalBox.lean",
+      "sha256": "5a1d7d362be5a5fb46b05d2cb691d95a45b9455a7bd99dc341fe823b90243170",
+      "bytes": 3455
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/RawI1.lean",
+      "sha256": "2eff611a811b295c4297c096da63f83e6e5b01bb3abc6457350fc5e1c51f40d2",
+      "bytes": 15584
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/RawI2Bound.lean",
+      "sha256": "ebce8868e65943490f5eefedd73c79c4b60dec5cb49e075ac32aefc74fa4f78d",
+      "bytes": 11346
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/RawI3.lean",
+      "sha256": "98ad25c31a52fc14f64cb02ab8e8450d7702a4fea1db68525e0c75a392fc5c9a",
+      "bytes": 5782
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/RawI3Bound.lean",
+      "sha256": "3d3a4164acf4f98d6db6fda5804d7fed500533e7a11670262fac9c59f7b519ba",
+      "bytes": 13360
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/RawI4.lean",
+      "sha256": "bf9ada493307d7629382874b89b5a1c4de575d29b8e4e65b731bd70d63ab2f4e",
+      "bytes": 5656
+    },
+    {
+      "path": "CKN/Core/Caccioppoli/Terms.lean",
+      "sha256": "8e409078bd4690bd8a3c2a4f2614e091995597b2ecb3ff842dfb3810d2aedf82",
+      "bytes": 17820
+    },
+    {
+      "path": "CKN/Core/Endgame/CZConsumption.lean",
+      "sha256": "c21db332aff56faeedfde0a0f61da3de6c7a6aa4812171d80683d1351d066450",
+      "bytes": 1473
+    },
+    {
+      "path": "CKN/Core/Endgame/ConcreteRieszConsumption.lean",
+      "sha256": "6be2b86a0da39c5fc3a18f6e6b69b92e1cf3706cea8bd872597c5d0373c96a25",
+      "bytes": 2532
+    },
+    {
+      "path": "CKN/Core/Endgame/ExtensionNormTransport.lean",
+      "sha256": "8f90b70ae2d7ef8600ec90f9a2d426803d32d0131bc3cf182fda00038ab1bf23",
+      "bytes": 1296
+    },
+    {
+      "path": "CKN/Core/Endgame/ExtensionPairing.lean",
+      "sha256": "a402237e2b78185a2a283f9d50badd163ee9ba355bd29e87f64c75bc3e09bf23",
+      "bytes": 7534
+    },
+    {
+      "path": "CKN/Core/Endgame/ForceSource.lean",
+      "sha256": "7047c1f2464a7e1e7ff2837a7e6557ebf855014008c07ec6272f98019a86d5f0",
+      "bytes": 5712
+    },
+    {
+      "path": "CKN/Core/Endgame/Localization.lean",
+      "sha256": "736d962142dfa697299f6b8bb4923c5dfb69751ecb19d84b2f2ecdbaf5dee122",
+      "bytes": 6266
+    },
+    {
+      "path": "CKN/Core/Endgame/OneSidedGeometry.lean",
+      "sha256": "c7fa617c97eef762fad03ebd7260145dc7525d750ca4bc1cc225d6ed5e145b84",
+      "bytes": 4681
+    },
+    {
+      "path": "CKN/Core/Endgame/OneSidedMorrey.lean",
+      "sha256": "564c8a5e36905c14615298e599d3434c011e81aeb32dcdf229925e8bbbf3de41",
+      "bytes": 8261
+    },
+    {
+      "path": "CKN/Core/Endgame/PowerNormTransport.lean",
+      "sha256": "d0cd9ebcad2a3f750f349f803374b3220ad3c988c8cb95e9b92334d342f88b77",
+      "bytes": 2738
+    },
+    {
+      "path": "CKN/Core/Endgame/PressureCZConsumption.lean",
+      "sha256": "8abe4e9d68be6bc60a693cf60eb687e3c3e682017eb2e5e3174d324faebc20af",
+      "bytes": 4164
+    },
+    {
+      "path": "CKN/Core/Endgame/RawCZBridge.lean",
+      "sha256": "236a46264545f962a727f24ca11f01eb0fb3ccf620bf8b70c87a21998d05b5dc",
+      "bytes": 5098
+    },
+    {
+      "path": "CKN/Core/Endgame/RestrictedCZInterpolation.lean",
+      "sha256": "7034aecf8050102f46ff57686156b77162eb4b99506da020041f123b453e20b5",
+      "bytes": 6029
+    },
+    {
+      "path": "CKN/Core/Endgame/RestrictedInterpolationAE.lean",
+      "sha256": "7779d0409226f3cdecd652794786a202c260155fd03d303c11b3a36553fef416",
+      "bytes": 12248
+    },
+    {
+      "path": "CKN/Core/Endgame/RieszWeakGradient.lean",
+      "sha256": "bd5bca71f588f0b164f14914aa0cfe831de5cf1fd1a04a5ce858c3b495fec91e",
+      "bytes": 2836
+    },
+    {
+      "path": "CKN/Core/Endgame/SourceComponents.lean",
+      "sha256": "6595274236425620e687206e12ec526f9d043b99f31997dbb46995fb15ff9846",
+      "bytes": 5062
+    },
+    {
+      "path": "CKN/Core/Endgame/TensorExtensionPairing.lean",
+      "sha256": "7090fe9b51f3e2a9b9635a40f2c3a25aae0aea896fe55cc536f1b11644479c64",
+      "bytes": 4011
+    },
+    {
+      "path": "CKN/Core/Endgame/TheoremBAdaptersCZ.lean",
+      "sha256": "c19b3e29cdf60b6683687467af0e3f3b074a75c24e87048462f6c00cfc21e15b",
+      "bytes": 4127
+    },
+    {
+      "path": "CKN/Core/Endgame/WeakCZConsumption.lean",
+      "sha256": "d00c568750d1bed0b71ba88fae9a9a50ff87f55e96ac9d05c57aeec9901456b9",
+      "bytes": 4957
+    },
+    {
+      "path": "CKN/Core/Endgame/WeakPressureSlice.lean",
+      "sha256": "b00c52e26730075c89c63a50e6f8e2c17e8a70e792c5355e7e85e7fe1931a402",
+      "bytes": 7230
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Campanato.lean",
+      "sha256": "de519d8ef33f87d32009770632cac17d8ee6d111b82ba9df0a0065d39f97ac21",
+      "bytes": 11505
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Exponents.lean",
+      "sha256": "655f0cfb3b28f4a56cba2747e7f24d9895f9a8f4dd9d9734c592afa2f3ba5f33",
+      "bytes": 1700
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Far.lean",
+      "sha256": "7911b7b0ac03ede50969fa418fdf8ae1f0c5bbe6156eb9fded9bce35353af937",
+      "bytes": 24701
+    },
+    {
+      "path": "CKN/Core/HeatPotential/FarOscillation.lean",
+      "sha256": "2ec4a8fa85e976d9d553c85882d7da89dc6fadd7e3dd1127b48a169c6af49927",
+      "bytes": 32392
+    },
+    {
+      "path": "CKN/Core/HeatPotential/FarShell.lean",
+      "sha256": "3be5bd817d9aa32502d9e1b80969a74b97d14f7e845fb125fdb98a667fd963e1",
+      "bytes": 31023
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Kernel.lean",
+      "sha256": "9db79888e8c6a3a89c6fe1eb7eebec8f88253ef39c7be26779d682ba1dab08fb",
+      "bytes": 4217
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Morrey.lean",
+      "sha256": "e1481fea0e4109629d657da27f4464d4703e85dc7352edd4aedaa465c320392d",
+      "bytes": 1935
+    },
+    {
+      "path": "CKN/Core/HeatPotential/MorreySources.lean",
+      "sha256": "736b8e9ddda80d6005db2d2bc4bc838fbc72eb367de4ef6095765c7dfdf43675",
+      "bytes": 9386
+    },
+    {
+      "path": "CKN/Core/HeatPotential/Near.lean",
+      "sha256": "c1a8c07c102b9e3c3039cea0b7deb39b7163227a0e3ca6d64101df158ee68f09",
+      "bytes": 919
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedAssembly.lean",
+      "sha256": "64a6e7494a8a67f080c9c86826e411f5f8c6bed9240b504dc1041a57b399f43e",
+      "bytes": 16768
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedBase.lean",
+      "sha256": "f2ab27be1d3c684feeb774454404834054ec4a20e21da44c037928bc08177f13",
+      "bytes": 31047
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedCampanato.lean",
+      "sha256": "3a112b8e2cf8802a3692822d18fd6f0e43e577efad90939a290b67539c5738f4",
+      "bytes": 24329
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedEnd.lean",
+      "sha256": "2ddd76238e14d0e098e2ef9b55284d3ea809923383f51a5743c393d60e235566",
+      "bytes": 19703
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedFar.lean",
+      "sha256": "92dbacaa7ed2f47b9d998d5ce7869d6a539680d214c78c0414dcd1113227ebf7",
+      "bytes": 20718
+    },
+    {
+      "path": "CKN/Core/HeatPotential/SubordinatedNear.lean",
+      "sha256": "5880defe81456746dd3d84b2fd503952495320fe4c0e25f102598bc05a8f14f4",
+      "bytes": 18466
+    },
+    {
+      "path": "CKN/Core/Iteration/Arithmetic.lean",
+      "sha256": "e96ab898c53c32bca7a29bb5d70bcee8efb7e6cf74187d6f1eabbd54ee4e06fc",
+      "bytes": 26099
+    },
+    {
+      "path": "CKN/Core/Iteration/ThetaDecayAlgebra.lean",
+      "sha256": "abb046f6f703ea018519cdda8576c175f5783f2d2914a21ab0eccd73eee827d9",
+      "bytes": 34612
+    },
+    {
+      "path": "CKN/Core/Step2/Interpolation.lean",
+      "sha256": "b460249010657a412574282c5b5244e3e70352fabfb1457ed9a3254e34d321f0",
+      "bytes": 35535
+    },
+    {
+      "path": "CKN/Core/Step2/MorreyBalls.lean",
+      "sha256": "0389a0e0fcea1bf8ca7f529f31a1d0189b69531b2e9dc62c7552e11234443dd0",
+      "bytes": 2565
+    },
+    {
+      "path": "CKN/Core/Step2/MorreyForm.lean",
+      "sha256": "eb20d6b7d391050e257b82e35b23928a56799d723d8406bd768308415924fe5b",
+      "bytes": 47050
+    },
+    {
+      "path": "CKN/Core/Step3/DuhamelAdjoint.lean",
+      "sha256": "284f57b054bf951cef1d4b74f90cc81c25e762c61371075710f0a99f4c74e377",
+      "bytes": 23297
+    },
+    {
+      "path": "CKN/Core/Step3/LocalEquationRepresentation.lean",
+      "sha256": "b1517e3ff4ee407bebfeb3005017decab9720df3187145b58b8dae034114806d",
+      "bytes": 1714
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationBasics.lean",
+      "sha256": "8533d85d2a31fd135cc157260b9074b86c73f6b79725237e32622911ed1548c6",
+      "bytes": 14445
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationDuhamel.lean",
+      "sha256": "50c7edb7e246b900946c6aed7d155aef2298806b96c25c4feb8f9ad956f8b848",
+      "bytes": 30121
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationDuhamelKernels.lean",
+      "sha256": "a19ec56d06dd751479cd2b06420d24729fc1b37a1a800e1e845a51ce1304be23",
+      "bytes": 10690
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationLaplacian.lean",
+      "sha256": "18362f4e55ad8f81959fe38fa8bd80ac7399c29217fb41c844138b1ee52a3d69",
+      "bytes": 24511
+    },
+    {
+      "path": "CKN/Core/Step3/LocalizedEquationTested.lean",
+      "sha256": "d1a2f53cdbeb5199d4867f0c70338d0c4ab0c31d392e2d830d32b2dd19914915",
+      "bytes": 26344
+    },
+    {
+      "path": "CKN/Core/Step3/PressureDecay.lean",
+      "sha256": "8c8eb34e8aef49a08d88dcf147f0e315486cc81c89314dda6ff3ecf2a5e235a8",
+      "bytes": 3755
+    },
+    {
+      "path": "CKN/Core/Step3/PressureDecayMeasurability.lean",
+      "sha256": "f05a1eda2868419993dfdc0c08f10643853d545d733e453e1881ac31f40190b4",
+      "bytes": 33957
+    },
+    {
+      "path": "CKN/Core/Step3/PressureDecayTShape.lean",
+      "sha256": "828c16bd68350425fca36408c084362d837b8b56eb4fd2034e4cad2619e5f3b4",
+      "bytes": 26184
+    },
+    {
+      "path": "CKN/Core/Step3/ThetaDecay.lean",
+      "sha256": "c65627261d8c468392521d6f7b456f2b88725e5ada0aa9c6f4cdd6abd3bac23a",
+      "bytes": 7471
+    },
+    {
+      "path": "CKN/Core/Step3/ThetaDecayTShape.lean",
+      "sha256": "383e7e523c5ad6f332e07963279f5761f494883daf820ec2729a4d89e66a3419",
+      "bytes": 7237
+    },
+    {
+      "path": "CKN/Core/Step4/Decay.lean",
+      "sha256": "30e614609619258ac6a685707942d557075d8a4596ecd84bff42ffe2c9ffcee5",
+      "bytes": 3203
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradient.lean",
+      "sha256": "0d2c075cd9529a6f59e1092f2243266f0505cb0ad90d4c5bfdbf66f98f4e669d",
+      "bytes": 5465
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientBase.lean",
+      "sha256": "3b1b103244903835786ae7ea7fb5f29c9aec1f0de82fbe0f21ba74e3a66ebb47",
+      "bytes": 3124
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientDecay.lean",
+      "sha256": "002e7fa50c7ec267f1161fa6c3b52357f4e8f7a8e93b3e78f7c62b2c6cc0d4a1",
+      "bytes": 3127
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGaugeMajorantHolder.lean",
+      "sha256": "256d495116f9b6f4df27f7077718a76fcba22b25a154235a5e953b6d79b1c5b7",
+      "bytes": 2015
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedCell.lean",
+      "sha256": "f0aea82d9382d9ad45c5ad409f9f4b84e987386199bb804b25e36eaeea54a663",
+      "bytes": 2531
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedGeometry.lean",
+      "sha256": "bf4550c330ee14ea157f2ae068718cbaf40de3e9c45d7c943c5170cbab025e36",
+      "bytes": 5309
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedLocality.lean",
+      "sha256": "7c3c6b9a47ac6c2242c51d401f612a07af48b2510be2ec6c0fa41d33b40bff54",
+      "bytes": 6023
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedMarginGeometry.lean",
+      "sha256": "fadb5640df23e01e592c1afc8c5bd15fb78710042ed8222ca7ddde53afa60c56",
+      "bytes": 7660
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedPartition.lean",
+      "sha256": "6470fcc99532adb8221f7da4d18c09fbb3a543856373da9428bb9f0695ac8002",
+      "bytes": 6697
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedSelectionCore.lean",
+      "sha256": "3bdcb8861735e8887bf15db4a3c6ded8f71f6b2cb9deefa6332a5897529233f6",
+      "bytes": 3028
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedSlice.lean",
+      "sha256": "905bd876da43842c89726410d7303092a32d986a90d72160c222a19fa0295ad0",
+      "bytes": 9506
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedSmallCell.lean",
+      "sha256": "e815cc0246056cdf6bb101566c1454dd79229a9c7a04d000f8690c1f39174f0e",
+      "bytes": 12970
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedSupport.lean",
+      "sha256": "d335ea2b4e68260d25241fefcdef4073c8fb956db97e4eec421d552887daed4b",
+      "bytes": 2969
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedTimeBounds.lean",
+      "sha256": "aba9cc3920b094b8d2fc0c08c0626c147a4b9fb7650ef0bf6d3803e5ffcdc3b8",
+      "bytes": 3659
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedTwoRegime.lean",
+      "sha256": "d9a158be49e723bdf5a176665f9f619355bb927c0429c659c6440e9448cd1424",
+      "bytes": 5173
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedTwoRegimeMorrey.lean",
+      "sha256": "1443deec47a10a8f3d7bc9a7c697cbdc18035502fbe122358fe11eb5c188b62e",
+      "bytes": 5984
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientGluedUnion.lean",
+      "sha256": "1b125c04f6801377c203cc69773e8883be5695d2360d21f3d20a714ff6bf6900",
+      "bytes": 4585
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientLargeCells.lean",
+      "sha256": "58d6401711970b1c6fc796dea0e386deb38a3ae902a2a8cc1da84b0d8fd2eef1",
+      "bytes": 5564
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientMorrey.lean",
+      "sha256": "fd4526bfcac1a91eb6ebe5a79e12c7eeb660e8aa1fccb3813814e433bf1756e0",
+      "bytes": 5635
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOneSided.lean",
+      "sha256": "ba78c8d46877780fe26c7f3f53562bd74693424955afc37511c6c0c6b538ac99",
+      "bytes": 13079
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOneSidedCell.lean",
+      "sha256": "096643b38df2dccd21069f41ae7d0a8f22eb7c9b7e9be5cc4879f5b88f51dfae",
+      "bytes": 3090
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceAssembly.lean",
+      "sha256": "338477ccf7fc975f6045202c1ffbf3c21e2b829c8c97075c13a5e6d87a3d8269",
+      "bytes": 11817
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceExhaustion.lean",
+      "sha256": "04fe80bbca5df6e983ab38f279e99f31a0ddcf7cda0ccb2f0ec3709646a3c416",
+      "bytes": 7231
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceGlue.lean",
+      "sha256": "16b437c83ef1f569d30dbea51650bb43b508b2aa3d3be273d11dfd2b2f428aa9",
+      "bytes": 9476
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceMeasurable.lean",
+      "sha256": "96599bc14d38cdfc4ddb8cdace2e60070eb89b1a45499c7841abb63998fc539a",
+      "bytes": 2780
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstancePairing.lean",
+      "sha256": "a5c161ef3c9fa7695c4c2718deeb49c9ad11a949477fe2cbcf2b752f120c6b94",
+      "bytes": 3777
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstancePressure.lean",
+      "sha256": "44a115cc0b89c359201b62532b8f50e39e6fed330584be93a10e641caa131bbd",
+      "bytes": 2720
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceQuantitative.lean",
+      "sha256": "46a97ece0cf82b1d20afb827ba3f8005ddc9f84d7518e9dc8d93cf118454c8ce",
+      "bytes": 4952
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceSlice.lean",
+      "sha256": "ae3b594ffaa8d3e12e570d8588d35df488ee8604dd016b89248b6b004b2d0b6b",
+      "bytes": 4781
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellInstanceSource.lean",
+      "sha256": "835014354851e6b13ce973c32a679ce451bd624e4aaa8109df6b92a655012f6b",
+      "bytes": 5379
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginCellProducerSlice.lean",
+      "sha256": "264e3c98146bd658396fc5e2fac240fdd83af636df20947a27fa8ce1ccdab432",
+      "bytes": 3886
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseBounds.lean",
+      "sha256": "724eead7a5891d12bf80bcf29b8f1fff414ccc0630d2464a4d4eeb4b12f96426",
+      "bytes": 7039
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseDoubling.lean",
+      "sha256": "d6f073d652171742efcee745d15b5e04839557323861065a4f8d91024c066724",
+      "bytes": 10806
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseExhaustion.lean",
+      "sha256": "b681e5cfe5c70a45438f3b74999e065d21d2cdbb6c1c5b013942093a7b312468",
+      "bytes": 8852
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseField.lean",
+      "sha256": "1314d6460801fdd78c6a1089a6c4592445f1066d0f28e4ce1e42c601143f89d1",
+      "bytes": 11806
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseGauge.lean",
+      "sha256": "9aac48dcb8ff8507b1841d21613c343c6c4161f1e6c25e7e3b28577677c6cb54",
+      "bytes": 23345
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseGeometry.lean",
+      "sha256": "9ae991c14629a596c8cfc871f39efefd31bbb2556adbb4750e4d8e4c7d2f8f0a",
+      "bytes": 6455
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseGlue.lean",
+      "sha256": "8733428671ccb81699f052b9b1e492c33f5a5b0abae20957e439dbbed4f2263c",
+      "bytes": 9694
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseGrowth.lean",
+      "sha256": "740686aae038eee18f375be15d79b32fd0b6d12f18abbe1e6c32aa5b096c52b7",
+      "bytes": 10242
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClausePairing.lean",
+      "sha256": "c6aec5c5ee29c6844573776d8c57d8310fe1e00d7e08139f031222c786e2d57e",
+      "bytes": 4558
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientOriginClauseProduct.lean",
+      "sha256": "f30b4162ab63d4cc8670cd682c3f9bb5a39d2c8eec48453dd0c4c9966636bb1e",
+      "bytes": 3928
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientProduct.lean",
+      "sha256": "4449be32e7617097666b90627d5e980a1aa2ccf62171b8de38f34f55c9f1dd9a",
+      "bytes": 7475
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientSWS.lean",
+      "sha256": "28c76868b7069c13b446c5ba351827afcdb6fc1c7ea57a0e631c5bdd209a0900",
+      "bytes": 6439
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientSlice.lean",
+      "sha256": "6858b539085977d032ce2334a8dc440aa9fd38bba4175cf99d13de4d28dfa67f",
+      "bytes": 5370
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientSliceCZ.lean",
+      "sha256": "d6233cc7c272fa4df5b860820d2f3b0f88c4d6e311a46dabdf5032532c0009b9",
+      "bytes": 3594
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientSourceBounds.lean",
+      "sha256": "2d096c198cf29314e7d6d15dc7eb6e4a31583f283d2221c143d89751b20de003",
+      "bytes": 17185
+    },
+    {
+      "path": "CKN/Core/Step4/PressureGradientSourceMorrey.lean",
+      "sha256": "6a22375263b7553539262aef366080d9537c8d6a9c8a7755c3ba1a406f501b2b",
+      "bytes": 13441
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradient.lean",
+      "sha256": "247dda3b1633c0d4506c463aef7ead0c5d9aac48e3eb36ad2358e90523751345",
+      "bytes": 15933
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientAssembly.lean",
+      "sha256": "df3d66bf53281183465cc6f13a1e2da1c1d747486d1673a3f5c16c25be079258",
+      "bytes": 13723
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientCentredSource.lean",
+      "sha256": "f471c0025aad3a3d483268f0aad221b76e75c517eb5a6220ff3cebcf21d7f8ce",
+      "bytes": 9290
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientCentredSourceTensorDef.lean",
+      "sha256": "7d6989d56c59b73ba814f9e6a2d532a4f2e0b87d7920ab2837280f9834991573",
+      "bytes": 4792
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientForceP8.lean",
+      "sha256": "aeb58844ee01cb055b4f2235b88fb34b870b81fbc3f5e286236fe6b5f07cade9",
+      "bytes": 12165
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientForceSlices.lean",
+      "sha256": "5f1a7900f9abd13f0fbdd756a7b0920cd448da25b315da7fd122b3bf236e3300",
+      "bytes": 17566
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientForceUnconditional.lean",
+      "sha256": "74c3f69641a4330783673cf40a2d2cafda7d386e089decf4da40318ce6a23d58",
+      "bytes": 20451
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientIdentification.lean",
+      "sha256": "950c4f610ab4fd6f0a3eb74dae302324579ef08afa2e3bb14c0573a35ba87a7d",
+      "bytes": 21416
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientInputs.lean",
+      "sha256": "05219c37fd2f8e53492185eb3546db54f315c959a4639b5f849e31b158c948b4",
+      "bytes": 3047
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientInputsCentred.lean",
+      "sha256": "94afdf37dbbbb1480b1af3e4a7f429152e20fcf78f018c96b3422487218c69a7",
+      "bytes": 16218
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientPotential.lean",
+      "sha256": "4b55c54c9fa669df1475d22446b89ee808d3147d5ce462d1c08d66a86042df21",
+      "bytes": 9832
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientRegularity.lean",
+      "sha256": "5def40f4b8c2bd0fb8ab23d866e08cfff023cf8287cdbfc5496da83bcb243cb9",
+      "bytes": 8117
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientRemainder.lean",
+      "sha256": "6643cbece43eb759d8b4ce609f59c960f2fb00f315299a9f1c139b14d0047a2c",
+      "bytes": 6009
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientSWSFinal.lean",
+      "sha256": "1ff679d28dddcd4b45d8d7079b8bcc09df59b0c8b480cffc34a36a073e5553de",
+      "bytes": 5385
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientSWSUnconditional.lean",
+      "sha256": "44411a91e4ea141ee636d81bc031d5f44feff45573419634cdea174aa0f77f13",
+      "bytes": 6594
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientScaling.lean",
+      "sha256": "76e304f944bbad25c2d54c9a990fae7f993e6f902b88fbebc4c1f0f4665a32e1",
+      "bytes": 7370
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientSymmetricGeometry.lean",
+      "sha256": "6f30d4f8cc3247747bbc13b3f73fd16428cbe4e2557045c03540924c9ee18906",
+      "bytes": 2347
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientTensorSource.lean",
+      "sha256": "9c338c1c01bd809a2abe53203c6c12b98f6dcebddf3f1f9d64a2c411d4a49bfd",
+      "bytes": 4928
+    },
+    {
+      "path": "CKN/Core/Step4/SliceSelectedGradientTensorSourcePairing.lean",
+      "sha256": "8dae85aa15e3e3d564c6969d8d4dc01c00a54c9c24b48b254b8b037f96f23532",
+      "bytes": 9224
+    },
+    {
+      "path": "CKN/Core/Step4/SourceMorreyData.lean",
+      "sha256": "5a1b51327a84f3b009d3c86136fe69a54018e25b66198fb1d63bb52cda651333",
+      "bytes": 7799
+    },
+    {
+      "path": "CKN/Core/Step4/SourceMorreySlice.lean",
+      "sha256": "71c0d2ebcef1a22bd5957ef145cb53d70427a2bf6cc155352de9f69359883308",
+      "bytes": 2530
+    },
+    {
+      "path": "CKN/Foundation/Ambient/Euclidean.lean",
+      "sha256": "7e04cb72b1cccc0ab0a08bfa79969f663189435f63c3cfe76ca39ab2ac1513fa",
+      "bytes": 2682
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/CZCylinderBridge.lean",
+      "sha256": "72479cb7e8cf43f3f3c48cddf9247f06c95dda942b4e7185591714b8567f47b2",
+      "bytes": 25623
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/CZDecomposition.lean",
+      "sha256": "63ecdb88e18e38f07d3e3dacf52860474c5df53d2162c493659d76d3d5538f30",
+      "bytes": 28396
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/CZDecompositionExistence.lean",
+      "sha256": "ee629b204dbc7efcf5ebdaa3192bf5e625ca04cca297c70f5aa6b1d0076a2bfd",
+      "bytes": 12587
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/CZInputs.lean",
+      "sha256": "f54c27aa133a74e378e3add943a7d48d60f1da3159d8f0d268c0ed9259c74f1f",
+      "bytes": 32147
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/CZUnconditional.lean",
+      "sha256": "3fa649f983bdce321257622dc55e779c5afb08a168fdfccce7b9c70a17fa3c7f",
+      "bytes": 6130
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Dyadic.lean",
+      "sha256": "73768f26cf9156bd42b0e699cb417915bc00aaa38f0d0c237ae64ce7fc33fb43",
+      "bytes": 11997
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/HLS.lean",
+      "sha256": "0b9e5688746a23d603e580fdd60d047e2c83e23307570cc7f1cd3bfaea3d85bc",
+      "bytes": 11239
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Hedberg.lean",
+      "sha256": "cfc50a8c54fb8056664edfe07901ecb7e917c02d0cdf507e4c1f44c6bef2fef7",
+      "bytes": 34098
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/HessianL2.lean",
+      "sha256": "fb0051dbf1db97f12ce5aeaba754b4ae9f4f192627142e6b816a70754b5f4554",
+      "bytes": 21880
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Hormander.lean",
+      "sha256": "f3eb1a9d23cb224458ec499a8eafe924a327c5813de98e50da4d25fff87d9292",
+      "bytes": 15910
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Interpolation.lean",
+      "sha256": "413c1db5b0191539394888fbe2c69285e343fb4f49a7caa71a0c6d4973945402",
+      "bytes": 6552
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/InterpolationBasic.lean",
+      "sha256": "7273dd3606cbb88443cd0219eddf7c6d9c94fd03f16cf40dd731f7c22cd571f5",
+      "bytes": 37596
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/InterpolationIndicator.lean",
+      "sha256": "2d09b71fd241768c18926fce3324ef72f42af6724751e548fa25410fe0504e4e",
+      "bytes": 2960
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/InterpolationLpChar.lean",
+      "sha256": "f8d4ad0d52b77b2bcb2b8042e6ca95fb14919b1db866b211987d1c43a557cee0",
+      "bytes": 3118
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/InterpolationRestricted.lean",
+      "sha256": "8f2eee2019a08cbf8ffac84c42fe2e0e076581e9e5d8f3c0e85859b232bcc1ef",
+      "bytes": 24816
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/InterpolationTruncBounds.lean",
+      "sha256": "54ef5648a3e0c7a27f969b5c33360e66295651945954fa966489da1c603a2eb5",
+      "bytes": 4690
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpDensity.lean",
+      "sha256": "d84697a8138a07b9afa5737c983f7afaac18431b9db130368f5f91c80a2ab349",
+      "bytes": 6787
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtension.lean",
+      "sha256": "3a613b2b00929fb406c606d113f76cf12e6f3855d4446f4e9684012222e6cf56",
+      "bytes": 28997
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionCZ.lean",
+      "sha256": "f6c94b79b8751177c695ee39f46862f3e8382d44a740a423332f95421d2cb309",
+      "bytes": 11170
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionInputCast.lean",
+      "sha256": "cd531c3360d2b0e562c419507d7911527028fdf3429303c079a3751179be2174",
+      "bytes": 558
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairing.lean",
+      "sha256": "55eb1c1b822b85b7eb5baea46b3675bb7815bfc6c78a57e8afc4d99df33616cb",
+      "bytes": 23476
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingDensity.lean",
+      "sha256": "9810ba9952458239d80dd49740fea1bb4a539af9bc5107857d38a47bb187c63b",
+      "bytes": 5682
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingHeat.lean",
+      "sha256": "2c0971a0943298da9815a8e71304132182f63f2a2ca8032ab03f216ee596bb3d",
+      "bytes": 17282
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingKernel.lean",
+      "sha256": "3942713a76011a5596b06e922a90a7cefec7b5150b2733acb038c735d8930994",
+      "bytes": 3043
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingMain.lean",
+      "sha256": "42788f53b879b10c4b3038c15962f1dbc13cf873894212b0ca938f14f0ec5efb",
+      "bytes": 6255
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingPotential.lean",
+      "sha256": "7b236db918c69593111e0ac8c2dc8aebbe0bf324ddde5191300f1e67c4711eb6",
+      "bytes": 5875
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/LpExtensionPairingSmooth.lean",
+      "sha256": "e3af87da041d6b9ad64085cd331f4700ffea077c69ae99d1d02cc5c3e79ba8dc",
+      "bytes": 4547
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Maximal/HardyLittlewood.lean",
+      "sha256": "d721f36d9fcd1fd37dc2ffef7275428d0dcd2f414cdcdc81c981ec8bc4394c0b",
+      "bytes": 9037
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/Maximal/StrongType.lean",
+      "sha256": "f2f7e37da3c483c0fafbd023ebf391673417e96799bd17b51a0fe7cb85654295",
+      "bytes": 28689
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/NewtonianDerivativeLocalLp.lean",
+      "sha256": "cbcdb76586511c808b2d4e1d17e9def41f9870c24805991613dc77ec79748ad4",
+      "bytes": 34903
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLp.lean",
+      "sha256": "3f56569c1c27f45a32d7b9d8e4cd33b3867d799582666ca4cd0df3bbc3d63891",
+      "bytes": 9111
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLpExponents.lean",
+      "sha256": "f9a41cbe91e92570b797e36050d904060d74350f8454515b883f1bd4a8ec9478",
+      "bytes": 3154
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLpGrowth.lean",
+      "sha256": "ba0a0b60c1d6a409c811323e3d3095bf29da7aa24b6022d1d718346f7eefb5ba",
+      "bytes": 17841
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLpKernel.lean",
+      "sha256": "b32780fb857b4fbb23a458484ae64d9555d4c667da26d3282a2816cebd18b385",
+      "bytes": 6648
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLpMeasure.lean",
+      "sha256": "17d071900b6707e6542a54e586161b64757518e070bbc8f3aa07d53714e24dd5",
+      "bytes": 3700
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/PotentialLocalLpP8.lean",
+      "sha256": "162bf899ea255d81de80b20f84034760e41185299d12f1a77306c0a670db61cb",
+      "bytes": 9899
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecond.lean",
+      "sha256": "cd85e9d2bcad9755504d4af3a21930c909ab880254f8fd3662f0b840b98a9bf9",
+      "bytes": 35492
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondBadPart.lean",
+      "sha256": "8135d01cd56075a854c380fb1139eda7f67915e5fefbdaaf760878c542ccc947",
+      "bytes": 21758
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondExterior.lean",
+      "sha256": "0f34a0f2032ec6286fa9320f16dd208c557ed19e8e98129bd64f5ffef8789665",
+      "bytes": 32233
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondL2Global.lean",
+      "sha256": "f463bfaf9b10b323deffb68fc5d7709ec0ca4c52a1a688665b8032b5177d709b",
+      "bytes": 33649
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondL2GlobalBounds.lean",
+      "sha256": "222c011d295ac313fe9b60ff7253942bcd6b7d074d4abf6e7d58362965074e65",
+      "bytes": 9096
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondL2Input.lean",
+      "sha256": "2cc1d29acffacefd948f59f106a2526811a2dd4afa7d40bb8e11c79728b59768",
+      "bytes": 16180
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondOperator.lean",
+      "sha256": "9f15ee2c7a3e56c37c85e9b7c8b99c18d7d57f660c2f78d2585f30189d4f9efb",
+      "bytes": 21891
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondStrong.lean",
+      "sha256": "ef12592d1acd14ab5544731b76802c3518f0d9c9eec3e406d981f85f2eed7716",
+      "bytes": 9338
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondWeakAssembly.lean",
+      "sha256": "23ad1856646e7fb96fc192f67f1f9e1900a625f3862c6bc612564909e4fa03af",
+      "bytes": 27125
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondWeakCertificate.lean",
+      "sha256": "902835a7ac2b392e7d27e47adcaf47dc0f1c53aa93eb2361f3612760248c6abf",
+      "bytes": 6672
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondWeakConcrete.lean",
+      "sha256": "797930c96478454413b5eedcc797df626244fcde330e16355bfc554c9bfbca3f",
+      "bytes": 15300
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondWeakCountable.lean",
+      "sha256": "51812418f7dded3ab6bca266629aadc441148eaa6064ea5fe83dc596676a8108",
+      "bytes": 32266
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RieszSecondWeakExterior.lean",
+      "sha256": "17e4a142f6998e1d777d434df55bd80efa94271e77d567a6eb7d9f0847f1e8ee",
+      "bytes": 6140
+    },
+    {
+      "path": "CKN/Foundation/Euclidean/RpowSquares.lean",
+      "sha256": "fb4e4a220de38f3bc803b99ab271616ae7b675f98bd0b090c89015d2e63441bc",
+      "bytes": 1075
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Commutator/Kernels.lean",
+      "sha256": "da5af567b5df8eb384394b2982e725fbe72319b42bb49001844b9892f7f01ce8",
+      "bytes": 8166
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Commutator/KernelsBasic.lean",
+      "sha256": "bce28f376886c67c1780a1b160816beaa190dd410f4fac6a998a0b69ea374e74",
+      "bytes": 26381
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Interior.lean",
+      "sha256": "b17e26461c3249e7767887bfe35fb4a68fb20d8bcf088c4ce9b01c360b9a1f98",
+      "bytes": 23881
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorBasic.lean",
+      "sha256": "1c71129b23660c7a043342b5afddd32d50a770e3b73994b97eba3c2ae49b61ef",
+      "bytes": 26941
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorDisplayBounds.lean",
+      "sha256": "f6adbe4f9a1da9f91fb8891201d37d56c50fca27fd5b2cbfa2939466287957eb",
+      "bytes": 15396
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorDisplays.lean",
+      "sha256": "b8a0c27935d4f3f6f2d879a8b391537499945f20bd0ef6f2f238dc515e425653",
+      "bytes": 23472
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorEstimates.lean",
+      "sha256": "f5c5af489aec17dc7e8797367a4afe32c3823d0eb5b7ed2fd9fc8057532d426b",
+      "bytes": 32614
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorEstimatesBasic.lean",
+      "sha256": "9da7bcfc0241ad8777f98ac6e875f908a8faedbfd741339cf6fc98a800019068",
+      "bytes": 35050
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorGradient.lean",
+      "sha256": "b6d2fbb94475938f70fa0c08d7319abc3b732202bbc5d9e79075992be07b806d",
+      "bytes": 2405
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorRegularity.lean",
+      "sha256": "b06d7a60f61562b06246445acf37f8486791bf9c7d314717c13f3648d91ea45d",
+      "bytes": 30156
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorRepresentative.lean",
+      "sha256": "8afdb5115dae1847fee5540695c63cbf4d9555669f129d447c344b55205b01e7",
+      "bytes": 23137
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorSmooth.lean",
+      "sha256": "ca91181bed519c1c01cad84c2266fbc75af959090954a9cb7d0ca29b9a1f6a7b",
+      "bytes": 33193
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/InteriorWeak.lean",
+      "sha256": "ad87d7be5d986eb3db4797d26cdc4f4c64f426ef5086faf50d2d02339fcd6493",
+      "bytes": 13043
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrders.lean",
+      "sha256": "970d2c6bb5bbb4c9668aac97cf042be48cdb0ec3ddafa8e9d1d8853aa21e26af",
+      "bytes": 10622
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersBounds.lean",
+      "sha256": "1c605700756a528d25710744c6f88e5ebdcd1cc0c0494898f3863f22afb3a3a7",
+      "bytes": 7950
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersOpen.lean",
+      "sha256": "05c41fb1a1553451b9d6e59b7173942407c38fdc3a3384835e11ec4d573a9c5f",
+      "bytes": 2556
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersPotential.lean",
+      "sha256": "b39716624dcb97d752ea890e55ed7e98e82fe6a5cfcbd55ea369767fb515feb0",
+      "bytes": 16391
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersShift.lean",
+      "sha256": "c07afac7e5dc0d3d6b69cbab948091bcc236944bd6329f2ff5eb29a30f64de3d",
+      "bytes": 4905
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersSmooth.lean",
+      "sha256": "7d929d4487e0fd34c4db0aced7bb44481b1a9f8b1298e0974f579a2d7b33fac1",
+      "bytes": 2597
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/KernelAllOrdersSphere.lean",
+      "sha256": "48b8c2c482cd38906f27a38fff92999aae8ace957714484fed7e4fdf56ff6240",
+      "bytes": 2913
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Liouville.lean",
+      "sha256": "0687daa5ba522ce23c45910192a92d3717fb8f47024554cac83b5b4dc9731219",
+      "bytes": 8484
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/Newtonian.lean",
+      "sha256": "617c57659b5e4d4904b7f050e090b173ae6e29bc9c22ddcf1b8221909697cff6",
+      "bytes": 19201
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/NewtonianKernelIntegrability.lean",
+      "sha256": "c537adff9e874943806a19d96106ce3a75659db796e1d324456313dd4fde8241",
+      "bytes": 2701
+    },
+    {
+      "path": "CKN/Foundation/Harmonic/NewtonianRepresentation.lean",
+      "sha256": "5efc6eebc59d0e41bc95ffb651932350fd1ceb3a455e5eb9734fd59be8d1be05",
+      "bytes": 21343
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotential.lean",
+      "sha256": "7a0c097f484ab2353462126ff101c4b5ca8f9afacf49a98bc1645522acc2f379",
+      "bytes": 31544
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialIdentity.lean",
+      "sha256": "6c6d5f5589423f1ff0d9a49d0b5b019a4eb0fc0ee740b8365cf3f7faa17a9e94",
+      "bytes": 26922
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialKernelBridge.lean",
+      "sha256": "dac5474b756a841aeead47f2bc7fd9ed0d1738dd787bc8649fcd8a088dcf8197",
+      "bytes": 22570
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialPairing.lean",
+      "sha256": "757f2ec363cb50cd8644b3517345fb15224bd3d3da60a90bc67b5b847878de23",
+      "bytes": 3807
+    },
+    {
+      "path": "CKN/Foundation/Heat/BackwardPotentialSmooth.lean",
+      "sha256": "3fd06ace650c2d6538e1482fe9511b00a7669f524bffb5b0ea86f585034f18ac",
+      "bytes": 12922
+    },
+    {
+      "path": "CKN/Foundation/Heat/Basic.lean",
+      "sha256": "4f7354999bfde44039d84b5daaf21de8c2cdc0a2c5701b8ac0ccd4bd0c0ec88e",
+      "bytes": 6257
+    },
+    {
+      "path": "CKN/Foundation/Heat/Bounds.lean",
+      "sha256": "a50db5c3387223a877ac5c19ddb501a3b4610097bc9e4dff1c65ac83ca539f94",
+      "bytes": 20308
+    },
+    {
+      "path": "CKN/Foundation/Heat/Convolution.lean",
+      "sha256": "a6b8c6f0820427c7f69d31291427368cd74711212292a000c7aac0874a30d545",
+      "bytes": 20138
+    },
+    {
+      "path": "CKN/Foundation/Heat/Cylinder.lean",
+      "sha256": "d79ce26bb01db1b4ad6c088db02e76d5845e71ab2bee97e0cadcb4f0209fa02f",
+      "bytes": 10141
+    },
+    {
+      "path": "CKN/Foundation/Heat/CylinderCentered.lean",
+      "sha256": "ce6df1642ed063051e479849c17622cd675916b2dc075d96d0943aca32948b84",
+      "bytes": 18013
+    },
+    {
+      "path": "CKN/Foundation/Heat/HigherBounds.lean",
+      "sha256": "bb16a26f5e0983956f029b975f6712866f102fbfa04b7addc15681ad1ca7359d",
+      "bytes": 22942
+    },
+    {
+      "path": "CKN/Foundation/Heat/Integrability.lean",
+      "sha256": "d57ca10eed420d20c87f3293e6cdda9afa81af1a2f165eb2a70b8b81a33f161d",
+      "bytes": 25282
+    },
+    {
+      "path": "CKN/Foundation/Heat/IntegralBounds.lean",
+      "sha256": "10af0203fcec24b2ca09fb59f5fcaff35e60e321eaa14d502c803f33a103180a",
+      "bytes": 12144
+    },
+    {
+      "path": "CKN/Foundation/Heat/PolyExpBounds.lean",
+      "sha256": "26acbfadcbff08ebb7150eaa0f3bc7130624d6f699066f9de9f77e7de2f7c405",
+      "bytes": 3563
+    },
+    {
+      "path": "CKN/Foundation/Heat/Smooth.lean",
+      "sha256": "41c0615a649fe5711b35e229d332dafed5356b78798c334d00d96fff9bdefa61",
+      "bytes": 10205
+    },
+    {
+      "path": "CKN/Foundation/Heat/SpaceSecondDeriv.lean",
+      "sha256": "85e245db25e61079235bd45083cebd5329e3d0e927f48ddf6d39ea0f47d15363",
+      "bytes": 3083
+    },
+    {
+      "path": "CKN/Foundation/Heat/Subordination.lean",
+      "sha256": "ff0e2ce9f973745d98acb333f1efaf585021968c7fc6a7d4f9b1645299c47d7c",
+      "bytes": 28053
+    },
+    {
+      "path": "CKN/Foundation/Heat/TestFunction.lean",
+      "sha256": "bbbe390da37bec6f7d30dcf3cda4f9e606e2f77dbb2a20f5f5d230d520758867",
+      "bytes": 776
+    },
+    {
+      "path": "CKN/Foundation/Measure/ENNRealHalfScale.lean",
+      "sha256": "3d7b0d00bf51257a809792ad1420ee91c6bb5ae241d9c9e29634343b0ca20667",
+      "bytes": 1952
+    },
+    {
+      "path": "CKN/Foundation/Measure/HolderTripleProducts.lean",
+      "sha256": "088fec78594821825d10be9ff9b03ea43a08d1c3da1d254698bfb3d2b5a5d6e4",
+      "bytes": 3541
+    },
+    {
+      "path": "CKN/Foundation/Measure/LayerCake.lean",
+      "sha256": "a1ccf6c7c36065792cac0cdd91bcea28be15b145b413303fe8e279c835b93d9e",
+      "bytes": 2568
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistribution.lean",
+      "sha256": "d0c1d5418c3ecde0eb2649c7e1d5d6923e0706fc90afc6bbafae1c67a2ead509",
+      "bytes": 6776
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionCore.lean",
+      "sha256": "6677bc063384cef45fdb5e117da0f836fa2db331f2a8bdbe35f006f3fbe63290",
+      "bytes": 17608
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionKernel.lean",
+      "sha256": "4feaab13f2dc0e1d0ca573157414397ffcb9637949ae75853fc30fb6719c0491",
+      "bytes": 4602
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionLocal.lean",
+      "sha256": "2167fe716995aa95e1fb8221c7da7de6feeea3a8752339158b51fa4f73384d29",
+      "bytes": 7487
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionMollifyBounds.lean",
+      "sha256": "bdbc0f92dcffd52c7a83b092be1b40d45fbefa629d4356180dae15b42b1bafdf",
+      "bytes": 5567
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionSwap.lean",
+      "sha256": "5276879f2cea90068d50a637ab94a0f7fe86e3247863e997c28f7d1a2ae6b70e",
+      "bytes": 8595
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceDistributionTransport.lean",
+      "sha256": "0ea90ff3676de84fdba6609454c49e5ee47ae416ce36e7d4f32b9c93635e5ac9",
+      "bytes": 4549
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceGradientBumps.lean",
+      "sha256": "de5ff1a6f0af5ac1be45a8d61d4ce00560caf11f868a93fa00f665dcb2555658",
+      "bytes": 2281
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceGradientSelection.lean",
+      "sha256": "7deb06120312729be7874d7e5b60a205b8ace879757d83656df11688577cabd2",
+      "bytes": 20875
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceMollifierIdentity.lean",
+      "sha256": "e52c2faf3e5347102a6b8a5de712984f07820d29adaef93406044232c8300ec3",
+      "bytes": 6594
+    },
+    {
+      "path": "CKN/Foundation/Measure/SliceProductMeasurability.lean",
+      "sha256": "33bc05c3fd92c549228422475a0b802a57fec0da6e0c1ad7827b51570dcc968f",
+      "bytes": 3249
+    },
+    {
+      "path": "CKN/Foundation/Measure/SupportRestrict.lean",
+      "sha256": "a3c863e279decdbf6c883b1cf352dcb669f68c47c131862ecdee9360b444ea45",
+      "bytes": 1789
+    },
+    {
+      "path": "CKN/Foundation/Measure/WeightedKernelIdentity.lean",
+      "sha256": "2d5a4c0d8eb53df1b46d7bd4167ba646ce62424588ae7e126990b5388f124959",
+      "bytes": 1506
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/BallBasics.lean",
+      "sha256": "bb0735394d5d377016d70474b9fc9593dbb86b92f628679ba5acb950c5e1ae65",
+      "bytes": 1568
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/BallDisplays.lean",
+      "sha256": "fde318c90118a7d71549756269ba42ee3bf12fd424a5a3159fc1318dfa8a274e",
+      "bytes": 5989
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/BallOrigin.lean",
+      "sha256": "0e57c270b535959ba8bf89f607382f3d61958292f9698107a9284780f6227253",
+      "bytes": 1041
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Basic.lean",
+      "sha256": "42a63462bee2ecf71f0d4f52109243c37b604d8e3315388431a5435492439afc",
+      "bytes": 13722
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Campanato.lean",
+      "sha256": "5a4a636a2eef6644b5f78aec5ddc989c21af1e330d97db71fd27e77875d6c32f",
+      "bytes": 3016
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolder.lean",
+      "sha256": "d6a2afb0ffa157e2a152e5b34902c40886a6b706393eeca676a7943adb78f5bb",
+      "bytes": 36165
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderCorollaries.lean",
+      "sha256": "bfb069d0d42930cb2d81fef05cdc6ef40e40709bee86ccef094b76f210b9420e",
+      "bytes": 2109
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/CampanatoHolderFinal.lean",
+      "sha256": "82d6a812aa148060f681fa95c1fda28f94640fa115f09ea97451b3840d18f988",
+      "bytes": 15507
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Covering.lean",
+      "sha256": "8796ed341ce49260157c77515a8efe3d11ea83f8712959691100cc511e49341d",
+      "bytes": 26907
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Doubling.lean",
+      "sha256": "28b18b11a28759e5c8a15a750dc0da225d23db80136bd99a4cb930cd0f0ac3cb",
+      "bytes": 10780
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Holder.lean",
+      "sha256": "8441d238794a08f0f3283d6a53b44dd42542a7a92eeea0e8a7bb67005034a11d",
+      "bytes": 1626
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Average.lean",
+      "sha256": "0b43bab6e3d6cbf7711e849d8ddd09edc24dfa5dff44fe9c932bca2c564e02c6",
+      "bytes": 7993
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/ProdSwap.lean",
+      "sha256": "aae7cd1603ec98448f8986733c2862fd512c278f296fa213eb91d3244f913491",
+      "bytes": 1422
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Scaling.lean",
+      "sha256": "907141055cd29aca5d7fcb3020573894b0664920a8bbe7f9caadbaa85a8a9d26",
+      "bytes": 31096
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/SingletonNull.lean",
+      "sha256": "bf370dbc42f50e077ee4088f0a8f46637585bca12533400679f752e3fec61672",
+      "bytes": 719
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Integration/Slice.lean",
+      "sha256": "68c803026fe3865d3c062b3749bffadf3b84fd233b4e355c8e82a6dc38957ef8",
+      "bytes": 13670
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Maximal/HardyLittlewood.lean",
+      "sha256": "188f3cbd02c33cdf42e3ca6eb26f2cd8f65934d38536ee3f362570c7ccd51633",
+      "bytes": 8317
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Maximal/StrongType.lean",
+      "sha256": "d361b5ee61256c0970400f18a8ab15b910957167ade308ff215e014ad3968b12",
+      "bytes": 29382
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Adams.lean",
+      "sha256": "f543a72c2e15b80a56c50de92b84d7d6b80a230f253392c0fc05ca9fa955d69a",
+      "bytes": 20642
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/AdamsBridge.lean",
+      "sha256": "14a977bb00804337d26e8988c425c628b3670a1fee53ee2089869ccf32214838",
+      "bytes": 15632
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/AdamsEndpoints.lean",
+      "sha256": "0f936c2ba2881741688bdcce3ab091b281a06a8cb6e19d4dd4f9e2635f70f166",
+      "bytes": 7043
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Basic.lean",
+      "sha256": "ab1160a283d55ca9663857e8516bfdb4c11267cc2ea0eeb38b4f7577a82fe0e0",
+      "bytes": 32316
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Cylinders.lean",
+      "sha256": "0bfedc5f70e106831dd1bd2d3fb0433ae698f4745e73bb8fb9449e451cc80c7b",
+      "bytes": 34734
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Hedberg.lean",
+      "sha256": "93ca355603a0336820ca779d6970647e7f0111fe76a1714ad0a3c6bad62fe5bb",
+      "bytes": 2893
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Inclusions.lean",
+      "sha256": "54b2200cbcf90e21e2626d9e7e560ad993921f4231ff58a7705f3651752040a4",
+      "bytes": 5917
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Kernel.lean",
+      "sha256": "11af2c327ec8375d64adcd325a4060a811fc90f90c41558ff2ab1f64b25e01c6",
+      "bytes": 23333
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Minkowski.lean",
+      "sha256": "043afdd4c398cc03fb51000d6d78c2a1001ec05d0782476f35f4237c36121aac",
+      "bytes": 20231
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Morrey/Tail.lean",
+      "sha256": "4fb2a071b4131c7fe25f8d9e89bae66848db8309474ee01c57a5e4d528193c52",
+      "bytes": 17967
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Topology.lean",
+      "sha256": "b73b04b54b95e528a4856526d8341131d771b6f3d0c443b27c0bf702ffb3b759",
+      "bytes": 9441
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/TsupportProduct.lean",
+      "sha256": "a1f0d4ccd7832d6dfb8399d9d36631360a9ea161e5fb3abe915d873768b2a552",
+      "bytes": 878
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/TsupportSpatialBox.lean",
+      "sha256": "85aa69502d2c1507dc1738a28bdc5b908cd39511cc0df12f6eb0541328d87dfd",
+      "bytes": 1510
+    },
+    {
+      "path": "CKN/Foundation/Parabolic/Vec3Norm.lean",
+      "sha256": "9d52c76803798b0e2b0f770e760d8eb44e258dbc7529ddb19a3693b216c2af59",
+      "bytes": 4462
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basic.lean",
+      "sha256": "0c154a7e1a1b1c55836a9a50a2bcf7a93b91e21b40a9f48002848f92ca9ef786",
+      "bytes": 507
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/Basis.lean",
+      "sha256": "122b81fbb0fd59ab38de55a229e54e4c3f1de3132d1b9aa9a1f006bbf88cc967",
+      "bytes": 986
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Ambient/CoordDeriv.lean",
+      "sha256": "3fabf3e9952845d787d8dc171623922a6837ddcd213eea9939864d47689ef709",
+      "bytes": 1737
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Ball.lean",
+      "sha256": "0be5ea44033fc87fe95a4bb8f1c10c4411514922c23a9ffec411b622d4d8d18a",
+      "bytes": 18784
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Basic.lean",
+      "sha256": "f04dc4b33e6ff0d233123e0160918eb3da9e010a025810a6853b74da0ad4e084",
+      "bytes": 8651
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/NormLeVecEuclidean.lean",
+      "sha256": "0b40027ed3850b34983bfc003b6d2d2e996e2bbef237ece30e4e6779fabf2941",
+      "bytes": 598
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/Profile.lean",
+      "sha256": "d3636efe315620d5c6b9287cdf5ae44179d0f201842407006bddde94cbda1b48",
+      "bytes": 7320
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Cutoff/SpaceTime.lean",
+      "sha256": "8d1e7692966cac0ea7d5ce185055069e7383e491af8f3e4848ed13dc4873dc66",
+      "bytes": 15686
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/H1/Basic.lean",
+      "sha256": "b511e95b612d23adc5c550ad4833c42c256c1b213c808db1f9e177dd5fcb2fd9",
+      "bytes": 5193
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/H1.lean",
+      "sha256": "df3471754cce9a8d6d3d269c67d10a78fb7f4e291d04c712345428d70abba213",
+      "bytes": 31610
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/Seeley.lean",
+      "sha256": "451f19d90f416652a759788c6d7b59232c6af4110ab9d6f7b801e52054d164bf",
+      "bytes": 21850
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyBounds.lean",
+      "sha256": "bca461236d9a349b0d4955830850be4a5a876dba532ea736a4ef708aacfb4ff7",
+      "bytes": 16080
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyC1.lean",
+      "sha256": "5ede0b23a0db4884e332d4dfc19d8c059c5d5192fa99d0430d2ad8da18711487",
+      "bytes": 17995
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyEnergy.lean",
+      "sha256": "1d397b2b8c4b658f35b619527257ea4c07cf6900e3493c0142ad29252c46c810",
+      "bytes": 14224
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyGradient.lean",
+      "sha256": "fe40e67a0ed780e562101ceaf8567dafcba75c17b04ab085c6c463bc4cb647ba",
+      "bytes": 13649
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyL1.lean",
+      "sha256": "eeeaf43b21bdb6995b77412caf29b94ba446aeecfecca0ae665523922d54c7cd",
+      "bytes": 9712
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyPoincare.lean",
+      "sha256": "cd4accc07079c9ee41d56faa1bc7a97beefa8f8c2026d02b132ae63b4463516f",
+      "bytes": 12679
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleyScaling.lean",
+      "sha256": "a4dbc6488efd83c0c48b331fb453654ffd30d97bbbf816c43a4428a3535c1de2",
+      "bytes": 8328
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/SeeleySplit.lean",
+      "sha256": "97fcddfd49ef34b5c86233faf796988b8320d545ba5ed3c850be01f56a607c95",
+      "bytes": 2447
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Inequalities/Smooth.lean",
+      "sha256": "c31d989c8b516127abcdec36d73e744417aba7ca81b7a811cd27d8d2bd1c3f46",
+      "bytes": 13249
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Measure/CompactMultiplier.lean",
+      "sha256": "c7c6a92a2dc2c2dbf698b70e9772d2fef09f50a85f8f46df9d6621f56973a8b7",
+      "bytes": 1339
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Measure/RestrictedVolume.lean",
+      "sha256": "f501eada1b2ff6a94dc125730f0d1cabcff759b60dbec132afacb1fcc76bd74d",
+      "bytes": 818
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/Basic.lean",
+      "sha256": "e018fa50cf4a188e26ae1414e8bca7a4f35dda44809004b0d83a5b286c9a8356",
+      "bytes": 3663
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/LpApproximation.lean",
+      "sha256": "15232de3c6fc36bde630df52ea97866acb122970032006ccff962319899de008",
+      "bytes": 13987
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/LpConvolution.lean",
+      "sha256": "4b46830c820dc6ef0f710f6ed57e69040c2c93e9595cb01783426181311a7ae5",
+      "bytes": 13406
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/SupportThickening.lean",
+      "sha256": "ceda2ebfb80e6e2bd23b0eff8a68bc551de3b095736dbd975e9c7567555c762c",
+      "bytes": 4396
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Mollify/Transport.lean",
+      "sha256": "c2381a44a220f42cc9825d2d205b1bec34d335fa8f61f79e129dadb5a9e38ace",
+      "bytes": 7990
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/Geometry.lean",
+      "sha256": "f11d04f1a57881dbc268e3175dd669ae433e375fe3641cf9c6671c8cab215569",
+      "bytes": 10483
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/GradientNorm.lean",
+      "sha256": "fa59d0b30bd93be374a58f52ac010c72e16f5b5ab9b29aec5bc3971f8501b549",
+      "bytes": 4675
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/KernelBasic.lean",
+      "sha256": "6e586dd0eaabf3fa592d07ecfe3a9fb5b394cc9b633ab636354c5e6943620446",
+      "bytes": 16370
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/KernelPower.lean",
+      "sha256": "1680faa98382a3099cd06b453cd70815c59d9af02a76da218d19f0e10e5807e1",
+      "bytes": 21179
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/KernelSegment.lean",
+      "sha256": "347390008e46cf9d3b18c7323eaa94a0b5fab0856e3a2a23371f12591e4b7c55",
+      "bytes": 8523
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/KernelTime.lean",
+      "sha256": "24162e1b3b8f7d793b1288b55f5bd7aad85a07c8a9b5bd17d4baecfeb6bc4b20",
+      "bytes": 33811
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/Lp.lean",
+      "sha256": "7281c2bc36634e3817dac72c7201a42a150ff1592b64887e36715c5bc90275d2",
+      "bytes": 28102
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/LpConvergence.lean",
+      "sha256": "ec13d7dbb5969f530883cfc145e0b518e1eaa8ce40cd51db7c71d07ecb205a5e",
+      "bytes": 3016
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/LpOne.lean",
+      "sha256": "87a877c7b5d8a3ebf3f45d860f9f50e1eec443aa84896e0e0089e676150850fb",
+      "bytes": 8446
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/Mean.lean",
+      "sha256": "0644c5bcdc940d30dd2039794107bcc3b682b4a99f6bf2009fae3f7656cffee6",
+      "bytes": 3477
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/Scaling.lean",
+      "sha256": "10e686ba1d3b6f97bf0dff385d985cb58d8c0d80bb8d1d1407ae24667770e86c",
+      "bytes": 1103
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/Poincare/Smooth.lean",
+      "sha256": "a176b10a542e7d6c91f55323c621c847d2e6cd46beae3913af5a3eaad1e96305",
+      "bytes": 5552
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/TestFunction.lean",
+      "sha256": "dfe7db706f6bb6e81161fa0169a92609574726c466d93f13b7bf60d679dfa40e",
+      "bytes": 1160
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/W1p/Basic.lean",
+      "sha256": "fea1e058e229a51c3c4e3fefda5337077eec8f99aadf299025b553ebc07e4b9a",
+      "bytes": 3789
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakDerivative.lean",
+      "sha256": "c944a108949797988968aaf2511dcf518fed711eb10944d5365c8a584e00c26f",
+      "bytes": 10078
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakDerivative/Product.lean",
+      "sha256": "d270ec99d12f1a7069dad93893cfc12c2557c18c858fc5c17b7e0b8147ae0889",
+      "bytes": 8437
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakDerivative/ProductH1.lean",
+      "sha256": "c3953f774453308bfd2c32973aa6439c20dd708de969698895173933b0a4749f",
+      "bytes": 29182
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakGradientGluingTBounds.lean",
+      "sha256": "b1ceddd7034f8d892c858087163649d3158832efa90ad98a02e157c923ea760b",
+      "bytes": 5719
+    },
+    {
+      "path": "CKN/Foundation/Sobolev/WeakGradientGluingTMeasurable.lean",
+      "sha256": "af8f9820d32406035f534f3364460d9c2dec71839461e4164cf6a50a1e3951db",
+      "bytes": 4902
+    },
+    {
+      "path": "CKN/Pressure/CZHarmonicCorollaryForceSlice.lean",
+      "sha256": "03dd9db84d11e0f441248f115abfbe34a890d93c0e0c818ba8b5e11d5b461ec9",
+      "bytes": 3157
+    },
+    {
+      "path": "CKN/Pressure/CZP1Closer.lean",
+      "sha256": "f72ea86de96e8562a6cdac84bd3f807c0aed71bf2ccf225a695e3561f5651516",
+      "bytes": 2802
+    },
+    {
+      "path": "CKN/Pressure/CZP1UnconditionalAssembly.lean",
+      "sha256": "4a70db18bf55fcff4f03af5d9bb7520ca0b25d6350e8395267025d057303062a",
+      "bytes": 6077
+    },
+    {
+      "path": "CKN/Pressure/CZStartBridgeSource.lean",
+      "sha256": "3fc02ff9f9e7119ede1d44743388eb994e95d9fab8ef692aaa7abb6b112ce9fc",
+      "bytes": 8141
+    },
+    {
+      "path": "CKN/Pressure/Cutoff.lean",
+      "sha256": "02ee62fb944e2b8b761ddc6c23f5e8e0f5fdc25000216086bb8099cf1ac5379e",
+      "bytes": 28618
+    },
+    {
+      "path": "CKN/Pressure/Decomposition.lean",
+      "sha256": "73afd24012184fcb0b7329ad6fe97da1aacf7050d61b72e329d5ed19d8af851c",
+      "bytes": 40461
+    },
+    {
+      "path": "CKN/Pressure/DecompositionIdentity.lean",
+      "sha256": "ad961df0144f80d549180a75607320178b6c98bb5c9def5a2ea1fee35bdcdb5a",
+      "bytes": 18833
+    },
+    {
+      "path": "CKN/Pressure/DecompositionPotentials.lean",
+      "sha256": "37149f81f1266ab25222fa5de2752f7845434c93d4bd7feab2e2259de32e60c0",
+      "bytes": 23391
+    },
+    {
+      "path": "CKN/Pressure/DecompositionSWS.lean",
+      "sha256": "0ade562acd5c0be7af11676bd4a430556bf27f1b8b1f50c59ef92576c965fa87",
+      "bytes": 43539
+    },
+    {
+      "path": "CKN/Pressure/DecompositionSWSBasic.lean",
+      "sha256": "8a8ab5d372db4dd36d22e7cfe14db39ed38329929ef306e2603c847047cdd032",
+      "bytes": 2744
+    },
+    {
+      "path": "CKN/Pressure/DeltaPCentred.lean",
+      "sha256": "da32cc750a3ac825e3b826e330306835844b470bed0cc315c7e9352a092736b6",
+      "bytes": 16580
+    },
+    {
+      "path": "CKN/Pressure/DerivativeAdjoint.lean",
+      "sha256": "3da8b3f4e6fed1066db984c87663bc57d249765b3f8849d24acd360ab9973eee",
+      "bytes": 30624
+    },
+    {
+      "path": "CKN/Pressure/Equation.lean",
+      "sha256": "56206eaefcf46dc42ccd037f52c24b8a9c1a539e6b7aab82ddceee8350cddb5a",
+      "bytes": 32421
+    },
+    {
+      "path": "CKN/Pressure/HarmonicPartBounds.lean",
+      "sha256": "deb7cce97b9a4e06e27418555c96b3ee9f5030be2b67f8f1cd1776101b760b49",
+      "bytes": 15101
+    },
+    {
+      "path": "CKN/Pressure/HarmonicPartBoundsAE.lean",
+      "sha256": "22057ce62b34a2d1f9ddf39ba5f6066fee275f5b90a8405c2dd0dba6f9873bac",
+      "bytes": 22698
+    },
+    {
+      "path": "CKN/Pressure/HarmonicPartBoundsHelpers.lean",
+      "sha256": "6c387cee44f1e5dbd94325e59738fa6e1c33a4fd361cf9ea3dfa4d6c44b07f31",
+      "bytes": 5450
+    },
+    {
+      "path": "CKN/Pressure/HarmonicPartBoundsTerms.lean",
+      "sha256": "d4c7aefbef20ce26c5965c16c8aa2da1a2b397b5386de531dcc008e2a3549448",
+      "bytes": 26284
+    },
+    {
+      "path": "CKN/Pressure/HarmonicPartDerivatives.lean",
+      "sha256": "c15863dad0adc9e84f0da14c4b5e59c5443e196f0a6f5d1504ceedef7bada285",
+      "bytes": 2213
+    },
+    {
+      "path": "CKN/Pressure/HarmonicRemainderForceTerms.lean",
+      "sha256": "d21db64ea0c6c86023916ee1fc19f033b59f586a894a48883266bb09d5559177",
+      "bytes": 10237
+    },
+    {
+      "path": "CKN/Pressure/HarmonicRemainderSlice.lean",
+      "sha256": "1d27bbc0dc515e221651b7dc30417ba0ca11898159b7d913271a5f1fb8c55794",
+      "bytes": 28074
+    },
+    {
+      "path": "CKN/Pressure/HarmonicRemainderSliceSWS.lean",
+      "sha256": "0338686ae12f5b2cf907b400ed3132dac5ae0dd27735f32d5504e5e3efcf6932",
+      "bytes": 6182
+    },
+    {
+      "path": "CKN/Pressure/HeatKernelIntegrable.lean",
+      "sha256": "388c6e5ee03996dc08af6ebceb723c774536d3b723f193310509cf506fd26399",
+      "bytes": 8298
+    },
+    {
+      "path": "CKN/Pressure/Identification.lean",
+      "sha256": "c4976076f5ad0063379e71dbf4be19f96e2ca1e6e21400d784b6cee403934c5d",
+      "bytes": 7592
+    },
+    {
+      "path": "CKN/Pressure/IdentificationCZP1Unconditional.lean",
+      "sha256": "1515ef57be5dc3245d019f04b0ae08c65929c0e9dcf18c3201e07c9cc6feb666",
+      "bytes": 2538
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtension.lean",
+      "sha256": "3ce169f73318af9f0c9803335e341e944cbd01393187298d8b8ae7df1bffc0c2",
+      "bytes": 7646
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionGrowth.lean",
+      "sha256": "8dad17bc9d143b1394f551c40d34485ab19d3994f56bef00f6f1ff064a1614bb",
+      "bytes": 5324
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionGrowthSWS.lean",
+      "sha256": "e0efa1dc511b8a840c919dc8ca39be4b7d23b425233197a6ddfbbe27f89f45d5",
+      "bytes": 41499
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairing.lean",
+      "sha256": "2673a7438c0b8c99ad3eb8db92d687690915002a958b58385fc2ea880df806d7",
+      "bytes": 9997
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingCylinder.lean",
+      "sha256": "248646ea7ff9a14101f9695000f97db3fed7ba4d185dbb17c95e52648e6ba298",
+      "bytes": 3627
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingExterior.lean",
+      "sha256": "ad5d40395d6cc238df4dd37b7e62ff08697d8b1fb34e7ec3b6156f05ee8956d1",
+      "bytes": 16780
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingKernel.lean",
+      "sha256": "89034947ab1d230000c78624723a764565e36363b14e3e2e57a538c54c4e23fb",
+      "bytes": 8633
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingSlice.lean",
+      "sha256": "e4aa3968da439133bb621a1ff441c6b838850a240fca81fe1755aaa352a7f5fd",
+      "bytes": 3633
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingSource.lean",
+      "sha256": "d0251ab8722271d4ba145850ca05c4c9f754840e809353f63d983baa782a67d4",
+      "bytes": 13352
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingSwap.lean",
+      "sha256": "7f305c3a959dec18ecd3d4fc7211c0eeaa51ebbc91b186b4accda1a81d2259d0",
+      "bytes": 5112
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionPairingWholeSpace.lean",
+      "sha256": "4d5deb477c69c06bdba073766f226aab793a6ee42e4738c4e56a6c373c5d57aa",
+      "bytes": 10675
+    },
+    {
+      "path": "CKN/Pressure/IdentificationExtensionUnconditional.lean",
+      "sha256": "5d7f20f83d2c7dd528b22b5dbe409a5f83c2246634b7343e4ba48c92a243d3ee",
+      "bytes": 10081
+    },
+    {
+      "path": "CKN/Pressure/IdentificationL2.lean",
+      "sha256": "b457ef0c8adb84855ff48151ce66b20287eb1969d04ce8d762db20a9b73ba41c",
+      "bytes": 13658
+    },
+    {
+      "path": "CKN/Pressure/IdentificationWholeSpace.lean",
+      "sha256": "4f0152f21340facd321da013f08afd9595d008b74f6d56943ae1a5940642d68d",
+      "bytes": 2076
+    },
+    {
+      "path": "CKN/Pressure/Identity.lean",
+      "sha256": "5a189d42970ef5af300ccc00566a3d3def26849329ac771291776da23770c34f",
+      "bytes": 28276
+    },
+    {
+      "path": "CKN/Pressure/LeibnizLaplacian.lean",
+      "sha256": "3b23d6823095ba62640a1324b07ad9912eacfb1944725a24036190f184ccf260",
+      "bytes": 7246
+    },
+    {
+      "path": "CKN/Pressure/Lin34CentredCZ.lean",
+      "sha256": "1f0a348d6562334aff13627464ceaa73deab70a4565ef2c6ce80cab01850f819",
+      "bytes": 10061
+    },
+    {
+      "path": "CKN/Pressure/Lin34CentredSource.lean",
+      "sha256": "1f5a5a9be0f9590eefea327ac8a962b97eeaa6c3f3bc9c04df784d54371ef6c0",
+      "bytes": 10018
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceCore.lean",
+      "sha256": "23ebdad87f47e86929d9c9b68e6607a96c3c2626dd23493dab6ad376289cd381",
+      "bytes": 25497
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceForceCylinder.lean",
+      "sha256": "109de32bc811f4b59f0efd10f674b26c9ad23d0d5164dbf9b77b3061ad9ca43f",
+      "bytes": 22533
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceForceLp.lean",
+      "sha256": "6f13dac18e285731328d85b25bad9030b0f37246473646b5c41c8e4ffd8e4f45",
+      "bytes": 19817
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceFubini.lean",
+      "sha256": "f8002ec4cbe9bec2d5670a6b027aecd4c594fb8af193ed8eae268c4eea35265c",
+      "bytes": 4611
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceHolder.lean",
+      "sha256": "4b467084a331df55ea233fbf1da335beb13afb5d7ff7a848e1e64cabe665039c",
+      "bytes": 5734
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceIntegrated.lean",
+      "sha256": "7dfb56c105ddc2a357ba04f7588a882773dcd26e751a17040f2ea65fe6416681",
+      "bytes": 18256
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceMeanFree.lean",
+      "sha256": "a7f5944b62c5740bc579adde896d4b6018c786f4841118291fbb474c285c6fae",
+      "bytes": 15503
+    },
+    {
+      "path": "CKN/Pressure/Lin34SlicePointwise.lean",
+      "sha256": "9ee35d43c82fc1cbcbb37e5536c0714edb79b3ee6abdb90574e4f33e5d694f60",
+      "bytes": 14475
+    },
+    {
+      "path": "CKN/Pressure/Lin34SliceQuantities.lean",
+      "sha256": "0f5b15a3310cae008ef346d9f73be0bc8f324f7c2f97a4e47f40fdfc3a0f1605",
+      "bytes": 9579
+    },
+    {
+      "path": "CKN/Pressure/Lin34Slices.lean",
+      "sha256": "882d5283a070e049b34b89a635c5dd05087654e7961af9f997ef517655b04b63",
+      "bytes": 8679
+    },
+    {
+      "path": "CKN/Pressure/MemLpThreeHalvesLift.lean",
+      "sha256": "07d3edc125c0399ac164027ec1e8d713fac3ff2c52b6bced74035deeb5804294",
+      "bytes": 1028
+    },
+    {
+      "path": "CKN/Pressure/OscillationHarmonic.lean",
+      "sha256": "2aa4c05f9e41653d154bfd0d2c54bc61b58689a1cee5412928ecb6b777265398",
+      "bytes": 29941
+    },
+    {
+      "path": "CKN/Pressure/OscillationLin34.lean",
+      "sha256": "c3631c1781caaf8b4925b97a52b2661de898948eca74a7eb46b4a07fe029bbb8",
+      "bytes": 11968
+    },
+    {
+      "path": "CKN/Pressure/OscillationLin34Solution.lean",
+      "sha256": "a46806a079599370a83e43abd50643eb567823029d8ef952cb2808c27b0393f0",
+      "bytes": 3930
+    },
+    {
+      "path": "CKN/Pressure/ParamExtension.lean",
+      "sha256": "c8b147717cf9fb2cf5a613d569bdb72078cfcdf0cc3d7069fbafeb1c0ee84516",
+      "bytes": 5073
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsBasic.lean",
+      "sha256": "23c525a3fd95a737af6b10d2280a96249d41118ad0eaa8a52ce7e6062d91a49b",
+      "bytes": 9695
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsCylinder.lean",
+      "sha256": "d60dd86ac5da5277152353732e32d1dc7f39cd0d4b436edd12b7b3fda56389d7",
+      "bytes": 30672
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP234.lean",
+      "sha256": "29dc62d765f7ca8dbf087f04df44c1379e97024b80fb3015422b4d336e4159eb",
+      "bytes": 15754
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP56.lean",
+      "sha256": "ba0e86904521f25a85afdf25ff6ebc972650f63bd75236ac82a288dca418ac62",
+      "bytes": 8376
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP7.lean",
+      "sha256": "1e774f78c0c81e83c464b9f15e3cfe0cacb27348ad5c5698c1b3cbd75d0f7f0d",
+      "bytes": 12276
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP7Solution.lean",
+      "sha256": "069cfae523317f53ffbe933e236d2735d72b3360dbe580fa6700b2d202070421",
+      "bytes": 27376
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP7SolutionBound.lean",
+      "sha256": "69c062e3af387af55c2476429494886b11257e46453d7882fa7b1c3d433892fe",
+      "bytes": 24502
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP7SolutionMeas.lean",
+      "sha256": "cc91139794a713eaca53e1ff0dd5a0e28c51e9e73420910698e5a6fced39a56b",
+      "bytes": 7941
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsP8.lean",
+      "sha256": "266f06bbaeee6f4c39bec03201c1220e1841adbe82beaa23ed6a0b1deed1bae0",
+      "bytes": 5108
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalConstants.lean",
+      "sha256": "799b6ee5a4877283a6d10c615e4338e832f2f1d730ee07c0641642b4a562bbe1",
+      "bytes": 3787
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalCore.lean",
+      "sha256": "d479ce20a597a506090a42e9b4519c016855abc985cd2bf05a665bb9c12800e4",
+      "bytes": 27681
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalP234.lean",
+      "sha256": "24d3b919b50343ba67c2b893a2147282ee375123b140a77267c9032d662053b8",
+      "bytes": 20503
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalP56.lean",
+      "sha256": "9e8525837089516b5660f9ec53dcc73d9cc02cdf3533160a7b2a944a431997a6",
+      "bytes": 19955
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalP8.lean",
+      "sha256": "3347c871e5fc0bbcab6e3e21c276b822eb6a7ffa9c18686e5e56001b7227f389",
+      "bytes": 18391
+    },
+    {
+      "path": "CKN/Pressure/PkBoundsUnconditionalScale.lean",
+      "sha256": "3aca1106eab1816e2c3c845422188b1ded12d7705103b1964fae5074f754238a",
+      "bytes": 20338
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecay.lean",
+      "sha256": "b3635d2b7ea839b41f1e928b7c2b3eae9501413f0783992c37af41191e9073f6",
+      "bytes": 17119
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayFarField.lean",
+      "sha256": "2a38f8fb083f906add4b9cd4b3020bb2475aa0a019107d2ac44a8f3e1c05fdd4",
+      "bytes": 7153
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayGeometry.lean",
+      "sha256": "b5b95fd3e6968f2ca2c6c36d798041ac19a05cf6d0a6e1ec7fd89401175b24cb",
+      "bytes": 3094
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayGrowthSum.lean",
+      "sha256": "b8a7c7e5d18f13d996c40316f5eb9ab27ec6ceccc3d046e7e45e9e04919b276a",
+      "bytes": 7024
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayPotentials.lean",
+      "sha256": "b5b6a7a22a232ad7320c97a7adcb51f1102ece433f9e2e6b5ec5afd3d01094f2",
+      "bytes": 3268
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayShell.lean",
+      "sha256": "eb5c06013d03fad6a41922275bf5ef01dc9b532ac192a2dfe3f9d1ff277fae2a",
+      "bytes": 5303
+    },
+    {
+      "path": "CKN/Pressure/PotentialDecayUnitBall.lean",
+      "sha256": "06a9cc2e6c6c64da6aa7b4623c2a65ee2b00f6faddd7647f0b98a45085e7f3b1",
+      "bytes": 2301
+    },
+    {
+      "path": "CKN/Pressure/Potentials.lean",
+      "sha256": "9c92e10cfc302480087bbb46b3be530c62a8b2a109395e6c837aac7ce68b09bd",
+      "bytes": 20010
+    },
+    {
+      "path": "CKN/Pressure/SliceIdentity.lean",
+      "sha256": "0c0d8636bfff8b5732bdf5c98c4a927e7585afb0186bb9edf1a583bc9ca3276e",
+      "bytes": 27826
+    },
+    {
+      "path": "CKN/Pressure/SliceIntegrability.lean",
+      "sha256": "12efec5bcd90e17d3503a78fdae0f19d7042c92acd79f402ecb8cfe7741a2166",
+      "bytes": 4461
+    },
+    {
+      "path": "CKN/Pressure/SliceVelocityCube.lean",
+      "sha256": "a445d6f1220785d9cfa59b15bcee8750047f7cbe994540a896b0e942128dfb2b",
+      "bytes": 23166
+    },
+    {
+      "path": "CKN/Pressure/Slices.lean",
+      "sha256": "b58feb61d03944d54bcf6d809249bbbe33ca37c451ff6286699e77702a59272c",
+      "bytes": 7569
+    },
+    {
+      "path": "CKN/Pressure/UTensorNormFactor.lean",
+      "sha256": "347439cc2afddef894b03f359f2caf519e3f8f3f923b8f08eb7e158bd590b11c",
+      "bytes": 1707
+    },
+    {
+      "path": "CKN/Setting/Cutoff.lean",
+      "sha256": "bcfd60037ad03d28cc831b0421c1759676c1552ec2bdc9b8991e1db28a228e9b",
+      "bytes": 10185
+    },
+    {
+      "path": "CKN/Setting/DivergenceFreeSlice.lean",
+      "sha256": "0937a2949d69258d56b8fd969972c646c3416d0c2032b20ad375a457367ea878",
+      "bytes": 14828
+    },
+    {
+      "path": "CKN/Setting/Energy/AELocalEnergy.lean",
+      "sha256": "1c456575594e9e5caaa237e1bb924e99ba842aed754c500925abd7a16f1cdd06",
+      "bytes": 28201
+    },
+    {
+      "path": "CKN/Setting/Energy/Calculus.lean",
+      "sha256": "3edf860cb0553b2598e158ebcaf13e531436a10bbdff602f6632133afbb220a8",
+      "bytes": 5488
+    },
+    {
+      "path": "CKN/Setting/Energy/Integrability.lean",
+      "sha256": "a2cb6bfa0756023f6628165798f6de2bc349e173729d1e9278467598b90fcd35",
+      "bytes": 13990
+    },
+    {
+      "path": "CKN/Setting/Energy/PointwiseEnergy.lean",
+      "sha256": "c20fc8f4720b2ed9077ea2838fb2f2fe72d0196d2b877ba8507b07c31f561529",
+      "bytes": 2159
+    },
+    {
+      "path": "CKN/Setting/Energy/TimeCutoff.lean",
+      "sha256": "d1eaf9f51702b6ff8e8bf415408ba850edce91b98794dc21656987aa998fef7a",
+      "bytes": 6108
+    },
+    {
+      "path": "CKN/Setting/ExcessComparisonCore.lean",
+      "sha256": "ff79b98deccab38c31c101b732eb1f2190554beaf9bcf8c61ebdb37bf6c0cac8",
+      "bytes": 34079
+    },
+    {
+      "path": "CKN/Setting/Finiteness.lean",
+      "sha256": "6817102a7fe4e41c5a8fde579886127f9b35ef67b61c0e31b72c90339764ace2",
+      "bytes": 22893
+    },
+    {
+      "path": "CKN/Setting/InterpolationBall.lean",
+      "sha256": "49b824754b65045d5f9bacb6bb9a171fe9f2d2bb8c8b3d322ab3e170bf73d616",
+      "bytes": 18787
+    },
+    {
+      "path": "CKN/Setting/InterpolationCylinder.lean",
+      "sha256": "485af4da11255ade89fd2f6e3b87feb5f5b0314c81cb5ff30eba9adb6f625773",
+      "bytes": 14538
+    },
+    {
+      "path": "CKN/Setting/Monotonicity.lean",
+      "sha256": "412473f9186815beb67d418d8f8986a30f90b898e182bdbd7a38e1a95c759cbf",
+      "bytes": 10732
+    },
+    {
+      "path": "CKN/Setting/PoincareSobolevL1.lean",
+      "sha256": "50670961dba8c1ffc55fd4921902b5cb56f400dae123a2b5b86826d845096d4c",
+      "bytes": 36863
+    },
+    {
+      "path": "CKN/Setting/PoincareSobolevL1Ball.lean",
+      "sha256": "d141508f9ad1c6e351affb82d31aadf5c3646f6b6c8cdfc2a35554a09190d117",
+      "bytes": 18180
+    },
+    {
+      "path": "CKN/Setting/PoincareSobolevL1Slice.lean",
+      "sha256": "e0450d504926720a60fc1a12ab97205b2e8bc5e09b3922208449c1cb2b5cc8ab",
+      "bytes": 35661
+    },
+    {
+      "path": "CKN/Setting/PoincareSobolevL1SliceBasic.lean",
+      "sha256": "6e6d305b287239f376cf65710b5df16c73f3913ff65c216ce93c23b8116c9a91",
+      "bytes": 5740
+    },
+    {
+      "path": "CKN/Setting/PoincareSobolevL1Vec.lean",
+      "sha256": "ea03f4b705995ac4d000f97cd14e27996dd8bfe5229a782b2e2674a75408878f",
+      "bytes": 18983
+    },
+    {
+      "path": "CKN/Setting/ScalingInvarianceBasic.lean",
+      "sha256": "cc9e30ece785b73be1765fb150883ada008414825cfc7cfb37ddca4968efcb97",
+      "bytes": 11828
+    },
+    {
+      "path": "CKN/Setting/ScalingInvarianceTests.lean",
+      "sha256": "5c980b3bee54a10656441744cced031392cb2d5bbd93f0ff4981b7c28e424d88",
+      "bytes": 14095
+    },
+    {
+      "path": "CKN/Setting/ScalingQuantities.lean",
+      "sha256": "ae194937a0287d03d2a17cd738a3eec2e5c6d9334f4b5d4a802ae322171a97bc",
+      "bytes": 31230
+    },
+    {
+      "path": "CKN/Setting/SliceNormBounds.lean",
+      "sha256": "8f9ebaba783b9f5a28bb8a8b467384de35896cdc4ed19f29323494ddb040f216",
+      "bytes": 15813
+    },
+    {
+      "path": "CKN/Setting/SobolevPoincareBall.lean",
+      "sha256": "1fee2862d17158b735dd12eda0d2fd9770001f7ce86115d2dd875f437d84545e",
+      "bytes": 34519
+    },
+    {
+      "path": "CKN/Setting/SobolevPoincareBallWeak.lean",
+      "sha256": "b85696f24533163dcbc9d916d9dd0b73415dc496862d66ac1d1967990c6ec4da",
+      "bytes": 34131
+    },
+    {
+      "path": "CKN/Setting/SobolevPoincareBridge.lean",
+      "sha256": "93a6a28231700882dfd467735fc2a271cc8c9076bf673983a4d12d8d4759aa78",
+      "bytes": 33619
+    },
+    {
+      "path": "CKN/Setting/TimeHolder.lean",
+      "sha256": "c4cd7ac9e6aa6ef5053d274463dfe239a0b119bc51541e3b52370b9b8633e193",
+      "bytes": 10211
+    },
+    {
+      "path": "CKN/Setting/UTensor.lean",
+      "sha256": "c47845910c5879e7fc8e122d48748ff3871f494a207c005f5d5f784f313dbfbd",
+      "bytes": 29970
+    },
+    {
+      "path": "CKN/Setting/VectorInequalities.lean",
+      "sha256": "29d5f57121014bf793367642bf08230caf31ee10592a834b1bb3e9b7a825c391",
+      "bytes": 5378
+    },
+    {
+      "path": "CKN/Setting/VectorNormAggregation.lean",
+      "sha256": "aabd8d3a357a6070fb20800bdd30f206aeb2721e930dbbc459d2fdbf0ebd3f66",
+      "bytes": 10304
+    },
+    {
+      "path": "CKN/Statements/Alpha.lean",
+      "sha256": "bf00c34e6c3e60a450ef1403fe150f31d082b759a1bf2281cb2e1245acbd6941",
+      "bytes": 622
+    },
+    {
+      "path": "CKN/Statements/Beta.lean",
+      "sha256": "3f7025d00cced85f88f0d29fd09d4f19b8ae8a9b16952cd9c342cbd551d12a47",
+      "bytes": 688
+    },
+    {
+      "path": "CKN/Statements/Delta.lean",
+      "sha256": "54ad0b782ad8ec64f26a7a2cc9e60c31a49ecae01466368d11860bd325ba0547",
+      "bytes": 570
+    },
+    {
+      "path": "CKN/Statements/Gamma.lean",
+      "sha256": "ccba77ce60a5f89a04554581be3abdd16091e3a8b8bbdf1b64afc5b72c3ab256",
+      "bytes": 595
+    },
+    {
+      "path": "CKN/Statements/Lambda.lean",
+      "sha256": "7c83b6541fcc69c99e20fd00e3104f997899f9ba26f9355ab2dd2238af798ad8",
+      "bytes": 594
+    },
+    {
+      "path": "CKN/Statements/LocalBox.lean",
+      "sha256": "6abd3d9a007e3e176ead7f0b90c7e2c5137b77ed8bbd79b32f1e7b3cdd79c015",
+      "bytes": 505
+    },
+    {
+      "path": "CKN/Statements/LocalLp.lean",
+      "sha256": "ca05e087674eb7f51d064e89da5291c4dc8ae263dae8516b82c5484106c8d017",
+      "bytes": 522
+    },
+    {
+      "path": "CKN/Statements/LocalVecLp.lean",
+      "sha256": "19b0dfb3292a90e29b20e6476537f864faa40b80cfb47805bdba8d5d8e8d48ba",
+      "bytes": 425
+    },
+    {
+      "path": "CKN/Statements/MorreyVecMem.lean",
+      "sha256": "f9141f8d4704dafe74fb0202feba79e9d9d248a0c70b89287da66efbbca57888",
+      "bytes": 565
+    },
+    {
+      "path": "CKN/Statements/ParabolicHolderVecOn.lean",
+      "sha256": "aa3850decc6a1ba82e488326e749daf99b36edd15a9b9c50bfb64c0cfd4c2981",
+      "bytes": 557
+    },
+    {
+      "path": "CKN/Statements/SpaceTimeSet.lean",
+      "sha256": "d82b12e8ca3c9c3df3f9a268acf5adf1b01f875ba444e3b14aa4415a86f4b882",
+      "bytes": 364
+    },
+    {
+      "path": "CKN/Statements/SpaceTimeTestFunction.lean",
+      "sha256": "bb6dd2f6fb92584dce52b2687a7fb321d2892c17580cad36f2ae6c23d6797d73",
+      "bytes": 707
+    },
+    {
+      "path": "CKN/Statements/SpatialGradientSq.lean",
+      "sha256": "92605a9ccb14f0f1b4870ae73fb4151895d26ed491fa1202e8d4be35026529fd",
+      "bytes": 446
+    },
+    {
+      "path": "CKN/Statements/SpatialPartial.lean",
+      "sha256": "3f190a3b194b4064a8c76310d04e50c97fa59977a280b285be57a20f22072139",
+      "bytes": 575
+    },
+    {
+      "path": "CKN/Statements/SpatialSecondPartial.lean",
+      "sha256": "adf805c1640abbc5e55ba5c8efd1ad2f5704080c4ee1c522c2fb92683084c14c",
+      "bytes": 465
+    },
+    {
+      "path": "CKN/Statements/SuitableWeakSolutionIntegrable.lean",
+      "sha256": "daa390d67896df69c40d4a8ec4d8dc43747000144ca6dbb926d86477b4ebc722",
+      "bytes": 4040
+    },
+    {
+      "path": "CKN/Statements/Theta.lean",
+      "sha256": "5205c5f8bfecadd9eb513e1139a624fcc645f9d140228a7056d5ee21ad6bed93",
+      "bytes": 565
+    },
+    {
+      "path": "CKN/Statements/TimePartial.lean",
+      "sha256": "b6d0fba786f1bfe5393ec6f593ffcd8373f6d36b617c4976f881fe6d675d3a43",
+      "bytes": 499
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "73dc840a051106f5f26ef42de9abf5a6ad17c924382ae2d2fd492afff43287fc",
+      "bytes": 586,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "CKN/Core/Step4/PressureGradientOriginClauseGrowth.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/d2a9a51fa2e53932d1a0": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/CaffarelliKohnNirenberg",
+    "source_commit": "58a9ffe548ea64319ac8cba098634340ee6270cb"
+  }
+}

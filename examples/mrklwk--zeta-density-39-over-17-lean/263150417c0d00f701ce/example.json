@@ -1,0 +1,118 @@
+{
+  "id": "263150417c0d00f701ce",
+  "source": {
+    "repository": "mrklwk/zeta-density-39-over-17-lean",
+    "commit": "ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0",
+    "project": "mrklwk--zeta-density-39-over-17-lean--ee2a8a32be49",
+    "path": "lean/MathCollab/Density/Stronger/Atkinson/NeumannSourceBounds.lean",
+    "file_id": "016faab82fcf50198ffb",
+    "source_sha256": "016faab82fcf50198ffbc697d51a5dff6a7331a82104836034d044f4b6f69dab",
+    "start": 75,
+    "end": 93,
+    "original_start": 75,
+    "original_end": 93,
+    "declaration": "abs_neumann_source_remainder_le",
+    "source_url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/MathCollab/Density/Stronger/Atkinson/NeumannSourceBounds.lean#L75-L93",
+    "archive_url": "https://github.com/PalomarArchive/mrklwk--zeta-density-39-over-17-lean--524c4cd16d2b/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/MathCollab/Density/Stronger/Atkinson/NeumannSourceBounds.lean#L75-L93"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "abs_neumann_source_remainder_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "93fec2705a0a7d94a65d8e052e99a43fe12c6e922f8e48b8fd451634bf890312",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "1afa7b8263c2b714b9b27fffc729571be078eb00f35890165b21b0587a4aef3c",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/BesselY0.lean",
+      "sha256": "082bded888837b64529a724e57834ff069cbb325ad41ddc7a51fada9fbb8a8f2",
+      "bytes": 3536
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/BesselY0Bounds.lean",
+      "sha256": "49cc579aec1fec0d0a289cddb6da72772b664d09995f4e7a5cb56e3622f1d5c8",
+      "bytes": 2714
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannContourKernel.lean",
+      "sha256": "635aa8501f9b582e52c1d2a89185d0d621896926f9e23b442649dd4614951ac7",
+      "bytes": 7108
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannContourShift.lean",
+      "sha256": "ff9a480796f934ef614256014e1428ee2432ce9809e823e5ba3083d1294158b1",
+      "bytes": 3811
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannLaplaceAmplitude.lean",
+      "sha256": "25594522031db43e02205cc9e63e71b575ec7c7cbd29f087beb7a389b5f103cf",
+      "bytes": 4348
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannLaplaceMoments.lean",
+      "sha256": "d8f5a469a2805c9cbebda2fbb39b8cd80f893d3ab1e33187dc53a6b3c784a1dc",
+      "bytes": 4434
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannLaplaceRemainder.lean",
+      "sha256": "6189704b474215d93358db5d1e20b7d8af2a590daa94f3b045b574ae43c48001",
+      "bytes": 4828
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannLaplaceRepresentation.lean",
+      "sha256": "4f04fb1fa7d6415bceb74e2532ed92d6508f131346fb2b5794d2749b2e338618",
+      "bytes": 4416
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannRayFactorization.lean",
+      "sha256": "ee09ef5959ceb3f697ad98d3df66946f77a50d7e0b6d0aa3d08e373b99f70b12",
+      "bytes": 5693
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannSchlafliEntry.lean",
+      "sha256": "1e392b9b15bc430cc64c5858027e667401c61f37862c52f024926dcd5fe8a5a5",
+      "bytes": 6769
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannSourceBounds.lean",
+      "sha256": "016faab82fcf50198ffbc697d51a5dff6a7331a82104836034d044f4b6f69dab",
+      "bytes": 5011
+    },
+    {
+      "path": "MathCollab/Density/Stronger/Atkinson/NeumannTwoTermExpansion.lean",
+      "sha256": "82f8c61d3fe7005f7a30f192c66276b5969949fc78d6b7d9fcd60940b60583da",
+      "bytes": 3231
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "d43e5befa037daff1d2aa3286d7d7e399a2da2e420b22b9675e134ceea027c71",
+      "bytes": 692,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5ca02654a1c2367f69008faae6b10c8a49a039ea55c21dfe54174cab961a62c3",
+      "bytes": 3574,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "MathCollab/Density/Stronger/Atkinson/NeumannSourceBounds.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/mrklwk/zeta-density-39-over-17-lean",
+    "source_commit": "ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "03d36f078b80c6cf6f29",
+  "source": {
+    "repository": "teal-sea/zeta-lab",
+    "commit": "097215a8413641fd3b3de137386316bf294328de",
+    "project": "teal-sea--zeta-lab--097215a84136",
+    "path": "lean/ZetaLean/LogMeanValue.lean",
+    "file_id": "063659ee1a58b117dc1f",
+    "source_sha256": "063659ee1a58b117dc1fbe8f9fb0d36b79d52c771dbf6c572cbe407bb804a694",
+    "start": 373,
+    "end": 406,
+    "original_start": 373,
+    "original_end": 406,
+    "declaration": "sharpKernelOffDiagonalMass_le",
+    "source_url": "https://github.com/teal-sea/zeta-lab/blob/097215a8413641fd3b3de137386316bf294328de/lean/ZetaLean/LogMeanValue.lean#L373-L406",
+    "archive_url": "https://github.com/PalomarArchive/teal-sea--zeta-lab--3c21e0f57be6/blob/097215a8413641fd3b3de137386316bf294328de/lean/ZetaLean/LogMeanValue.lean#L373-L406"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "sharpKernelOffDiagonalMass_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "a6f173251cdf6e3530c2150bf6d53023bf35ea26844a2ee42c38b6c0c779e997",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "60e267a4c7fa922cf3f5ac995b21fa28633ff6835cc7f52c3c816d5a1d1d003e",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ZetaLean/HigherXi.lean",
+      "sha256": "8132b69c34e1ee52513e7ae7c9b482357a43db7ba80deceddcea73312458d6ac",
+      "bytes": 10579
+    },
+    {
+      "path": "ZetaLean/LogMeanValue.lean",
+      "sha256": "aa8a4effe7af2a04b3c325a0658a48ce106fed059902e0faedf60216212ebf2a",
+      "bytes": 17879
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "5b171e82915d1b80d39179456bcaac42cc33928963898b1266ecac4c977e2f94",
+      "bytes": 1368,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "237df7b81fefae1359f97ebc7ee4d3192501981ed1b074a16291c079ccf23192",
+      "bytes": 3558,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ZetaLean/LogMeanValue.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/teal-sea/zeta-lab",
+    "source_commit": "097215a8413641fd3b3de137386316bf294328de"
+  }
+}

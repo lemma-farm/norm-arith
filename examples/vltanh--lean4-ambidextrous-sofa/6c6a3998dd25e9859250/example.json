@@ -1,0 +1,498 @@
+{
+  "id": "6c6a3998dd25e9859250",
+  "source": {
+    "repository": "vltanh/lean4-ambidextrous-sofa",
+    "commit": "0f24fe48b4cadf02a442420e677b45a036136dbf",
+    "project": "vltanh--lean4-ambidextrous-sofa--0f24fe48b4ca",
+    "path": "AmbidextrousSofa/Analysis/TerminalCubicPayment.lean",
+    "file_id": "0897ea9e4822c3b076ad",
+    "source_sha256": "0897ea9e4822c3b076ad5c1f3cc58c5753c39df9f27a7830bd3a5992888ba492",
+    "start": 133,
+    "end": 149,
+    "original_start": 128,
+    "original_end": 149,
+    "declaration": "terminalWeightedExcess_lt_allowance_of_angular_budget",
+    "source_url": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/AmbidextrousSofa/Analysis/TerminalCubicPayment.lean#L133-L149",
+    "archive_url": "https://github.com/PalomarArchive/vltanh--lean4-ambidextrous-sofa--1b8cd0a61272/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/AmbidextrousSofa/Analysis/TerminalCubicPayment.lean#L133-L149"
+  },
+  "native_target_name": "AmbidextrousSofa.terminalWeightedExcess_lt_allowance_of_angular_budget",
+  "source_declaration_label": "terminalWeightedExcess_lt_allowance_of_angular_budget",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "4f6a94c6b722341810f61d89bf83ce8ca7cc79ee2ae86824c65625af629348a1",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "351f28ffb558cafbdfd4992bab92c67b76a4df9bbe20e726517290315de25365",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "AmbidextrousSofa/Analysis/AdaptiveFunctional.lean",
+      "sha256": "92a4c068fb5d561dce9321c12a4a8f9c8c0d140fe4f1373f57faf80d3323a175",
+      "bytes": 6099
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/AxisVariation.lean",
+      "sha256": "e767b4ad4e13f281c98c336052b6e5678f394259ccfe5a25392ab312deedeaf1",
+      "bytes": 6355
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapCompactness.lean",
+      "sha256": "a732e0ec708c26005caa9881655b781d3e5fbe0684eeaf714004a6520064b125",
+      "bytes": 8305
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapInsertion.lean",
+      "sha256": "45caef5012d47e54ec0a297cb16b5401f4a13e2ae81c82e89d21ad5b8a19b6f8",
+      "bytes": 4783
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapMaximum.lean",
+      "sha256": "376b40e3950df05a112e3cc8d6153c644496a24c41d89264ab006c7148a0f149",
+      "bytes": 2721
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapNicheContinuity.lean",
+      "sha256": "24503a39fa0b9d18ce39a9687efca5b11630d942b88dde6cbf94da134c4bb368",
+      "bytes": 7075
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapOrder.lean",
+      "sha256": "433f734dace5ed05e9d2a361116aaafbbd6753fad5b184f0b90b601202c97262",
+      "bytes": 3598
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapRoofConvergence.lean",
+      "sha256": "c5d1edb27addf75a1967f3b73b6382487065a6eaf39841413874dfb2c22519c4",
+      "bytes": 4921
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapScoreContinuity.lean",
+      "sha256": "faedad3aec86df73fa84e95a094002e84a766f98aa55b24f0f8b7a21aae25c59",
+      "bytes": 5847
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapTranslation.lean",
+      "sha256": "aaca2c778a8bac3f2e6d2cb10e8d7e2dc5b25dd2c7d7d40fb12a53c64e6a30bd",
+      "bytes": 6320
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CapVolumeContinuity.lean",
+      "sha256": "9470534fcb7cee85603ee6426371d6b935725fc271f6c8da508cea7a13d49a94",
+      "bytes": 3934
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Chord.lean",
+      "sha256": "e5144642e2388a79e1f28fc6fad29b0a166d8eaa2ec90552a5269c8ed6b6f600",
+      "bytes": 11624
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/CircleAverage.lean",
+      "sha256": "d9408b42d421200ff21fec1ee09a00bdabadd518bcda3a1afd7863e32f467371",
+      "bytes": 8471
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Circumscription.lean",
+      "sha256": "671e62908d32cabe5c4d8b6731cc8d2393820001ac82ecde34efda93222e31fa",
+      "bytes": 5461
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/DiagonalTent.lean",
+      "sha256": "6069c166a3eb07b08505d9acab8f082f00535e4270de9e481c30ca574b943434",
+      "bytes": 4668
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/DirichletEnergy.lean",
+      "sha256": "cb9521300dccff84c8e6d45dca2c4e0198f881d2dd3bf0475ff039773e39c11b",
+      "bytes": 6527
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/EulerFlux.lean",
+      "sha256": "c28a3f428c8c81766a8b4bb6b6d530ff5e19592a84df39f7bd9fa1c6f9e44312",
+      "bytes": 2487
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ExactEstimates.lean",
+      "sha256": "d6c97bab116be8ec20287f7110429b5d150ca2c546ed05bf5f24374bb3b29640",
+      "bytes": 7002
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/Extrusion.lean",
+      "sha256": "1ecd255d463e90eaac5bab0267fccb362793d00814f5351309da44908ae6a832",
+      "bytes": 10577
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteEnvelope.lean",
+      "sha256": "85750dc40def17587a2a3b337f8b683786ae954069ee1935446c2342fd7cb028",
+      "bytes": 8454
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteScore.lean",
+      "sha256": "9d7fb09a337a036bd9849e7c2bd3f1be031eed82bdaeb8d8956b45f0f227b701",
+      "bytes": 8822
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/FiniteVariation.lean",
+      "sha256": "c4090aeac857210a453a4df34c618bf5bbea78d51ea34798acf3a612a6c8d790",
+      "bytes": 6086
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/GlobalCapMaximum.lean",
+      "sha256": "fe2a7c3e412924cb1491e6e00b30bf735dd1d88cf10395d1bdb40e1cef3884cb",
+      "bytes": 3765
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/GridNiche.lean",
+      "sha256": "497ad05d8cb231a0a0dcdd47177c816417d7845d8f6cd1bc568fdb522438340d",
+      "bytes": 4973
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/JointCapMaximum.lean",
+      "sha256": "cf50f9d715c83a91332724efbbb0f330425da3780c793d04ed34dad370b775fd",
+      "bytes": 6143
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/LowHeightAlgebra.lean",
+      "sha256": "379e803c5831f70ca19fccce5e8bd37b9442db1444c26989ee0bd3ba544b3955",
+      "bytes": 5265
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/LowHeightGeometry.lean",
+      "sha256": "798670413f2521f687efbdf423e23ec04dda6a05669ffb7c6a976cdcaf05ea3d",
+      "bytes": 5636
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/LowHeightScore.lean",
+      "sha256": "27629a9890a34a8017b181809d9aaf301218f2cc915af496bade92837a5296e3",
+      "bytes": 5320
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PartialCapContinuity.lean",
+      "sha256": "efedba8a3256866a9e13873a295686a802ef408d12add356e17b6c3045fe741d",
+      "bytes": 7586
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PartialTopInsertion.lean",
+      "sha256": "5ddffa9ab33159e175de9de71ac32a2aad0b26277de2c02d05bcad54e56acb2a",
+      "bytes": 8435
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonEnvelope.lean",
+      "sha256": "19dcd96a177e71caea559c88a00cb0b707a953fb46843d4a6c0248be2c1d315b",
+      "bytes": 12301
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonExposure.lean",
+      "sha256": "360904aa31068ea72e842b9fcf30a932c4297b57f893e7f10cb9ffbb5b1025da",
+      "bytes": 7378
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PolygonVariation.lean",
+      "sha256": "97776f22cfe3981fe47517505bc7a69d6b2de76218fefc385b1b2e364bf1f8be",
+      "bytes": 9917
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PositiveTent.lean",
+      "sha256": "9c85598c8cf75b646989d9672236c7188bd2a8b92931be4f2e31ed0e33ee0fd9",
+      "bytes": 3527
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ProperExcessBudget.lean",
+      "sha256": "9f4b6288eb26e29af4f229b46cb5f6f47ade1fc4a6bea2a5fdf4b9057ddc2d47",
+      "bytes": 12085
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/ProperExcessScalar.lean",
+      "sha256": "d77795be47302d28c55b39964f8ad40a7c9e68218f5c99bacdb3d6ae49189d4b",
+      "bytes": 11453
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/QuadraticEnergy.lean",
+      "sha256": "e8e95ecc92a8f08547835ca7fcfe7f2c01662190e23ae4af209e0641af34d0aa",
+      "bytes": 4765
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/QuarterFunctions.lean",
+      "sha256": "11ad5214b9e7035eaf8888e5bcad4ee831ce715e716874de1d7c5356df2e4b08",
+      "bytes": 4937
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/RoofContinuity.lean",
+      "sha256": "b8495b2f7d02588eabca20d9d289c311647627f0f797da3126d6822f2fd3f55e",
+      "bytes": 2331
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TerminalCircleEndpoints.lean",
+      "sha256": "c50df2656a928ac291adcabaa5ece6694d2ce874c4dd656844bf99ba6a70adc4",
+      "bytes": 9145
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TerminalCubicPayment.lean",
+      "sha256": "67b6a20a19a8354465c3617ec1098264ac65b46db9573a36f5609e05a5d917f2",
+      "bytes": 7687
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TerminalThreeSupports.lean",
+      "sha256": "1731ab88295401cbbacf0956b13db7ffcc92a60e6319bd661babc4be67e33198",
+      "bytes": 9780
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TerminalWallBound.lean",
+      "sha256": "eee6691d027e498744cbbaa75f3c760c7f9c1a0f436b75825b5e1be1948139f9",
+      "bytes": 3963
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TiltedBalanceHeight.lean",
+      "sha256": "04a6fb65bfecca97d79bc2efb499999ac0e400e2084eb47708a9a65cab60ac0f",
+      "bytes": 9111
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TiltedInitialEnergy.lean",
+      "sha256": "fbe6fe86d87aaffdb0bade82a734d8bb19348c67b914f7631bd50e7e359a7d50",
+      "bytes": 5718
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TiltedInitialEnergyBounds.lean",
+      "sha256": "abb5e768701ab0bfbe9a542cc1eff83b1afa4e31eaba0d13ce77fe0c6ed1af15",
+      "bytes": 7965
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TiltedLateExcessScalar.lean",
+      "sha256": "b5b603116009397d24637bf6241b5c1985226ca6cfbf6fe8c401ed565080c692",
+      "bytes": 7235
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TiltedRadiusWidth.lean",
+      "sha256": "1e7c276e81d98396ff40dd96f809d69804239d2f1d5dd6cfdc0e87b34d6f77dc",
+      "bytes": 6257
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/TopInsertion.lean",
+      "sha256": "62293b6c01d5e661b20900334a70c16f7e0423b11bf5a07262fe11ac7302fab7",
+      "bytes": 7762
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/WideCap.lean",
+      "sha256": "cabe662f306a60003732c0df9980b014ef55694d04524c24945c547805c18690",
+      "bytes": 6312
+    },
+    {
+      "path": "AmbidextrousSofa/ExactConstant.lean",
+      "sha256": "8bccce29f18af2a038a234bfe29d122e490a4994fba6bfa310a3353032c89157",
+      "bytes": 3469
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/AngularDomain.lean",
+      "sha256": "b91a1c764fe89ec2bed7749c5beab36dc74d700f86c3fe1ed8ba944b76ba0ab9",
+      "bytes": 7265
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/BarrierAnalysis.lean",
+      "sha256": "496e79af160ba6cdbffb5f0ee41312920e99a26cbd677865376b572669324c6b",
+      "bytes": 8062
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Barriers.lean",
+      "sha256": "4380e88233e87ebdc3faf8602e8a8fbef8e48415fb050880416fae8ebff09f79",
+      "bytes": 5186
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/CapGeometry.lean",
+      "sha256": "88c7cb03466f41a60fa0d250873d1a4f3d1f69bbb819d06b3d7deb872c2415d4",
+      "bytes": 10918
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Caps.lean",
+      "sha256": "f092656f541ec099da664edff33088816875dd40b83b6d8b852d43061de85551",
+      "bytes": 2632
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Hallway.lean",
+      "sha256": "c7305accf6f940516a91146f3f0b5856aa6c9d0a03cdbc5042db2f1b936984ab",
+      "bytes": 6977
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/HullCompact.lean",
+      "sha256": "1f8e2f9579baec6bf7379bdeb1f54b154bdedd6b308c484c45e9a14e050bbf25",
+      "bytes": 2789
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Motions.lean",
+      "sha256": "a27567c950f8041fe3c01d8ab72563a1b3e13939bef4f0b5575f45be6d5d5dbe",
+      "bytes": 2153
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Plane.lean",
+      "sha256": "8f813e9361adbe5fbb17964836e81fdb84dcf5f8dc2619786281aee5f2b4c4b5",
+      "bytes": 2653
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Reflection.lean",
+      "sha256": "43b25665688af1adad913ef6d5e4c88726321961dbdb83d19bcc2951b1f9c5b1",
+      "bytes": 7128
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/RigidMotion.lean",
+      "sha256": "6ec12b876f1671e8f37b15bef2fa45c410d0507e24eab99736979f7c08373e38",
+      "bytes": 4652
+    },
+    {
+      "path": "AmbidextrousSofa/Geometry/Support.lean",
+      "sha256": "354f01b911aaafc010f85313adcdbc41f7929215a437db62a2b581f730ed8a3d",
+      "bytes": 8933
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/CapScore.lean",
+      "sha256": "a1c4882914e4087826125f09339e0dd7e05eeb5e8cb6c30d6dd363f20670e990",
+      "bytes": 4880
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/Fibers.lean",
+      "sha256": "a15445fe8a53e53b2fa7f37d0b21d10c8f1adc7858cf0733830ddc12309a34bd",
+      "bytes": 6459
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/GraphIntegral.lean",
+      "sha256": "70d2132135359d68738225a57287b094f7dc431b75e8430b6fb1d1358ff847b5",
+      "bytes": 4937
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/Partition.lean",
+      "sha256": "99c552297656cacd004065f8a3db7acde4a70c7c49a15a66b1ad6a876b83e870",
+      "bytes": 6215
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/RigidInvariance.lean",
+      "sha256": "53ed1b9948672975d9ce9556ce46b50e0f55cd850a9b48e85138b136727f34c1",
+      "bytes": 2332
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SignedRoof.lean",
+      "sha256": "423b57bbf0a71e2b171848bee48e2f92b6cacefdd989f81a66ef2c1af3a6f869",
+      "bytes": 8676
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SignedRoofIntegral.lean",
+      "sha256": "785e97ccbbdde626fcd2febd0da2a4dd3e93048ac1cadd69afd4073c54e3c1d0",
+      "bytes": 5347
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SignedRoofIntegralAC.lean",
+      "sha256": "d507d43d380e9cfc06ac67243a97a9843f47150194986c95681ab57c0e75c547",
+      "bytes": 13293
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SupportArea.lean",
+      "sha256": "f84be7dc90e129a7faea9b3d7e63ca39df87c03aed268e3c65a45d18f1150c11",
+      "bytes": 3142
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SupportAreaAC.lean",
+      "sha256": "812fdf886a80dcd02eddbd1d5c6348edd5fc5946c332c7ead23df758771a4acb",
+      "bytes": 13179
+    },
+    {
+      "path": "AmbidextrousSofa/Measure/SymmetricBody.lean",
+      "sha256": "f96ad36cb569ab47461662584410c0de34bf427aaff889d8e660940f38878f44",
+      "bytes": 4880
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Body.lean",
+      "sha256": "5f9d1065751d4228587604a12dcc04fe002d190294e33d00ec9fd51aaa831529",
+      "bytes": 9592
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Faces.lean",
+      "sha256": "b4bf094825e1c18a38ecc644f9be7312329046b8990f8646c6cec0ad7e55fbc4",
+      "bytes": 6242
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Hull.lean",
+      "sha256": "7a79761abbb9565f9c8e73eaaf4ec0e8fe59deee8a4db2c56bdd9e80af412804",
+      "bytes": 5926
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Momenta.lean",
+      "sha256": "3a4b9e7960c8c806bcbe19f0ae219f0b0d34c9daf3cb470ef0e6ee0c154a9015",
+      "bytes": 3325
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Niche.lean",
+      "sha256": "7f26437b9e46e5539b7ecde3afc5c0188ff16f830f36eb9878b1d9b4e36970b6",
+      "bytes": 12868
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Parameters.lean",
+      "sha256": "4874c6f756f32ba2949d08ba7acb095180fff1cc967905e4e53f8440d36ad816",
+      "bytes": 6158
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Realization.lean",
+      "sha256": "f8d6ee4caaec8104e3683c5946b8b2bfec96913192acce1d4cc5e8838cafc6ec",
+      "bytes": 17409
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Stationarity.lean",
+      "sha256": "93a158c4eede5fab1746fb339e865facbf50a2caada5bed819abf7f0e513a4eb",
+      "bytes": 4869
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Support.lean",
+      "sha256": "e1bf0323f29d433fbf6c8d31c9ae71e2bfa37a453d34d2be3ed03a70854e778e",
+      "bytes": 14895
+    },
+    {
+      "path": "AmbidextrousSofa/Reference/Value.lean",
+      "sha256": "0647a7b13c1ef893d652eafab5050f5a82b47129c2fe3db13493b049d818c213",
+      "bytes": 16349
+    },
+    {
+      "path": "AmbidextrousSofa/Algebra/Deficit.lean",
+      "sha256": "e48a70b8077f9d8ee0c1f405b36124847abdca6229e8c59012f3367b49a82418",
+      "bytes": 3385
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/LevelSetDerivative.lean",
+      "sha256": "f279b2a791753af824a8952f963a58f9196da60816a0a8908379b2f2d2cf60e4",
+      "bytes": 1696
+    },
+    {
+      "path": "AmbidextrousSofa/Analysis/PositivePartCalculus.lean",
+      "sha256": "6862008745f07224507ea83f7e432e984f1152b8ec7dbbe9feecdb0a09dbea7d",
+      "bytes": 3944
+    },
+    {
+      "path": "AmbidextrousSofa/Topology/RegularClosed.lean",
+      "sha256": "b823740c5fc9556624f98306e2efdeb5fea5c8db2918bf86b3bb518019220244",
+      "bytes": 1600
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1792deeb53e5cd93ce6d73dab054cd7f6e0fb316b1c6824a63552e7c183b4630",
+      "bytes": 671,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "AmbidextrousSofa/Analysis/TerminalCubicPayment.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/vltanh/lean4-ambidextrous-sofa",
+    "source_commit": "0f24fe48b4cadf02a442420e677b45a036136dbf"
+  }
+}

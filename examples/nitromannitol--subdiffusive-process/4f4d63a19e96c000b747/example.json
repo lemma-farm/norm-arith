@@ -1,0 +1,131 @@
+{
+  "id": "4f4d63a19e96c000b747",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/Probability/Orlicz/WeakBridge.lean",
+    "file_id": "0c8ee52b281084cb9b36",
+    "source_sha256": "0c8ee52b281084cb9b3617727c76cdbf7f037ff03b043ab3adb51ebfb21673fd",
+    "start": 50,
+    "end": 60,
+    "original_start": 50,
+    "original_end": 60,
+    "declaration": "isBigO_gammaSigma_of_two_sided",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Probability/Orlicz/WeakBridge.lean#L50-L60",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Probability/Orlicz/WeakBridge.lean#L50-L60"
+  },
+  "native_target_name": "SubdiffusiveProcess.Probability.Orlicz.isBigO_gammaSigma_of_two_sided",
+  "source_declaration_label": "isBigO_gammaSigma_of_two_sided",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "ef2a6a2db7ec07e9723f5cf64afac4a27ada511596069b9e6cabe3d8ef0dfa6e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "49e1a77713dce8d8b897e5d994b804ead0c4114cefbcadb4314b1aa06e7415c3",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/Assumptions/OGammaBridge.lean",
+      "sha256": "7992508ace041d046f486be98b7e11cd7b1cc89d2efa71e7b1abc1f1a1c7f306",
+      "bytes": 12844
+    },
+    {
+      "path": "SubdiffusiveProcess/CoarseGrainingVocab/OGammaToolkit.lean",
+      "sha256": "33b71762f83dd8de236b7527ad5a121ea3111e3538dd3dd2ef93f1d78ef99287",
+      "bytes": 15463
+    },
+    {
+      "path": "SubdiffusiveProcess/Model/OGammaLE.lean",
+      "sha256": "9afd7c5f56d8bc1adebe809ade30fc4103e29c29a11f66bb931ba1ef07e64505",
+      "bytes": 1069
+    },
+    {
+      "path": "SubdiffusiveProcess/Probability/Orlicz/WeakBridge.lean",
+      "sha256": "0c8ee52b281084cb9b3617727c76cdbf7f037ff03b043ab3adb51ebfb21673fd",
+      "bytes": 3490
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Probability/IndependentSums/GammaSigma/Basic.lean",
+      "sha256": "531ba62e8695605df1db53e76504d414d531062cb2d256ff47b27c971bf3f3ef",
+      "bytes": 37368
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Probability/IndependentSums/PsiCalculus.lean",
+      "sha256": "ed3af424d6a6a79e8a787a00b0d08b396c760a933124b185764e7aa413d77bc6",
+      "bytes": 34759
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Probability/IndependentSums/Triangle.lean",
+      "sha256": "0de163aab076aa7dce7c6a0b98d2030161d2d4dbe7f6031d0844f7bc242cb140",
+      "bytes": 41954
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/Homogenization/Probability/IndependentSums/WeakOrlicz.lean",
+      "sha256": "eb98ce27b745619ecf973b65ab02bd0bed87030873ad0c7e050b2ddb51b21b6b",
+      "bytes": 10477
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "babea6d9b201789d17f03b1dddd52f4fb45d27d56a1b1dbb0ef893880f23763a",
+      "bytes": 2756,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "7a7150122facdd768faf04e8df1b456026e1929f73a04acf4f9a3b5ebb81d06e",
+      "bytes": 1094,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/MarkovProcess-8349beda/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/MarkovProcess-8349beda/lake-manifest.json",
+      "sha256": "c229ff68800cc087aaaa7b97b7a025ed1d8295428ea4b3ab0e548cc3df032bd7",
+      "bytes": 3139,
+      "snapshot": "__deps/MarkovProcess-8349beda/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lean-toolchain.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lake-manifest.json.source"
+    },
+    {
+      "path": "__deps/CoarseGraining-8bbf3809/lakefile.toml",
+      "sha256": "f25aa474fc75be0ba8efddf24d01e81f69c6ecd1289752da54ac5c063b2aa13f",
+      "bytes": 781,
+      "snapshot": "__deps/CoarseGraining-8bbf3809/lakefile.toml.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/Probability/Orlicz/WeakBridge.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/4f4d63a19e96c000b747": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

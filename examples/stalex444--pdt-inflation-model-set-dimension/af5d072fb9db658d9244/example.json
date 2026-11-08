@@ -1,0 +1,76 @@
+{
+  "id": "af5d072fb9db658d9244",
+  "source": {
+    "repository": "stalex444/pdt-inflation-model-set-dimension",
+    "commit": "c41d9d29f9c86fb0f849df79b03e713d3405a5eb",
+    "project": "stalex444--pdt-inflation-model-set-dimension--c41d9d29f9c8",
+    "path": "InflationDimension/Normal.lean",
+    "file_id": "09bfaf99474bfd42af49",
+    "source_sha256": "09bfaf99474bfd42af491578c13424becc80467ca57a2494eea12c585b503fa2",
+    "start": 237,
+    "end": 245,
+    "original_start": 204,
+    "original_end": 246,
+    "declaration": "powerBounded_of_nodal",
+    "source_url": "https://github.com/stalex444/pdt-inflation-model-set-dimension/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/InflationDimension/Normal.lean#L237-L245",
+    "archive_url": "https://github.com/PalomarArchive/stalex444--pdt-inflation-model-set-dimension--6934a2b28ed6/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/InflationDimension/Normal.lean#L237-L245"
+  },
+  "native_target_name": "InflationDimension.KernelSplit.powerBounded_of_nodal",
+  "source_declaration_label": "powerBounded_of_nodal",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "5f99d04535ce27c14d1c551b09af9625e16534a2ae23ccfece64640f5cc786bf",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "0ca05644ea69ffe5cde3f4d567b9ee550617b6af243ad730a71b0d370ec12d6f",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "InflationDimension/Admissibility.lean",
+      "sha256": "74f8dc36f893fe40b789abf450796f279a4c2f31197a96acd14c32bd7c5b2f37",
+      "bytes": 37016
+    },
+    {
+      "path": "InflationDimension/Defs.lean",
+      "sha256": "c4b63a8055568c3529ab7e4cb140f914ada6d398cdfb1583a9022e29932dfe9d",
+      "bytes": 10700
+    },
+    {
+      "path": "InflationDimension/Normal.lean",
+      "sha256": "e12db44a6caf66cd0fb9b6aa07856d5fd9de6132d1021d02773afcaaa9d32b47",
+      "bytes": 38331
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c586872556ca29fbeea39a7303cfff5ab816072cb548eed73ea3f5ffd4690747",
+      "bytes": 545,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "InflationDimension/Normal.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/af5d072fb9db658d9244": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/stalex444/pdt-inflation-model-set-dimension",
+    "source_commit": "c41d9d29f9c86fb0f849df79b03e713d3405a5eb"
+  }
+}

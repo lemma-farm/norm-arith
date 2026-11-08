@@ -1,0 +1,545 @@
+"name" = "z3net"
+"version" = "0.1.0"
+"defaultTargets" = ["Z3Net", "GeoSeq", "HeadlineSeqV4", "GeoSeqChallenge", "GeoSeqSolution", "GeoSeqS10Challenge", "GeoSeqS10Solution", "GeoSeqS11Challenge", "GeoSeqS11Solution", "GeoSeqS3Challenge", "GeoSeqS3Solution", "GeoSeqS4Challenge", "GeoSeqS4Solution", "GeoSeqK4Challenge", "GeoSeqK4Solution", "GeoSeqV0Challenge", "GeoSeqV0Solution", "GeoSeqV1Challenge", "GeoSeqV1Solution", "GeoSeqV2Challenge", "GeoSeqV2Solution", "GeoSeqV3Challenge", "GeoSeqV3Solution", "GeoSeqV4Challenge", "GeoSeqV4Solution", "GeoSeqV4s4Challenge", "GeoSeqV4s4Solution", "GeoSeqV4s5Challenge", "GeoSeqV4s5Solution", "GeoSeqV5Challenge", "GeoSeqV5Solution", "GeoSeqV6Challenge", "GeoSeqV6Solution", "GeoSeqV7Challenge", "GeoSeqV7Solution", "GeoSeqV9Challenge", "GeoSeqV9Solution", "GeoSeqV93Challenge", "GeoSeqV93Solution", "GeoSeqV94Challenge", "GeoSeqV94Solution", "GeoSeqV95Challenge", "GeoSeqV95Solution", "GeoSeqV96Challenge", "GeoSeqV96Solution", "GeoSeqV97Challenge", "GeoSeqV97Solution", "GeoSeqV98Challenge", "GeoSeqV98Solution", "GeoSeqV99Challenge", "GeoSeqV99Solution", "GeoSeqV99caChallenge", "GeoSeqV99caSolution", "GeoSeqV99ca5eChallenge", "GeoSeqV99ca5eSolution", "GeoSeqV99ca5fChallenge", "GeoSeqV99ca5fSolution", "GeoSeqV99ca5aChallenge", "GeoSeqV99ca5aSolution", "GeoSeqV99ca5bChallenge", "GeoSeqV99ca5bSolution", "GeoSeqV99ca5cChallenge", "GeoSeqV99ca5cSolution", "GeoSeqV99ca5dChallenge", "GeoSeqV99ca5dSolution", "GeoSeqV99covChallenge", "GeoSeqV99covSolution", "GeoSeqV10_1Challenge", "GeoSeqV10_1Solution", "GeoSeqV10_1ca5aChallenge", "GeoSeqV10_1ca5aSolution", "GeoSeqV10_1ca5bChallenge", "GeoSeqV10_1ca5bSolution", "GeoSeqV10_1ca5cChallenge", "GeoSeqV10_1ca5cSolution", "GeoSeqV10_2Challenge", "GeoSeqV10_2Solution", "GeoSeqV10_3Challenge", "GeoSeqV10_3Solution", "GeoSeqV10_3xChallenge", "GeoSeqV10_3xSolution", "GeoSeqV10_4Challenge", "GeoSeqV10_4Solution", "GeoSeqV10_4ca0Challenge", "GeoSeqV10_4ca0Solution", "GeoSeqV10_4ca1Challenge", "GeoSeqV10_4ca1Solution", "GeoSeqV10_4ca10Challenge", "GeoSeqV10_4ca10Solution", "GeoSeqV10_4ca2Challenge", "GeoSeqV10_4ca2Solution", "GeoSeqV10_4ca3Challenge", "GeoSeqV10_4ca3Solution", "GeoSeqV10_4ca4Challenge", "GeoSeqV10_4ca4Solution", "GeoSeqV10_4ca5Challenge", "GeoSeqV10_4ca5Solution", "GeoSeqV10_4ca6Challenge", "GeoSeqV10_4ca6Solution", "GeoSeqV10_4ca7Challenge", "GeoSeqV10_4ca7Solution", "GeoSeqV10_4ca8Challenge", "GeoSeqV10_4ca8Solution", "GeoSeqV10_4ca9Challenge", "GeoSeqV10_4ca9Solution", "GeoSeqV10_5Challenge", "GeoSeqV10_5Solution"]
+"leanOptions" = {"autoImplicit" = false}
+"buildDir" = ".lake/build"
+"srcDir" = "."
+
+[["require"]]
+"name" = "mathlib"
+"path" = "/project/repo/norm-arith/.lake/packages/mathlib"
+
+[["lean_lib"]]
+"name" = "Z3Net"
+"globs" = ["Z3Net.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeq"
+"globs" = ["GeoSeq.+"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "HeadlineSeqV4"
+"roots" = ["HeadlineSeqV4.Challenge", "HeadlineSeqV4.Defs", "HeadlineSeqV4.Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqChallenge"
+"roots" = ["GeoSeqChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqSolution"
+"roots" = ["GeoSeqSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS10Challenge"
+"roots" = ["GeoSeqS10Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS10Solution"
+"roots" = ["GeoSeqS10Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS11Challenge"
+"roots" = ["GeoSeqS11Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS11Solution"
+"roots" = ["GeoSeqS11Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS3Challenge"
+"roots" = ["GeoSeqS3Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS3Solution"
+"roots" = ["GeoSeqS3Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS4Challenge"
+"roots" = ["GeoSeqS4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqS4Solution"
+"roots" = ["GeoSeqS4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqK4Challenge"
+"roots" = ["GeoSeqK4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqK4Solution"
+"roots" = ["GeoSeqK4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV0Challenge"
+"roots" = ["GeoSeqV0Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV0Solution"
+"roots" = ["GeoSeqV0Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV1Challenge"
+"roots" = ["GeoSeqV1Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV1Solution"
+"roots" = ["GeoSeqV1Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV2Challenge"
+"roots" = ["GeoSeqV2Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV2Solution"
+"roots" = ["GeoSeqV2Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV3Challenge"
+"roots" = ["GeoSeqV3Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV3Solution"
+"roots" = ["GeoSeqV3Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4Challenge"
+"roots" = ["GeoSeqV4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4Solution"
+"roots" = ["GeoSeqV4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4s4Challenge"
+"roots" = ["GeoSeqV4s4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4s4Solution"
+"roots" = ["GeoSeqV4s4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4s5Challenge"
+"roots" = ["GeoSeqV4s5Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV4s5Solution"
+"roots" = ["GeoSeqV4s5Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV5Challenge"
+"roots" = ["GeoSeqV5Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV5Solution"
+"roots" = ["GeoSeqV5Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV6Challenge"
+"roots" = ["GeoSeqV6Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV6Solution"
+"roots" = ["GeoSeqV6Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV7Challenge"
+"roots" = ["GeoSeqV7Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV7Solution"
+"roots" = ["GeoSeqV7Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV9Challenge"
+"roots" = ["GeoSeqV9Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV9Solution"
+"roots" = ["GeoSeqV9Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV93Challenge"
+"roots" = ["GeoSeqV93Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV93Solution"
+"roots" = ["GeoSeqV93Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV94Challenge"
+"roots" = ["GeoSeqV94Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV94Solution"
+"roots" = ["GeoSeqV94Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV95Challenge"
+"roots" = ["GeoSeqV95Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV95Solution"
+"roots" = ["GeoSeqV95Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV96Challenge"
+"roots" = ["GeoSeqV96Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV96Solution"
+"roots" = ["GeoSeqV96Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV97Challenge"
+"roots" = ["GeoSeqV97Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV97Solution"
+"roots" = ["GeoSeqV97Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV98Challenge"
+"roots" = ["GeoSeqV98Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV98Solution"
+"roots" = ["GeoSeqV98Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99Challenge"
+"roots" = ["GeoSeqV99Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99Solution"
+"roots" = ["GeoSeqV99Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99caChallenge"
+"roots" = ["GeoSeqV99caChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99caSolution"
+"roots" = ["GeoSeqV99caSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5eChallenge"
+"roots" = ["GeoSeqV99ca5eChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5eSolution"
+"roots" = ["GeoSeqV99ca5eSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5fChallenge"
+"roots" = ["GeoSeqV99ca5fChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5fSolution"
+"roots" = ["GeoSeqV99ca5fSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5aChallenge"
+"roots" = ["GeoSeqV99ca5aChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5aSolution"
+"roots" = ["GeoSeqV99ca5aSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5bChallenge"
+"roots" = ["GeoSeqV99ca5bChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5bSolution"
+"roots" = ["GeoSeqV99ca5bSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5cChallenge"
+"roots" = ["GeoSeqV99ca5cChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5cSolution"
+"roots" = ["GeoSeqV99ca5cSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5dChallenge"
+"roots" = ["GeoSeqV99ca5dChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99ca5dSolution"
+"roots" = ["GeoSeqV99ca5dSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99covChallenge"
+"roots" = ["GeoSeqV99covChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV99covSolution"
+"roots" = ["GeoSeqV99covSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1Challenge"
+"roots" = ["GeoSeqV10_1Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1Solution"
+"roots" = ["GeoSeqV10_1Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5aChallenge"
+"roots" = ["GeoSeqV10_1ca5aChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5aSolution"
+"roots" = ["GeoSeqV10_1ca5aSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5bChallenge"
+"roots" = ["GeoSeqV10_1ca5bChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5bSolution"
+"roots" = ["GeoSeqV10_1ca5bSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5cChallenge"
+"roots" = ["GeoSeqV10_1ca5cChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_1ca5cSolution"
+"roots" = ["GeoSeqV10_1ca5cSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_2Challenge"
+"roots" = ["GeoSeqV10_2Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_2Solution"
+"roots" = ["GeoSeqV10_2Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_3Challenge"
+"roots" = ["GeoSeqV10_3Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_3Solution"
+"roots" = ["GeoSeqV10_3Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_3xChallenge"
+"roots" = ["GeoSeqV10_3xChallenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_3xSolution"
+"roots" = ["GeoSeqV10_3xSolution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4Challenge"
+"roots" = ["GeoSeqV10_4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4Solution"
+"roots" = ["GeoSeqV10_4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca0Challenge"
+"roots" = ["GeoSeqV10_4ca0Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca0Solution"
+"roots" = ["GeoSeqV10_4ca0Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca1Challenge"
+"roots" = ["GeoSeqV10_4ca1Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca1Solution"
+"roots" = ["GeoSeqV10_4ca1Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca10Challenge"
+"roots" = ["GeoSeqV10_4ca10Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca10Solution"
+"roots" = ["GeoSeqV10_4ca10Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca2Challenge"
+"roots" = ["GeoSeqV10_4ca2Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca2Solution"
+"roots" = ["GeoSeqV10_4ca2Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca3Challenge"
+"roots" = ["GeoSeqV10_4ca3Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca3Solution"
+"roots" = ["GeoSeqV10_4ca3Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca4Challenge"
+"roots" = ["GeoSeqV10_4ca4Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca4Solution"
+"roots" = ["GeoSeqV10_4ca4Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca5Challenge"
+"roots" = ["GeoSeqV10_4ca5Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca5Solution"
+"roots" = ["GeoSeqV10_4ca5Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca6Challenge"
+"roots" = ["GeoSeqV10_4ca6Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca6Solution"
+"roots" = ["GeoSeqV10_4ca6Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca7Challenge"
+"roots" = ["GeoSeqV10_4ca7Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca7Solution"
+"roots" = ["GeoSeqV10_4ca7Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca8Challenge"
+"roots" = ["GeoSeqV10_4ca8Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca8Solution"
+"roots" = ["GeoSeqV10_4ca8Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca9Challenge"
+"roots" = ["GeoSeqV10_4ca9Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_4ca9Solution"
+"roots" = ["GeoSeqV10_4ca9Solution"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_5Challenge"
+"roots" = ["GeoSeqV10_5Challenge"]
+"srcDir" = "."
+
+[["lean_lib"]]
+"name" = "GeoSeqV10_5Solution"
+"roots" = ["GeoSeqV10_5Solution"]
+"srcDir" = "."

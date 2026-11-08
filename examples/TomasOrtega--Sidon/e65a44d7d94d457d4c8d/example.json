@@ -1,0 +1,108 @@
+{
+  "id": "e65a44d7d94d457d4c8d",
+  "source": {
+    "repository": "TomasOrtega/Sidon",
+    "commit": "735de6d7c67b81a28b1e07e3f2661dbc17bb89d6",
+    "project": "TomasOrtega--Sidon--735de6d7c67b",
+    "path": "Sidon/Analysis/SidonCorrelation.lean",
+    "file_id": "02b4fb06a6ba67a4a7fe",
+    "source_sha256": "02b4fb06a6ba67a4a7fee178ee4502c749e470dbcab701197a17f6cc9d59465c",
+    "start": 136,
+    "end": 150,
+    "original_start": 132,
+    "original_end": 150,
+    "declaration": "mixed_correlationError_le",
+    "source_url": "https://github.com/TomasOrtega/Sidon/blob/735de6d7c67b81a28b1e07e3f2661dbc17bb89d6/Sidon/Analysis/SidonCorrelation.lean#L136-L150",
+    "archive_url": "https://github.com/PalomarArchive/TomasOrtega--Sidon--9a23311e73c2/blob/735de6d7c67b81a28b1e07e3f2661dbc17bb89d6/Sidon/Analysis/SidonCorrelation.lean#L136-L150"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "mixed_correlationError_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "c7fb5e2c303609a43ba3bf376e00374076a97372966eb517971414a1ad810af0",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "da0f194b9a302e15a82afbf19f8a265364fa0b16fc3b0d9d484a3860359c421e",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Sidon/Analysis/Correlation.lean",
+      "sha256": "71d93ca66cba7ab9b97db412c3490d1de3c59d624972c963f1ff6153a8e75196",
+      "bytes": 8993
+    },
+    {
+      "path": "Sidon/Analysis/DiscreteFejer.lean",
+      "sha256": "280df6bc594d505f6010554595e7a1969046d4594b9a56781e7cf905c267a8d3",
+      "bytes": 5896
+    },
+    {
+      "path": "Sidon/Analysis/FiniteFourier.lean",
+      "sha256": "9c3171a3d709a0fcf52b152f47b0eec37bd8765846d8d1bf274cec8d03fbbc01",
+      "bytes": 4412
+    },
+    {
+      "path": "Sidon/Analysis/SidonCorrelation.lean",
+      "sha256": "216b4ddc2e35f68ffd2bae984baf0f9712bc0440ed965ee77b99386e2bcc8a8c",
+      "bytes": 14390
+    },
+    {
+      "path": "Sidon/Analysis/VanDerCorput.lean",
+      "sha256": "bfb8e1df3ee9184a7c85ed68880d6ad535a1459f338d6e0ddb7974ac25664aca",
+      "bytes": 6626
+    },
+    {
+      "path": "Sidon/Basic.lean",
+      "sha256": "af36fec7b4b2b9707a2327d97ea3a5171537dbd69d079f5c180d97af140ff529",
+      "bytes": 3079
+    },
+    {
+      "path": "Sidon/Combinatorics/Differences.lean",
+      "sha256": "f1039275cf9fc77fc65956e9a921070bd6670fd2946e443ba0e7fe2c31f631a0",
+      "bytes": 3204
+    },
+    {
+      "path": "Sidon/Combinatorics/Energy.lean",
+      "sha256": "bb4a47b779e54dddeb7f6b57f8ccdeaaa8c590fc7a9fff6c7b215f98557d3f20",
+      "bytes": 4475
+    },
+    {
+      "path": "Sidon/Combinatorics/IntervalSize.lean",
+      "sha256": "6a6a011da610bb60c4c9065d9adf1a509bf85fa77c5c999e72e40a4456cf3aa7",
+      "bytes": 3056
+    },
+    {
+      "path": "Sidon/Combinatorics/Intervals.lean",
+      "sha256": "42d1e1fa9cf6cdc3a7897f1ca6999d26ea53ecb4e097921b34e14064ac448677",
+      "bytes": 1401
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "814dfb77f948dc86f8e4a3b94948b1f0a9dca33cf55a0a3f6d4f801a49cf692d",
+      "bytes": 417,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Sidon/Analysis/SidonCorrelation.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/TomasOrtega/Sidon",
+    "source_commit": "735de6d7c67b81a28b1e07e3f2661dbc17bb89d6"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": "279695bc7f2d2b06ccc4",
+  "source": {
+    "repository": "scottnarmstrong/Critical2DKPZ",
+    "commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a",
+    "project": "scottnarmstrong--Critical2DKPZ--f1c98dacb2a8",
+    "path": "Critical2DKPZ/GaussianConvexity/EhrhardMomentBounds.lean",
+    "file_id": "0c5f290daf2c83f12c67",
+    "source_sha256": "0c5f290daf2c83f12c67cd28f8d81adfdb39cc09db0e1a6610319d7b940e99c4",
+    "start": 42,
+    "end": 57,
+    "original_start": 41,
+    "original_end": 57,
+    "declaration": "log_negative_moment_le",
+    "source_url": "https://github.com/scottnarmstrong/Critical2DKPZ/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/GaussianConvexity/EhrhardMomentBounds.lean#L42-L57",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Critical2DKPZ--4b43cc0f06bc/blob/f1c98dacb2a83737096bd976019dfa2c5986ee5a/Critical2DKPZ/GaussianConvexity/EhrhardMomentBounds.lean#L42-L57"
+  },
+  "native_target_name": "Critical2DKPZ.GaussianConvexity.log_negative_moment_le",
+  "source_declaration_label": "log_negative_moment_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "12fd3e2b16a80e8abaad4096f8abf769d636a795efb28c803e81687ecfb5de86",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "f89ea20560ea2660ba89a6d786d0a216bd39b6ab70ad23a8cb51d0d1d0beab85",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Critical2DKPZ/Definitions/IsEhrhardType.lean",
+      "sha256": "82b6eb8d44d2999264359bf23806d2077165bdeb8eee3a7131df9231d1a09aa4",
+      "bytes": 1998
+    },
+    {
+      "path": "Critical2DKPZ/Definitions/LogMGFRatio.lean",
+      "sha256": "1d7ce8fe982aeded2d22a9c20e1731a9793c7e0be4819ab6b85b3836bd8e800f",
+      "bytes": 1615
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/Basic.lean",
+      "sha256": "f9a757fcde48b811ae7f4041a04a7edaa80233a542df2a26e0da744c87cb8338",
+      "bytes": 1904
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/Characterization.lean",
+      "sha256": "d5147ba96792dde250fed23d6b31c44222059a0051aab40ac78202978912e05a",
+      "bytes": 3079
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/ConvexInverse.lean",
+      "sha256": "8bf32abbe156de0dbb4cffe6b7ccfba2eadc5230778255b41e67a13957ac5e92",
+      "bytes": 5389
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/Moments.lean",
+      "sha256": "97f81591573c1903a3758670cbe9e41fccb37992e8feeeac73fe232b4c0527cc",
+      "bytes": 5737
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/NormalCDF.lean",
+      "sha256": "c443a07bf7d0388ebf0fc1fab3909e3c37628d1af3b5e3ce1944280f444bd885",
+      "bytes": 5282
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/Quantile.lean",
+      "sha256": "3dbc8808231130d4a3e51d8b49cee8f310cacf765e2d54dbdcc0fa1b94abb403",
+      "bytes": 7465
+    },
+    {
+      "path": "Critical2DKPZ/EhrhardType/QuantileConvex.lean",
+      "sha256": "577db015f8e035cb1b0c65d5219c71bd3cf19deb4a409b95ab867044b9b7706a",
+      "bytes": 4827
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/ConvexityAcrossZero.lean",
+      "sha256": "67578d3159c04a92accc2a59b391a6bc0c36721bcaa5aa55daa665fe755610f1",
+      "bytes": 4065
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/CrossingInterval.lean",
+      "sha256": "f5fd7d6e8ceca42265b8b7c7a7de9c4b07182bed961b4fb1df471e1bed2524e9",
+      "bytes": 5933
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/CumulantConvexity.lean",
+      "sha256": "c3d89cdb3f0eecf932cb59cbd2c82736766e0eef5f11eb57422f9720914df966",
+      "bytes": 3288
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/Derivative.lean",
+      "sha256": "c9026b04406ec0a563db5c08f579e5bbb57cda5962aa46fc4e3da195c4e59896",
+      "bytes": 3530
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/EhrhardMomentBounds.lean",
+      "sha256": "dbcb692c01d869face7860db6988c472cb13cd5a4f8a03f86d9a5a64aca202d6",
+      "bytes": 5739
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/ExponentialInterpolation.lean",
+      "sha256": "b58a9905162043b16f7d1a3540f85ed863974a5bc3ef2389a96a01e771f5f6d5",
+      "bytes": 4657
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/FMPComparison.lean",
+      "sha256": "8f2e0e3028debf85628d5fcc2196162ceffe4160c63732e17346e1f532a45c61",
+      "bytes": 3835
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/GaussianCDFComparison.lean",
+      "sha256": "91af293e9ba71dd6d221feb122d0809b036f3059e464e80d22760dd71a6396ca",
+      "bytes": 4025
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/GaussianComparison.lean",
+      "sha256": "4eec6f35516eb83ad57ab930122bcb59ccabff9dcc271f526c2cfe6b7d33c060",
+      "bytes": 5090
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/LogMGFBasic.lean",
+      "sha256": "75221e1ae81ce6495de64bb386d14d749402eff45912d2286ee025d34cc49037",
+      "bytes": 1776
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/Normal.lean",
+      "sha256": "cb63742a29ce48098ae44d5758c4df63f9d96055df7fb5af96c55281c6e596f4",
+      "bytes": 2419
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/OneCrossing.lean",
+      "sha256": "65279839a065088459989619328e3e92e173e936d933d0ba07513e120f0d0a1b",
+      "bytes": 5579
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/ScalarDomainBounds.lean",
+      "sha256": "eac311a8eb56c9870df3234fed8b2f01ace2fe774738394ddc094eaffb60cd86",
+      "bytes": 1813
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/StrictCDFIntegral.lean",
+      "sha256": "aab49dbac8fc33974c516fd9628dd236f4630f031fa606feaa65ae841151e0d1",
+      "bytes": 2437
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/StrictCumulant.lean",
+      "sha256": "d7e0420d7eb34e2ef06ae4f57557ee2b78dd13c5cbc8587045acf4c840146a15",
+      "bytes": 4788
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/TwoMomentComparison.lean",
+      "sha256": "706614f8c6ac70f9f17ab0edf9c576fe616a56033f706a62807be7789a641e5d",
+      "bytes": 5508
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/WeightedCDF.lean",
+      "sha256": "c4a24a64d77566a9637a2ba1ad55f23da3e5a0066722b07104ef59b73cb23d15",
+      "bytes": 6684
+    },
+    {
+      "path": "Critical2DKPZ/GaussianConvexity/WeightedCDFIntegral.lean",
+      "sha256": "260cf97557d55762533b842d2cc45474155df66182b0cc1bc4be1a242355fa22",
+      "bytes": 4731
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "65ff37d544988e2d620f0e9b22018283c4c5e3a31b668bb0b078ba5d7733fbc2",
+      "bytes": 1121,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Critical2DKPZ/GaussianConvexity/EhrhardMomentBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/279695bc7f2d2b06ccc4": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Critical2DKPZ",
+    "source_commit": "f1c98dacb2a83737096bd976019dfa2c5986ee5a"
+  }
+}

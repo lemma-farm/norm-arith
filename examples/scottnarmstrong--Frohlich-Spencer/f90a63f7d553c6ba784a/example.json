@@ -1,0 +1,178 @@
+{
+  "id": "f90a63f7d553c6ba784a",
+  "source": {
+    "repository": "scottnarmstrong/Frohlich-Spencer",
+    "commit": "e01623b7347c272eac9480f04743f38b8d0df223",
+    "project": "scottnarmstrong--Frohlich-Spencer--e01623b7347c",
+    "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEnergyOverlap.lean",
+    "file_id": "02086677239ca9898863",
+    "source_sha256": "02086677239ca9898863f91686952b308fba50314acd636f9cac648061fd0d91",
+    "start": 31,
+    "end": 66,
+    "original_start": 31,
+    "original_end": 82,
+    "declaration": "sqrt_sum_sq_triangle",
+    "source_url": "https://github.com/scottnarmstrong/Frohlich-Spencer/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEnergyOverlap.lean#L31-L66",
+    "archive_url": "https://github.com/PalomarArchive/scottnarmstrong--Frohlich-Spencer--d2b386690b28/blob/e01623b7347c272eac9480f04743f38b8d0df223/FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEnergyOverlap.lean#L31-L66"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "sqrt_sum_sq_triangle",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "bb32b29bf0ce071f8e72857ef06412f9d1bb0b262bdaa398bb68e67c57c887d9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a7556139ac7c0c36f5bef664d96e917ef7f0405a0a6f98454d62167ed26acb94",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEnergyOverlap.lean",
+      "sha256": "509b6a084f525636913852e7c3ee430c1b117b1dca290ead4ad792212150533b",
+      "bytes": 8690
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Covers.lean",
+      "sha256": "b025c3aec9c3e8212adaee09ce7722a27d0e1a3175f2de9614f1f01158cf0ddd",
+      "bytes": 8236
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Geometry.lean",
+      "sha256": "c08cd19ca8a5bc52536ad6958c3fcbf1284fb143ccc431989622c417aec8aefe",
+      "bytes": 1865
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/L41Span.lean",
+      "sha256": "a7019c964d575049b0117e6f4e195e9254eb3de6ff7b3d10ac7759bc16d3381c",
+      "bytes": 49266
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentBall.lean",
+      "sha256": "15c48e56f33de406901c48ae3175c16ddfac33ff5e1b1d16d4fc848cbc4208f6",
+      "bytes": 13276
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ParentGeometry.lean",
+      "sha256": "05b09b14f7d5f28a590ba3d51b3bede6ee347948ea732ea5590d436aa833423c",
+      "bytes": 17847
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/ScaleMonotonicity.lean",
+      "sha256": "8878be5bbf7973993cac29e6547ae848a5861cba2c5c6300e537486bfea07cb4",
+      "bytes": 4001
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SquareDiameterBounds.lean",
+      "sha256": "dd25a3141bce129c8dfa59418b523309721b844a96c07bd14b0efaaca69dfd42",
+      "bytes": 25540
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/Squares.lean",
+      "sha256": "0a4d871afa33e8c0ab67ec0ba7878b66184e250481f4a846cbfcad355bc9390e",
+      "bytes": 5905
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Charges/SupportCover.lean",
+      "sha256": "63058a5365d1c2fab0142f78ac15f819c999ec42d6275b74f41f43f4d6d55326",
+      "bytes": 4771
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryCutGeometry.lean",
+      "sha256": "4c98195338cdc40d85e1f160aaedae1b7509c81518163e7b6af7ddcd5cd1cfee",
+      "bytes": 12136
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEntropyGeometry.lean",
+      "sha256": "0db8ef7d540e30f244b91c58fb7d922733c6c1f8a791820ae35efb6a1e2bfe1c",
+      "bytes": 15181
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryIsolationNeighbor.lean",
+      "sha256": "28d6a373044e687ef5cc748bffcd199a798c572b2b028b2d559b9c9efc445051",
+      "bytes": 11677
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/Geometry.lean",
+      "sha256": "00c08d4e6848a1b0dfcf703b569759cfed5c585da5892ee4d6682fe68cb39be0",
+      "bytes": 11874
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/Selection.lean",
+      "sha256": "d8947a8396d9cbf95c6841bf8abc82e4b70f3ea5113bfc018d5d1f5ab42af1ab",
+      "bytes": 7074
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Generic/PinnedCharges/SelectionGGeometry.lean",
+      "sha256": "f331c3bfbfaae8718a7bd4cf9fb00601d9eb33ca82356df32ccf0afac0eaae0e",
+      "bytes": 8689
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/Multigraph.lean",
+      "sha256": "a43372fc6c884e5d347551d1de6de38da0b0eda8c1d9c77c34eca9bd110dd8b6",
+      "bytes": 931
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/MultigraphSimpleGraph.lean",
+      "sha256": "228a0c97c6f7ec60274a538501325aca1a7ab4edffe895b030f21c0b5234df8e",
+      "bytes": 915
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFree.lean",
+      "sha256": "34cd70cf3a2e6e876f9dc636248f84b05420f9b50a71195978ade13cf81c9cec",
+      "bytes": 823
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeConnected.lean",
+      "sha256": "ce3365a33d0ba256dfa66c7b464167b13190cb9d24fae046dafbb750a2cb8768",
+      "bytes": 2344
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquareFreeEdge.lean",
+      "sha256": "88d4603d732817e9c1905fd2d24032469dfeec7d96eb2ea031e5f42ca1c2f0ec",
+      "bytes": 919
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodic.lean",
+      "sha256": "8062b631f280fdbaaeeabdcbaee0d804ddc013285e32ac5c4d23522e674af500",
+      "bytes": 850
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicConnected.lean",
+      "sha256": "b9e56baf72b8bc17d498e62509d0440b3f4061d133e0e3a3c989a65d55d75f67",
+      "bytes": 2648
+    },
+    {
+      "path": "FroehlichSpencer/BKT/Surface/SquarePeriodicEdge.lean",
+      "sha256": "b09c21be56442a6e8aa0b5f1543af008780b6856eb76b6c3245c21eb05985322",
+      "bytes": 1226
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.lean",
+      "sha256": "38c9014efb085b9fcf38bec7caaead97ca1d2fa2b6d56c92a0075bec04fc2054",
+      "bytes": 629,
+      "snapshot": "lakefile.lean.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5b84211248ab6826d352c93c5f35054128deb50649f2600c6a2d77149fe337eb",
+      "bytes": 3550,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "FroehlichSpencer/BKT/Generic/PinnedCharges/BoundaryEnergyOverlap.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/scottnarmstrong/Frohlich-Spencer",
+    "source_commit": "e01623b7347c272eac9480f04743f38b8d0df223"
+  }
+}

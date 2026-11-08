@@ -1,0 +1,376 @@
+{
+  "id": "b6b56a5da111536e87bf",
+  "source": {
+    "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "commit": "3d3cf4316acac4c23140059a78fb570b1440394b",
+    "project": "anastasiosfragkosmath--quadratic-carleson-palomar-submission--3d3cf4316aca",
+    "path": "QuadraticCarleson/KrauseLaceyNonstandardPairing.lean",
+    "file_id": "0a1150cef030b464fd39",
+    "source_sha256": "0a1150cef030b464fd39363a17d69153bf13526963c1b64be71d81c4b9c0b089",
+    "start": 30,
+    "end": 43,
+    "original_start": 23,
+    "original_end": 43,
+    "declaration": "norm_localizedBadPiece_le_mass",
+    "source_url": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/KrauseLaceyNonstandardPairing.lean#L30-L43",
+    "archive_url": "https://github.com/PalomarArchive/anastasiosfragkosmath--quadratic-carleson-palomar-submission--d28b1bb96b8f/blob/3d3cf4316acac4c23140059a78fb570b1440394b/QuadraticCarleson/KrauseLaceyNonstandardPairing.lean#L30-L43"
+  },
+  "native_target_name": "QuadraticCarleson.KrauseLaceyBadScale.norm_localizedBadPiece_le_mass",
+  "source_declaration_label": "norm_localizedBadPiece_le_mass",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "34dd94eef0ac5ffece7d0d321e2b4ae3185610cfcc1716e085c6d98bfa190d78",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2f1bc9bc0ffbd211b85e84afcd4e43a1e1018563c8c43e7385b9c21d5ffd9c96",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "QuadraticCarleson/Bohr.lean",
+      "sha256": "dcbe6460a7d744dd2f64cf6789923d88659e94b205b26feb28096e2f3e4af5ac",
+      "bytes": 1809
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundBadPart.lean",
+      "sha256": "9c221ef8824e51e12b8046147837efb7fd23b35253b1a443ccd1f0b5a5aba296",
+      "bytes": 15404
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundDecomposition.lean",
+      "sha256": "16bb090ab3153668c100eb87018cff46f34f32b31c94e27f97d363fb8d0bb613",
+      "bytes": 12508
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundDyadicStopping.lean",
+      "sha256": "31ef4a22a4428750d37db7b39acffb6bdfa9c15c19a9bb04278a30d83aacf343",
+      "bytes": 42744
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundLevelAtoms.lean",
+      "sha256": "4c156540a953c7b8487d7d783f27ee1745a596e469d5354b371575564e445478",
+      "bytes": 19344
+    },
+    {
+      "path": "QuadraticCarleson/CalderonZygmundLevelRecombination.lean",
+      "sha256": "d26be68aeebe465b7de8b8ed10f5c55e7ad82d24d1580d393a86341cd4a639e0",
+      "bytes": 13013
+    },
+    {
+      "path": "QuadraticCarleson/Definitions.lean",
+      "sha256": "d47bd2a9be0c5e68dd5b4bc7390e69c8c9d9aea0d3a44f0ccc0eb15f0058c9c3",
+      "bytes": 3145
+    },
+    {
+      "path": "QuadraticCarleson/FiniteSparseMaximal.lean",
+      "sha256": "af85d1c0126295ede8a99bec5dcc8a626786b308260948c1f9266600e30a7552",
+      "bytes": 33681
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyActiveBadIntervals.lean",
+      "sha256": "4b2f900f11475d67080e6f069e4c5408970a874bd7cc851596c3454a24538880",
+      "bytes": 7110
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyActiveCarlesonPacking.lean",
+      "sha256": "daad915d1f8142056b8e46980c3b2b7ea1976b47eb32210d72d5cbb4ece30337",
+      "bytes": 7501
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyActiveExponentialPruning.lean",
+      "sha256": "e4b229babae9dbd91afdd0ce4e1d3b3d2155e2d5a641977093c7206be75e178c",
+      "bytes": 7047
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyActiveOverlapPruning.lean",
+      "sha256": "c3203642b0a6d435da4db329b1986b26a3cae8cbdd50713e701cec34eab5f3f5",
+      "bytes": 8018
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyActivePaperCutoff.lean",
+      "sha256": "ade93669b8e7dc6830e8bf211ed96f5b2f23340be86f987682f6e8fc857b8dcf",
+      "bytes": 3021
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyBadScaleInputs.lean",
+      "sha256": "9566e389a9bb2ad7fa077cfa06f94d326acf7d7a58fa99b34507f3d256b499ba",
+      "bytes": 19017
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyCrossScaleCorrelation.lean",
+      "sha256": "fae472cc3222f320cbf883be9b77a5774fafc413c9a430bc10ab71d20b916aec",
+      "bytes": 9597
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyCrossScalePairing.lean",
+      "sha256": "b9eb41e5478acf83b0e62a75cdf66fa0a03063c63c8245f974161dba87f43b28",
+      "bytes": 9064
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyDyadicLocalization.lean",
+      "sha256": "4fdb424f3c26a43418ce13cb6e95ed1cb995acb647ff845b22e25777f7b04ad2",
+      "bytes": 19197
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyGenerationLayers.lean",
+      "sha256": "af5204443eeeb2ea7bb2e0bab4ec77f3330cea8a7cde61251c97157cc37e48e9",
+      "bytes": 6071
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyGenerationOverlap.lean",
+      "sha256": "8a7f5f85a27f854594fa31a39bb31944c9ef7c8842afed726d4fd0fc79f96242",
+      "bytes": 8421
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyGenerationRecombination.lean",
+      "sha256": "3cd4ea9101b87b31ac1137fcae95ded4aa93f3bf7f15495528b367856d42dbc2",
+      "bytes": 3576
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardCrossRows.lean",
+      "sha256": "78e6fe63d661190926135b76dd187ddfceb2f7c982617fdec47b6d5cb23fe1ae",
+      "bytes": 11131
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardEnergy.lean",
+      "sha256": "7dea3f7428c91b792f9e808a421cd063f5a9f018da658c4cb32b2629da953414",
+      "bytes": 9273
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardGenerations.lean",
+      "sha256": "e9e328388aa9582a2dc6aef0ce52c1edd9ef923b66b0980b6037868702e92f9f",
+      "bytes": 7676
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardMaximalPrefix.lean",
+      "sha256": "d7ee597c53812daeaa8133438a59d300ad1f21c4c80ca8bb8da530d65ec81db9",
+      "bytes": 7694
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardOverlapPrefix.lean",
+      "sha256": "4c67b8379e141b9d29855ab071b151aab65abdd375a27843137fb2675d0ce600",
+      "bytes": 3789
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardPairing.lean",
+      "sha256": "c57ca346e2cc06d101198263a4f414924b2312e469cc7013508397254343674d",
+      "bytes": 9179
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardPhysicalL2.lean",
+      "sha256": "b0dff7038d6ee4c7fc73aa60546e062c8f3f4fc4bbd878b1db84a8c80507c45f",
+      "bytes": 7684
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardSignedSum.lean",
+      "sha256": "09b6da8841e629bec73c140936aa77bb43643c0ab6da0cc4f24267d8f05e9460",
+      "bytes": 7939
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyNonstandardSubcollectionPrefix.lean",
+      "sha256": "89b434155964b87787efc5a96eef3371e6bc86f75abaf894b81b837a56f06ece",
+      "bytes": 6014
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyOrderedEnergy.lean",
+      "sha256": "c93716d348e0bf6dda0aebe34af144b71882b4a3140c21bacbcf19bc97e46fe4",
+      "bytes": 3464
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyOverlapJohnNirenberg.lean",
+      "sha256": "aa22c8af46991c8c50bf86037b6c8a8760119f06a8bcf8259dcd645291930f2a",
+      "bytes": 6736
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyOverlapSecondMoment.lean",
+      "sha256": "a361d7b1dc7acaac84812aa0574a9f3708998d8d16e52db1629a3ca6388a454d",
+      "bytes": 5925
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyOverlapStopping.lean",
+      "sha256": "4f6774f555960557bda254a5eae9024a155940cb4182d72069fa61b247f779bc",
+      "bytes": 8250
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyPhysicalTailPrefix.lean",
+      "sha256": "e456dcccaa08dcf5bb6b10b51b33ec8c1cfac6cae596718a2f980e7f74c71e6e",
+      "bytes": 5103
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyPositiveCorrelation.lean",
+      "sha256": "f02069311bc69106dde4490e4ad8ab051574e8870ebd0497760d38a1ac10935f",
+      "bytes": 22588
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyPrunedPhysicalMaximal.lean",
+      "sha256": "95fb5b9bda2b5a4bbc10444cff3fb4bac8fc48b3da19e87a2dbffdc3ad2f5ec3",
+      "bytes": 7112
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyRademacherMenshov.lean",
+      "sha256": "0b5de3ea0fa4dff429157ca0cb2a6bcc31aaa958b744335a1965f83dc8dc4c3a",
+      "bytes": 15469
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyRemovedCarlesonMass.lean",
+      "sha256": "a469bc5836066d50434967dbae5f54ecd3e32b4362cf5d828c429b502072ad37",
+      "bytes": 3563
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyRemovedOperatorL2.lean",
+      "sha256": "7afeef14a133208bef672adc947b035ce262e80ceee404f1609a0e7b64901cd2",
+      "bytes": 7045
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyScaleMaximal.lean",
+      "sha256": "7ebdb38b8e2ad8b7a28aa07e2824e181f59e32a3f2aee0620c20ca5dd8c60f8f",
+      "bytes": 7629
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceySeparatedGeneration.lean",
+      "sha256": "a1bdd4af56d63addbffd861e147ef5d429b65cff699cf2158af3e1b5f4549337",
+      "bytes": 11752
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyShiftedLocalization.lean",
+      "sha256": "8a287827804199555a5df64ac8186608867967e2fca6ccca5b1cba45eb64f565",
+      "bytes": 9877
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceySparseInterface.lean",
+      "sha256": "39bb826a11fec006c00308fcef35164c64490d7eace0828d92167dbee2fa64f3",
+      "bytes": 15951
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyStoppingExtraction.lean",
+      "sha256": "c29638404bdef8828b16c9568eb0a66b3b59c7711bddbaae985afb4e62404a39",
+      "bytes": 12029
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyStoppingRecursion.lean",
+      "sha256": "cee8b486548c8978f79e6e02a60564b82bcaa4e827109a22c45ed1ac1718d15b",
+      "bytes": 10563
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyThreeShiftGrid.lean",
+      "sha256": "60793fbbca48be1ca764027b8ea31850e0c31049c46280125d2d1da20b2623c1",
+      "bytes": 17302
+    },
+    {
+      "path": "QuadraticCarleson/KrauseLaceyThreeShiftTreeInterface.lean",
+      "sha256": "30f31fc92302575e741cc5cf5fad9929345c6b9047957abb2d5b779cb0ad3f14",
+      "bytes": 15666
+    },
+    {
+      "path": "QuadraticCarleson/PositiveDyadicKernel.lean",
+      "sha256": "8bb9634ca55e1c168dd266e231770f8655d0e5c5a1dcc9a5d2afc7e90f603d88",
+      "bytes": 22450
+    },
+    {
+      "path": "QuadraticCarleson/PositiveEndpointOptimization.lean",
+      "sha256": "4ac3001c18dec1f301aab73ef234f3a3f6bd0f24f882ad4ab6d63f98476ac6c5",
+      "bytes": 30635
+    },
+    {
+      "path": "QuadraticCarleson/PositiveLevelIntegration.lean",
+      "sha256": "55e3842a2cfe581cbd0ab66b8db02c2af2bdac5d50d113d1b8e3fc37adf5d155",
+      "bytes": 24209
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticAveragingTTStar.lean",
+      "sha256": "d555c18a331bc71ca6b01a728afc38c09988f288249e38ac354458a599843eca",
+      "bytes": 9514
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticCenteredMaximal.lean",
+      "sha256": "577f3f19ebdd519de2bf662618a2b5a8643dd1b963e30d45234f4043014cbbb9",
+      "bytes": 17532
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveraging.lean",
+      "sha256": "710dd3a62aa7250adf20316de3e3dece42d9a8a730f90a172d8723dca616a04f",
+      "bytes": 10655
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingAmplitude.lean",
+      "sha256": "7c8d6680e5d8097caded5cc67196565bdb294014647aae7e55c89f210d87929d",
+      "bytes": 9899
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingCorrelation.lean",
+      "sha256": "b3057296e57d9996edf5affe02ab0fa0f5e5c8aa505ac9313bc24fa67c95bfe5",
+      "bytes": 10086
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingDyadic.lean",
+      "sha256": "ab119ee659cf99db93f14e7a336f902c86bc476103a9863a215bbf127509233e",
+      "bytes": 5963
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingFinite.lean",
+      "sha256": "85d622bdf02573e357f82997fcefafdd650fec8f6ab226b77b9a6b4258175023",
+      "bytes": 5979
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticFixedHeightAveragingSigned.lean",
+      "sha256": "c398cf3c8fd673ade6f2de9f1fec57a2b47c600e571cb10b6da2c55be804bebc",
+      "bytes": 15787
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2AdjointTransfer.lean",
+      "sha256": "b80d842e5345747c2865aabbb42153e507135ead7654a6272243d40c3297d28a",
+      "bytes": 8839
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Decay.lean",
+      "sha256": "3f1995648a07b3ad95eaf2ecf9386fa93a5a865c7c9f3558aff472d5aa1f4124",
+      "bytes": 19304
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Extension.lean",
+      "sha256": "4422915cf072faf19ca770004ac166d23e9b1a728557f15dd0c1e848ed7ea3b6",
+      "bytes": 4227
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticL2Operator.lean",
+      "sha256": "0b446db1fae0535391aa8b9b8b4e50a81d85e700fea613c60b7840d20b3d04bd",
+      "bytes": 15966
+    },
+    {
+      "path": "QuadraticCarleson/QuadraticTTStar.lean",
+      "sha256": "08f07fb37069f84b7891257e2cea3fb5b00e2992cd14065dfe649f8400b2bdb2",
+      "bytes": 33022
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9163f0c71a84cc9c60f57f513b368af83bbe6b1fee27d751b9641248e6e16a00",
+      "bytes": 683,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "QuadraticCarleson/KrauseLaceyNonstandardPairing.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/982cd02a5e0d21d4c6ce": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+    "source_commit": "3d3cf4316acac4c23140059a78fb570b1440394b"
+  }
+}

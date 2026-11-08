@@ -1,0 +1,491 @@
+{
+  "id": "e4586a3158bcec359144",
+  "source": {
+    "repository": "rwst/Subspace-Theorems",
+    "commit": "09835cb23557ae5ae0cf55a9c4ab9055f5d60338",
+    "project": "rwst--Subspace-Theorems--09835cb23557",
+    "path": "DiophantineApproximation/ThueEquation.lean",
+    "file_id": "0a46cd5e8effcb06b13b",
+    "source_sha256": "0a46cd5e8effcb06b13b28ecb33aa164e6b926abb9bb31cc4c6dc0fd416b9846",
+    "start": 450,
+    "end": 467,
+    "original_start": 450,
+    "original_end": 467,
+    "declaration": "Polynomial.finite_setOf_eval_homogenize_eq",
+    "source_url": "https://github.com/rwst/Subspace-Theorems/blob/09835cb23557ae5ae0cf55a9c4ab9055f5d60338/DiophantineApproximation/ThueEquation.lean#L450-L467",
+    "archive_url": "https://github.com/PalomarArchive/rwst--Subspace-Theorems--9bd9bba330e8/blob/09835cb23557ae5ae0cf55a9c4ab9055f5d60338/DiophantineApproximation/ThueEquation.lean#L450-L467"
+  },
+  "native_target_name": "Polynomial.finite_setOf_eval_homogenize_eq",
+  "source_declaration_label": "Polynomial.finite_setOf_eval_homogenize_eq",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "e47b91498f664b12868f515eb8461cc8dfc1c4f66ee59c940841a71da6e94d95",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "2fd9558965066de2b394b78bd9f750a9564cba27d847a5efd31433992e3379f6",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ArithmeticHeights/Absolute.lean",
+      "sha256": "6057d8e76a742a287195e6623a7e88f5cd5936f514064b4b74102761b832da86",
+      "bytes": 39491
+    },
+    {
+      "path": "ArithmeticHeights/AdaptedBasis.lean",
+      "sha256": "7ea7003700d0cbbf4f3e3949e6b888ca053e16e7321c26a42981eb3affa4e654",
+      "bytes": 20061
+    },
+    {
+      "path": "ArithmeticHeights/Affine.lean",
+      "sha256": "8618fe375d60f3e823706da17058116c4c7064379adc5d58bbc5c52fbc420dc6",
+      "bytes": 10899
+    },
+    {
+      "path": "ArithmeticHeights/Arakelov.lean",
+      "sha256": "040e847f3c675f58a57af5b3175a493700959b5fcb1f895df882ac6c744f6a07",
+      "bytes": 44081
+    },
+    {
+      "path": "ArithmeticHeights/BombieriVaalerEntries.lean",
+      "sha256": "f550662791c1d3f390424ed1bcfc325a778952a85e85385dad4a0fec181e1837",
+      "bytes": 15081
+    },
+    {
+      "path": "ArithmeticHeights/BombieriVaalerMaxNorm.lean",
+      "sha256": "2ff99c93422e0543a0f42a4d7681ec2207028585ae52b2b185cdfc0e36358276",
+      "bytes": 28524
+    },
+    {
+      "path": "ArithmeticHeights/BombieriVaalerRelative.lean",
+      "sha256": "985a3591164cec48ee77d6aea0fefd2906f9f287c366c0903e660c0fb01cbf9e",
+      "bytes": 24790
+    },
+    {
+      "path": "ArithmeticHeights/CauchyBinet.lean",
+      "sha256": "2169397f8921a1663e1e686af6778b30c1a96f8174357797ed17c21ce812a531",
+      "bytes": 17794
+    },
+    {
+      "path": "ArithmeticHeights/CubeSlicing.lean",
+      "sha256": "1cfb84c0492f3c326fb3aee30f58f072247fc634530cbaac40fe1df0fc003495",
+      "bytes": 24549
+    },
+    {
+      "path": "ArithmeticHeights/Duality.lean",
+      "sha256": "fba3eac7e4bfa651128165472884c2e55ba5c34f6c8a6aa6fd0df42d8be9c888",
+      "bytes": 44778
+    },
+    {
+      "path": "ArithmeticHeights/Extension.lean",
+      "sha256": "e39435858a567eacfc243641ab0aacc7acdf3c55163388d01fb2915f658bcad1",
+      "bytes": 20635
+    },
+    {
+      "path": "ArithmeticHeights/Extraction.lean",
+      "sha256": "d81d759225034a4304fe428104fd13204b9f9367cb8ce0a0a8867a45966ca95e",
+      "bytes": 12954
+    },
+    {
+      "path": "ArithmeticHeights/FinitePlaceIdeal.lean",
+      "sha256": "31ed5af094086ee839d8fef1e56d7a833d983a88c3aa900319a7a126dd79839b",
+      "bytes": 8866
+    },
+    {
+      "path": "ArithmeticHeights/GaussLemma.lean",
+      "sha256": "77ada257947dc94186099223160d7be2f87e5bf33eebcd3675238b68c3b5faa9",
+      "bytes": 34909
+    },
+    {
+      "path": "ArithmeticHeights/GaussMeasure.lean",
+      "sha256": "5684f7759c5f968b33af5edaced03d2480d4e9ca81c9254c2470dbd44d063970",
+      "bytes": 11324
+    },
+    {
+      "path": "ArithmeticHeights/Gelfond.lean",
+      "sha256": "ceff9cf331bf91ca9b1abecda8cdc68aca7dbaa731bb61354d5a230bd6f28da9",
+      "bytes": 31657
+    },
+    {
+      "path": "ArithmeticHeights/GramCovolume.lean",
+      "sha256": "ff0dd7de249c9eb49e04413bafdc768bc1f2c19162d95f25df71b66b3b13a617",
+      "bytes": 8587
+    },
+    {
+      "path": "ArithmeticHeights/Hadamard.lean",
+      "sha256": "8a342d6c688daa9f73dd31493a234a7754ea686758484bdfbd192f21c6c5f236",
+      "bytes": 31519
+    },
+    {
+      "path": "ArithmeticHeights/LinearForm.lean",
+      "sha256": "d42580bae6571434651e249c5b6128e1aa5efeca16138078c0d69a73e6e62d1c",
+      "bytes": 23879
+    },
+    {
+      "path": "ArithmeticHeights/LogConcave.lean",
+      "sha256": "d46d294aa5e8790ce2a2594f732ae049eabca10104f952713e2370133330521b",
+      "bytes": 8713
+    },
+    {
+      "path": "ArithmeticHeights/Matrix.lean",
+      "sha256": "cee5c5d670078bc87bfef77d752d601d1277015298fdd88255b12bc3bb22e64b",
+      "bytes": 36206
+    },
+    {
+      "path": "ArithmeticHeights/MinkowskiSecond.lean",
+      "sha256": "61b83a1150f367f8736a328196f77efc1ff07586ea02c4eb0b7d9d9a2325bda5",
+      "bytes": 40064
+    },
+    {
+      "path": "ArithmeticHeights/MixedBall.lean",
+      "sha256": "06bcff0ee30e1829f9f76d0c84d1ce819562f3ff8565c843810ab5f8fd61f72c",
+      "bytes": 43975
+    },
+    {
+      "path": "ArithmeticHeights/MixedCube.lean",
+      "sha256": "daf6f3a09311c63b78e3c461e2a4d3c214913eadf5bd35efc6eda9ab64fefaad",
+      "bytes": 19568
+    },
+    {
+      "path": "ArithmeticHeights/MixedLattice.lean",
+      "sha256": "6da9684e18fff4e5b2c52a7f02010a46c6de245b2acf1bbbf6e3c649cdf9b503",
+      "bytes": 14613
+    },
+    {
+      "path": "ArithmeticHeights/Nonarchimedean.lean",
+      "sha256": "fee29a48759620c17e4539d303b39d118d81caf198e03d36a575952b71eb92c3",
+      "bytes": 32466
+    },
+    {
+      "path": "ArithmeticHeights/NormProd.lean",
+      "sha256": "c228912a10420303dab91a68b1bee8b570b243e84f6ebf08bc270535d16e426d",
+      "bytes": 3934
+    },
+    {
+      "path": "ArithmeticHeights/NumberFieldLattice.lean",
+      "sha256": "9be5489595f4e75d869919aabd89a657c077e5cd6e8fd20405235e9d491d0e32",
+      "bytes": 50555
+    },
+    {
+      "path": "ArithmeticHeights/Plucker.lean",
+      "sha256": "93fe5a5e645f9484a1b2ef8a919676f45ebdadcf81286af12fe03341dbb1ae9e",
+      "bytes": 19572
+    },
+    {
+      "path": "ArithmeticHeights/Polynomial.lean",
+      "sha256": "1bdb5aada4e6abd177968dd594612d3340bbef76fa228885953a8846c079c21d",
+      "bytes": 29287
+    },
+    {
+      "path": "ArithmeticHeights/PrekopaLeindler.lean",
+      "sha256": "32ad70239100261d5e3d5cf93fa2a170b3e3b0766725e167636132aa50523f95",
+      "bytes": 33913
+    },
+    {
+      "path": "ArithmeticHeights/ProductOfBalls.lean",
+      "sha256": "ca370367563a8059340c8a3097d92955c50e239cb33aa11a7d69752b1297ea14",
+      "bytes": 20898
+    },
+    {
+      "path": "ArithmeticHeights/PseudoBasis.lean",
+      "sha256": "b43a601f490186efe54994109dd271d622b20f0341f8a8c2b56ef5a00f91d97c",
+      "bytes": 17596
+    },
+    {
+      "path": "ArithmeticHeights/QuotientFubini.lean",
+      "sha256": "2409d3ae58854768df964f3db1086569ad91c2b5c8fecf8fa7de5ac5f953d490",
+      "bytes": 36262
+    },
+    {
+      "path": "ArithmeticHeights/RestrictScalars.lean",
+      "sha256": "e84d03e39ec896a43697b0101ce9e96a453d43ab8b6661c9d51a0c6f1753d63b",
+      "bytes": 21806
+    },
+    {
+      "path": "ArithmeticHeights/RowEntryHeight.lean",
+      "sha256": "21e95f580f59b61bddf2add9028c44e13f3a500a79c59b904283d60e5c6a427a",
+      "bytes": 15997
+    },
+    {
+      "path": "ArithmeticHeights/RowSpace.lean",
+      "sha256": "9e7c51767eadd5603dc2cf7a9e88255c00e6991b22e3a9cbcfa0bb4f85ea0d39",
+      "bytes": 23842
+    },
+    {
+      "path": "ArithmeticHeights/SRegulator.lean",
+      "sha256": "9a5413044b6e7590ed2166d31376b3878808b3ac4cea05551674788225c1fe13",
+      "bytes": 37112
+    },
+    {
+      "path": "ArithmeticHeights/SUnit.lean",
+      "sha256": "a6db8db1c74e17dd4dfaff89cb1c6444637883e29b3682c8bfb589931c2ac300",
+      "bytes": 22355
+    },
+    {
+      "path": "ArithmeticHeights/SUnitTheorem.lean",
+      "sha256": "c82db06a3231f54ebcc9f0547286d1d05775ef0f8a3844023663c402619a9467",
+      "bytes": 26364
+    },
+    {
+      "path": "ArithmeticHeights/SliceBound.lean",
+      "sha256": "d7a54b0c37a7d2eddfb1c7e37b3fa09cea957704de0423e2bcdfd8bdf7fcab1c",
+      "bytes": 25339
+    },
+    {
+      "path": "ArithmeticHeights/Subspace.lean",
+      "sha256": "e7d47cd9a065202debcc4964e121b6fab6c8670f264a233aa17ac52828ddd4cf",
+      "bytes": 25136
+    },
+    {
+      "path": "ArithmeticHeights/SuccessiveMinima.lean",
+      "sha256": "8746eca074ca04e002718efb2bfe67d349158b2a0175189e458ac5fa69c295a5",
+      "bytes": 35575
+    },
+    {
+      "path": "ArithmeticHeights/UnitHeight.lean",
+      "sha256": "ac0c5ea91c348bcae167c52a55f45278bb4be5e543fd93db3d570e6193411998",
+      "bytes": 19145
+    },
+    {
+      "path": "DiophantineApproximation/ApproximationClass.lean",
+      "sha256": "a48aa71888befb9899a4e9ea41e813d67e70bfa2b5ac3c60caff149ddcf40cb6",
+      "bytes": 16100
+    },
+    {
+      "path": "DiophantineApproximation/AuxiliaryPolynomial.lean",
+      "sha256": "03132f2d3fa3386dbfbf3105699239a9ae02cb7e9bc3a6b17d39930fc2b71c1c",
+      "bytes": 48197
+    },
+    {
+      "path": "DiophantineApproximation/BinaryForm.lean",
+      "sha256": "409ce26e74d560cbabe45fdcac2867e64d87affaa4b2c384b9488adcd358e18c",
+      "bytes": 12371
+    },
+    {
+      "path": "DiophantineApproximation/BoxMonomial.lean",
+      "sha256": "d3aae5d444ace0c3752349e985b257c7e193b0e6ba80abb2682ba0a2b01e885f",
+      "bytes": 11360
+    },
+    {
+      "path": "DiophantineApproximation/CountingVolume.lean",
+      "sha256": "40313063b4521010d1c081254c3ab41bb463037535379a3a2533eab31dc0bf2d",
+      "bytes": 49408
+    },
+    {
+      "path": "DiophantineApproximation/DisjointVariables.lean",
+      "sha256": "6c77401adcabe6a754ffd20410c448f37d51c2ffdab372eaa8663de241a5cba9",
+      "bytes": 27291
+    },
+    {
+      "path": "DiophantineApproximation/FundamentalInequality.lean",
+      "sha256": "2f3f8df831b6586ed0ec2a7649748b504384d2640be59c35a3115d6fc7521a21",
+      "bytes": 17448
+    },
+    {
+      "path": "DiophantineApproximation/GeneralizedWronskian.lean",
+      "sha256": "8c5504a737e6d5e99e9f858579b4e15ddd1a7c56e8e79d6b12fd2dc744321d41",
+      "bytes": 26012
+    },
+    {
+      "path": "DiophantineApproximation/GlobalBound.lean",
+      "sha256": "82037ea9e7485f28b16e12ed8ff9378ad3fa4d42fbe01b4a0c260934aa99f697",
+      "bytes": 18089
+    },
+    {
+      "path": "DiophantineApproximation/HeightTransport.lean",
+      "sha256": "692478ed8fa69215b06666bc68ec97208f2dc519b4fbbae3435f68ffe1d19408",
+      "bytes": 8222
+    },
+    {
+      "path": "DiophantineApproximation/IndependentHeights.lean",
+      "sha256": "4aad55daad1798483c64c5d580821b75bd1388bfbabe03f9443e4d0a1a92734e",
+      "bytes": 8740
+    },
+    {
+      "path": "DiophantineApproximation/IndexConditions.lean",
+      "sha256": "8b0158ee1129f3c4d9a60298c33aefebe212ef9965f97292e69604c6a832b794",
+      "bytes": 7827
+    },
+    {
+      "path": "DiophantineApproximation/IndexRename.lean",
+      "sha256": "a6b613f2e5ce04c6bafe59e4de2198091042c8f7c18c720f57d37ef089be9393",
+      "bytes": 10640
+    },
+    {
+      "path": "DiophantineApproximation/IrrationalityExponent.lean",
+      "sha256": "b2c1b47ee950486de2c37332e0a51b7b9f756188d810ea0d7f06c12e33535899",
+      "bytes": 26952
+    },
+    {
+      "path": "DiophantineApproximation/LogComparison.lean",
+      "sha256": "fbd2312711bacb7770b5c2dab9a31367eba1da5b4366b40df9aac16bb977f88f",
+      "bytes": 3013
+    },
+    {
+      "path": "DiophantineApproximation/MonomialHeight.lean",
+      "sha256": "e9ee0ad356ab405b874336daae31a3e39a5d8d6f0e0a78355b92171d60660efb",
+      "bytes": 12978
+    },
+    {
+      "path": "DiophantineApproximation/MvHasseDeriv.lean",
+      "sha256": "a70bfffa0e539898ef83904f34f5cf52a73d4c5a5ebe11a09bcce60b084576a8",
+      "bytes": 17227
+    },
+    {
+      "path": "DiophantineApproximation/MvHasseDerivHeight.lean",
+      "sha256": "7a9c3e3f7fb34294a93ccccc59ba4a9e2906e96184ab13483918084d7006195f",
+      "bytes": 8296
+    },
+    {
+      "path": "DiophantineApproximation/MvHasseDerivTaylor.lean",
+      "sha256": "a61bb36feb70c10df85fc990d8e5f7fc03dad9927a83dc5f69795fb8cd09a96f",
+      "bytes": 14882
+    },
+    {
+      "path": "DiophantineApproximation/MvPolynomialEvalBound.lean",
+      "sha256": "6c1ee9934984863100346e260cce9dbc59b6a3602cad8c99df6d11d9e2240d53",
+      "bytes": 19737
+    },
+    {
+      "path": "DiophantineApproximation/Nonarchimedean.lean",
+      "sha256": "739bed42b00100b41b0d88e4e2491046d5ef74270e4cee29301bfcbfc6effbbc",
+      "bytes": 8943
+    },
+    {
+      "path": "DiophantineApproximation/PlacesOverFinite.lean",
+      "sha256": "90d87db54028e30236687de651b87b97d99e2080fa0ba8cc2823112c69585c6d",
+      "bytes": 21075
+    },
+    {
+      "path": "DiophantineApproximation/PlacesOverInfinite.lean",
+      "sha256": "dc4ef1d3708583171c6619ea7973feddc2a2b0732c9e086154a22ed11b624997",
+      "bytes": 14400
+    },
+    {
+      "path": "DiophantineApproximation/PolynomialDeterminantHeight.lean",
+      "sha256": "077c2a48779e7958a01f18a1449b0e2405cd813df7a037987697b4076026f0a0",
+      "bytes": 12406
+    },
+    {
+      "path": "DiophantineApproximation/PolynomialIndex.lean",
+      "sha256": "f6c7c1bf45250f8863290b6cd3e16baef756df7e775c0ee1f2da60f489fe67c9",
+      "bytes": 22495
+    },
+    {
+      "path": "DiophantineApproximation/RationalPlaces.lean",
+      "sha256": "3233b8501dbdfc1f91efab85a06e26519b31a5abf0d6f5743df904d6b886bca5",
+      "bytes": 19839
+    },
+    {
+      "path": "DiophantineApproximation/RothAuxiliary.lean",
+      "sha256": "0011cdc84f593a055fbdf3b35401fd67b0691b2868e5064088dbc55387f29a6b",
+      "bytes": 14660
+    },
+    {
+      "path": "DiophantineApproximation/RothBaseCase.lean",
+      "sha256": "05010a65f030a9ffad2cabdbda4f79cb6736c43e277e0dde3fa62a35752dcfc1",
+      "bytes": 9387
+    },
+    {
+      "path": "DiophantineApproximation/RothClass.lean",
+      "sha256": "17512f0d4b9a2245aca593cabde9d2b5da53373502f823710a5f391402f82fdb",
+      "bytes": 5068
+    },
+    {
+      "path": "DiophantineApproximation/RothDecomposition.lean",
+      "sha256": "d5320223ae5f16155f9207d5664bd6a3e7dbc9c24fc3b1bbff368d40cdf373e1",
+      "bytes": 15380
+    },
+    {
+      "path": "DiophantineApproximation/RothDeterminant.lean",
+      "sha256": "93562645f2008d5bcc79725962f2df70463a421e654f2cfe4e338de39b2a1ad3",
+      "bytes": 6944
+    },
+    {
+      "path": "DiophantineApproximation/RothEstimates.lean",
+      "sha256": "f6fa3556ebeba11c12d5a97d12648e9f1eb6762481bd17fd423f791bfe203bd3",
+      "bytes": 7292
+    },
+    {
+      "path": "DiophantineApproximation/RothKeyInequality.lean",
+      "sha256": "2ff13e5b004a5be1b8b48d8ea9e8063dce2d9c91514a7153bf446e7d5ce516a9",
+      "bytes": 22635
+    },
+    {
+      "path": "DiophantineApproximation/RothLemma.lean",
+      "sha256": "e96ac1f3c9c2905c3eeb300346c34ff1d716dcaf0df74a0a1d28e34832c86021",
+      "bytes": 27685
+    },
+    {
+      "path": "DiophantineApproximation/RothLocalBound.lean",
+      "sha256": "8d1b3d31f475ea7523da00b37b0651a7d6c7b1e6103bb392cb29cf835b2f565d",
+      "bytes": 4704
+    },
+    {
+      "path": "DiophantineApproximation/RothRational.lean",
+      "sha256": "fb054c2433ddc1fc48de4aafd2ea5a3a899546a18fbc1d7d858c8361d29903e7",
+      "bytes": 18479
+    },
+    {
+      "path": "DiophantineApproximation/RothTheorem.lean",
+      "sha256": "0bd4b26856a1e27c3fca390812d8338e735f1d54f7ee106bba355dd91a566e94",
+      "bytes": 50376
+    },
+    {
+      "path": "DiophantineApproximation/SAdicHeight.lean",
+      "sha256": "851ef8c722070472466baa631ddbe3903690c4427bde79458d1446f11010bda4",
+      "bytes": 21647
+    },
+    {
+      "path": "DiophantineApproximation/SIntegerLocalization.lean",
+      "sha256": "5c6221f991bdc73e39149db3f6d896740c50c0fda4857ebd3bf76c13fd078c1b",
+      "bytes": 19367
+    },
+    {
+      "path": "DiophantineApproximation/ThueEquation.lean",
+      "sha256": "86062374b1ca22aabe8ab28723df43f565e5f9aaef4cae44f54be3ea2a9a25d0",
+      "bytes": 43516
+    },
+    {
+      "path": "DiophantineApproximation/WeightedOrder.lean",
+      "sha256": "b00ea48effaeb1f354b47a0446fbccf2a45b2722c96b2eaec687938eddd1fab8",
+      "bytes": 15535
+    },
+    {
+      "path": "DiophantineApproximation/Wronskian.lean",
+      "sha256": "e6cde83188c1d334ac7ee9405f396ebcbcfbf286116da10c0d1e4756940b5270",
+      "bytes": 25866
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "1c88be8a529fdd69c46783d3fe1018240ea489de530567476089f3f9f4146aeb",
+      "bytes": 6656,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "DiophantineApproximation/ThueEquation.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-scope-v3/e4586a3158bcec359144": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/rwst/Subspace-Theorems",
+    "source_commit": "09835cb23557ae5ae0cf55a9c4ab9055f5d60338"
+  }
+}

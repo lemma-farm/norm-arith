@@ -1,0 +1,896 @@
+{
+  "id": "dadb38b3d96726535e26",
+  "source": {
+    "repository": "methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+    "commit": "16f43c7731a2d973e989c5e9006b62088dd3068d",
+    "project": "methuku-git-hub--Nearly-linear-directed-cycles-in-vertex-transitive-digraphs--16f43c7731a2",
+    "path": "directed-cycles-lean/DirectedCycles/GleasonAdjointBounds.lean",
+    "file_id": "0a8863038f82206fa2ef",
+    "source_sha256": "0a8863038f82206fa2ef61c77ef3956e796a220ced68e5c33f889a6ff3a708d9",
+    "start": 46,
+    "end": 61,
+    "original_start": 46,
+    "original_end": 61,
+    "declaration": "coordinateAdjoint_riemann_variation_bound",
+    "source_url": "https://github.com/methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs/blob/16f43c7731a2d973e989c5e9006b62088dd3068d/directed-cycles-lean/DirectedCycles/GleasonAdjointBounds.lean#L46-L61",
+    "archive_url": "https://github.com/PalomarArchive/methuku-git-hub--Nearly-linear-directed-cycles-in-vertex-transitive-digraphs--46027483f00e/blob/16f43c7731a2d973e989c5e9006b62088dd3068d/directed-cycles-lean/DirectedCycles/GleasonAdjointBounds.lean#L46-L61"
+  },
+  "native_target_name": "DirectedCycles.GleasonLieAlgebra.coordinateAdjoint_riemann_variation_bound",
+  "source_declaration_label": "coordinateAdjoint_riemann_variation_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "c9097ace9d767054bc360acda5f4b9118f57b5734bf04417d320277e9fb751d7",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "9f68a82ef01963057acaab7a044857486cc1d49887d8847dba3a6a4c640d2947",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "DirectedCycles/AutonomousCurveSmoothness.lean",
+      "sha256": "a31f4b6ada19ddc3a666f48cbdd288b4659f9f8645c924e5c7a96ac85ef96f66",
+      "bytes": 1204
+    },
+    {
+      "path": "DirectedCycles/BoundedDerivativeCommutator.lean",
+      "sha256": "bfc6cdfeacc75fb18d50ab4a980a10a378450022362dedd71a3bec94765f631e",
+      "bytes": 960
+    },
+    {
+      "path": "DirectedCycles/BoundedDerivativeEscape.lean",
+      "sha256": "53a83b4a84ef5a8845dd233466b16690c6394ab4846d397ec0f02c891b8c35b8",
+      "bytes": 2585
+    },
+    {
+      "path": "DirectedCycles/BoundedGleasonBootstrap.lean",
+      "sha256": "597907852a5155a21225ec26f34d1c92ffad83c85d810eda5044731579a5af8f",
+      "bytes": 3638
+    },
+    {
+      "path": "DirectedCycles/BoundedGroupDerivative.lean",
+      "sha256": "7d341b5168e29dfcf360b96780f338cd60ef73ebbd30ed470c2a9c060a25f1d0",
+      "bytes": 4362
+    },
+    {
+      "path": "DirectedCycles/ClosedWordPowers.lean",
+      "sha256": "e9921a3ed06ac7ce8761d57181e95d27681fb4023b19fc2420fae298123a453e",
+      "bytes": 1475
+    },
+    {
+      "path": "DirectedCycles/CommonMultipleCauchy.lean",
+      "sha256": "154465ac21d4cda8e4568464bae7f171cff03f31f8e3325c4d8b5498daef2369",
+      "bytes": 1904
+    },
+    {
+      "path": "DirectedCycles/CompactConjugateWordWindow.lean",
+      "sha256": "9ef9ac3e68022a2da410e62a4d13ea4b5d9e88242261428fc6a6d141c0923a1a",
+      "bytes": 3425
+    },
+    {
+      "path": "DirectedCycles/CompactFiniteRepresentation.lean",
+      "sha256": "5b372e336303fe5c62083abb6ce1c5f503864a66ed1941e3f2dfc1f276de9be9",
+      "bytes": 2853
+    },
+    {
+      "path": "DirectedCycles/CompactKernelAmbientWindow.lean",
+      "sha256": "bda063904ceed7faacc1225e4c75427d7dc841c846b22814f70e5d83955c0d61",
+      "bytes": 1918
+    },
+    {
+      "path": "DirectedCycles/CompactKernelCyclicWindow.lean",
+      "sha256": "8472daebcff430a544a63d62b6313a37e5a2229558ddf13b8914b5540574c62f",
+      "bytes": 3402
+    },
+    {
+      "path": "DirectedCycles/CompactKernelGoodModel.lean",
+      "sha256": "0665c78a51ad40cbb1f3feb2b7b34c08dafcd039d9e1f30465c8139422b568ef",
+      "bytes": 2986
+    },
+    {
+      "path": "DirectedCycles/CompactKernelQuotient.lean",
+      "sha256": "fbc6e595c9d8e9fc3cb3c6f7b5d9bc6f4b929f587555af47be7b9c6672d6e3eb",
+      "bytes": 2554
+    },
+    {
+      "path": "DirectedCycles/CompactNSSApproximation.lean",
+      "sha256": "97b1586845c46c9af64179389195ff8d0603fdf949612678f6f600ddaa0f0b2a",
+      "bytes": 1232
+    },
+    {
+      "path": "DirectedCycles/CompactNSSCurve.lean",
+      "sha256": "2617d66d68c0256ca59cac4fbe7643d75df75e375b3a61d0a26f7f1b870456e9",
+      "bytes": 2756
+    },
+    {
+      "path": "DirectedCycles/CompactNSSFromSeparatingHoms.lean",
+      "sha256": "e52b7578c167e6fb7cf8926f9d1c4f21865c8f6428ec7b51be88cec6074f6561",
+      "bytes": 1931
+    },
+    {
+      "path": "DirectedCycles/CompactNSSWordWindow.lean",
+      "sha256": "86de8f0aabfdd25ce711690d60c6083c4cae3f5e474196dc032cd9f73f7fb00b",
+      "bytes": 2066
+    },
+    {
+      "path": "DirectedCycles/CompactNearestResidual.lean",
+      "sha256": "7e80aa79f8dab86e627e4399ce35bb336ef64af86037a3720a26c974dda7f029",
+      "bytes": 3211
+    },
+    {
+      "path": "DirectedCycles/CompactPowerTrapping.lean",
+      "sha256": "bb4380b926e454b329fce70d55c5e5078771b678aa40ba5145368a0888891794",
+      "bytes": 1797
+    },
+    {
+      "path": "DirectedCycles/CompactRankOneAverage.lean",
+      "sha256": "f94a11ef3a67716e66f05710de8854120707812aac1cabb1ec10fc0ced2ce6cc",
+      "bytes": 4818
+    },
+    {
+      "path": "DirectedCycles/CompactRegularRepresentation.lean",
+      "sha256": "51202b91e58d1e29cc840cbaf05ca6a6cf6a971666bf5608685f048726a5a306",
+      "bytes": 4041
+    },
+    {
+      "path": "DirectedCycles/CompactRepresentationAverage.lean",
+      "sha256": "a2b94157a4fbca9a2a16afe10349d79f6d6458d7d418137a8ea26a323eb04e56",
+      "bytes": 4397
+    },
+    {
+      "path": "DirectedCycles/CompactRoundedPowerLimit.lean",
+      "sha256": "555b514e0d3ce0857ed1c150fb4415c9b1c845253a32fbbeb8f48a4fe87f20e9",
+      "bytes": 4530
+    },
+    {
+      "path": "DirectedCycles/CompactSpectralDetection.lean",
+      "sha256": "73e352a4963e0d225c0106e89e6bf49853eb6a012c412aac21826491d182de73",
+      "bytes": 2610
+    },
+    {
+      "path": "DirectedCycles/CompactSubgroupPowerWindow.lean",
+      "sha256": "d621477a46759adee37297e649485d371fbe5c4967670e55c1cc9f26e5dc2c25",
+      "bytes": 2620
+    },
+    {
+      "path": "DirectedCycles/CompactSubgroupTrapping.lean",
+      "sha256": "b014838dc4a9d2caf66d7c0adb61f6d686ffa420d82ffbd236cacbe414fb1b19",
+      "bytes": 1285
+    },
+    {
+      "path": "DirectedCycles/CompactTwoSidedWindow.lean",
+      "sha256": "8ced33f810908e570a1bc5f772125bce75f9c5fcc0ce1e24001063105b68c23d",
+      "bytes": 1908
+    },
+    {
+      "path": "DirectedCycles/ContDiffQuadraticRemainder.lean",
+      "sha256": "a8fd4a8ced51d382c1bd653fff8e954be3529e9e46f907a0ad189ca91040be43",
+      "bytes": 2167
+    },
+    {
+      "path": "DirectedCycles/ContinuousLocalCurveExtension.lean",
+      "sha256": "c61227407db4adeb1734f1edc46ef82a8946cd74607b1c48b91d30e680c0f39c",
+      "bytes": 2215
+    },
+    {
+      "path": "DirectedCycles/CountableGroupMetrizability.lean",
+      "sha256": "7d8b0d6f6346873e0e95e4e3a7318402856df721ca27770521df023d78017263",
+      "bytes": 883
+    },
+    {
+      "path": "DirectedCycles/DifferentiableCoordinateNSS.lean",
+      "sha256": "c6f91e3a04d1c6a8bd8613adcbc3aab1f54132a1741fd89afa16a07f1c9d692f",
+      "bytes": 3329
+    },
+    {
+      "path": "DirectedCycles/DifferentiableDoubling.lean",
+      "sha256": "8a82eacada3ca154e89bf3990ca1b0cb18ba7af2ae2dea5b7bf8d1093ee2351e",
+      "bytes": 3556
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveAdditivity.lean",
+      "sha256": "c4d8eb366534939d634695338cb20665578f6b9150c07111ae4882fdfa3a2f45",
+      "bytes": 3900
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveDifferentiable.lean",
+      "sha256": "b7fa94d1d188a3ef00b5b3ca78e02c817de03dc2441951805474fc5946fca764",
+      "bytes": 1181
+    },
+    {
+      "path": "DirectedCycles/DyadicCurveLimit.lean",
+      "sha256": "c54ed446028744eb257c70ad9ec82f2fd3a03c5429c4f2cbaf4ebb3ac70311db",
+      "bytes": 4612
+    },
+    {
+      "path": "DirectedCycles/DyadicLinearApproximation.lean",
+      "sha256": "69aaff3ce55106aec05dd18efc2a88ad6d5012308c52902f6c0263ed63365f3f",
+      "bytes": 3502
+    },
+    {
+      "path": "DirectedCycles/EscapeNorm.lean",
+      "sha256": "071fd043a363e8bd52eaa4d84bd93c3a0cad4b56edcb4afcdd1c67b33a2388df",
+      "bytes": 4488
+    },
+    {
+      "path": "DirectedCycles/EscapeNormTrapping.lean",
+      "sha256": "143757d72ded4f7105e74a6013a3bd913eb6e66242fc04318765e3c3be16c5a2",
+      "bytes": 2936
+    },
+    {
+      "path": "DirectedCycles/EscapeSublevelPowers.lean",
+      "sha256": "e01dc84d833868a91e59f5937e8d5d972ea5189e714d656ddd27a9b611a3a705",
+      "bytes": 3356
+    },
+    {
+      "path": "DirectedCycles/EscapeWordGauge.lean",
+      "sha256": "0e85467fbc9b7e5b56e0a6f56b123bdceb83b50a00fca69aff2584da78a275ea",
+      "bytes": 4460
+    },
+    {
+      "path": "DirectedCycles/EscapeWordMetric.lean",
+      "sha256": "932efeb4d991811fd24bb252e5f3708c92ae219a4452287517e20236d5c098bf",
+      "bytes": 4222
+    },
+    {
+      "path": "DirectedCycles/EscapeWordMetricEscape.lean",
+      "sha256": "60cdef2bc5faa3a1a84d7bde454c18fbd6ded2c562f8e558ecff4da55b03d1bf",
+      "bytes": 5210
+    },
+    {
+      "path": "DirectedCycles/FiniteConvolutionBounds.lean",
+      "sha256": "2590b2ddbc306a461b84c2e7d662c3b9e23b377e14474395a0c26925eef9b630",
+      "bytes": 4173
+    },
+    {
+      "path": "DirectedCycles/FiniteGroupConvolution.lean",
+      "sha256": "2d79209be37bc9e3afed794e256cd52521183e2d6702b5c8934aafbaee29464d",
+      "bytes": 4847
+    },
+    {
+      "path": "DirectedCycles/FiniteGroupDerivatives.lean",
+      "sha256": "946cbbe79e385bbb8234f7ac1473aa9b88e970568e54bb9833a400d7046a9ac9",
+      "bytes": 5695
+    },
+    {
+      "path": "DirectedCycles/GleasonAdjoint.lean",
+      "sha256": "027ecdd5c40c4d1d70dcb086e118c70a30e0f7d7f14aa38f1b75a6f1c4fd053c",
+      "bytes": 2546
+    },
+    {
+      "path": "DirectedCycles/GleasonAdjointAverage.lean",
+      "sha256": "905966f1199c34eb4dc1ce82c7969bdb5fb2ae74fb8e4d136c101777b0a7e380",
+      "bytes": 2783
+    },
+    {
+      "path": "DirectedCycles/GleasonAdjointBounds.lean",
+      "sha256": "0a8863038f82206fa2ef61c77ef3956e796a220ced68e5c33f889a6ff3a708d9",
+      "bytes": 3136
+    },
+    {
+      "path": "DirectedCycles/GleasonAdjointCurves.lean",
+      "sha256": "5cd43357a054adc9081755cafad906e0cd6ba4789d9084ec3eaae5255803b889",
+      "bytes": 1109
+    },
+    {
+      "path": "DirectedCycles/GleasonAdjointRiemannSum.lean",
+      "sha256": "a92b83995fb652a31b6670987e196f20bfcd93990fddab5b5cc67b8688727925",
+      "bytes": 2202
+    },
+    {
+      "path": "DirectedCycles/GleasonCoordinateHomError.lean",
+      "sha256": "6a7ef04821588e9c14c9438b0a0591759585d4f0d828f41cafc473cfa4ca1ca3",
+      "bytes": 2225
+    },
+    {
+      "path": "DirectedCycles/GleasonCoordinateProductError.lean",
+      "sha256": "2508c87b1cbd9e46e998ac9de742b573761778704014664fa421494e94414f0b",
+      "bytes": 3139
+    },
+    {
+      "path": "DirectedCycles/GleasonCoordinateSpeed.lean",
+      "sha256": "f9294a2a32d20146377239d5d5e18c91e53042b9f9993fecd3eae49c99910c33",
+      "bytes": 2189
+    },
+    {
+      "path": "DirectedCycles/GleasonCoordinates.lean",
+      "sha256": "c9b013bf30a5d673781f40c5ce6e0016df9595a4ed8c4f74b77f607e138be1c3",
+      "bytes": 3908
+    },
+    {
+      "path": "DirectedCycles/GleasonExponentialChart.lean",
+      "sha256": "d3b42bdd66a37e52d95307d9c508b8a6bd6308380137ae31ffe1329a1aa48faf",
+      "bytes": 1511
+    },
+    {
+      "path": "DirectedCycles/GleasonExponentialInjection.lean",
+      "sha256": "b2c25f395403fd71067e1027d850f957f1e27a03a2afa078ae1447b8d9432837",
+      "bytes": 3888
+    },
+    {
+      "path": "DirectedCycles/GleasonExponentialMap.lean",
+      "sha256": "c9eb9c4ff796864fee1e63d81668c66b3df43d95efcf42a850be4868d725da08",
+      "bytes": 2601
+    },
+    {
+      "path": "DirectedCycles/GleasonExponentialNeighbourhood.lean",
+      "sha256": "f8079c24cd3c3a6875fa8ddce8d492fbf028cd1c8038c6eddde4504729672279",
+      "bytes": 5596
+    },
+    {
+      "path": "DirectedCycles/GleasonExponentialSmallSpeed.lean",
+      "sha256": "80ea1fa39995e6dea22c6535a5fee8ae3ca36ff505165c50081f8b7f8214b531",
+      "bytes": 2974
+    },
+    {
+      "path": "DirectedCycles/GleasonHomGenerator.lean",
+      "sha256": "ce68dbd3b5fa0f8041511b4a884ae7b27d457486c72add220d7da16bb1c75df0",
+      "bytes": 5009
+    },
+    {
+      "path": "DirectedCycles/GleasonHomSmoothCoordinates.lean",
+      "sha256": "9fd29af01683a5ee967ff50b894c5c3413ec89e116a4c5f2927d724b9fccc31c",
+      "bytes": 2487
+    },
+    {
+      "path": "DirectedCycles/GleasonLieAlgebra.lean",
+      "sha256": "0a28b84f165f65b48100fb86268905a34f09906000a15c9d50549b747509ffd6",
+      "bytes": 2190
+    },
+    {
+      "path": "DirectedCycles/GleasonLieAlgebraFunctor.lean",
+      "sha256": "b370133bc994526f009963e5d3c6f2ad18bf6b381b68d9e831f94f5b215f2322",
+      "bytes": 3021
+    },
+    {
+      "path": "DirectedCycles/GleasonLieAlgebraTopology.lean",
+      "sha256": "01d4e82c83de29700d9b70acad7b8aefdbfb3c0a10a01315fc0918cb23b2681a",
+      "bytes": 1564
+    },
+    {
+      "path": "DirectedCycles/GleasonMetricBasics.lean",
+      "sha256": "e2cad0d7ed8963e6d58211ccebd0ca0062bb6e8b512216fcfa4536caf68d7a3b",
+      "bytes": 3687
+    },
+    {
+      "path": "DirectedCycles/GleasonMetricTopology.lean",
+      "sha256": "95578d68a55416d9a659d65016f961874ff40c11b47d6310be980455823c25c1",
+      "bytes": 1942
+    },
+    {
+      "path": "DirectedCycles/GleasonNearestPointContradiction.lean",
+      "sha256": "2c65f04ad92c90affd500aa49676648b7f307452586953f0509f06d679ec3de8",
+      "bytes": 5747
+    },
+    {
+      "path": "DirectedCycles/GleasonNormedHomBound.lean",
+      "sha256": "eb29c9f5d5a8f25d5d114ddc89eaabd28060d8c1a223107d4255567da909d100",
+      "bytes": 2551
+    },
+    {
+      "path": "DirectedCycles/GleasonNormedHomLipschitz.lean",
+      "sha256": "673d54fbf80c33b640e435e4c2fb44ccd3a9fa6f6634a21c7c4ef82b87211b78",
+      "bytes": 1822
+    },
+    {
+      "path": "DirectedCycles/GleasonOneParameter.lean",
+      "sha256": "8b756173573762191c4d4b18f7268312c106a495570f6f0d2f4c737da63e5742",
+      "bytes": 5073
+    },
+    {
+      "path": "DirectedCycles/GleasonOneParameterCompact.lean",
+      "sha256": "d60317126aab1fb9471b95a2c2fb822a89929eea5cd91a9a3f5610db6a7874c0",
+      "bytes": 3125
+    },
+    {
+      "path": "DirectedCycles/GleasonOneParameterNeighbourhood.lean",
+      "sha256": "cd2e88215afafbe096447f917339cb3909bb26136ca1d8a3c7a9313dbb357ae0",
+      "bytes": 3101
+    },
+    {
+      "path": "DirectedCycles/GleasonOneParameterSpeed.lean",
+      "sha256": "d986226bd2ea4a1c65d8f59f453908554c2ba13ed83b64ff8ee9d297006525ca",
+      "bytes": 931
+    },
+    {
+      "path": "DirectedCycles/GleasonOneParameterWindow.lean",
+      "sha256": "27f0cd7d0b81bdb267811b0fbd5825c70a564da446adecb13d3795c9ac760be9",
+      "bytes": 4942
+    },
+    {
+      "path": "DirectedCycles/GleasonPowerApproximation.lean",
+      "sha256": "035c796ca1ee33572ef2742b0468ae5fcb8f9b9a4f907f41b425df2fb9f300fb",
+      "bytes": 2335
+    },
+    {
+      "path": "DirectedCycles/GleasonPowerDistance.lean",
+      "sha256": "f0cc92a86c90a3ff2365d9268fce8d0d0d2c7c51033062dafbe804b52438ba0d",
+      "bytes": 4745
+    },
+    {
+      "path": "DirectedCycles/GleasonPowerPrefix.lean",
+      "sha256": "6a9e18e4f5ee2df4b57ca2774397c7297e5ac93071ec7347253e20053af3d117",
+      "bytes": 2471
+    },
+    {
+      "path": "DirectedCycles/GleasonPowerProduct.lean",
+      "sha256": "e83587534613225b153eb2b30d035896deaf19163cdb66cb4fe7faee7cfd9c6c",
+      "bytes": 3480
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterAssociative.lean",
+      "sha256": "8cfc2b1304d21f9f4a752cd2aa7d1c0a13cf0d0f52ae21f4f9ab367187c63c53",
+      "bytes": 4944
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterContinuity.lean",
+      "sha256": "9feed986b474faca8cb74000e5fa660e3dcb4bfdf4bcaced93cb6b3089ff858e",
+      "bytes": 5288
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterControl.lean",
+      "sha256": "f7104bc26208820a108d036b67df52900f14630913181e330f69c34d549c469c",
+      "bytes": 4507
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterExistence.lean",
+      "sha256": "904ffef20f5ab41049b8c6ab1710409e06aee625d52e5533e2014011a84e6b7d",
+      "bytes": 4324
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterLimit.lean",
+      "sha256": "9f72176c01d89e7f657dc41311bb7f0ff6501692c8a0ad23c04def68795529b2",
+      "bytes": 4837
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterLinearLaws.lean",
+      "sha256": "0c296939b7155304c1816c832165898edfb78fb6994ef07dec3f2333e67edf80",
+      "bytes": 4290
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterParameterLaws.lean",
+      "sha256": "9445a5254f165af5972646e1b0c5c1d1ce8bb877407c087f81244fccc2dffc20",
+      "bytes": 4794
+    },
+    {
+      "path": "DirectedCycles/GleasonTrotterRefinement.lean",
+      "sha256": "590796069efad283ef2074a548048ef2a607c8c1e6495d2a77a8fa50f5868428",
+      "bytes": 5867
+    },
+    {
+      "path": "DirectedCycles/GleasonYamabeReduction.lean",
+      "sha256": "5049673e34d0ffc967449f11d7a4c477a84305ad65a70b4457de750d17f08cf4",
+      "bytes": 3494
+    },
+    {
+      "path": "DirectedCycles/GroupUltraproduct.lean",
+      "sha256": "c33a659106d90a0ff13f6e20cb298df75251ffbd49d44624b4dd1db5c9ce3e0c",
+      "bytes": 3553
+    },
+    {
+      "path": "DirectedCycles/HaarConvolutionBounds.lean",
+      "sha256": "9351f0fd788301a573e4e807375d8b15c1dfd0f71012f74aadb1c9f85b6b6850",
+      "bytes": 5159
+    },
+    {
+      "path": "DirectedCycles/HaarEscapeBootstrap.lean",
+      "sha256": "074d8abf1192dd3a9a3d24e7546d6c88656213d970f9729dab45f47fc8ddecf6",
+      "bytes": 7281
+    },
+    {
+      "path": "DirectedCycles/HaarEscapeCommutator.lean",
+      "sha256": "52ba750ac6c1c66187f38e7aabfed15cc65326169e24839352c8ad6efa1116c0",
+      "bytes": 3923
+    },
+    {
+      "path": "DirectedCycles/HaarFiniteTrapping.lean",
+      "sha256": "622b0728cf86722f8f581c5a31c09d9594ea671fa282832e7ba9622b1943a029",
+      "bytes": 3412
+    },
+    {
+      "path": "DirectedCycles/HaarFiniteTrappingCore.lean",
+      "sha256": "978fa1397d5df8a1a02ff1d58d70e5cc71aad74acbd1bb83aea2b0245a201dda",
+      "bytes": 4299
+    },
+    {
+      "path": "DirectedCycles/HaarGroupConvolution.lean",
+      "sha256": "463d264b478f667477dd4fc452f94d731544648b6ee434adb8705460d729e6d8",
+      "bytes": 3872
+    },
+    {
+      "path": "DirectedCycles/HaarNormalizedBump.lean",
+      "sha256": "a59093a12c2c9e73683bf0fcde9f4061cda22b64e347ce785b1935330ab2a523",
+      "bytes": 2681
+    },
+    {
+      "path": "DirectedCycles/HaarWordWindowBump.lean",
+      "sha256": "839265f97a832d0939db4625ef7106c9bcb6bf31a7a57e831bc9832fee06d9d8",
+      "bytes": 3077
+    },
+    {
+      "path": "DirectedCycles/InternalCountableSaturation.lean",
+      "sha256": "8a2ff4fb29d23c8a26cb0d92b1fd511fc6c34c6e24d0ca915b01db0b109619e7",
+      "bytes": 2708
+    },
+    {
+      "path": "DirectedCycles/InternalFiniteSetFamily.lean",
+      "sha256": "3e97b17161cc69419d70f092be2216a92abb53f9740ca6c4f6f54a8ef23c9edb",
+      "bytes": 3788
+    },
+    {
+      "path": "DirectedCycles/InternalGoodModel.lean",
+      "sha256": "d8fe444404b733bb5cdef6be22c5f98e09d91976c03984fa23ce43ac7ca7524a",
+      "bytes": 3751
+    },
+    {
+      "path": "DirectedCycles/InternalSetLogic.lean",
+      "sha256": "a5785dbc7f74e8908c382d16d7d5087f92353e38a320fb2394b5fa620643b9c5",
+      "bytes": 2439
+    },
+    {
+      "path": "DirectedCycles/InternalSetSandwich.lean",
+      "sha256": "1fb70a0155b290f790922e2d0f58197cb02d35ff9269d7d2e2e686d177e587e1",
+      "bytes": 2576
+    },
+    {
+      "path": "DirectedCycles/InternalTranslateSaturation.lean",
+      "sha256": "56692f6b63521fb941c9447c5031a9b707299ea34435ad3bd698dc6491edbca7",
+      "bytes": 3013
+    },
+    {
+      "path": "DirectedCycles/InvariantSubspaceRepresentation.lean",
+      "sha256": "a62361ef486a0e8fa778c54512c6ddff2fa22266ddd9cfbe4128a85162ffc607",
+      "bytes": 2338
+    },
+    {
+      "path": "DirectedCycles/LieGroupNSS.lean",
+      "sha256": "0d3eb3163719be894bb06e917ff01995b211283781b145f5b1afe43eb7ddff3f",
+      "bytes": 3899
+    },
+    {
+      "path": "DirectedCycles/LieQuotientData.lean",
+      "sha256": "7642487ee42bf7dd5930ec4c7e8d8b380a3f4a313ee3343fc7c33b85c07514f8",
+      "bytes": 3106
+    },
+    {
+      "path": "DirectedCycles/LipschitzRiemannSum.lean",
+      "sha256": "7516cbf1e3369b8e89bd11520af129809a56a60d8412d2564142ca03952bbad3",
+      "bytes": 4772
+    },
+    {
+      "path": "DirectedCycles/LocalAdditiveCurveLinear.lean",
+      "sha256": "6d22628058a52bf2dd9f5e8c851b726ef6a17b027efa8e02189188b4673c9ba8",
+      "bytes": 2041
+    },
+    {
+      "path": "DirectedCycles/LocalCurveDerivativeEquation.lean",
+      "sha256": "f883a88a7af30174cd276f58de7709f6f542c96e6fec729fb888d19bb2616927",
+      "bytes": 2320
+    },
+    {
+      "path": "DirectedCycles/LocalCurveExtension.lean",
+      "sha256": "5b248e8fcecaaa1f49f35c1c6a68b3337a34df14429ab4e3f4b5cc9d6c7df482",
+      "bytes": 4369
+    },
+    {
+      "path": "DirectedCycles/LocalEscapeMaps.lean",
+      "sha256": "b2bc9117b5776244ad0afa4def0035c9b010d2a8809ce3ce72b0fcc0df7e4ccd",
+      "bytes": 2404
+    },
+    {
+      "path": "DirectedCycles/LocalEscapeNorm.lean",
+      "sha256": "5d5093e092c8081f9b314b4d8063fcd6ccd2394d6d8ae0bdf31abda25de17633",
+      "bytes": 3875
+    },
+    {
+      "path": "DirectedCycles/LocalGlobalSubgroup.lean",
+      "sha256": "2b33d62392d63c2ec09a12c12619c5eefdcc037bc9706c8b1257c152e0059772",
+      "bytes": 3461
+    },
+    {
+      "path": "DirectedCycles/LocalGroupAlgebra.lean",
+      "sha256": "0530a0e086d6ac7dfb6b160424dd7720a1ad3b9c104090868ba8b22afc5ad4b8",
+      "bytes": 4846
+    },
+    {
+      "path": "DirectedCycles/LocalGroupCongruence.lean",
+      "sha256": "9e6b3f01c46040571b20b0b70f666fafa439eab73b06e3a2e8ea453e4695f2d1",
+      "bytes": 3302
+    },
+    {
+      "path": "DirectedCycles/LocalGroupHom.lean",
+      "sha256": "8df53ae66c0ef71e5a562d8a20608cae68d3dca289069b68a16532dcde5ec7bd",
+      "bytes": 3651
+    },
+    {
+      "path": "DirectedCycles/LocalGroupProducts.lean",
+      "sha256": "d5c92983354bc996245ce2f9b7a0dcbd5fe8419dfe2f2aeb5fdea08c71b9eec0",
+      "bytes": 4761
+    },
+    {
+      "path": "DirectedCycles/LocalGroupReversal.lean",
+      "sha256": "8e26601655e2d54bfeed2c7884b746e34636232a9d38ac164697ee23a4a9ab16",
+      "bytes": 3600
+    },
+    {
+      "path": "DirectedCycles/LocalGroupUltraproduct.lean",
+      "sha256": "6fa1658aa6d03e261a2cff4ac2c3f334db5b297ad66f0d29e3334ffd220f83e2",
+      "bytes": 5513
+    },
+    {
+      "path": "DirectedCycles/LocalHomeomorphFromCompactInjection.lean",
+      "sha256": "c7ec42fc8343f6c66a1f059d0d2738c9ec825462b03b45c76e38301845e8305e",
+      "bytes": 2349
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicationDerivative.lean",
+      "sha256": "2eedd6dd9a94da72b603eb09e4be387a03b60c9edb68b12532ee1c6ef0075c7e",
+      "bytes": 3031
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicativeCurveDerivative.lean",
+      "sha256": "2c581230114a1d285ad0dbf2359690d067df13fb7daa4fe86503923346f5181b",
+      "bytes": 4667
+    },
+    {
+      "path": "DirectedCycles/LocalMultiplicativeCurveSmooth.lean",
+      "sha256": "275634910184eced7885078977b3ff71395ed01d2c986b39361eb810c00f7dd7",
+      "bytes": 1698
+    },
+    {
+      "path": "DirectedCycles/LocalPowerCurveAdditive.lean",
+      "sha256": "3da9eacbab77696af136b5de5a684319171987fe96946650754434f30d88900f",
+      "bytes": 5463
+    },
+    {
+      "path": "DirectedCycles/LocalPowerSequence.lean",
+      "sha256": "85869f9c229d44f4aea82344709a3ea57b16932c53df72ad745ca5b4777edd93",
+      "bytes": 3181
+    },
+    {
+      "path": "DirectedCycles/LocalProductInversion.lean",
+      "sha256": "9ec0d737ea5764b7296e2f8a6db88e7de661db4f2bb7d5a76890d8ce5fbc21c3",
+      "bytes": 812
+    },
+    {
+      "path": "DirectedCycles/LocalQuotientAssociativity.lean",
+      "sha256": "4da1804c3a736ed91e8e07d0c8aa2e27b5a4b56d1066678dd9eaa43235c91d7c",
+      "bytes": 2806
+    },
+    {
+      "path": "DirectedCycles/LocalQuotientCancellation.lean",
+      "sha256": "c1009cc482750a889c9b31ee7c7ccbe446f6a1ce4675c758ccebb45bd5aa6a75",
+      "bytes": 4251
+    },
+    {
+      "path": "DirectedCycles/LocalQuotientOperations.lean",
+      "sha256": "d51dd94709a1770599d14c5465c9698f8db77720974564fd9ca583f01451e8fb",
+      "bytes": 3645
+    },
+    {
+      "path": "DirectedCycles/LocalQuotientWindow.lean",
+      "sha256": "4e63bd6fe17b245125bd4b27ea8eac31fcde24e18479b326a9f009001a93bbcf",
+      "bytes": 4167
+    },
+    {
+      "path": "DirectedCycles/LocalSubgroupTransport.lean",
+      "sha256": "c008c201315d4e7de77ba78f4fe74031bce1fb8b6ba713be637ac7297ae97e0a",
+      "bytes": 2500
+    },
+    {
+      "path": "DirectedCycles/LocallyCompactEscapeCommutator.lean",
+      "sha256": "d8949fdefd3a95f0e1b264db689dd572b79d0b4d592ba13df74635d78356321e",
+      "bytes": 2238
+    },
+    {
+      "path": "DirectedCycles/LocallyCompactEscapeProduct.lean",
+      "sha256": "f3770e8d1174b6875c474083c96a5a34219323aa7d7410673107876e5367ee56",
+      "bytes": 4355
+    },
+    {
+      "path": "DirectedCycles/MeasurableEscapeBump.lean",
+      "sha256": "808ab8383a36503c445a3df76c071cf997b1836a930b3ea3c6e3719a30d49885",
+      "bytes": 2406
+    },
+    {
+      "path": "DirectedCycles/MeasurableUnregularizedBump.lean",
+      "sha256": "83f6b413257043bab521a7124e2cd8db35d384827665e3633fab591b1f3214bf",
+      "bytes": 1866
+    },
+    {
+      "path": "DirectedCycles/MeasurableWordWindowBump.lean",
+      "sha256": "15d1f8b55a70955ab1c68808bf90e12c0f972ff739101dc7860cff0cda929d75",
+      "bytes": 5723
+    },
+    {
+      "path": "DirectedCycles/NSSGleasonMetric.lean",
+      "sha256": "b4c34ff9d3ee3c31624058ecb34ca792eb8fbb08c3ded248aa1b0adc7c848f0a",
+      "bytes": 5341
+    },
+    {
+      "path": "DirectedCycles/NSSSubquotientFromTrapping.lean",
+      "sha256": "48a99b477a052f45aeb0e9423a8317a48b8608b61da32be775d6b7a44cd88f5b",
+      "bytes": 3775
+    },
+    {
+      "path": "DirectedCycles/NSSTargetMaps.lean",
+      "sha256": "ca83a5d960b54542749def5116669ec10a70d039f54c83608f10ba24b57ab78d",
+      "bytes": 2598
+    },
+    {
+      "path": "DirectedCycles/NormGrowthNSS.lean",
+      "sha256": "ff71b31b8d57514904f91e180dec66c3095d2ea555ece5a3d67daf34c004a7c1",
+      "bytes": 1631
+    },
+    {
+      "path": "DirectedCycles/NormSetBump.lean",
+      "sha256": "6d9e7cf53ff751d5028461858541d554fa13e26fdfae558984c5369fb50889bc",
+      "bytes": 3109
+    },
+    {
+      "path": "DirectedCycles/NormSetDistance.lean",
+      "sha256": "678fbb21eeb2d3ec62b8eb8cdce4d7f47a63f81dc83feb27a9a2296024bc9ad4",
+      "bytes": 2581
+    },
+    {
+      "path": "DirectedCycles/NormalizedPowerScale.lean",
+      "sha256": "8f74f89a1ccf1a3dec30871311d24d6528d5f8a47ce348e7960c7f25c0733bb0",
+      "bytes": 1629
+    },
+    {
+      "path": "DirectedCycles/NormedAlgebraCurveGenerator.lean",
+      "sha256": "70a45411781afe0ee6646e086c531ae57ab924cec16b8e64b85efd129063fd0d",
+      "bytes": 2919
+    },
+    {
+      "path": "DirectedCycles/NormedAlgebraOneParameter.lean",
+      "sha256": "ca008ac1a35e7237fa757f26f8130f888b867cf5f29079fad890ad8bb4a25ac3",
+      "bytes": 2378
+    },
+    {
+      "path": "DirectedCycles/NormedAlgebraPowerPrefix.lean",
+      "sha256": "b78434d779901f0298412996b1d25eb6eb346cb2e1288d08362cbea031e14a3c",
+      "bytes": 1840
+    },
+    {
+      "path": "DirectedCycles/NormedRingUnitsNSS.lean",
+      "sha256": "c0171bc68b4a9d849cbac7ddc400f33a12c82bfd1a64b169447c557c815c4d40",
+      "bytes": 1921
+    },
+    {
+      "path": "DirectedCycles/OneParameterOperations.lean",
+      "sha256": "8ccf69e17b34fd06cee8bef21d24fe56f515e6f4459eea34a15e45204cc7a7bc",
+      "bytes": 2660
+    },
+    {
+      "path": "DirectedCycles/OpenSetNormBump.lean",
+      "sha256": "c285f0ef2383e037854f5dbd1a5411bfd6761b79617287ff3ce17d7652f744c8",
+      "bytes": 2478
+    },
+    {
+      "path": "DirectedCycles/OpenSetNormDistance.lean",
+      "sha256": "6a87828f6fa7b3653742d82f0137e42411ce0c56516d8d6e04554a701942eea0",
+      "bytes": 4146
+    },
+    {
+      "path": "DirectedCycles/OpenSubgroupGoodModel.lean",
+      "sha256": "9d8c5d9f9102b82c7644371772896195dc711aa88f0db0ea326efe03b2aeb4c3",
+      "bytes": 4367
+    },
+    {
+      "path": "DirectedCycles/OperatorExponentialAverage.lean",
+      "sha256": "7d6621df96f65bcaf56d2444bb3e4d3c4bc949ac6be339fbe5e6f5980a08af9c",
+      "bytes": 3902
+    },
+    {
+      "path": "DirectedCycles/OperatorExponentialIntertwining.lean",
+      "sha256": "c8ee003c80c81a52d919af874afc877a134966e8d5b2d03e0be3e43f950e09b7",
+      "bytes": 1765
+    },
+    {
+      "path": "DirectedCycles/OperatorExponentialRiemannSum.lean",
+      "sha256": "513a287ddd4f0e464159c7774fdd1290757f978e9516d85a08f5d91a1e2c350e",
+      "bytes": 1827
+    },
+    {
+      "path": "DirectedCycles/PointwiseGroupDerivative.lean",
+      "sha256": "c42bad37ee5b658d34dd00c79b5048dd2d7cbbc8aeba921e297b3e26c0264b1c",
+      "bytes": 3041
+    },
+    {
+      "path": "DirectedCycles/QuadraticCurveDerivative.lean",
+      "sha256": "344925dc582520503c6f814b91954a5c30007235f349dc7711b8d6e10cd873a6",
+      "bytes": 2431
+    },
+    {
+      "path": "DirectedCycles/RegularizedEscapeDistance.lean",
+      "sha256": "1c322d360a55919b027f52b1cdf3804d7442be0342d226949cb3c6316c6aa445",
+      "bytes": 2705
+    },
+    {
+      "path": "DirectedCycles/RemoveEscapeRegularization.lean",
+      "sha256": "f8fbc76dbe41e441837f1d5505b8211ed7da05c6a1e7a50562e41e7e5e722a27",
+      "bytes": 1783
+    },
+    {
+      "path": "DirectedCycles/RoundedPowerEstimates.lean",
+      "sha256": "edb05908121bd85ab98db5cbd9e2a7d7fb764832d19d814f3ffb656aa0cb842d",
+      "bytes": 3206
+    },
+    {
+      "path": "DirectedCycles/ScalarBootstrap.lean",
+      "sha256": "c3ff30834da27764abd0d387f73242929e0f37b6e8dafa31037c0b96f8554a63",
+      "bytes": 1562
+    },
+    {
+      "path": "DirectedCycles/SeparatedLocallyCompactModel.lean",
+      "sha256": "c62e9d27b3a0722c5bf05b7d2dac674caed55b873ff6dc48295d0a680d616da5",
+      "bytes": 3155
+    },
+    {
+      "path": "DirectedCycles/SubgroupNSSBasics.lean",
+      "sha256": "e0d2629b1a255e44e26075d21cfe6fe60edc64636358228281c1b230dfce15de",
+      "bytes": 1831
+    },
+    {
+      "path": "DirectedCycles/SubgroupTrappingNormalizer.lean",
+      "sha256": "51c7864a3957dd251313a371cb6490efee6c1feb4d0b2c1452f7d6ec17861d97",
+      "bytes": 3882
+    },
+    {
+      "path": "DirectedCycles/TrappedSubgroupsInKernel.lean",
+      "sha256": "8a147c49f17ab350574a7629f28cdd21f5899ad858bfeb6ed6a6d955fcdfe350",
+      "bytes": 1381
+    },
+    {
+      "path": "DirectedCycles/UltraproductInternalSets.lean",
+      "sha256": "a12c7df9e6661499987210889aeb5e57ce14eb215e52758e9f3270ba19c2f7c4",
+      "bytes": 3320
+    },
+    {
+      "path": "DirectedCycles/UnregularizedEscapeBump.lean",
+      "sha256": "203be3f5387af4055f5781ea17ec7f13fb5c4bfa351b7881c16fe8fa01214084",
+      "bytes": 1688
+    },
+    {
+      "path": "DirectedCycles/WeightedWordNorm.lean",
+      "sha256": "ef147c3f7df888399f67464f298cfb1dd98ad7d435bcf461f1d3e5ee583b3421",
+      "bytes": 4262
+    },
+    {
+      "path": "DirectedCycles/WordBallBump.lean",
+      "sha256": "6f96b741ae106679bd9ce42e8d2d71ea11534f4b973c3ac5ad986d28929e4413",
+      "bytes": 4196
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "a409cff48808163ef29ec67eb7422f3bcd9922b62ea56959d78086f74fbd556b",
+      "bytes": 384,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "DirectedCycles/GleasonAdjointBounds.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/dadb38b3d96726535e26": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+    "source_commit": "16f43c7731a2d973e989c5e9006b62088dd3068d"
+  }
+}

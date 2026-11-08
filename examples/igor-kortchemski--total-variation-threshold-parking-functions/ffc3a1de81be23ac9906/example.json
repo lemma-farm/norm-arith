@@ -1,0 +1,71 @@
+{
+  "id": "ffc3a1de81be23ac9906",
+  "source": {
+    "repository": "igor-kortchemski/total-variation-threshold-parking-functions",
+    "commit": "f5daa3e5871a3d9e9c853334ca5b2e528f2309aa",
+    "project": "igor-kortchemski--total-variation-threshold-parking-functions--f5daa3e5871a",
+    "path": "Parking/Symmetrization.lean",
+    "file_id": "0c100ab8edbc19a63130",
+    "source_sha256": "0c100ab8edbc19a6313081d330bef093e260b272926f0f891cb225e3b4e89498",
+    "start": 108,
+    "end": 134,
+    "original_start": 108,
+    "original_end": 134,
+    "declaration": "abs_sum_mul_le_sum_prod_mul_abs",
+    "source_url": "https://github.com/igor-kortchemski/total-variation-threshold-parking-functions/blob/f5daa3e5871a3d9e9c853334ca5b2e528f2309aa/Parking/Symmetrization.lean#L108-L134",
+    "archive_url": "https://github.com/PalomarArchive/igor-kortchemski--total-variation-threshold-parking-functions--269d073346f4/blob/f5daa3e5871a3d9e9c853334ca5b2e528f2309aa/Parking/Symmetrization.lean#L108-L134"
+  },
+  "native_target_name": "Parking.abs_sum_mul_le_sum_prod_mul_abs",
+  "source_declaration_label": "abs_sum_mul_le_sum_prod_mul_abs",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "b5f2a22c0d5d1a6e5d995fa2d5f8cef0e68ce516687a0462bed9db7306813c0b",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "e3c2a64af3d71ecef23240ef003876b9ebfc78f47df2f5799efb07246547a197",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Parking/Khintchine.lean",
+      "sha256": "c070d9d0e4ec1bffa18ff09c13237e904e7bd0d6a99a2e43488c60f2a27ff589",
+      "bytes": 12242
+    },
+    {
+      "path": "Parking/Symmetrization.lean",
+      "sha256": "0c100ab8edbc19a6313081d330bef093e260b272926f0f891cb225e3b4e89498",
+      "bytes": 19701
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "420ee2018d68ac84989537ee1a29ae0213100cdb4ad26f7c2dfc0e5d68ae9d8f",
+      "bytes": 471,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Parking/Symmetrization.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/ffc3a1de81be23ac9906": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/igor-kortchemski/total-variation-threshold-parking-functions",
+    "source_commit": "f5daa3e5871a3d9e9c853334ca5b2e528f2309aa"
+  }
+}

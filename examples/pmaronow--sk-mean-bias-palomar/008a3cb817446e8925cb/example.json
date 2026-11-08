@@ -1,0 +1,126 @@
+{
+  "id": "008a3cb817446e8925cb",
+  "source": {
+    "repository": "pmaronow/sk-mean-bias-palomar",
+    "commit": "7601a9d5ade08066632bc68b9a615e163f2dd02c",
+    "project": "pmaronow--sk-mean-bias-palomar--7601a9d5ade0",
+    "path": "Lemmas/GuerraTalagrand/Bound/HalfStep.lean",
+    "file_id": "0e7532db4c083145e761",
+    "source_sha256": "0e7532db4c083145e7612c70ae4e1eb37c828b14272c22a3a2d5f0e3909f8fce",
+    "start": 455,
+    "end": 542,
+    "original_start": 455,
+    "original_end": 542,
+    "declaration": "gtHalfDerivativeExpression_le",
+    "source_url": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/Lemmas/GuerraTalagrand/Bound/HalfStep.lean#L455-L542",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--sk-mean-bias-palomar--c8eac0abe48b/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/Lemmas/GuerraTalagrand/Bound/HalfStep.lean#L455-L542"
+  },
+  "native_target_name": "SpinGlass.AT.gtHalfDerivativeExpression_le",
+  "source_declaration_label": "gtHalfDerivativeExpression_le",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "679c22c56d04ad7022b3741ce1fa7b09101fa4fbf67de11f9d9f3b54e9d46479",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "875d6b4ee865aab4d479cae216176d666a8e6b9a2baf3d22994f3f31a4378c86",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Lemmas/AT/Definitions.lean",
+      "sha256": "f34fbf5e1e837e153aeea094b9f50f9262b898b0f63719aa59d6f2ff07231440",
+      "bytes": 22066
+    },
+    {
+      "path": "Lemmas/AT/FixedPoint.lean",
+      "sha256": "cc8e73ab1b44e7ce4d4f707f6809d6485793f7a24fa7f8d1fb1af245f46ec063",
+      "bytes": 31027
+    },
+    {
+      "path": "Lemmas/GuerraTalagrand/Bound/Basic.lean",
+      "sha256": "126d10e2eadc0431c8840138e6613fd83bfeeaa7ea48748677e0564b246ea3b3",
+      "bytes": 16554
+    },
+    {
+      "path": "Lemmas/GuerraTalagrand/Bound/Comparison.lean",
+      "sha256": "c8575d9900807a5b4617618566d71ed1f8c51c6f297a3c043bedbeff4e221379",
+      "bytes": 54647
+    },
+    {
+      "path": "Lemmas/GuerraTalagrand/Bound/FiniteState.lean",
+      "sha256": "27591e46dd685523c31f17ff9d9f93745088df059656ce98de32758552124a39",
+      "bytes": 29386
+    },
+    {
+      "path": "Lemmas/GuerraTalagrand/Bound/HalfStep.lean",
+      "sha256": "762a306a6862f7d86853f7489a1bc2659793d876b2cc191451c02a5b9ba39fe6",
+      "bytes": 24378
+    },
+    {
+      "path": "Lemmas/GuerraTalagrand/LatalaGuerra.lean",
+      "sha256": "32d08381134bbe63f268187b78744ddbc0e4dd74ca05be0f56b8e59378802cee",
+      "bytes": 21275
+    },
+    {
+      "path": "Lemmas/SmartPath/IndependentEndpoint.lean",
+      "sha256": "0c640eda1002e99358dfcb1d1a3a3df89e85cb4a94c601f021173c12a22e74ad",
+      "bytes": 15808
+    },
+    {
+      "path": "Lemmas/SpinGlass/Defs.lean",
+      "sha256": "55c9d2866b86844dbdcc0811e5f9592d6856feea3faeadaeca227b24ac893415",
+      "bytes": 34507
+    },
+    {
+      "path": "Lemmas/SpinGlass/GaussianIntegrationByParts.lean",
+      "sha256": "3d5d78cde374d618243cb99b1d5dd6ba86dca2bea02c86503ba38da588e64764",
+      "bytes": 129749
+    },
+    {
+      "path": "Lemmas/SpinGlass/Gaussian_IBP_Hilbert.lean",
+      "sha256": "8c872c560076c0be77071824dca3a430c103139ce38436f7acafc552d6931042",
+      "bytes": 155460
+    },
+    {
+      "path": "Lemmas/SpinGlass/SKModel.lean",
+      "sha256": "c0bff5eb519107ac854fb6666b6fa91708a3b0923fc370c1eeb827d8f8a6f7a6",
+      "bytes": 2911
+    },
+    {
+      "path": "Lemmas/SpinGlass/gaussian_concentration.lean",
+      "sha256": "48f8e52b60479a3d2edce8504d231539f5c8a205f411a1b74650c069b49ee904",
+      "bytes": 128263
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "3c2f5ed3a711f8b88894a34aa706a2bbf7697d8533aa0cab811354dba0797d85",
+      "bytes": 2464,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Lemmas/GuerraTalagrand/Bound/HalfStep.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/agent-api-v2-fullcase/008a3cb817446e8925cb": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/sk-mean-bias-palomar",
+    "source_commit": "7601a9d5ade08066632bc68b9a615e163f2dd02c"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "7e84090b2c1e8bc247a1",
+  "source": {
+    "repository": "pmaronow/sk-mean-bias-palomar",
+    "commit": "7601a9d5ade08066632bc68b9a615e163f2dd02c",
+    "project": "pmaronow--sk-mean-bias-palomar--7601a9d5ade0",
+    "path": "Paper/SoftMomentStrict.lean",
+    "file_id": "0dcee2e3938ceeaac476",
+    "source_sha256": "0dcee2e3938ceeaac47642cee3d6ab4b14ae4c5fae0bb482a5b7dc330b8c3d78",
+    "start": 49,
+    "end": 77,
+    "original_start": 41,
+    "original_end": 77,
+    "declaration": "Paper.softSecondMoment_variance_bound_strict",
+    "source_url": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/Paper/SoftMomentStrict.lean#L49-L77",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--sk-mean-bias-palomar--c8eac0abe48b/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/Paper/SoftMomentStrict.lean#L49-L77"
+  },
+  "native_target_name": "Paper.softSecondMoment_variance_bound_strict",
+  "source_declaration_label": "Paper.softSecondMoment_variance_bound_strict",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "e554f0f010bba0120c840ed8b729589475ee6bd960042453c214113a32d2ccf9",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "46a0096a29fc73b6d00c0e7be750ecd6da30b95c70e0ef735d336095c9293c77",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Paper/DoobDifferentiation.lean",
+      "sha256": "174303e7929f40384034798d525d44ea13c0658f6d01cbb145d161970cb59124",
+      "bytes": 17182
+    },
+    {
+      "path": "Paper/DoobHeat.lean",
+      "sha256": "d77d80ce94682bd657503cda37a039ac830ffb8f30bafed29e099af02421fce8",
+      "bytes": 5510
+    },
+    {
+      "path": "Paper/DoobKernel.lean",
+      "sha256": "1a699d2a1eb4a368d44f7080a249373e895d8eef3362b7417b007a6dc994af33",
+      "bytes": 6841
+    },
+    {
+      "path": "Paper/Gaussian.lean",
+      "sha256": "4ed72f3f99db04f76deafeaae529a6197c17af37868ec4c5577ab3ddfd1a3aa8",
+      "bytes": 7293
+    },
+    {
+      "path": "Paper/GaussianConvolution.lean",
+      "sha256": "a9d01e2fa35cb6aaee5b23bacd19101eb011657eba41b0679314b096bb29a9ac",
+      "bytes": 6404
+    },
+    {
+      "path": "Paper/GaussianDifferentiation.lean",
+      "sha256": "fd62d185fa7a64cce7483a20aff0156e40f7457268b93fe425f33ebfeebd08d6",
+      "bytes": 5695
+    },
+    {
+      "path": "Paper/GaussianHeat.lean",
+      "sha256": "3b8599628ca6d3751cc73fd7ebbe42a6fe2991883d6ba9e08d301efc02f055be",
+      "bytes": 18680
+    },
+    {
+      "path": "Paper/GaussianIBP.lean",
+      "sha256": "97dd5f557494535ddeab8d72d7cb44993667384c916a1d5b50986a220c1f4190",
+      "bytes": 6908
+    },
+    {
+      "path": "Paper/GaussianPoincare.lean",
+      "sha256": "5f270772a54e001731644507f1b5ffb20bc41a537dd6be1e40fe4c0b37ed193f",
+      "bytes": 18565
+    },
+    {
+      "path": "Paper/GaussianPoincareStrict.lean",
+      "sha256": "871defaf00e1815552b4480a4b717d8d45fbfef2756f684228d9342eed06aae5",
+      "bytes": 9558
+    },
+    {
+      "path": "Paper/GaussianPositivity.lean",
+      "sha256": "5b479b17078479cc2bbb54c44c6f42634f2784daf0befbf8f29955883e78ae3c",
+      "bytes": 18249
+    },
+    {
+      "path": "Paper/HeatContraction.lean",
+      "sha256": "f27116cf2fb36ecd4eecaf4d2416c4a605703051b13133e43609fdfd69f77cf6",
+      "bytes": 14360
+    },
+    {
+      "path": "Paper/Hyperbolic.lean",
+      "sha256": "32696d1e133b33b8c5a307e28b58b4f53e5ba355cb033e2765dac6f8d23716fb",
+      "bytes": 12456
+    },
+    {
+      "path": "Paper/MomentBridge.lean",
+      "sha256": "e5fe1a32ee64321d580ceebf2db777b61355f3ee333f7724e0d367ea35495f5a",
+      "bytes": 14539
+    },
+    {
+      "path": "Paper/RSFunctional.lean",
+      "sha256": "e2991b8ef0f16ffb03205e89d342ac67e81da2e470eeecc79d3a5bbfcc262c2f",
+      "bytes": 9566
+    },
+    {
+      "path": "Paper/RSMoments.lean",
+      "sha256": "a19a7dbdb03447d79af23bb46fa2cd06f743d72f579f9f60035e4a04ce65fd46",
+      "bytes": 5799
+    },
+    {
+      "path": "Paper/RSSoft.lean",
+      "sha256": "56a8c99e10b970217d22838ad5aa7a0e954df1499047cd244487a784a9bd5469",
+      "bytes": 7480
+    },
+    {
+      "path": "Paper/Semigroup.lean",
+      "sha256": "c817f9f49fd92e1920b3cce50e3e6439cce3d57e7df89f4dca9f609e378eb5c8",
+      "bytes": 16605
+    },
+    {
+      "path": "Paper/SoftMoment.lean",
+      "sha256": "8dbd3b9214300af0013e0732744f3fb7fba37384f618a9302ff273723966e5db",
+      "bytes": 8819
+    },
+    {
+      "path": "Paper/SoftMomentStrict.lean",
+      "sha256": "82796a9d2c61999f9c78842f4124e344c81e3ae17fb81aabdf964d20ea50e79d",
+      "bytes": 6144
+    },
+    {
+      "path": "Paper/StrictRSMoments.lean",
+      "sha256": "a35a5924364262e2250d96e1fc93da3ebf4d6743b3d33e9e38d1c1292c738d49",
+      "bytes": 6437
+    },
+    {
+      "path": "Paper/Structural.lean",
+      "sha256": "7244341d0fa3faa516c0c22f436a875455f253c32ea9cbe5751291c94efe86e1",
+      "bytes": 18253
+    },
+    {
+      "path": "Paper/SymmetrizedWeight.lean",
+      "sha256": "ff40e039731e265a861eb55fbf45d63a00410d6c0db076ae250eca90a847ddcc",
+      "bytes": 3180
+    },
+    {
+      "path": "Paper/Variational.lean",
+      "sha256": "2c257131c8dbada773cac958d29284e9c2a411d572c23f899f485d53594c1c88",
+      "bytes": 15573
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "818ada7ad2a0939da53d2fb9152f94b99f0406076892bebfc06fec7e6d0d6d04",
+      "bytes": 1571,
+      "snapshot": "lakefile.toml.source"
+    }
+  ],
+  "build_target": "Paper/SoftMomentStrict.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-7dd11aab5ec1809f/7e84090b2c1e8bc247a1": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/sk-mean-bias-palomar",
+    "source_commit": "7601a9d5ade08066632bc68b9a615e163f2dd02c"
+  }
+}

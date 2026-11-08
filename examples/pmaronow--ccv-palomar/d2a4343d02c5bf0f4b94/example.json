@@ -1,0 +1,136 @@
+{
+  "id": "d2a4343d02c5bf0f4b94",
+  "source": {
+    "repository": "pmaronow/ccv-palomar",
+    "commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598",
+    "project": "pmaronow--ccv-palomar--f3ef2ef312d4",
+    "path": "NearlyMinimax/UniformInverseDerivatives.lean",
+    "file_id": "03a924c13b25135ab147",
+    "source_sha256": "03a924c13b25135ab147ce0cb83fc45593587b991b8b1dac57a5700647b9cb13",
+    "start": 545,
+    "end": 556,
+    "original_start": 540,
+    "original_end": 556,
+    "declaration": "polynomial_complex_coordinate_bound",
+    "source_url": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/UniformInverseDerivatives.lean#L545-L556",
+    "archive_url": "https://github.com/PalomarArchive/pmaronow--ccv-palomar--47775cd59e5a/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/NearlyMinimax/UniformInverseDerivatives.lean#L545-L556"
+  },
+  "native_target_name": "NearlyMinimax.polynomial_complex_coordinate_bound",
+  "source_declaration_label": "polynomial_complex_coordinate_bound",
+  "build_target_origin": "recorded",
+  "target_type_sha256": "6e40c5941cb1c39417904e6527bb0324d60ce458813b48c2094fa436e519981e",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "b2db959141c504cbc3515cf6c017b4c1ef50b6ec8783a3b0e73b8bc9a1b76abe",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "NearlyMinimax/Chebyshev.lean",
+      "sha256": "2ca0f922519f863f2705123c2ce9461cb642faba2600c0f2a3a85e8e354dce87",
+      "bytes": 14389
+    },
+    {
+      "path": "NearlyMinimax/MomentRules.lean",
+      "sha256": "33cda9c0b394af085b1ba2ba761b3c64f3afda22b86395760dd38e4a62b48d84",
+      "bytes": 15188
+    },
+    {
+      "path": "NearlyMinimax/PaperIncrement.lean",
+      "sha256": "8a9036ad5f1aa51def469735f45f914822d8559f2c2665e5b3d5f88156ea6852",
+      "bytes": 17348
+    },
+    {
+      "path": "NearlyMinimax/PaperInverse.lean",
+      "sha256": "b6e02154efe2754f7b3b34bbd4619b29bc2b332f2b2ca42d402c032e94a51eed",
+      "bytes": 22001
+    },
+    {
+      "path": "NearlyMinimax/UniformInverseDerivatives.lean",
+      "sha256": "876d7f92a916bcfdafc38b152fb3da6c72e5ee1c750b7da2372f31fa8c7eb42f",
+      "bytes": 39310
+    },
+    {
+      "path": "Vendor/RoughRegime/Cauchy.lean",
+      "sha256": "85cb7ec6ff84db8cbe7ddefdb929ba1c9569f3860d65bd15363c9f3500eb20b1",
+      "bytes": 7193
+    },
+    {
+      "path": "Vendor/RoughRegime/CombinedAnalytic.lean",
+      "sha256": "cb4ca4753386a15b621dce61d039cd75878f019be32be383e444ffac5c9c031b",
+      "bytes": 14609
+    },
+    {
+      "path": "Vendor/RoughRegime/CombinedPolynomial.lean",
+      "sha256": "50c274fa4184d7db2a9d7b204687b6782f6208bdb61aae996fcff25c0f9cd046",
+      "bytes": 7258
+    },
+    {
+      "path": "Vendor/RoughRegime/ComplexDerivativeBridge.lean",
+      "sha256": "2fbf1756c368e61a4c054388a1e4f7555fff36bb19d007a275f26d5b75dab25a",
+      "bytes": 6550
+    },
+    {
+      "path": "Vendor/RoughRegime/MatrixDeterminant.lean",
+      "sha256": "7ea7a94f43e5b5fc09274af7133617af05d9b23d151bc2a7921663bba5dad4ef",
+      "bytes": 21540
+    },
+    {
+      "path": "Vendor/RoughRegime/MatrixKernel.lean",
+      "sha256": "647dfa7f2f0f473baac7c756722ed840c9c2348fca9e179d57eef539e6d6aef2",
+      "bytes": 6278
+    },
+    {
+      "path": "Vendor/RoughRegime/MatrixUpper.lean",
+      "sha256": "a11094f2e4ab9ae370e1b54991a2e0d47cf7108cb800a2f0bda21edd6f7bf816",
+      "bytes": 8133
+    },
+    {
+      "path": "Vendor/RoughRegime/PolynomialDerivatives.lean",
+      "sha256": "7df67bc3976561b33e81e27b89398897106364b5863bfbce3eaa3b82c22f46b8",
+      "bytes": 4341
+    },
+    {
+      "path": "Vendor/RoughRegime/SeriesBounds.lean",
+      "sha256": "221a43f4c4905308f353377f821a343eaa35deeab70640244d57d61dafbe0247",
+      "bytes": 8175
+    },
+    {
+      "path": "Vendor/RoughRegime/Upper.lean",
+      "sha256": "cb3856683628731e4a133bee0dce921c7419980dd271a243f69945ad18162730",
+      "bytes": 22735
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lake-manifest.json",
+      "sha256": "5d1cba218d7f1fbff9b69d1c87f060d538cfe379bb1a4ef9f8594b9db8e0cfec",
+      "bytes": 2450,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "b9e1e4aad096bf66f9afd5cb5d27750a9e3ed0169ad1ee8c5d558ff3f0ca3c91",
+      "bytes": 547,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "NearlyMinimax/UniformInverseDerivatives.lean:olean",
+  "build_path_replacements": {
+    "/project/deps/norm-extraction-build/repair-goal-aa4f7c7c794e0080/8249a4e2efa2e65f3cbc": "$CASE_ROOT",
+    "/project/repo/norm-arith/.lake/packages": "$SHARED_PACKAGES"
+  },
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/pmaronow/ccv-palomar",
+    "source_commit": "f3ef2ef312d44bbc693c1d5bea9cee654a29b598"
+  }
+}

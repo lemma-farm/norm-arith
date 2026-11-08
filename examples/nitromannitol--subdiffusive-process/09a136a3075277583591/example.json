@@ -1,0 +1,63 @@
+{
+  "id": "09a136a3075277583591",
+  "source": {
+    "repository": "nitromannitol/subdiffusive-process",
+    "commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+    "project": "nitromannitol--subdiffusive-process--4c6b8fa60357",
+    "path": "SubdiffusiveProcess/Section9/BesovScaleHolder.lean",
+    "file_id": "0be52d0d69d2d8a7a6df",
+    "source_sha256": "0be52d0d69d2d8a7a6df9392e9d41abea753f7feea21d9c242ca953cc71a8b3c",
+    "start": 21,
+    "end": 34,
+    "original_start": 21,
+    "original_end": 34,
+    "declaration": "ennrealTsum_mul_le_Lp_mul_Lq",
+    "source_url": "https://github.com/nitromannitol/subdiffusive-process/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Section9/BesovScaleHolder.lean#L21-L34",
+    "archive_url": "https://github.com/PalomarArchive/nitromannitol--subdiffusive-process--7f56d1d55d23/blob/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc/SubdiffusiveProcess/Section9/BesovScaleHolder.lean#L21-L34"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "ennrealTsum_mul_le_Lp_mul_Lq",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "cfcbc92eaa13e9931953ff0475865bc0f109a3c8fc2c2ce819f526f5eb05fe61",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "97282572b070c123556ff77134da6b9adb58654a74895b4edd9c457cf205f79a",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "SubdiffusiveProcess/Section9/BesovScaleHolder.lean",
+      "sha256": "c8ca60a3a29cc28aa9f2ca364b34ea325f06ed24602c9c3b01e9937ddcd47bdb",
+      "bytes": 2933
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "ea9f9e22a41d24724511bfd5c629dbbd402e9ddaf4d4d7e07f27d8919e652ff3",
+      "bytes": 880,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "SubdiffusiveProcess/Section9/BesovScaleHolder.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/nitromannitol/subdiffusive-process",
+    "source_commit": "4c6b8fa60357a07fd5713e5104a6cc70f8e432dc"
+  }
+}

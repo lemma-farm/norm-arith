@@ -1,0 +1,63 @@
+{
+  "id": "6109e742e7f76eae601d",
+  "source": {
+    "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39",
+    "project": "AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--38e37da6e147",
+    "path": "ForTauCeti/Analysis/Normed/SchattenGauge.lean",
+    "file_id": "04887961f4ebb22bde7f",
+    "source_sha256": "04887961f4ebb22bde7fc09c046d230c0ffd69f1c97bc6e5c9f997c9009edb1e",
+    "start": 81,
+    "end": 96,
+    "original_start": 81,
+    "original_end": 97,
+    "declaration": "schattenGaugeFun_add_le",
+    "source_url": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/ForTauCeti/Analysis/Normed/SchattenGauge.lean#L81-L96",
+    "archive_url": "https://github.com/PalomarArchive/AIQ-Kitware--aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization--335602c8e20f/blob/38e37da6e147cd0016da1eb05987c3edf7d95b39/ForTauCeti/Analysis/Normed/SchattenGauge.lean#L81-L96"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "schattenGaugeFun_add_le",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "0ee20b3a1c1179127f5923fde384e86b93e4aaaa3511884a54d17be8665d6e1f",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "a744f07743f9458cb8ba4ebde44f4d0af957de2fc943a2d2a63beaff27b98cff",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "ForTauCeti/Analysis/Normed/SchattenGauge.lean",
+      "sha256": "a1141cc0377122b82f2a5731c37c9f5e881bd342e80df79bad5ab695fb9750aa",
+      "bytes": 10413
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "cf0a6741105bf06b651310c447a04fdfcde23b23d5b07b719fd3555c3ad95c74",
+      "bytes": 763,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "a641317a13b1cfaeef32d1f26dc1b269b20be9488f189a74c7b829cd997b2487",
+      "bytes": 1972,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "ForTauCeti/Analysis/Normed/SchattenGauge.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+    "source_commit": "38e37da6e147cd0016da1eb05987c3edf7d95b39"
+  }
+}

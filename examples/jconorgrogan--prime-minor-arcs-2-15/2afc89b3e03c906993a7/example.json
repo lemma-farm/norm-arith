@@ -1,0 +1,93 @@
+{
+  "id": "2afc89b3e03c906993a7",
+  "source": {
+    "repository": "jconorgrogan/prime-minor-arcs-2-15",
+    "commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba",
+    "project": "jconorgrogan--prime-minor-arcs-2-15--f369f267b4dc",
+    "path": "Proof/PointwiseAbelWeld.lean",
+    "file_id": "0d00e2014c06d7365e4d",
+    "source_sha256": "0d00e2014c06d7365e4d8f2d40b04c9073829bf31568c00048e23612c37f47a2",
+    "start": 47,
+    "end": 79,
+    "original_start": 47,
+    "original_end": 79,
+    "declaration": "norm_sum_Ioc_mul_le_of_prefix_bound",
+    "source_url": "https://github.com/jconorgrogan/prime-minor-arcs-2-15/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/PointwiseAbelWeld.lean#L47-L79",
+    "archive_url": "https://github.com/PalomarArchive/jconorgrogan--prime-minor-arcs-2-15--b3b69567282b/blob/f369f267b4dcfebf010c8e7baa2c9602e2960eba/Proof/PointwiseAbelWeld.lean#L47-L79"
+  },
+  "native_target_name": null,
+  "source_declaration_label": "norm_sum_Ioc_mul_le_of_prefix_bound",
+  "build_target_origin": "derived from recorded focused source path",
+  "target_type_sha256": "6606af2b102ba6d0f2723cef2e7317cb1350f951869c1046cbde3eae0314eae3",
+  "target_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "receipt_sha256": "14b28e690ba5d4d481d6cec7589f18d1c3269c2e976ff3b055740f294bfda6a0",
+  "validation": "recorded native clean build; exact source bytes below verified; relocated export not recompiled",
+  "files": [
+    {
+      "path": "Proof/PointwiseAbelWeld.lean",
+      "sha256": "b39ac46b1b652985fbd29f22ae90ab4ae62ad13725b3e9c457ea6ae23e5000cb",
+      "bytes": 19199
+    },
+    {
+      "path": "Proof/APFoundation.lean",
+      "sha256": "c3f2745c1dfcb3895ad9f5e3f55a2ad0f707d68a99ae9530129e677f5f13d692",
+      "bytes": 17406
+    },
+    {
+      "path": "Proof/FejerLocalMass.lean",
+      "sha256": "400933ceb441bba6dc403aca13786d5f0b797954ae59e7f6ff82f4d89f17b2bb",
+      "bytes": 8451
+    },
+    {
+      "path": "Proof/FullMAP.lean",
+      "sha256": "4fd943c0a0bea16afca97532857af30c44fdd5ad956c803ae0ee985e997c4fff",
+      "bytes": 13660
+    },
+    {
+      "path": "Proof/HarmonicInterfaces.lean",
+      "sha256": "f227953a91e063b11cfe560ce7fd703977bc76add04d98f6f4c45a4fbfd41ebb",
+      "bytes": 17596
+    },
+    {
+      "path": "Proof/MajorArcPrimePairWeld.lean",
+      "sha256": "a93f873f646f85f12b8c5e7ad19aa56c490e48d39d3e0e8eb750140fb911f9d5",
+      "bytes": 15425
+    },
+    {
+      "path": "Proof/SingularSeriesFiniteFactors.lean",
+      "sha256": "544b5bc0582ed40de2abed9f2314d4854b37434e037c7e8d084e6d4898f8f5b8",
+      "bytes": 6160
+    }
+  ],
+  "build_files": [
+    {
+      "path": "lakefile.toml",
+      "sha256": "917255b54ab168193b06b2545c468ef60ad79ae6a70affd363ffae4183b35fb7",
+      "bytes": 65571,
+      "snapshot": "lakefile.toml.source"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "0e09bb5ec92fe7c8b40c1769d6eb5360427d56fa91b3c515c688695bf1b220e4",
+      "bytes": 3582,
+      "snapshot": "lake-manifest.json.source"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29,
+      "snapshot": "lean-toolchain.source"
+    }
+  ],
+  "build_target": "Proof/PointwiseAbelWeld.lean:olean",
+  "build_path_replacements": {},
+  "license": {
+    "status": "original upstream terms; no new license granted",
+    "source_repository": "https://github.com/jconorgrogan/prime-minor-arcs-2-15",
+    "source_commit": "f369f267b4dcfebf010c8e7baa2c9602e2960eba"
+  }
+}
