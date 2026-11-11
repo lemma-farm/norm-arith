@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Browse 844 examples with source and provenance.">
   <title>Examples dataset</title>
-  <link rel="stylesheet" href="styles.css?v=plain-v2">
-  <script src="app.js?v=plain-v2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=multi-region-v1">
+  <script src="app.js?v=multi-region-v1" defer></script>
 </head>
 <body>
   <header class="site-header"><a href="./">Examples dataset</a><a href="https://github.com/lemma-farm/norm-arith/tree/examples_dataset">Repository</a></header>
@@ -32,6 +32,10 @@
       <p class="file-meta"><span id="detail-file"></span></p>
       <p class="source-links"><a id="export-link" target="_blank" rel="noreferrer">Open exported file on GitHub ↗</a><a id="original-link" target="_blank" rel="noreferrer">Original source and provenance ↗</a></p>
       <p id="detail-provenance" class="provenance"></p>
+      <section class="region-section" aria-label="Interesting source regions">
+        <div class="region-toolbar"><button id="previous-region" type="button">← Previous region</button><span id="region-position" role="status"></span><button id="next-region" type="button">Next region →</button></div>
+        <ol id="region-list" class="region-list"></ol>
+      </section>
       <p id="source-state" class="status" role="status">Loading source file…</p>
       <div id="source-wrap" class="source-wrap" hidden><pre class="source-code"><code id="source-code"></code></pre></div>
     </section>
