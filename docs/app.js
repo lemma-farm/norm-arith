@@ -159,7 +159,7 @@
     $('variant-abridged').title = has ? '' : 'No abridged file: the automatic abridging did not produce a file that compiles for this example.';
     const a = example.abridged;
     $('variant-note').textContent = has
-      ? `Abridged: local definitions used by the target are inlined and the directly used local theorems become hypotheses. ${a.lines.toLocaleString()} lines in one file, versus ${a.originalClosureLines.toLocaleString()} lines across ${a.originalClosureFiles} local file${a.originalClosureFiles === 1 ? '' : 's'} (this example file plus its local imports).${a.hypotheses.length ? ` Hypotheses: ${a.hypotheses.length}.` : ''}${a.axiomStubs.length ? ` Axiom stubs: ${a.axiomStubs.length}.` : ''} Interesting lines ${a.interestingStart}–${a.interestingEnd} (original file ${example.regions.length ? lineLabel(example.regions[primaryRegionIndex(example)]) : 'n/a'}).`
+      ? `Abridged: local definitions used by the target are inlined and the directly used local theorems ${a.mode === 'axioms' ? 'are kept as statement-only axioms (their proofs are dropped)' : 'become hypotheses of the target'}. ${a.lines.toLocaleString()} lines in one file, versus ${a.originalClosureLines.toLocaleString()} lines across ${a.originalClosureFiles} local file${a.originalClosureFiles === 1 ? '' : 's'} (this example file plus its local imports).${a.hypotheses.length ? ` Hypotheses: ${a.hypotheses.length}.` : ''}${a.axiomStubs.length ? ` Axiom stubs: ${a.axiomStubs.length}.` : ''} Interesting lines ${a.interestingStart}–${a.interestingEnd} (original file ${example.regions.length ? lineLabel(example.regions[primaryRegionIndex(example)]) : 'n/a'}).`
       : (example.abridgedStatus ? `No abridged file (${example.abridgedStatus}).` : 'No abridged file.');
   }
 
