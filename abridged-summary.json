@@ -1,0 +1,1809 @@
+{
+ "generated": "2026-11-14T01:36:51.999856+00:00",
+ "examples": 844,
+ "abridged_ok": 620,
+ "failed": 224,
+ "failure_rate": 0.2654,
+ "by_status": {
+  "ok": 620,
+  "compile_failed": 222,
+  "deps_build_failed": 2
+ },
+ "ok_closure_lines_before": 4425777,
+ "ok_lines_after": 154336,
+ "method": "inline used local definitions recursively; directly used local theorems become hypotheses (axiom stubs when not possible); compiled standalone with Mathlib only",
+ "failures": [
+  {
+   "id": "008a3cb817446e8925cb",
+   "repository": "pmaronow/sk-mean-bias-palomar",
+   "declaration": "gtHalfDerivativeExpression_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/008a3cb817446e8925cb.lean:316:0: error: Missing name after `end`: Expected the current scope name `PhysLean`\n/workspace/out_all/008a3cb817446e8925cb.lean:317:0: error: Missing name after `end`: Expected the current scope name `PhysLean`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "01c00f6de5b87078261a",
+   "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+   "declaration": "norm_riccatiGram_pow_commutator_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/01c00f6de5b87078261a.lean:377:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/01c00f6de5b87078261a.lean:404:30: error(lean.synthInstanceFailed): failed to synthesize instance of type class",
+   "status": "compile_failed"
+  },
+  {
+   "id": "04e55c04acc52a6d3bd2",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "i2Psi2LintBound_chaos4_prod",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/04e55c04acc52a6d3bd2.lean:267:69: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/04e55c04acc52a6d3bd2.lean:270:75: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/04e55c04acc52a6d3bd2.lean:294:71: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/04e55c04acc52a6d3bd2.lean:297:93: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/04e55c04acc52a6d3bd2.lean:307:81: error(lean.synthInstanceFai",
+   "status": "compile_failed"
+  },
+  {
+   "id": "057e7749dddbded575f6",
+   "repository": "scottnarmstrong/CIVAxisymmetric",
+   "declaration": "abs_radialQuotient_le_of_segment_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/057e7749dddbded575f6.lean:358:43: error: Application type mismatch: The argument\n/workspace/out_all/057e7749dddbded575f6.lean:357:52: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "059bb187e38591165690",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "sampled_mem_closedSphericalCapTube_of_small_output",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/059bb187e38591165690.lean:992:16: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "07195da243f29b00c219",
+   "repository": "jvanwinden/PlanarFrontStability",
+   "declaration": "BUCSpatialBound.precomp_contraction",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/07195da243f29b00c219.lean:64:21: error: typeclass instance problem is stuck\n/workspace/out_all/07195da243f29b00c219.lean:81:3: error: cannot coerce to function\n/workspace/out_all/07195da243f29b00c219.lean:123:5: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized\n/workspace/out_all/07195da243f29b00c219.lean:136:28: error(lean.unknownIdentifier): Unknown identifier `toBCF_injective`\n/workspace/out_all/07195da243f29b00c219.lean:144:6: error: synthesized type class instance is not definitionally equal to express",
+   "status": "compile_failed"
+  },
+  {
+   "id": "07806415c17369811d4e",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "rationalMatrix_inverse_bounds",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/07806415c17369811d4e.lean:53:11: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "09cad44c22f18d573b10",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "hasRestrictedNormdSphMaximalPowerWeightStrongType_of_summable_normd_dy_bounds",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/09cad44c22f18d573b10.lean:486:6: error: unexpected token '('; expected 'private' or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0a8090b0d1a037ec3479",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "independentPairTarget_taylor_error",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0a8090b0d1a037ec3479.lean:103:59: error(lean.unknownIdentifier): Unknown identifier `signLaw_apply`\n/workspace/out_all/0a8090b0d1a037ec3479.lean:105:6: error: `fun_prop` was unable to prove `Measurable fun a => (signLaw ((if positive = true then 1 else -1) * Real.cos (\u2191M * a)) \u22ef) st`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0c631e8036569a4a2774",
+   "repository": "linrock/math-proofs",
+   "declaration": "quad_coeff_asymptotic",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0c631e8036569a4a2774.lean:93:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0d293a5a98b436452118",
+   "repository": "CoolRmal/falconer-theta-gauge",
+   "declaration": "lintegral_scalarBinningKernel_le_ten",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0d293a5a98b436452118.lean:126:54: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0d4bbbaef5cb916fb76b",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "TypeZero.unitTail_integrable_and_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0d4bbbaef5cb916fb76b.lean:414:43: error: Application type mismatch: The argument\n/workspace/out_all/0d4bbbaef5cb916fb76b.lean:427:22: error: Function expected at\n/workspace/out_all/0d4bbbaef5cb916fb76b.lean:427:28: error: Function expected at\n/workspace/out_all/0d4bbbaef5cb916fb76b.lean:426:80: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0e84b7c39b60b9342c70",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "closedCell_mul_flat_top",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0e84b7c39b60b9342c70.lean:46:4: error: unexpected token 'private'; expected 'scoped', checkColGt or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0fd12a6b82089993325e",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "source_profile_holder_bound_rescale",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0fd12a6b82089993325e.lean:601:110: error: Application type mismatch: The argument\n/workspace/out_all/0fd12a6b82089993325e.lean:603:32: error: Application type mismatch: The argument\n/workspace/out_all/0fd12a6b82089993325e.lean:613:117: error: Application type mismatch: The argument\n/workspace/out_all/0fd12a6b82089993325e.lean:636:113: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "0ff48bfb0e2d0cb99350",
+   "repository": "rwst/Subspace-Theorems",
+   "declaration": "NumberField.prod_sum_rpow_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/0ff48bfb0e2d0cb99350.lean:159:65: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "10bf04076914859c383e",
+   "repository": "mrklwk/zeta-density-39-over-17-lean",
+   "declaration": "gmCubicS1_quantitative",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/10bf04076914859c383e.lean:105:3: error: Function expected at\n/workspace/out_all/10bf04076914859c383e.lean:118:4: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1111b3e12a3be3537301",
+   "repository": "djalilchafai/ginibre-poincare",
+   "declaration": "ginibreBrownian_augmented_linear_sum_isometry",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1111b3e12a3be3537301.lean:76:73: error: type class instance expected\n/workspace/out_all/1111b3e12a3be3537301.lean:167:97: error: Application type mismatch: The argument\n/workspace/out_all/1111b3e12a3be3537301.lean:171:65: error: Application type mismatch: The argument\n/workspace/out_all/1111b3e12a3be3537301.lean:173:65: error: Application type mismatch: The argument\n/workspace/out_all/1111b3e12a3be3537301.lean:178:104: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "134afc5a38f20b52a463",
+   "repository": "pmaronow/aging-palomar",
+   "declaration": "norm_multiply_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/134afc5a38f20b52a463.lean:252:4: error: Application type mismatch: The argument\n/workspace/out_all/134afc5a38f20b52a463.lean:253:6: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1359b6c8011b61e5e62f",
+   "repository": "DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+   "declaration": "spectralNorm_schur",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1359b6c8011b61e5e62f.lean:97:16: error(lean.unknownIdentifier): Unknown identifier `euclideanOperator_apply`\n/workspace/out_all/1359b6c8011b61e5e62f.lean:97:4: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "148d0d83be3ba5672b28",
+   "repository": "DiarHaidary/Improved-SparseStack-Constants",
+   "declaration": "nrm2_lift",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/148d0d83be3ba5672b28.lean:198:16: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "14d6d24550cea4963a16",
+   "repository": "scottnarmstrong/CoarseDeGiorgi",
+   "declaration": "averagedKernel_surface_row_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/14d6d24550cea4963a16.lean:215:2: error: don't know how to synthesize implicit argument `m0`\n/workspace/out_all/14d6d24550cea4963a16.lean:215:2: error: don't know how to synthesize implicit argument `\u03b1`\n/workspace/out_all/14d6d24550cea4963a16.lean:215:33: error: don't know how to synthesize implicit argument `d`\n/workspace/out_all/14d6d24550cea4963a16.lean:330:6: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/14d6d24550cea4963a16.lean:329:66: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "150da9c73c85ebff871d",
+   "repository": "roos-j/lean-booleanfun",
+   "declaration": "BV.almost_character",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/150da9c73c85ebff871d.lean:137:27: error: expected token\n/workspace/out_all/150da9c73c85ebff871d.lean:155:21: error: expected token\n/workspace/out_all/150da9c73c85ebff871d.lean:192:68: error: expected token\n/workspace/out_all/150da9c73c85ebff871d.lean:204:0: error: Missing name after `end`: Expected the current scope name `BooleanFun`\n/workspace/out_all/150da9c73c85ebff871d.lean:205:0: error: Missing name after `end`: Expected the current scope name `BooleanFun`\n/workspace/out_all/150da9c73c85ebff871d.lean:244:2: error: expected token\n/workspace/out_all/150da9c73c85ebff871d.l",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1636d17f2a772da242bc",
+   "repository": "pmaronow/ccv-palomar",
+   "declaration": "chebyshevForcing_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1636d17f2a772da242bc.lean:30:114: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/1636d17f2a772da242bc.lean:41:46: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1790c2c97f871432ea6b",
+   "repository": "mario-ullrich/Lean-SNumbers",
+   "declaration": "approximationNumber_idEmbed_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1790c2c97f871432ea6b.lean:270:81: error(lean.invalidField): Invalid field `card`: The environment does not contain `Set.card`, so it is not possible to project the field `card` from an expression\n/workspace/out_all/1790c2c97f871432ea6b.lean:313:52: error(lean.unknownIdentifier): Unknown identifier `idEmbed_apply`\n/workspace/out_all/1790c2c97f871432ea6b.lean:314:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1898d581c6c8ceedbf06",
+   "repository": "SauersML/group-approximation",
+   "declaration": "norm_preLift_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1898d581c6c8ceedbf06.lean:213:77: error: expected token\n/workspace/out_all/1898d581c6c8ceedbf06.lean:218:5: error(lean.unknownIdentifier): Unknown identifier `toAddSubgroup_le_quotientStarHom_ker`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "19b4cd12e50d97c389f0",
+   "repository": "scottnarmstrong/CoarseGraining",
+   "declaration": "isBigOWith_gammaSigma_finset_sup'",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/19b4cd12e50d97c389f0.lean:128:6: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "19bdeebcffdee8402d57",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "unit_column_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/19bdeebcffdee8402d57.lean:24:29: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:29:48: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:29:62: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:39:4: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:39:14: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:43:39: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.lean:43:45: error: Function expected at\n/workspace/out_all/19bdeebcffdee8402d57.l",
+   "status": "compile_failed"
+  },
+  {
+   "id": "19c3ce45b8752f53ff38",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "tsaiPsi_le_C3_gamma_of_integrability",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/19c3ce45b8752f53ff38.lean:205:15: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/19c3ce45b8752f53ff38.lean:237:24: error(lean.unknownIdentifier): Unknown identifier `L2Vec3`\n/workspace/out_all/19c3ce45b8752f53ff38.lean:234:56: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1afd72c35a9df69508cb",
+   "repository": "DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+   "declaration": "fourth_le_weightedEnergy_sq",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1afd72c35a9df69508cb.lean:179:10: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1d2f31296da6e692e9ec",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "LimitArbitraryTest.arbitraryTest_cell_coord_le_grad",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1d2f31296da6e692e9ec.lean:192:22: error(lean.unknownIdentifier): Unknown identifier `Torus`\n/workspace/out_all/1d2f31296da6e692e9ec.lean:206:37: error(lean.unknownIdentifier): Unknown identifier `AVenhance.timeCube`\n/workspace/out_all/1d2f31296da6e692e9ec.lean:207:6: error(lean.unknownIdentifier): Unknown identifier `LimitArbitraryTest.timeCube_measure_eq_iterated`\n/workspace/out_all/1d2f31296da6e692e9ec.lean:206:60: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1edcdf42d17721b04e28",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "sobolevXENorm_sub_le_sub_add_sub",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1edcdf42d17721b04e28.lean:336:101: error: Application type mismatch: The argument\n/workspace/out_all/1edcdf42d17721b04e28.lean:327:52: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1f5330ecbd8fdb0ef6d6",
+   "repository": "scottnarmstrong/CoarseDeGiorgi",
+   "declaration": "surface_kernel_integral_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:218:2: error: don't know how to synthesize implicit argument `m0`\n/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:218:2: error: don't know how to synthesize implicit argument `\u03b1`\n/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:218:33: error: don't know how to synthesize implicit argument `d`\n/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:342:8: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:340:81: error: unsolved goals\n/workspace/out_all/1f5330ecbd8fdb0ef6d6.lean:356:100: error(lean",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1f821ef731eca6975116",
+   "repository": "balancedscorpion/countably-infinite-dimension-strong-meyer-spaces",
+   "declaration": "hermiteDiracCoefficients_mem\u2113p",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1f821ef731eca6975116.lean:233:6: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "1fca705397899d1b7ed6",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "farShellAssembly_gauge_lower",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/1fca705397899d1b7ed6.lean:117:52: error: Application type mismatch: The argument\n/workspace/out_all/1fca705397899d1b7ed6.lean:120:0: error: declaration uses `sorry`\n/workspace/out_all/1fca705397899d1b7ed6.lean:122:0: error: declaration uses `sorry`\n/workspace/out_all/1fca705397899d1b7ed6.lean:124:4: error: declaration uses `sorry`\n/workspace/out_all/1fca705397899d1b7ed6.lean:133:23: error: declaration uses `sorry`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "23c10db14ec4727110b3",
+   "repository": "SauersML/group-approximation",
+   "declaration": "conjCLM",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/23c10db14ec4727110b3.lean:80:25: error: `simp` made no progress\n/workspace/out_all/23c10db14ec4727110b3.lean:81:23: error: unsolved goals\n/workspace/out_all/23c10db14ec4727110b3.lean:82:4: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "23f522807aebe003cf15",
+   "repository": "pmaronow/arbitrary-rsb-palomar",
+   "declaration": "logCoshJet_mass_uniform_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/23f522807aebe003cf15.lean:177:35: error(lean.unknownIdentifier): Unknown identifier `tanhPolynomialBCF_apply`\n/workspace/out_all/23f522807aebe003cf15.lean:177:4: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "25198d002aa92b7ec531",
+   "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+   "declaration": "gauge_sylvesterNeumannTerm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/25198d002aa92b7ec531.lean:212:2: error: typeclass instance problem is stuck\n/workspace/out_all/25198d002aa92b7ec531.lean:232:15: error: unsolved goals\n/workspace/out_all/25198d002aa92b7ec531.lean:287:2: error: typeclass instance problem is stuck\n/workspace/out_all/25198d002aa92b7ec531.lean:307:12: error(lean.unknownIdentifier): Unknown identifier `val_zero`\n/workspace/out_all/25198d002aa92b7ec531.lean:303:19: error: unsolved goals\n/workspace/out_all/25198d002aa92b7ec531.lean:323:12: error(lean.unknownIdentifier): Unknown identifier `val_zero`\n/workspace/out_all/25198d002aa92",
+   "status": "compile_failed"
+  },
+  {
+   "id": "263150417c0d00f701ce",
+   "repository": "mrklwk/zeta-density-39-over-17-lean",
+   "declaration": "abs_neumann_source_remainder_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/263150417c0d00f701ce.lean:115:82: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/263150417c0d00f701ce.lean:140:2: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "26ab1e9e27bcbb2ead73",
+   "repository": "pmaronow/sk-mean-bias-palomar",
+   "declaration": "hasDerivAt_shiftFun_at0_polyGrowth",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/26ab1e9e27bcbb2ead73.lean:482:44: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "26e5d566008734e9d931",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "norm_setIntegral_Ico_conj_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/26e5d566008734e9d931.lean:97:43: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:100:42: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:100:61: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:111:42: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:114:42: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:114:61: error: Function expected at\n/workspace/out_all/26e5d566008734e9d931.lean:117:54: error: Function expected at\n/workspace/out_all/26e5d566008734e",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2895f9d296ebbb9c13ce",
+   "repository": "djalilchafai/ginibre-poincare",
+   "declaration": "ginibreEuclideanGradient_complex_normSq_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2895f9d296ebbb9c13ce.lean:217:102: error: Application type mismatch: The argument\n/workspace/out_all/2895f9d296ebbb9c13ce.lean:210:65: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2d9d863b07204491c037",
+   "repository": "masakioshikawa/rp2-rp3-lean",
+   "declaration": "mixedAB_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2d9d863b07204491c037.lean:61:25: error(lean.unknownIdentifier): Unknown constant `RP2.Rotation.Spin`\n/workspace/out_all/2d9d863b07204491c037.lean:72:6: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2dd794140b0dcd174a5c",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "sum_frequencyShell_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2dd794140b0dcd174a5c.lean:151:40: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2e1d3ea61127a582a55b",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "tsum_lintegral_enorm_rpow_le_of_dyadic_annular_cutoff_control",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2e1d3ea61127a582a55b.lean:820:8: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2e35d5efa89575d4463c",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "fderiv_norm_le_three_classicalGradient_smooth",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2e35d5efa89575d4463c.lean:252:22: error(lean.unknownIdentifier): Unknown identifier `classicalGradient_apply`\n/workspace/out_all/2e35d5efa89575d4463c.lean:252:10: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2e551d659edcbc12b6a7",
+   "repository": "SauersML/group-approximation",
+   "declaration": "isClosed_weakSub",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2e551d659edcbc12b6a7.lean:64:4: error: unexpected token '('; expected 'scoped' or identifier\n/workspace/out_all/2e551d659edcbc12b6a7.lean:139:47: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2ef9527e239ae15826c1",
+   "repository": "geogleswift-glitch/fixed-force-anomalous-dissipation-lean",
+   "declaration": "holderNorm_increment_tendsto_zero",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2ef9527e239ae15826c1.lean:63:121: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2f0c84560a1bdecb00e0",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "farShellAssembly_exists_shell_mass_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2f0c84560a1bdecb00e0.lean:117:52: error: Application type mismatch: The argument\n/workspace/out_all/2f0c84560a1bdecb00e0.lean:120:0: error: declaration uses `sorry`\n/workspace/out_all/2f0c84560a1bdecb00e0.lean:122:0: error: declaration uses `sorry`\n/workspace/out_all/2f0c84560a1bdecb00e0.lean:124:4: error: declaration uses `sorry`\n/workspace/out_all/2f0c84560a1bdecb00e0.lean:133:23: error: declaration uses `sorry`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "2f34683c5033d7f387de",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "first_weakJetNorm_sum_le_holderX",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/2f34683c5033d7f387de.lean:548:84: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "31a6e31b5283714c9f1f",
+   "repository": "pmaronow/ccv-palomar",
+   "declaration": "fluctuation_energy_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/31a6e31b5283714c9f1f.lean:109:52: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/31a6e31b5283714c9f1f.lean:100:39: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/31a6e31b5283714c9f1f.lean:98:39: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/31a6e31b5283714c9f1f.lean:81:51: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/31a6e31b5283714c9f1f.lean:76:39: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/31a6e31b5283714c9f1f.lean:59:",
+   "status": "compile_failed"
+  },
+  {
+   "id": "32c035330fb5dbb5c48d",
+   "repository": "mrklwk/zeta-density-39-over-17-lean",
+   "declaration": "logarithmic_weyl_AB_process",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/32c035330fb5dbb5c48d.lean:123:4: error: `simp` made no progress",
+   "status": "compile_failed"
+  },
+  {
+   "id": "337e06e9e84e307ea517",
+   "repository": "nitromannitol/subdiffusive-process",
+   "declaration": "triadicResponseResidual_le_volume_fraction",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/337e06e9e84e307ea517.lean:900:23: error: Type mismatch\n/workspace/out_all/337e06e9e84e307ea517.lean:914:23: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "36b2e4c1814607d6427a",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "integral_sq_spatialDifferenceQuotient_le_integral_sq_classicalGradient",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/36b2e4c1814607d6427a.lean:219:40: error: Application type mismatch: The argument\n/workspace/out_all/36b2e4c1814607d6427a.lean:222:48: error: Application type mismatch: The argument\n/workspace/out_all/36b2e4c1814607d6427a.lean:230:62: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3a183cc2cd1e55cd2496",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "chaosOne_diff_cross_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3a183cc2cd1e55cd2496.lean:354:77: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3a183cc2cd1e55cd2496.lean:357:80: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3a183cc2cd1e55cd2496.lean:360:82: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3a183cc2cd1e55cd2496.lean:386:75: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3a183cc2cd1e55cd2496.lean:389:77: error(lean.synthInstanceFai",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3b157f57a92eac049df4",
+   "repository": "adbrw/HS_proof",
+   "declaration": "relabelFunctor_isEquivalence",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3b157f57a92eac049df4.lean:144:27: error: Type mismatch\n/workspace/out_all/3b157f57a92eac049df4.lean:187:33: error: Type mismatch\n/workspace/out_all/3b157f57a92eac049df4.lean:187:55: error: Type mismatch\n/workspace/out_all/3b157f57a92eac049df4.lean:317:13: error: Type mismatch\n/workspace/out_all/3b157f57a92eac049df4.lean:324:27: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n/workspace/out_all/3b157f57a92eac049df4.lean:340:34: error(lean.unknownIdentifier): Unknown identifier `pushFunctor`\n/workspace/out_all/3b157f57a92eac049d",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3ba1d418293e15a540c3",
+   "repository": "AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+   "declaration": "norm_reflectionDefect_le_two_mul",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3ba1d418293e15a540c3.lean:131:2: error(lean.unknownIdentifier): Unknown identifier `reflectionOperator`\n/workspace/out_all/3ba1d418293e15a540c3.lean:131:31: error(lean.unknownIdentifier): Unknown identifier `reflectionOperator`\n/workspace/out_all/3ba1d418293e15a540c3.lean:139:38: error(lean.unknownIdentifier): Unknown identifier `Reduces`\n/workspace/out_all/3ba1d418293e15a540c3.lean:150:44: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3babc15e934fed7b323f",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "sumX1_triv",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3babc15e934fed7b323f.lean:836:0: error: invalid 'include', variable `hC\u03c7l` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3cb3211d84a7fc904d34",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingFlatPart_interval_mass",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3cb3211d84a7fc904d34.lean:252:13: error: typeclass instance problem is stuck\n/workspace/out_all/3cb3211d84a7fc904d34.lean:257:7: error(lean.unknownIdentifier): Unknown identifier `smoothing_memLp_sharpMultiplier`\n/workspace/out_all/3cb3211d84a7fc904d34.lean:284:24: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3cb3211d84a7fc904d34.lean:291:22: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/3cb3211d84a7fc904d34.lean:295:20: error(lean.synthInstanceFailed): failed to synthesize i",
+   "status": "compile_failed"
+  },
+  {
+   "id": "3fa92a173312dbf67785",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "hairerKernelTorus_sub_abs_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/3fa92a173312dbf67785.lean:888:52: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "45f714d90bd48abc131f",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "exists_eLpNorm_finset_smooth_dyadic_annular_local_interval_sum_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/45f714d90bd48abc131f.lean:487:6: error: unexpected token '('; expected 'private' or identifier\n/workspace/out_all/45f714d90bd48abc131f.lean:1655:39: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/45f714d90bd48abc131f.lean:1657:39: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/45f714d90bd48abc131f.lean:1870:82: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/45f714d90bd48abc131f.lean:1871:84: error(lean.synthInstanceFailed): failed",
+   "status": "compile_failed"
+  },
+  {
+   "id": "46c0aff380e553d18d68",
+   "repository": "cenozoic-works/rhone-theory",
+   "declaration": "empirical_feature_bound",
+   "stage": "build deps",
+   "firstErrors": "build failed: Examples.cenozoic_works__rhone_theory.Dependencies.v20ce228e5457.Rhone.Statistics.ThreeSiteSeparator.BlockStatistics: /project/artifacts/dataset-restructure-638524738/export/Examples/cenozoic_works__rhone_theory/Dependencies/v20ce228e5457/Rhone/Statistics/ThreeSiteSeparator/BlockStatistics.lean:6:0: error: object file '/workspace/buildall/cenozoic-works__rhone-theory/Examples/cenozoic_works__rhone_theory/Dependencies/v20ce228e5457/Rhone/Statistics/ThreeSiteSeparator/ScoreSymmetry.olean' of module Examples.cenozoic_works__rhone_theory.Dependencies.v20ce228e5457.Rhone.Statistics.Th",
+   "status": "deps_build_failed"
+  },
+  {
+   "id": "46f211df6e4394fae4d3",
+   "repository": "pmaronow/arbitrary-rsb-palomar",
+   "declaration": "lipschitzWith_terminalValue",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/46f211df6e4394fae4d3.lean:66:4: error: unexpected token 'set_option'; expected 'scoped', checkColGt or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "48fc130c9d95d606a7e9",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "eLpNormOn_mulContDiffMemLpTop_grad_coord_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/48fc130c9d95d606a7e9.lean:387:26: error: Function expected at\n/workspace/out_all/48fc130c9d95d606a7e9.lean:389:21: error: Function expected at\n/workspace/out_all/48fc130c9d95d606a7e9.lean:430:13: error: Function expected at\n/workspace/out_all/48fc130c9d95d606a7e9.lean:452:48: error: Function expected at\n/workspace/out_all/48fc130c9d95d606a7e9.lean:467:6: error: Tactic `rfl` failed: The left-hand side",
+   "status": "compile_failed"
+  },
+  {
+   "id": "492aa38583d1d4b08f9e",
+   "repository": "sthubbar/goldbach-lean",
+   "declaration": "core_sum",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/492aa38583d1d4b08f9e.lean:178:4: error: linarith failed to find a contradiction",
+   "status": "compile_failed"
+  },
+  {
+   "id": "49da1cc23fd57a216e4e",
+   "repository": "LR-UK/Bounded-orbit-wandering-domains",
+   "declaration": "HasProd.norm_sub_one_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/49da1cc23fd57a216e4e.lean:125:43: error: Tactic `aesop` failed, failed to prove the goal after exhaustive search.",
+   "status": "compile_failed"
+  },
+  {
+   "id": "49f76e4c5d5d1e168c2d",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "mellin_iteratedDeriv_positive_strip_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/49f76e4c5d5d1e168c2d.lean:34:125: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "4c837f90f13de805dfdf",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "caccioppoli_velocity_l2_gamma_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/4c837f90f13de805dfdf.lean:219:41: error: Application type mismatch: The argument\n/workspace/out_all/4c837f90f13de805dfdf.lean:260:29: error: Type mismatch\n/workspace/out_all/4c837f90f13de805dfdf.lean:263:44: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\nFull error:",
+   "status": "compile_failed"
+  },
+  {
+   "id": "4cccc2d1687efeaf899f",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "norm_groupRegularize_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/4cccc2d1687efeaf899f.lean:341:20: error: Function expected at\n/workspace/out_all/4cccc2d1687efeaf899f.lean:388:25: error: Application type mismatch: The argument\n/workspace/out_all/4cccc2d1687efeaf899f.lean:389:12: error: could not synthesize default value for parameter '\u03bc' using tactics\n/workspace/out_all/4cccc2d1687efeaf899f.lean:389:12: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "4e12fd2f4596ca6c209a",
+   "repository": "igor-kortchemski/total-variation-threshold-parking-functions",
+   "declaration": "one_sub_exp_le_sum_prod_mul_sqrt",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/4e12fd2f4596ca6c209a.lean:122:53: error(lean.unknownIdentifier): Unknown identifier `sum_mul_sq_le_one`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "500d6208279e18ac5dc5",
+   "repository": "methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+   "declaration": "DirectedCycles.lie_exponential_difference_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/500d6208279e18ac5dc5.lean:69:20: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/500d6208279e18ac5dc5.lean:104:53: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5075df8af78f85f7de81",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothing_integral_fourier_multiplicativeDifference_norm_sq",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5075df8af78f85f7de81.lean:225:17: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "50b740c0fe98e81d8b5b",
+   "repository": "SauersML/group-approximation",
+   "declaration": "continuous_inner_shiftVec",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/50b740c0fe98e81d8b5b.lean:69:4: error: unexpected token '('; expected 'scoped' or identifier\n/workspace/out_all/50b740c0fe98e81d8b5b.lean:90:112: error: Type mismatch\n/workspace/out_all/50b740c0fe98e81d8b5b.lean:93:51: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "51b501ff32478b9061de",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "one_add_pow_mul_norm_fourier_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/51b501ff32478b9061de.lean:117:75: error: Application type mismatch: The argument\n/workspace/out_all/51b501ff32478b9061de.lean:119:76: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "521de9a8e6372c014792",
+   "repository": "loefflerd/KN-scratch",
+   "declaration": "FLT.FundamentalDomainVolume.volume_band_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/521de9a8e6372c014792.lean:76:43: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5245d82b1a96da2732ee",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingFlatPart_ball_mass",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5245d82b1a96da2732ee.lean:252:13: error: typeclass instance problem is stuck\n/workspace/out_all/5245d82b1a96da2732ee.lean:257:7: error(lean.unknownIdentifier): Unknown identifier `smoothing_memLp_sharpMultiplier`\n/workspace/out_all/5245d82b1a96da2732ee.lean:285:28: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/5245d82b1a96da2732ee.lean:311:72: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "52f00b83dbf10ff5c82d",
+   "repository": "SauersML/group-approximation",
+   "declaration": "norm_coord_sub_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/52f00b83dbf10ff5c82d.lean:56:4: error: unexpected token '('; expected 'scoped' or identifier\n/workspace/out_all/52f00b83dbf10ff5c82d.lean:67:35: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "52f25c92bceff3f9cada",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "Section2FlowHigherDerivative.orderedPartial_pointwise_of_snorm",
+   "stage": "build deps",
+   "firstErrors": "build failed: Examples.scottnarmstrong__AVAnomalousDiffusion.Examples.Example_52f25c92bceff3f9cada_Section2FlowHigherDerivative: /project/artifacts/dataset-restructure-638524738/export/Examples/scottnarmstrong__AVAnomalousDiffusion/Examples/Example_52f25c92bceff3f9cada_Section2FlowHigherDerivative.lean:3:0: error: object file '/workspace/buildall/scottnarmstrong__AVAnomalousDiffusion/Examples/scottnarmstrong__AVAnomalousDiffusion/Dependencies/vaa235d84621e/AVenhance/Infra/FaaDiBruno/Composition.olean' of module Examples.scottnarmstrong__AVAnomalousDiffusion.Dependencies.vaa235d84621e.AVenhance",
+   "status": "deps_build_failed"
+  },
+  {
+   "id": "54034ca39df420267ae3",
+   "repository": "loefflerd/KN-scratch",
+   "declaration": "norm_divisorSum_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/54034ca39df420267ae3.lean:69:0: error: unexpected identifier; expected command",
+   "status": "compile_failed"
+  },
+  {
+   "id": "54ab1642f99acd199d67",
+   "repository": "SauersML/group-approximation",
+   "declaration": "continuous_inner_shiftVec_const",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/54ab1642f99acd199d67.lean:62:4: error: unexpected token '('; expected 'scoped' or identifier\n/workspace/out_all/54ab1642f99acd199d67.lean:87:38: error: Type mismatch\n/workspace/out_all/54ab1642f99acd199d67.lean:88:112: error: Type mismatch\n/workspace/out_all/54ab1642f99acd199d67.lean:97:38: error(lean.unknownIdentifier): Unknown identifier `shiftVec_apply`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "54b690fb4e641709e626",
+   "repository": "scottnarmstrong/Frohlich-Spencer",
+   "declaration": "continuousOn_of_forall_eq_single",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/54b690fb4e641709e626.lean:68:86: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "54c8a6cb963cd6e62259",
+   "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+   "declaration": "norm_riccatiGram_pow_succ_commutator_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/54c8a6cb963cd6e62259.lean:376:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/54c8a6cb963cd6e62259.lean:381:8: error(lean.synthInstanceFailed): failed to synthesize instance of type class",
+   "status": "compile_failed"
+  },
+  {
+   "id": "56a0fa4083e8daac6537",
+   "repository": "mrklwk/zeta-density-39-over-17-lean",
+   "declaration": "centered_shell_dilated_short_range",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/56a0fa4083e8daac6537.lean:53:23: error: Function expected at\n/workspace/out_all/56a0fa4083e8daac6537.lean:56:14: error: Function expected at\n/workspace/out_all/56a0fa4083e8daac6537.lean:101:73: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5769f1193354efb7353a",
+   "repository": "jtraverso/pseudorandom-hypergraph-matchings",
+   "declaration": "condAbsInc_Xp_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5769f1193354efb7353a.lean:153:16: error(lean.synthInstanceFailed): failed to synthesize instance of type class",
+   "status": "compile_failed"
+  },
+  {
+   "id": "58dceaff9bc851d32563",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "lintegral_torusDyadicInverseHeatKernel_bound_uniform",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/58dceaff9bc851d32563.lean:239:75: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5b3531668f16586dd91b",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "eLpNorm_kernelApply_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5b3531668f16586dd91b.lean:139:81: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/5b3531668f16586dd91b.lean:142:77: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/5b3531668f16586dd91b.lean:165:18: error: Application type mismatch: The argument\n/workspace/out_all/5b3531668f16586dd91b.lean:257:0: error: Unexpected name `Main` after `end`: The current section is unnamed\n/workspace/out_all/5b3531668f16586dd91b.lean:281:0: error: Missing name after `end`: Expected the current scope na",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5bcc6664496904de963d",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "CKN.Foundation.Euclidean.exists_spatialMultiplierHeatKernel_bounds_of_degreeOne",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5bcc6664496904de963d.lean:359:43: error: Application type mismatch: The argument\n/workspace/out_all/5bcc6664496904de963d.lean:362:70: error: Application type mismatch: The argument\n/workspace/out_all/5bcc6664496904de963d.lean:371:6: error: Application type mismatch: The argument\n/workspace/out_all/5bcc6664496904de963d.lean:380:81: error: Application type mismatch: The argument\n/workspace/out_all/5bcc6664496904de963d.lean:428:22: error: Application type mismatch: The argument\n/workspace/out_all/5bcc6664496904de963d.lean:461:20: error: Application type mismatch: The argument\n/",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5f02620cf0fe4affbca5",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "wholeRanges_core",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5f02620cf0fe4affbca5.lean:104:43: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:107:42: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:107:61: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:118:42: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:121:42: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:121:61: error: Function expected at\n/workspace/out_all/5f02620cf0fe4affbca5.lean:124:54: error: Function expected at\n/workspace/out_all/5f02620cf0fe4a",
+   "status": "compile_failed"
+  },
+  {
+   "id": "5fd6d1e8e99d32826a97",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothing_fourierDifference_energy_le_ball_mass",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/5fd6d1e8e99d32826a97.lean:216:23: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "6083ec98e42e41ca2f6b",
+   "repository": "aimathpapers/Jensen-Two-Thirds-Palomar-T5",
+   "declaration": "MellinOfPsi",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/6083ec98e42e41ca2f6b.lean:1:0: error: unknown module prefix 'to'",
+   "status": "compile_failed"
+  },
+  {
+   "id": "60c4fe93b8cfda298add",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "classicalSmoothSource_gradient_energy_le_of_projection_bounds",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/60c4fe93b8cfda298add.lean:805:14: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "61892a244a0f7897d5c5",
+   "repository": "andrewfiori/ZeroDensityInShortIntervals",
+   "declaration": "zeta_envelope",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/61892a244a0f7897d5c5.lean:609:20: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/61892a244a0f7897d5c5.lean:672:6: error: linarith failed to find a contradiction\n/workspace/out_all/61892a244a0f7897d5c5.lean:705:26: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "628c06f239db2bee85fc",
+   "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+   "declaration": "norm_riccatiGram_finsetPoly_commutator_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/628c06f239db2bee85fc.lean:186:12: error(lean.unknownIdentifier): Unknown identifier `h_TauCeti_DavisKahanExt_riccatiGram_pow_mem_domain`\n/workspace/out_all/628c06f239db2bee85fc.lean:197:13: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/628c06f239db2bee85fc.lean:205:28: error(lean.synthInstanceFailed): failed to synthesize instance of type class",
+   "status": "compile_failed"
+  },
+  {
+   "id": "64fa36e121f35e8dd778",
+   "repository": "nihargargava/systole_bound",
+   "declaration": "norm_unitCubicExponentialSum_primePower_block_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/64fa36e121f35e8dd778.lean:133:26: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/64fa36e121f35e8dd778.lean:153:53: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+   "status": "compile_failed"
+  },
+  {
+   "id": "65575b6f124925a37842",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "badLengthTailMaximal_le_massMajorant",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/65575b6f124925a37842.lean:174:21: error: Function expected at\n/workspace/out_all/65575b6f124925a37842.lean:185:7: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "65f9254557a521a4de3c",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "globalToLocal_moment_bound_of_unweighted_and_local",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/65f9254557a521a4de3c.lean:1306:84: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "679fc19d4c1cdfc6bac5",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "base_profile_jet_bound_global",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/679fc19d4c1cdfc6bac5.lean:257:108: error: Application type mismatch: The argument\n/workspace/out_all/679fc19d4c1cdfc6bac5.lean:269:111: error: Application type mismatch: The argument\n/workspace/out_all/679fc19d4c1cdfc6bac5.lean:273:111: error: Application type mismatch: The argument\n/workspace/out_all/679fc19d4c1cdfc6bac5.lean:274:98: error: Application type mismatch: The argument\n/workspace/out_all/679fc19d4c1cdfc6bac5.lean:281:78: error: Application type mismatch: The argument\n/workspace/out_all/679fc19d4c1cdfc6bac5.lean:286:86: error: Application type mismatch: The argume",
+   "status": "compile_failed"
+  },
+  {
+   "id": "6d0b23fda4e39a47cc89",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "integral_mul_mul_mul_le_two_cs",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/6d0b23fda4e39a47cc89.lean:217:41: error(lean.unknownIdentifier): Unknown identifier `FrequencyRemainder`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "6de7d3d599814eadfde8",
+   "repository": "QuanyuTang/polya-szego-planar-unconditional-palomar",
+   "declaration": "limit_weak_identity",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/6de7d3d599814eadfde8.lean:237:0: error: invalid 'include', variable `gs` has not been declared in the current scope\n/workspace/out_all/6de7d3d599814eadfde8.lean:241:0: error: invalid 'include', variable `gs` has not been declared in the current scope\n/workspace/out_all/6de7d3d599814eadfde8.lean:269:0: error: invalid 'include', variable `hv` has not been declared in the current scope\n/workspace/out_all/6de7d3d599814eadfde8.lean:289:0: error: invalid 'include', variable `hv` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "6e7122a4bc5fd1616c34",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "restricted_relative_cutoff_fixed_radius_le_low_add_band_sum",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/6e7122a4bc5fd1616c34.lean:752:66: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "6ed00c5ce310f728f446",
+   "repository": "jvanwinden/PlanarFrontStability",
+   "declaration": "C0Semigroup.norm_conjugate_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/6ed00c5ce310f728f446.lean:111:4: error: `simp` made no progress\n/workspace/out_all/6ed00c5ce310f728f446.lean:106:4: error: (kernel) declaration has metavariables 'C0Semigroup.conjugate'\n/workspace/out_all/6ed00c5ce310f728f446.lean:121:8: error: (kernel) application type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "70643fbe255e136f248c",
+   "repository": "sascha2718/qi-trees-and-matching-lean",
+   "declaration": "main_sum_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/70643fbe255e136f248c.lean:401:85: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "70a63d28fe6e4fda1ef4",
+   "repository": "vidick/MIPRE-formalization",
+   "declaration": "exists_trigSym",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/70a63d28fe6e4fda1ef4.lean:222:30: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n/workspace/out_all/70a63d28fe6e4fda1ef4.lean:243:30: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7115ea4817cf00f2520d",
+   "repository": "scottnarmstrong/CIVAxisymmetric",
+   "declaration": "abs_spatialDeriv_newtonianKernel_le_euclidean",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7115ea4817cf00f2520d.lean:262:64: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/7115ea4817cf00f2520d.lean:276:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "71b2a108c634e5574a7f",
+   "repository": "scottnarmstrong/MarkovProcess",
+   "declaration": "norm_onePointSemigroupAction_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/71b2a108c634e5574a7f.lean:816:47: error: Function expected at\n/workspace/out_all/71b2a108c634e5574a7f.lean:816:53: error(lean.unknownIdentifier): Unknown identifier `hS`\n/workspace/out_all/71b2a108c634e5574a7f.lean:817:43: error(lean.unknownIdentifier): Unknown identifier `hS`\n/workspace/out_all/71b2a108c634e5574a7f.lean:817:23: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n/workspace/out_all/71b2a108c634e5574a7f.lean:877:2: error(lean.unknownIdentifier): Unknown identifier `PositiveC0SemigroupKernel.kernelSemigroup`\n/worksp",
+   "status": "compile_failed"
+  },
+  {
+   "id": "728cf1b47e59eaeb162d",
+   "repository": "pmaronow/fluctuations-palomar",
+   "declaration": "quadraticHamiltonian_hamming_sparse_field_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/728cf1b47e59eaeb162d.lean:135:20: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "73838a607487d227e2b4",
+   "repository": "CoolRmal/falconer-theta-gauge",
+   "declaration": "spaceSplittingFarCrossSum_le_of_ofReal_majorant",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/73838a607487d227e2b4.lean:138:23: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "73c874eec01cac6dadec",
+   "repository": "jvanwinden/PlanarFrontStability",
+   "declaration": "norm_heatCriticalResidual_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/73c874eec01cac6dadec.lean:66:21: error: typeclass instance problem is stuck\n/workspace/out_all/73c874eec01cac6dadec.lean:77:3: error: cannot coerce to function\n/workspace/out_all/73c874eec01cac6dadec.lean:119:5: error: synthesized type class instance is not definitionally equal to expression inferred by typing rules, synthesized\n/workspace/out_all/73c874eec01cac6dadec.lean:132:28: error(lean.unknownIdentifier): Unknown identifier `toBCF_injective`\n/workspace/out_all/73c874eec01cac6dadec.lean:140:6: error: synthesized type class instance is not definitionally equal to express",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7589928078c735aa1b64",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "ColorSetup.mask_neighbor",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7589928078c735aa1b64.lean:268:0: error: unused universe parameter 'w_u_2'\n/workspace/out_all/7589928078c735aa1b64.lean:343:0: error: unused universe parameter 'w_u_2'\n/workspace/out_all/7589928078c735aa1b64.lean:431:0: error: unused universe parameter 'w_u_2'\n/workspace/out_all/7589928078c735aa1b64.lean:458:0: error: unused universe parameter 'w_u_2'\n/workspace/out_all/7589928078c735aa1b64.lean:497:19: error(lean.invalidField): Invalid field `rival_bound`: The environment does not contain `Auto.ColorSetup.rival_bound`, so it is not possible to project the field `rival_bound`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "75b67ea9dcecb1cca777",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "theta_energy_hasDerivAt",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/75b67ea9dcecb1cca777.lean:185:4: error: Type mismatch\n/workspace/out_all/75b67ea9dcecb1cca777.lean:197:86: error: Application type mismatch: The argument\n/workspace/out_all/75b67ea9dcecb1cca777.lean:165:82: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "769f49e537e51c3b202c",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "norm_iteratedFDeriv_cvProd_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/769f49e537e51c3b202c.lean:244:164: error: Application type mismatch: The argument\n/workspace/out_all/769f49e537e51c3b202c.lean:248:169: error: Application type mismatch: The argument\n/workspace/out_all/769f49e537e51c3b202c.lean:282:0: error: Unexpected name `Main` after `end`: The current section is unnamed\n/workspace/out_all/769f49e537e51c3b202c.lean:306:0: error: Missing name after `end`: Expected the current scope name `Main`\n/workspace/out_all/769f49e537e51c3b202c.lean:307:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`\n/workspa",
+   "status": "compile_failed"
+  },
+  {
+   "id": "77b4d7a625a578f933a0",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "closedCell_product_jet_zero",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/77b4d7a625a578f933a0.lean:46:4: error: unexpected token 'private'; expected 'scoped', checkColGt or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "797508ba52ece6da6f4b",
+   "repository": "pmaronow/aging-palomar",
+   "declaration": "norm_predictableCoefficient_sub_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/797508ba52ece6da6f4b.lean:525:18: error: type class instance expected\n/workspace/out_all/797508ba52ece6da6f4b.lean:550:4: error: Application type mismatch: The argument\n/workspace/out_all/797508ba52ece6da6f4b.lean:597:4: error: Application type mismatch: The argument\n/workspace/out_all/797508ba52ece6da6f4b.lean:597:55: error: Application type mismatch: The argument\n/workspace/out_all/797508ba52ece6da6f4b.lean:654:16: error: typeclass instance problem is stuck\n/workspace/out_all/797508ba52ece6da6f4b.lean:663:4: error(lean.unknownIdentifier): Unknown identifier `measurableSet_",
+   "status": "compile_failed"
+  },
+  {
+   "id": "79a057ebfbe8aebd671d",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "isGoodKernel_compKernel",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/79a057ebfbe8aebd671d.lean:272:0: error: Unexpected name `Main` after `end`: The current section is unnamed\n/workspace/out_all/79a057ebfbe8aebd671d.lean:296:0: error: Missing name after `end`: Expected the current scope name `Main`\n/workspace/out_all/79a057ebfbe8aebd671d.lean:297:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`\n/workspace/out_all/79a057ebfbe8aebd671d.lean:298:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7c525e6eddea41009b1f",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "frequency_tail_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7c525e6eddea41009b1f.lean:190:40: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7c7fcf0e14eb11542af9",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "coarseCoeffPolynomial_word_entry_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7c7fcf0e14eb11542af9.lean:336:60: error: Application type mismatch: The argument\n/workspace/out_all/7c7fcf0e14eb11542af9.lean:362:68: error: Application type mismatch: The argument\n/workspace/out_all/7c7fcf0e14eb11542af9.lean:373:62: error: Application type mismatch: The argument\n/workspace/out_all/7c7fcf0e14eb11542af9.lean:398:74: error: Application type mismatch: The argument\n/workspace/out_all/7c7fcf0e14eb11542af9.lean:398:99: error: Application type mismatch: The argument\n/workspace/out_all/7c7fcf0e14eb11542af9.lean:327:39: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7d7d82fda59cf1c1e6a3",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "amnr_material_gradient_mixed_abs_le_of_lower_gradient_bounds",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7d7d82fda59cf1c1e6a3.lean:332:76: error: Application type mismatch: The argument\n/workspace/out_all/7d7d82fda59cf1c1e6a3.lean:363:90: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7dcf8c8a80336b85247b",
+   "repository": "scottnarmstrong/MarkovProcess",
+   "declaration": "IsConservative.lintegral_exitTime_pow_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7dcf8c8a80336b85247b.lean:404:9: error: Function expected at\n/workspace/out_all/7dcf8c8a80336b85247b.lean:444:54: error: Application type mismatch: The argument\n/workspace/out_all/7dcf8c8a80336b85247b.lean:453:9: error: Function expected at\n/workspace/out_all/7dcf8c8a80336b85247b.lean:454:64: error(lean.unknownIdentifier): Unknown identifier `measurable_finCons`\n/workspace/out_all/7dcf8c8a80336b85247b.lean:493:2: error: typeclass instance problem is stuck\n/workspace/out_all/7dcf8c8a80336b85247b.lean:498:32: error(lean.unknownIdentifier): Unknown identifier `measurable_ordere",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7ed54fc39e40a6a41ced",
+   "repository": "pmaronow/arbitrary-rsb-palomar",
+   "declaration": "stationary_second_comparison",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7ed54fc39e40a6a41ced.lean:193:56: error: Application type mismatch: The argument\n/workspace/out_all/7ed54fc39e40a6a41ced.lean:195:56: error: Application type mismatch: The argument\n/workspace/out_all/7ed54fc39e40a6a41ced.lean:197:56: error: Application type mismatch: The argument\n/workspace/out_all/7ed54fc39e40a6a41ced.lean:198:58: error: Application type mismatch: The argument\n/workspace/out_all/7ed54fc39e40a6a41ced.lean:210:44: error: Application type mismatch: The argument\n/workspace/out_all/7ed54fc39e40a6a41ced.lean:211:71: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "7eebdb09b09de775119b",
+   "repository": "jtraverso/typed-triangle-absorption",
+   "declaration": "typeWeightF_PAR504_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/7eebdb09b09de775119b.lean:349:70: error(lean.unknownIdentifier): Unknown identifier `tripartiteTypeWeight`\n/workspace/out_all/7eebdb09b09de775119b.lean:350:13: error(lean.unknownIdentifier): Unknown identifier `abcLift`\n/workspace/out_all/7eebdb09b09de775119b.lean:350:47: error(lean.unknownIdentifier): Unknown identifier `abcBase`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "812a7848a713ed82484a",
+   "repository": "pmaronow/ccv-palomar",
+   "declaration": "bilinear_energy_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/812a7848a713ed82484a.lean:83:45: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/812a7848a713ed82484a.lean:80:39: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/812a7848a713ed82484a.lean:63:37: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/812a7848a713ed82484a.lean:59:37: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/812a7848a713ed82484a.lean:87:90: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n/workspace/",
+   "status": "compile_failed"
+  },
+  {
+   "id": "813b0a51b6097dccb93c",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "spatialDifferenceQuotient_sq_le_segmentIntegral",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/813b0a51b6097dccb93c.lean:227:33: error: Application type mismatch: The argument\n/workspace/out_all/813b0a51b6097dccb93c.lean:224:93: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "83bd6ffa2e9fcc4940a9",
+   "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+   "declaration": "bootstrap_absorption_inequality",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/83bd6ffa2e9fcc4940a9.lean:41:23: error: Function expected at\n/workspace/out_all/83bd6ffa2e9fcc4940a9.lean:44:14: error: Function expected at\n/workspace/out_all/83bd6ffa2e9fcc4940a9.lean:213:37: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/83bd6ffa2e9fcc4940a9.lean:269:2: error: linarith failed to find a contradiction",
+   "status": "compile_failed"
+  },
+  {
+   "id": "83be3f88818b9c93b1c7",
+   "repository": "methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+   "declaration": "lie_exponential_conjugation_norm_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/83be3f88818b9c93b1c7.lean:69:20: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/83be3f88818b9c93b1c7.lean:96:6: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/83be3f88818b9c93b1c7.lean:96:6: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/83be3f88818b9c93b1c7.lean:159:24: error: unsolved goals\n/workspace/out_all/83be3f88818b9c93b1c7.lean:161:4: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/",
+   "status": "compile_failed"
+  },
+  {
+   "id": "85681e24bb25c33237f7",
+   "repository": "pmaronow/ccv-palomar",
+   "declaration": "matrixChebyshevU_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/85681e24bb25c33237f7.lean:25:114: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/85681e24bb25c33237f7.lean:35:22: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern\n/workspace/out_all/85681e24bb25c33237f7.lean:47:101: error: Application type mismatch: The argument\n/workspace/out_all/85681e24bb25c33237f7.lean:47:29: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "85e77bab4b2da285cec0",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothing_norm_schwartz_pairing_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/85e77bab4b2da285cec0.lean:202:15: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "87857fa9a6314220bd33",
+   "repository": "pmaronow/arbitrary-rsb-palomar",
+   "declaration": "lipschitzWith_terminalIncrementCLM",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/87857fa9a6314220bd33.lean:97:45: error(lean.unknownIdentifier): Unknown identifier `terminalIncrement_apply`\n/workspace/out_all/87857fa9a6314220bd33.lean:97:24: error: unsolved goals\n/workspace/out_all/87857fa9a6314220bd33.lean:99:46: error(lean.unknownIdentifier): Unknown identifier `terminalIncrement_apply`\n/workspace/out_all/87857fa9a6314220bd33.lean:99:25: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "882153b3ca99097846ab",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "norm_occCoef_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/882153b3ca99097846ab.lean:113:43: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:116:42: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:116:61: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:127:42: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:130:42: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:130:61: error: Function expected at\n/workspace/out_all/882153b3ca99097846ab.lean:133:54: error: Function expected at\n/workspace/out_all/882153b3ca9909",
+   "status": "compile_failed"
+  },
+  {
+   "id": "8a3f97c6226b8e90a0a2",
+   "repository": "sthubbar/goldbach-lean",
+   "declaration": "piece",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/8a3f97c6226b8e90a0a2.lean:278:36: error: Application type mismatch: The argument\n/workspace/out_all/8a3f97c6226b8e90a0a2.lean:282:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "8acbe9f96ca6d0a8c4a3",
+   "repository": "archernikov/abel-formalization",
+   "declaration": "symmetricMonomialMap_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/8acbe9f96ca6d0a8c4a3.lean:36:13: error(lean.unknownIdentifier): Unknown identifier `symmetricMonomialMap_apply`\n/workspace/out_all/8acbe9f96ca6d0a8c4a3.lean:37:2: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "8f703ecc9664259ebb60",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "abs_sqNorm_valueCLM_sub_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/8f703ecc9664259ebb60.lean:768:4: error: typeclass instance problem is stuck\n/workspace/out_all/8f703ecc9664259ebb60.lean:772:56: error: typeclass instance problem is stuck\n/workspace/out_all/8f703ecc9664259ebb60.lean:779:14: error(lean.unknownIdentifier): Unknown identifier `smoothCompactlySupportedW1pGraph_add`\n/workspace/out_all/8f703ecc9664259ebb60.lean:780:15: error(lean.unknownIdentifier): Unknown identifier `smoothCompactlySupportedW1pGraph_smul`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9062a01877dce527498c",
+   "repository": "jtraverso/typed-triangle-absorption",
+   "declaration": "typeWeightF_PAR505_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9062a01877dce527498c.lean:355:70: error(lean.unknownIdentifier): Unknown identifier `tripartiteTypeWeight`\n/workspace/out_all/9062a01877dce527498c.lean:356:13: error(lean.unknownIdentifier): Unknown identifier `abcLift`\n/workspace/out_all/9062a01877dce527498c.lean:356:47: error(lean.unknownIdentifier): Unknown identifier `abcBase`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "91be4f037c1683fb637d",
+   "repository": "ProofFleet/prooffleet",
+   "declaration": "setIntegral_norm_sq_typicalSCellReplacement_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/91be4f037c1683fb637d.lean:76:2: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "92b5a9daa9504578db1e",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "norm_principalValuePairing_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/92b5a9daa9504578db1e.lean:56:36: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "932f088c3efdf1ff8585",
+   "repository": "DiarHaidary/Improved-SparseStack-Constants",
+   "declaration": "PairLeg.level_projection_contracts",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/932f088c3efdf1ff8585.lean:260:16: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "93f6a85a238c01fbd97e",
+   "repository": "rwst/Subspace-Theorems",
+   "declaration": "prod_successiveMinimum_mixedBall_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/93f6a85a238c01fbd97e.lean:1092:29: error: typeclass instance problem is stuck\n/workspace/out_all/93f6a85a238c01fbd97e.lean:1481:33: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "94677656ff5e45e63a97",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "ms8_tendsto_sq_sub_monoP",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/94677656ff5e45e63a97.lean:338:36: error: Application type mismatch: The argument\n/workspace/out_all/94677656ff5e45e63a97.lean:858:0: error: invalid 'include', variable `hC\u03c7l` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "94dc16df5a08c3d880b4",
+   "repository": "ProofFleet/prooffleet",
+   "declaration": "norm_halaszKernel_of_one_le_of_le_two_mul",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/94dc16df5a08c3d880b4.lean:223:4: error: Type mismatch: After simplification, term\n/workspace/out_all/94dc16df5a08c3d880b4.lean:239:50: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "95496cccd5589b559f48",
+   "repository": "ykanoria/FD1d-Lean",
+   "declaration": "lawL1_block_contraction",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/95496cccd5589b559f48.lean:61:28: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "982cd02a5e0d21d4c6ce",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "lintegral_nonstandard_pairing_le_of_averages_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/982cd02a5e0d21d4c6ce.lean:172:21: error: Function expected at\n/workspace/out_all/982cd02a5e0d21d4c6ce.lean:183:7: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "99285748ae1eddfa9158",
+   "repository": "scottnarmstrong/CIVAxisymmetric",
+   "declaration": "abs_spatialPartial_two_zero_div_le_of_segment_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/99285748ae1eddfa9158.lean:385:61: error: Application type mismatch: The argument\n/workspace/out_all/99285748ae1eddfa9158.lean:390:55: error: Application type mismatch: The argument\n/workspace/out_all/99285748ae1eddfa9158.lean:389:16: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "99792e8e2230112038c4",
+   "repository": "loefflerd/KN-scratch",
+   "declaration": "ANb.norm_le_of_monic_relation",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/99792e8e2230112038c4.lean:87:0: error: unexpected identifier; expected command\n/workspace/out_all/99792e8e2230112038c4.lean:130:90: error(lean.unknownIdentifier): Unknown constant `P2MW.S_ModularCurve_eventually_norm_slash_le_of_isIntegral_adjoin_coeffEmb_jq_inv.solution`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9a167233d89012c0c746",
+   "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+   "declaration": "abs_dfiBesselY0_sub_neumannTwoTerm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9a167233d89012c0c746.lean:204:36: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/9a167233d89012c0c746.lean:226:8: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9a2dd5bc062bd9603fc2",
+   "repository": "pmaronow/aging-palomar",
+   "declaration": "norm_driverItoMap_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9a2dd5bc062bd9603fc2.lean:495:18: error: type class instance expected\n/workspace/out_all/9a2dd5bc062bd9603fc2.lean:520:4: error: Application type mismatch: The argument\n/workspace/out_all/9a2dd5bc062bd9603fc2.lean:567:4: error: Application type mismatch: The argument\n/workspace/out_all/9a2dd5bc062bd9603fc2.lean:567:55: error: Application type mismatch: The argument\n/workspace/out_all/9a2dd5bc062bd9603fc2.lean:853:16: error: typeclass instance problem is stuck\n/workspace/out_all/9a2dd5bc062bd9603fc2.lean:862:4: error(lean.unknownIdentifier): Unknown identifier `measurableSet_",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9af5dd48dce44481a2c1",
+   "repository": "enaslund/unit-distance-bound-0.0427",
+   "declaration": "ofWithZeroValuation_val_add_ge_min",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9af5dd48dce44481a2c1.lean:201:12: error(lean.unknownIdentifier): Unknown identifier `ofWithZeroValuation_val`\n/workspace/out_all/9af5dd48dce44481a2c1.lean:201:6: error: `simp` made no progress\n/workspace/out_all/9af5dd48dce44481a2c1.lean:217:12: error(lean.unknownIdentifier): Unknown identifier `ofWithZeroValuation_val`\n/workspace/out_all/9af5dd48dce44481a2c1.lean:217:6: error: `simp` made no progress",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9b09e8ed74e2fd39d4e2",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingFlatPart_energy_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9b09e8ed74e2fd39d4e2.lean:257:13: error: typeclass instance problem is stuck\n/workspace/out_all/9b09e8ed74e2fd39d4e2.lean:262:7: error(lean.unknownIdentifier): Unknown identifier `smoothing_memLp_sharpMultiplier`\n/workspace/out_all/9b09e8ed74e2fd39d4e2.lean:286:28: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/9b09e8ed74e2fd39d4e2.lean:312:23: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9e26ee5150dccb90fee9",
+   "repository": "scottnarmstrong/Frohlich-Spencer",
+   "declaration": "FroehlichSpencer.T12.norm_finiteGreen_le_of_twoCut.hcut",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9e26ee5150dccb90fee9.lean:245:4: error: unexpected token 'set_option'; expected 'private', 'scoped', checkColGt or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "9f747f0dc520613be042",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "LimitArbitraryTest.arbitraryTest_gradientCutoffCoordError_l2Sq_tendsto",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/9f747f0dc520613be042.lean:320:4: error: overloaded, errors \n/workspace/out_all/9f747f0dc520613be042.lean:322:4: error: overloaded, errors \n/workspace/out_all/9f747f0dc520613be042.lean:324:28: error(lean.unknownIdentifier): Unknown identifier `ScalarProductTimeL2`\n/workspace/out_all/9f747f0dc520613be042.lean:326:28: error(lean.unknownIdentifier): Unknown identifier `GradientProductTimeL2`\n/workspace/out_all/9f747f0dc520613be042.lean:328:36: error(lean.unknownIdentifier): Unknown identifier `ScalarProductTimeL2`\n/workspace/out_all/9f747f0dc520613be042.lean:330:36: error(lean.u",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a1c9ae21d6e34d34914e",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "positiveCutoffDriftBilinear_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a1c9ae21d6e34d34914e.lean:761:4: error: Type mismatch: After simplification, term\n/workspace/out_all/a1c9ae21d6e34d34914e.lean:763:4: error: Type mismatch: After simplification, term\n/workspace/out_all/a1c9ae21d6e34d34914e.lean:766:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a3ee86dc6af7711cf951",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "lintegral_nonstandard_pairing_le_sum_local_averages",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a3ee86dc6af7711cf951.lean:176:21: error: Function expected at\n/workspace/out_all/a3ee86dc6af7711cf951.lean:187:7: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a4c0cbfc347b02124461",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "base_profile_holder_bound_rescale",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a4c0cbfc347b02124461.lean:267:104: error: Application type mismatch: The argument\n/workspace/out_all/a4c0cbfc347b02124461.lean:271:104: error: Application type mismatch: The argument\n/workspace/out_all/a4c0cbfc347b02124461.lean:275:64: error: Application type mismatch: The argument\n/workspace/out_all/a4c0cbfc347b02124461.lean:278:13: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a57951cdfb580b1cc97f",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "tendsto_integral_abs_valueSq_of_sqNorm",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a57951cdfb580b1cc97f.lean:768:4: error: typeclass instance problem is stuck\n/workspace/out_all/a57951cdfb580b1cc97f.lean:772:56: error: typeclass instance problem is stuck\n/workspace/out_all/a57951cdfb580b1cc97f.lean:779:14: error(lean.unknownIdentifier): Unknown identifier `smoothCompactlySupportedW1pGraph_add`\n/workspace/out_all/a57951cdfb580b1cc97f.lean:780:15: error(lean.unknownIdentifier): Unknown identifier `smoothCompactlySupportedW1pGraph_smul`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a83a0541dc8bcc830b51",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "sq_sum_le_of_support",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a83a0541dc8bcc830b51.lean:62:43: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:65:42: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:65:61: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:76:42: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:79:42: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:79:61: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.lean:82:54: error: Function expected at\n/workspace/out_all/a83a0541dc8bcc830b51.",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a92849eef0505bc3bf42",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "abs_coordPartial\u2082_smoothWeighted_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a92849eef0505bc3bf42.lean:442:107: error: Application type mismatch: The argument\n/workspace/out_all/a92849eef0505bc3bf42.lean:438:43: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "a9a2edfb5903715572d1",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "AccSetup.Hyp.U_eLpNorm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/a9a2edfb5903715572d1.lean:421:116: error: don't know how to synthesize implicit argument `M`\n/workspace/out_all/a9a2edfb5903715572d1.lean:448:2: error: failed to synthesize\n/workspace/out_all/a9a2edfb5903715572d1.lean:494:5: error: failed to synthesize\n/workspace/out_all/a9a2edfb5903715572d1.lean:949:59: error(lean.unknownIdentifier): Unknown identifier `Auto.ColData`\n/workspace/out_all/a9a2edfb5903715572d1.lean:991:6: error(lean.unknownIdentifier): Unknown identifier `Auto.FitPrefix`\n/workspace/out_all/a9a2edfb5903715572d1.lean:1088:11: error: Function expected at\n/workspac",
+   "status": "compile_failed"
+  },
+  {
+   "id": "abf788af59da72af05a6",
+   "repository": "AIQ-Kitware/aiq-yu-wang-samworth-2015-useful-variant-davis-kahan-statisticians-formalization",
+   "declaration": "norm_projection_sub_projection_graphSubspace",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/abf788af59da72af05a6.lean:80:35: error(lean.unknownIdentifier): Unknown constant `ContinuousLinearMap.Reduces`\n/workspace/out_all/abf788af59da72af05a6.lean:82:3: error(lean.unknownIdentifier): Unknown constant `Submodule.reflectionOperator`\n/workspace/out_all/abf788af59da72af05a6.lean:93:35: error(lean.unknownIdentifier): Unknown constant `ContinuousLinearMap.norm_add_eq_max_of_block`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "acc21435623d04c2ec38",
+   "repository": "vltanh/lean4-squares-in-circles",
+   "declaration": "transverse_distance_lt_one",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/acc21435623d04c2ec38.lean:84:0: error: invalid 'include', variable `h` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ad3796447b1c82f4f59a",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "operatorDerivative_ae_le_derivativeSup",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ad3796447b1c82f4f59a.lean:77:101: error: typeclass instance problem is stuck\n/workspace/out_all/ad3796447b1c82f4f59a.lean:81:20: error(lean.unknownIdentifier): Unknown constant `Seminorm.coordinateTupleNonempty`\n/workspace/out_all/ad3796447b1c82f4f59a.lean:82:48: error: Function expected at\n/workspace/out_all/ad3796447b1c82f4f59a.lean:141:31: error(lean.unknownIdentifier): Unknown constant `Seminorm.coordinateTupleNonempty`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ae03a210926d5b328ff9",
+   "repository": "yuningyang19/parameter_free_gradient_p",
+   "declaration": "psd_pairing_cauchy_schwarz",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ae03a210926d5b328ff9.lean:51:4: error: unexpected token '/--'; expected 'private', 'scoped', checkColGt or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b055cd0c6439cd8ad4a0",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "i2Psi2LintBound_diag_cross",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b055cd0c6439cd8ad4a0.lean:339:89: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b055cd0c6439cd8ad4a0.lean:346:85: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b055cd0c6439cd8ad4a0.lean:433:20: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b11bae36b27ea83101a1",
+   "repository": "scottnarmstrong/Frohlich-Spencer",
+   "declaration": "one_add_mul_lineFactor_ge_loc",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b11bae36b27ea83101a1.lean:401:72: error(lean.invalidField): Invalid field `card`: The environment does not contain `Set.card`, so it is not possible to project the field `card` from an expression\n/workspace/out_all/b11bae36b27ea83101a1.lean:404:65: error(lean.invalidField): Invalid field `card`: The environment does not contain `Set.card`, so it is not possible to project the field `card` from an expression\n/workspace/out_all/b11bae36b27ea83101a1.lean:405:75: error(lean.invalidField): Invalid field `card`: The environment does not contain `Set.card`, so it is not possible to",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b1701f6e6cb92cb511b2",
+   "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+   "declaration": "bootstrap_preabsorption",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b1701f6e6cb92cb511b2.lean:45:23: error: Function expected at\n/workspace/out_all/b1701f6e6cb92cb511b2.lean:48:14: error: Function expected at\n/workspace/out_all/b1701f6e6cb92cb511b2.lean:97:73: error: Function expected at\n/workspace/out_all/b1701f6e6cb92cb511b2.lean:346:37: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b1701f6e6cb92cb511b2.lean:347:84: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b1701f6e6cb92cb511b2.lean:366:41: error(lean.synthInstanceFailed): failed to synt",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b1872c52e5b8c9c17395",
+   "repository": "LR-UK/Bounded-orbit-wandering-domains",
+   "declaration": "norm_mul_sub_one_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b1872c52e5b8c9c17395.lean:83:80: error: Tactic `aesop` failed, failed to prove the goal after exhaustive search.",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b273e0fb123c7e96cc85",
+   "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+   "declaration": "locallyLipschitz_analyticContourCompositionOnLocus",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b273e0fb123c7e96cc85.lean:149:5: error: Function expected at\n/workspace/out_all/b273e0fb123c7e96cc85.lean:150:24: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b273e0fb123c7e96cc85.lean:175:7: error: Function expected at\n/workspace/out_all/b273e0fb123c7e96cc85.lean:272:39: error(lean.unknownIdentifier): Unknown constant `Euler2D.ContourC1Space.lift`\n/workspace/out_all/b273e0fb123c7e96cc85.lean:273:22: error(lean.unknownIdentifier): Unknown constant `Euler2D.ContourC1Space.lift`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b2bbd5bc928d4eb1c2c4",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "abs_dK_dK_chain_le_global_i3Psi",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b2bbd5bc928d4eb1c2c4.lean:230:69: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b2bbd5bc928d4eb1c2c4.lean:263:49: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b44680814a2ff5c3f0db",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "independentPairTarget_taylor_separation",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b44680814a2ff5c3f0db.lean:103:59: error(lean.unknownIdentifier): Unknown identifier `signLaw_apply`\n/workspace/out_all/b44680814a2ff5c3f0db.lean:105:6: error: `fun_prop` was unable to prove `Measurable fun a => (signLaw ((if positive = true then 1 else -1) * Real.cos (\u2191M * a)) \u22ef) st`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b52a440d4d3574f48f2f",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "cubeBracketAverage_le_boxCenterAverage",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b52a440d4d3574f48f2f.lean:290:41: error(lean.unknownIdentifier): Unknown identifier `FrequencyRemainder`\n/workspace/out_all/b52a440d4d3574f48f2f.lean:334:41: error(lean.unknownIdentifier): Unknown identifier `FrequencyRemainder`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b69fef6bf3ec3c959f27",
+   "repository": "plasma-ai/erdos-408",
+   "declaration": "tube_of_live",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b69fef6bf3ec3c959f27.lean:525:17: error: Type mismatch\n/workspace/out_all/b69fef6bf3ec3c959f27.lean:531:27: error: Type mismatch\n/workspace/out_all/b69fef6bf3ec3c959f27.lean:536:35: error: Type mismatch\n/workspace/out_all/b69fef6bf3ec3c959f27.lean:541:33: error: Type mismatch\n/workspace/out_all/b69fef6bf3ec3c959f27.lean:546:35: error: Type mismatch\n/workspace/out_all/b69fef6bf3ec3c959f27.lean:603:6: error: linarith failed to find a contradiction",
+   "status": "compile_failed"
+  },
+  {
+   "id": "b6b56a5da111536e87bf",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "norm_localizedBadPiece_le_mass",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/b6b56a5da111536e87bf.lean:172:21: error: Function expected at\n/workspace/out_all/b6b56a5da111536e87bf.lean:183:7: error: Function expected at\n/workspace/out_all/b6b56a5da111536e87bf.lean:572:76: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b6b56a5da111536e87bf.lean:572:94: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/b6b56a5da111536e87bf.lean:580:46: error(lean.unknownIdentifier): Unknown identifier `krauseLaceyPositiveKernel_apply`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ba98e5771189710ef6ff",
+   "repository": "scottnarmstrong/RegularityStructures",
+   "declaration": "holderBesovENorm_natMoment_le_of_pointwise",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ba98e5771189710ef6ff.lean:473:58: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/ba98e5771189710ef6ff.lean:511:68: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/ba98e5771189710ef6ff.lean:533:10: error: (deterministic) timeout at `isDefEq`, maximum number of heartbeats (200000) has been reached\n/workspace/out_all/ba98e5771189710ef6ff.lean:516:70: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+   "status": "compile_failed"
+  },
+  {
+   "id": "bb80dd9be488521be413",
+   "repository": "rwst/Subspace-Theorems",
+   "declaration": "exists_basis_prod_arakelovMulHeight_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/bb80dd9be488521be413.lean:1478:33: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "bd4e17412fbbf257b5ec",
+   "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+   "declaration": "norm_sub_le_holder",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/bd4e17412fbbf257b5ec.lean:65:5: error: Function expected at\n/workspace/out_all/bd4e17412fbbf257b5ec.lean:65:11: error: Function expected at\n/workspace/out_all/bd4e17412fbbf257b5ec.lean:74:36: error: Function expected at\n/workspace/out_all/bd4e17412fbbf257b5ec.lean:74:42: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "beb768656d083eabc868",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "dyadicSpatialInner_shell_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/beb768656d083eabc868.lean:1269:131: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "bef6ed3f639773a4e397",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "PathColumnSystem.coef_sq_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/bef6ed3f639773a4e397.lean:422:11: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:422:11: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:424:4: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:432:11: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:432:11: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:434:4: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e397.lean:436:4: error: Function expected at\n/workspace/out_all/bef6ed3f639773a4e",
+   "status": "compile_failed"
+  },
+  {
+   "id": "bf9351804562edbaa597",
+   "repository": "AIQ-Kitware/aiq-davis-kahan-1970-rotation-eigenvectgors-perturbation-formalization",
+   "declaration": "sylvester_mem_and_gauge_le_of_bound_inverse",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/bf9351804562edbaa597.lean:212:2: error: typeclass instance problem is stuck\n/workspace/out_all/bf9351804562edbaa597.lean:232:15: error: unsolved goals\n/workspace/out_all/bf9351804562edbaa597.lean:287:2: error: typeclass instance problem is stuck\n/workspace/out_all/bf9351804562edbaa597.lean:307:12: error(lean.unknownIdentifier): Unknown identifier `val_zero`\n/workspace/out_all/bf9351804562edbaa597.lean:303:19: error: unsolved goals\n/workspace/out_all/bf9351804562edbaa597.lean:323:12: error(lean.unknownIdentifier): Unknown identifier `val_zero`\n/workspace/out_all/bf9351804562e",
+   "status": "compile_failed"
+  },
+  {
+   "id": "bfd9e7caff5574814f70",
+   "repository": "DiarHaidary/Improved-SparseStack-Constants",
+   "declaration": "SparseStackV3.ConcreteSharedFactor.spectator_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/bfd9e7caff5574814f70.lean:75:43: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c0e6058b22f37a696e8f",
+   "repository": "ProofFleet/prooffleet",
+   "declaration": "norm_halaszKernel_of_one_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c0e6058b22f37a696e8f.lean:196:40: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c119ed9528f700560d0e",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "ae_dyadicSpatialInner_hardy",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c119ed9528f700560d0e.lean:1243:90: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c2d3702a3701e4480e2e",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "unit_block_extension",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c2d3702a3701e4480e2e.lean:24:29: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:29:48: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:29:62: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:39:4: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:39:14: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:43:39: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.lean:43:45: error: Function expected at\n/workspace/out_all/c2d3702a3701e4480e2e.l",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c3c9fbe0b6beecb0458f",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "sqMass_row_ne_top",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c3c9fbe0b6beecb0458f.lean:241:0: error: Unexpected name `Main` after `end`: The current section is unnamed\n/workspace/out_all/c3c9fbe0b6beecb0458f.lean:265:0: error: Missing name after `end`: Expected the current scope name `Main`\n/workspace/out_all/c3c9fbe0b6beecb0458f.lean:266:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`\n/workspace/out_all/c3c9fbe0b6beecb0458f.lean:267:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c4bae3c0e88721b6e41f",
+   "repository": "vltanh/lean4-squares-in-circles",
+   "declaration": "projection_abs_le_rho0",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c4bae3c0e88721b6e41f.lean:84:0: error: invalid 'include', variable `h` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "c5dbd4ed5976a9f2d849",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "TypeZero.unitTail_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/c5dbd4ed5976a9f2d849.lean:407:43: error: Application type mismatch: The argument\n/workspace/out_all/c5dbd4ed5976a9f2d849.lean:422:49: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "cbe3924289ffb2c69430",
+   "repository": "masakioshikawa/rp2-rp3-lean",
+   "declaration": "mixedAABB_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/cbe3924289ffb2c69430.lean:46:25: error(lean.unknownIdentifier): Unknown constant `RP2.Rotation.Spin`\n/workspace/out_all/cbe3924289ffb2c69430.lean:54:6: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "cbe8c18315bb37110a0d",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingPiece_derivative_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/cbe8c18315bb37110a0d.lean:261:26: error: Application type mismatch: The argument\n/workspace/out_all/cbe8c18315bb37110a0d.lean:294:31: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "cdf9b7e797f61c631136",
+   "repository": "vidick/MIPRE-formalization",
+   "declaration": "norm_kronecker_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/cdf9b7e797f61c631136.lean:90:57: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "cf07f478175d4d78cc3f",
+   "repository": "loefflerd/KN-scratch",
+   "declaration": "isBoundedAtImInfty_of_mul_eq",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/cf07f478175d4d78cc3f.lean:88:0: error: unexpected identifier; expected command\n/workspace/out_all/cf07f478175d4d78cc3f.lean:91:0: error: unexpected identifier; expected command\n/workspace/out_all/cf07f478175d4d78cc3f.lean:94:0: error: unexpected identifier; expected command\n/workspace/out_all/cf07f478175d4d78cc3f.lean:106:36: error(lean.unknownIdentifier): Unknown identifier `\u210d`\n/workspace/out_all/cf07f478175d4d78cc3f.lean:107:21: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/cf07f478175d4d78cc3f.lean:123:2: error(lean.unknow",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d283fa31d530606dc49e",
+   "repository": "djalilchafai/ginibre-poincare",
+   "declaration": "ginibre_complex_two_projection_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d283fa31d530606dc49e.lean:354:53: error(lean.unknownIdentifier): Unknown identifier `GinibrePoincare.GinibreMassEvaluationStatement`\n/workspace/out_all/d283fa31d530606dc49e.lean:571:6: error: failed to infer `let` declaration type\n/workspace/out_all/d283fa31d530606dc49e.lean:570:43: error: unsolved goals\n/workspace/out_all/d283fa31d530606dc49e.lean:763:6: error: failed to infer `let` declaration type\n/workspace/out_all/d283fa31d530606dc49e.lean:762:74: error: unsolved goals\n/workspace/out_all/d283fa31d530606dc49e.lean:864:3: error(lean.unknownIdentifier): Unknown identifier ",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d317a5a8dca6c68cbdac",
+   "repository": "jtraverso/pseudorandom-hypergraph-matchings",
+   "declaration": "abs_Xp_inc_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d317a5a8dca6c68cbdac.lean:84:16: error(lean.synthInstanceFailed): failed to synthesize instance of type class",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d41a6dbe2d720b7de728",
+   "repository": "SauersML/group-approximation",
+   "declaration": "norm_baseVec_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d41a6dbe2d720b7de728.lean:79:4: error: unexpected token '('; expected 'scoped' or identifier\n/workspace/out_all/d41a6dbe2d720b7de728.lean:110:60: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d5bafc29453617c34958",
+   "repository": "geogleswift-glitch/-euler2d-finite-lp-nonuniqueness-palomar",
+   "declaration": "norm_eval_operator_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d5bafc29453617c34958.lean:65:14: error(lean.unknownIdentifier): Unknown identifier `eval_apply`\n/workspace/out_all/d5bafc29453617c34958.lean:65:2: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d694b6a025846711881f",
+   "repository": "pmaronow/arbitrary-rsb-palomar",
+   "declaration": "stationary_first_comparison",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d694b6a025846711881f.lean:113:56: error: Application type mismatch: The argument\n/workspace/out_all/d694b6a025846711881f.lean:118:54: error: Application type mismatch: The argument\n/workspace/out_all/d694b6a025846711881f.lean:122:54: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "d8e6c86bcb898ce140f1",
+   "repository": "SamPetkov/Erdos625-formalization",
+   "declaration": "coColorable_real_seed_of_count",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/d8e6c86bcb898ce140f1.lean:71:16: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dadb38b3d96726535e26",
+   "repository": "methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs",
+   "declaration": "coordinateAdjoint_riemann_variation_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dadb38b3d96726535e26.lean:246:14: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dbe064b5f31fe6a7ebb0",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingSharpPart_norm_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dbe064b5f31fe6a7ebb0.lean:244:13: error: typeclass instance problem is stuck\n/workspace/out_all/dbe064b5f31fe6a7ebb0.lean:249:7: error(lean.unknownIdentifier): Unknown identifier `smoothing_memLp_sharpMultiplier`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dc1281cbb5ef9b006241",
+   "repository": "ehrlich-b/sequential-products-lean",
+   "declaration": "SpinFactor.instSequentialProductCore.sp_assoc_of_compatible",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dc1281cbb5ef9b006241.lean:449:0: error: This instance has 20 arguments that cannot be inferred using typeclass synthesis. Specifically",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dc335d98bd5f8a188e88",
+   "repository": "pmaronow/roughregime-palomar",
+   "declaration": "source_profile_increment_holder_bound_rescale",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dc335d98bd5f8a188e88.lean:555:53: error: Application type mismatch: The argument\n/workspace/out_all/dc335d98bd5f8a188e88.lean:571:107: error: Application type mismatch: The argument\n/workspace/out_all/dc335d98bd5f8a188e88.lean:573:107: error: Application type mismatch: The argument\n/workspace/out_all/dc335d98bd5f8a188e88.lean:586:78: error: Application type mismatch: The argument\n/workspace/out_all/dc335d98bd5f8a188e88.lean:592:25: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dc63a2fbc47faa6df34b",
+   "repository": "scottnarmstrong/CoarseDeGiorgi",
+   "declaration": "gaussDeriv_gaussian_local",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dc63a2fbc47faa6df34b.lean:108:15: error(lean.unknownIdentifier): Unknown identifier `CoarseDeGiorgi.NegSobolev.gaussianKernel_le_double_time._proof_1`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dc9c878a4383a787b161",
+   "repository": "SauersML/group-approximation",
+   "declaration": "norm_etaVec",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dc9c878a4383a787b161.lean:64:4: error: unexpected token '('; expected 'scoped' or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "df205d6c7dde83d3100b",
+   "repository": "CoolRmal/centered-maximal-constant",
+   "declaration": "tendsto_integral_mul_of_weak_test_convergence",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/df205d6c7dde83d3100b.lean:90:60: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "dfe9a950e4e1dda63e07",
+   "repository": "AxiomMath/DedekindZetaZeroFree",
+   "declaration": "norm_mellin_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/dfe9a950e4e1dda63e07.lean:56:88: error: Application type mismatch: The argument\n/workspace/out_all/dfe9a950e4e1dda63e07.lean:74:88: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "e0495328c8495135a38f",
+   "repository": "anastasiosfragkosmath/quadratic-carleson-palomar-submission",
+   "declaration": "norm_canonicalLevelBadPart_le_two_mul",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/e0495328c8495135a38f.lean:375:13: error: Type mismatch",
+   "status": "compile_failed"
+  },
+  {
+   "id": "e51dc3f98737af128d2f",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "restrictedRelativeCutoffSphericalMaximal_le_lowpass_add_band_sum",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/e51dc3f98737af128d2f.lean:732:21: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/e51dc3f98737af128d2f.lean:746:27: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/e51dc3f98737af128d2f.lean:748:27: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/e51dc3f98737af128d2f.lean:779:35: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n/workspace/out_all/e51dc3f98737af128d2f.lean:756:70: error: ",
+   "status": "compile_failed"
+  },
+  {
+   "id": "e6b349e2b0b371b0d8e7",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "iterate_cutoff_path_uniform_of_one_step",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/e6b349e2b0b371b0d8e7.lean:556:18: error(lean.unknownIdentifier): Unknown identifier `Hormander.B.cutoffSchwartzOuter_apply`\n/workspace/out_all/e6b349e2b0b371b0d8e7.lean:556:12: error: `simp` made no progress\n/workspace/out_all/e6b349e2b0b371b0d8e7.lean:569:18: error(lean.unknownIdentifier): Unknown identifier `Hormander.B.cutoffSchwartzOuter_apply`\n/workspace/out_all/e6b349e2b0b371b0d8e7.lean:569:12: error: `simp` made no progress\n/workspace/out_all/e6b349e2b0b371b0d8e7.lean:591:18: error(lean.unknownIdentifier): Unknown identifier `Hormander.B.cutoffSchwartzOuter_apply`\n/wo",
+   "status": "compile_failed"
+  },
+  {
+   "id": "e776fbd4e33a7b0aa345",
+   "repository": "loefflerd/KN-scratch",
+   "declaration": "isBoundedAtImInfty_eisensteinGSIF_slash",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/e776fbd4e33a7b0aa345.lean:129:0: error: unexpected identifier; expected command\n/workspace/out_all/e776fbd4e33a7b0aa345.lean:160:90: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ea65e0b97582bb6737c5",
+   "repository": "roos-j/lean-trilinearht",
+   "declaration": "abs_clipW_sub_le_of",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ea65e0b97582bb6737c5.lean:183:42: error: Function expected at\n/workspace/out_all/ea65e0b97582bb6737c5.lean:183:61: error: Function expected at\n/workspace/out_all/ea65e0b97582bb6737c5.lean:188:42: error: Function expected at\n/workspace/out_all/ea65e0b97582bb6737c5.lean:188:61: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "eaf1ca44ede76efa7aae",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "finite_iteration_estimate_uniform_of_one_step",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/eaf1ca44ede76efa7aae.lean:528:42: error: Application type mismatch: The argument\n/workspace/out_all/eaf1ca44ede76efa7aae.lean:617:14: error: Application type mismatch: The argument\n/workspace/out_all/eaf1ca44ede76efa7aae.lean:645:18: error(lean.unknownIdentifier): Unknown identifier `Hormander.B.cutoffSchwartzOuter_apply`\n/workspace/out_all/eaf1ca44ede76efa7aae.lean:645:12: error: `simp` made no progress\n/workspace/out_all/eaf1ca44ede76efa7aae.lean:659:18: error(lean.unknownIdentifier): Unknown identifier `Hormander.B.cutoffSchwartzOuter_apply`\n/workspace/out_all/eaf1ca44ede",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ec4650fc867e71b26e56",
+   "repository": "mario-ullrich/Lean-SNumbers",
+   "declaration": "norm_idEmbed",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ec4650fc867e71b26e56.lean:70:14: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/ec4650fc867e71b26e56.lean:81:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ec8294478a90319fe385",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "norm_continuousMultilinearMap_le_coordinateEvaluationSup",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ec8294478a90319fe385.lean:49:101: error: typeclass instance problem is stuck\n/workspace/out_all/ec8294478a90319fe385.lean:53:20: error(lean.unknownIdentifier): Unknown constant `Seminorm.coordinateTupleNonempty`\n/workspace/out_all/ec8294478a90319fe385.lean:54:48: error: Function expected at\n/workspace/out_all/ec8294478a90319fe385.lean:78:8: error: Type mismatch\n/workspace/out_all/ec8294478a90319fe385.lean:97:35: error(lean.unknownIdentifier): Unknown constant `Seminorm.coordinateTupleNonempty`\n/workspace/out_all/ec8294478a90319fe385.lean:99:48: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ee05a46dda202ad14f7e",
+   "repository": "amelieloher/hoermander-rothschild-stein",
+   "declaration": "one_step_regularization_of_D1",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ee05a46dda202ad14f7e.lean:977:78: error: Application type mismatch: The argument\n/workspace/out_all/ee05a46dda202ad14f7e.lean:978:48: error: Application type mismatch: The argument\n/workspace/out_all/ee05a46dda202ad14f7e.lean:1029:47: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ee4e33245bb073ea2b5a",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "dyadicSpatialInner_shell_moment_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ee4e33245bb073ea2b5a.lean:1275:64: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ef8cd32a253e4431cde8",
+   "repository": "vidick/MIPRE-formalization",
+   "declaration": "norm_cayley_sub_cayley_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ef8cd32a253e4431cde8.lean:152:51: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/ef8cd32a253e4431cde8.lean:154:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f0e0c72888fb0d57ec3b",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "mlc_energy1",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f0e0c72888fb0d57ec3b.lean:757:0: error: unexpected identifier; expected command",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f16d7dda1d4bc6e4eac6",
+   "repository": "CoolRmal/falconer-theta-gauge",
+   "declaration": "norm_averaged_circle_product_sub_stationary_product_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f16d7dda1d4bc6e4eac6.lean:138:23: error: unsolved goals",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f3d31f8db569ab5ce44c",
+   "repository": "scottnarmstrong/CaffarelliKohnNirenberg",
+   "declaration": "parabolic_setIntegral_norm_shift_le_complex",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f3d31f8db569ab5ce44c.lean:108:52: error: Application type mismatch: The argument\n/workspace/out_all/f3d31f8db569ab5ce44c.lean:111:0: error: declaration uses `sorry`\n/workspace/out_all/f3d31f8db569ab5ce44c.lean:113:0: error: declaration uses `sorry`\n/workspace/out_all/f3d31f8db569ab5ce44c.lean:115:4: error: declaration uses `sorry`\n/workspace/out_all/f3d31f8db569ab5ce44c.lean:124:23: error: declaration uses `sorry`",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f54949649ab4966c7305",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "sqMass_kernelApply_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f54949649ab4966c7305.lean:158:32: error: Application type mismatch: The argument\n/workspace/out_all/f54949649ab4966c7305.lean:268:0: error: Unexpected name `Main` after `end`: The current section is unnamed\n/workspace/out_all/f54949649ab4966c7305.lean:292:0: error: Missing name after `end`: Expected the current scope name `Main`\n/workspace/out_all/f54949649ab4966c7305.lean:293:0: error: Invalid name after `end`: Expected `Main`, but found `Auto.CalderonVaillancourt`\n/workspace/out_all/f54949649ab4966c7305.lean:294:0: error: Invalid name after `end`: Expected `Main`, but foun",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f54d09e4e2bb3b0c4bd2",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "smoothingFrequencyWindow_sum_integral",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f54d09e4e2bb3b0c4bd2.lean:240:80: error: Application type mismatch: The argument",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f5f47c87a7c9760b27c1",
+   "repository": "ykanoria/FD1d-Lean",
+   "declaration": "lawL1_iterate_le",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f5f47c87a7c9760b27c1.lean:61:28: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f8a14a9d2bf1da1a2fe8",
+   "repository": "roos-j/lean-dfr",
+   "declaration": "ms8_lintegral_sq_fib",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f8a14a9d2bf1da1a2fe8.lean:836:0: error: invalid 'include', variable `hC\u03c7l` has not been declared in the current scope",
+   "status": "compile_failed"
+  },
+  {
+   "id": "f8f4a75a476686cb1a6b",
+   "repository": "SauersML/group-approximation",
+   "declaration": "norm_shiftVec",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/f8f4a75a476686cb1a6b.lean:64:4: error: unexpected token '('; expected 'scoped' or identifier",
+   "status": "compile_failed"
+  },
+  {
+   "id": "fa5aa5e7b230257caa1b",
+   "repository": "roos-j/lean-spherical",
+   "declaration": "sphericalAverage_power_le_liminf_restrictedRelativeCutoff",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/fa5aa5e7b230257caa1b.lean:726:29: error(lean.synthInstanceFailed): failed to synthesize instance of type class\n/workspace/out_all/fa5aa5e7b230257caa1b.lean:744:4: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached\n/workspace/out_all/fa5aa5e7b230257caa1b.lean:737:79: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+   "status": "compile_failed"
+  },
+  {
+   "id": "fd077c94efbb0f136980",
+   "repository": "ykanoria/FD1d-Lean",
+   "declaration": "tendsto_lawL1_zero",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/fd077c94efbb0f136980.lean:61:28: error: Function expected at\n/workspace/out_all/fd077c94efbb0f136980.lean:93:11: error: Function expected at",
+   "status": "compile_failed"
+  },
+  {
+   "id": "fef18937f413203eae5c",
+   "repository": "cenozoic-works/rhone-theory",
+   "declaration": "sibError_iterate",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/fef18937f413203eae5c.lean:31:40: error: expected token",
+   "status": "compile_failed"
+  },
+  {
+   "id": "fefdcd1baa2fc7e79909",
+   "repository": "amelieloher/hypoelliptic-aleksandrov",
+   "declaration": "spatialMollify_eventually_bounded_on_compact",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/fefdcd1baa2fc7e79909.lean:179:11: error: typeclass instance problem is stuck",
+   "status": "compile_failed"
+  },
+  {
+   "id": "fefe352503cc56252361",
+   "repository": "scottnarmstrong/AVAnomalousDiffusion",
+   "declaration": "iterate_analytic_material_error_gradient_energy_bound",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/fefe352503cc56252361.lean:475:85: error: Application type mismatch: The argument\n  h_AVenhance_Infra_Section4_iterate_material_error_gradient_energy_bound hb\n/workspace/out_all/fefe352503cc56252361.lean:470:95: error: unsolved goals\nh_AVenhance_Infra_Section4_iterate_material_error_gradient_energy_bound :\nh_AVenhance_Infra_Section4_iterate_analytic_material_error_energy_bound :",
+   "status": "compile_failed"
+  },
+  {
+   "id": "ffb098d23a0a7a4d5fc5",
+   "repository": "archernikov/abel-formalization",
+   "declaration": "weightedSeriesExpansion_summable_norm",
+   "stage": "compile",
+   "firstErrors": "/workspace/out_all/ffb098d23a0a7a4d5fc5.lean:88:35: error(lean.unknownIdentifier): Unknown identifier `symmetricWordsEquivMultiIndex_apply`\n/workspace/out_all/ffb098d23a0a7a4d5fc5.lean:88:4: error: Type mismatch: After simplification, term",
+   "status": "compile_failed"
+  }
+ ]
+}

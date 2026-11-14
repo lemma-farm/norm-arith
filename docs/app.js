@@ -36,6 +36,8 @@
         };
       }),
       source,
+      abridged: raw.abridged || null,
+      abridgedStatus: String(first(raw.abridgedStatus, '')),
       sourceUrl: String(first(raw.sourceUrl, raw.source_url, source.source_url, '')),
       index: index + 1
     };
@@ -137,38 +139,56 @@
     return fragment;
   }
 
-  async function openExample(example) {
-    state.activeExample = example; state.activeRegion = 0; state.sourceLines = 0;
-    $('list-view').hidden = true; $('detail-view').hidden = false;
-    $('detail-index').textContent = `Example ${example.index} of ${state.examples.length}`;
-    $('detail-title').textContent = example.title;
-    $('detail-goal').textContent = example.goal;
-    $('detail-features').textContent = example.features.length ? `Features: ${example.features.join(', ')}` : '';
+  function variantView(example, variant) {
+    const a = example.abridged;
+    if (variant === 'abridged' && a) {
+      const start = Math.max(1, a.interestingStart || a.declarationStart || 1);
+      const end = Math.max(start, a.interestingEnd || a.declarationEnd || start);
+      return { ...example, variant, path: a.path,
+        regions: [{ id: 'abridged-target', label: example.regions.length ? example.regions[primaryRegionIndex(example)].label : 'target', sourceCaseIds: [], original: {}, originalRanges: [], start, end }] };
+    }
+    return { ...example, variant: 'original' };
+  }
+
+  function setToggle(example, variant) {
+    const has = Boolean(example.abridged);
+    $('variant-toggle').hidden = false;
+    $('variant-original').setAttribute('aria-pressed', String(variant === 'original'));
+    $('variant-abridged').setAttribute('aria-pressed', String(variant === 'abridged'));
+    $('variant-abridged').disabled = !has;
+    $('variant-abridged').title = has ? '' : 'No abridged file: the automatic abridging did not produce a file that compiles for this example.';
+    const a = example.abridged;
+    $('variant-note').textContent = has
+      ? `Abridged: local definitions used by the target are inlined and the directly used local theorems become hypotheses. ${a.lines.toLocaleString()} lines in one file, versus ${a.originalClosureLines.toLocaleString()} lines across ${a.originalClosureFiles} local file${a.originalClosureFiles === 1 ? '' : 's'} (this example file plus its local imports).${a.hypotheses.length ? ` Hypotheses: ${a.hypotheses.length}.` : ''}${a.axiomStubs.length ? ` Axiom stubs: ${a.axiomStubs.length}.` : ''} Interesting lines ${a.interestingStart}–${a.interestingEnd} (original file ${example.regions.length ? lineLabel(example.regions[primaryRegionIndex(example)]) : 'n/a'}).`
+      : (example.abridgedStatus ? `No abridged file (${example.abridgedStatus}).` : 'No abridged file.');
+  }
+
+  async function showVariant(example, variant) {
+    const view = variantView(example, variant);
+    state.activeExample = view; state.activeRegion = 0; state.sourceLines = 0;
+    setToggle(example, view.variant);
+    const exportedRanges = view.regions.map((region) => lineLabel(region)).join(', ') || 'not specified';
     const original = example.source;
-    const exportedRanges = example.regions.map((region) => lineLabel(region)).join(', ') || 'not specified';
-    const originalRange = original.start ? ` · original lines ${original.start}${original.end && original.end !== original.start ? `–${original.end}` : ''}` : '';
-    $('detail-file').textContent = `${example.path || 'Source path unavailable'} · interesting file lines ${exportedRanges}${originalRange}`;
+    const originalRange = view.variant === 'original' && original.start ? ` · original lines ${original.start}${original.end && original.end !== original.start ? `–${original.end}` : ''}` : '';
+    $('detail-file').textContent = `${view.path || 'Source path unavailable'} · interesting file lines ${exportedRanges}${originalRange}`;
     const exportLink = $('export-link');
-    exportLink.href = example.path ? `${GH_ROOT}${example.path}` : '#'; exportLink.hidden = !example.path;
-    const originalLink = $('original-link');
-    originalLink.href = example.sourceUrl || '#'; originalLink.hidden = !example.sourceUrl;
-    const origin = [original.repository, original.commit, original.path].filter(Boolean).join(' · ');
-    $('detail-provenance').textContent = origin ? `Original source: ${origin}` : '';
-    renderRegionList(example);
+    exportLink.href = view.path ? `${GH_ROOT}${view.path}` : '#'; exportLink.hidden = !view.path;
+    exportLink.textContent = view.variant === 'abridged' ? 'Open abridged file on GitHub ↗' : 'Open exported file on GitHub ↗';
+    renderRegionList(view);
     $('source-code').replaceChildren(); $('source-wrap').hidden = true;
     $('source-state').hidden = false; $('source-state').textContent = 'Loading complete source file…';
-    window.scrollTo({ top: 0, behavior: 'instant' });
-    if (!example.path) { $('source-state').textContent = 'No exported source path is available for this entry.'; return; }
+    if (!view.path) { $('source-state').textContent = 'No exported source path is available for this entry.'; return; }
     try {
-      const response = await fetch(RAW_ROOT + example.path.split('/').map(encodeURIComponent).join('/'));
+      const response = await fetch(RAW_ROOT + view.path.split('/').map(encodeURIComponent).join('/'));
       if (!response.ok) throw new Error(`Source request returned ${response.status}`);
+      if (state.activeExample !== view) return;
       const sourceText = await response.text();
       const lines = sourceText.split(/\r?\n/);
       if (sourceText.endsWith('\n')) lines.pop();
       state.sourceLines = lines.length;
-      const highlights = example.regions.map(({ start, end }) => [Math.min(start, lines.length), Math.min(Math.max(start, end), lines.length)]);
+      const highlights = view.regions.map(({ start, end }) => [Math.min(start, lines.length), Math.min(Math.max(start, end), lines.length)]);
       const boundaries = new Map();
-      example.regions.forEach((region, index) => {
+      view.regions.forEach((region, index) => {
         for (const [line, edge] of [[region.start, 'starts'], [region.end, 'ends']]) {
           if (!boundaries.has(line)) boundaries.set(line, []);
           boundaries.get(line).push({ index, edge, label: region.label });
@@ -178,23 +198,39 @@
       // Render every line so the printed line numbers, source anchors, and ranges share one coordinate system.
       for (let n = 1; n <= lines.length; n++) {
         const memberships = highlights.map(([start, end], index) => n >= start && n <= end ? index : -1).filter((index) => index >= 0);
-        const row = document.createElement('span'); row.className = 'code-line' + (memberships.length ? ' highlighted' : ''); row.id = `line-${example.id}-${n}`;
+        const row = document.createElement('span'); row.className = 'code-line' + (memberships.length ? ' highlighted' : ''); row.id = `line-${view.id}-${n}`;
         const number = document.createElement('span'); number.className = 'line-number'; number.textContent = n; number.setAttribute('aria-hidden', 'true');
         const text = document.createElement('span'); text.className = 'line-text'; text.append(safeHighlight(lines[n - 1] ?? ''));
         const labels = document.createElement('span'); labels.className = 'region-boundaries';
         memberships.forEach((index) => {
           const marker = document.createElement('span'); marker.className = `region-marker region-color-${index % 8}`;
           const edges = (boundaries.get(n) || []).filter((boundary) => boundary.index === index).map((boundary) => boundary.edge);
-          const edgeLabel = edges.length ? ` ${edges.join('/')}: ${example.regions[index].label}` : '';
+          const edgeLabel = edges.length ? ` ${edges.join('/')}: ${view.regions[index].label}` : '';
           marker.textContent = `R${index + 1}${edgeLabel}`; labels.append(marker);
         });
         row.append(number, labels, text); code.append(row);
       }
       $('source-state').hidden = true; $('source-wrap').hidden = false;
-      chooseRegion(primaryRegionIndex(example), true);
+      chooseRegion(primaryRegionIndex(view), true);
     } catch (error) {
       $('source-state').textContent = `Could not load the source file (${error.message}). Use the source links above to open it on GitHub.`;
     }
+  }
+
+  async function openExample(example) {
+    state.openExample = example;
+    $('list-view').hidden = true; $('detail-view').hidden = false;
+    $('detail-index').textContent = `Example ${example.index} of ${state.examples.length}`;
+    $('detail-title').textContent = example.title;
+    $('detail-goal').textContent = example.goal;
+    $('detail-features').textContent = example.features.length ? `Features: ${example.features.join(', ')}` : '';
+    const original = example.source;
+    const originalLink = $('original-link');
+    originalLink.href = example.sourceUrl || '#'; originalLink.hidden = !example.sourceUrl;
+    const origin = [original.repository, original.commit, original.path].filter(Boolean).join(' · ');
+    $('detail-provenance').textContent = origin ? `Original source: ${origin}` : '';
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    await showVariant(example, 'original');
   }
 
   $('search-form').addEventListener('submit', (event) => event.preventDefault());
@@ -202,6 +238,8 @@
   $('feature-filter').addEventListener('change', (event) => { state.feature = event.target.value; render(); });
   $('previous-region').addEventListener('click', () => chooseRegion(state.activeRegion - 1));
   $('next-region').addEventListener('click', () => chooseRegion(state.activeRegion + 1));
+  $('variant-original').addEventListener('click', () => state.openExample && showVariant(state.openExample, 'original'));
+  $('variant-abridged').addEventListener('click', () => state.openExample && state.openExample.abridged && showVariant(state.openExample, 'abridged'));
   $('back').addEventListener('click', () => { $('detail-view').hidden = true; $('list-view').hidden = false; window.scrollTo({ top: 0, behavior: 'instant' }); });
   fetch('data.json').then((response) => { if (!response.ok) throw new Error(`Manifest request returned ${response.status}`); return response.json(); }).then((data) => {
     const rows = Array.isArray(data) ? data : (data.examples || []);
